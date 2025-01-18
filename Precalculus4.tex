@@ -1,10 +1,7 @@
 \documentclass[11pt]{book}
-\oddsidemargin 0in
-\evensidemargin 0in
+\usepackage[a6paper,top=0in,left=0.1181in,right=0.1181in,bottom=0.1181in]{geometry}
+\usepackage{tabularx}
 \marginparwidth 0in
-\textheight 8in
-\textwidth 6.5in
-\topmargin 0in
 \headheight 14pt
 \usepackage{amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline,mathtools}
 \usepackage{colortbl}
@@ -96,7 +93,8 @@
 
 \title{\Huge Precalculus  \\ \vspace{.1in} \large Version $4 - \epsilon$  \\ \vspace{.25in} \large by}
 
-\author{ \begin{tabular}{cc} Carl Stitz, Ph.D. &  Jeff Zeager, Ph.D. \\ Lakeland Community College & Lorain County Community College \\   \end{tabular}}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\author{ \begin{tabularx}{0.953\linewidth}{YY} Carl Stitz, Ph.D. &  Jeff Zeager, Ph.D. \\ Lakeland Community College & Lorain County Community College \\\end{tabularx}}
 
 
 \maketitle
