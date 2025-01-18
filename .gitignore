@@ -4,3 +4,9 @@
 *.log
 *.pdf
 *.toc
+*.synctex.gz
+*.ind
+*.ilg
+*.fls
+Precalculus4.fdb_latexmk
+*.blg
