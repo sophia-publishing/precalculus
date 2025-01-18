@@ -10,3 +10,4 @@
 *.fls
 Precalculus4.fdb_latexmk
 *.blg
+*.out
