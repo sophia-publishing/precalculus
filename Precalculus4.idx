@@ -1,0 +1,1053 @@
+\indexentry{function ! definition|hyperpage}{1}
+\indexentry{diagram ! mapping|hyperpage}{2}
+\indexentry{domain ! definition|hyperpage}{2}
+\indexentry{range ! definition|hyperpage}{2}
+\indexentry{codomain ! definition|hyperpage}{3}
+\indexentry{variable ! independent|hyperpage}{4}
+\indexentry{variable ! dependent|hyperpage}{4}
+\indexentry{optimization|hyperpage}{6}
+\indexentry{function ! optimization|hyperpage}{6}
+\indexentry{minimum ! formal definition of|hyperpage}{6}
+\indexentry{maximum ! formal definition of|hyperpage}{6}
+\indexentry{function ! (absolute) maximum|hyperpage}{6}
+\indexentry{maximum ! intuitive definition of|hyperpage}{6}
+\indexentry{function ! (absolute, global) minimum|hyperpage}{6}
+\indexentry{minimum ! intuitive definition of|hyperpage}{6}
+\indexentry{discrete|hyperpage}{11}
+\indexentry{continuous|hyperpage}{11}
+\indexentry{projection ! to an axis|hyperpage}{13}
+\indexentry{function ! constant|hyperpage}{40}
+\indexentry{constant function ! as a horizontal line|hyperpage}{40}
+\indexentry{parameter ! of a function|hyperpage}{40}
+\indexentry{function ! piecewise-defined|hyperpage}{41}
+\indexentry{integer ! greatest integer function|hyperpage}{42}
+\indexentry{greatest integer function|hyperpage}{42}
+\indexentry{function ! linear|hyperpage}{43}
+\indexentry{line ! linear function|hyperpage}{43}
+\indexentry{linear function|hyperpage}{43}
+\indexentry{linear function ! slope-intercept|hyperpage}{43}
+\indexentry{intercept ! $y$-intercept|hyperpage}{44}
+\indexentry{zeros|hyperpage}{44}
+\indexentry{intercept ! $x$-intercept|hyperpage}{44}
+\indexentry{cost ! fixed|hyperpage}{46}
+\indexentry{cost ! start-up|hyperpage}{46}
+\indexentry{cost ! variable|hyperpage}{46}
+\indexentry{variable cost|hyperpage}{46}
+\indexentry{linear function ! point-slope form|hyperpage}{47}
+\indexentry{point-slope form ! of a linear function|hyperpage}{47}
+\indexentry{cost ! marginal|hyperpage}{47}
+\indexentry{marginal cost|hyperpage}{47}
+\indexentry{price-demand function|hyperpage}{49}
+\indexentry{function ! price-demand|hyperpage}{49}
+\indexentry{regression ! total squared error|hyperpage}{52}
+\indexentry{total squared error|hyperpage}{52}
+\indexentry{regression ! least squares line|hyperpage}{52}
+\indexentry{least squares regression line|hyperpage}{52}
+\indexentry{line ! least squares regression|hyperpage}{52}
+\indexentry{line ! of best fit|hyperpage}{52}
+\indexentry{regression ! correlation coefficient|hyperpage}{53}
+\indexentry{correlation coefficient|hyperpage}{53}
+\indexentry{regression ! coefficient of determination|hyperpage}{53}
+\indexentry{coefficient of determination|hyperpage}{53}
+\indexentry{average rate of change|hyperpage}{56}
+\indexentry{rate of change ! average|hyperpage}{56}
+\indexentry{average velocity|hyperpage}{57}
+\indexentry{velocity ! average|hyperpage}{57}
+\indexentry{unit step function|hyperpage}{59}
+\indexentry{function ! identity|hyperpage}{63}
+\indexentry{absolute value ! definition of|hyperpage}{74}
+\indexentry{function ! absolute value|hyperpage}{74}
+\indexentry{vertex|hyperpage}{75}
+\indexentry{vertex ! absolute value function|hyperpage}{75}
+\indexentry{axis of symmetry ! of an absolute value function|hyperpage}{79}
+\indexentry{inequality ! graphical interpretation|hyperpage}{85}
+\indexentry{function ! quadratic|hyperpage}{98}
+\indexentry{quadratic function ! definition of|hyperpage}{98}
+\indexentry{parabola ! graph of a quadratic function|hyperpage}{98}
+\indexentry{parabola ! vertex|hyperpage}{98}
+\indexentry{vertex ! of a parabola|hyperpage}{98}
+\indexentry{axis of symmetry ! quadratic function|hyperpage}{99}
+\indexentry{quadratic function ! general form|hyperpage}{101}
+\indexentry{quadratic function ! standard form|hyperpage}{101}
+\indexentry{completing the square|hyperpage}{102}
+\indexentry{parabola ! vertex formulas|hyperpage}{104}
+\indexentry{quadratic formula|hyperpage}{105}
+\indexentry{discriminant|hyperpage}{105}
+\indexentry{discriminant|hyperpage}{105}
+\indexentry{revenue|hyperpage}{106}
+\indexentry{profit|hyperpage}{106}
+\indexentry{objective function|hyperpage}{110}
+\indexentry{optimization ! objective function|hyperpage}{110}
+\indexentry{constraint|hyperpage}{110}
+\indexentry{optimization ! constraint|hyperpage}{110}
+\indexentry{inequality ! sign diagram|hyperpage}{112}
+\indexentry{sign diagram ! for quadratic inequality|hyperpage}{112}
+\indexentry{function ! continuous|hyperpage}{112}
+\indexentry{continuous|hyperpage}{112}
+\indexentry{sign diagram ! creating |hyperpage}{113}
+\indexentry{inequality ! solution using sign diagram |hyperpage}{113}
+\indexentry{function ! monomial|hyperpage}{129}
+\indexentry{monomial function ! definition of|hyperpage}{129}
+\indexentry{function ! even|hyperpage}{130}
+\indexentry{even function|hyperpage}{130}
+\indexentry{function ! odd|hyperpage}{131}
+\indexentry{odd function|hyperpage}{131}
+\indexentry{polynomial function ! end behavior|hyperpage}{135}
+\indexentry{end behavior ! of a function graph|hyperpage}{135}
+\indexentry{end behavior ! of monomial functions|hyperpage}{136}
+\indexentry{function ! polynomial|hyperpage}{137}
+\indexentry{polynomial function ! definition of|hyperpage}{137}
+\indexentry{polynomial function ! degree|hyperpage}{137}
+\indexentry{degree of a polynomial|hyperpage}{137}
+\indexentry{polynomial function ! leading term|hyperpage}{137}
+\indexentry{leading term of a polynomial|hyperpage}{137}
+\indexentry{polynomial function ! leading coefficient|hyperpage}{137}
+\indexentry{leading coefficient of a polynomial|hyperpage}{137}
+\indexentry{polynomial function ! constant term|hyperpage}{137}
+\indexentry{constant term of a polynomial|hyperpage}{137}
+\indexentry{end behavior ! polynomial|hyperpage}{140}
+\indexentry{continuous|hyperpage}{140}
+\indexentry{function ! continuous|hyperpage}{140}
+\indexentry{smooth|hyperpage}{140}
+\indexentry{function ! smooth|hyperpage}{140}
+\indexentry{polynomial function ! zero ! multiplicity|hyperpage}{142}
+\indexentry{multiplicity ! of a zero|hyperpage}{142}
+\indexentry{zero ! multiplicity of|hyperpage}{142}
+\indexentry{multiplicity ! effect on the graph of a polynomial|hyperpage}{143}
+\indexentry{local minimum ! formal definition of|hyperpage}{145}
+\indexentry{local maximum ! formal definition of|hyperpage}{145}
+\indexentry{local extrema ! formal definition of|hyperpage}{145}
+\indexentry{polynomial division ! dividend|hyperpage}{164}
+\indexentry{polynomial division ! divisor|hyperpage}{164}
+\indexentry{polynomial division ! quotient|hyperpage}{164}
+\indexentry{polynomial division ! remainder|hyperpage}{164}
+\indexentry{polynomial division ! factor|hyperpage}{164}
+\indexentry{Remainder Theorem|hyperpage}{164}
+\indexentry{Factor Theorem|hyperpage}{164}
+\indexentry{polynomial division ! synthetic division|hyperpage}{166}
+\indexentry{synthetic division tableau|hyperpage}{166}
+\indexentry{Cauchy's Bound|hyperpage}{176}
+\indexentry{Rational Zeros Theorem|hyperpage}{176}
+\indexentry{$u$-substitution|hyperpage}{180}
+\indexentry{Descartes' Rule of Signs|hyperpage}{180}
+\indexentry{polynomial function ! variations in sign|hyperpage}{180}
+\indexentry{variations in sign|hyperpage}{180}
+\indexentry{Upper and Lower Bounds Theorem|hyperpage}{181}
+\indexentry{polynomial function ! zero ! upper bound|hyperpage}{181}
+\indexentry{polynomial function ! zero ! lower bound|hyperpage}{181}
+\indexentry{zero ! upper and lower bounds|hyperpage}{181}
+\indexentry{Intermediate Value Theorem ! polynomial zero version|hyperpage}{183}
+\indexentry{sign diagram ! polynomial function|hyperpage}{183}
+\indexentry{inequality ! solution using sign diagram |hyperpage}{184}
+\indexentry{Bisection Method|hyperpage}{187}
+\indexentry{Fundamental Theorem of Algebra|hyperpage}{198}
+\indexentry{Complex Factorization Theorem|hyperpage}{199}
+\indexentry{polynomial function ! completely factored ! over the complex numbers|hyperpage}{200}
+\indexentry{polynomial function ! completely factored ! over the real numbers|hyperpage}{200}
+\indexentry{quadratic function ! irreducible quadratic|hyperpage}{200}
+\indexentry{irreducible quadratic|hyperpage}{200}
+\indexentry{Conjugate Pairs Theorem|hyperpage}{200}
+\indexentry{Real Factorization Theorem|hyperpage}{200}
+\indexentry{modulus ! of a complex number|hyperpage}{206}
+\indexentry{rational function|hyperpage}{211}
+\indexentry{function ! rational|hyperpage}{211}
+\indexentry{monomial function ! Laurent|hyperpage}{211}
+\indexentry{function ! monomial ! Laurent|hyperpage}{211}
+\indexentry{asymptote ! vertical ! intuitive definition of|hyperpage}{212}
+\indexentry{vertical asymptote ! intuitive definition of|hyperpage}{212}
+\indexentry{asymptote ! horizontal ! intuitive definition of|hyperpage}{212}
+\indexentry{horizontal asymptote ! intuitive definition of|hyperpage}{212}
+\indexentry{asymptote ! vertical ! formal definition of|hyperpage}{213}
+\indexentry{vertical asymptote ! formal definition of|hyperpage}{213}
+\indexentry{asymptote ! horizontal ! formal definition of|hyperpage}{213}
+\indexentry{horizontal asymptote ! formal definition of|hyperpage}{213}
+\indexentry{position function|hyperpage}{220}
+\indexentry{function ! position|hyperpage}{220}
+\indexentry{average velocity|hyperpage}{220}
+\indexentry{velocity ! average|hyperpage}{220}
+\indexentry{velocity ! instantaneous|hyperpage}{221}
+\indexentry{instantaneous velocity|hyperpage}{221}
+\indexentry{hole ! location of|hyperpage}{222}
+\indexentry{asymptote ! vertical ! location of|hyperpage}{222}
+\indexentry{vertical asymptote ! location of|hyperpage}{222}
+\indexentry{asymptote ! horizontal ! location of|hyperpage}{225}
+\indexentry{horizontal asymptote ! location of|hyperpage}{225}
+\indexentry{asymptote ! slant (oblique)|hyperpage}{228}
+\indexentry{slant asymptote|hyperpage}{228}
+\indexentry{oblique asymptote|hyperpage}{228}
+\indexentry{asymptote ! slant ! formal definition of|hyperpage}{228}
+\indexentry{slant asymptote ! formal definition of|hyperpage}{228}
+\indexentry{asymptote ! slant ! determination of|hyperpage}{229}
+\indexentry{slant asymptote ! determination of|hyperpage}{229}
+\indexentry{average cost|hyperpage}{231}
+\indexentry{cost ! average|hyperpage}{231}
+\indexentry{average profit|hyperpage}{231}
+\indexentry{profit ! average|hyperpage}{231}
+\indexentry{Learning Curve Equation|hyperpage}{237}
+\indexentry{Thurstone, Louis Leon|hyperpage}{237}
+\indexentry{sign diagram ! rational function|hyperpage}{245}
+\indexentry{interrobang|hyperpage}{245}
+\indexentry{graph ! rational function|hyperpage}{246}
+\indexentry{$n$th root function|hyperpage}{279}
+\indexentry{function, $n$th root|hyperpage}{279}
+\indexentry{power function|hyperpage}{299}
+\indexentry{function! power|hyperpage}{299}
+\indexentry{rational number exponent|hyperpage}{299}
+\indexentry{exponent, rational number|hyperpage}{299}
+\indexentry{concavity|hyperpage}{301}
+\indexentry{concave up|hyperpage}{301}
+\indexentry{concavity ! concave up|hyperpage}{301}
+\indexentry{concave down|hyperpage}{301}
+\indexentry{concavity ! concave down|hyperpage}{301}
+\indexentry{Lorenz Curve|hyperpage}{309}
+\indexentry{sign diagram ! algebraic function|hyperpage}{324}
+\indexentry{function ! arithmetic|hyperpage}{346}
+\indexentry{function ! sum|hyperpage}{346}
+\indexentry{function ! difference|hyperpage}{346}
+\indexentry{function ! product|hyperpage}{346}
+\indexentry{function ! quotient|hyperpage}{346}
+\indexentry{positive part of a function|hyperpage}{363}
+\indexentry{negative part of a function|hyperpage}{363}
+\indexentry{function ! composite ! definition of|hyperpage}{369}
+\indexentry{composite function ! definition of|hyperpage}{369}
+\indexentry{associative property ! for function composition|hyperpage}{375}
+\indexentry{function ! composite ! properties of|hyperpage}{375}
+\indexentry{composite function ! properties of|hyperpage}{375}
+\indexentry{identity ! function|hyperpage}{376}
+\indexentry{graph ! vertical shift|hyperpage}{389}
+\indexentry{graph ! horizontal shift|hyperpage}{390}
+\indexentry{graph ! reflection about an axis|hyperpage}{395}
+\indexentry{reflection ! of a function graph|hyperpage}{395}
+\indexentry{transformation ! rigid|hyperpage}{404}
+\indexentry{transformation ! non-rigid|hyperpage}{404}
+\indexentry{graph ! vertical scaling|hyperpage}{405}
+\indexentry{graph ! horizontal scaling|hyperpage}{407}
+\indexentry{transformations of function graphs|hyperpage}{415}
+\indexentry{function ! transformation of graphs|hyperpage}{415}
+\indexentry{graph ! transformations|hyperpage}{415}
+\indexentry{relation! definition|hyperpage}{433}
+\indexentry{symmetry ! testing an equation for|hyperpage}{439}
+\indexentry{function ! inverse ! definition of|hyperpage}{455}
+\indexentry{inverse ! of a function ! definition of|hyperpage}{455}
+\indexentry{invertible ! function|hyperpage}{455}
+\indexentry{inverse ! of a function ! properties of|hyperpage}{455}
+\indexentry{function ! inverse ! properties of|hyperpage}{455}
+\indexentry{one-to-one function|hyperpage}{459}
+\indexentry{function ! one-to-one|hyperpage}{459}
+\indexentry{function ! one-to-one|hyperpage}{459}
+\indexentry{invertibility ! function|hyperpage}{460}
+\indexentry{inverse ! of a function ! solving for|hyperpage}{465}
+\indexentry{function ! inverse ! solving for|hyperpage}{465}
+\indexentry{function ! exponential|hyperpage}{478}
+\indexentry{exponential function ! definition of|hyperpage}{478}
+\indexentry{exponential function ! graphical properties of|hyperpage}{479}
+\indexentry{exponential function ! algebraic properties of|hyperpage}{479}
+\indexentry{product rule ! for exponential functions|hyperpage}{479}
+\indexentry{quotient rule ! for exponential functions|hyperpage}{479}
+\indexentry{power rule ! for exponential functions|hyperpage}{479}
+\indexentry{exponential function ! common base|hyperpage}{479}
+\indexentry{common base|hyperpage}{479}
+\indexentry{natural base|hyperpage}{480}
+\indexentry{exponential function ! natural base|hyperpage}{480}
+\indexentry{depreciation|hyperpage}{483}
+\indexentry{exponential function ! point-base form|hyperpage}{487}
+\indexentry{point-base form ! of an exponential function|hyperpage}{487}
+\indexentry{relative rate of change|hyperpage}{487}
+\indexentry{rate of change ! relative|hyperpage}{487}
+\indexentry{Newton's Law of Cooling|hyperpage}{488}
+\indexentry{function ! logarithmic|hyperpage}{496}
+\indexentry{logarithm ! general, ``base $b$''|hyperpage}{496}
+\indexentry{logarithm ! common|hyperpage}{496}
+\indexentry{logarithm ! natural|hyperpage}{496}
+\indexentry{common logarithm|hyperpage}{496}
+\indexentry{natural logarithm|hyperpage}{496}
+\indexentry{logarithm ! graphical properties of|hyperpage}{497}
+\indexentry{argument ! of a logarithm|hyperpage}{501}
+\indexentry{logarithmic scales|hyperpage}{508}
+\indexentry{Richter Scale|hyperpage}{508}
+\indexentry{earthquake ! Richter Scale|hyperpage}{508}
+\indexentry{decibel|hyperpage}{509}
+\indexentry{sound intensity level ! decibel|hyperpage}{509}
+\indexentry{pH|hyperpage}{509}
+\indexentry{acidity of a solution ! pH|hyperpage}{509}
+\indexentry{alkalinity of a solution ! pH|hyperpage}{509}
+\indexentry{exponential function ! inverse properties of|hyperpage}{515}
+\indexentry{logarithm ! inverse properties of|hyperpage}{515}
+\indexentry{exponential function ! one-to-one properties of|hyperpage}{515}
+\indexentry{logarithm ! one-to-one properties of|hyperpage}{515}
+\indexentry{exponential function ! algebraic properties of|hyperpage}{515}
+\indexentry{product rule ! for exponential functions|hyperpage}{515}
+\indexentry{quotient rule ! for exponential functions|hyperpage}{515}
+\indexentry{power rule ! for exponential functions|hyperpage}{515}
+\indexentry{logarithm ! algebraic properties of|hyperpage}{516}
+\indexentry{product rule ! for logarithms|hyperpage}{516}
+\indexentry{quotient rule ! for logarithms|hyperpage}{516}
+\indexentry{power rule ! for logarithms|hyperpage}{516}
+\indexentry{change of base formulas|hyperpage}{520}
+\indexentry{exponential function ! change of base formula|hyperpage}{520}
+\indexentry{logarithm ! change of base formula|hyperpage}{520}
+\indexentry{Henderson-Hasselbalch Equation|hyperpage}{524}
+\indexentry{exponential function ! solving equations with|hyperpage}{527}
+\indexentry{logarithm ! solving equations with|hyperpage}{540}
+\indexentry{interest ! simple|hyperpage}{551}
+\indexentry{simple interest|hyperpage}{551}
+\indexentry{principal|hyperpage}{551}
+\indexentry{interest ! compound|hyperpage}{552}
+\indexentry{compound interest|hyperpage}{552}
+\indexentry{interest ! compounded continuously|hyperpage}{555}
+\indexentry{continuously compounded interest|hyperpage}{555}
+\indexentry{instantaneous rate of change|hyperpage}{555}
+\indexentry{rate of change ! instantaneous|hyperpage}{555}
+\indexentry{growth model ! uninhibited|hyperpage}{555}
+\indexentry{uninhibited growth|hyperpage}{555}
+\indexentry{radioactive decay|hyperpage}{556}
+\indexentry{Newton's Law of Cooling|hyperpage}{557}
+\indexentry{growth model ! limited|hyperpage}{558}
+\indexentry{growth model ! logistic|hyperpage}{558}
+\indexentry{logistic growth|hyperpage}{558}
+\indexentry{inflection point|hyperpage}{560}
+\indexentry{point of diminishing returns|hyperpage}{560}
+\indexentry{password strength|hyperpage}{561}
+\indexentry{information entropy|hyperpage}{561}
+\indexentry{buffer solution|hyperpage}{561}
+\indexentry{conic sections ! definition|hyperpage}{579}
+\indexentry{circle ! from slicing a cone|hyperpage}{579}
+\indexentry{ellipse ! from slicing a cone|hyperpage}{580}
+\indexentry{parabola ! from slicing a cone|hyperpage}{580}
+\indexentry{hyperbola ! from slicing a cone|hyperpage}{580}
+\indexentry{parabola ! definition of|hyperpage}{582}
+\indexentry{parabola ! focus|hyperpage}{582}
+\indexentry{focus (foci) ! of a parabola|hyperpage}{582}
+\indexentry{parabola ! directrix|hyperpage}{582}
+\indexentry{directrix ! of a parabola|hyperpage}{582}
+\indexentry{parabola ! vertex|hyperpage}{582}
+\indexentry{vertex ! of a parabola|hyperpage}{582}
+\indexentry{parabola ! focal length|hyperpage}{583}
+\indexentry{focal length of a parabola|hyperpage}{583}
+\indexentry{parabola ! standard equation ! vertical|hyperpage}{583}
+\indexentry{parabola ! latus rectum|hyperpage}{583}
+\indexentry{latus rectum of a parabola|hyperpage}{583}
+\indexentry{parabola ! focal diameter|hyperpage}{584}
+\indexentry{focal diameter of a parabola|hyperpage}{584}
+\indexentry{parabola ! standard equation ! horizontal|hyperpage}{585}
+\indexentry{parabola ! reflective property|hyperpage}{589}
+\indexentry{paraboloid|hyperpage}{589}
+\indexentry{circle ! radius of|hyperpage}{597}
+\indexentry{circle ! center of|hyperpage}{597}
+\indexentry{center ! of a circle|hyperpage}{597}
+\indexentry{radius ! of a circle|hyperpage}{597}
+\indexentry{circle ! definition of|hyperpage}{597}
+\indexentry{circle ! standard equation|hyperpage}{597}
+\indexentry{Unit Circle ! definition of|hyperpage}{600}
+\indexentry{circle ! standard equation, alternate|hyperpage}{601}
+\indexentry{ellipse ! definition of|hyperpage}{607}
+\indexentry{ellipse ! foci|hyperpage}{607}
+\indexentry{focus (foci) ! of an ellipse|hyperpage}{607}
+\indexentry{ellipse ! center|hyperpage}{608}
+\indexentry{center ! of an ellipse|hyperpage}{608}
+\indexentry{ellipse ! major axis|hyperpage}{608}
+\indexentry{major axis of an ellipse|hyperpage}{608}
+\indexentry{ellipse ! minor axis|hyperpage}{608}
+\indexentry{minor axis of an ellipse|hyperpage}{608}
+\indexentry{ellipse ! vertices|hyperpage}{608}
+\indexentry{vertex ! of an ellipse|hyperpage}{608}
+\indexentry{ellipse ! standard equation|hyperpage}{610}
+\indexentry{ellipse ! guide rectangle|hyperpage}{611}
+\indexentry{guide rectangle ! for an ellipse|hyperpage}{611}
+\indexentry{ellipse ! eccentricity|hyperpage}{615}
+\indexentry{eccentricity|hyperpage}{615}
+\indexentry{ellipse ! reflective property|hyperpage}{616}
+\indexentry{hyperbola ! definition of|hyperpage}{627}
+\indexentry{hyperbola ! foci|hyperpage}{627}
+\indexentry{focus (foci) ! of a hyperbola|hyperpage}{627}
+\indexentry{hyperbola ! branch|hyperpage}{627}
+\indexentry{hyperbola ! center|hyperpage}{627}
+\indexentry{center ! of a hyperbola|hyperpage}{627}
+\indexentry{hyperbola ! transverse axis|hyperpage}{627}
+\indexentry{transverse axis of a hyperbola|hyperpage}{627}
+\indexentry{hyperbola ! vertices|hyperpage}{627}
+\indexentry{vertex ! of a hyperbola|hyperpage}{627}
+\indexentry{hyperbola ! asymptotes|hyperpage}{627}
+\indexentry{asymptote ! of a hyperbola|hyperpage}{627}
+\indexentry{hyperbola ! conjugate axis|hyperpage}{628}
+\indexentry{conjugate axis of a hyperbola|hyperpage}{628}
+\indexentry{hyperbola ! guide rectangle|hyperpage}{628}
+\indexentry{guide rectangle ! for a hyperbola|hyperpage}{628}
+\indexentry{hyperbola ! standard equation ! horizontal|hyperpage}{630}
+\indexentry{hyperbola ! standard equation ! vertical|hyperpage}{630}
+\indexentry{LORAN|hyperpage}{636}
+\indexentry{hyperboloid|hyperpage}{641}
+\indexentry{system of equations ! definition|hyperpage}{649}
+\indexentry{equation ! linear of $n$ variables|hyperpage}{649}
+\indexentry{linear equation ! $n$ variables|hyperpage}{649}
+\indexentry{system of equations ! linear ! $n$ variables|hyperpage}{650}
+\indexentry{system of equations ! leading variable|hyperpage}{651}
+\indexentry{system of equations ! triangular form|hyperpage}{651}
+\indexentry{triangular form|hyperpage}{651}
+\indexentry{system of equations ! Gaussian Elimination|hyperpage}{652}
+\indexentry{Gaussian Elimination|hyperpage}{652}
+\indexentry{system of equations ! back-substitution|hyperpage}{655}
+\indexentry{back substitution|hyperpage}{655}
+\indexentry{matrix ! definition|hyperpage}{661}
+\indexentry{matrix ! size|hyperpage}{661}
+\indexentry{matrix ! dimension|hyperpage}{661}
+\indexentry{dimension ! of a matrix|hyperpage}{661}
+\indexentry{matrix ! entry|hyperpage}{661}
+\indexentry{entry ! in a matrix|hyperpage}{661}
+\indexentry{matrix ! augmented|hyperpage}{661}
+\indexentry{augmented matrix|hyperpage}{661}
+\indexentry{matrix ! row operations|hyperpage}{662}
+\indexentry{row operations for a matrix|hyperpage}{662}
+\indexentry{matrix ! row echelon form|hyperpage}{663}
+\indexentry{row echelon form|hyperpage}{663}
+\indexentry{matrix ! leading entry|hyperpage}{663}
+\indexentry{matrix ! reduced row echelon form|hyperpage}{664}
+\indexentry{reduced row echelon form|hyperpage}{664}
+\indexentry{system of equations ! Gauss-Jordan Elimination|hyperpage}{665}
+\indexentry{Gauss-Jordan Elimination|hyperpage}{665}
+\indexentry{matrix ! equality|hyperpage}{673}
+\indexentry{matrix ! addition ! definition of|hyperpage}{673}
+\indexentry{matrix ! sum|hyperpage}{673}
+\indexentry{matrix ! addition ! commutative property|hyperpage}{674}
+\indexentry{commutative property ! matrix ! addition|hyperpage}{674}
+\indexentry{matrix ! addition ! associative property|hyperpage}{674}
+\indexentry{associative property ! matrix ! addition|hyperpage}{674}
+\indexentry{matrix ! addition ! properties of|hyperpage}{674}
+\indexentry{matrix ! additive identity|hyperpage}{674}
+\indexentry{identity ! matrix, additive|hyperpage}{674}
+\indexentry{matrix ! additive inverse|hyperpage}{674}
+\indexentry{scalar multiplication ! matrix ! definition of|hyperpage}{675}
+\indexentry{matrix ! scalar multiplication ! definition of|hyperpage}{675}
+\indexentry{matrix ! scalar multiplication ! properties of|hyperpage}{676}
+\indexentry{scalar multiplication ! matrix ! properties of|hyperpage}{676}
+\indexentry{matrix ! scalar multiplication ! associative property of|hyperpage}{676}
+\indexentry{associative property ! matrix ! scalar multiplication|hyperpage}{676}
+\indexentry{scalar multiplication ! matrix ! associative property of|hyperpage}{676}
+\indexentry{matrix ! scalar multiplication ! identity for|hyperpage}{676}
+\indexentry{inverse ! matrix, additive|hyperpage}{676}
+\indexentry{inverse ! matrix, additive|hyperpage}{676}
+\indexentry{matrix ! scalar multiplication ! distributive properties|hyperpage}{676}
+\indexentry{distributive property ! matrix ! scalar multiplication|hyperpage}{676}
+\indexentry{scalar multiplication ! matrix ! distributive properties of|hyperpage}{676}
+\indexentry{matrix ! scalar multiplication ! zero product property|hyperpage}{676}
+\indexentry{matrix ! product of row and column|hyperpage}{679}
+\indexentry{matrix ! matrix multiplication ! definition of|hyperpage}{679}
+\indexentry{matrix ! matrix multiplication ! properties of|hyperpage}{680}
+\indexentry{matrix ! matrix multiplication ! associative property of|hyperpage}{680}
+\indexentry{associative property ! matrix ! matrix multiplication|hyperpage}{680}
+\indexentry{matrix ! matrix multiplication ! identity for|hyperpage}{680}
+\indexentry{identity ! matrix, multiplicative|hyperpage}{680}
+\indexentry{matrix ! matrix multiplication ! distributive property|hyperpage}{680}
+\indexentry{distributive property ! matrix ! matrix multiplication|hyperpage}{680}
+\indexentry{matrix ! main diagonal|hyperpage}{680}
+\indexentry{main diagonal|hyperpage}{680}
+\indexentry{matrix ! square matrix|hyperpage}{680}
+\indexentry{square matrix|hyperpage}{680}
+\indexentry{system of equations ! coefficient matrix|hyperpage}{684}
+\indexentry{system of equations ! unknowns matrix|hyperpage}{684}
+\indexentry{system of equations ! constant matrix|hyperpage}{684}
+\indexentry{stochastic process|hyperpage}{686}
+\indexentry{Markov Chain|hyperpage}{686}
+\indexentry{steady state|hyperpage}{686}
+\indexentry{upper triangular matrix|hyperpage}{687}
+\indexentry{matrix ! upper triangular|hyperpage}{687}
+\indexentry{lower triangular matrix|hyperpage}{687}
+\indexentry{matrix ! lower triangular|hyperpage}{687}
+\indexentry{matrix ! invertible|hyperpage}{696}
+\indexentry{matrix ! multiplicative inverse|hyperpage}{696}
+\indexentry{invertible ! matrix|hyperpage}{696}
+\indexentry{inverse ! matrix, multiplicative|hyperpage}{696}
+\indexentry{Ohm's Law|hyperpage}{698}
+\indexentry{Kirchhoff's Voltage Law|hyperpage}{698}
+\indexentry{matrix ! determinant ! definition of|hyperpage}{706}
+\indexentry{determinant of a matrix ! definition of|hyperpage}{706}
+\indexentry{matrix ! minor|hyperpage}{708}
+\indexentry{minor|hyperpage}{708}
+\indexentry{matrix ! cofactor|hyperpage}{708}
+\indexentry{cofactor|hyperpage}{708}
+\indexentry{determinant of a matrix ! properties of|hyperpage}{708}
+\indexentry{matrix ! determinant ! properties of|hyperpage}{708}
+\indexentry{Cramer's Rule|hyperpage}{711}
+\indexentry{matrix ! adjoint|hyperpage}{714}
+\indexentry{adjoint of a matrix|hyperpage}{714}
+\indexentry{characteristic polynomial|hyperpage}{718}
+\indexentry{matrix ! characteristic polynomial|hyperpage}{718}
+\indexentry{eigenvalue|hyperpage}{718}
+\indexentry{eigenvector|hyperpage}{718}
+\indexentry{partial fractions|hyperpage}{720}
+\indexentry{system of equations ! non-linear|hyperpage}{729}
+\indexentry{system of equations ! linear in form|hyperpage}{738}
+\indexentry{Ohm's Law|hyperpage}{749}
+\indexentry{Kirchhoff's Voltage Law|hyperpage}{749}
+\indexentry{ellipsis (\ldots)|hyperpage}{755}
+\indexentry{sequence ! definition of|hyperpage}{755}
+\indexentry{sequence ! $n^{\textrm  {th}}$ term|hyperpage}{755}
+\indexentry{sequence ! alternating|hyperpage}{756}
+\indexentry{sequence ! recursive|hyperpage}{757}
+\indexentry{recursion equation|hyperpage}{757}
+\indexentry{factorial|hyperpage}{757}
+\indexentry{sequence ! arithmetic ! definition of|hyperpage}{758}
+\indexentry{arithmetic sequence|hyperpage}{758}
+\indexentry{sequence ! arithmetic ! common difference|hyperpage}{758}
+\indexentry{sequence ! geometric ! definition of|hyperpage}{758}
+\indexentry{geometric sequence|hyperpage}{758}
+\indexentry{sequence ! geometric ! common ratio|hyperpage}{758}
+\indexentry{sequence ! arithmetic ! formula for $n^{\textrm  {th}}$ term|hyperpage}{759}
+\indexentry{sequence ! geometric ! formula for $n^{\textrm  {th}}$ term|hyperpage}{759}
+\indexentry{summation notation ! definition of|hyperpage}{766}
+\indexentry{summation notation ! index of summation|hyperpage}{766}
+\indexentry{summation notation ! lower limit of summation|hyperpage}{766}
+\indexentry{summation notation ! upper limit of summation|hyperpage}{766}
+\indexentry{summation notation ! properties of|hyperpage}{769}
+\indexentry{sequence ! arithmetic ! sum of first $n$ terms|hyperpage}{772}
+\indexentry{sequence ! geometric ! sum of first $n$ terms|hyperpage}{772}
+\indexentry{annuity ! ordinary ! definition of|hyperpage}{773}
+\indexentry{annuity ! ordinary ! future value|hyperpage}{774}
+\indexentry{annuity ! annuity-due|hyperpage}{774}
+\indexentry{series|hyperpage}{775}
+\indexentry{geometric series|hyperpage}{776}
+\indexentry{Principle of Mathematical Induction|hyperpage}{785}
+\indexentry{induction ! base step|hyperpage}{785}
+\indexentry{induction ! inductive step|hyperpage}{785}
+\indexentry{induction ! induction hypothesis|hyperpage}{786}
+\indexentry{factorial|hyperpage}{794}
+\indexentry{binomial coefficient|hyperpage}{796}
+\indexentry{Binomial Theorem|hyperpage}{797}
+\indexentry{binomial distribution|hyperpage}{801}
+\indexentry{Binomial Theorem|hyperpage}{802}
+\indexentry{Pascal's Triangle|hyperpage}{803}
+\indexentry{angle ! radian measure|hyperpage}{807}
+\indexentry{radian measure|hyperpage}{807}
+\indexentry{pi, $\pi $|hyperpage}{807}
+\indexentry{angle ! central angle|hyperpage}{807}
+\indexentry{central angle|hyperpage}{807}
+\indexentry{wrapping function|hyperpage}{811}
+\indexentry{oriented arc|hyperpage}{811}
+\indexentry{average velocity|hyperpage}{813}
+\indexentry{velocity ! average angular|hyperpage}{813}
+\indexentry{average angular velocity|hyperpage}{813}
+\indexentry{velocity ! instantaneous|hyperpage}{813}
+\indexentry{velocity ! instantaneous angular|hyperpage}{813}
+\indexentry{frequency ! ordinary|hyperpage}{814}
+\indexentry{ordinary frequency|hyperpage}{814}
+\indexentry{frequency ! angular|hyperpage}{814}
+\indexentry{angular frequency|hyperpage}{814}
+\indexentry{period ! circular motion|hyperpage}{814}
+\indexentry{cosine ! of an angle|hyperpage}{822}
+\indexentry{sine ! of an angle|hyperpage}{822}
+\indexentry{circular functions|hyperpage}{822}
+\indexentry{functions ! circular|hyperpage}{822}
+\indexentry{angle ! reference|hyperpage}{825}
+\indexentry{reference angle|hyperpage}{825}
+\indexentry{Reference Angle Theorem ! for sine and cosine|hyperpage}{826}
+\indexentry{Unit Circle ! important points|hyperpage}{828}
+\indexentry{cosine ! of an angle|hyperpage}{836}
+\indexentry{sine ! of an angle|hyperpage}{836}
+\indexentry{wave ! sine|hyperpage}{846}
+\indexentry{sine wave|hyperpage}{846}
+\indexentry{sinusoid|hyperpage}{846}
+\indexentry{function ! periodic|hyperpage}{846}
+\indexentry{periodic function|hyperpage}{846}
+\indexentry{period ! of a function|hyperpage}{846}
+\indexentry{cycle ! of $\sin(t)$ and $\cos(t)$|hyperpage}{846}
+\indexentry{bounded|hyperpage}{847}
+\indexentry{cosine ! properties of|hyperpage}{848}
+\indexentry{sine ! properties of|hyperpage}{848}
+\indexentry{fundamental cycle ! of $\sin(t)$ and $\cos(t)$|hyperpage}{848}
+\indexentry{sinusoid ! graph of|hyperpage}{850}
+\indexentry{phase shift|hyperpage}{850}
+\indexentry{sinusoid ! phase shift|hyperpage}{850}
+\indexentry{amplitude|hyperpage}{851}
+\indexentry{sinusoid ! amplitude|hyperpage}{851}
+\indexentry{sinusoid ! period|hyperpage}{851}
+\indexentry{period ! of a sinusoid|hyperpage}{851}
+\indexentry{sinusoid ! amplitude|hyperpage}{851}
+\indexentry{amplitude|hyperpage}{851}
+\indexentry{sinusoid ! phase shift|hyperpage}{851}
+\indexentry{phase shift|hyperpage}{851}
+\indexentry{sinusoid ! vertical shift|hyperpage}{851}
+\indexentry{sinusoid ! baseline|hyperpage}{851}
+\indexentry{angular frequency ! of a sinusoid|hyperpage}{851}
+\indexentry{ordinary frequency|hyperpage}{851}
+\indexentry{ordinary frequency ! of a sinusoid|hyperpage}{851}
+\indexentry{phase|hyperpage}{851}
+\indexentry{sinusoid ! phase|hyperpage}{851}
+\indexentry{Hertz|hyperpage}{851}
+\indexentry{sine ! of an angle|hyperpage}{869}
+\indexentry{cosine ! of an angle|hyperpage}{869}
+\indexentry{tangent ! of an angle|hyperpage}{869}
+\indexentry{secant ! of an angle|hyperpage}{869}
+\indexentry{cosecant ! of an angle|hyperpage}{869}
+\indexentry{cotangent ! of an angle|hyperpage}{869}
+\indexentry{Reciprocal Identities|hyperpage}{870}
+\indexentry{Quotient Identities|hyperpage}{870}
+\indexentry{identity ! equation|hyperpage}{870}
+\indexentry{equation ! identity|hyperpage}{870}
+\indexentry{conditional equation|hyperpage}{870}
+\indexentry{equation ! conditional|hyperpage}{870}
+\indexentry{Reference Angle Theorem ! for the circular functions|hyperpage}{871}
+\indexentry{sine ! of an angle|hyperpage}{874}
+\indexentry{cosine ! of an angle|hyperpage}{874}
+\indexentry{tangent ! of an angle|hyperpage}{874}
+\indexentry{secant ! of an angle|hyperpage}{874}
+\indexentry{cosecant ! of an angle|hyperpage}{874}
+\indexentry{cotangent ! of an angle|hyperpage}{874}
+\indexentry{secant ! graph of|hyperpage}{884}
+\indexentry{cosecant ! graph of|hyperpage}{885}
+\indexentry{secant ! properties of|hyperpage}{886}
+\indexentry{cosecant ! properties of|hyperpage}{886}
+\indexentry{tangent ! graph of|hyperpage}{890}
+\indexentry{cotangent ! graph of|hyperpage}{891}
+\indexentry{cotangent ! graph of|hyperpage}{891}
+\indexentry{tangent ! properties of|hyperpage}{892}
+\indexentry{cotangent ! properties of|hyperpage}{892}
+\indexentry{interval notation ! extended|hyperpage}{896}
+\indexentry{extended interval notation|hyperpage}{896}
+\indexentry{Reciprocal Identities|hyperpage}{905}
+\indexentry{Quotient Identities|hyperpage}{905}
+\indexentry{Pythagorean Identities|hyperpage}{905}
+\indexentry{Identities ! Pythagorean|hyperpage}{905}
+\indexentry{Pythagorean Identities|hyperpage}{907}
+\indexentry{Pythagorean Conjugates|hyperpage}{910}
+\indexentry{Even/Odd Identities|hyperpage}{916}
+\indexentry{Difference Identity ! for cosine|hyperpage}{917}
+\indexentry{Sum Identity ! for cosine|hyperpage}{917}
+\indexentry{Cofunction Identities|hyperpage}{919}
+\indexentry{Difference Identity ! for sine|hyperpage}{920}
+\indexentry{Sum Identity ! for sine|hyperpage}{920}
+\indexentry{Difference Identity ! for tangent|hyperpage}{922}
+\indexentry{Sum Identity ! for tangent|hyperpage}{922}
+\indexentry{Difference Identity ! for cosine|hyperpage}{922}
+\indexentry{Sum Identity ! for cosine|hyperpage}{922}
+\indexentry{Difference Identity ! for sine|hyperpage}{922}
+\indexentry{Sum Identity ! for sine|hyperpage}{922}
+\indexentry{Double Angle Identities|hyperpage}{923}
+\indexentry{Power Reduction Formulas|hyperpage}{925}
+\indexentry{Half-Angle Formulas|hyperpage}{926}
+\indexentry{Product to Sum Formulas|hyperpage}{928}
+\indexentry{Sum to Product Formulas|hyperpage}{928}
+\indexentry{arcsine ! graph of|hyperpage}{942}
+\indexentry{arccosine ! graph of|hyperpage}{943}
+\indexentry{arccosine ! definition of|hyperpage}{943}
+\indexentry{arccosine ! properties of|hyperpage}{943}
+\indexentry{arcsine ! definition of|hyperpage}{943}
+\indexentry{arcsine ! properties of|hyperpage}{943}
+\indexentry{arctangent ! graph of|hyperpage}{947}
+\indexentry{arccotangent ! graph of|hyperpage}{947}
+\indexentry{arctangent ! definition of|hyperpage}{948}
+\indexentry{arctangent ! properties of|hyperpage}{948}
+\indexentry{arccotangent ! definition of|hyperpage}{948}
+\indexentry{arccotangent ! properties of|hyperpage}{948}
+\indexentry{arcsecant ! trigonometry friendly ! graph of|hyperpage}{952}
+\indexentry{arccosecant ! trigonometry friendly ! graph of|hyperpage}{952}
+\indexentry{arcsecant ! trigonometry friendly ! definition of|hyperpage}{953}
+\indexentry{arcsecant ! trigonometry friendly ! properties of|hyperpage}{953}
+\indexentry{arccosecant ! trigonometry friendly ! definition of|hyperpage}{953}
+\indexentry{arccosecant ! trigonometry friendly ! properties of|hyperpage}{953}
+\indexentry{arcsecant ! calculus friendly ! graph of|hyperpage}{956}
+\indexentry{arccosecant ! calculus friendly ! graph of|hyperpage}{956}
+\indexentry{arcsecant ! calculus friendly ! definition of|hyperpage}{957}
+\indexentry{arcsecant ! calculus friendly ! properties of|hyperpage}{957}
+\indexentry{arccosecant ! calculus friendly ! definition of|hyperpage}{957}
+\indexentry{arccosecant ! calculus friendly ! properties of|hyperpage}{957}
+\indexentry{harmonic motion|hyperpage}{1008}
+\indexentry{angle side opposite pairs|hyperpage}{1024}
+\indexentry{Law of Sines|hyperpage}{1024}
+\indexentry{bearings|hyperpage}{1031}
+\indexentry{Side-Angle-Side triangle|hyperpage}{1039}
+\indexentry{Side-Side-Side triangle|hyperpage}{1039}
+\indexentry{Law of Cosines|hyperpage}{1039}
+\indexentry{Heron's Formula|hyperpage}{1043}
+\indexentry{vector ! definition of|hyperpage}{1048}
+\indexentry{vector ! initial point|hyperpage}{1048}
+\indexentry{vector ! tail|hyperpage}{1048}
+\indexentry{vector ! terminal point|hyperpage}{1048}
+\indexentry{vector ! head|hyperpage}{1048}
+\indexentry{vector ! component form|hyperpage}{1048}
+\indexentry{vector ! $x$-component|hyperpage}{1048}
+\indexentry{vector ! $y$-component|hyperpage}{1048}
+\indexentry{component form of a vector|hyperpage}{1049}
+\indexentry{vector ! resultant|hyperpage}{1049}
+\indexentry{vector ! addition ! definition of|hyperpage}{1050}
+\indexentry{vector ! addition ! properties of|hyperpage}{1051}
+\indexentry{vector ! addition ! commutative property|hyperpage}{1051}
+\indexentry{commutative property ! vector ! addition|hyperpage}{1051}
+\indexentry{vector ! addition ! associative property|hyperpage}{1051}
+\indexentry{associative property ! vector ! addition|hyperpage}{1051}
+\indexentry{vector ! additive identity|hyperpage}{1051}
+\indexentry{vector ! additive inverse|hyperpage}{1051}
+\indexentry{vector ! scalar multiplication ! definition of|hyperpage}{1054}
+\indexentry{scalar multiplication ! vector ! definition of|hyperpage}{1054}
+\indexentry{vector ! scalar multiplication ! properties of|hyperpage}{1054}
+\indexentry{scalar multiplication ! vector ! properties of|hyperpage}{1054}
+\indexentry{vector ! scalar multiplication ! associative property of|hyperpage}{1054}
+\indexentry{scalar multiplication ! vector ! associative property of|hyperpage}{1054}
+\indexentry{associative property ! vector ! scalar multiplication|hyperpage}{1054}
+\indexentry{vector ! scalar multiplication ! identity for|hyperpage}{1054}
+\indexentry{vector ! additive inverse|hyperpage}{1054}
+\indexentry{vector ! scalar multiplication ! distributive properties|hyperpage}{1054}
+\indexentry{distributive property ! vector ! scalar multiplication|hyperpage}{1054}
+\indexentry{scalar multiplication ! vector ! distributive properties of|hyperpage}{1054}
+\indexentry{vector ! scalar multiplication ! zero product property|hyperpage}{1054}
+\indexentry{vector ! standard position|hyperpage}{1056}
+\indexentry{standard position of a vector|hyperpage}{1056}
+\indexentry{vector ! magnitude ! definition of|hyperpage}{1056}
+\indexentry{vector ! direction ! definition of|hyperpage}{1056}
+\indexentry{vector ! magnitude ! properties of|hyperpage}{1057}
+\indexentry{vector ! direction ! properties of|hyperpage}{1057}
+\indexentry{vector ! unit vector|hyperpage}{1060}
+\indexentry{unit vector|hyperpage}{1060}
+\indexentry{vector ! normalization|hyperpage}{1061}
+\indexentry{vector ! principal unit vectors, $\bm  {\hat  }{\text  {i}}$, $\bm  {\hat  }{\text  {j}}$|hyperpage}{1061}
+\indexentry{principal unit vectors, $\bm  {\hat  }{\text  {i}}$, $\bm  {\hat  }{\text  {j}}$|hyperpage}{1061}
+\indexentry{vector ! Decomposition Theorem ! Principal|hyperpage}{1061}
+\indexentry{vector ! parallel|hyperpage}{1067}
+\indexentry{parallel vectors|hyperpage}{1067}
+\indexentry{vector ! dot product ! definition of|hyperpage}{1071}
+\indexentry{vector ! scalar product ! definition of|hyperpage}{1071}
+\indexentry{dot product ! definition of|hyperpage}{1071}
+\indexentry{vector ! dot product ! properties of|hyperpage}{1071}
+\indexentry{vector ! scalar product ! properties of|hyperpage}{1071}
+\indexentry{dot product ! properties of|hyperpage}{1071}
+\indexentry{vector ! dot product ! commutative property of|hyperpage}{1071}
+\indexentry{commutative property ! vector ! dot product|hyperpage}{1071}
+\indexentry{dot product ! commutative property of|hyperpage}{1071}
+\indexentry{vector ! dot product ! distributive property of|hyperpage}{1071}
+\indexentry{distributive property ! vector ! dot product|hyperpage}{1071}
+\indexentry{dot product ! distributive property of|hyperpage}{1071}
+\indexentry{vector ! magnitude ! relation to dot product|hyperpage}{1071}
+\indexentry{vector ! dot product ! relation to magnitude|hyperpage}{1071}
+\indexentry{dot product ! relation to vector magnitude|hyperpage}{1071}
+\indexentry{vector ! angle between two|hyperpage}{1072}
+\indexentry{angle ! between two vectors|hyperpage}{1072}
+\indexentry{vector ! dot product ! geometric interpretation|hyperpage}{1073}
+\indexentry{dot product ! geometric interpretation|hyperpage}{1073}
+\indexentry{vector ! angle between two|hyperpage}{1073}
+\indexentry{angle ! between two vectors|hyperpage}{1073}
+\indexentry{vector ! orthogonal vectors|hyperpage}{1075}
+\indexentry{orthogonal vectors|hyperpage}{1075}
+\indexentry{vector ! dot product ! relation to orthogonality|hyperpage}{1076}
+\indexentry{dot product ! relation to orthogonality|hyperpage}{1076}
+\indexentry{vector ! orthogonal projection|hyperpage}{1077}
+\indexentry{projection ! orthogonal|hyperpage}{1077}
+\indexentry{orthogonal projection|hyperpage}{1077}
+\indexentry{scalar projection|hyperpage}{1077}
+\indexentry{vector ! scalar projection|hyperpage}{1077}
+\indexentry{decomposition ! vector|hyperpage}{1078}
+\indexentry{vector decomposition|hyperpage}{1078}
+\indexentry{vector ! Decomposition Theorem ! Generalized|hyperpage}{1078}
+\indexentry{work|hyperpage}{1079}
+\indexentry{dot product ! work|hyperpage}{1080}
+\indexentry{vector ! dot product ! work|hyperpage}{1080}
+\indexentry{vector ! triangle inequality|hyperpage}{1082}
+\indexentry{rectangular coordinates ! also known as Cartesian coordinates|hyperpage}{1087}
+\indexentry{coordinates ! rectangular|hyperpage}{1087}
+\indexentry{polar coordinates ! definition of|hyperpage}{1088}
+\indexentry{coordinates ! polar|hyperpage}{1088}
+\indexentry{polar coordinates ! pole|hyperpage}{1088}
+\indexentry{polar coordinates ! polar axis|hyperpage}{1088}
+\indexentry{polar coordinates ! equivalent representations of|hyperpage}{1092}
+\indexentry{polar coordinates ! conversion into rectangular|hyperpage}{1093}
+\indexentry{rectangular coordinates ! conversion into polar|hyperpage}{1093}
+\indexentry{lima\c{c}on|hyperpage}{1120}
+\indexentry{polar rose|hyperpage}{1120}
+\indexentry{lemniscate|hyperpage}{1120}
+\indexentry{cardioid|hyperpage}{1120}
+\indexentry{complex number ! definition of|hyperpage}{1143}
+\indexentry{complex number ! real part|hyperpage}{1143}
+\indexentry{real part of a complex number|hyperpage}{1143}
+\indexentry{imaginary part of a complex number|hyperpage}{1143}
+\indexentry{complex number ! imaginary part|hyperpage}{1143}
+\indexentry{real axis|hyperpage}{1143}
+\indexentry{imaginary axis|hyperpage}{1143}
+\indexentry{complex plane|hyperpage}{1143}
+\indexentry{complex number ! rectangular form|hyperpage}{1143}
+\indexentry{rectangular form of a complex number|hyperpage}{1143}
+\indexentry{complex number ! modulus ! definition of|hyperpage}{1143}
+\indexentry{modulus of a complex number ! definition of|hyperpage}{1143}
+\indexentry{complex number ! argument ! definition of|hyperpage}{1143}
+\indexentry{argument ! of a complex number ! definition of|hyperpage}{1143}
+\indexentry{complex number ! principal argument|hyperpage}{1143}
+\indexentry{principal argument of a complex number|hyperpage}{1143}
+\indexentry{complex number ! modulus ! properties of|hyperpage}{1145}
+\indexentry{modulus of a complex number ! properties of|hyperpage}{1145}
+\indexentry{product rule ! for the modulus of a complex number|hyperpage}{1145}
+\indexentry{power rule ! for the modulus of a complex number|hyperpage}{1145}
+\indexentry{quotient rule ! for the modulus of a complex number|hyperpage}{1145}
+\indexentry{complex number ! argument ! properties of|hyperpage}{1147}
+\indexentry{argument ! of a complex number ! properties of|hyperpage}{1147}
+\indexentry{cis($\theta$)|hyperpage}{1148}
+\indexentry{complex number ! polar form ! cis-notation|hyperpage}{1148}
+\indexentry{polar form of a complex number|hyperpage}{1148}
+\indexentry{product rule ! for complex numbers|hyperpage}{1149}
+\indexentry{DeMoivre's Theorem|hyperpage}{1149}
+\indexentry{power rule ! for complex numbers|hyperpage}{1149}
+\indexentry{quotient rule ! for complex numbers|hyperpage}{1149}
+\indexentry{$n^{\textrm  {th}}$ root ! of a complex number|hyperpage}{1153}
+\indexentry{complex number ! $n^{\textrm  {th}}$ root|hyperpage}{1153}
+\indexentry{$n^{\textrm  {th}}$ root ! of a complex number|hyperpage}{1154}
+\indexentry{complex number ! $n^{\textrm  {th}}$ root|hyperpage}{1154}
+\indexentry{$n^{\textrm{th}}$ Roots of Unity|hyperpage}{1159}
+\indexentry{complex number ! $n^{\textrm{th}}$ Roots of Unity|hyperpage}{1159}
+\indexentry{Roots of Unity|hyperpage}{1159}
+\indexentry{rotation of axes|hyperpage}{1166}
+\indexentry{discriminant ! of a conic|hyperpage}{1171}
+\indexentry{directrix ! of a conic section in polar form|hyperpage}{1173}
+\indexentry{focus ! of a conic section in polar form|hyperpage}{1173}
+\indexentry{eccentricity|hyperpage}{1173}
+\indexentry{matrix ! rotation|hyperpage}{1180}
+\indexentry{rotation matrix|hyperpage}{1180}
+\indexentry{parameter|hyperpage}{1185}
+\indexentry{parametric equations|hyperpage}{1185}
+\indexentry{parametrization|hyperpage}{1185}
+\indexentry{curve ! orientated|hyperpage}{1185}
+\indexentry{orientation|hyperpage}{1185}
+\indexentry{cycloid|hyperpage}{1195}
+\indexentry{function ! vector-valued|hyperpage}{1201}
+\indexentry{vector-valued function|hyperpage}{1201}
+\indexentry{hyperbolic cosine|hyperpage}{1201}
+\indexentry{hyperbolic sine|hyperpage}{1201}
+\indexentry{set ! definition of|hyperpage}{1211}
+\indexentry{set ! verbal description|hyperpage}{1211}
+\indexentry{set ! roster method|hyperpage}{1211}
+\indexentry{set ! set-builder notation|hyperpage}{1211}
+\indexentry{set-builder notation|hyperpage}{1211}
+\indexentry{set ! inclusion|hyperpage}{1211}
+\indexentry{$\in $|hyperpage}{1211}
+\indexentry{set ! exclusion|hyperpage}{1211}
+\indexentry{$\notin  $|hyperpage}{1211}
+\indexentry{subset ! definition of|hyperpage}{1212}
+\indexentry{set ! intersection|hyperpage}{1212}
+\indexentry{intersection of two sets|hyperpage}{1212}
+\indexentry{set ! union|hyperpage}{1212}
+\indexentry{union of two sets|hyperpage}{1212}
+\indexentry{set ! empty|hyperpage}{1212}
+\indexentry{empty set|hyperpage}{1212}
+\indexentry{diagram ! Venn Diagram|hyperpage}{1212}
+\indexentry{Venn Diagram|hyperpage}{1212}
+\indexentry{real number ! set of|hyperpage}{1214}
+\indexentry{real number ! definition of|hyperpage}{1214}
+\indexentry{set ! sets of real numbers|hyperpage}{1214}
+\indexentry{natural number ! set of|hyperpage}{1214}
+\indexentry{natural number ! definition of|hyperpage}{1214}
+\indexentry{whole number ! set of|hyperpage}{1214}
+\indexentry{whole number ! definition of|hyperpage}{1214}
+\indexentry{integer ! set of|hyperpage}{1214}
+\indexentry{integer ! definition of|hyperpage}{1214}
+\indexentry{rational number ! set of|hyperpage}{1214}
+\indexentry{rational number ! definition of|hyperpage}{1214}
+\indexentry{irrational number ! set of|hyperpage}{1214}
+\indexentry{irrational number ! definition of|hyperpage}{1214}
+\indexentry{trichotomy|hyperpage}{1217}
+\indexentry{interval ! definition of|hyperpage}{1217}
+\indexentry{interval ! notation for|hyperpage}{1217}
+\indexentry{interval ! open|hyperpage}{1218}
+\indexentry{open interval|hyperpage}{1218}
+\indexentry{interval ! closed|hyperpage}{1218}
+\indexentry{closed interval|hyperpage}{1218}
+\indexentry{relatively prime|hyperpage}{1230}
+\indexentry{base|hyperpage}{1234}
+\indexentry{exponent|hyperpage}{1234}
+\indexentry{Scientific Notation|hyperpage}{1237}
+\indexentry{$\text  {n}^{\text  {th}}$ root ! principal|hyperpage}{1239}
+\indexentry{principal $\text  {n}^{\text  {th}}$ root|hyperpage}{1239}
+\indexentry{root ! index|hyperpage}{1239}
+\indexentry{index of a root|hyperpage}{1239}
+\indexentry{root ! radicand|hyperpage}{1239}
+\indexentry{radicand|hyperpage}{1239}
+\indexentry{radical ! properties of|hyperpage}{1239}
+\indexentry{product rule ! for radicals|hyperpage}{1239}
+\indexentry{quotient rule ! for radicals|hyperpage}{1239}
+\indexentry{power rule ! for radicals|hyperpage}{1239}
+\indexentry{rational exponent|hyperpage}{1240}
+\indexentry{Cartesian coordinate plane|hyperpage}{1247}
+\indexentry{$x$-axis|hyperpage}{1247}
+\indexentry{$y$-axis|hyperpage}{1247}
+\indexentry{ordered pair|hyperpage}{1247}
+\indexentry{abscissa|hyperpage}{1247}
+\indexentry{$x$-coordinate|hyperpage}{1247}
+\indexentry{ordinate|hyperpage}{1247}
+\indexentry{$y$-coordinate|hyperpage}{1247}
+\indexentry{coordinates ! Cartesian|hyperpage}{1248}
+\indexentry{Cartesian coordinates|hyperpage}{1248}
+\indexentry{origin|hyperpage}{1248}
+\indexentry{quadrants|hyperpage}{1249}
+\indexentry{symmetry ! about the $x$-axis|hyperpage}{1250}
+\indexentry{symmetry ! about the $y$-axis|hyperpage}{1250}
+\indexentry{symmetry ! about the origin|hyperpage}{1250}
+\indexentry{reflection ! of a point|hyperpage}{1251}
+\indexentry{Pythagorean Theorem|hyperpage}{1252}
+\indexentry{distance ! definition|hyperpage}{1252}
+\indexentry{distance ! distance formula|hyperpage}{1252}
+\indexentry{midpoint ! definition of|hyperpage}{1254}
+\indexentry{midpoint ! midpoint formula|hyperpage}{1254}
+\indexentry{equation ! conditional|hyperpage}{1263}
+\indexentry{inequality ! conditional|hyperpage}{1263}
+\indexentry{equation ! identity|hyperpage}{1263}
+\indexentry{inequality ! identity|hyperpage}{1263}
+\indexentry{equation ! contradiction|hyperpage}{1263}
+\indexentry{inequality ! contradiction|hyperpage}{1263}
+\indexentry{equation ! equivalent|hyperpage}{1263}
+\indexentry{inequality ! equivalent|hyperpage}{1263}
+\indexentry{equation ! linear|hyperpage}{1263}
+\indexentry{slope ! definition|hyperpage}{1275}
+\indexentry{line ! slope of|hyperpage}{1275}
+\indexentry{slope ! of a line|hyperpage}{1275}
+\indexentry{line ! vertical|hyperpage}{1278}
+\indexentry{vertical line|hyperpage}{1278}
+\indexentry{line ! horizontal|hyperpage}{1278}
+\indexentry{horizontal line|hyperpage}{1278}
+\indexentry{point-slope form of a line|hyperpage}{1280}
+\indexentry{line ! point-slope form|hyperpage}{1280}
+\indexentry{slope-intercept form of a line|hyperpage}{1280}
+\indexentry{line ! slope-intercept form|hyperpage}{1280}
+\indexentry{line ! general form|hyperpage}{1281}
+\indexentry{general form of a line|hyperpage}{1281}
+\indexentry{$x$-intercept|hyperpage}{1283}
+\indexentry{$y$-intercept|hyperpage}{1283}
+\indexentry{equation ! linear of two variables|hyperpage}{1291}
+\indexentry{linear equation ! two variables|hyperpage}{1291}
+\indexentry{equation ! identity|hyperpage}{1291}
+\indexentry{identity ! statement which is always true|hyperpage}{1291}
+\indexentry{equation ! contradiction|hyperpage}{1291}
+\indexentry{contradiction|hyperpage}{1291}
+\indexentry{system of equations ! linear ! two variables|hyperpage}{1291}
+\indexentry{parametric solution|hyperpage}{1293}
+\indexentry{system of equations ! parametric solution|hyperpage}{1293}
+\indexentry{system of equations ! free variable|hyperpage}{1293}
+\indexentry{free variable|hyperpage}{1293}
+\indexentry{consistent system|hyperpage}{1295}
+\indexentry{system of equations ! consistent|hyperpage}{1295}
+\indexentry{inconsistent system|hyperpage}{1295}
+\indexentry{system of equations ! inconsistent|hyperpage}{1295}
+\indexentry{system of equations ! dependent|hyperpage}{1295}
+\indexentry{dependent system|hyperpage}{1295}
+\indexentry{system of equations ! independent|hyperpage}{1295}
+\indexentry{independent system|hyperpage}{1295}
+\indexentry{system of equations ! overdetermined|hyperpage}{1295}
+\indexentry{overdetermined system|hyperpage}{1295}
+\indexentry{system of equations ! underdetermined|hyperpage}{1295}
+\indexentry{underdetermined system|hyperpage}{1295}
+\indexentry{absolute value|hyperpage}{1299}
+\indexentry{absolute value ! properties of|hyperpage}{1299}
+\indexentry{product rule ! for absolute value|hyperpage}{1299}
+\indexentry{power rule ! for absolute value|hyperpage}{1299}
+\indexentry{quotient rule ! for absolute value|hyperpage}{1299}
+\indexentry{inequality ! absolute value|hyperpage}{1302}
+\indexentry{absolute value ! inequality|hyperpage}{1302}
+\indexentry{polynomial|hyperpage}{1308}
+\indexentry{polynomial ! constant|hyperpage}{1308}
+\indexentry{polynomial ! coefficient|hyperpage}{1308}
+\indexentry{polynomial ! degree|hyperpage}{1308}
+\indexentry{term ! like|hyperpage}{1308}
+\indexentry{polynomial ! simplified|hyperpage}{1308}
+\indexentry{monomial|hyperpage}{1308}
+\indexentry{binomial|hyperpage}{1308}
+\indexentry{trinomial|hyperpage}{1308}
+\indexentry{division ! divisor|hyperpage}{1312}
+\indexentry{division ! dividend|hyperpage}{1312}
+\indexentry{division ! quotient|hyperpage}{1312}
+\indexentry{division ! remainder|hyperpage}{1312}
+\indexentry{number ! prime|hyperpage}{1318}
+\indexentry{number ! prime factorization|hyperpage}{1318}
+\indexentry{polynomial ! irreducible|hyperpage}{1318}
+\indexentry{equations ! quadratic|hyperpage}{1331}
+\indexentry{equation ! quadratic|hyperpage}{1331}
+\indexentry{Completing the Square|hyperpage}{1332}
+\indexentry{quadratic formula|hyperpage}{1334}
+\indexentry{formula ! quadratic|hyperpage}{1334}
+\indexentry{equation ! quadratic ! quadratic in form|hyperpage}{1338}
+\indexentry{discriminant|hyperpage}{1340}
+\indexentry{equation ! quadratic ! discriminant|hyperpage}{1340}
+\indexentry{numbers ! complex|hyperpage}{1344}
+\indexentry{complex numbers|hyperpage}{1344}
+\indexentry{imaginary unit, $i$|hyperpage}{1344}
+\indexentry{complex number ! imaginary unit, $i$|hyperpage}{1344}
+\indexentry{complex number ! definition of|hyperpage}{1344}
+\indexentry{complex number ! complex conjugate ! definition of|hyperpage}{1346}
+\indexentry{conjugate ! complex conjugate ! definition of|hyperpage}{1346}
+\indexentry{complex number ! conjugate ! properties of|hyperpage}{1346}
+\indexentry{conjugate of a complex number ! properties of|hyperpage}{1346}
+\indexentry{solution ! extraneous|hyperpage}{1359}
+\indexentry{conjugate|hyperpage}{1377}
+\indexentry{variation ! direct|hyperpage}{1383}
+\indexentry{direct variation|hyperpage}{1383}
+\indexentry{variation ! inverse|hyperpage}{1383}
+\indexentry{inverse variation|hyperpage}{1383}
+\indexentry{variation ! joint|hyperpage}{1383}
+\indexentry{joint variation|hyperpage}{1383}
+\indexentry{variation ! constant of proportionality|hyperpage}{1383}
+\indexentry{constant of proportionality|hyperpage}{1383}
+\indexentry{Hooke's Law|hyperpage}{1383}
+\indexentry{Boyle's Law|hyperpage}{1383}
+\indexentry{Ohm's Law|hyperpage}{1383}
+\indexentry{Newton's Law of Universal Gravitation|hyperpage}{1383}
+\indexentry{Charles's Law|hyperpage}{1385}
+\indexentry{Kepler's Third Law of Planetary Motion|hyperpage}{1385}
+\indexentry{Coulomb's Law|hyperpage}{1385}
+\indexentry{BMI, body mass index|hyperpage}{1385}
+\indexentry{ray ! definition of|hyperpage}{1390}
+\indexentry{ray ! initial point|hyperpage}{1390}
+\indexentry{angle ! definition|hyperpage}{1390}
+\indexentry{angle ! vertex|hyperpage}{1390}
+\indexentry{vertex ! of an angle|hyperpage}{1390}
+\indexentry{angle ! straight|hyperpage}{1390}
+\indexentry{straight angle|hyperpage}{1390}
+\indexentry{angle ! measurement|hyperpage}{1390}
+\indexentry{measure of an angle|hyperpage}{1390}
+\indexentry{angle ! degree|hyperpage}{1391}
+\indexentry{degree measure|hyperpage}{1391}
+\indexentry{right angle|hyperpage}{1391}
+\indexentry{angle ! right|hyperpage}{1391}
+\indexentry{acute angle|hyperpage}{1391}
+\indexentry{angle ! acute|hyperpage}{1391}
+\indexentry{obtuse angle|hyperpage}{1391}
+\indexentry{angle ! obtuse|hyperpage}{1391}
+\indexentry{decimal degrees|hyperpage}{1392}
+\indexentry{angle ! decimal degrees|hyperpage}{1392}
+\indexentry{angle ! DMS|hyperpage}{1392}
+\indexentry{DMS|hyperpage}{1392}
+\indexentry{complementary angles|hyperpage}{1392}
+\indexentry{angle ! complementary|hyperpage}{1392}
+\indexentry{supplementary angles|hyperpage}{1392}
+\indexentry{angle ! supplementary|hyperpage}{1392}
+\indexentry{angle ! oriented|hyperpage}{1394}
+\indexentry{oriented angle|hyperpage}{1394}
+\indexentry{angle ! initial side|hyperpage}{1394}
+\indexentry{initial side of an angle|hyperpage}{1394}
+\indexentry{angle ! terminal side|hyperpage}{1394}
+\indexentry{terminal side of an angle|hyperpage}{1394}
+\indexentry{angle ! positive|hyperpage}{1394}
+\indexentry{positive angle|hyperpage}{1394}
+\indexentry{angle ! negative|hyperpage}{1394}
+\indexentry{negative angle|hyperpage}{1394}
+\indexentry{angle ! standard position|hyperpage}{1395}
+\indexentry{standard position of an angle|hyperpage}{1395}
+\indexentry{angle ! quadrantal|hyperpage}{1395}
+\indexentry{quadrantal angle|hyperpage}{1395}
+\indexentry{angle ! coterminal|hyperpage}{1395}
+\indexentry{coterminal angle|hyperpage}{1395}
+\indexentry{triangle ! right|hyperpage}{1401}
+\indexentry{right triangle|hyperpage}{1401}
+\indexentry{hypotenuse|hyperpage}{1401}
+\indexentry{Pythagorean Theorem|hyperpage}{1401}
+\indexentry{Theorem ! Pythagorean|hyperpage}{1401}
+\indexentry{Pythagorean triple|hyperpage}{1402}
+\indexentry{side ! adjacent|hyperpage}{1402}
+\indexentry{adjacent side|hyperpage}{1402}
+\indexentry{side ! opposite|hyperpage}{1402}
+\indexentry{opposite side|hyperpage}{1402}
+\indexentry{ratios ! trigonometric|hyperpage}{1402}
+\indexentry{trigonometric ratios|hyperpage}{1402}
+\indexentry{sine ! right triangle|hyperpage}{1402}
+\indexentry{cosine ! right triangle|hyperpage}{1402}
+\indexentry{tangent ! right triangle|hyperpage}{1402}
+\indexentry{similar triangle|hyperpage}{1402}
+\indexentry{triangle ! similar|hyperpage}{1402}
+\indexentry{angle ! of inclination|hyperpage}{1404}
+\indexentry{angle ! of elevation|hyperpage}{1404}
+\indexentry{cosecant ! right triangle|hyperpage}{1406}
+\indexentry{secant ! right triangle|hyperpage}{1406}
+\indexentry{cotangent ! right triangle|hyperpage}{1406}
+\indexentry{angle ! of depression|hyperpage}{1410}
+\indexentry{angle ! of declination|hyperpage}{1410}

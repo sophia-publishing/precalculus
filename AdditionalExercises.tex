@@ -1,0 +1,1383 @@
+\documentclass[11pt]{book}
+\oddsidemargin 0in
+\evensidemargin 0in
+\marginparwidth 0in
+\textheight 8in
+\textwidth 6.5in
+\topmargin 0in
+\headheight 14pt
+\usepackage{amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline}
+\usepackage{colortbl}
+\usepackage{import, multicol,boxedminipage}
+\usepackage{chapterfolder}
+\usepackage[metapost,truebbox]{mfpic}
+\usepackage[pdflatex]{graphicx}
+\usepackage{makeidx}
+\usepackage[colorlinks, hyperindex, plainpages=false, linkcolor=blue, urlcolor=blue, pdfpagelabels]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{cancel}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\allsectionsfont{\mdseries \scshape}
+\definecolor{ResultColor}{gray}{0.9}
+\theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
+\newtheorem{defn}{\sc Definition}[chapter]
+\newtheorem{thm}{\sc Theorem}[chapter]
+\newtheorem{cor}[thm]{\sc Corollary}
+\newtheorem{eqn}{\sc Equation}[chapter]
+\newtheorem{ex}{\sc Example}[section]
+\newtheorem{fig}{\sc Figure}[chapter]
+\setlength{\parindent}{0in}
+\newcommand{\bbm}{\begin{boxedminipage}{6.41in}}
+\newcommand{\ebm}{\end{boxedminipage}}
+\usepackage{array}
+\setlength{\extrarowheight}{2pt}
+\allowdisplaybreaks[2]
+\allsectionsfont{\mdseries \scshape}
+%Below is for Helvetica (scaled): 
+\usepackage[scaled=.92]{helvet}   
+\renewcommand{\familydefault}{\sfdefault}  %makes the text of the book sans serif
+\usepackage[helvet]{sfmath}  %makes the math in the book sans serif
+\allsectionsfont{\sffamily}  %makes the chapter and section titles sans serif
+\opengraphsfile{AdditionalExercises}
+\begin{document}
+\newcounter{HW}
+\newcounter{HWindent}
+\renewcommand{\textinterrobang}{$! \! \! ?$}
+
+
+\S 1.1:
+
+\begin{enumerate}
+
+\item  Suppose $A(P)$ gives the amount of money in a retirement account (in dollars) after 30 years as a function of the amount of the monthly payment (in dollars), $P$.
+
+\begin{enumerate}
+
+\item What does $A(50)$ mean?  
+
+The amount in the retirement account after 30 years if the monthly payment is $\$50$.
+
+\item  What is the significance of the solution to the equation $A(P) = 250000$? 
+
+The solution to $A(P) = 250000$ is what the monthly payment needs to be in order to have $\$250,\!000$ in the retirement account after 30 years.
+
+\item  Explain what each of the following expressions mean:  $A(P+50)$, $A(P)+50$, and $A(P) + A(50)$.  
+
+$A(P+50)$ is how much is in the retirement account in 30 years if $\$ 50$ is added to the monthly payment $P$.  $A(P)+50$ represents the amount of money in the retirement account after 30 years if $\$P$  is invested each month plus an additional $\$50$.  $A(P)+A(50)$ is the sum of money from two retirement accounts after 30 years: one with monthly payment $\$P$ and one with monthly payment $\$50$.
+
+\end{enumerate}
+
+\item  Suppose $P(t)$ gives the chance of precipitation (in percent)  $t$ hours after 8 AM.
+
+\begin{enumerate}
+
+\item  Write an expression which gives the chance of precipitation at noon.
+
+Since noon is $4$ hours after 8 AM, $P(4)$ gives the chance of precipitation at noon.
+
+\item  Write an inequality which determines when the chance of precipitation is more than $50 \%$.
+
+We would need to solve $P(t) \geq 50 \%$ or $P(t) \geq 0.5$.
+
+\end{enumerate}
+
+\end{enumerate}
+
+\newpage
+
+\S 1.2:
+
+\begin{enumerate}
+
+\item  Find formulas for the following functions.
+
+\begin{multicols}{2}
+
+\begin{enumerate}
+
+\item $f(x) = -3$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](1, -2.75){\scriptsize $(0,-3)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-4$} -4,{$-2$} -2, {$-1$} -1,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -5,-3), (5,-3)}
+\point[4pt]{(0,-3)}
+\tcaption{ \scriptsize$y = f(x)$}
+\normalsize
+\end{mfpic} 
+
+
+
+\item $F(t) = \begin{cases} 
+  \hphantom{\text{$-$}}2 &  \text{if $t \leq 1$, } \\
+  -3  & \text{if $1 < t \leq 3$,} \\
+  \hphantom{\text{$-$}}4 & \text{if $t>3$.} \\
+ \end{cases}$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $s$}
+\tlabel[cc](1, 1.5){\scriptsize $(1,2)$}
+\tlabel[cc](1, -3.5){\scriptsize $(1,-3)$}
+\tlabel[cc](3, -2.5){\scriptsize $(3,-3)$}
+\tlabel[cc](3, 3.5){\scriptsize $(3,4)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$-1$} -1,{$1$} 1,  {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \polyline{(1,2), (-5,2)}
+ \polyline{(1,-3), (3,-3)}
+ \arrow \polyline{(3,4), (5,4)}
+\tcaption{ \scriptsize$s = F(t)$}
+\point[4pt]{(1,2), (3,-3)}
+\pointfillfalse
+\point[4pt]{(1,-3), (3,4)}
+\normalsize
+\end{mfpic} 
+
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\begin{enumerate}
+
+\setcounter{enumii}{\value{HW}}
+
+\item $L(x) = -\frac{3}{5} x + 1$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](-1, 0.75){\scriptsize $(0,1)$}
+\tlabel[cc](1.25, -0.75){\scriptsize $\left( \frac{5}{3}, 0 \right)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$-1$} -1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -5,4), (5,-2)}
+\point[4pt]{(0,1), (1.66,0)}
+\tcaption{ \scriptsize$y = L(x)$}
+\normalsize
+\end{mfpic} 
+
+
+
+\item $g(v) = \begin{cases} 
+   3v+5 &  \text{if $v \leq -1$, } \\
+  \hphantom{\text{$3v+$}}2  & \text{if $-1 <  v \leq 3$,} \\
+    \end{cases}$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $v$}
+\tlabel[cc](0.5,5){\scriptsize $w$}
+\tlabel[cc](-3.25, -4.5){\scriptsize $(-3,-4)$}
+\tlabel[cc](3, 2.5){\scriptsize $(3,2)$}
+\tlabel[cc](-1.5, 2.5){\scriptsize $(-1,2)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$-1$} -1, {$1$} 1, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\polyline{( -3,-4), (-1, 2), (3,2)}
+\point[4pt]{(-3,-4),  (3,2)}
+\pointfillfalse
+\point[4pt]{(-1,2)}
+\tcaption{ \scriptsize$w = g(v)$}
+\normalsize
+\end{mfpic} 
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\newpage
+
+
+\item  \label{unitstepexercise} The \index{unit step function}\textbf{unit step function} is defined as $U(t) = \begin{cases} 
+    0 &  \text{if $t<0$, } \\
+    1  & \text{if $t \geq 1$.} \\
+   \end{cases}$
+
+\begin{enumerate}
+
+\item  Graph $y = U(t)$.
+
+\begin{mfpic}[15]{-5}{5}{-1}{2}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,2){\scriptsize $y$}
+\tlabel[cc](-1, 1){\scriptsize $(0,1)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{1}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \polyline{( -5,0), (0,0)}
+\arrow \polyline{( 0,1), (5,1)}
+\point[4pt]{(0,1)}
+\pointfillfalse
+\point[4pt]{(0,0)}
+\tcaption{ \scriptsize$y = U(t)$}
+\normalsize
+\end{mfpic} 
+
+
+\item  State the domain and range of $U$.
+
+ domain: $(-\infty, \infty)$, range:  $\{ 0, 1\}$
+
+\item  List the interval(s) over which $U$ is increasing, decreasing, and/or constant.
+
+ $U$ is constant on $(-\infty, 0)$ and $[0, \infty)$.
+ 
+ \item  Write $U(t-2)$ as a piecewise defined function and graph.
+ 
+ \begin{multicols}{2}
+ 
+ 
+  $U(t-2) = \begin{cases} 
+    0 &  \text{if $t<2$, } \\
+    1  & \text{if $t \geq 2$.} \\
+   \end{cases}$
+
+ 
+ \begin{mfpic}[15]{-5}{5}{-1}{2}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,2){\scriptsize $y$}
+\tlabel[cc](-1, 1){\scriptsize $(0,1)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{1}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \polyline{( -5,0), (2,0)}
+\arrow \polyline{(2,1), (5,1)}
+\point[4pt]{(2,1)}
+\pointfillfalse
+\point[4pt]{(2,0)}
+\tcaption{ \scriptsize$y = U(t-2)$}
+\normalsize
+\end{mfpic} 
+ 
+ \end{multicols}
+
+\end{enumerate}
+
+
+\item Prove that for all linear functions $L$ with with slope $3$, $L(120) = L(100) + 60$.
+
+Since $L$ is linear with slope $3$, $L(x) = L(x_{0}) + m \Delta x = L(100) + (3)(120-100) = L(100)+60$.
+
+
+\end{enumerate}
+
+
+\newpage
+
+\S 1.3: 
+
+\begin{enumerate}
+
+\item  Find a formula for each function below in the form $F(x) = a|x-h|+k$.
+
+\begin{multicols}{2}
+
+\begin{enumerate}
+
+
+\item $F(x) = 2|x+1|-3$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](1, -1){\scriptsize $(0,-1)$}
+\tlabel[cc](-1.25,-3.5){\scriptsize $(-1,-3)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -4.5,4), (-1,-3), (2.5,4)}
+\point[4pt]{(-1,-3), (0,-1)}
+\tcaption{ \scriptsize$y = F(x)$}
+\normalsize
+\end{mfpic} 
+
+
+
+\item $F(x) = |x-1.25|-2.75$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](-3.5, 0.5){\scriptsize $(-1.5,0)$}
+\tlabel[cc](3.5, 0.5){\scriptsize $(4,0)$}
+\tlabel[cc](-1.75, -1.5){\scriptsize $(0,-1.5)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$1$} 1, {$2$} 2, {$3$} 3}
+\axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -5,3.5), (1.25,-2.75), (5,1)}
+\point[4pt]{(-1.5,0), (0,-1.5), (1.25,-2.75), (4,0)}
+\tcaption{ \scriptsize$y = F(x)$}
+\normalsize
+\end{mfpic} 
+
+
+
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\begin{enumerate}
+
+\setcounter{enumii}{\value{HW}}
+
+\item $F(x) = -|x+1|+2$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](-3.75, 0.5){\scriptsize $(-3,0)$}
+\tlabel[cc](1.75, 0.5){\scriptsize $(1,0)$}
+\tlabel[cc](0.75, 1){\scriptsize $(0,1)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-4$} -4, {$-3$} -3,{$-2$} -2, {$-1$} -1,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -5,-2), (-1,2), (5, -4)}
+\point[4pt]{(-3,0), (-1,2), (1,0), (0,1) }
+\tcaption{ \scriptsize$y = F(x)$}
+\normalsize
+\end{mfpic} 
+
+
+
+\item $F(x) = -\frac{1}{2} |x+1|+\frac{3}{2}$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](-3, 0.5){\scriptsize $(-2,0)$}
+\tlabel[cc](3.5, -0.5){\scriptsize $(4,0)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2}
+\axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$-1$} -1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -5,-1.5), (1,1.5), (5,-0.5)}
+\point[4pt]{(-2,0), (0,1), (4,0), (1, 1.5)}
+\tcaption{ \scriptsize$y = F(x)$}
+\normalsize
+\end{mfpic} 
+
+
+
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\pagebreak
+
+\item
+
+\begin{enumerate}
+
+\item  Explain the function below cannot be written in the form $F(x) = a|x-h|+k$.  
+
+If $F(x) = a|x-h| + k$, then for the vertex to be at $(1,-2)$, $h  =1$ and $k = -2$ so $F(x) = a |x-1| - 2$.  Since $(0,-1)$ is on the graph, $F(0) = -1$ so $-1 = a|0-1|-2$ which means $a = 1$.  This means $F(x) = |x-1|-2$.  However, $(2.6,0)$ is also on the graph, so it should work out that $F(2.6) = 0$.  However, we find $F(2.6) = |2.6-1| - 2 = -0.4 \neq 0$.  
+
+\item  Find a piecewise-linear formula  for $F(x)$.
+
+$F(x) =  \begin{cases} 
+ -x-1 &  \text{if $x \leq 1$, } \\
+   \frac{5}{4} x - \frac{13}{4}  & \text{if $x \geq 1$,} \\
+  \end{cases}$
+  
+\end{enumerate}
+
+\begin{center}
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](-1,-1.25){\scriptsize $(0,-1)$}
+\tlabel[cc](1, -2.5){\scriptsize $(1,-2)$}
+\tlabel[cc](1.75, 0.5){\scriptsize $(2.6,0)$}
+\tlabel[cc](-2.75, 0.5){\scriptsize $(-1,0)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-2 \hspace{7pt}$} -2,{$-3 \hspace{7pt}$} -3,  {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2}
+\axislabels {y}{{$-4$} -4,{$-2$} -2, {$-2$} -2, {$-3$} -3,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -4,3), (1,-2), (5,3)}
+\point[4pt]{(1,-2), (0,-1), (-1,0), (2.6,0)}
+\tcaption{ \scriptsize$y = F(x)$}
+\normalsize
+\end{mfpic} 
+
+\end{center}
+
+\end{enumerate}
+
+\newpage
+
+\S 1.4
+
+
+\begin{enumerate}
+
+\item Find both the standard and general form of the quadratic functions below.
+
+
+\begin{multicols}{2}
+
+\begin{enumerate}
+
+
+\item $f(x) = x^2 - 3$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](1.5, -3){\scriptsize $(0,-3)$}
+\tlabel[cc](-2.5,-2){\scriptsize $(-1,-2)$}
+\tlabel[cc](2,-2){\scriptsize $(1,-2)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,  {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4, {$-4$} -4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-2.5,2.5,0.1}{x**2-3}
+\point[4pt]{(0,-3), (-1,-2), (1,-2)}
+\tcaption{ \scriptsize$y = f(x)$}
+\normalsize
+\end{mfpic} 
+
+
+\item $F(x) = (x+1)^2-4 = x^2+2x-3$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](1, -3){\scriptsize $(0,-3)$}
+\tlabel[cc](-1.25,-4.5){\scriptsize $(-1,-4)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,  {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-4,2,0.1}{(x+1)**2-4}
+\point[4pt]{(-3,0), (-1,-4), (0, -3), (1,0)}
+\tcaption{ \scriptsize$y = F(x)$}
+\normalsize
+\end{mfpic} 
+
+
+
+
+
+
+
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\begin{enumerate}
+
+\setcounter{enumii}{\value{HW}}
+
+
+\item $F(s) = -(s+1)^2-1 = -s^2-2s-2$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $s$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](1,-2){\scriptsize $(0,-2)$}
+\tlabel[cc](-3.5, -2){\scriptsize $(-2,-2)$}
+\tlabel[cc](-1.25, -0.5){\scriptsize $(-1,-1)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,  {$-3 \hspace{7pt}$} -3,  {$1$} 1, {$2$} 2}
+\axislabels {y}{{$-4$} -4,{$-2$} -2, {$-3$} -3,{$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-3, 1,0.1}{-1-((x+1)**2)}
+\point[4pt]{(-1,-1), (0,-2), (-2,-2)}
+\tcaption{ \scriptsize$y =F(s)$}
+\normalsize
+\end{mfpic} 
+
+\item $s(t) = -\frac{1}{3}(t-2)^2 + \frac{4}{3}= -\frac{1}{3} t^2 + \frac{4}{3} t$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](0.75, 1.5){\scriptsize $(1,1)$}
+\tlabel[cc](4.5, 0.5){\scriptsize $(4,0)$}
+\tlabel[cc](-0.75, 0.5){\scriptsize $(0,0)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2,{$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3}
+\axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2,{$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-2.25,5,0.1}{(4*x-x**2)/3}
+\point[4pt]{(0,0), (1,1), (2,1.3333), (4,0)}
+\tcaption{ \scriptsize$y = s(t)$}
+\normalsize
+\end{mfpic} 
+
+
+
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\pagebreak
+
+
+
+
+
+\end{enumerate}
+
+
+\newpage
+
+
+\S 2.1
+
+\newpage
+
+\S 2.2
+
+\newpage
+
+\S 2.3
+
+\newpage
+
+\S 2.4
+
+\newpage
+
+\S 3.1
+
+\newpage
+
+\S 3.2
+
+\newpage
+
+\S 3.3
+
+\begin{enumerate}
+
+\item Find a formula for the functions below.  You may leave your answered in factored form.
+
+\begin{multicols}{2}
+
+\begin{enumerate}
+
+
+\item $f(x) =\frac{1}{2} (x-1)^2 (x+2)$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](1, -0.5){\scriptsize $(1,0)$}
+\tlabel[cc](-1,-0.5){\scriptsize $(-2,0)$}
+\tlabel[cc](0.75,1){\scriptsize $(0,1)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,  {$-3 \hspace{7pt}$} -3,   {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-2$} -2, {$-3$} -3, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4, {$-4$} -4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-2.7,2.4,0.1}{(0.5)*((x-1)**2)*(x+2)}
+\point[4pt]{(-2,0), (0,1), (1,0)}
+\tcaption{ \scriptsize$y = f(x)$}
+\normalsize
+\end{mfpic} 
+
+
+\item $p(t) =2 t^2 (t+2)^2$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](0.75, -0.5){\scriptsize $(0,0)$}
+\tlabel[cc](-1.25,2.5){\scriptsize $(-1,2)$}
+\tlabel[cc](-2.25,-0.5){\scriptsize $(-2,0)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,   {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-3$} -3,{$-2$} -2,{$-4$} -4,{$-1$} -1, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-2.6,0.6, 0.1}{2*(x**2)*((x+2)**2)}
+\point[4pt]{(0,0), (-1,2), (-2, 0)}
+\tcaption{ \scriptsize$y = p(t)$}
+\normalsize
+\end{mfpic} 
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\begin{enumerate}
+
+
+\item $f(x) =-\frac{1}{2} (x-1) (x+2)^3$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](1.75, -0.5){\scriptsize $(1,0)$}
+\tlabel[cc](-1.5,-0.5){\scriptsize $(-2,0)$}
+\tlabel[cc](-0.75,4){\scriptsize $(0,4)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4,  {$-3 \hspace{7pt}$} -3,   {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-2$} -2, {$-3$} -3, {$1$} 1, {$2$} 2,  {$-4$} -4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-3.25,1.25,0.1}{(-0.5)*(x-1)*((x+2)**3)}
+\point[4pt]{(-2,0), (0,4), (1,0)}
+\tcaption{ \scriptsize$y = f(x)$}
+\normalsize
+\end{mfpic} 
+
+
+\item $p(t) = -\frac{1}{3} t(t+2)(t-3)$
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\tlabel[cc](0.75, -0.5){\scriptsize $(0,0)$}
+\tlabel[cc](1.5,1.5){\scriptsize $(1,2)$}
+\tlabel[cc](-3,-0.5){\scriptsize $(-2,0)$}
+\tlabel[cc](3.5,0.5){\scriptsize $(3,0)$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{{$2$} 2,  {$4$} 4}
+\axislabels {y}{{$-3$} -3,{$-2$} -2,{$-4$} -4, {$3$} 3, {$4$} 4, {$1$} 1, {$2$} 2}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-2.8,3.7, 0.1}{(x*(x+2)*(x-3))/(-3)}
+\point[4pt]{(3,0), (-2,0), (0, 0),(1,2)}
+\tcaption{ \scriptsize$y = p(t)$}
+\normalsize
+\end{mfpic} 
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{enumerate}
+
+\newpage
+
+\S 4.1
+
+\newpage
+
+\S 4.2
+
+\newpage
+
+\S 4.3
+
+\newpage
+
+\S 5.1
+
+\begin{enumerate}
+
+\item  Let $U$ be the unit step function defined in Exercise \ref{unitstepexercise} in Section \ref{ConstantandLinearFunctions}.  For each function $f(t)$ below:
+
+\begin{itemize}
+
+\item  Write $(Uf)(t)$ as a piecewise-defined function.
+
+\item  Graph $y = f(t)$ and $y = (Uf)(t)$.
+
+\end{itemize}
+
+\begin{multicols}{3}
+
+\begin{enumerate}
+
+\item $f(t) = t-3$
+
+
+
+\item  $f(t) = |t+2|$
+
+
+
+\item  $f(t) =(t-1)^2$
+
+
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{3}
+
+\begin{enumerate}
+
+\setcounter{enumii}{\value{HW}}
+
+\item  $f(t) =(t+1)^{-1}$
+
+
+
+\item  $f(t) = \sqrt[3]{t-1}$ \vphantom{ $f(t) =(t+1)^{-1}$}
+
+
+
+\item  $f(t) = (t-2)^{\frac{2}{3}}$ \vphantom{ $f(t) =(t+1)^{-1}$}
+
+
+
+\setcounter{HW}{\value{enumii}}
+
+\end{enumerate}
+
+\end{multicols}
+
+\begin{enumerate}
+
+\setcounter{enumii}{\value{HW}}
+
+\item  Write a general formula for $(Uf)(t)$ for a function $f$.  (Assume the domain of $f$ is $(-\infty, \infty)$.)
+
+$(Uf)(t) =  \begin{cases} 
+   0  &  \text{if $t < 0$, } \\
+    f(t)  & \text{if $t \geq 0$} \\
+   \end{cases}$
+
+\item  Explain how to obtain the graph of $y=(Uf)(t)$ from $y=f(t)$.
+
+The graph of $(Uf)(t)$ is $y=0$ for $t < 0$ and $y=f(t)$ for $t \geq 0$.
+
+\item The function $U(t)$ is used to model a change in state from `off' to `on' (like flipping a light switch.)  How does this relate to your observations?
+
+The unit step function keeps the the function `off' until $t=0$ then turns the function `on' for $t \geq 0$.
+
+
+\item  Use the graph of $y=f(t)$ below to graph $y=(Uf)(t)$.
+
+\begin{center}
+
+\begin{mfpic}[15]{-5}{5}{-4}{4}
+\tlabel[cc](-2.25,-3.5){\scriptsize $\left( -2, -3 \right)$}
+\tlabel[cc](2,3.5){\scriptsize $\left(2, 3 \right)$}
+\tlabel[cc](-4.25,0.5){\scriptsize $\left(-4, 0 \right)$}
+\tlabel[cc](0.75,-0.5){\scriptsize $\left(0, 0 \right)$}
+\axes
+\tcaption{ \scriptsize$y = f(t)$}
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,4){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-3,-2,-1,1,2,3}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{ {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{ {$-3$} -3, {$-2$} -2,  {$1$} 1, {$2$} 2, {$3$} 3}
+\normalsize
+\penwd{1.25pt}
+\function{-4,2,.1}{3*sin(3.14159265*x/4)}
+\point[4pt]{(-2,-3), (2,3),  (-4,0), (0,0)}
+\end{mfpic}
+
+\end{center}
+
+
+\end{enumerate}
+
+\end{enumerate}
+
+\newpage
+
+
+$(Uf)(t) =  \begin{cases} 
+  0  &  \text{if $t < 0$, } \\
+    t-3  & \text{if $t \geq 0$.} \\
+   \end{cases}$
+
+
+
+
+
+\begin{multicols}{2}
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1, {$-2$} -2, {$-4$} -4,{$-3$} -3,  {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -2,-5), (5,2)}
+\tcaption{ \scriptsize$y = f(t)$}
+\normalsize
+\end{mfpic} 
+
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$-2$} -2,{$-3$} -3,{$-4$} -4,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \polyline{( -5,0), (0,0)}
+\arrow \polyline{(0,-3), (5,2)}
+\point[4pt]{(0,-3)}
+\pointfillfalse
+\point[4pt]{(0,0)}
+\tcaption{ \scriptsize$y = (Uf)(t)$}
+\normalsize
+\end{mfpic} 
+\end{multicols}
+
+
+
+$(Uf)(t) =  \begin{cases} 
+   0  &  \text{if $t < 0$, } \\
+    |t+2|  = t+2 & \text{if $t \geq 0$.} \\
+   \end{cases}$
+
+
+
+\begin{multicols}{2}
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1, {$-2$} -2, {$-4$} -4,{$-3$} -3,  {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \polyline{( -5,3), (-2,0), (3,5)}
+\tcaption{ \scriptsize$y = f(t)$}
+\normalsize
+\end{mfpic} 
+
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$-2$} -2,{$-3$} -3,{$-4$} -4,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \polyline{( -5,0), (0,0)}
+\arrow \polyline{(0,2), (3,5)}
+\point[4pt]{(0,2)}
+\pointfillfalse
+\point[4pt]{(0,0)}
+\tcaption{ \scriptsize$y = (Uf)(t)$}
+\normalsize
+\end{mfpic} 
+\end{multicols}
+
+
+\newpage
+
+
+$(Uf)(t) =  \begin{cases} 
+   0  &  \text{if $t < 0$, } \\
+   (t-1)^2 & \text{if $t \geq 0$.} \\
+   \end{cases}$
+
+
+
+\begin{multicols}{2}
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1, {$-2$} -2, {$-4$} -4,{$-3$} -3,  {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \function{-1.2, 3.2, 0.1}{(x-1)**2}
+\tcaption{ \scriptsize$y = f(t)$}
+\normalsize
+\end{mfpic} 
+
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$-2$} -2,{$-3$} -3,{$-4$} -4,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \polyline{( -5,0), (0,0)}
+\arrow \function{0, 3.2, 0.1}{(x-1)**2}
+\point[4pt]{(0,1)}
+\pointfillfalse
+\point[4pt]{(0,0)}
+\tcaption{ \scriptsize$y = (Uf)(t)$}
+\normalsize
+\end{mfpic} 
+\end{multicols}
+
+
+   
+$(Uf)(t) =  \begin{cases} 
+  0  &  \text{if $t < 0$, $t \neq -1$ } \\
+   (t+1)^{-1} & \text{if $t \geq 0$.} \\
+   \end{cases}$
+   
+
+
+
+\begin{multicols}{2}
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1, {$-2$} -2, {$-4$} -4,{$-3$} -3,  {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\dashed \polyline{(-1,-5), (-1,5)}
+\penwd{1.25pt}
+\arrow \reverse  \arrow \function{-5, -1.25, 0.1}{(x+1)**(-1)}
+\arrow  \reverse \arrow \function{-0.75, 5,  0.1}{(x+1)**(-1)}
+\tcaption{ \scriptsize$y = f(t)$}
+\normalsize
+\end{mfpic} 
+
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$-2$} -2,{$-3$} -3,{$-4$} -4,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse  \polyline{( -5,0), (0,0)}
+\arrow \function{0, 5, 0.1}{(x+1)**(-1)}
+\point[4pt]{(0,1)}
+\pointfillfalse
+\point[4pt]{(0,0), (-1,0)}
+\tcaption{ \scriptsize$y = (Uf)(t)$  - note the hole at $(-1,0)$}
+\normalsize
+\end{mfpic} 
+\end{multicols}
+
+\newpage
+
+$(Uf)(t) =  \begin{cases} 
+   0  &  \text{if $t < 0$, } \\
+    \sqrt[3]{t-1} & \text{if $t \geq 0$.} \\
+   \end{cases}$
+   
+   \begin{multicols}{2}
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1, {$-2$} -2, {$-4$} -4,{$-3$} -3,  {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \parafcn{-1.8, 1.5, 0.1}{(1+t**3, t)}
+\tcaption{ \scriptsize$y = f(t)$}
+\normalsize
+\end{mfpic} 
+
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$-2$} -2,{$-3$} -3,{$-4$} -4,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \polyline{( -5,0), (0,0)}
+ \arrow \parafcn{-1, 1.5, 0.1}{(1+t**3, t)}
+\point[4pt]{(0,-1)}
+\pointfillfalse
+\point[4pt]{(0,0)}
+\tcaption{ \scriptsize$y = (Uf)(t)$}
+\normalsize
+\end{mfpic} 
+\end{multicols}
+
+   
+
+
+$(Uf)(t) =  \begin{cases} 
+   0  &  \text{if $t < 0$, } \\
+   (t-2)^{\frac{2}{3}} & \text{if $t \geq 0$.} \\
+   \end{cases}$
+   
+   
+   \begin{multicols}{2}
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1, {$-2$} -2, {$-4$} -4,{$-3$} -3,  {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \arrow \parafcn{-1.9, 1.4, 0.1}{(2+t**3, t**2)}
+\tcaption{ \scriptsize$y = f(t)$}
+\normalsize
+\end{mfpic} 
+
+
+\begin{mfpic}[15]{-5}{5}{-5}{5}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2, -1, 1,2,3,4}
+\tlpointsep{4pt}
+\scriptsize
+\axislabels {x}{ {$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-1$} -1,{$-2$} -2,{$-3$} -3,{$-4$} -4,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\penwd{1.25pt}
+\arrow \reverse \polyline{( -5,0), (0,0)}
+\arrow \parafcn{-1.25, 1.44, 0.1}{(2+t**3, t**2)}
+\point[4pt]{(0,1.587)}
+\pointfillfalse
+\point[4pt]{(0,0)}
+\tcaption{ \scriptsize$y = (Uf)(t)$}
+\normalsize
+\end{mfpic} 
+\end{multicols}
+
+\newpage
+
+
+\begin{center}
+
+\begin{mfpic}[15]{-5}{5}{-4}{4}
+\tlabel[cc](2,3.5){\scriptsize $\left(2, 3 \right)$}
+\tlabel[cc](0.75,-0.5){\scriptsize $\left(0, 0 \right)$}
+\axes
+\tcaption{ \scriptsize$y = (Uf)(t)$}
+\tlabel[cc](5,-0.5){\scriptsize $t$}
+\tlabel[cc](0.5,4){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-3,-2,-1,1,2,3}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{  {$-4 \hspace{7pt}$} -4,{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{ {$-3$} -3, {$-2$} -2,  {$1$} 1, {$2$} 2, {$3$} 3}
+\normalsize
+\penwd{1.25pt}
+\function{0,2,.1}{3*sin(3.14159265*x/4)}
+\polyline{(-4,0), (0,0)}
+\point[4pt]{(2,3),  (-4,0), (0,0)}
+\end{mfpic}
+
+\end{center}
+   
+   \newpage
+
+\S 5.2
+
+\newpage
+
+\S 5.3
+
+
+\begin{enumerate}
+
+\item 
+
+\begin{enumerate}
+
+\item  Fill in the table below.
+
+\[ \begin{array}{|c||c|c|}
+
+\hline
+
+f(x) & |f(x)| & f\left(|x| \right)  \\ \hline
+
+x+2 &      \hphantom{\sqrt{x+3}-2}   &         \hphantom{\sqrt{x+3}-2}      \\ \hline
+
+x^2-4x &      \hphantom{\sqrt{x+3}-2}      &      \hphantom{\sqrt{x+3}-2}       \\  \hline
+
+x^3-3x^2 &     \hphantom{\sqrt{x+3}-2}       &    \hphantom{\sqrt{x+3}-2}       \\  \hline  
+
+(x+1)^{-1}  &      \hphantom{\sqrt{x+3}-2}      &    \hphantom{\sqrt{x+3}-2}       \\  \hline   
+
+\sqrt{x+2}-3&    \hphantom{\sqrt{x+3}-2}        &     \hphantom{\sqrt{x+3}-2}      \\  \hline   
+
+ \end{array} \]
+ 
+ \[ \begin{array}{|c||c|c|}
+
+\hline
+
+f(x) & |f(x)| & f\left(|x| \right)  \\ \hline
+
+x+2 &     |x+2|   &       |x|+2      \\ \hline
+
+x^2-4x &    |x^2-4x|      &     |x|^2-3|x| = x^2-4|x|      \\  \hline
+
+x^3-3x^2 &    |x^3-3x^2|     &  |x|^3-3|x|^2 = |x|^3-3x^2      \\  \hline  
+
+(x+1)^{-1}  &     |(x+1)^{-1}|      &    (|x|+1)^{-1}       \\  \hline   
+
+\sqrt{x+2}-3&    | \sqrt{x+2}-3 |       &    \sqrt{|x|+2}-3    \\  \hline   
+
+ \end{array} \]
+
+
+
+\item For each function $f$ above, graph $y = f(x)$ and $y=|f(x)|$ using a graphing utility.
+
+\begin{itemize}
+
+\item Write a sentence (or two!) explaining how to obtain the graph of $y=|f(x)|$ from $y = f(x)$.  
+
+To obtain the graph of $y=|f(x)|$ from $y=f(x)$, reflect about the $x$-axis any portion of the graph of $y=f(x)$ which is below the $x$-axis.
+
+\item  How does your explanation relate to Definition \ref{absolutevaluepiecewise}?
+
+If the graph is below the $x$-axis, then $f(x) < 0$.  Since $|f(x)| = -f(x)$ if $f(x) < 0$, we are graphing $y=-f(x)$ for these values of $x$ which is a reflection across the $x$-axis.
+
+\end{itemize}
+
+\item  For each function $f$ above, graph $y = f(x)$ and $y = f(|x|)$ using a graphing utility.
+
+\begin{itemize}
+
+\item Write a sentence (or two!) explaining how to obtain the graph of $y=f(|x|)$ from $y = f(x)$.  
+
+To obtain the graph of $y=f(|x|)$ from $y=f(x)$, replace the portion of the graph of $y=f(x)$ for $x \leq 0$ with the reflection about the $y$-axis of the portion of the graph of $y=f(x)$ for $x \geq 0$.
+
+\item  How does your explanation relate to Definition \ref{absolutevaluepiecewise}?
+
+If $x < 0$, then $|x| = -x$, so $f(|x|) = f(-x)$.  Since if $x < 0$, $-x > 0$,  this  means we reflect the graph of $y=f(x)$ about the $y$-axis for $x>0$ only.
+
+\end{itemize}
+
+\newpage
+
+\item Use the graph of $y=f(x)$ below to graph $y = |f(x)|$ and $y = f(|x|)$.
+
+\begin{center}
+
+\begin{mfpic}[15]{-5}{5}{-4}{4}
+\tlabel[cc](-2.25,-3.5){\scriptsize $\left( -2, -3 \right)$}
+\tlabel[cc](2,3.5){\scriptsize $\left(2, 3 \right)$}
+\tlabel[cc](-4.25,0.5){\scriptsize $\left(-4, 0 \right)$}
+\tlabel[cc](0.75,-0.5){\scriptsize $\left(0, 0 \right)$}
+\axes
+\tcaption{ \scriptsize$y = f(x)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,4){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-3,-2,-1,1,2,3}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{ {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{ {$-3$} -3, {$-2$} -2,  {$1$} 1, {$2$} 2, {$3$} 3}
+\normalsize
+\penwd{1.25pt}
+\function{-4,2,.1}{3*sin(3.14159265*x/4)}
+\point[4pt]{(-2,-3), (2,3),  (-4,0), (0,0)}
+\end{mfpic}
+
+\end{center}
+
+\begin{multicols}{2}
+
+\begin{mfpic}[15]{-5}{5}{-4}{4}
+\tlabel[cc](-2.25,3.5){\scriptsize $\left( -2, -3 \right)$}
+\tlabel[cc](2,3.5){\scriptsize $\left(2, 3 \right)$}
+\tlabel[cc](-4.5,-0.5){\scriptsize $\left(-4, 0 \right)$}
+\tlabel[cc](0.75,-0.5){\scriptsize $\left(0, 0 \right)$}
+\axes
+\tcaption{ \scriptsize$y = |f(x)|$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,4){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-3,-2,-1,1,2,3}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{ {$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{ {$-3$} -3, {$-2$} -2,  {$1$} 1, {$2$} 2, {$3$} 3}
+\normalsize
+\penwd{1.25pt}
+\function{-4,2,.1}{3*abs(sin(3.14159265*x/4))}
+\point[4pt]{(-2,3), (2,3),  (-4,0), (0,0)}
+\end{mfpic}
+
+\begin{mfpic}[15]{-5}{5}{-4}{4}
+\tlabel[cc](-2.25,3.5){\scriptsize $\left( -2, -3 \right)$}
+\tlabel[cc](2,3.5){\scriptsize $\left(2, 3 \right)$}
+\tlabel[cc](0.75,-0.5){\scriptsize $\left(0, 0 \right)$}
+\axes
+\tcaption{ \scriptsize$y = f(|x|)$ - note the domain}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,4){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-3,-2,-1,1,2,3}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{ {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$2$} 2, {$3$} 3}
+\axislabels {y}{ {$-3$} -3, {$-2$} -2,  {$-1$} -1, {$2$} 2, {$3$} 3}
+\normalsize
+\penwd{1.25pt}
+\function{-2,2,.1}{3*sin(3.14159265*abs(x)/4)}
+\point[4pt]{(-2,3), (2,3),  (0,0)}
+\end{mfpic}
+
+\end{multicols}
+\end{enumerate}
+
+\end{enumerate}
+
+
+\end{document}

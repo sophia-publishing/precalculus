@@ -1,0 +1,1511 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.3)  3 JUN 2017 16:16
+entering extended mode
+**./CompilerAlgebraAppendix.tex
+(CompilerAlgebraAppendix.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+) (C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count100
+\ST@wd=\dimen112
+\ST@rightskip=\skip58
+\ST@leftskip=\skip59
+\ST@parfillskip=\skip60
+\ST@pageleft=\dimen113
+\ST@headht=\dimen114
+\ST@tailht=\dimen115
+\ST@pagesofar=\dimen116
+\ST@pboxht=\dimen117
+\ST@lineht=\dimen118
+\ST@stretchht=\dimen119
+\ST@prevht=\dimen120
+\ST@toadd=\dimen121
+\ST@dimen=\dimen122
+\ST@pbox=\box28
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count101
+\LTcapwidth=\dimen123
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks26
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\hhline.sty"
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+) (C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen124
+\extrarowheight=\dimen125
+\NC@list=\toks27
+\extratabsurround=\skip65
+\backup@length=\skip66
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count106
+))
+\everycr=\toks28
+\minrowclearance=\skip67
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\import\import.sty
+Package: import 2009/03/23  v 5.1
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count107
+\mult@box=\box33
+\multicol@leftmargin=\dimen126
+\c@unbalance=\count108
+\c@collectmore=\count109
+\doublecol@number=\count110
+\multicoltolerance=\count111
+\multicolpretolerance=\count112
+\full@width=\dimen127
+\page@free=\dimen128
+\premulticols=\dimen129
+\postmulticols=\dimen130
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box34
+\last@line=\box35
+\maxbalancingoverflow=\dimen131
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\c@columnbadness=\count113
+\c@finalcolumnbadness=\count114
+\last@try=\dimen132
+\multicolovershoot=\dimen133
+\multicolundershoot=\dimen134
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\mc@col@check@num=\count115
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\boxedminipage\boxedminipage.sty)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\chapterfolder\chapterfolder.sty
+Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@@cf@currentpos=\count116
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\generic\mfpic\mfpic.sty
+Package: mfpic 2012/12/03 v1.10. Macros for drawing with Metafont/MetaPost.
+
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\generic\mfpic\mfpic.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\mfp@out=\write3
+\mfp@graph=\read1
+\mfp@count=\count117
+\mfp@linetype=\count118
+\mfp@sequence=\count119
+\mfp@toks=\toks29
+\mfp@verbtex=\toks30
+\mfp@fdc=\count120
+\@wholegraph=\box59
+\@textbox=\box60
+\@alltlabels=\box61
+\@backtext=\box62
+\@tlabelstop=\fontdimen 23\mfp@dummy 
+\@tlabelsbot=\fontdimen 24\mfp@dummy 
+\@tlabelsleft=\fontdimen 25\mfp@dummy 
+\@graphright=\fontdimen 26\mfp@dummy 
+\@graphleft=\fontdimen 27\mfp@dummy 
+\@graphtop=\fontdimen 28\mfp@dummy 
+\@graphbot=\fontdimen 29\mfp@dummy 
+\tb@raise=\fontdimen 30\mfp@dummy 
+\tb@moveright=\fontdimen 31\mfp@dummy 
+\tb@totalht=\fontdimen 32\mfp@dummy 
+\tlabel@hadj=\fontdimen 33\mfp@dummy 
+\tlabel@vadj=\fontdimen 34\mfp@dummy 
+\tlabel@sep=\fontdimen 35\mfp@dummy 
+\tlpath@sep=\fontdimen 36\mfp@dummy 
+\mfpicunit=\fontdimen 37\mfp@dummy 
+\@mfpicunit=\fontdimen 38\mfp@dummy 
+\pointsize=\fontdimen 39\mfp@dummy 
+\shadespace=\fontdimen 40\mfp@dummy 
+\polkadotspace=\fontdimen 41\mfp@dummy 
+\hatchspace=\fontdimen 42\mfp@dummy 
+\headlen=\fontdimen 43\mfp@dummy 
+\axisheadlen=\fontdimen 44\mfp@dummy 
+\sideheadlen=\fontdimen 45\mfp@dummy 
+\hashlen=\fontdimen 46\mfp@dummy 
+\dashlen=\fontdimen 47\mfp@dummy 
+\dashspace=\fontdimen 48\mfp@dummy 
+\dotsize=\fontdimen 49\mfp@dummy 
+\griddotsize=\fontdimen 50\mfp@dummy 
+\dotspace=\fontdimen 51\mfp@dummy 
+\symbolspace=\fontdimen 52\mfp@dummy 
+\mfp@scratch=\dimen135
+\mfpframesep=\dimen136
+\mfpframethickness=\dimen137
+\mfpicheight=\dimen138
+\mfpicwidth=\dimen139
+\mfpiccaptionskip=\skip70
+\tl@vpos=\count121
+\tl@hpos=\count122
+\mfp@commentchar=\count123
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks31
+)
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen142
+\Hy@linkcounter=\count124
+\Hy@pagecounter=\count125
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count126
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4374.
+Package hyperref Info: Option `plainpages' set `false' on input line 4374.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count127
+
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen143
+\Fld@menulength=\count128
+\Field@Width=\dimen144
+\Fld@charsize=\dimen145
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count129
+\c@Item=\count130
+\c@Hfootnote=\count131
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count132
+\c@bookmark@seq@number=\count133
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip71
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\c@defn=\count134
+\c@thm=\count135
+\c@eqn=\count136
+\c@ex=\count137
+\c@HW=\count138
+\c@HWindent=\count139
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\sfmath\sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/phv/m/n on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 330.
+\symSFMath=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  OT1/phv/m/sl --> OT1/phv/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+(Font)                  OML/cmm/m/it --> OT1/phv/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/cmm/b/it --> OT1/phv/bx/sl on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/phv/bx/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/phv/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 466.
+)
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 51.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 51.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 51.
+ (CompilerAlgebraAppendix.aux (AlgebraAppendix.aux
+
+LaTeX Warning: Label `inversemidpoint' multiply defined.
+
+))
+\openout1 = `CompilerAlgebraAppendix.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 61.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 61.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 61.
+
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count140
+\scratchdimen=\dimen146
+\scratchbox=\box63
+\nofMPsegments=\count141
+\nofMParguments=\count142
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen147
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
+\everyMPtoPDFconversion=\toks33
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring ON on input line 61.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count146
+)
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
+ (CompilerAlgebraAppendix.out)
+(CompilerAlgebraAppendix.out)
+\@outlinefile=\write4
+\openout4 = `CompilerAlgebraAppendix.out'.
+
+
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 63.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 19.08076pt on input line 63.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 22.88956pt on input line 63.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 22.88956pt on input line 63.
+[1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+\openout2 = `AlgebraAppendix.aux'.
+
+ (AlgebraAppendix.tex
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 4.59999pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.07397pt on input line 21.
+
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 2 undefined on input line 21.
+
+
+LaTeX Warning: Reference `SystemsofEquationsandMatrices' on page 2 undefined on input line 25.
+
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 2 undefined on input line 29.
+
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 2 undefined on input line 33.
+
+[2
+
+]
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 3 undefined on input line 41.
+
+
+LaTeX Warning: Reference `ComplexZeros' on page 3 undefined on input line 45.
+
+
+LaTeX Warning: Reference `RationalFunctions' on page 3 undefined on input line 49.
+
+
+LaTeX Warning: Reference `RootRadicalPowerFunctions' on page 3 undefined on input line 53.
+
+[3]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 61.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 13.24796pt on input line 61.
+ (AppSetTheory.tex
+
+Mfpic: Initializing AppSetTheory.mp.
+\openout3 = `AppSetTheory.mp'.
+
+Mfpic: Don't forget to process AppSetTheory.mp!
+Mfpic: Apply metapost to AppSetTheory.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 78.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 78.
+ [4]
+File: AppSetTheory.1 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.1) [5]
+File: AppSetTheory.2 Graphic file (type mps)
+ [MP to PDF]
+(AppSetTheory.2)
+File: AppSetTheory.3 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.3)
+File: AppSetTheory.4 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.4) [6]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 310.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 310.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 310.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 310.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 310.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.27998pt on input line 310.
+
+
+LaTeX Warning: Reference `Summation' on page 7 undefined on input line 310.
+
+
+LaTeX Warning: Reference `AppAngles' on page 7 undefined on input line 310.
+
+[7]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 346.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 346.
+ [8]
+
+LaTeX Warning: Reference `Summation' on page 9 undefined on input line 358.
+
+File: AppSetTheory.5 Graphic file (type mps)
+[MP to PDF] (AppSetTheory.5) [9]
+
+LaTeX Warning: Reference `Summation' on page 10 undefined on input line 408.
+
+File: AppSetTheory.6 Graphic file (type mps)
+[MP to PDF] (AppSetTheory.6)
+File: AppSetTheory.7 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.7)
+File: AppSetTheory.8 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.8)
+File: AppSetTheory.9 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.9)
+[10]
+File: AppSetTheory.10 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.10)
+File: AppSetTheory.11 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.11)
+File: AppSetTheory.12 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.12)
+File: AppSetTheory.13 Graphic file (type mps)
+ [MP to PDF]
+(AppSetTheory.13)
+File: AppSetTheory.14 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.14)
+File: AppSetTheory.15 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.15)
+File: AppSetTheory.16 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.16)
+File: AppSetTheory.17 Graphic file (type mps)
+ [MP to PDF]
+(AppSetTheory.17)
+File: AppSetTheory.18 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.18) [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+File: AppSetTheory.19 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.19)
+File: AppSetTheory.20 Graphic file (type mps)
+ [MP to PDF]
+(AppSetTheory.20)
+File: AppSetTheory.21 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.21)
+File: AppSetTheory.22 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.22) [13]
+File: AppSetTheory.23 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.23)
+File: AppSetTheory.24 Graphic file (type mps)
+
+[MP to PDF] (AppSetTheory.24)
+File: AppSetTheory.25 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.25) [14] (ExercisesforAppSetTheory.tex
+File: AppSetTheory.26 Graphic file (type mps)
+ [MP to PDF]
+(AppSetTheory.26)
+File: AppSetTheory.27 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.27)
+File: AppSetTheory.28 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.28) [15]
+File: AppSetTheory.29 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.29)
+[16]
+File: AppSetTheory.30 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.30)
+File: AppSetTheory.31 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.31)
+File: AppSetTheory.32 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.32)
+File: AppSetTheory.33 Graphic file (type mps)
+ [MP to PDF]
+(AppSetTheory.33)
+File: AppSetTheory.34 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.34)
+File: AppSetTheory.35 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.35)
+File: AppSetTheory.36 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.36)
+File: AppSetTheory.37 Graphic file (type mps)
+ [MP to PDF]
+(AppSetTheory.37)
+File: AppSetTheory.38 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.38)
+File: AppSetTheory.39 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.39) [17]
+File: AppSetTheory.40 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.40)
+File: AppSetTheory.41 Graphic file (type mps)
+
+[MP to PDF] (AppSetTheory.41)
+Underfull \vbox (badness 4505) has occurred while \output is active []
+
+ [18]
+File: AppSetTheory.42 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.42)
+File: AppSetTheory.43 Graphic file (type mps)
+ [MP to PDF]
+(AppSetTheory.43)
+File: AppSetTheory.44 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.44)
+File: AppSetTheory.45 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.45)
+File: AppSetTheory.46 Graphic file (type mps)
+ [MP to PDF] (AppSetTheory.46))) [19]
+(AppRealNumberArithmetic.tex
+
+Mfpic: No file AppRealNumberArithmetic.1.
+
+Mfpic: Initializing AppRealNumberArithmetic.mp.
+\openout3 = `AppRealNumberArithmetic.mp'.
+
+Mfpic: Don't forget to process AppRealNumberArithmetic.mp!
+Mfpic: Apply metapost to AppRealNumberArithmetic.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+[20]
+
+LaTeX Warning: Reference `RationalFunctions' on page 21 undefined on input line 130.
+
+[21]
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 22 undefined on input line 134.
+
+[22] [23]
+Overfull \hbox (1.19293pt too wide) in paragraph at lines 239--240
+[]$[]$[] 
+ []
+
+[24] [25] [26] [27] [28] [29]
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+ [30] [31] [32]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 7.35999pt on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 5.51999pt on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 10.07397pt on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <8> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 7.35999pt on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <6> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 601.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 5.51999pt on input line 601.
+
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 33 undefined on input line 609.
+
+[33] [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 4316) has occurred while \output is active []
+
+ [36] [37] (ExercisesforAppRealNumberArithmetic.tex
+Overfull \hbox (18.632pt too wide) in paragraph at lines 92--93
+[]$[]$ 
+ []
+
+
+Overfull \hbox (8.44061pt too wide) in paragraph at lines 104--105
+[]$[]$ 
+ []
+
+[38])) [39] (AppCartesianPlane.tex
+
+Mfpic: Initializing AppCartesianPlane.mp.
+\openout3 = `AppCartesianPlane.mp'.
+
+Mfpic: Don't forget to process AppCartesianPlane.mp!
+Mfpic: Apply metapost to AppCartesianPlane.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+File: AppCartesianPlane.1 Graphic file (type mps)
+[MP to PDF] (AppCartesianPlane.1)
+
+LaTeX Warning: Reference `PolarCoordinates' on page 40 undefined on input line 37.
+
+[40]
+File: AppCartesianPlane.2 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.2)
+File: AppCartesianPlane.3 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.3)
+Underfull \vbox (badness 3417) has occurred while \output is active []
+
+ [41]
+File: AppCartesianPlane.4 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.4)
+File: AppCartesianPlane.5 Graphic file (type mps)
+ [MP to PDF]
+(AppCartesianPlane.5) [42]
+File: AppCartesianPlane.6 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.6) [43]
+File: AppCartesianPlane.7 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.7)
+File: AppCartesianPlane.8 Graphic file (type mps)
+ [MP to PDF]
+(AppCartesianPlane.8) [44]
+
+LaTeX Warning: Reference `QDensity' on page 45 undefined on input line 369.
+
+File: AppCartesianPlane.9 Graphic file (type mps)
+[MP to PDF] (AppCartesianPlane.9)
+File: AppCartesianPlane.10 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.10) [45] [46]
+File: AppCartesianPlane.11 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.11)
+[47] [48] [49] (ExercisesforAppCartesianPlane.tex
+File: AppCartesianPlane.12 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.12) [50]
+
+LaTeX Warning: Reference `TheConicSections' on page 51 undefined on input line 124.
+
+
+LaTeX Warning: Reference `magdirprops' on page 51 undefined on input line 138.
+
+
+LaTeX Warning: Reference `Vectors' on page 51 undefined on input line 138.
+
+[51]
+File: AppCartesianPlane.13 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.13)
+File: AppCartesianPlane.14 Graphic file (type mps)
+ [MP to PDF] (AppCartesianPlane.14)
+Overfull \hbox (2.92192pt too wide) in paragraph at lines 175--216
+[]  [] 
+ []
+
+[52]
+
+LaTeX Warning: Reference `triangleinequalityreals' on page 53 undefined on input line 231.
+
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 53 undefined on input line 231.
+
+[53]
+Overfull \hbox (10.55203pt too wide) in paragraph at lines 249--250
+[]\OT1/phv/m/n/10.95 The re-quired points $ \OT1/phv/m/sl/10.95 A\OT1/phv/m/n/10.95 (\OMS/cmsy/m/n/10.95  \OT1/phv/m/n/1
+0.95 3, \OMS/cmsy/m/n/10.95  \OT1/phv/m/n/10.95 7)$, $ \OT1/phv/m/sl/10.95 B\OT1/phv/m/n/10.95 (1.3, \OMS/cmsy/m/n/10.95
+  \OT1/phv/m/n/10.95 2)$, $ \OT1/phv/m/sl/10.95 C\OT1/phv/m/n/10.95 (\OML/cmm/m/it/10.95 \OT1/phv/m/n/10.95 , [])$, $ \
+OT1/phv/m/sl/10.95 D\OT1/phv/m/n/10.95 (0, 8)$, $ \OT1/phv/m/sl/10.95 E\OT1/phv/m/n/10.95 (\OMS/cmsy/m/n/10.95  \OT1/phv
+/m/n/10.95 5.5, 0)$, $ \OT1/phv/m/sl/10.95 F\OT1/phv/m/n/10.95 (\OMS/cmsy/m/n/10.95  \OT1/phv/m/n/10.95 8, 4)$, $ \OT1/p
+hv/m/sl/10.95 G\OT1/phv/m/n/10.95 (9.2, \OMS/cmsy/m/n/10.95  \OT1/phv/m/n/10.95 7.8)$,
+ []
+
+File: AppCartesianPlane.15 Graphic file (type mps)
+[MP to PDF] (AppCartesianPlane.15)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 286.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 292.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.19998pt on input line 292.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 6.43999pt on input line 292.
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 296.
+)) [55] (AppLinearEqIneq.tex
+
+Mfpic: No file AppLinearEqIneq.1.
+
+Mfpic: Initializing AppLinearEqIneq.mp.
+\openout3 = `AppLinearEqIneq.mp'.
+
+Mfpic: Don't forget to process AppLinearEqIneq.mp!
+Mfpic: Apply metapost to AppLinearEqIneq.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+[56] [57] [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59] [60] [61] [62] [63]
+(ExercisesforAppLinearEqIneq.tex [64] [65] [66])) [67] (AppLines.tex
+
+Mfpic: Initializing AppLines.mp.
+\openout3 = `AppLines.mp'.
+
+Mfpic: Don't forget to process AppLines.mp!
+Mfpic: Apply metapost to AppLines.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+File: AppLines.1 Graphic file (type mps)
+[MP to PDF] (AppLines.1)
+File: AppLines.2 Graphic file (type mps)
+ [MP to PDF] (AppLines.2)
+File: AppLines.3 Graphic file (type mps)
+ [MP to PDF] (AppLines.3) [68]
+File: AppLines.4 Graphic file (type mps)
+ [MP to PDF] (AppLines.4)
+File: AppLines.5 Graphic file (type mps)
+ [MP to PDF]
+(AppLines.5)
+File: AppLines.6 Graphic file (type mps)
+ [MP to PDF] (AppLines.6)
+File: AppLines.7 Graphic file (type mps)
+ [MP to PDF] (AppLines.7)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69]
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 70 undefined on input line 209.
+
+File: AppLines.8 Graphic file (type mps)
+[MP to PDF] (AppLines.8)
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 70 undefined on input line 236.
+
+[70]
+File: AppLines.9 Graphic file (type mps)
+ [MP to PDF] (AppLines.9)
+File: AppLines.10 Graphic file (type mps)
+ [MP to PDF] (AppLines.10)
+
+LaTeX Warning: Reference `Relations' on page 71 undefined on input line 283.
+
+[71]
+File: AppLines.11 Graphic file (type mps)
+ [MP to PDF] (AppLines.11)
+File: AppLines.12 Graphic file (type mps)
+ [MP to PDF] (AppLines.12)
+Overfull \hbox (17.37572pt too wide) in paragraph at lines 334--366
+[]  [] 
+ []
+
+File: AppLines.13 Graphic file (type mps)
+[MP to PDF] (AppLines.13)
+File: AppLines.14 Graphic file (type mps)
+ [MP to PDF] (AppLines.14) [72]
+File: AppLines.15 Graphic file (type mps)
+ [MP to PDF] (AppLines.15)
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 73 undefined on input line 475.
+
+[73]
+File: AppLines.16 Graphic file (type mps)
+ [MP to PDF] (AppLines.16) [74]
+File: AppLines.17 Graphic file (type mps)
+ [MP to PDF] (AppLines.17)
+File: AppLines.18 Graphic file (type mps)
+ [MP to PDF] (AppLines.18)
+Overfull \hbox (17.37572pt too wide) in paragraph at lines 544--575
+[]  [] 
+ []
+
+
+LaTeX Warning: Reference `RationalFunctions' on page 75 undefined on input line 611.
+
+[75]
+File: AppLines.19 Graphic file (type mps)
+ [MP to PDF] (AppLines.19)
+File: AppLines.20 Graphic file (type mps)
+ [MP to PDF] (AppLines.20) [76]
+<./AppLinesGraphics/A5Graph01.jpg, id=1314, 2806.485pt x 1519.6775pt>
+File: ./AppLinesGraphics/A5Graph01.jpg Graphic file (type jpg)
+ <use ./AppLinesGraphics/A5Graph01.jpg>
+Package pdftex.def Info: ./AppLinesGraphics/A5Graph01.jpg used on input line 745.
+(pdftex.def)             Requested size: 144.54pt x 78.26079pt.
+
+<./AppLinesGraphics/A5Graph02.jpg, id=1315, 2808.4925pt x 1511.6475pt>
+File: ./AppLinesGraphics/A5Graph02.jpg Graphic file (type jpg)
+ <use ./AppLinesGraphics/A5Graph02.jpg>
+Package pdftex.def Info: ./AppLinesGraphics/A5Graph02.jpg used on input line 747.
+(pdftex.def)             Requested size: 144.54pt x 77.77805pt.
+ [77 <./AppLinesGraphics/A5Graph01.jpg> <./AppLinesGraphics/A5Graph02.jpg>]
+
+LaTeX Warning: Reference `InverseFunctions' on page 78 undefined on input line 770.
+
+File: AppLines.21 Graphic file (type mps)
+[MP to PDF] (AppLines.21) [78] (ExercisesforAppLines.tex [79]
+File: AppLines.22 Graphic file (type mps)
+ [MP to PDF] (AppLines.22) [80]
+File: AppLines.23 Graphic file (type mps)
+ [MP to PDF] (AppLines.23)
+File: AppLines.24 Graphic file (type mps)
+
+[MP to PDF] (AppLines.24)
+Overfull \vbox (14.54675pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (20.04675pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (14.54675pt too high) has occurred while \output is active []
+
+ [81]
+File: AppLines.25 Graphic file (type mps)
+ [MP to PDF] (AppLines.25)
+File: AppLines.26 Graphic file (type mps)
+ [MP to PDF]
+(AppLines.26)
+File: AppLines.27 Graphic file (type mps)
+ [MP to PDF] (AppLines.27)
+File: AppLines.28 Graphic file (type mps)
+ [MP to PDF] (AppLines.28)
+File: AppLines.29 Graphic file (type mps)
+ [MP to PDF] (AppLines.29)
+File: AppLines.30 Graphic file (type mps)
+ [MP to PDF] (AppLines.30)
+[82])) [83] (AppLinearSystems.tex
+
+Mfpic: Initializing AppLinearSystems.mp.
+\openout3 = `AppLinearSystems.mp'.
+
+Mfpic: Don't forget to process AppLinearSystems.mp!
+Mfpic: Apply metapost to AppLinearSystems.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+
+LaTeX Warning: Reference `SystemsofEquationsandMatrices' on page 84 undefined on input line 25.
+
+
+LaTeX Warning: Reference `SystemsofEquationsandMatrices' on page 84 undefined on input line 29.
+
+[84]
+File: AppLinearSystems.1 Graphic file (type mps)
+ [MP to PDF] (AppLinearSystems.1)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <5> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 100.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 4.59999pt on input line 100.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <5> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 100.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 4.59999pt on input line 100.
+File: AppLinearSystems.2 Graphic file (type mps)
+ [MP to PDF] (AppLinearSystems.2) [85] [86]
+File: AppLinearSystems.3 Graphic file (type mps)
+ [MP to PDF] (AppLinearSystems.3)
+File: AppLinearSystems.4 Graphic file (type mps)
+
+[MP to PDF] (AppLinearSystems.4)
+File: AppLinearSystems.5 Graphic file (type mps)
+ [MP to PDF] (AppLinearSystems.5)
+File: AppLinearSystems.6 Graphic file (type mps)
+ [MP to PDF] (AppLinearSystems.6) [87] [88] [89]
+(ExercisesforAppLinearSystems.tex [90])) [91] (AppAbsValEqIneq.tex
+
+Mfpic: Initializing AppAbsValEqIneq.mp.
+\openout3 = `AppAbsValEqIneq.mp'.
+
+Mfpic: Don't forget to process AppAbsValEqIneq.mp!
+Mfpic: Apply metapost to AppAbsValEqIneq.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 92 undefined on input line 9.
+
+File: AppAbsValEqIneq.1 Graphic file (type mps)
+[MP to PDF] (AppAbsValEqIneq.1)
+File: AppAbsValEqIneq.2 Graphic file (type mps)
+ [MP to PDF] (AppAbsValEqIneq.2)
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 92 undefined on input line 85.
+
+[92]
+File: AppAbsValEqIneq.3 Graphic file (type mps)
+ [MP to PDF] (AppAbsValEqIneq.3) [93] [94]
+File: AppAbsValEqIneq.4 Graphic file (type mps)
+ [MP to PDF] (AppAbsValEqIneq.4)
+File: AppAbsValEqIneq.5 Graphic file (type mps)
+ [MP to PDF] (AppAbsValEqIneq.5) [95]
+[96]
+Underfull \vbox (badness 2512) has occurred while \output is active []
+
+ [97] [98] (ExercisesforAppAbsValEqIneq.tex [99]))
+[100] (AppPolyArith.tex
+
+Mfpic: No file AppPolyArith.1.
+
+Mfpic: Initializing AppPolyArith.mp.
+\openout3 = `AppPolyArith.mp'.
+
+Mfpic: Don't forget to process AppPolyArith.mp!
+Mfpic: Apply metapost to AppPolyArith.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 101 undefined on input line 9.
+
+[101]
+
+LaTeX Warning: Reference `Induction' on page 102 undefined on input line 121.
+
+[102] [103] [104] [105] [106]
+Underfull \vbox (badness 1571) has occurred while \output is active []
+
+ [107] [108] (ExercisesforAppPolyArith.tex [109]))
+[110] (AppFactoring.tex
+
+Mfpic: No file AppFactoring.1.
+
+Mfpic: Initializing AppFactoring.mp.
+\openout3 = `AppFactoring.mp'.
+
+Mfpic: Don't forget to process AppFactoring.mp!
+Mfpic: Apply metapost to AppFactoring.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+
+LaTeX Warning: Reference `Polydivision' on page 111 undefined on input line 17.
+
+
+LaTeX Warning: Reference `RealZeros' on page 111 undefined on input line 31.
+
+[111] [112] [113] [114]
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 115 undefined on input line 224.
+
+[115] [116] [117] [118] [119] [120] [121] (ExercisesforAppFactoring.tex [122])) [123] (AppQuadEqus.tex
+
+Mfpic: No file AppQuadEqus.1.
+
+Mfpic: Initializing AppQuadEqus.mp.
+\openout3 = `AppQuadEqus.mp'.
+
+Mfpic: Don't forget to process AppQuadEqus.mp!
+Mfpic: Apply metapost to AppQuadEqus.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 124 undefined on input line 9.
+
+[124]
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 125 undefined on input line 61.
+
+[125] [126] [127] [128] [129] [130]
+Underfull \vbox (badness 1616) has occurred while \output is active []
+
+ [131] [132] [133] [134] (ExercisesforAppQuadEqus.tex [135])) [136] (AppCmpNums.tex
+
+Mfpic: No file AppCmpNums.1.
+
+Mfpic: Initializing AppCmpNums.mp.
+\openout3 = `AppCmpNums.mp'.
+
+Mfpic: Don't forget to process AppCmpNums.mp!
+Mfpic: Apply metapost to AppCmpNums.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+[137] [138]
+
+LaTeX Warning: Reference `ComplexZeros' on page 139 undefined on input line 110.
+
+
+LaTeX Warning: Reference `Induction' on page 139 undefined on input line 147.
+
+[139]
+
+LaTeX Warning: Reference `QuadEqus' on page 140 undefined on input line 174.
+
+[140]
+
+LaTeX Warning: Reference `ComplexZeros' on page 141 undefined on input line 243.
+
+[141] (ExercisesforAppCmpNums.tex [142] [143] [144])) [145] (AppRatExpEqus.tex
+
+Mfpic: No file AppRatExpEqus.1.
+
+Mfpic: Initializing AppRatExpEqus.mp.
+\openout3 = `AppRatExpEqus.mp'.
+
+Mfpic: Don't forget to process AppRatExpEqus.mp!
+Mfpic: Apply metapost to AppRatExpEqus.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+[146] [147]
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+ [148]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [149] [150] [151]
+Underfull \vbox (badness 7925) has occurred while \output is active []
+
+ [152]
+Underfull \vbox (badness 2261) has occurred while \output is active []
+
+ [153]
+Underfull \vbox (badness 1436) has occurred while \output is active []
+
+ [154]
+Underfull \vbox (badness 1205) has occurred while \output is active []
+
+ [155] [156] [157] (ExercisesforAppRatExpEqus.tex
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]$[]$
+ []
+
+[158] [159])) [160] (AppRadEqus.tex
+
+Mfpic: No file AppRadEqus.1.
+
+Mfpic: Initializing AppRadEqus.mp.
+\openout3 = `AppRadEqus.mp'.
+
+Mfpic: Don't forget to process AppRadEqus.mp!
+Mfpic: Apply metapost to AppRadEqus.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+
+LaTeX Warning: Reference `OtherFunctionsinvolvingRadicals' on page 161 undefined on input line 9.
+
+
+LaTeX Warning: Reference `InverseFunctions' on page 161 undefined on input line 9.
+
+[161] [162]
+
+LaTeX Warning: Reference `PolarComplex' on page 163 undefined on input line 152.
+
+[163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] (ExercisesforAppRadEqus.tex [174]
+Overfull \hbox (17.53804pt too wide) in paragraph at lines 372--373
+[]$[]$ 
+ []
+
+)) [175] (AppVariation.tex
+
+Mfpic: No file AppVariation.1.
+
+Mfpic: Initializing AppVariation.mp.
+\openout3 = `AppVariation.mp'.
+
+Mfpic: Don't forget to process AppVariation.mp!
+Mfpic: Apply metapost to AppVariation.mp.
+Mfpic: Then reprocess this file "CompilerAlgebraAppendix".
+
+
+LaTeX Warning: Reference `BoyleslawRational' on page 176 undefined on input line 41.
+
+[176] [177] (ExercisesforAppVariation.tex [178] [179])) [180])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
+ (CompilerAlgebraAppendix.aux (AlgebraAppendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package rerunfilecheck Info: File `CompilerAlgebraAppendix.out' has not changed.
+(rerunfilecheck)             Checksum: A7870BE9C1F94858970105FF239EE9B2;3854.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
+ ) 
+Here is how much of TeX's memory you used:
+ 11286 strings out of 493323
+ 148928 string characters out of 3139070
+ 260534 words of memory out of 3000000
+ 12508 multiletter control sequences out of 15000+200000
+ 60937 words of font info for 118 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,22n,43p,1882b,904s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on CompilerAlgebraAppendix.pdf (180 pages, 1785842 bytes).
+PDF statistics:
+ 3437 PDF objects out of 3580 (max. 8388607)
+ 1795 named destinations out of 2073 (max. 500000)
+ 451 words of extra memory for PDF output out of 10000 (max. 10000000)
+

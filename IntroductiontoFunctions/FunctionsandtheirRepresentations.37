@@ -1,0 +1,52 @@
+%!PS
+%%BoundingBox: -1 -1 91 90 
+%%HiResBoundingBox: -0.62267 -0.24907 90.28621 89.91261 
+%%Creator: MetaPost 1.9991
+%%CreationDate: 2017.08.03:0918
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 0.49814 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 44.83177 moveto
+89.66354 44.83177 lineto stroke
+newpath 84.68224 47.32243 moveto
+85.85817 45.75452 87.70366 44.83177 89.66354 44.83177 curveto
+87.70366 44.83177 85.85817 43.90903 84.68224 42.34111 curveto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 44.83177 0 moveto
+44.83177 89.66354 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 42.34111 84.68224 moveto
+43.90903 85.85817 44.83177 87.70366 44.83177 89.66354 curveto
+44.83177 87.70366 45.75452 85.85817 47.32243 84.68224 curveto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 14.94392 42.83925 moveto
+14.94392 46.8243 lineto stroke
+newpath 29.88785 42.83925 moveto
+29.88785 46.8243 lineto stroke
+newpath 59.7757 42.83925 moveto
+59.7757 46.8243 lineto stroke
+newpath 74.71962 42.83925 moveto
+74.71962 46.8243 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 46.8243 14.94392 moveto
+42.83925 14.94392 lineto stroke
+newpath 46.8243 29.88785 moveto
+42.83925 29.88785 lineto stroke
+newpath 46.8243 59.7757 moveto
+42.83925 59.7757 lineto stroke
+newpath 46.8243 74.71962 moveto
+42.83925 74.71962 lineto stroke
+ 0 1.24533 dtransform truncate idtransform setlinewidth pop
+newpath 0 74.71962 moveto
+89.66354 74.71962 lineto stroke
+newpath 86.67476 76.21402 moveto
+87.38031 75.27327 88.48761 74.71962 89.66354 74.71962 curveto
+88.48761 74.71962 87.38031 74.16597 86.67476 73.22522 curveto stroke
+newpath 2.98878 73.22522 moveto
+2.28323 74.16597 1.17593 74.71962 0 74.71962 curveto
+1.17593 74.71962 2.28323 75.27327 2.98878 76.21402 curveto stroke
+showpage
+%%EOF

@@ -1,0 +1,55 @@
+%!PS
+%%BoundingBox: -1 -1 90 130 
+%%HiResBoundingBox: -0.24907 -0.24907 89.91261 129.76308 
+%%Creator: MetaPost 1.9991
+%%CreationDate: 2017.08.14:1609
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 0.49814 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 119.55139 moveto
+89.66354 119.55139 lineto stroke
+newpath 84.68224 122.04205 moveto
+85.85817 120.47414 87.70366 119.55139 89.66354 119.55139 curveto
+87.70366 119.55139 85.85817 118.62865 84.68224 117.06073 curveto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 9.96262 0 moveto
+9.96262 129.514 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 7.47195 124.5327 moveto
+9.03987 125.70863 9.96262 127.55412 9.96262 129.514 curveto
+9.96262 127.55412 10.88536 125.70863 12.45328 124.5327 curveto stroke
+newpath 59.7757 29.88785 moveto
+61.60727 31.71942 lineto
+57.94412 28.05627 lineto
+59.7757 29.88785 lineto
+61.60727 28.05627 lineto
+57.94412 31.71942 lineto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 39.05891 117.55887 moveto
+39.05891 121.54391 lineto stroke
+newpath 59.7757 117.55887 moveto
+59.7757 121.54391 lineto stroke
+newpath 80.49232 117.55887 moveto
+80.49232 121.54391 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 11.95514 9.17122 moveto
+7.9701 9.17122 lineto stroke
+newpath 11.95514 29.88785 moveto
+7.9701 29.88785 lineto stroke
+newpath 11.95514 50.60463 moveto
+7.9701 50.60463 lineto stroke
+ 0 1.24533 dtransform truncate idtransform setlinewidth pop
+newpath 80.49202 29.88785 moveto
+80.49202 35.38237 78.30905 40.65129 74.4241 44.53625 curveto
+70.53914 48.4212 65.27022 50.60417 59.7757 50.60417 curveto
+54.28117 50.60417 49.01225 48.4212 45.12729 44.53625 curveto
+41.24234 40.65129 39.05937 35.38237 39.05937 29.88785 curveto
+39.05937 24.39333 41.24234 19.1244 45.12729 15.23944 curveto
+49.01225 11.35449 54.28117 9.17152 59.7757 9.17152 curveto
+65.27022 9.17152 70.53914 11.35449 74.4241 15.23944 curveto
+78.30905 19.1244 80.49202 24.39333 80.49202 29.88785 curveto closepath stroke
+showpage
+%%EOF

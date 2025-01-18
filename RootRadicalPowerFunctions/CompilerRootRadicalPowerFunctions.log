@@ -1,0 +1,1787 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUL 2017 12:37
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**CompilerRootRadicalPowerFunctions.tex
+(./CompilerRootRadicalPowerFunctions.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count100
+\ST@wd=\dimen112
+\ST@rightskip=\skip58
+\ST@leftskip=\skip59
+\ST@parfillskip=\skip60
+\ST@pageleft=\dimen113
+\ST@headht=\dimen114
+\ST@tailht=\dimen115
+\ST@pagesofar=\dimen116
+\ST@pboxht=\dimen117
+\ST@lineht=\dimen118
+\ST@stretchht=\dimen119
+\ST@prevht=\dimen120
+\ST@toadd=\dimen121
+\ST@dimen=\dimen122
+\ST@pbox=\box28
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count101
+\LTcapwidth=\dimen123
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks26
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count106
+\calc@Bcount=\count107
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count108
+\calc@Cskip=\skip67
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count109
+\l_MT_multwidth_dim=\dimen126
+\origjot=\skip68
+\l_MT_shortvdotswithinadjustabove_dim=\dimen127
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen128
+\l_MT_above_intertext_sep=\dimen129
+\l_MT_below_intertext_sep=\dimen130
+\l_MT_above_shortintertext_sep=\dimen131
+\l_MT_below_shortintertext_sep=\dimen132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen133
+\extrarowheight=\dimen134
+\NC@list=\toks28
+\extratabsurround=\skip69
+\backup@length=\skip70
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count110
+))
+\everycr=\toks29
+\minrowclearance=\skip71
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count111
+\mult@box=\box33
+\multicol@leftmargin=\dimen135
+\c@unbalance=\count112
+\c@collectmore=\count113
+\doublecol@number=\count114
+\multicoltolerance=\count115
+\multicolpretolerance=\count116
+\full@width=\dimen136
+\page@free=\dimen137
+\premulticols=\dimen138
+\postmulticols=\dimen139
+\multicolsep=\skip72
+\multicolbaselineskip=\skip73
+\partial@page=\box34
+\last@line=\box35
+\maxbalancingoverflow=\dimen140
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\c@columnbadness=\count117
+\c@finalcolumnbadness=\count118
+\last@try=\dimen141
+\multicolovershoot=\dimen142
+\multicolundershoot=\dimen143
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\mc@col@check@num=\count119
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty
+Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@@cf@currentpos=\count120
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/mfpic/mfpic.sty
+Package: mfpic 2012/12/03 v1.10. Macros for drawing with Metafont/MetaPost.
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/mfpic/mfpic.tex
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\mfp@out=\write3
+\mfp@graph=\read1
+\mfp@count=\count121
+\mfp@linetype=\count122
+\mfp@sequence=\count123
+\mfp@toks=\toks30
+\mfp@verbtex=\toks31
+\mfp@fdc=\count124
+\@wholegraph=\box59
+\@textbox=\box60
+\@alltlabels=\box61
+\@backtext=\box62
+\@tlabelstop=\fontdimen 23\mfp@dummy 
+\@tlabelsbot=\fontdimen 24\mfp@dummy 
+\@tlabelsleft=\fontdimen 25\mfp@dummy 
+\@graphright=\fontdimen 26\mfp@dummy 
+\@graphleft=\fontdimen 27\mfp@dummy 
+\@graphtop=\fontdimen 28\mfp@dummy 
+\@graphbot=\fontdimen 29\mfp@dummy 
+\tb@raise=\fontdimen 30\mfp@dummy 
+\tb@moveright=\fontdimen 31\mfp@dummy 
+\tb@totalht=\fontdimen 32\mfp@dummy 
+\tlabel@hadj=\fontdimen 33\mfp@dummy 
+\tlabel@vadj=\fontdimen 34\mfp@dummy 
+\tlabel@sep=\fontdimen 35\mfp@dummy 
+\tlpath@sep=\fontdimen 36\mfp@dummy 
+\mfpicunit=\fontdimen 37\mfp@dummy 
+\@mfpicunit=\fontdimen 38\mfp@dummy 
+\pointsize=\fontdimen 39\mfp@dummy 
+\shadespace=\fontdimen 40\mfp@dummy 
+\polkadotspace=\fontdimen 41\mfp@dummy 
+\hatchspace=\fontdimen 42\mfp@dummy 
+\headlen=\fontdimen 43\mfp@dummy 
+\axisheadlen=\fontdimen 44\mfp@dummy 
+\sideheadlen=\fontdimen 45\mfp@dummy 
+\hashlen=\fontdimen 46\mfp@dummy 
+\dashlen=\fontdimen 47\mfp@dummy 
+\dashspace=\fontdimen 48\mfp@dummy 
+\dotsize=\fontdimen 49\mfp@dummy 
+\griddotsize=\fontdimen 50\mfp@dummy 
+\dotspace=\fontdimen 51\mfp@dummy 
+\symbolspace=\fontdimen 52\mfp@dummy 
+\mfp@scratch=\dimen144
+\mfpframesep=\dimen145
+\mfpframethickness=\dimen146
+\mfpicheight=\dimen147
+\mfpicwidth=\dimen148
+\mfpiccaptionskip=\skip74
+\tl@vpos=\count125
+\tl@hpos=\count126
+\mfp@commentchar=\count127
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count128
+\Hy@pagecounter=\count129
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count130
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4322.
+Package hyperref Info: Option `plainpages' set `false' on input line 4322.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count131
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen152
+\Fld@menulength=\count132
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count133
+\c@Item=\count134
+\c@Hfootnote=\count135
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count136
+\c@bookmark@seq@number=\count137
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip75
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\c@defn=\count138
+\c@thm=\count139
+\c@eqn=\count140
+\c@ex=\count141
+\c@fig=\count142
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sfmath/sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/phv/m/n on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 330.
+\symSFMath=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  OT1/phv/m/sl --> OT1/phv/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+
+(Font)                  OML/cmm/m/it --> OT1/phv/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/cmm/b/it --> OT1/phv/bx/sl on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/phv/bx/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/phv/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 466.
+)
+(./CompilerRootRadicalPowerFunctions.aux (./RootRadicalPowerFunctions.aux))
+\openout1 = `CompilerRootRadicalPowerFunctions.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count143
+\scratchdimen=\dimen155
+\scratchbox=\box63
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen156
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring ON on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count149
+)
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+
+(./CompilerRootRadicalPowerFunctions.out)
+(./CompilerRootRadicalPowerFunctions.out)
+\@outlinefile=\write4
+\openout4 = `CompilerRootRadicalPowerFunctions.out'.
+
+\c@HW=\count150
+\c@HWindent=\count151
+
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 19.08076pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+[1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `RootRadicalPowerFunctions.aux'.
+
+
+(./RootRadicalPowerFunctions.tex
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 13.24796pt on input line 1.
+ (./RootRadicalFunctions.tex
+
+Mfpic: Initializing RootRadicalFunctions.mp.
+\openout3 = `RootRadicalFunctions.mp'.
+
+Mfpic: Don't forget to process RootRadicalFunctions.mp!
+Mfpic: Apply metapost to RootRadicalFunctions.mp.
+Mfpic: Then reprocess this file "CompilerRootRadicalPowerFunctions".
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.07397pt on input line 9.
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 2 undefined on in
+put line 9.
+
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 2 undefined on input 
+line 9.
+
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 2 undefined on input line
+ 9.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 4.59999pt on input line 9.
+
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 2 undefined on input lin
+e 9.
+
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 2 undefined on input lin
+e 9.
+
+
+LaTeX Warning: Reference `realfactorization' on page 2 undefined on input line 
+9.
+
+
+LaTeX Warning: Reference `RationalFunctions' on page 2 undefined on input line 
+9.
+
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 2 undefined on in
+put line 9.
+
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 2 undefined on input 
+line 9.
+
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 2 undefined on input line
+ 9.
+
+
+LaTeX Warning: Reference `PolynomialFunctions' on page 2 undefined on input lin
+e 9.
+
+
+LaTeX Warning: Reference `RationalFunctions' on page 2 undefined on input line 
+9.
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.27998pt on input line 9.
+
+LaTeX Warning: Reference `complexfactorization' on page 2 undefined on input li
+ne 9.
+
+
+LaTeX Warning: Reference `AppRealNumberArithmetic' on page 2 undefined on input
+ line 9.
+
+
+LaTeX Warning: Reference `AppRadEqus' on page 2 undefined on input line 9.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 14.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 14.
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 10.07397pt on input line 29.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 33.
+
+LaTeX Warning: Reference `ComplexZeros' on page 2 undefined on input line 33.
+
+
+LaTeX Warning: Reference `complexepilogue' on page 2 undefined on input line 33
+.
+
+
+LaTeX Warning: Reference `??' on page 2 undefined on input line 35.
+
+
+LaTeX Warning: Reference `RealZeros' on page 2 undefined on input line 35.
+
+File: RootRadicalFunctions.1 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.1)
+File: RootRadicalFunctions.2 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.2)
+File: RootRadicalFunctions.3 Graphic file (type mps)
+
+[MP to PDF] (./RootRadicalFunctions.3)
+Overfull \hbox (2.62553pt too wide) in paragraph at lines 37--88
+[][] 
+ []
+
+[2
+
+]
+File: RootRadicalFunctions.4 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.4)
+File: RootRadicalFunctions.5 Graphic file (type mps)
+ [MP to PDF]
+(./RootRadicalFunctions.5)
+File: RootRadicalFunctions.6 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.6)
+
+LaTeX Warning: Reference `linearabsvaluegraphs' on page 3 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Reference `standardformgraph' on page 3 undefined on input line 
+151.
+
+
+LaTeX Warning: Reference `linearmononialgraphs' on page 3 undefined on input li
+ne 151.
+
+
+LaTeX Warning: Reference `linearlaurentlgraphs' on page 3 undefined on input li
+ne 151.
+
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 155.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 155.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+
+LaTeX Warning: Reference `linearmononialgraphs' on page 4 undefined on input li
+ne 200.
+
+[4]
+File: RootRadicalFunctions.7 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.7)
+File: RootRadicalFunctions.8 Graphic file (type mps)
+ [MP to PDF]
+(./RootRadicalFunctions.8)
+File: RootRadicalFunctions.9 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.9)
+File: RootRadicalFunctions.10 Graphic file (type mps)
+ [MP to PDF]
+(./RootRadicalFunctions.10)
+File: RootRadicalFunctions.11 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.11)
+File: RootRadicalFunctions.12 Graphic file (type mps)
+
+[MP to PDF] (./RootRadicalFunctions.12)
+Underfull \vbox (badness 3250) has occurred while \output is active []
+
+ [5]
+File: RootRadicalFunctions.13 Graphic file (type mps)
+
+[MP to PDF] (./RootRadicalFunctions.13)
+File: RootRadicalFunctions.14 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.14)
+File: RootRadicalFunctions.15 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.15)
+File: RootRadicalFunctions.16 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.16)
+Overfull \hbox (3.08405pt too wide) detected at line 438
+[]
+ []
+
+File: RootRadicalFunctions.17 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.17)
+File: RootRadicalFunctions.18 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.18)
+Overfull \hbox (7.35207pt too wide) detected at line 480
+[]
+ []
+
+[6]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 518.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 518.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 518.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 518.
+
+
+LaTeX Warning: Reference `InverseFunctions' on page 7 undefined on input line 5
+18.
+
+[7]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 605.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 605.
+
+<./RootRadicalFunctionsGraphics/RadicalGraphEx01.jpg, id=145, 2764.3275pt x 150
+5.625pt>
+File: ./RootRadicalFunctionsGraphics/RadicalGraphEx01.jpg Graphic file (type jp
+g)
+ <use ./RootRadicalFunctionsGraphics/RadicalGraphEx01.jpg>
+Package pdftex.def Info: ./RootRadicalFunctionsGraphics/RadicalGraphEx01.jpg us
+ed on input line 617.
+(pdftex.def)             Requested size: 216.81pt x 118.08614pt.
+File: RootRadicalFunctions.19 Graphic file (type mps)
+ [MP to PDF]
+(./RootRadicalFunctions.19) [8]
+<./RootRadicalFunctionsGraphics/RadicalGraphEx02.jpg, id=160, 2766.335pt x 1507
+.6325pt>
+File: ./RootRadicalFunctionsGraphics/RadicalGraphEx02.jpg Graphic file (type jp
+g)
+ <use ./RootRadicalFunctionsGraphics/RadicalGraphEx02.jpg>
+Package pdftex.def Info: ./RootRadicalFunctionsGraphics/RadicalGraphEx02.jpg us
+ed on input line 656.
+(pdftex.def)             Requested size: 216.81pt x 118.15157pt.
+File: RootRadicalFunctions.20 Graphic file (type mps)
+ [MP to PDF]
+(./RootRadicalFunctions.20)
+Underfull \vbox (badness 5036) has occurred while \output is active []
+
+ [9 <./RootRadicalFunctionsGraphics/RadicalGraphEx01.jpg>]
+
+LaTeX Warning: Reference `hathm' on page 10 undefined on input line 678.
+
+
+LaTeX Warning: Reference `IntroRational' on page 10 undefined on input line 678
+.
+
+
+<./RootRadicalFunctionsGraphics/RadicalGraphEx03.jpg, id=167, 2768.3425pt x 149
+9.6025pt>
+File: ./RootRadicalFunctionsGraphics/RadicalGraphEx03.jpg Graphic file (type jp
+g)
+ <use ./RootRadicalFunctionsGraphics/RadicalGraphEx03.jpg>
+Package pdftex.def Info: ./RootRadicalFunctionsGraphics/RadicalGraphEx03.jpg us
+ed on input line 690.
+(pdftex.def)             Requested size: 216.81pt x 117.43074pt.
+File: RootRadicalFunctions.21 Graphic file (type mps)
+
+[MP to PDF] (./RootRadicalFunctions.21)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./RootRadicalFunctionsGraphics/RadicalGraphEx02.jpg>]
+
+LaTeX Warning: Reference `RealZeros' on page 11 undefined on input line 709.
+
+
+LaTeX Warning: Reference `IntroRational' on page 11 undefined on input line 713
+.
+
+
+<./RootRadicalFunctionsGraphics/RadicalGraphEx04.jpg, id=177, 2764.3275pt x 150
+5.625pt>
+File: ./RootRadicalFunctionsGraphics/RadicalGraphEx04.jpg Graphic file (type jp
+g)
+ <use ./RootRadicalFunctionsGraphics/RadicalGraphEx04.jpg>
+Package pdftex.def Info: ./RootRadicalFunctionsGraphics/RadicalGraphEx04.jpg us
+ed on input line 725.
+(pdftex.def)             Requested size: 216.81pt x 118.08614pt.
+File: RootRadicalFunctions.22 Graphic file (type mps)
+ [MP to PDF]
+(./RootRadicalFunctions.22) [11 <./RootRadicalFunctionsGraphics/RadicalGraphEx0
+3.jpg>]
+File: RootRadicalFunctions.23 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.23) [12 <./RootRadicalFunctionsGraphics/Ra
+dicalGraphEx04.jpg>]
+<./RootRadicalFunctionsGraphics/CostCableEx.jpg, id=193, 2778.38pt x 1513.655pt
+>
+File: ./RootRadicalFunctionsGraphics/CostCableEx.jpg Graphic file (type jpg)
+ <use ./RootRadicalFunctionsGraphics/CostCableEx.jpg>
+Package pdftex.def Info: ./RootRadicalFunctionsGraphics/CostCableEx.jpg used on
+ input line 821.
+(pdftex.def)             Requested size: 289.07999pt x 157.47183pt.
+ [13 <./RootRadicalFunctionsGraphics/CostCableEx.jpg>] (./ExercisesforRootRadic
+alFunctions.tex
+File: RootRadicalFunctions.24 Graphic file (type mps)
+
+[MP to PDF] (./RootRadicalFunctions.24)
+File: RootRadicalFunctions.25 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.25)
+File: RootRadicalFunctions.26 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.26)
+File: RootRadicalFunctions.27 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.27)
+Overfull \vbox (5.28558pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (6.06487pt too high) has occurred while \output is active []
+
+
+[14] [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+ []
+
+File: RootRadicalFunctions.28 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.28)
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+File: RootRadicalFunctions.29 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.29)
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+File: RootRadicalFunctions.30 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.30)
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+
+ []
+
+File: RootRadicalFunctions.31 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.31)
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+
+ []
+
+File: RootRadicalFunctions.32 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.32)
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+File: RootRadicalFunctions.33 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.33) [17]
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+
+ []
+
+File: RootRadicalFunctions.34 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.34)
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+File: RootRadicalFunctions.35 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.35)
+Underfull \hbox (badness 10000) in paragraph at lines 555--559
+
+ []
+
+File: RootRadicalFunctions.36 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.36)
+Underfull \hbox (badness 10000) in paragraph at lines 582--587
+
+ []
+
+File: RootRadicalFunctions.37 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.37)
+Underfull \hbox (badness 10000) in paragraph at lines 606--610
+
+ []
+
+File: RootRadicalFunctions.38 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.38)
+Underfull \hbox (badness 10000) in paragraph at lines 634--640
+
+ []
+
+File: RootRadicalFunctions.39 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.39) [18]
+Underfull \hbox (badness 10000) in paragraph at lines 661--665
+
+ []
+
+File: RootRadicalFunctions.40 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.40)
+Underfull \hbox (badness 10000) in paragraph at lines 690--697
+
+ []
+
+File: RootRadicalFunctions.41 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.41)
+Underfull \hbox (badness 10000) in paragraph at lines 716--720
+
+ []
+
+File: RootRadicalFunctions.42 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.42)
+Underfull \hbox (badness 10000) in paragraph at lines 742--748
+
+ []
+
+File: RootRadicalFunctions.43 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.43)
+File: RootRadicalFunctions.44 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.44)
+Underfull \hbox (badness 10000) in paragraph at lines 794--802
+
+ []
+
+File: RootRadicalFunctions.45 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.45) [19]
+Underfull \hbox (badness 10000) in paragraph at lines 823--825
+
+ []
+
+File: RootRadicalFunctions.46 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.46)
+Underfull \hbox (badness 10000) in paragraph at lines 848--856
+
+ []
+
+File: RootRadicalFunctions.47 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.47)
+File: RootRadicalFunctions.48 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.48)
+Underfull \hbox (badness 10000) in paragraph at lines 903--909
+
+ []
+
+File: RootRadicalFunctions.49 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.49)
+File: RootRadicalFunctions.50 Graphic file (type mps)
+ [MP to PDF] (./RootRadicalFunctions.50)
+Underfull \hbox (badness 10000) in paragraph at lines 960--970
+
+ []
+
+File: RootRadicalFunctions.51 Graphic file (type mps)
+[MP to PDF] (./RootRadicalFunctions.51)
+Overfull \vbox (10.6079pt too high) has occurred while \output is active []
+
+
+[20])) [21] (./PowerFunctions.tex
+
+Mfpic: Initializing PowerFunctions.mp.
+\openout3 = `PowerFunctions.mp'.
+
+Mfpic: Don't forget to process PowerFunctions.mp!
+Mfpic: Apply metapost to PowerFunctions.mp.
+Mfpic: Then reprocess this file "CompilerRootRadicalPowerFunctions".
+
+[22]
+File: PowerFunctions.1 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.1)
+File: PowerFunctions.2 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.2)
+File: PowerFunctions.3 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.3)
+
+LaTeX Warning: Reference `??' on page 23 undefined on input line 124.
+
+[23]
+File: PowerFunctions.4 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.4)
+File: PowerFunctions.5 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.5)
+File: PowerFunctions.6 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.6)
+File: PowerFunctions.7 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.7)
+Overfull \hbox (20.2823pt too wide) in paragraph at lines 128--194
+ [] 
+ []
+
+
+LaTeX Warning: Reference `??' on page 24 undefined on input line 197.
+
+File: PowerFunctions.8 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.8)
+File: PowerFunctions.9 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.9)
+File: PowerFunctions.10 Graphic file (type mps)
+ [MP to PDF]
+(./PowerFunctions.10)
+File: PowerFunctions.11 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.11)
+Overfull \hbox (71.00356pt too wide) in paragraph at lines 202--267
+ [] 
+ []
+
+File: PowerFunctions.12 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.12)
+File: PowerFunctions.13 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.13) [24]
+File: PowerFunctions.14 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.14)
+File: PowerFunctions.15 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.15)
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+ [25]
+File: PowerFunctions.16 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.16)
+File: PowerFunctions.17 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.17)
+File: PowerFunctions.18 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.18)
+File: PowerFunctions.19 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.19) [26]
+File: PowerFunctions.20 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.20)
+File: PowerFunctions.21 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.21)
+File: PowerFunctions.22 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.22)
+File: PowerFunctions.23 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.23) [27]
+File: PowerFunctions.24 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.24)
+File: PowerFunctions.25 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.25) [28]
+<./PowerFunctionsGraphics/RationalExpEx01.jpg, id=384, 2760.3125pt x 1425.325pt
+>
+File: ./PowerFunctionsGraphics/RationalExpEx01.jpg Graphic file (type jpg)
+ <use ./PowerFunctionsGraphics/RationalExpEx01.jpg>
+Package pdftex.def Info: ./PowerFunctionsGraphics/RationalExpEx01.jpg used on i
+nput line 710.
+(pdftex.def)             Requested size: 216.81pt x 111.94044pt.
+File: PowerFunctions.26 Graphic file (type mps)
+ [MP to PDF]
+(./PowerFunctions.26) [29 <./PowerFunctionsGraphics/RationalExpEx01.jpg>]
+<./PowerFunctionsGraphics/RationalExpEx02.jpg, id=393, 2820.5375pt x 1509.64pt>
+File: ./PowerFunctionsGraphics/RationalExpEx02.jpg Graphic file (type jpg)
+<use ./PowerFunctionsGraphics/RationalExpEx02.jpg>
+Package pdftex.def Info: ./PowerFunctionsGraphics/RationalExpEx02.jpg used on i
+nput line 752.
+(pdftex.def)             Requested size: 216.81pt x 116.02841pt.
+File: PowerFunctions.27 Graphic file (type mps)
+ [MP to PDF]
+(./PowerFunctions.27) [30 <./PowerFunctionsGraphics/RationalExpEx02.jpg>]
+File: PowerFunctions.28 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.28) [31]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 835.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 852.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.19998pt on input line 852.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 6.43999pt on input line 852.
+
+<./PowerFunctionsGraphics/LorenzEx.jpg, id=413, 2766.335pt x 1521.685pt>
+File: ./PowerFunctionsGraphics/LorenzEx.jpg Graphic file (type jpg)
+
+<use ./PowerFunctionsGraphics/LorenzEx.jpg>
+Package pdftex.def Info: ./PowerFunctionsGraphics/LorenzEx.jpg used on input li
+ne 889.
+(pdftex.def)             Requested size: 252.94499pt x 139.12833pt.
+ [32 <./PowerFunctionsGraphics/LorenzEx.jpg>] (./ExercisesforPowerFunctions.tex
+File: PowerFunctions.29 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.29)
+File: PowerFunctions.30 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.30)
+File: PowerFunctions.31 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.31)
+File: PowerFunctions.32 Graphic file (type mps)
+
+[MP to PDF] (./PowerFunctions.32)
+Overfull \hbox (11.26335pt too wide) in paragraph at lines 109--110
+[][] 
+ []
+
+[33]
+
+LaTeX Warning: Reference `arc' on page 34 undefined on input line 236.
+
+
+LaTeX Warning: Reference `AverageRateofChange' on page 34 undefined on input li
+ne 236.
+
+
+LaTeX Warning: Reference `monomialarcexercise' on page 34 undefined on input li
+ne 236.
+
+
+LaTeX Warning: Reference `GraphsofPolynomials' on page 34 undefined on input li
+ne 236.
+
+
+LaTeX Warning: Reference `laurentarcexercise' on page 34 undefined on input lin
+e 236.
+
+
+LaTeX Warning: Reference `IntroRational' on page 34 undefined on input line 236
+.
+
+[34]
+
+LaTeX Warning: Reference `pursuitlog' on page 35 undefined on input line 282.
+
+
+LaTeX Warning: Reference `ExpLogApplications' on page 35 undefined on input lin
+e 282.
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+File: PowerFunctions.33 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.33)
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+ []
+
+File: PowerFunctions.34 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.34)
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+
+ []
+
+File: PowerFunctions.35 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.35)
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
+
+ []
+
+File: PowerFunctions.36 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.36)
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
+ []
+
+File: PowerFunctions.37 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.37)
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
+
+ []
+
+File: PowerFunctions.38 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.38) [36]
+Underfull \hbox (badness 10000) in paragraph at lines 435--439
+
+ []
+
+File: PowerFunctions.39 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.39)
+Underfull \hbox (badness 10000) in paragraph at lines 463--473
+
+ []
+
+File: PowerFunctions.40 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.40)
+File: PowerFunctions.41 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.41)
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+
+ []
+
+File: PowerFunctions.42 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.42)
+Underfull \hbox (badness 10000) in paragraph at lines 551--553
+
+ []
+
+File: PowerFunctions.43 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.43)
+Underfull \hbox (badness 10000) in paragraph at lines 578--587
+
+ []
+
+File: PowerFunctions.44 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.44) [37]
+File: PowerFunctions.45 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.45)
+Underfull \hbox (badness 10000) in paragraph at lines 634--641
+
+ []
+
+File: PowerFunctions.46 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.46)
+File: PowerFunctions.47 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.47)
+Underfull \hbox (badness 10000) in paragraph at lines 693--702
+
+ []
+
+File: PowerFunctions.48 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.48)
+File: PowerFunctions.49 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.49)
+Underfull \hbox (badness 10000) in paragraph at lines 744--751
+
+ []
+
+File: PowerFunctions.50 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.50) [38]
+File: PowerFunctions.51 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.51)
+Underfull \hbox (badness 10000) in paragraph at lines 795--800
+
+ []
+
+File: PowerFunctions.52 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.52)
+File: PowerFunctions.53 Graphic file (type mps)
+ [MP to PDF] (./PowerFunctions.53)
+Underfull \hbox (badness 10000) in paragraph at lines 843--850
+
+ []
+
+File: PowerFunctions.54 Graphic file (type mps)
+[MP to PDF] (./PowerFunctions.54)
+
+LaTeX Warning: Reference `monomialarcexercise' on page 39 undefined on input li
+ne 869.
+
+
+LaTeX Warning: Reference `GraphsofPolynomials' on page 39 undefined on input li
+ne 869.
+
+
+LaTeX Warning: Reference `laurentarcexercise' on page 39 undefined on input lin
+e 869.
+
+
+LaTeX Warning: Reference `IntroRational' on page 39 undefined on input line 869
+.
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
+
+ []
+
+<./PowerFunctionsGraphics/WINDCHILL.jpg, id=520, 1508.63625pt x 525.965pt>
+File: ./PowerFunctionsGraphics/WINDCHILL.jpg Graphic file (type jpg)
+
+<use ./PowerFunctionsGraphics/WINDCHILL.jpg>
+Package pdftex.def Info: ./PowerFunctionsGraphics/WINDCHILL.jpg used on input l
+ine 903.
+(pdftex.def)             Requested size: 362.74768pt x 126.47249pt.
+
+<./PowerFunctionsGraphics/PURSUIT01.jpg, id=521, 1244.65pt x 581.17125pt>
+File: ./PowerFunctionsGraphics/PURSUIT01.jpg Graphic file (type jpg)
+
+<use ./PowerFunctionsGraphics/PURSUIT01.jpg>
+Package pdftex.def Info: ./PowerFunctionsGraphics/PURSUIT01.jpg used on input l
+ine 915.
+(pdftex.def)             Requested size: 309.54742pt x 144.54pt.
+
+<./PowerFunctionsGraphics/PURSUIT02.jpg, id=522, 1114.1625pt x 1160.335pt>
+File: ./PowerFunctionsGraphics/PURSUIT02.jpg Graphic file (type jpg)
+
+<use ./PowerFunctionsGraphics/PURSUIT02.jpg>
+Package pdftex.def Info: ./PowerFunctionsGraphics/PURSUIT02.jpg used on input l
+ine 925.
+(pdftex.def)             Requested size: 138.77695pt x 144.54pt.
+)) [40 <./PowerFunctionsGraphics/WINDCHILL.jpg> <./PowerFunctionsGraphics/PURSU
+IT01.jpg> <./PowerFunctionsGraphics/PURSUIT02.jpg>] (./PowerEqIneq.tex
+
+Mfpic: Initializing PowerEqIneq.mp.
+\openout3 = `PowerEqIneq.mp'.
+
+Mfpic: Don't forget to process PowerEqIneq.mp!
+Mfpic: Apply metapost to PowerEqIneq.mp.
+Mfpic: Then reprocess this file "CompilerRootRadicalPowerFunctions".
+
+[41] <./PowerEqIneqGraphics/PowerEqEx01.jpg, id=555, 2822.545pt x 1507.6325pt>
+File: ./PowerEqIneqGraphics/PowerEqEx01.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerEqEx01.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerEqEx01.jpg used on input li
+ne 89.
+(pdftex.def)             Requested size: 216.81pt x 115.8051pt.
+
+<./PowerEqIneqGraphics/PowerEqEx02.jpg, id=556, 2812.5075pt x 1507.6325pt>
+File: ./PowerEqIneqGraphics/PowerEqEx02.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerEqEx02.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerEqEx02.jpg used on input li
+ne 89.
+(pdftex.def)             Requested size: 216.81pt x 116.21918pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 87--94
+ [] 
+ []
+
+
+LaTeX Warning: Reference `AppQuadEqus' on page 42 undefined on input line 118.
+
+
+LaTeX Warning: Reference `polyquadinform' on page 42 undefined on input line 11
+8.
+
+
+LaTeX Warning: Reference `RealZeros' on page 42 undefined on input line 118.
+
+[42 <./PowerEqIneqGraphics/PowerEqEx01.jpg> <./PowerEqIneqGraphics/PowerEqEx02.
+jpg>] <./PowerEqIneqGraphics/PowerEqEx03.jpg, id=570, 2818.53pt x 1509.64pt>
+File: ./PowerEqIneqGraphics/PowerEqEx03.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerEqEx03.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerEqEx03.jpg used on input li
+ne 124.
+(pdftex.def)             Requested size: 216.81pt x 116.12054pt.
+
+<./PowerEqIneqGraphics/PowerEqEx04.jpg, id=571, 2822.545pt x 1511.6475pt>
+File: ./PowerEqIneqGraphics/PowerEqEx04.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerEqEx04.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerEqEx04.jpg used on input li
+ne 124.
+(pdftex.def)             Requested size: 216.81pt x 116.11351pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 122--129
+ [] 
+ []
+
+
+Overfull \hbox (13.77814pt too wide) detected at line 145
+[]
+ []
+
+[43 <./PowerEqIneqGraphics/PowerEqEx03.jpg> <./PowerEqIneqGraphics/PowerEqEx04.
+jpg>]
+Overfull \hbox (5.54996pt too wide) detected at line 160
+[]
+ []
+
+<./PowerEqIneqGraphics/PowerEqEx05.jpg, id=589, 2812.5075pt x 1507.6325pt>
+File: ./PowerEqIneqGraphics/PowerEqEx05.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerEqEx05.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerEqEx05.jpg used on input li
+ne 168.
+(pdftex.def)             Requested size: 216.81pt x 116.21918pt.
+
+<./PowerEqIneqGraphics/PowerEqEx06.jpg, id=590, 2826.56pt x 1511.6475pt>
+File: ./PowerEqIneqGraphics/PowerEqEx06.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerEqEx06.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerEqEx06.jpg used on input li
+ne 168.
+(pdftex.def)             Requested size: 216.81pt x 115.92897pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 166--173
+ [] 
+ []
+
+[44 <./PowerEqIneqGraphics/PowerEqEx05.jpg> <./PowerEqIneqGraphics/PowerEqEx06.
+jpg>] [45]
+
+LaTeX Warning: Reference `IntroRational' on page 46 undefined on input line 245
+.
+
+File: PowerEqIneq.1 Graphic file (type mps)
+[MP to PDF] (./PowerEqIneq.1)
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 46 undefined on input lin
+e 270.
+
+
+LaTeX Warning: Reference `RealZeros' on page 46 undefined on input line 270.
+
+
+LaTeX Warning: Reference `RationalIneq' on page 46 undefined on input line 270.
+
+
+
+Underfull \vbox (badness 1270) has occurred while \output is active []
+
+ [46]
+File: PowerEqIneq.2 Graphic file (type mps)
+
+[MP to PDF] (./PowerEqIneq.2)
+<./PowerEqIneqGraphics/PowerIneqEx01.jpg, id=639, 2822.545pt x 1511.6475pt>
+File: ./PowerEqIneqGraphics/PowerIneqEx01.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerIneqEx01.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerIneqEx01.jpg used on input 
+line 364.
+(pdftex.def)             Requested size: 216.81pt x 116.11351pt.
+
+Overfull \hbox (36.13501pt too wide) in paragraph at lines 364--365
+[]|[]| 
+ []
+
+[47]
+File: PowerEqIneq.3 Graphic file (type mps)
+ [MP to PDF] (./PowerEqIneq.3)
+<./PowerEqIneqGraphics/PowerIneqEx02.jpg, id=656, 2824.5525pt x 1517.67pt>
+File: ./PowerEqIneqGraphics/PowerIneqEx02.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerIneqEx02.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerIneqEx02.jpg used on input 
+line 400.
+(pdftex.def)             Requested size: 216.81pt x 116.48347pt.
+
+Overfull \hbox (36.13501pt too wide) in paragraph at lines 400--401
+[]|[]| 
+ []
+
+[48 <./PowerEqIneqGraphics/PowerIneqEx01.jpg> <./PowerEqIneqGraphics/PowerIneqE
+x02.jpg>] [49]
+File: PowerEqIneq.4 Graphic file (type mps)
+ [MP to PDF] (./PowerEqIneq.4)
+<./PowerEqIneqGraphics/PowerIneqEx03.jpg, id=675, 2818.53pt x 1511.6475pt>
+File: ./PowerEqIneqGraphics/PowerIneqEx03.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerIneqEx03.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerIneqEx03.jpg used on input 
+line 480.
+(pdftex.def)             Requested size: 216.81pt x 116.27496pt.
+
+Overfull \hbox (36.13501pt too wide) in paragraph at lines 480--481
+[]|[]| 
+ []
+
+[50 <./PowerEqIneqGraphics/PowerIneqEx03.jpg>]
+File: PowerEqIneq.5 Graphic file (type mps)
+ [MP to PDF] (./PowerEqIneq.5)
+<./PowerEqIneqGraphics/PowerIneqEx04.jpg, id=685, 2824.5525pt x 1507.6325pt>
+File: ./PowerEqIneqGraphics/PowerIneqEx04.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/PowerIneqEx04.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/PowerIneqEx04.jpg used on input 
+line 539.
+(pdftex.def)             Requested size: 216.81pt x 115.71309pt.
+
+Overfull \hbox (36.13501pt too wide) in paragraph at lines 539--540
+[]|[]| 
+ []
+
+[51 <./PowerEqIneqGraphics/PowerIneqEx04.jpg>] [52]
+(./ExercisesforPowerEqIneq.tex [53]
+<./PowerEqIneqGraphics/CobbDouglasExercise.jpg, id=740, 1051.93pt x 959.585pt>
+File: ./PowerEqIneqGraphics/CobbDouglasExercise.jpg Graphic file (type jpg)
+
+<use ./PowerEqIneqGraphics/CobbDouglasExercise.jpg>
+Package pdftex.def Info: ./PowerEqIneqGraphics/CobbDouglasExercise.jpg used on 
+input line 353.
+(pdftex.def)             Requested size: 158.44078pt x 144.54pt.
+)) [54 <./PowerEqIneqGraphics/CobbDouglasExercise.jpg>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+ (./CompilerRootRadicalPowerFunctions.aux
+(./RootRadicalPowerFunctions.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package rerunfilecheck Info: File `CompilerRootRadicalPowerFunctions.out' has n
+ot changed.
+(rerunfilecheck)             Checksum: 92E5C2BCF7B5D89C869A2C5486117CED;976.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+ ) 
+Here is how much of TeX's memory you used:
+ 11720 strings out of 493014
+ 158571 string characters out of 6133351
+ 281244 words of memory out of 5000000
+ 14382 multiletter control sequences out of 15000+600000
+ 52224 words of font info for 98 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,20n,43p,1945b,2116s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on CompilerRootRadicalPowerFunctions.pdf (54 pages, 4107788 byte
+s).
+PDF statistics:
+ 905 PDF objects out of 1000 (max. 8388607)
+ 782 compressed objects within 8 object streams
+ 379 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+

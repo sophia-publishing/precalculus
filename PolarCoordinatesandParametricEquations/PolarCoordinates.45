@@ -1,0 +1,102 @@
+%!PS
+%%BoundingBox: -1 -1 195 117 
+%%HiResBoundingBox: -0.24907 -0.24907 194.52008 116.81168 
+%%Creator: MetaPost 2.000
+%%CreationDate: 2017.07.04:1542
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.7 setgray 0 0.49814 dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath 0 25.9028 moveto
+194.27101 25.9028 lineto stroke
+ 0 0 0 setrgbcolor
+newpath 189.2897 28.39346 moveto
+190.46564 26.82555 192.31113 25.9028 194.27101 25.9028 curveto
+192.31113 25.9028 190.46564 24.98006 189.2897 23.41214 curveto stroke
+ 0.7 setgray 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 168.36821 0 moveto
+168.36821 116.5626 lineto stroke
+ 0 0 0 setrgbcolor 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 165.87755 111.5813 moveto
+167.44547 112.75723 168.36821 114.60272 168.36821 116.5626 curveto
+168.36821 114.60272 169.29095 112.75723 170.85887 111.5813 curveto stroke
+ 0.7 setgray 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 12.9514 23.91028 moveto
+12.9514 27.89532 lineto stroke
+newpath 51.8056 23.91028 moveto
+51.8056 27.89532 lineto stroke
+newpath 90.6598 23.91028 moveto
+90.6598 27.89532 lineto stroke
+newpath 129.514 23.91028 moveto
+129.514 27.89532 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 170.36073 64.757 moveto
+166.37569 64.757 lineto stroke
+newpath 170.36073 103.6112 moveto
+166.37569 103.6112 lineto stroke
+ 0.33 0.33 0.33 setrgbcolor
+newpath 168.36821 25.9028 moveto
+166.59792 26.9249 lineto stroke
+newpath 163.05531 28.97032 moveto
+159.51245 31.01584 lineto stroke
+newpath 155.9721 33.05989 moveto
+152.42947 35.10527 lineto stroke
+newpath 148.8889 37.1495 moveto
+145.34613 39.19498 lineto stroke
+newpath 141.80365 41.24031 moveto
+138.26299 43.28459 lineto stroke
+newpath 134.72046 45.32993 moveto
+131.17783 47.3753 lineto stroke
+newpath 127.63727 49.4195 moveto
+124.09404 51.46524 lineto stroke
+newpath 120.55408 53.50911 moveto
+117.01208 55.55412 lineto stroke
+newpath 113.46884 57.59991 moveto
+109.92786 59.64438 lineto stroke
+newpath 106.38565 61.68948 moveto
+102.84254 63.73518 lineto stroke
+newpath 99.30246 65.7791 moveto
+95.76006 67.82439 lineto stroke
+newpath 92.21928 69.86871 moveto
+88.67633 71.91428 lineto stroke
+newpath 85.13403 73.95952 moveto
+81.59355 76.00366 lineto stroke
+newpath 78.05086 78.04909 moveto
+74.50822 80.09451 lineto stroke
+newpath 70.96765 82.1387 moveto
+67.42488 84.18417 lineto stroke
+newpath 63.88446 86.22832 moveto
+60.34204 88.2736 lineto stroke
+newpath 56.79921 90.31912 moveto
+53.25859 92.36336 lineto stroke
+newpath 49.71602 94.40869 moveto
+46.17348 96.45403 lineto stroke
+newpath 42.63281 98.4983 moveto
+39.09027 100.54369 lineto stroke
+newpath 35.54758 102.58911 moveto
+33.77728 103.6112 lineto stroke
+ 0 0 0 setrgbcolor
+newpath 33.77728 105.1056 moveto
+33.38092 105.1056 33.00085 104.94812 32.72061 104.66788 curveto
+32.44037 104.38763 32.28288 104.00757 32.28288 103.6112 curveto
+32.28288 103.21484 32.44037 102.83478 32.72061 102.55453 curveto
+33.00085 102.27429 33.38092 102.1168 33.77728 102.1168 curveto
+34.17365 102.1168 34.55371 102.27429 34.83395 102.55453 curveto
+35.1142 102.83478 35.27168 103.21484 35.27168 103.6112 curveto
+35.27168 104.00757 35.1142 104.38763 34.83395 104.66788 curveto
+34.55371 104.94812 34.17365 105.1056 33.77728 105.1056 curveto closepath fill
+ 0.33 0.33 0.33 setrgbcolor
+newpath 181.31961 24.60759 moveto
+181.03069 21.71794 179.7835 19.00775 177.77663 16.9086 curveto
+175.76978 14.80945 173.11887 13.4415 170.24503 13.02274 curveto
+167.371 12.60397 164.43947 13.15851 161.917 14.59799 curveto
+159.39476 16.03728 157.42604 18.27911 156.32469 20.96619 curveto
+155.22334 23.65326 155.0522 26.63164 155.83853 29.4272 curveto stroke
+ 0 0 0 setrgbcolor
+newpath 153.59068 26.9547 moveto
+154.68733 27.37917 155.52013 28.2952 155.83853 29.4272 curveto
+155.52013 28.2952 155.75328 27.07933 156.46785 26.14543 curveto stroke
+showpage
+%%EOF

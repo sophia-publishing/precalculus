@@ -1,0 +1,85 @@
+%!PS
+%%BoundingBox: -1 13 120 120 
+%%HiResBoundingBox: -0.24907 13.44952 119.80046 119.80046 
+%%Creator: MetaPost 2.000
+%%CreationDate: 2017.07.04:1542
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.7 setgray 0 0.49814 dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
+ 1 setlinejoin 10 setmiterlimit
+newpath 0 59.7757 moveto
+119.55139 59.7757 lineto stroke
+ 0 0 0 setrgbcolor
+newpath 116.5626 61.2701 moveto
+117.26816 60.32935 118.37546 59.7757 119.55139 59.7757 curveto
+118.37546 59.7757 117.26816 59.22205 116.5626 58.2813 curveto stroke
+ 0.7 setgray 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 59.7757 59.7757 moveto
+59.7757 119.55139 lineto stroke
+ 0 0 0 setrgbcolor 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 58.2813 116.5626 moveto
+59.22205 117.26816 59.7757 118.37546 59.7757 119.55139 curveto
+59.7757 118.37546 60.32935 117.26816 61.2701 116.5626 curveto stroke
+ 0.7 setgray 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 14.94392 57.78317 moveto
+14.94392 61.76822 lineto stroke
+newpath 29.88785 57.78317 moveto
+29.88785 61.76822 lineto stroke
+newpath 44.83177 57.78317 moveto
+44.83177 61.76822 lineto stroke
+newpath 74.71962 57.78317 moveto
+74.71962 61.76822 lineto stroke
+newpath 89.66354 57.78317 moveto
+89.66354 61.76822 lineto stroke
+newpath 104.60747 57.78317 moveto
+104.60747 61.76822 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 61.76822 14.94392 moveto
+57.78317 14.94392 lineto stroke
+newpath 61.76822 29.88785 moveto
+57.78317 29.88785 lineto stroke
+newpath 61.76822 44.83177 moveto
+57.78317 44.83177 lineto stroke
+newpath 61.76822 74.71962 moveto
+57.78317 74.71962 lineto stroke
+newpath 61.76822 89.66354 moveto
+57.78317 89.66354 lineto stroke
+newpath 61.76822 104.60747 moveto
+57.78317 104.60747 lineto stroke
+ 0.33 0.33 0.33 setrgbcolor 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 59.7757 59.7757 moveto
+59.7757 57.90747 lineto stroke
+newpath 59.7757 54.1717 moveto
+59.7757 50.43544 lineto stroke
+newpath 59.7757 46.69954 moveto
+59.7757 42.96364 lineto stroke
+newpath 59.7757 39.22733 moveto
+59.7757 35.49161 lineto stroke
+newpath 59.7757 31.75584 moveto
+59.7757 28.01949 lineto stroke
+newpath 59.7757 24.28363 moveto
+59.7757 20.54723 lineto stroke
+newpath 59.7757 16.81215 moveto
+59.7757 14.94392 lineto stroke
+ 0 0 0 setrgbcolor
+newpath 59.7757 16.43832 moveto
+59.37933 16.43832 58.99927 16.28084 58.71902 16.0006 curveto
+58.43878 15.72035 58.2813 15.34029 58.2813 14.94392 curveto
+58.2813 14.54756 58.43878 14.1675 58.71902 13.88725 curveto
+58.99927 13.60701 59.37933 13.44952 59.7757 13.44952 curveto
+60.17206 13.44952 60.55212 13.60701 60.83237 13.88725 curveto
+61.11261 14.1675 61.2701 14.54756 61.2701 14.94392 curveto
+61.2701 15.34029 61.11261 15.72035 60.83237 16.0006 curveto
+60.55212 16.28084 60.17206 16.43832 59.7757 16.43832 curveto closepath fill
+ 0.33 0.33 0.33 setrgbcolor 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 37.3598 58.7295 moveto
+37.62158 53.12257 39.97504 47.81732 43.95592 43.86038 curveto
+47.9368 39.90344 53.25597 37.58168 58.86427 37.35365 curveto stroke
+ 0 0 0 setrgbcolor
+newpath 55.93864 38.96822 moveto
+56.60541 37.99959 57.68932 37.40141 58.86427 37.35365 curveto
+57.68932 37.40141 56.56042 36.8932 55.81725 35.98189 curveto stroke
+showpage
+%%EOF

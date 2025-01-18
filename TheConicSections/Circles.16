@@ -1,0 +1,55 @@
+%!PS
+%%BoundingBox: -1 -1 103 133 
+%%HiResBoundingBox: -0.24907 -0.24907 102.36589 132.25374 
+%%Creator: MetaPost 1.9991
+%%CreationDate: 2017.08.14:1609
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 0.49814 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 2.49066 moveto
+102.11682 2.49066 lineto stroke
+newpath 97.13551 4.98132 moveto
+98.31145 3.4134 100.15694 2.49066 102.11682 2.49066 curveto
+100.15694 2.49066 98.31145 1.56792 97.13551 0 curveto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 19.92523 0 moveto
+19.92523 132.00467 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 17.43457 127.02336 moveto
+19.00249 128.1993 19.92523 130.04478 19.92523 132.00467 curveto
+19.92523 130.04478 20.84798 128.1993 22.4159 127.02336 curveto stroke
+newpath 51.22365 76.1045 moveto
+53.05522 77.93608 lineto
+49.39207 74.27293 lineto
+51.22365 76.1045 lineto
+53.05522 74.27293 lineto
+49.39207 77.93608 lineto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 6.41301 0.49814 moveto
+6.41301 4.48318 lineto stroke
+newpath 51.22365 0.49814 moveto
+51.22365 4.48318 lineto stroke
+newpath 96.03459 0.49814 moveto
+96.03459 4.48318 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 21.91776 31.29356 moveto
+17.93271 31.29356 lineto stroke
+newpath 21.91776 76.1045 moveto
+17.93271 76.1045 lineto stroke
+newpath 21.91776 120.91621 moveto
+17.93271 120.91621 lineto stroke
+ 0 1.24533 dtransform truncate idtransform setlinewidth pop
+newpath 96.03444 76.1045 moveto
+96.03444 87.98953 91.31247 99.38643 82.90895 107.78981 curveto
+74.50558 116.19333 63.10867 120.9153 51.22365 120.9153 curveto
+39.33862 120.9153 27.94173 116.19333 19.53835 107.78981 curveto
+11.13483 99.38643 6.41286 87.98953 6.41286 76.1045 curveto
+6.41286 64.21948 11.13483 52.82257 19.53835 44.4192 curveto
+27.94173 36.01569 39.33862 31.29372 51.22365 31.29372 curveto
+63.10867 31.29372 74.50558 36.01569 82.90895 44.4192 curveto
+91.31247 52.82257 96.03444 64.21948 96.03444 76.1045 curveto closepath stroke
+showpage
+%%EOF

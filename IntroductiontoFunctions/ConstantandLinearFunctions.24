@@ -1,0 +1,101 @@
+%!PS
+%%BoundingBox: -1 -1 91 61 
+%%HiResBoundingBox: -0.62267 -0.24907 90.28621 60.02477 
+%%Creator: MetaPost 2.000
+%%CreationDate: 2017.07.18:1020
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth [] 0 setdash
+ 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 44.83177 0 moveto
+44.83177 59.7757 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 43.33737 56.78691 moveto
+44.27812 57.49246 44.83177 58.59976 44.83177 59.7757 curveto
+44.83177 58.59976 45.38542 57.49246 46.32617 56.78691 curveto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 14.94392 27.89532 moveto
+14.94392 31.88037 lineto stroke
+newpath 29.88785 27.89532 moveto
+29.88785 31.88037 lineto stroke
+newpath 59.7757 27.89532 moveto
+59.7757 31.88037 lineto stroke
+newpath 74.71962 27.89532 moveto
+74.71962 31.88037 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 46.8243 14.94392 moveto
+42.83925 14.94392 lineto stroke
+newpath 46.8243 44.83177 moveto
+42.83925 44.83177 lineto stroke
+ 0 1.24533 dtransform truncate idtransform setlinewidth pop
+newpath 0 29.88785 moveto
+1.49403 29.88785 lineto
+2.98943 29.88785 lineto
+4.48344 29.88785 lineto
+5.97748 29.88785 lineto
+7.47151 29.88785 lineto
+8.9669 29.88785 lineto
+10.46092 29.88785 lineto
+11.95496 29.88785 lineto
+13.44899 29.88785 lineto
+14.94438 29.88785 lineto
+16.4384 29.88785 lineto
+17.93243 29.88785 lineto
+19.42647 29.88785 lineto
+20.92186 29.88785 lineto
+22.41588 29.88785 lineto
+23.90991 29.88785 lineto
+25.4053 29.88785 lineto
+26.89934 29.88785 lineto
+28.39337 29.88785 lineto
+29.88739 29.88785 lineto
+31.38278 29.88785 lineto
+32.87682 29.88785 lineto
+34.37085 29.88785 lineto
+35.86487 29.88785 lineto
+37.36026 29.88785 lineto
+38.8543 29.88785 lineto
+40.34833 29.88785 lineto
+41.84235 29.88785 lineto
+43.33774 29.88785 lineto
+44.83177 29.88785 lineto
+46.3258 29.88785 lineto
+47.8212 29.88785 lineto
+49.31522 29.88785 lineto
+50.80925 29.88785 lineto
+52.30328 29.88785 lineto
+53.79868 29.88785 lineto
+55.2927 29.88785 lineto
+56.78673 29.88785 lineto
+58.28076 29.88785 lineto
+59.77615 29.88785 lineto
+61.27017 29.88785 lineto
+62.7642 29.88785 lineto
+64.25824 29.88785 lineto
+65.75363 29.88785 lineto
+67.24767 29.88785 lineto
+68.74168 29.88785 lineto
+70.23708 29.88785 lineto
+71.73111 29.88785 lineto
+73.22514 29.88785 lineto
+74.71916 29.88785 lineto
+76.21455 29.88785 lineto
+77.70859 29.88785 lineto
+79.20262 29.88785 lineto
+80.69664 29.88785 lineto
+82.19203 29.88785 lineto
+83.68607 29.88785 lineto
+85.1801 29.88785 lineto
+86.67412 29.88785 lineto
+88.16951 29.88785 lineto
+89.66354 29.88785 lineto stroke
+newpath 86.67476 31.38225 moveto
+87.38031 30.4415 88.48761 29.88785 89.66354 29.88785 curveto
+88.48761 29.88785 87.38031 29.3342 86.67476 28.39345 curveto stroke
+newpath 2.98878 28.39345 moveto
+2.28323 29.3342 1.17593 29.88785 0 29.88785 curveto
+1.17593 29.88785 2.28323 30.4415 2.98878 31.38225 curveto stroke
+showpage
+%%EOF

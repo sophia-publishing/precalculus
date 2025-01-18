@@ -1,0 +1,2092 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 AUG 2017 15:10
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**CompilerFoundationsofTrigonometry.tex
+(./CompilerFoundationsofTrigonometry.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count100
+\ST@wd=\dimen112
+\ST@rightskip=\skip58
+\ST@leftskip=\skip59
+\ST@parfillskip=\skip60
+\ST@pageleft=\dimen113
+\ST@headht=\dimen114
+\ST@tailht=\dimen115
+\ST@pagesofar=\dimen116
+\ST@pboxht=\dimen117
+\ST@lineht=\dimen118
+\ST@stretchht=\dimen119
+\ST@prevht=\dimen120
+\ST@toadd=\dimen121
+\ST@dimen=\dimen122
+\ST@pbox=\box28
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count101
+\LTcapwidth=\dimen123
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks26
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count106
+\calc@Bcount=\count107
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count108
+\calc@Cskip=\skip67
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count109
+\l_MT_multwidth_dim=\dimen126
+\origjot=\skip68
+\l_MT_shortvdotswithinadjustabove_dim=\dimen127
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen128
+\l_MT_above_intertext_sep=\dimen129
+\l_MT_below_intertext_sep=\dimen130
+\l_MT_above_shortintertext_sep=\dimen131
+\l_MT_below_shortintertext_sep=\dimen132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen133
+\extrarowheight=\dimen134
+\NC@list=\toks28
+\extratabsurround=\skip69
+\backup@length=\skip70
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count110
+))
+\everycr=\toks29
+\minrowclearance=\skip71
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count111
+\mult@box=\box33
+\multicol@leftmargin=\dimen135
+\c@unbalance=\count112
+\c@collectmore=\count113
+\doublecol@number=\count114
+\multicoltolerance=\count115
+\multicolpretolerance=\count116
+\full@width=\dimen136
+\page@free=\dimen137
+\premulticols=\dimen138
+\postmulticols=\dimen139
+\multicolsep=\skip72
+\multicolbaselineskip=\skip73
+\partial@page=\box34
+\last@line=\box35
+\maxbalancingoverflow=\dimen140
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\c@columnbadness=\count117
+\c@finalcolumnbadness=\count118
+\last@try=\dimen141
+\multicolovershoot=\dimen142
+\multicolundershoot=\dimen143
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\mc@col@check@num=\count119
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty
+Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@@cf@currentpos=\count120
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/mfpic/mfpic.sty
+Package: mfpic 2012/12/03 v1.10. Macros for drawing with Metafont/MetaPost.
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/mfpic/mfpic.tex
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\mfp@out=\write3
+\mfp@graph=\read1
+\mfp@count=\count121
+\mfp@linetype=\count122
+\mfp@sequence=\count123
+\mfp@toks=\toks30
+\mfp@verbtex=\toks31
+\mfp@fdc=\count124
+\@wholegraph=\box59
+\@textbox=\box60
+\@alltlabels=\box61
+\@backtext=\box62
+\@tlabelstop=\fontdimen 23\mfp@dummy 
+\@tlabelsbot=\fontdimen 24\mfp@dummy 
+\@tlabelsleft=\fontdimen 25\mfp@dummy 
+\@graphright=\fontdimen 26\mfp@dummy 
+\@graphleft=\fontdimen 27\mfp@dummy 
+\@graphtop=\fontdimen 28\mfp@dummy 
+\@graphbot=\fontdimen 29\mfp@dummy 
+\tb@raise=\fontdimen 30\mfp@dummy 
+\tb@moveright=\fontdimen 31\mfp@dummy 
+\tb@totalht=\fontdimen 32\mfp@dummy 
+\tlabel@hadj=\fontdimen 33\mfp@dummy 
+\tlabel@vadj=\fontdimen 34\mfp@dummy 
+\tlabel@sep=\fontdimen 35\mfp@dummy 
+\tlpath@sep=\fontdimen 36\mfp@dummy 
+\mfpicunit=\fontdimen 37\mfp@dummy 
+\@mfpicunit=\fontdimen 38\mfp@dummy 
+\pointsize=\fontdimen 39\mfp@dummy 
+\shadespace=\fontdimen 40\mfp@dummy 
+\polkadotspace=\fontdimen 41\mfp@dummy 
+\hatchspace=\fontdimen 42\mfp@dummy 
+\headlen=\fontdimen 43\mfp@dummy 
+\axisheadlen=\fontdimen 44\mfp@dummy 
+\sideheadlen=\fontdimen 45\mfp@dummy 
+\hashlen=\fontdimen 46\mfp@dummy 
+\dashlen=\fontdimen 47\mfp@dummy 
+\dashspace=\fontdimen 48\mfp@dummy 
+\dotsize=\fontdimen 49\mfp@dummy 
+\griddotsize=\fontdimen 50\mfp@dummy 
+\dotspace=\fontdimen 51\mfp@dummy 
+\symbolspace=\fontdimen 52\mfp@dummy 
+\mfp@scratch=\dimen144
+\mfpframesep=\dimen145
+\mfpframethickness=\dimen146
+\mfpicheight=\dimen147
+\mfpicwidth=\dimen148
+\mfpiccaptionskip=\skip74
+\tl@vpos=\count125
+\tl@hpos=\count126
+\mfp@commentchar=\count127
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count128
+\Hy@pagecounter=\count129
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count130
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4322.
+Package hyperref Info: Option `plainpages' set `false' on input line 4322.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count131
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen152
+\Fld@menulength=\count132
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count133
+\c@Item=\count134
+\c@Hfootnote=\count135
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count136
+\c@bookmark@seq@number=\count137
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip75
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+\c@defn=\count138
+\c@thm=\count139
+\c@eqn=\count140
+\c@ex=\count141
+\c@fig=\count142
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen155
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+)
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 39.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 39.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/msb/m/n on input line 39.
+\c@HW=\count143
+\c@HWindent=\count144
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sfmath/sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/phv/m/n on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 330.
+\symSFMath=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  OT1/phv/m/sl --> OT1/phv/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+
+(Font)                  OML/cmm/m/it --> OT1/phv/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/cmm/b/it --> OT1/phv/bx/sl on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/phv/bx/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/phv/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 466.
+)
+(./CompilerFoundationsofTrigonometry.aux (./FoundationsofTrigonometry.aux))
+\openout1 = `CompilerFoundationsofTrigonometry.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 73.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 73.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 73.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count145
+\scratchdimen=\dimen156
+\scratchbox=\box63
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen157
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring ON on input line 73.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count151
+)
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
+
+(./CompilerFoundationsofTrigonometry.out)
+(./CompilerFoundationsofTrigonometry.out)
+\@outlinefile=\write4
+\openout4 = `CompilerFoundationsofTrigonometry.out'.
+
+
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 77.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 19.08076pt on input line 77.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 22.88956pt on input line 77.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 22.88956pt on input line 77.
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 22.88956pt on input line 77.
+[1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `FoundationsofTrigonometry.aux'.
+
+
+(./FoundationsofTrigonometry.tex
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 13.24796pt on input line 1.
+ (./RadianMeasure.tex
+
+Mfpic: Initializing RadianMeasure.mp.
+\openout3 = `RadianMeasure.mp'.
+
+Mfpic: Don't forget to process RadianMeasure.mp!
+Mfpic: Apply metapost to RadianMeasure.mp.
+Mfpic: Then reprocess this file "CompilerFoundationsofTrigonometry".
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.07397pt on input line 9.
+
+LaTeX Warning: Reference `AppAngles' on page 2 undefined on input line 9.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 22.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 22.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 22.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 22.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 22.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 26.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 26.
+File: RadianMeasure.1 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.1)
+File: RadianMeasure.2 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.2)
+File: RadianMeasure.3 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.3)
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 10.07397pt on input line 111.
+ [2
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 118.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 118.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 118.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 4.59999pt on input line 118.
+ [3]
+File: RadianMeasure.4 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.4)
+File: RadianMeasure.5 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.5)
+File: RadianMeasure.6 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.6)
+File: RadianMeasure.7 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.7)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+
+LaTeX Warning: Reference `orientedcoterminaldegree' on page 5 undefined on inpu
+t line 269.
+
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 288.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 288.
+
+Overfull \hbox (1.63164pt too wide) in paragraph at lines 288--290
+[][][][][][][]  
+ []
+
+[5]
+File: RadianMeasure.8 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.8)
+File: RadianMeasure.9 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.9)
+File: RadianMeasure.10 Graphic file (type mps)
+
+[MP to PDF] (./RadianMeasure.10)
+Overfull \hbox (2.37157pt too wide) in paragraph at lines 304--388
+[][] 
+ []
+
+File: RadianMeasure.11 Graphic file (type mps)
+[MP to PDF] (./RadianMeasure.11)
+File: RadianMeasure.12 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.12)
+Underfull \vbox (badness 7133) has occurred while \output is active []
+
+ [6]
+
+LaTeX Warning: Reference `degreeex' on page 7 undefined on input line 458.
+
+File: RadianMeasure.13 Graphic file (type mps)
+[MP to PDF] (./RadianMeasure.13)
+File: RadianMeasure.14 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.14)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 513.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 513.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 513.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 521.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 521.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.19998pt on input line 521.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 6.43999pt on input line 521.
+File: RadianMeasure.15 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.15) [7]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 539.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.27998pt on input line 539.
+
+
+LaTeX Warning: Reference `averagevelocitydefn' on page 8 undefined on input lin
+e 539.
+
+
+LaTeX Warning: Reference `IntroRational' on page 8 undefined on input line 539.
+
+
+
+LaTeX Warning: Reference `averagevelocityrocketex' on page 8 undefined on input
+ line 539.
+
+
+LaTeX Warning: Reference `IntroRational' on page 8 undefined on input line 539.
+
+
+[8]
+<./RadianMeasureGraphics/Latitude_(PSF).png, id=181, 315.3381pt x 326.6604pt>
+File: ./RadianMeasureGraphics/Latitude_(PSF).png Graphic file (type png)
+
+<use ./RadianMeasureGraphics/Latitude_(PSF).png>
+Package pdftex.def Info: ./RadianMeasureGraphics/Latitude_(PSF).png used on inp
+ut line 562.
+(pdftex.def)             Requested size: 144.54pt x 149.73227pt.
+ [9 <./RadianMeasureGraphics/Latitude_(PSF).png>] [10] (./ExercisesforRadianMea
+sure.tex
+
+LaTeX Warning: Reference `orientedanglefirst' on page 11 undefined on input lin
+e 4.
+
+[11]
+
+LaTeX Warning: Reference `giantwheelcircle' on page 12 undefined on input line 
+185.
+
+
+LaTeX Warning: Reference `Circles' on page 12 undefined on input line 185.
+
+File: RadianMeasure.16 Graphic file (type mps)
+[MP to PDF] (./RadianMeasure.16) [12]
+File: RadianMeasure.17 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.17)
+File: RadianMeasure.18 Graphic file (type mps)
+
+[MP to PDF] (./RadianMeasure.18)
+File: RadianMeasure.19 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.19)
+File: RadianMeasure.20 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.20)
+File: RadianMeasure.21 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.21)
+File: RadianMeasure.22 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.22) [13]
+File: RadianMeasure.23 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.23)
+File: RadianMeasure.24 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.24)
+File: RadianMeasure.25 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.25)
+File: RadianMeasure.26 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.26)
+File: RadianMeasure.27 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.27)
+File: RadianMeasure.28 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.28) [14]
+File: RadianMeasure.29 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.29)
+File: RadianMeasure.30 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.30)
+File: RadianMeasure.31 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.31)
+File: RadianMeasure.32 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.32) [15]
+File: RadianMeasure.33 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.33)
+File: RadianMeasure.34 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.34)
+File: RadianMeasure.35 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.35)
+File: RadianMeasure.36 Graphic file (type mps)
+ [MP to PDF]
+(./RadianMeasure.36)
+File: RadianMeasure.37 Graphic file (type mps)
+ [MP to PDF] (./RadianMeasure.37))) [16]
+(./TheCircularFunctionsSineandCosine.tex
+
+Mfpic: Initializing TheCircularFunctionsSineandCosine.mp.
+\openout3 = `TheCircularFunctionsSineandCosine.mp'.
+
+Mfpic: Don't forget to process TheCircularFunctionsSineandCosine.mp!
+Mfpic: Apply metapost to TheCircularFunctionsSineandCosine.mp.
+Mfpic: Then reprocess this file "CompilerFoundationsofTrigonometry".
+
+File: TheCircularFunctionsSineandCosine.1 Graphic file (type mps)
+[MP to PDF] (./TheCircularFunctionsSineandCosine.1)
+File: TheCircularFunctionsSineandCosine.2 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.2)
+
+LaTeX Warning: Reference `functiondefn' on page 17 undefined on input line 62.
+
+
+LaTeX Warning: Reference `FunctionsandtheirRepresentations' on page 17 undefine
+d on input line 62.
+
+
+LaTeX Warning: Reference `importantfactscartesianplane' on page 17 undefined on
+ input line 62.
+
+
+LaTeX Warning: Reference `AppCartesianPlane' on page 17 undefined on input line
+ 62.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 80.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 80.
+
+LaTeX Warning: Reference `AppAngles' on page 17 undefined on input line 80.
+
+
+LaTeX Warning: Reference `AppRightTrig' on page 17 undefined on input line 80.
+
+
+LaTeX Warning: Reference `MoreTrigonometricIdentities' on page 17 undefined on 
+input line 80.
+
+
+LaTeX Warning: Reference `righttrianglesinecosinetangent' on page 17 undefined 
+on input line 85.
+
+
+LaTeX Warning: Reference `AppRightTrig' on page 17 undefined on input line 85.
+
+
+LaTeX Warning: Reference `righttrianglesinecosinetangent' on page 17 undefined 
+on input line 85.
+
+[17]
+File: TheCircularFunctionsSineandCosine.3 Graphic file (type mps)
+ [MP to PDF] (./TheCircularFunctionsSineandCosine.3)
+File: TheCircularFunctionsSineandCosine.4 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.4)
+
+LaTeX Warning: Reference `AppRightTrig' on page 18 undefined on input line 164.
+
+
+
+LaTeX Warning: Reference `righttrianglesinecosinetangent' on page 18 undefined 
+on input line 164.
+
+
+LaTeX Warning: Reference `AppRightTrig' on page 18 undefined on input line 164.
+
+
+
+LaTeX Warning: Reference `AppRightTrig' on page 18 undefined on input line 164.
+
+
+
+LaTeX Warning: Reference `AppRightTrig' on page 18 undefined on input line 168.
+
+
+File: TheCircularFunctionsSineandCosine.5 Graphic file (type mps)
+[MP to PDF] (./TheCircularFunctionsSineandCosine.5)
+Overfull \hbox (4.11598pt too wide) in paragraph at lines 195--196
+[]|[] 
+ []
+
+File: TheCircularFunctionsSineandCosine.6 Graphic file (type mps)
+[MP to PDF] (./TheCircularFunctionsSineandCosine.6)
+Overfull \hbox (8.61598pt too wide) in paragraph at lines 223--224
+[]|[] 
+ []
+
+
+Overfull \hbox (27.24004pt too wide) in paragraph at lines 170--226
+[][] 
+ []
+
+[18]
+File: TheCircularFunctionsSineandCosine.7 Graphic file (type mps)
+ [MP to PDF] (./TheCircularFunctionsSineandCosine.7)
+File: TheCircularFunctionsSineandCosine.8 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.8)
+Overfull \hbox (23.78381pt too wide) in paragraph at lines 231--287
+[][] 
+ []
+
+
+LaTeX Warning: Reference `AppRightTrig' on page 19 undefined on input line 295.
+
+
+
+LaTeX Warning: Reference `righttrianglesinecosinetangent' on page 19 undefined 
+on input line 295.
+
+[19]
+File: TheCircularFunctionsSineandCosine.9 Graphic file (type mps)
+ [MP to PDF] (./TheCircularFunctionsSineandCosine.9)
+File: TheCircularFunctionsSineandCosine.10 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.10)
+
+LaTeX Warning: Reference `righttrianglesinecosinetangent' on page 20 undefined 
+on input line 340.
+
+File: TheCircularFunctionsSineandCosine.11 Graphic file (type mps)
+[MP to PDF] (./TheCircularFunctionsSineandCosine.11)
+File: TheCircularFunctionsSineandCosine.12 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.12) [20]
+File: TheCircularFunctionsSineandCosine.13 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.13)
+File: TheCircularFunctionsSineandCosine.14 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.14)
+File: TheCircularFunctionsSineandCosine.15 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.15) [21]
+File: TheCircularFunctionsSineandCosine.16 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.16)
+File: TheCircularFunctionsSineandCosine.17 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.17)
+File: TheCircularFunctionsSineandCosine.18 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.18)
+File: TheCircularFunctionsSineandCosine.19 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.19) [22]
+File: TheCircularFunctionsSineandCosine.20 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.20)
+Underfull \vbox (badness 2671) has occurred while \output is active []
+
+ [23]
+[24]
+File: TheCircularFunctionsSineandCosine.21 Graphic file (type mps)
+ [MP to PDF] (./TheCircularFunctionsSineandCosine.21)
+File: TheCircularFunctionsSineandCosine.22 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.22)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 7.35999pt on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 5.51999pt on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 10.07397pt on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <8> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 7.35999pt on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <6> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 878.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 5.51999pt on input line 878.
+File: TheCircularFunctionsSineandCosine.23 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.23)
+File: TheCircularFunctionsSineandCosine.24 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.24) [25]
+File: TheCircularFunctionsSineandCosine.25 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.25)
+File: TheCircularFunctionsSineandCosine.26 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.26)
+File: TheCircularFunctionsSineandCosine.27 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.27)
+File: TheCircularFunctionsSineandCosine.28 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.28)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+File: TheCircularFunctionsSineandCosine.29 Graphic file (type mps)
+
+[MP to PDF] (./TheCircularFunctionsSineandCosine.29)
+File: TheCircularFunctionsSineandCosine.30 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.30)
+
+LaTeX Warning: Reference `AppRightTrig' on page 27 undefined on input line 1116
+.
+
+[27]
+
+LaTeX Warning: Reference `TrigonometricEquationsandInequalities' on page 28 und
+efined on input line 1121.
+
+File: TheCircularFunctionsSineandCosine.31 Graphic file (type mps)
+[MP to PDF] (./TheCircularFunctionsSineandCosine.31)
+File: TheCircularFunctionsSineandCosine.32 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.32)
+File: TheCircularFunctionsSineandCosine.33 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.33)
+File: TheCircularFunctionsSineandCosine.34 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.34) [28]
+File: TheCircularFunctionsSineandCosine.35 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.35)
+File: TheCircularFunctionsSineandCosine.36 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.36)
+
+LaTeX Warning: Reference `SequencesandtheBinomialTheorem' on page 29 undefined 
+on input line 1307.
+
+[29]
+File: TheCircularFunctionsSineandCosine.37 Graphic file (type mps)
+ [MP to PDF] (./TheCircularFunctionsSineandCosine.37)
+File: TheCircularFunctionsSineandCosine.38 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.38)
+
+LaTeX Warning: Reference `AppRightTrig' on page 30 undefined on input line 1387
+.
+
+
+LaTeX Warning: Reference `righttrianglesinecosinetangent' on page 30 undefined 
+on input line 1387.
+
+[30]
+File: TheCircularFunctionsSineandCosine.39 Graphic file (type mps)
+ [MP to PDF] (./TheCircularFunctionsSineandCosine.39)
+File: TheCircularFunctionsSineandCosine.40 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.40)
+Overfull \hbox (1.63164pt too wide) in paragraph at lines 1460--1462
+[][][][][][][]  
+ []
+
+[31]
+File: TheCircularFunctionsSineandCosine.41 Graphic file (type mps)
+ [MP to PDF] (./TheCircularFunctionsSineandCosine.41)
+File: TheCircularFunctionsSineandCosine.42 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.42)
+File: ./RadianMeasureGraphics/Latitude_(PSF).png Graphic file (type png)
+
+<use ./RadianMeasureGraphics/Latitude_(PSF).png>
+Package pdftex.def Info: ./RadianMeasureGraphics/Latitude_(PSF).png used on inp
+ut line 1551.
+(pdftex.def)             Requested size: 144.54pt x 149.73227pt.
+File: TheCircularFunctionsSineandCosine.43 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.43) [32]
+File: TheCircularFunctionsSineandCosine.44 Graphic file (type mps)
+ [MP to PDF]
+(./TheCircularFunctionsSineandCosine.44)
+Overfull \hbox (1.63164pt too wide) in paragraph at lines 1629--1631
+[][][][][][][]  
+ []
+
+
+LaTeX Warning: Reference `ParametricEquations' on page 33 undefined on input li
+ne 1637.
+
+[33] (./ExercisesforTheCircularFunctionsSineandCosine.tex [34] [35]
+
+LaTeX Warning: Reference `standardcirclealternate' on page 36 undefined on inpu
+t line 313.
+
+
+LaTeX Warning: Reference `TheConicSections' on page 36 undefined on input line 
+313.
+
+[36] [37] [38])) [39] (./GraphsofSineandCosine.tex
+
+Mfpic: Initializing GraphsofSineandCosine.mp.
+\openout3 = `GraphsofSineandCosine.mp'.
+
+Mfpic: Don't forget to process GraphsofSineandCosine.mp!
+Mfpic: Apply metapost to GraphsofSineandCosine.mp.
+Mfpic: Then reprocess this file "CompilerFoundationsofTrigonometry".
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 38.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 38.
+File: GraphsofSineandCosine.1 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.1)
+Overfull \hbox (4.45444pt too wide) in paragraph at lines 41--77
+[]  [] 
+ []
+
+[40]
+File: GraphsofSineandCosine.2 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.2)
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 41 undefined on i
+nput line 114.
+
+File: GraphsofSineandCosine.3 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.3)
+Overfull \hbox (4.45444pt too wide) in paragraph at lines 133--169
+[]  [] 
+ []
+
+
+Underfull \vbox (badness 2334) has occurred while \output is active []
+
+ [41]
+
+LaTeX Warning: Reference `MoreTrigonometricIdentities' on page 42 undefined on 
+input line 172.
+
+File: GraphsofSineandCosine.4 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.4)
+
+LaTeX Warning: Reference `GraphsofPolynomials' on page 42 undefined on input li
+ne 197.
+
+
+LaTeX Warning: Reference `GraphsofPolynomials' on page 42 undefined on input li
+ne 205.
+
+
+LaTeX Warning: Reference `MoreTrigonometricIdentities' on page 42 undefined on 
+input line 205.
+
+
+LaTeX Warning: Reference `evenfunctiondefn' on page 42 undefined on input line 
+205.
+
+
+LaTeX Warning: Reference `oddfunctiondefn' on page 42 undefined on input line 2
+05.
+
+[42]
+
+LaTeX Warning: Reference `Transformations' on page 43 undefined on input line 2
+46.
+
+File: GraphsofSineandCosine.5 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.5)
+File: GraphsofSineandCosine.6 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.6)
+
+LaTeX Warning: Reference `Transformations' on page 43 undefined on input line 2
+99.
+
+
+LaTeX Warning: Reference `Transformations' on page 43 undefined on input line 3
+03.
+
+
+LaTeX Warning: Reference `Transformations' on page 43 undefined on input line 3
+03.
+
+[43]
+
+LaTeX Warning: Reference `transformationsthm' on page 44 undefined on input lin
+e 324.
+
+File: GraphsofSineandCosine.7 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.7)
+File: GraphsofSineandCosine.8 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.8)
+
+LaTeX Warning: Reference `transformationsthm' on page 44 undefined on input lin
+e 378.
+
+File: GraphsofSineandCosine.9 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.9)
+File: GraphsofSineandCosine.10 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.10)
+Overfull \vbox (51.08333pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (51.08333pt too high) has occurred while \output is active []
+
+
+[44]
+
+LaTeX Warning: Reference `Transformations' on page 45 undefined on input line 4
+42.
+
+File: GraphsofSineandCosine.11 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.11) [45]
+
+LaTeX Warning: Reference `Transformations' on page 46 undefined on input line 4
+88.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 46 undefined on input lin
+e 504.
+
+[46]
+File: GraphsofSineandCosine.12 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.12)
+Overfull \hbox (31.8295pt too wide) in paragraph at lines 598--634
+[]  [] 
+ []
+
+[47]
+File: GraphsofSineandCosine.13 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.13)
+Overfull \hbox (31.8295pt too wide) in paragraph at lines 652--689
+[]  [] 
+ []
+
+
+LaTeX Warning: Reference `transformationsthm' on page 48 undefined on input lin
+e 701.
+
+
+LaTeX Warning: Reference `Transformations' on page 48 undefined on input line 7
+01.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 48 undefined on input lin
+e 705.
+
+[48]
+File: GraphsofSineandCosine.14 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.14)
+
+LaTeX Warning: Reference `transformationsthm' on page 49 undefined on input lin
+e 741.
+
+File: GraphsofSineandCosine.15 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.15)
+Overfull \hbox (56.4529pt too wide) in paragraph at lines 757--758
+[]|[]| 
+ []
+
+
+LaTeX Warning: Reference `transformationsthm' on page 49 undefined on input lin
+e 767.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 49 undefined on input lin
+e 771.
+
+File: GraphsofSineandCosine.16 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.16) [49]
+File: GraphsofSineandCosine.17 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofSineandCosine.17) [50]
+
+LaTeX Warning: Reference `ExpLogApplications' on page 51 undefined on input lin
+e 886.
+
+File: GraphsofSineandCosine.18 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.18) [51]
+File: GraphsofSineandCosine.19 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofSineandCosine.19)
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 52 undefined on input lin
+e 992.
+
+
+LaTeX Warning: Reference `regsunlight' on page 52 undefined on input line 992.
+
+[52]
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 53 undefined on input
+ line 1024.
+
+File: GraphsofSineandCosine.20 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.20)
+<./GraphsofSineandCosineGraphics/RoughFitDaylight.jpg, id=900, 1682.285pt x 126
+6.7325pt>
+File: ./GraphsofSineandCosineGraphics/RoughFitDaylight.jpg Graphic file (type j
+pg)
+ <use ./GraphsofSineandCosineGraphics/RoughFitDaylight.jpg>
+Package pdftex.def Info: ./GraphsofSineandCosineGraphics/RoughFitDaylight.jpg u
+sed on input line 1069.
+(pdftex.def)             Requested size: 239.93346pt x 180.67499pt.
+
+Overfull \hbox (23.7435pt too wide) in paragraph at lines 1069--1070
+ [][] 
+ []
+
+
+Overfull \vbox (47.22948pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (47.22948pt too high) has occurred while \output is active []
+
+
+[53]
+
+LaTeX Warning: Reference `MoreTrigonometricIdentities' on page 54 undefined on 
+input line 1094.
+
+
+LaTeX Warning: Reference `twodaylightfunctions' on page 54 undefined on input l
+ine 1094.
+
+
+<./GraphsofSineandCosineGraphics/desmos_regression.jpg, id=916, 1976.38374pt x 
+1239.63126pt>
+File: ./GraphsofSineandCosineGraphics/desmos_regression.jpg Graphic file (type 
+jpg)
+ <use ./GraphsofSineandCosineGraphics/desmos_regression.jpg>
+Package pdftex.def Info: ./GraphsofSineandCosineGraphics/desmos_regression.jpg 
+used on input line 1101.
+(pdftex.def)             Requested size: 198.7425pt x 124.65134pt.
+
+<./GraphsofSineandCosineGraphics/both_daylight.jpg, id=917, 1981.4025pt x 1245.
+65375pt>
+File: ./GraphsofSineandCosineGraphics/both_daylight.jpg Graphic file (type jpg)
+
+ <use ./GraphsofSineandCosineGraphics/both_daylight.jpg>
+Package pdftex.def Info: ./GraphsofSineandCosineGraphics/both_daylight.jpg used
+ on input line 1102.
+(pdftex.def)             Requested size: 198.7425pt x 124.9338pt.
+ [54 <./GraphsofSineandCosineGraphics/RoughFitDaylight.jpg> <./GraphsofSineandC
+osineGraphics/desmos_regression.jpg> <./GraphsofSineandCosineGraphics/both_dayl
+ight.jpg>]
+[55] (./ExercisesforGraphsofSineandCosine.tex
+File: GraphsofSineandCosine.21 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofSineandCosine.21)
+File: GraphsofSineandCosine.22 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.22)
+File: GraphsofSineandCosine.23 Graphic file (type mps)
+
+[MP to PDF] (./GraphsofSineandCosine.23)
+File: GraphsofSineandCosine.24 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofSineandCosine.24)
+Overfull \hbox (19.85547pt too wide) in paragraph at lines 172--173
+[][] 
+ []
+
+[56] [57]
+File: GraphsofSineandCosine.25 Graphic file (type mps)
+ [MP to PDF] (./GraphsofSineandCosine.25)
+
+LaTeX Warning: Reference `pendulumproblem' on page 58 undefined on input line 2
+81.
+
+
+LaTeX Warning: Reference `RootRadicalFunctions' on page 58 undefined on input l
+ine 281.
+
+[58]
+
+LaTeX Warning: Reference `transformationsthm' on page 59 undefined on input lin
+e 351.
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 368--373
+
+ []
+
+File: GraphsofSineandCosine.26 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.26)
+Underfull \hbox (badness 10000) in paragraph at lines 391--396
+
+ []
+
+File: GraphsofSineandCosine.27 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.27)
+Underfull \hbox (badness 10000) in paragraph at lines 414--419
+
+ []
+
+File: GraphsofSineandCosine.28 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.28)
+Underfull \hbox (badness 10000) in paragraph at lines 437--442
+
+ []
+
+File: GraphsofSineandCosine.29 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.29) [60]
+Underfull \hbox (badness 10000) in paragraph at lines 461--466
+
+ []
+
+File: GraphsofSineandCosine.30 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.30)
+Underfull \hbox (badness 10000) in paragraph at lines 484--489
+
+ []
+
+File: GraphsofSineandCosine.31 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.31)
+Underfull \hbox (badness 10000) in paragraph at lines 507--512
+
+ []
+
+File: GraphsofSineandCosine.32 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.32)
+Underfull \hbox (badness 10000) in paragraph at lines 530--535
+
+ []
+
+File: GraphsofSineandCosine.33 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.33) [61]
+Underfull \hbox (badness 10000) in paragraph at lines 553--559
+
+ []
+
+File: GraphsofSineandCosine.34 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.34)
+Underfull \hbox (badness 10000) in paragraph at lines 577--583
+
+ []
+
+File: GraphsofSineandCosine.35 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.35)
+Underfull \hbox (badness 10000) in paragraph at lines 601--606
+
+ []
+
+File: GraphsofSineandCosine.36 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.36)
+Underfull \hbox (badness 10000) in paragraph at lines 624--630
+
+ []
+
+File: GraphsofSineandCosine.37 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.37) [62]
+Underfull \hbox (badness 10000) in paragraph at lines 682--683
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--685
+
+ []
+
+File: GraphsofSineandCosine.38 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.38)
+Overfull \hbox (2.87132pt too wide) in paragraph at lines 700--701
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--709
+
+ []
+
+File: GraphsofSineandCosine.39 Graphic file (type mps)
+[MP to PDF] (./GraphsofSineandCosine.39)
+Overfull \hbox (2.87132pt too wide) in paragraph at lines 724--725
+[][] 
+ []
+
+
+<./GraphsofSineandCosineGraphics/LakeErieTempReg.jpg, id=1064, 869.2475pt x 610
+.28pt>
+File: ./GraphsofSineandCosineGraphics/LakeErieTempReg.jpg Graphic file (type jp
+g)
+ <use ./GraphsofSineandCosineGraphics/LakeErieTempReg.jpg>
+Package pdftex.def Info: ./GraphsofSineandCosineGraphics/LakeErieTempReg.jpg us
+ed on input line 773.
+(pdftex.def)             Requested size: 154.40193pt x 108.405pt.
+
+<./GraphsofSineandCosineGraphics/LakeErieRegDesmos.jpg, id=1065, 1177.39874pt x
+ 745.78625pt>
+File: ./GraphsofSineandCosineGraphics/LakeErieRegDesmos.jpg Graphic file (type 
+jpg)
+ <use ./GraphsofSineandCosineGraphics/LakeErieRegDesmos.jpg>
+Package pdftex.def Info: ./GraphsofSineandCosineGraphics/LakeErieRegDesmos.jpg 
+used on input line 784.
+(pdftex.def)             Requested size: 171.14064pt x 108.405pt.
+
+[63 <./GraphsofSineandCosineGraphics/LakeErieTempReg.jpg>]
+<./GraphsofSineandCosineGraphics/MoonIlluminationReg.jpg, id=1089, 1040.88875pt
+ x 573.14125pt>
+File: ./GraphsofSineandCosineGraphics/MoonIlluminationReg.jpg Graphic file (typ
+e jpg)
+ <use ./GraphsofSineandCosineGraphics/MoonIlluminationReg.jpg>
+Package pdftex.def Info: ./GraphsofSineandCosineGraphics/MoonIlluminationReg.jp
+g used on input line 801.
+(pdftex.def)             Requested size: 196.8656pt x 108.405pt.
+
+<./GraphsofSineandCosineGraphics/MoonIlluminatonDesmos.jpg, id=1091, 1040.88875
+pt x 542.025pt>
+File: ./GraphsofSineandCosineGraphics/MoonIlluminatonDesmos.jpg Graphic file (t
+ype jpg)
+
+<use ./GraphsofSineandCosineGraphics/MoonIlluminatonDesmos.jpg>
+Package pdftex.def Info: ./GraphsofSineandCosineGraphics/MoonIlluminatonDesmos.
+jpg used on input line 813.
+(pdftex.def)             Requested size: 208.17406pt x 108.405pt.
+)) [64 <./GraphsofSineandCosineGraphics/LakeErieRegDesmos.jpg> <./GraphsofSinea
+ndCosineGraphics/MoonIlluminationReg.jpg> <./GraphsofSineandCosineGraphics/Moon
+IlluminatonDesmos.jpg>] (./TheOtherCircularFunctions.tex
+
+Mfpic: Initializing TheOtherCircularFunctions.mp.
+\openout3 = `TheOtherCircularFunctions.mp'.
+
+Mfpic: Don't forget to process TheOtherCircularFunctions.mp!
+Mfpic: Apply metapost to TheOtherCircularFunctions.mp.
+Mfpic: Then reprocess this file "CompilerFoundationsofTrigonometry".
+
+File: TheOtherCircularFunctions.1 Graphic file (type mps)
+[MP to PDF] (./TheOtherCircularFunctions.1) [65]
+
+LaTeX Warning: Reference `AverageRatefChange' on page 66 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Reference `MoreTrigonometricIdentities' on page 66 undefined on 
+input line 115.
+
+
+Overfull \hbox (25.6992pt too wide) in paragraph at lines 115--116
+[]\OT1/phv/m/n/10.95 As we men-tioned in Def-i-ni-tion [][]1.2[][], the `co' in
+ `cose-cant' and `cotan-gent' tie back to the con-cept of `co'mplementary
+ []
+
+
+LaTeX Warning: Reference `FundamentalTrigonometricIdentities' on page 66 undefi
+ned on input line 150.
+
+
+LaTeX Warning: Reference `MoreTrigonometricIdentities' on page 66 undefined on 
+input line 150.
+
+[66] [67]
+File: TheOtherCircularFunctions.2 Graphic file (type mps)
+ [MP to PDF] (./TheOtherCircularFunctions.2)
+File: TheOtherCircularFunctions.3 Graphic file (type mps)
+ [MP to PDF]
+(./TheOtherCircularFunctions.3) [68]
+File: TheOtherCircularFunctions.4 Graphic file (type mps)
+ [MP to PDF] (./TheOtherCircularFunctions.4)
+File: TheOtherCircularFunctions.5 Graphic file (type mps)
+ [MP to PDF] (./TheOtherCircularFunctions.5)
+File: TheOtherCircularFunctions.6 Graphic file (type mps)
+ [MP to PDF]
+(./TheOtherCircularFunctions.6)
+File: TheOtherCircularFunctions.7 Graphic file (type mps)
+ [MP to PDF] (./TheOtherCircularFunctions.7)
+Overfull \vbox (8.66107pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (8.48143pt too high) has occurred while \output is active []
+
+
+[69]
+
+LaTeX Warning: Reference `righttrianglesinecosinetangent' on page 70 undefined 
+on input line 495.
+
+
+LaTeX Warning: Reference `righttriangletherest' on page 70 undefined on input l
+ine 495.
+
+
+LaTeX Warning: Reference `AppRightTrig' on page 70 undefined on input line 495.
+
+
+[70]
+File: TheOtherCircularFunctions.8 Graphic file (type mps)
+ [MP to PDF] (./TheOtherCircularFunctions.8)
+File: TheOtherCircularFunctions.9 Graphic file (type mps)
+ [MP to PDF]
+(./TheOtherCircularFunctions.9) [71]
+File: TheOtherCircularFunctions.10 Graphic file (type mps)
+ [MP to PDF]
+(./TheOtherCircularFunctions.10)
+File: TheOtherCircularFunctions.11 Graphic file (type mps)
+ [MP to PDF] (./TheOtherCircularFunctions.11)
+[72] (./ExercisesforTheOtherCircularFunctions.tex [73] [74]
+File: TheOtherCircularFunctions.12 Graphic file (type mps)
+ [MP to PDF]
+(./TheOtherCircularFunctions.12) [75] [76] [77])) [78]
+(./GraphsofOtherCircularFunctions.tex
+
+Mfpic: Initializing GraphsofOtherCircularFunctions.mp.
+\openout3 = `GraphsofOtherCircularFunctions.mp'.
+
+Mfpic: Don't forget to process GraphsofOtherCircularFunctions.mp!
+Mfpic: Apply metapost to GraphsofOtherCircularFunctions.mp.
+Mfpic: Then reprocess this file "CompilerFoundationsofTrigonometry".
+
+
+Overfull \hbox (8.95628pt too wide) in paragraph at lines 25--26
+[]\OT1/phv/m/n/10.95 Running through a few val-ues of $\OT1/phv/m/sl/10.95 k$\O
+T1/phv/m/n/10.95 , we find some of the val-ues ex-cluded from the do-main: $\OT
+1/phv/m/sl/10.95 t \OMS/cmsy/m/n/10.95 6\OT1/phv/m/n/10.95 = \OMS/cmsy/m/n/10.9
+5 ^^F[]\OT1/phv/m/n/10.95 ,  \OMS/cmsy/m/n/10.95 ^^F[]\OT1/phv/m/n/10.95 ,  \OM
+S/cmsy/m/n/10.95 ^^F[]$\OT1/phv/m/n/10.95 .
+ []
+
+File: GraphsofOtherCircularFunctions.1 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.1)
+
+LaTeX Warning: Reference `IntroRational' on page 79 undefined on input line 84.
+
+
+File: GraphsofOtherCircularFunctions.2 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.2) [79]
+File: GraphsofOtherCircularFunctions.3 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.3)
+File: GraphsofOtherCircularFunctions.4 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.4) [80]
+File: GraphsofOtherCircularFunctions.5 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.5)
+
+LaTeX Warning: Reference `RationalFunctions' on page 81 undefined on input line
+ 268.
+
+[81] [82]
+File: GraphsofOtherCircularFunctions.6 Graphic file (type mps)
+ [MP to PDF] (./GraphsofOtherCircularFunctions.6)
+Overfull \hbox (13.762pt too wide) in paragraph at lines 365--402
+[]  [] 
+ []
+
+File: GraphsofOtherCircularFunctions.7 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.7)
+Overfull \hbox (13.762pt too wide) in paragraph at lines 420--454
+[]  [] 
+ []
+
+[83]
+File: GraphsofOtherCircularFunctions.8 Graphic file (type mps)
+ [MP to PDF] (./GraphsofOtherCircularFunctions.8) [84]
+File: GraphsofOtherCircularFunctions.9 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.9)
+File: GraphsofOtherCircularFunctions.10 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.10) [85]
+File: GraphsofOtherCircularFunctions.11 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.11)
+Overfull \hbox (4.45444pt too wide) in paragraph at lines 653--693
+[]  [] 
+ []
+
+File: GraphsofOtherCircularFunctions.12 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.12)
+File: GraphsofOtherCircularFunctions.13 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.13)
+Overfull \hbox (4.45444pt too wide) in paragraph at lines 757--796
+[]  [] 
+ []
+
+[86]
+File: GraphsofOtherCircularFunctions.14 Graphic file (type mps)
+ [MP to PDF] (./GraphsofOtherCircularFunctions.14)
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+ [87]
+
+LaTeX Warning: Reference `transformationsthm' on page 88 undefined on input lin
+e 894.
+
+[88]
+File: GraphsofOtherCircularFunctions.15 Graphic file (type mps)
+ [MP to PDF] (./GraphsofOtherCircularFunctions.15)
+Overfull \hbox (13.762pt too wide) in paragraph at lines 975--1023
+[]  [] 
+ []
+
+File: GraphsofOtherCircularFunctions.16 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.16)
+Overfull \hbox (13.762pt too wide) in paragraph at lines 1038--1081
+[]  [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+File: GraphsofOtherCircularFunctions.17 Graphic file (type mps)
+
+[MP to PDF] (./GraphsofOtherCircularFunctions.17) [90]
+File: GraphsofOtherCircularFunctions.18 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.18)
+
+LaTeX Warning: Reference `righttriangletherest' on page 91 undefined on input l
+ine 1192.
+
+
+LaTeX Warning: Reference `AppRightTrig' on page 91 undefined on input line 1192
+.
+
+[91]
+
+LaTeX Warning: Reference `SequencesandtheBinomialTheorem' on page 92 undefined 
+on input line 1222.
+
+
+LaTeX Warning: Reference `Summation' on page 92 undefined on input line 1231.
+
+
+LaTeX Warning: Reference `geoseries' on page 92 undefined on input line 1231.
+
+[92] [93] (./ExercisesforGraphsofOtherCircularFunctions.tex
+File: GraphsofOtherCircularFunctions.19 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.19)
+File: GraphsofOtherCircularFunctions.20 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.20)
+File: GraphsofOtherCircularFunctions.21 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.21)
+File: GraphsofOtherCircularFunctions.22 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.22)
+Overfull \vbox (4.45328pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (3.27019pt too high) has occurred while \output is active []
+
+
+[94]
+
+LaTeX Warning: Reference `transformationsthm' on page 95 undefined on input lin
+e 218.
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
+
+ []
+
+File: GraphsofOtherCircularFunctions.23 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.23)
+File: GraphsofOtherCircularFunctions.24 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.24)
+Underfull \hbox (badness 10000) in paragraph at lines 293--298
+
+ []
+
+File: GraphsofOtherCircularFunctions.25 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.25)
+Overfull \vbox (12.5577pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (18.0577pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (12.5577pt too high) has occurred while \output is active []
+
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 320--323
+
+ []
+
+File: GraphsofOtherCircularFunctions.26 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.26)
+File: GraphsofOtherCircularFunctions.27 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.27)
+File: GraphsofOtherCircularFunctions.28 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.28) [97]
+Underfull \hbox (badness 10000) in paragraph at lines 398--401
+
+ []
+
+File: GraphsofOtherCircularFunctions.29 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.29)
+Underfull \hbox (badness 10000) in paragraph at lines 424--427
+
+ []
+
+File: GraphsofOtherCircularFunctions.30 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.30)
+Underfull \hbox (badness 10000) in paragraph at lines 450--453
+
+ []
+
+File: GraphsofOtherCircularFunctions.31 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.31) [98]
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
+
+ []
+
+File: GraphsofOtherCircularFunctions.32 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.32)
+Underfull \hbox (badness 10000) in paragraph at lines 498--500
+
+ []
+
+File: GraphsofOtherCircularFunctions.33 Graphic file (type mps)
+[MP to PDF] (./GraphsofOtherCircularFunctions.33)
+File: GraphsofOtherCircularFunctions.34 Graphic file (type mps)
+ [MP to PDF]
+(./GraphsofOtherCircularFunctions.34) [99])) [100])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+
+(./CompilerFoundationsofTrigonometry.aux (./FoundationsofTrigonometry.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+Package rerunfilecheck Info: File `CompilerFoundationsofTrigonometry.out' has n
+ot changed.
+(rerunfilecheck)             Checksum: 975737110C6315D70921EE194B5B9B8A;1657.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
+ ) 
+Here is how much of TeX's memory you used:
+ 12582 strings out of 493014
+ 172441 string characters out of 6133351
+ 671472 words of memory out of 5000000
+ 14610 multiletter control sequences out of 15000+600000
+ 58850 words of font info for 113 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,19n,43p,2689b,2316s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on CompilerFoundationsofTrigonometry.pdf (100 pages, 3761172 byt
+es).
+PDF statistics:
+ 1925 PDF objects out of 2073 (max. 8388607)
+ 1774 compressed objects within 18 object streams
+ 896 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+

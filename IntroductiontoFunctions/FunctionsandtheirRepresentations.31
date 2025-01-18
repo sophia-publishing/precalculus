@@ -1,0 +1,53 @@
+%!PS
+%%BoundingBox: -1 -1 90 90 
+%%HiResBoundingBox: -0.24907 -0.62267 89.91261 89.91261 
+%%Creator: MetaPost 1.9991
+%%CreationDate: 2017.08.03:0918
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 0.49814 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 14.94392 moveto
+89.66354 14.94392 lineto stroke
+newpath 84.68224 17.43459 moveto
+85.85817 15.86667 87.70366 14.94392 89.66354 14.94392 curveto
+87.70366 14.94392 85.85817 14.02118 84.68224 12.45326 curveto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 44.83177 0 moveto
+44.83177 89.66354 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 42.34111 84.68224 moveto
+43.90903 85.85817 44.83177 87.70366 44.83177 89.66354 curveto
+44.83177 87.70366 45.75452 85.85817 47.32243 84.68224 curveto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 14.94392 12.9514 moveto
+14.94392 16.93645 lineto stroke
+newpath 29.88785 12.9514 moveto
+29.88785 16.93645 lineto stroke
+newpath 59.7757 12.9514 moveto
+59.7757 16.93645 lineto stroke
+newpath 74.71962 12.9514 moveto
+74.71962 16.93645 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 46.8243 29.88785 moveto
+42.83925 29.88785 lineto stroke
+newpath 46.8243 44.83177 moveto
+42.83925 44.83177 lineto stroke
+newpath 46.8243 59.7757 moveto
+42.83925 59.7757 lineto stroke
+newpath 46.8243 74.71962 moveto
+42.83925 74.71962 lineto stroke
+ 0 1.24533 dtransform truncate idtransform setlinewidth pop
+newpath 14.94392 0 moveto
+59.7757 74.71962 lineto
+74.71962 0 lineto stroke
+newpath 75.59888 3.22379 moveto
+74.81476 2.34746 74.48901 1.15309 74.71962 0 curveto
+74.48901 1.15309 73.72897 2.1303 72.66812 2.63766 curveto stroke
+newpath 17.76309 1.79402 moveto
+16.59338 1.67302 15.54893 1.00836 14.94392 0 curveto
+15.54893 1.00836 15.64389 2.24272 15.2002 3.33174 curveto stroke
+showpage
+%%EOF

@@ -1,0 +1,2047 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 AUG 2017 10:24
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**CompilerExponentialandLogarithmicFunctions.tex
+(./CompilerExponentialandLogarithmicFunctions.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count100
+\ST@wd=\dimen112
+\ST@rightskip=\skip58
+\ST@leftskip=\skip59
+\ST@parfillskip=\skip60
+\ST@pageleft=\dimen113
+\ST@headht=\dimen114
+\ST@tailht=\dimen115
+\ST@pagesofar=\dimen116
+\ST@pboxht=\dimen117
+\ST@lineht=\dimen118
+\ST@stretchht=\dimen119
+\ST@prevht=\dimen120
+\ST@toadd=\dimen121
+\ST@dimen=\dimen122
+\ST@pbox=\box28
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count101
+\LTcapwidth=\dimen123
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks26
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count106
+\calc@Bcount=\count107
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count108
+\calc@Cskip=\skip67
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count109
+\l_MT_multwidth_dim=\dimen126
+\origjot=\skip68
+\l_MT_shortvdotswithinadjustabove_dim=\dimen127
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen128
+\l_MT_above_intertext_sep=\dimen129
+\l_MT_below_intertext_sep=\dimen130
+\l_MT_above_shortintertext_sep=\dimen131
+\l_MT_below_shortintertext_sep=\dimen132
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen133
+\extrarowheight=\dimen134
+\NC@list=\toks28
+\extratabsurround=\skip69
+\backup@length=\skip70
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count110
+))
+\everycr=\toks29
+\minrowclearance=\skip71
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count111
+\mult@box=\box33
+\multicol@leftmargin=\dimen135
+\c@unbalance=\count112
+\c@collectmore=\count113
+\doublecol@number=\count114
+\multicoltolerance=\count115
+\multicolpretolerance=\count116
+\full@width=\dimen136
+\page@free=\dimen137
+\premulticols=\dimen138
+\postmulticols=\dimen139
+\multicolsep=\skip72
+\multicolbaselineskip=\skip73
+\partial@page=\box34
+\last@line=\box35
+\maxbalancingoverflow=\dimen140
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\c@columnbadness=\count117
+\c@finalcolumnbadness=\count118
+\last@try=\dimen141
+\multicolovershoot=\dimen142
+\multicolundershoot=\dimen143
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\mc@col@check@num=\count119
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty
+Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@@cf@currentpos=\count120
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/mfpic/mfpic.sty
+Package: mfpic 2012/12/03 v1.10. Macros for drawing with Metafont/MetaPost.
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/mfpic/mfpic.tex
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+)
+\mfp@out=\write3
+\mfp@graph=\read1
+\mfp@count=\count121
+\mfp@linetype=\count122
+\mfp@sequence=\count123
+\mfp@toks=\toks30
+\mfp@verbtex=\toks31
+\mfp@fdc=\count124
+\@wholegraph=\box59
+\@textbox=\box60
+\@alltlabels=\box61
+\@backtext=\box62
+\@tlabelstop=\fontdimen 23\mfp@dummy 
+\@tlabelsbot=\fontdimen 24\mfp@dummy 
+\@tlabelsleft=\fontdimen 25\mfp@dummy 
+\@graphright=\fontdimen 26\mfp@dummy 
+\@graphleft=\fontdimen 27\mfp@dummy 
+\@graphtop=\fontdimen 28\mfp@dummy 
+\@graphbot=\fontdimen 29\mfp@dummy 
+\tb@raise=\fontdimen 30\mfp@dummy 
+\tb@moveright=\fontdimen 31\mfp@dummy 
+\tb@totalht=\fontdimen 32\mfp@dummy 
+\tlabel@hadj=\fontdimen 33\mfp@dummy 
+\tlabel@vadj=\fontdimen 34\mfp@dummy 
+\tlabel@sep=\fontdimen 35\mfp@dummy 
+\tlpath@sep=\fontdimen 36\mfp@dummy 
+\mfpicunit=\fontdimen 37\mfp@dummy 
+\@mfpicunit=\fontdimen 38\mfp@dummy 
+\pointsize=\fontdimen 39\mfp@dummy 
+\shadespace=\fontdimen 40\mfp@dummy 
+\polkadotspace=\fontdimen 41\mfp@dummy 
+\hatchspace=\fontdimen 42\mfp@dummy 
+\headlen=\fontdimen 43\mfp@dummy 
+\axisheadlen=\fontdimen 44\mfp@dummy 
+\sideheadlen=\fontdimen 45\mfp@dummy 
+\hashlen=\fontdimen 46\mfp@dummy 
+\dashlen=\fontdimen 47\mfp@dummy 
+\dashspace=\fontdimen 48\mfp@dummy 
+\dotsize=\fontdimen 49\mfp@dummy 
+\griddotsize=\fontdimen 50\mfp@dummy 
+\dotspace=\fontdimen 51\mfp@dummy 
+\symbolspace=\fontdimen 52\mfp@dummy 
+\mfp@scratch=\dimen144
+\mfpframesep=\dimen145
+\mfpframethickness=\dimen146
+\mfpicheight=\dimen147
+\mfpicwidth=\dimen148
+\mfpiccaptionskip=\skip74
+\tl@vpos=\count125
+\tl@hpos=\count126
+\mfp@commentchar=\count127
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count128
+\Hy@pagecounter=\count129
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count130
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4322.
+Package hyperref Info: Option `plainpages' set `false' on input line 4322.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count131
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen152
+\Fld@menulength=\count132
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count133
+\c@Item=\count134
+\c@Hfootnote=\count135
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count136
+\c@bookmark@seq@number=\count137
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip75
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\c@defn=\count138
+\c@thm=\count139
+\c@eqn=\count140
+\c@ex=\count141
+\c@fig=\count142
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/sfmath/sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/phv/m/n on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 330.
+\symSFMath=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  OT1/phv/m/sl --> OT1/phv/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+
+(Font)                  OML/cmm/m/it --> OT1/phv/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/cmm/b/it --> OT1/phv/bx/sl on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/phv/bx/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/phv/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 466.
+)
+(./CompilerExponentialandLogarithmicFunctions.aux
+(./ExponentialandLogarithmicFunctions.aux
+
+LaTeX Warning: Label `IntroExpLogsExercises' multiply defined.
+
+))
+\openout1 = `CompilerExponentialandLogarithmicFunctions.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count143
+\scratchdimen=\dimen155
+\scratchbox=\box63
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen156
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring ON on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count149
+)
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+
+(./CompilerExponentialandLogarithmicFunctions.out)
+(./CompilerExponentialandLogarithmicFunctions.out)
+\@outlinefile=\write4
+\openout4 = `CompilerExponentialandLogarithmicFunctions.out'.
+
+\c@HW=\count150
+\c@HWindent=\count151
+
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 19.08076pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+[1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+\openout2 = `ExponentialandLogarithmicFunctions.aux'.
+
+
+(./ExponentialandLogarithmicFunctions.tex
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 13.24796pt on input line 1.
+ (./ExponentialFunctions.tex
+
+Mfpic: Initializing ExponentialFunctions.mp.
+\openout3 = `ExponentialFunctions.mp'.
+
+Mfpic: Don't forget to process ExponentialFunctions.mp!
+Mfpic: Apply metapost to ExponentialFunctions.mp.
+Mfpic: Then reprocess this file "CompilerExponentialandLogarithmicFunctions".
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 13.
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 13.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 46.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 4.59999pt on input line 46.
+File: ExponentialFunctions.1 Graphic file (type mps)
+ [MP to PDF]
+(./ExponentialFunctions.1)
+Overfull \hbox (40.58943pt too wide) in paragraph at lines 23--60
+[]  [] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 73.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 73.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 73.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.27998pt on input line 73.
+
+LaTeX Warning: Reference `PowerFunctions' on page 2 undefined on input line 73.
+
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 73.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 73.
+
+LaTeX Warning: Reference `PowerFunctions' on page 2 undefined on input line 78.
+
+
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 10.07397pt on input line 84.
+[2
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 103.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.07397pt on input line 103.
+
+
+LaTeX Warning: Reference `Transformations' on page 3 undefined on input line 11
+1.
+
+File: ExponentialFunctions.2 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.2)
+File: ExponentialFunctions.3 Graphic file (type mps)
+ [MP to PDF] (./ExponentialFunctions.3)
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 258.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 258.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 258.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 258.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 258.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 258.
+File: ExponentialFunctions.4 Graphic file (type mps)
+ [MP to PDF]
+(./ExponentialFunctions.4)
+File: ExponentialFunctions.5 Graphic file (type mps)
+ [MP to PDF] (./ExponentialFunctions.5)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+
+LaTeX Warning: Reference `exponentprops' on page 4 undefined on input line 263.
+
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 287.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 287.
+[4]
+
+LaTeX Warning: Reference `transformationsthm' on page 5 undefined on input line
+ 306.
+
+File: ExponentialFunctions.6 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.6)
+
+LaTeX Warning: Reference `transformationsthm' on page 5 undefined on input line
+ 360.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 5 undefined on input line
+ 369.
+
+File: ExponentialFunctions.7 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.7)
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 402.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 7.35999pt on input line 402.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 5 undefined on input line
+ 402.
+
+File: ExponentialFunctions.8 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.8) [5]
+
+LaTeX Warning: Reference `transformationsthm' on page 6 undefined on input line
+ 449.
+
+File: ExponentialFunctions.9 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.9)
+
+LaTeX Warning: Reference `transformationsthm' on page 6 undefined on input line
+ 482.
+
+File: ExponentialFunctions.10 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.10) [6]
+
+LaTeX Warning: Reference `transformationsthm' on page 7 undefined on input line
+ 510.
+
+[7] [8] [9]
+
+LaTeX Warning: Reference `vscalings' on page 10 undefined on input line 651.
+
+File: ExponentialFunctions.11 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.11)
+File: ExponentialFunctions.12 Graphic file (type mps)
+ [MP to PDF] (./ExponentialFunctions.12)
+
+LaTeX Warning: Reference `bisectionmethod' on page 10 undefined on input line 7
+05.
+
+
+LaTeX Warning: Reference `RealZeros' on page 10 undefined on input line 705.
+
+[10]
+<./ExponentialFunctionsGraphics/ExponentialFunctionsEx01.jpg, id=197, 2806.485p
+t x 1499.6025pt>
+File: ./ExponentialFunctionsGraphics/ExponentialFunctionsEx01.jpg Graphic file 
+(type jpg)
+
+<use ./ExponentialFunctionsGraphics/ExponentialFunctionsEx01.jpg>
+Package pdftex.def Info: ./ExponentialFunctionsGraphics/ExponentialFunctionsEx0
+1.jpg used on input line 713.
+(pdftex.def)             Requested size: 433.62pt x 231.68088pt.
+ [11 <./ExponentialFunctionsGraphics/ExponentialFunctionsEx01.jpg>]
+
+LaTeX Warning: Reference `linearfunctionpointslope' on page 12 undefined on inp
+ut line 745.
+
+[12]
+
+LaTeX Warning: Reference `transformationsthm' on page 13 undefined on input lin
+e 825.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 13 undefined on input lin
+e 825.
+
+File: ExponentialFunctions.13 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.13)
+
+LaTeX Warning: Reference `transformationsthm' on page 13 undefined on input lin
+e 858.
+
+File: ExponentialFunctions.14 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.14)
+
+LaTeX Warning: Reference `RationalFunctions' on page 13 undefined on input line
+ 882.
+
+[13]
+Overfull \hbox (10.75446pt too wide) in paragraph at lines 886--887
+[]$ \OT1/phv/m/n/10.95 The larger $\OT1/phv/m/sl/10.95 t$ \OT1/phv/m/n/10.95 be
+-comes, the smaller $\OT1/phv/m/sl/10.95 e[]$ \OT1/phv/m/n/10.95 be-comes, so t
+he term $90\OT1/phv/m/sl/10.95 e[] \OMS/cmsy/m/n/10.95 ^^Y []$\OT1/phv/m/n/10.9
+5 .
+ []
+
+[14]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 902.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 902.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 902.
+ (./ExercisesforExponentialFunctions.tex
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+File: ExponentialFunctions.15 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.15)
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+
+ []
+
+File: ExponentialFunctions.16 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.16)
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+File: ExponentialFunctions.17 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.17)
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+
+ []
+
+File: ExponentialFunctions.18 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.18)
+Overfull \vbox (8.15633pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (8.15633pt too high) has occurred while \output is active []
+
+
+[15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 246--250
+
+ []
+
+File: ExponentialFunctions.19 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.19)
+Underfull \hbox (badness 10000) in paragraph at lines 274--278
+
+ []
+
+File: ExponentialFunctions.20 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.20)
+Underfull \hbox (badness 10000) in paragraph at lines 302--306
+
+ []
+
+File: ExponentialFunctions.21 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.21)
+Underfull \hbox (badness 10000) in paragraph at lines 327--331
+
+ []
+
+File: ExponentialFunctions.22 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.22)
+Overfull \vbox (2.86484pt too high) has occurred while \output is active []
+
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 356--360
+
+ []
+
+File: ExponentialFunctions.23 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.23)
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
+
+ []
+
+File: ExponentialFunctions.24 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.24)
+Underfull \hbox (badness 10000) in paragraph at lines 413--418
+
+ []
+
+File: ExponentialFunctions.25 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.25)
+Underfull \hbox (badness 10000) in paragraph at lines 440--445
+
+ []
+
+File: ExponentialFunctions.26 Graphic file (type mps)
+[MP to PDF] (./ExponentialFunctions.26) [19])) [20] (./LogarithmicFunctions.tex
+
+Mfpic: Initializing LogarithmicFunctions.mp.
+\openout3 = `LogarithmicFunctions.mp'.
+
+Mfpic: Don't forget to process LogarithmicFunctions.mp!
+Mfpic: Apply metapost to LogarithmicFunctions.mp.
+Mfpic: Then reprocess this file "CompilerExponentialandLogarithmicFunctions".
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 5.51999pt on input line 20.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 10.07397pt on input line 20.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <8> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 7.35999pt on input line 20.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <6> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 5.51999pt on input line 20.
+
+Overfull \hbox (1.63164pt too wide) in paragraph at lines 20--22
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (1.63164pt too wide) in paragraph at lines 42--44
+[][][][][][][]  
+ []
+
+
+LaTeX Warning: Reference `inversefunctionprops' on page 21 undefined on input l
+ine 45.
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <5> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 64.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 4.59999pt on input line 64.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <5> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 64.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 4.59999pt on input line 64.
+File: LogarithmicFunctions.1 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.1)
+File: LogarithmicFunctions.2 Graphic file (type mps)
+ [MP to PDF] (./LogarithmicFunctions.2)
+File: LogarithmicFunctions.3 Graphic file (type mps)
+
+[MP to PDF] (./LogarithmicFunctions.3)
+File: LogarithmicFunctions.4 Graphic file (type mps)
+ [MP to PDF] (./LogarithmicFunctions.4)
+[21]
+
+LaTeX Warning: Reference `inversefunctionprops' on page 22 undefined on input l
+ine 194.
+
+[22]
+
+LaTeX Warning: Reference `transformationsthm' on page 23 undefined on input lin
+e 249.
+
+File: LogarithmicFunctions.5 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.5) [23]
+
+LaTeX Warning: Reference `transformationsthm' on page 24 undefined on input lin
+e 330.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 24 undefined on input lin
+e 341.
+
+File: LogarithmicFunctions.6 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.6)
+
+LaTeX Warning: Reference `transformationsthm' on page 24 undefined on input lin
+e 375.
+
+File: LogarithmicFunctions.7 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.7) [24]
+
+LaTeX Warning: Reference `transformationsthm' on page 25 undefined on input lin
+e 414.
+
+File: LogarithmicFunctions.8 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.8)
+
+LaTeX Warning: Reference `transformationsthm' on page 25 undefined on input lin
+e 453.
+
+File: LogarithmicFunctions.9 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.9)
+
+LaTeX Warning: Reference `transformationsthm' on page 25 undefined on input lin
+e 481.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 25 undefined on input lin
+e 486.
+
+[25]
+<./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx01a.jpg, id=426, 2808.492
+5pt x 1511.6475pt>
+File: ./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx01a.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx01a.jpg>
+Package pdftex.def Info: ./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx0
+1a.jpg used on input line 521.
+(pdftex.def)             Requested size: 268.52373pt x 144.54pt.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 26 undefined on input lin
+e 528.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 26 undefined on input lin
+e 539.
+
+[26 <./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx01a.jpg>]
+
+LaTeX Warning: Reference `RationalGraphs' on page 27 undefined on input line 55
+7.
+
+File: LogarithmicFunctions.10 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.10)
+<./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx01b.jpg, id=439, 2808.492
+5pt x 1509.64pt>
+File: ./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx01b.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx01b.jpg>
+Package pdftex.def Info: ./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx0
+1b.jpg used on input line 584.
+(pdftex.def)             Requested size: 216.81pt x 116.53519pt.
+
+Overfull \hbox (0.62004pt too wide) in paragraph at lines 584--585
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `Transformations' on page 27 undefined on input line 5
+90.
+
+
+LaTeX Warning: Reference `RationalFunctions' on page 27 undefined on input line
+ 594.
+
+
+LaTeX Warning: Reference `InverseFunctions' on page 27 undefined on input line 
+600.
+
+[27 <./LogarithmicFunctionsGraphics/LogarithmicFunctionsEx01b.jpg>]
+
+LaTeX Warning: Reference `transformationsthm' on page 28 undefined on input lin
+e 638.
+
+
+LaTeX Warning: Reference `transformationsthm' on page 28 undefined on input lin
+e 638.
+
+File: LogarithmicFunctions.11 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.11)
+File: LogarithmicFunctions.12 Graphic file (type mps)
+ [MP to PDF] (./LogarithmicFunctions.12) [28]
+
+LaTeX Warning: Reference `transformationsthm' on page 29 undefined on input lin
+e 713.
+
+
+LaTeX Warning: Reference `inversefunctionprops' on page 29 undefined on input l
+ine 729.
+
+File: LogarithmicFunctions.13 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.13)
+File: LogarithmicFunctions.14 Graphic file (type mps)
+ [MP to PDF] (./LogarithmicFunctions.14)
+Overfull \hbox (62.88054pt too wide) detected at line 771
+[]
+ []
+
+[29]
+File: LogarithmicFunctions.15 Graphic file (type mps)
+ [MP to PDF] (./LogarithmicFunctions.15)
+
+LaTeX Warning: Reference `inversefunctionprops' on page 30 undefined on input l
+ine 850.
+
+[30] (./ExercisesforLogarithmicFunctions.tex [31]
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
+
+ []
+
+File: LogarithmicFunctions.16 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.16)
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
+
+ []
+
+File: LogarithmicFunctions.17 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.17)
+Overfull \vbox (2.60573pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (2.60573pt too high) has occurred while \output is active []
+
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
+
+ []
+
+File: LogarithmicFunctions.18 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.18)
+Underfull \hbox (badness 10000) in paragraph at lines 425--427
+
+ []
+
+File: LogarithmicFunctions.19 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.19) [33] [34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 822--826
+
+ []
+
+File: LogarithmicFunctions.20 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.20)
+Underfull \hbox (badness 10000) in paragraph at lines 850--854
+
+ []
+
+File: LogarithmicFunctions.21 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.21)
+Underfull \hbox (badness 10000) in paragraph at lines 879--883
+
+ []
+
+File: LogarithmicFunctions.22 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.22)
+Underfull \hbox (badness 10000) in paragraph at lines 905--909
+
+ []
+
+File: LogarithmicFunctions.23 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.23) [36]
+Underfull \hbox (badness 10000) in paragraph at lines 936--940
+
+ []
+
+File: LogarithmicFunctions.24 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.24)
+Underfull \hbox (badness 10000) in paragraph at lines 961--965
+
+ []
+
+File: LogarithmicFunctions.25 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.25)
+Underfull \hbox (badness 10000) in paragraph at lines 993--998
+
+ []
+
+File: LogarithmicFunctions.26 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.26)
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1024
+
+ []
+
+File: LogarithmicFunctions.27 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.27) [37]
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1110
+
+ []
+
+File: LogarithmicFunctions.28 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.28)
+Underfull \hbox (badness 10000) in paragraph at lines 1134--1136
+
+ []
+
+File: LogarithmicFunctions.29 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.29)
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1167
+
+ []
+
+File: LogarithmicFunctions.30 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.30)
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1194
+
+ []
+
+File: LogarithmicFunctions.31 Graphic file (type mps)
+[MP to PDF] (./LogarithmicFunctions.31) [38])) [39]
+(./PropertiesofLogarithms.tex
+
+Mfpic: No file PropertiesofLogarithms.1.
+
+Mfpic: Initializing PropertiesofLogarithms.mp.
+\openout3 = `PropertiesofLogarithms.mp'.
+
+Mfpic: Don't forget to process PropertiesofLogarithms.mp!
+Mfpic: Apply metapost to PropertiesofLogarithms.mp.
+Mfpic: Then reprocess this file "CompilerExponentialandLogarithmicFunctions".
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+[41] [42]
+
+LaTeX Warning: Reference `rationalexponentdefn' on page 43 undefined on input l
+ine 240.
+
+[43] [44]
+
+LaTeX Warning: Reference `LogEquations' on page 45 undefined on input line 374.
+
+
+[45]
+<./PropertiesofLogarithmsGraphics/LogProps01.jpg, id=816, 2800.4625pt x 1509.64
+pt>
+File: ./PropertiesofLogarithmsGraphics/LogProps01.jpg Graphic file (type jpg)
+ <use ./PropertiesofLogarithmsGraphics/LogProps01.jpg>
+Package pdftex.def Info: ./PropertiesofLogarithmsGraphics/LogProps01.jpg used o
+n input line 454.
+(pdftex.def)             Requested size: 289.07999pt x 155.83327pt.
+ [46 <./PropertiesofLogarithmsGraphics/LogProps01.jpg>]
+<./PropertiesofLogarithmsGraphics/LogProps02.jpg, id=830, 2804.4775pt x 1507.63
+25pt>
+File: ./PropertiesofLogarithmsGraphics/LogProps02.jpg Graphic file (type jpg)
+ <use ./PropertiesofLogarithmsGraphics/LogProps02.jpg>
+Package pdftex.def Info: ./PropertiesofLogarithmsGraphics/LogProps02.jpg used o
+n input line 472.
+(pdftex.def)             Requested size: 289.07999pt x 155.396pt.
+ [47 <./PropertiesofLogarithmsGraphics/LogProps02.jpg>] (./ExercisesforProperti
+esofLogarithms.tex
+[48] [49] [50]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 302.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 302.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.19998pt on input line 302.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 6.43999pt on input line 302.
+)) [51] (./ExponentialEquationsandInequalities.tex
+
+Mfpic: Initializing ExponentialEquationsandInequalities.mp.
+\openout3 = `ExponentialEquationsandInequalities.mp'.
+
+Mfpic: Don't forget to process ExponentialEquationsandInequalities.mp!
+Mfpic: Apply metapost to ExponentialEquationsandInequalities.mp.
+Mfpic: Then reprocess this file "CompilerExponentialandLogarithmicFunctions".
+
+[52] [53]
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx01.jpg, id=1000, 2818.53
+pt x 1523.6925pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx01.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx01.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+01.jpg used on input line 127.
+(pdftex.def)             Requested size: 216.81pt x 117.20146pt.
+
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx02.jpg, id=1001, 2804.47
+75pt x 1503.6175pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx02.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx02.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+02.jpg used on input line 129.
+(pdftex.def)             Requested size: 216.81pt x 116.23088pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 125--138
+ [] 
+ []
+
+[54 <./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx01.jpg> <./Exponenti
+alEquationsandInequalitiesGraphics/ExpEqnEx02.jpg>]
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx03.jpg, id=1009, 2804.47
+75pt x 1489.565pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx03.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx03.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+03.jpg used on input line 188.
+(pdftex.def)             Requested size: 216.81pt x 115.1446pt.
+
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx04.jpg, id=1010, 2814.51
+5pt x 1487.5575pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx04.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx04.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+04.jpg used on input line 190.
+(pdftex.def)             Requested size: 216.81pt x 114.58086pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 186--199
+ [] 
+ []
+
+[55 <./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx03.jpg> <./Exponenti
+alEquationsandInequalitiesGraphics/ExpEqnEx04.jpg>]
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx05.jpg, id=1021, 2804.47
+75pt x 1505.625pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx05.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx05.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+05.jpg used on input line 244.
+(pdftex.def)             Requested size: 216.81pt x 116.38606pt.
+
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx06.jpg, id=1022, 2800.46
+25pt x 1523.6925pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx06.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx06.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+06.jpg used on input line 246.
+(pdftex.def)             Requested size: 216.81pt x 117.94545pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 242--255
+ [] 
+ []
+
+
+LaTeX Warning: Reference `IVT' on page 56 undefined on input line 284.
+
+[56 <./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx05.jpg> <./Exponenti
+alEquationsandInequalitiesGraphics/ExpEqnEx06.jpg>]
+File: ExponentialEquationsandInequalities.1 Graphic file (type mps)
+ [MP to PDF]
+(./ExponentialEquationsandInequalities.1)
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx07.jpg, id=1032, 2816.52
+25pt x 1519.6775pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx07.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx07.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+07.jpg used on input line 345.
+(pdftex.def)             Requested size: 216.81pt x 116.96219pt.
+ [57 <./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx07.jpg>]
+File: ExponentialEquationsandInequalities.2 Graphic file (type mps)
+ [MP to PDF]
+(./ExponentialEquationsandInequalities.2)
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx08.jpg, id=1042, 2808.49
+25pt x 1519.6775pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx08.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx08.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+08.jpg used on input line 417.
+(pdftex.def)             Requested size: 216.81pt x 117.31001pt.
+ [58 <./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx08.jpg>]
+File: ExponentialEquationsandInequalities.3 Graphic file (type mps)
+ [MP to PDF]
+(./ExponentialEquationsandInequalities.3)
+<./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx09.jpg, id=1054, 2810.5p
+t x 1511.6475pt>
+File: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx09.jpg Graphic file
+ (type jpg)
+
+<use ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx09.jpg>
+Package pdftex.def Info: ./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx
+09.jpg used on input line 481.
+(pdftex.def)             Requested size: 216.81pt x 116.59789pt.
+
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 59 undefined on input lin
+e 517.
+
+[59 <./ExponentialEquationsandInequalitiesGraphics/ExpEqnEx09.jpg>]
+File: ExponentialEquationsandInequalities.4 Graphic file (type mps)
+
+[MP to PDF] (./ExponentialEquationsandInequalities.4)
+File: ExponentialEquationsandInequalities.5 Graphic file (type mps)
+ [MP to PDF]
+(./ExponentialEquationsandInequalities.5)
+Overfull \hbox (1.95547pt too wide) in paragraph at lines 591--592
+[]|[]| 
+ []
+
+[60] [61] (./ExercisesforExponentialEquationsandInequalities.tex [62]
+
+LaTeX Warning: Reference `fcircginverse' on page 63 undefined on input line 280
+.
+
+
+LaTeX Warning: Reference `InverseFunctions' on page 63 undefined on input line 
+280.
+
+[63] [64])) [65] (./LogarithmicEquationsandInequalities.tex
+
+Mfpic: Initializing LogarithmicEquationsandInequalities.mp.
+\openout3 = `LogarithmicEquationsandInequalities.mp'.
+
+Mfpic: Don't forget to process LogarithmicEquationsandInequalities.mp!
+Mfpic: Apply metapost to LogarithmicEquationsandInequalities.mp.
+Mfpic: Then reprocess this file "CompilerExponentialandLogarithmicFunctions".
+
+[66]
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx01.jpg, id=1250, 2812.50
+75pt x 1521.685pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx01.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx01.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+01.jpg used on input line 114.
+(pdftex.def)             Requested size: 216.81pt x 117.30244pt.
+
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx02.jpg, id=1251, 2812.50
+75pt x 1521.685pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx02.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx02.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+02.jpg used on input line 116.
+(pdftex.def)             Requested size: 216.81pt x 117.30244pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 112--125
+ [] 
+ []
+
+
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx03.jpg, id=1252, 2814.51
+5pt x 1511.6475pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx03.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx03.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+03.jpg used on input line 157.
+(pdftex.def)             Requested size: 216.81pt x 116.43643pt.
+
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx04.jpg, id=1253, 2818.53
+pt x 1515.6625pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx04.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx04.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+04.jpg used on input line 159.
+(pdftex.def)             Requested size: 216.81pt x 116.5838pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 155--168
+ [] 
+ []
+
+[67 <./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx01.jpg> <./Logarithm
+icEquationsandInequalitiesGraphics/LogEqnEx02.jpg>]
+Overfull \hbox (12.83113pt too wide) in paragraph at lines 207--208
+[]\OT1/phv/m/n/10.95 Note the so-lu-tion $\OT1/phv/m/sl/10.95 t \OT1/phv/m/n/10
+.95 = 1 \OMS/cmsy/m/n/10.95 ^^@ [] \OML/cmm/m/it/10.95 < \OT1/phv/m/n/10.95 0$ 
+Hence if sub-sti-tuted into the orig-i-nal equa-tion, the term $2 [][] []$
+ []
+
+
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx05.jpg, id=1263, 2818.53
+pt x 1519.6775pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx05.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx05.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+05.jpg used on input line 213.
+(pdftex.def)             Requested size: 216.81pt x 116.89262pt.
+
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx06.jpg, id=1264, 2808.49
+25pt x 1519.6775pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx06.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx06.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+06.jpg used on input line 215.
+(pdftex.def)             Requested size: 216.81pt x 117.31001pt.
+
+Overfull \hbox (15.24007pt too wide) in paragraph at lines 211--224
+ [] 
+ []
+
+[68 <./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx03.jpg> <./Logarithm
+icEquationsandInequalitiesGraphics/LogEqnEx04.jpg>] [69 <./LogarithmicEquations
+andInequalitiesGraphics/LogEqnEx05.jpg> <./LogarithmicEquationsandInequalitiesG
+raphics/LogEqnEx06.jpg>]
+File: LogarithmicEquationsandInequalities.1 Graphic file (type mps)
+ [MP to PDF] (./LogarithmicEquationsandInequalities.1)
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx07.jpg, id=1287, 2814.51
+5pt x 1515.6625pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx07.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx07.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+07.jpg used on input line 323.
+(pdftex.def)             Requested size: 216.81pt x 116.74568pt.
+File: LogarithmicEquationsandInequalities.2 Graphic file (type mps)
+ [MP to PDF]
+(./LogarithmicEquationsandInequalities.2)
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx08.jpg, id=1288, 2810.5p
+t x 1503.6175pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx08.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx08.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+08.jpg used on input line 380.
+(pdftex.def)             Requested size: 216.81pt x 115.9785pt.
+
+Underfull \vbox (badness 2662) has occurred while \output is active []
+
+ [70 <./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx07.jpg>]
+File: LogarithmicEquationsandInequalities.3 Graphic file (type mps)
+ [MP to PDF]
+(./LogarithmicEquationsandInequalities.3)
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx09.jpg, id=1294, 2800.46
+25pt x 1511.6475pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx09.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx09.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+09.jpg used on input line 446.
+(pdftex.def)             Requested size: 216.81pt x 117.01308pt.
+ [71 <./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx08.jpg> <./Logarith
+micEquationsandInequalitiesGraphics/LogEqnEx09.jpg>]
+
+LaTeX Warning: Reference `intersectionunion' on page 72 undefined on input line
+ 479.
+
+
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx10.jpg, id=1305, 2810.5p
+t x 1513.655pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx10.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx10.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+10.jpg used on input line 493.
+(pdftex.def)             Requested size: 289.07999pt x 155.6703pt.
+ [72 <./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx10.jpg>]
+<./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx11.jpg, id=1315, 2804.47
+75pt x 1505.625pt>
+File: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx11.jpg Graphic file
+ (type jpg)
+
+<use ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx11.jpg>
+Package pdftex.def Info: ./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx
+11.jpg used on input line 536.
+(pdftex.def)             Requested size: 289.07999pt x 155.18909pt.
+ [73 <./LogarithmicEquationsandInequalitiesGraphics/LogEqnEx11.jpg>]
+(./ExercisesforLogarithmicEquationsandInequalities.tex [74]
+
+LaTeX Warning: Reference `ExpEquations' on page 75 undefined on input line 213.
+
+
+
+LaTeX Warning: Reference `fcircginverse' on page 75 undefined on input line 226
+.
+
+
+LaTeX Warning: Reference `InverseFunctions' on page 75 undefined on input line 
+226.
+
+
+LaTeX Warning: Reference `IntroExpLogs' on page 75 undefined on input line 232.
+
+
+
+LaTeX Warning: Reference `IntroExpLogs' on page 75 undefined on input line 234.
+
+
+
+LaTeX Warning: Reference `IntroExpLogs' on page 75 undefined on input line 236.
+
+
+[75]
+
+LaTeX Warning: Reference `andtheresthyperbolic' on page 76 undefined on input l
+ine 403.
+
+
+LaTeX Warning: Reference `Parametric' on page 76 undefined on input line 403.
+
+)) [76] (./ApplicationsofExponentialandLogarithmicFunctions.tex
+
+Mfpic: No file ApplicationsofExponentialandLogarithmicFunctions.4.
+
+Mfpic: Initializing ApplicationsofExponentialandLogarithmicFunctions.mp.
+\openout3 = `ApplicationsofExponentialandLogarithmicFunctions.mp'.
+
+Mfpic: Don't forget to process ApplicationsofExponentialandLogarithmicFunctions
+.mp!
+Mfpic: Apply metapost to ApplicationsofExponentialandLogarithmicFunctions.mp.
+Mfpic: Then reprocess this file "CompilerExponentialandLogarithmicFunctions".
+
+
+Overfull \hbox (1.63164pt too wide) in paragraph at lines 24--26
+[][][][][][][]  
+ []
+
+[77]
+
+LaTeX Warning: Reference `arc' on page 78 undefined on input line 71.
+
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 78 undefined on i
+nput line 71.
+
+[78] [79] [80]
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 81 undefined on i
+nput line 202.
+
+
+LaTeX Warning: Reference `ARCRocketExample' on page 81 undefined on input line 
+202.
+
+
+LaTeX Warning: Reference `averagevelocityrocketex' on page 81 undefined on inpu
+t line 202.
+
+[81] [82] [83] [84]
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx01.jpg, 
+id=1574, 2806.485pt x 1505.625pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx01.
+jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx01.j
+pg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx01.jpg used on input line 400.
+(pdftex.def)             Requested size: 289.07999pt x 155.07422pt.
+ [85 <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx01.
+jpg>]
+
+LaTeX Warning: Reference `PowerFunctions' on page 86 undefined on input line 41
+3.
+
+
+LaTeX Warning: Reference `??' on page 86 undefined on input line 415.
+
+
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx02.jpg, 
+id=1593, 2804.4775pt x 1521.685pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx02.
+jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx02.j
+pg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx02.jpg used on input line 423.
+(pdftex.def)             Requested size: 216.81pt x 117.62752pt.
+
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx03.jpg, 
+id=1594, 2808.4925pt x 1517.67pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx03.
+jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx03.j
+pg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx03.jpg used on input line 425.
+(pdftex.def)             Requested size: 216.81pt x 117.15504pt.
+ [86 <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx02.
+jpg> <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx03.
+jpg>]
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 87 undefined on input lin
+e 491.
+
+
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx04.jpg, 
+id=1621, 2814.515pt x 1515.6625pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx04.
+jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx04.j
+pg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx04.jpg used on input line 498.
+(pdftex.def)             Requested size: 216.81pt x 116.74568pt.
+
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx05.jpg, 
+id=1622, 2804.4775pt x 1507.6325pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx05.
+jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx05.j
+pg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx05.jpg used on input line 500.
+(pdftex.def)             Requested size: 216.81pt x 116.54124pt.
+ [87]
+
+LaTeX Warning: Reference `PowerFunctions' on page 88 undefined on input line 51
+0.
+
+
+Overfull \hbox (28.90155pt too wide) detected at line 518
+[]
+ []
+
+
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx10.jpg, 
+id=1632, 2808.4925pt x 1507.6325pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx10.
+jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx10.j
+pg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx10.jpg used on input line 531.
+(pdftex.def)             Requested size: 216.81pt x 116.38022pt.
+
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx06a.jpg,
+ id=1633, 2804.4775pt x 1515.6625pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx06a
+.jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx06a.
+jpg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx06a.jpg used on input line 533.
+(pdftex.def)             Requested size: 216.81pt x 117.16197pt.
+ [88 <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx04.
+jpg> <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx05.
+jpg> <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx10.
+jpg> <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx06a
+.jpg>]
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx09.jpg, 
+id=1642, 2804.4775pt x 1503.6175pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx09.
+jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx09.j
+pg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx09.jpg used on input line 561.
+(pdftex.def)             Requested size: 216.81pt x 116.23088pt.
+
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx07a.jpg,
+ id=1643, 2808.4925pt x 1507.6325pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx07a
+.jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx07a.
+jpg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx07a.jpg used on input line 563.
+(pdftex.def)             Requested size: 216.81pt x 116.38022pt.
+
+<./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx08.jpg, 
+id=1645, 2804.4775pt x 1513.655pt>
+File: ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx08.
+jpg Graphic file (type jpg)
+
+<use ./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx08.j
+pg>
+Package pdftex.def Info: ./ApplicationsofExponentialandLogarithmicFunctionsGrap
+hics/ExpLogAppEx08.jpg used on input line 584.
+(pdftex.def)             Requested size: 361.34999pt x 195.02672pt.
+
+Underfull \vbox (badness 3009) has occurred while \output is active []
+
+ [89 <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx09.
+jpg> <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx07a
+.jpg>]
+[90 <./ApplicationsofExponentialandLogarithmicFunctionsGraphics/ExpLogAppEx08.j
+pg>] (./ExercisesforApplicationsofExponentialandLogarithmicFunctions.tex
+[91] [92]
+
+LaTeX Warning: Reference `IntroExpLogs' on page 93 undefined on input line 115.
+
+
+[93] [94] [95]
+
+LaTeX Warning: Reference `pursuitfurther' on page 96 undefined on input line 21
+7.
+
+
+LaTeX Warning: Reference `AlgebraicFunctions' on page 96 undefined on input lin
+e 217.
+
+
+LaTeX Warning: Reference `parabolicbridgecable' on page 96 undefined on input l
+ine 233.
+
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 96 undefined on input lin
+e 233.
+
+
+LaTeX Warning: Reference `ExpEquations' on page 96 undefined on input line 233.
+
+
+
+LaTeX Warning: Reference `LogEquations' on page 96 undefined on input line 233.
+
+
+[96]
+
+LaTeX Warning: Reference `APLcats' on page 97 undefined on input line 235.
+
+
+LaTeX Warning: Reference `Regression' on page 97 undefined on input line 235.
+
+
+LaTeX Warning: Reference `swineflulinearized' on page 97 undefined on input lin
+e 235.
+
+[97] [98] [99] [100] [101] [102]))) [103]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+
+(./CompilerExponentialandLogarithmicFunctions.aux
+(./ExponentialandLogarithmicFunctions.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package rerunfilecheck Info: File `CompilerExponentialandLogarithmicFunctions.o
+ut' has not changed.
+(rerunfilecheck)             Checksum: 42173251AD2C9EDE2FB3EEDA3F9F7283;1496.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+ ) 
+Here is how much of TeX's memory you used:
+ 11663 strings out of 493014
+ 164784 string characters out of 6133351
+ 286353 words of memory out of 5000000
+ 13673 multiletter control sequences out of 15000+600000
+ 66063 words of font info for 124 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,23n,43p,1265b,1342s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on CompilerExponentialandLogarithmicFunctions.pdf (103 pages, 19
+653247 bytes).
+PDF statistics:
+ 2179 PDF objects out of 2487 (max. 8388607)
+ 1999 compressed objects within 20 object streams
+ 1093 named destinations out of 1200 (max. 500000)
+ 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+

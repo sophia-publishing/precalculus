@@ -1,0 +1,1695 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.3)  18 JUL 2017 10:21
+entering extended mode
+**./CompilerPolynomialFunctions.tex
+(CompilerPolynomialFunctions.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+) (C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+Package: fancyhdr 2016/10/11 v3.9 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count100
+\ST@wd=\dimen112
+\ST@rightskip=\skip58
+\ST@leftskip=\skip59
+\ST@parfillskip=\skip60
+\ST@pageleft=\dimen113
+\ST@headht=\dimen114
+\ST@tailht=\dimen115
+\ST@pagesofar=\dimen116
+\ST@pboxht=\dimen117
+\ST@lineht=\dimen118
+\ST@stretchht=\dimen119
+\ST@prevht=\dimen120
+\ST@toadd=\dimen121
+\ST@dimen=\dimen122
+\ST@pbox=\box28
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count101
+\LTcapwidth=\dimen123
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks26
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\hhline.sty"
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+) (C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count106
+\calc@Bcount=\count107
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count108
+\calc@Cskip=\skip67
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count109
+\l_MT_multwidth_dim=\dimen126
+\origjot=\skip68
+\l_MT_shortvdotswithinadjustabove_dim=\dimen127
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen128
+\l_MT_above_intertext_sep=\dimen129
+\l_MT_below_intertext_sep=\dimen130
+\l_MT_above_shortintertext_sep=\dimen131
+\l_MT_below_shortintertext_sep=\dimen132
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen133
+\extrarowheight=\dimen134
+\NC@list=\toks28
+\extratabsurround=\skip69
+\backup@length=\skip70
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count110
+))
+\everycr=\toks29
+\minrowclearance=\skip71
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\import\import.sty
+Package: import 2009/03/23  v 5.1
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count111
+\mult@box=\box33
+\multicol@leftmargin=\dimen135
+\c@unbalance=\count112
+\c@collectmore=\count113
+\doublecol@number=\count114
+\multicoltolerance=\count115
+\multicolpretolerance=\count116
+\full@width=\dimen136
+\page@free=\dimen137
+\premulticols=\dimen138
+\postmulticols=\dimen139
+\multicolsep=\skip72
+\multicolbaselineskip=\skip73
+\partial@page=\box34
+\last@line=\box35
+\maxbalancingoverflow=\dimen140
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\c@columnbadness=\count117
+\c@finalcolumnbadness=\count118
+\last@try=\dimen141
+\multicolovershoot=\dimen142
+\multicolundershoot=\dimen143
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\mc@col@check@num=\count119
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\boxedminipage\boxedminipage.sty)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\chapterfolder\chapterfolder.sty
+Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@@cf@currentpos=\count120
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\generic\mfpic\mfpic.sty
+Package: mfpic 2012/12/03 v1.10. Macros for drawing with Metafont/MetaPost.
+
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\generic\mfpic\mfpic.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\mfp@out=\write3
+\mfp@graph=\read1
+\mfp@count=\count121
+\mfp@linetype=\count122
+\mfp@sequence=\count123
+\mfp@toks=\toks30
+\mfp@verbtex=\toks31
+\mfp@fdc=\count124
+\@wholegraph=\box59
+\@textbox=\box60
+\@alltlabels=\box61
+\@backtext=\box62
+\@tlabelstop=\fontdimen 23\mfp@dummy 
+\@tlabelsbot=\fontdimen 24\mfp@dummy 
+\@tlabelsleft=\fontdimen 25\mfp@dummy 
+\@graphright=\fontdimen 26\mfp@dummy 
+\@graphleft=\fontdimen 27\mfp@dummy 
+\@graphtop=\fontdimen 28\mfp@dummy 
+\@graphbot=\fontdimen 29\mfp@dummy 
+\tb@raise=\fontdimen 30\mfp@dummy 
+\tb@moveright=\fontdimen 31\mfp@dummy 
+\tb@totalht=\fontdimen 32\mfp@dummy 
+\tlabel@hadj=\fontdimen 33\mfp@dummy 
+\tlabel@vadj=\fontdimen 34\mfp@dummy 
+\tlabel@sep=\fontdimen 35\mfp@dummy 
+\tlpath@sep=\fontdimen 36\mfp@dummy 
+\mfpicunit=\fontdimen 37\mfp@dummy 
+\@mfpicunit=\fontdimen 38\mfp@dummy 
+\pointsize=\fontdimen 39\mfp@dummy 
+\shadespace=\fontdimen 40\mfp@dummy 
+\polkadotspace=\fontdimen 41\mfp@dummy 
+\hatchspace=\fontdimen 42\mfp@dummy 
+\headlen=\fontdimen 43\mfp@dummy 
+\axisheadlen=\fontdimen 44\mfp@dummy 
+\sideheadlen=\fontdimen 45\mfp@dummy 
+\hashlen=\fontdimen 46\mfp@dummy 
+\dashlen=\fontdimen 47\mfp@dummy 
+\dashspace=\fontdimen 48\mfp@dummy 
+\dotsize=\fontdimen 49\mfp@dummy 
+\griddotsize=\fontdimen 50\mfp@dummy 
+\dotspace=\fontdimen 51\mfp@dummy 
+\symbolspace=\fontdimen 52\mfp@dummy 
+\mfp@scratch=\dimen144
+\mfpframesep=\dimen145
+\mfpframethickness=\dimen146
+\mfpicheight=\dimen147
+\mfpicwidth=\dimen148
+\mfpiccaptionskip=\skip74
+\tl@vpos=\count125
+\tl@hpos=\count126
+\mfp@commentchar=\count127
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count128
+\Hy@pagecounter=\count129
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count130
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4374.
+Package hyperref Info: Option `plainpages' set `false' on input line 4374.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count131
+
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen152
+\Fld@menulength=\count132
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count133
+\c@Item=\count134
+\c@Hfootnote=\count135
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count136
+\c@bookmark@seq@number=\count137
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip75
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\c@defn=\count138
+\c@thm=\count139
+\c@eqn=\count140
+\c@ex=\count141
+\c@fig=\count142
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\latex\sfmath\sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/phv/m/n on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 330.
+\symSFMath=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  OT1/phv/m/sl --> OT1/phv/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+(Font)                  OML/cmm/m/it --> OT1/phv/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/cmm/b/it --> OT1/phv/bx/sl on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/phv/m/n --> OT1/phv/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/phv/bx/n --> OT1/phv/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/phv/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/phv/bx/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/phv/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 466.
+) (CompilerPolynomialFunctions.aux
+(PolynomialFunctions.aux))
+\openout1 = `CompilerPolynomialFunctions.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 48.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 48.
+
+(C:\Users\Jeff\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count143
+\scratchdimen=\dimen155
+\scratchbox=\box63
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen156
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks33
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\AtBeginShipoutBox=\box64
+Package hyperref Info: Link coloring ON on input line 48.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count149
+)
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+ (CompilerPolynomialFunctions.out)
+(CompilerPolynomialFunctions.out)
+\@outlinefile=\write4
+\openout4 = `CompilerPolynomialFunctions.out'.
+
+\c@HW=\count150
+\c@HWindent=\count151
+
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 19.08076pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 19.08076pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 22.88956pt on input line 54.
+[1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+\openout2 = `PolynomialFunctions.aux'.
+
+ (PolynomialFunctions.tex
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 13.24796pt on input line 1.
+ (GraphsofPolynomials.tex
+
+Mfpic: Initializing GraphsofPolynomials.mp.
+\openout3 = `GraphsofPolynomials.mp'.
+
+Mfpic: Don't forget to process GraphsofPolynomials.mp!
+Mfpic: Apply metapost to GraphsofPolynomials.mp.
+Mfpic: Then reprocess this file "CompilerPolynomialFunctions".
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.07397pt on input line 9.
+
+LaTeX Warning: Reference `IntroductiontoFunctions' on page 2 undefined on input line 9.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 4.59999pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.27998pt on input line 9.
+
+
+LaTeX Warning: Reference `AppPolyArith' on page 2 undefined on input line 9.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.27998pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.07397pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 11.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 11.
+LaTeX Font Info:    Font shape `OT1/phv/m/sc' will be
+(Font)              scaled to size 10.07397pt on input line 20.
+
+LaTeX Warning: Reference `SetsofRealNumbers' on page 2 undefined on input line 24.
+
+
+LaTeX Warning: Reference `SetsofRealNumbers' on page 2 undefined on input line 24.
+
+File: GraphsofPolynomials.1 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.1)
+File: GraphsofPolynomials.2 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.2)
+File: GraphsofPolynomials.3 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.3)
+Overfull \hbox (47.99998pt too wide) in paragraph at lines 30--91
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2
+
+]
+
+LaTeX Warning: Reference `AppRadEqus' on page 3 undefined on input line 92.
+
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 3 undefined on input line 92.
+
+
+LaTeX Warning: Reference `symmetrydefn' on page 3 undefined on input line 96.
+
+File: GraphsofPolynomials.4 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.4)
+File: GraphsofPolynomials.5 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.5)
+File: GraphsofPolynomials.6 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.6)
+Overfull \hbox (47.99998pt too wide) in paragraph at lines 118--174
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+
+LaTeX Warning: Reference `symmetrydefn' on page 4 undefined on input line 175.
+
+
+LaTeX Warning: Reference `linearabsvaluegraphs' on page 4 undefined on input line 195.
+
+[4]
+
+LaTeX Warning: Reference `linearabsvaluegraphs' on page 5 undefined on input line 241.
+
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 5 undefined on input line 241.
+
+
+LaTeX Warning: Reference `standardformgraph' on page 5 undefined on input line 241.
+
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 5 undefined on input line 241.
+
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 278.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 284.
+
+File: GraphsofPolynomials.7 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.7)
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 297.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 303.
+
+File: GraphsofPolynomials.8 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.8) [5]
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 320.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 326.
+
+File: GraphsofPolynomials.9 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.9)
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 340.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 346.
+
+File: GraphsofPolynomials.10 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.10)
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 364.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 370.
+
+File: GraphsofPolynomials.11 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.11)
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 385.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 391.
+
+File: GraphsofPolynomials.12 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.12) [6]
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 412.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 418.
+
+File: GraphsofPolynomials.13 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.13)
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 431.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 437.
+
+File: GraphsofPolynomials.14 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.14)
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 454.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 460.
+
+File: GraphsofPolynomials.15 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.15)
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 473.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 479.
+
+File: GraphsofPolynomials.16 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.16) [7]
+File: GraphsofPolynomials.17 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.17)
+Overfull \hbox (80.88695pt too wide) in paragraph at lines 538--539
+[]|[] 
+ []
+
+File: GraphsofPolynomials.18 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.18)
+Overfull \hbox (50.88695pt too wide) in paragraph at lines 582--583
+[]|[]| 
+ []
+
+[8]
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 671.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 671.
+File: GraphsofPolynomials.19 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.19)
+File: GraphsofPolynomials.20 Graphic file (type mps)
+ [MP to PDF]
+(GraphsofPolynomials.20)
+File: GraphsofPolynomials.21 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.21)
+File: GraphsofPolynomials.22 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.22)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+
+LaTeX Warning: Reference `PolyArith' on page 10 undefined on input line 691.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 722.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 7.35999pt on input line 722.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 722.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 5.51999pt on input line 722.
+[10] <./GraphsofPolynomialsGraphics/PolyEBEx1a.jpg, id=197, 2075.755pt x 1513.655pt>
+File: ./GraphsofPolynomialsGraphics/PolyEBEx1a.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyEBEx1a.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyEBEx1a.jpg used on input line 772.
+(pdftex.def)             Requested size: 198.21233pt x 144.54pt.
+
+<./GraphsofPolynomialsGraphics/PolyEBEx1b.jpg, id=198, 2064.71375pt x 1414.28375pt>
+File: ./GraphsofPolynomialsGraphics/PolyEBEx1b.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyEBEx1b.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyEBEx1b.jpg used on input line 772.
+(pdftex.def)             Requested size: 210.98868pt x 144.54pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+[][]
+ []
+
+[11 <./GraphsofPolynomialsGraphics/PolyEBEx1a.jpg> <./GraphsofPolynomialsGraphics/PolyEBEx1b.jpg>]
+<./GraphsofPolynomialsGraphics/PolyEBEx2a.jpg, id=208, 1940.24875pt x 1521.685pt>
+File: ./GraphsofPolynomialsGraphics/PolyEBEx2a.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyEBEx2a.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyEBEx2a.jpg used on input line 798.
+(pdftex.def)             Requested size: 184.29594pt x 144.54pt.
+
+<./GraphsofPolynomialsGraphics/PolyEBEx2b.jpg, id=209, 1940.24875pt x 1505.625pt>
+File: ./GraphsofPolynomialsGraphics/PolyEBEx2b.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyEBEx2b.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyEBEx2b.jpg used on input line 798.
+(pdftex.def)             Requested size: 186.24992pt x 144.54pt.
+
+Overfull \hbox (181.0747pt too wide) in paragraph at lines 798--799
+[][]   [] 
+ []
+
+[12 <./GraphsofPolynomialsGraphics/PolyEBEx2a.jpg> <./GraphsofPolynomialsGraphics/PolyEBEx2b.jpg>]
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 13 undefined on input line 829.
+
+File: GraphsofPolynomials.23 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.23)
+File: GraphsofPolynomials.24 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.24)
+
+LaTeX Warning: Reference `AppRealNumberArithmetic' on page 13 undefined on input line 871.
+
+[13] <./GraphsofPolynomialsGraphics/PolyZeroEx01.jpg, id=230, 2220.295pt x 1379.1525pt>
+File: ./GraphsofPolynomialsGraphics/PolyZeroEx01.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyZeroEx01.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyZeroEx01.jpg used on input line 875.
+(pdftex.def)             Requested size: 349.02074pt x 216.81pt.
+ [14 <./GraphsofPolynomialsGraphics/PolyZeroEx01.jpg>]
+<./GraphsofPolynomialsGraphics/PolyZeroEx02.jpg, id=236, 927.465pt x 1521.685pt>
+File: ./GraphsofPolynomialsGraphics/PolyZeroEx02.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyZeroEx02.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyZeroEx02.jpg used on input line 888.
+(pdftex.def)             Requested size: 144.53394pt x 144.53836pt.
+
+<./GraphsofPolynomialsGraphics/PolyZeroEx03.jpg, id=237, 1569.865pt x 1453.43pt>
+File: ./GraphsofPolynomialsGraphics/PolyZeroEx03.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyZeroEx03.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyZeroEx03.jpg used on input line 891.
+(pdftex.def)             Requested size: 144.53952pt x 144.53094pt.
+
+<./GraphsofPolynomialsGraphics/PolyZeroEx04.jpg, id=238, 1190.4475pt x 1397.22pt>
+File: ./GraphsofPolynomialsGraphics/PolyZeroEx04.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyZeroEx04.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyZeroEx04.jpg used on input line 895.
+(pdftex.def)             Requested size: 144.53685pt x 144.52715pt.
+ [15 <./GraphsofPolynomialsGraphics/PolyZeroEx02.jpg> <./GraphsofPolynomialsGraphics/PolyZeroEx03.jpg> <./GraphsofPolyno
+mialsGraphics/PolyZeroEx04.jpg>] [16]
+File: GraphsofPolynomials.25 Graphic file (type mps)
+ [MP to PDF]
+(GraphsofPolynomials.25)
+
+LaTeX Warning: Reference `AppCmpNums' on page 17 undefined on input line 1013.
+
+
+LaTeX Warning: Reference `comparegraphfromtheoryexample' on page 17 undefined on input line 1013.
+
+[17] <./GraphsofPolynomialsGraphics/PolyRelativeExtrema.jpg, id=289, 2768.3425pt x 1517.67pt>
+File: ./GraphsofPolynomialsGraphics/PolyRelativeExtrema.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyRelativeExtrema.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyRelativeExtrema.jpg used on input line 1055.
+(pdftex.def)             Requested size: 433.62pt x 237.7143pt.
+
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+ [18]
+File: GraphsofPolynomials.26 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.26)
+File: GraphsofPolynomials.27 Graphic file (type mps)
+
+[MP to PDF] (GraphsofPolynomials.27) [19 <./GraphsofPolynomialsGraphics/PolyRelativeExtrema.jpg>]
+<./GraphsofPolynomialsGraphics/PolyBoxExample.jpg, id=307, 2768.3425pt x 1433.355pt>
+File: ./GraphsofPolynomialsGraphics/PolyBoxExample.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/PolyBoxExample.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/PolyBoxExample.jpg used on input line 1138.
+(pdftex.def)             Requested size: 433.62pt x 224.50795pt.
+ [20 <./GraphsofPolynomialsGraphics/PolyBoxExample.jpg>]
+(ExercisesforGraphsofPolynomials.tex
+
+LaTeX Warning: Reference `findformulaforcubicgraphfirst' on page 21 undefined on input line 38.
+
+
+LaTeX Warning: Reference `findformulacubicgraphlast' on page 21 undefined on input line 38.
+
+File: GraphsofPolynomials.28 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.28)
+File: GraphsofPolynomials.29 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.29)
+
+LaTeX Warning: Reference `findformulaforquartgraphfirst' on page 21 undefined on input line 95.
+
+
+LaTeX Warning: Reference `findformulaquartgraphlast' on page 21 undefined on input line 95.
+
+File: GraphsofPolynomials.30 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.30)
+File: GraphsofPolynomials.31 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.31)
+Overfull \vbox (2.06026pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (2.06026pt too high) has occurred while \output is active []
+
+ [21]
+
+LaTeX Warning: Reference `evenoddornotpolyfirst' on page 22 undefined on input line 277.
+
+
+LaTeX Warning: Reference `evenoddornotpolylast' on page 22 undefined on input line 277.
+
+[22]
+
+LaTeX Warning: Reference `evenoddpolynomialexercise' on page 23 undefined on input line 359.
+
+
+LaTeX Warning: Reference `arc' on page 23 undefined on input line 381.
+
+
+LaTeX Warning: Reference `AverageRateofChange' on page 23 undefined on input line 381.
+
+
+LaTeX Warning: Reference `arc' on page 23 undefined on input line 396.
+
+
+LaTeX Warning: Reference `AverageRateofChange' on page 23 undefined on input line 396.
+
+[23]
+
+LaTeX Warning: Reference `PortaBoyCost' on page 24 undefined on input line 432.
+
+File: GraphsofPolynomials.32 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.32) [24]
+
+LaTeX Warning: Reference `regsunlight' on page 25 undefined on input line 487.
+
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 25 undefined on input line 487.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 490.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 492.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.19998pt on input line 492.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 6.43999pt on input line 492.
+[25] <./GraphsofPolynomialsGraphics/GraphsofPolyExercise.jpg, id=433, 1050.92625pt x 983.675pt>
+File: ./GraphsofPolynomialsGraphics/GraphsofPolyExercise.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/GraphsofPolyExercise.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/GraphsofPolyExercise.jpg used on input line 540.
+(pdftex.def)             Requested size: 216.81pt x 202.9305pt.
+
+
+LaTeX Warning: Reference `localmaxminexample' on page 26 undefined on input line 558.
+
+
+LaTeX Warning: Reference `greatestintegerdefn' on page 26 undefined on input line 562.
+
+[26 <./GraphsofPolynomialsGraphics/GraphsofPolyExercise.jpg>]
+
+LaTeX Warning: Reference `LagrangeLinearExercise' on page 27 undefined on input line 584.
+
+
+LaTeX Warning: Reference `ConstantandLinearFunctions' on page 27 undefined on input line 584.
+
+
+LaTeX Warning: Reference `LagrangeQuadExercise' on page 27 undefined on input line 584.
+
+
+LaTeX Warning: Reference `QuadraticFunctions' on page 27 undefined on input line 584.
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 615--618
+
+ []
+
+File: GraphsofPolynomials.33 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.33)
+Underfull \hbox (badness 10000) in paragraph at lines 639--642
+
+ []
+
+File: GraphsofPolynomials.34 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.34)
+Underfull \hbox (badness 10000) in paragraph at lines 668--671
+
+ []
+
+File: GraphsofPolynomials.35 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.35)
+Underfull \hbox (badness 10000) in paragraph at lines 693--696
+
+ []
+
+File: GraphsofPolynomials.36 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.36)
+Underfull \vbox (badness 2726) has occurred while \output is active []
+
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 725--728
+
+ []
+
+File: GraphsofPolynomials.37 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.37)
+Underfull \hbox (badness 10000) in paragraph at lines 750--753
+
+ []
+
+File: GraphsofPolynomials.38 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.38)
+Underfull \hbox (badness 10000) in paragraph at lines 802--809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--817
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 827--834
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 835--842
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 851--858
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 860--867
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 878--885
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 886--893
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 912--919
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 928--931
+
+ []
+
+File: GraphsofPolynomials.39 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.39)
+Underfull \hbox (badness 10000) in paragraph at lines 950--953
+
+ []
+
+File: GraphsofPolynomials.40 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.40) [30]
+Underfull \hbox (badness 10000) in paragraph at lines 977--980
+
+ []
+
+File: GraphsofPolynomials.41 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.41)
+Underfull \hbox (badness 10000) in paragraph at lines 997--1000
+
+ []
+
+File: GraphsofPolynomials.42 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.42)
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1030
+
+ []
+
+File: GraphsofPolynomials.43 Graphic file (type mps)
+[MP to PDF] (GraphsofPolynomials.43)
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1054
+
+ []
+
+
+Overfull \vbox (50.97379pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (50.97379pt too high) has occurred while \output is active []
+
+ [31]
+File: GraphsofPolynomials.44 Graphic file (type mps)
+ [MP to PDF] (GraphsofPolynomials.44)
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1082
+
+ []
+
+Mfpic: No graph file: GraphsofPolynomials.45 .
+
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1105
+
+ []
+
+Mfpic: No graph file: GraphsofPolynomials.46 .
+
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1130
+
+ []
+
+Mfpic: No graph file: GraphsofPolynomials.47 .
+
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1153
+
+ []
+
+Mfpic: No graph file: GraphsofPolynomials.48 .
+[32] [33] [34] <./GraphsofPolynomialsGraphics/DaylightRegCubic.jpg, id=574, 1309.89375pt x 1271.75125pt>
+File: ./GraphsofPolynomialsGraphics/DaylightRegCubic.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/DaylightRegCubic.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/DaylightRegCubic.jpg used on input line 1338.
+(pdftex.def)             Requested size: 180.67499pt x 175.40483pt.
+
+<./GraphsofPolynomialsGraphics/DaylightRegQuartic.jpg, id=575, 1308.89pt x 1269.74374pt>
+File: ./GraphsofPolynomialsGraphics/DaylightRegQuartic.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/DaylightRegQuartic.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/DaylightRegQuartic.jpg used on input line 1338.
+(pdftex.def)             Requested size: 180.67499pt x 175.26357pt.
+ [35 <./GraphsofPolynomialsGraphics/DaylightRegCubic.jpg> <./GraphsofPolynomialsGraphics/DaylightRegQuartic.jpg>]
+<./GraphsofPolynomialsGraphics/CircuitRegQuadratic.jpg, id=580, 1309.89375pt x 1269.74374pt>
+File: ./GraphsofPolynomialsGraphics/CircuitRegQuadratic.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/CircuitRegQuadratic.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/CircuitRegQuadratic.jpg used on input line 1363.
+(pdftex.def)             Requested size: 130.08621pt x 126.09058pt.
+
+<./GraphsofPolynomialsGraphics/CircuitRegCubic.jpg, id=581, 1308.89pt x 1262.7175pt>
+File: ./GraphsofPolynomialsGraphics/CircuitRegCubic.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/CircuitRegCubic.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/CircuitRegCubic.jpg used on input line 1364.
+(pdftex.def)             Requested size: 130.08621pt x 125.48918pt.
+
+<./GraphsofPolynomialsGraphics/CircuitRegQuartic.jpg, id=582, 1304.875pt x 1270.7475pt>
+File: ./GraphsofPolynomialsGraphics/CircuitRegQuartic.jpg Graphic file (type jpg)
+
+<use ./GraphsofPolynomialsGraphics/CircuitRegQuartic.jpg>
+Package pdftex.def Info: ./GraphsofPolynomialsGraphics/CircuitRegQuartic.jpg used on input line 1365.
+(pdftex.def)             Requested size: 130.08621pt x 126.675pt.
+)) [36 <./GraphsofPolynomialsGraphics/CircuitRegQuadratic.jpg> <./GraphsofPolynomialsGraphics/CircuitRegCubic.jpg> <./Gr
+aphsofPolynomialsGraphics/CircuitRegQuartic.jpg>]
+(Polydivision.tex
+
+Mfpic: No file Polydivision.1.
+
+Mfpic: Initializing Polydivision.mp.
+\openout3 = `Polydivision.mp'.
+
+Mfpic: Don't forget to process Polydivision.mp!
+Mfpic: Apply metapost to Polydivision.mp.
+Mfpic: Then reprocess this file "CompilerPolynomialFunctions".
+
+
+LaTeX Warning: Reference `polylongdiv' on page 37 undefined on input line 12.
+
+<./PolydivisionGraphics/PolyDiv01.jpg, id=604, 2766.335pt x 1437.37pt>
+File: ./PolydivisionGraphics/PolyDiv01.jpg Graphic file (type jpg)
+ <use ./PolydivisionGraphics/PolyDiv01.jpg>
+Package pdftex.def Info: ./PolydivisionGraphics/PolyDiv01.jpg used on input line 16.
+(pdftex.def)             Requested size: 278.1693pt x 144.54pt.
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 14--42
+[][] 
+ []
+
+
+LaTeX Warning: Reference `verifyrootsex' on page 37 undefined on input line 45.
+
+[37 <./PolydivisionGraphics/PolyDiv01.jpg>] [38]
+Underfull \vbox (badness 3965) has occurred while \output is active []
+
+ [39] [40]
+Overfull \hbox (1.43575pt too wide) in paragraph at lines 365--366
+[]\OT1/phv/m/n/10.95 Since the div-i-dend was a third de-gree poly-no-mial func-tion, the quo-tient is a sec-ond de-gree
+ (quadratic)
+ []
+
+[41] [42] [43] [44] [45] (ExercisesforPolydivision.tex [46]
+
+LaTeX Warning: Reference `oneisazeroex' on page 47 undefined on input line 215.
+
+
+LaTeX Warning: Reference `monomialdiffquotex' on page 47 undefined on input line 240.
+
+[47] [48])) [49] (RealZeros.tex
+
+Mfpic: Initializing RealZeros.mp.
+\openout3 = `RealZeros.mp'.
+
+Mfpic: Don't forget to process RealZeros.mp!
+Mfpic: Apply metapost to RealZeros.mp.
+Mfpic: Then reprocess this file "CompilerPolynomialFunctions".
+
+
+LaTeX Warning: Reference `??' on page 50 undefined on input line 21.
+
+
+LaTeX Warning: Reference `Summation' on page 50 undefined on input line 21.
+
+[50] [51] <./RealZerosGraphics/RealZerosEx01a.jpg, id=813, 2764.3275pt x 1447.4075pt>
+File: ./RealZerosGraphics/RealZerosEx01a.jpg Graphic file (type jpg)
+
+<use ./RealZerosGraphics/RealZerosEx01a.jpg>
+Package pdftex.def Info: ./RealZerosGraphics/RealZerosEx01a.jpg used on input line 117.
+(pdftex.def)             Requested size: 216.80615pt x 144.52837pt.
+ <./RealZerosGraphics/RealZerosEx01b.jpg, id=814, 2786.41pt x 1443.3925pt>
+File: ./RealZerosGraphics/RealZerosEx01b.jpg Graphic file (type jpg)
+
+<use ./RealZerosGraphics/RealZerosEx01b.jpg>
+Package pdftex.def Info: ./RealZerosGraphics/RealZerosEx01b.jpg used on input line 117.
+(pdftex.def)             Requested size: 216.79489pt x 144.5239pt.
+ [52 <./RealZerosGraphics/RealZerosEx01a.jpg> <./RealZerosGraphics/RealZerosEx01b.jpg>] <./RealZerosGraphics/RealZerosEx
+02a.jpg, id=821, 2774.365pt x 1517.67pt>
+File: ./RealZerosGraphics/RealZerosEx02a.jpg Graphic file (type jpg)
+
+<use ./RealZerosGraphics/RealZerosEx02a.jpg>
+Package pdftex.def Info: ./RealZerosGraphics/RealZerosEx02a.jpg used on input line 159.
+(pdftex.def)             Requested size: 216.78906pt x 144.52751pt.
+ <./RealZerosGraphics/RealZerosEx02b.jpg, id=822, 2758.305pt x 1509.64pt>
+File: ./RealZerosGraphics/RealZerosEx02b.jpg Graphic file (type jpg)
+
+<use ./RealZerosGraphics/RealZerosEx02b.jpg>
+Package pdftex.def Info: ./RealZerosGraphics/RealZerosEx02b.jpg used on input line 159.
+(pdftex.def)             Requested size: 216.79678pt x 144.52298pt.
+
+Overfull \hbox (15.20592pt too wide) in paragraph at lines 157--162
+ [] 
+ []
+
+
+LaTeX Warning: Reference `AppQuadEqus' on page 53 undefined on input line 164.
+
+[53 <./RealZerosGraphics/RealZerosEx02a.jpg> <./RealZerosGraphics/RealZerosEx02b.jpg>]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 7.35999pt on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 5.51999pt on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 10.07397pt on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <8> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 7.35999pt on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/bx/sl' in size <6> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 172.
+LaTeX Font Info:    Font shape `OT1/phv/b/sl' will be
+(Font)              scaled to size 5.51999pt on input line 172.
+
+
+LaTeX Warning: Reference `AlgebraicFunctions' on page 54 undefined on input line 172.
+
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 194.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 194.
+ [54] [55]
+Overfull \hbox (0.66808pt too wide) in paragraph at lines 320--321
+\OT1/phv/m/n/10.95 Descartes' Rule of Signs tells us that the pos-i-tive real zero we found, $[]$, has mul-ti-plic-ity $
+1$. Descartes
+ []
+
+File: RealZeros.1 Graphic file (type mps)
+[MP to PDF] (RealZeros.1) [56]
+
+LaTeX Warning: Reference `QuadraticInequalities' on page 57 undefined on input line 353.
+
+[57]
+
+LaTeX Warning: Reference `QuadraticInequalities' on page 58 undefined on input line 388.
+
+File: RealZeros.2 Graphic file (type mps)
+[MP to PDF] (RealZeros.2) [58]
+
+LaTeX Warning: Reference `AbsoluteValueFunctions' on page 59 undefined on input line 478.
+
+<./RealZerosGraphics/RealZerosEx03a.jpg, id=892, 2768.3425pt x 1507.6325pt>
+File: ./RealZerosGraphics/RealZerosEx03a.jpg Graphic file (type jpg)
+
+<use ./RealZerosGraphics/RealZerosEx03a.jpg>
+Package pdftex.def Info: ./RealZerosGraphics/RealZerosEx03a.jpg used on input line 484.
+(pdftex.def)             Requested size: 216.78313pt x 144.53784pt.
+ <./RealZerosGraphics/RealZerosEx03b.jpg, id=893, 2776.3725pt x 1513.655pt>
+File: ./RealZerosGraphics/RealZerosEx03b.jpg Graphic file (type jpg)
+
+<use ./RealZerosGraphics/RealZerosEx03b.jpg>
+Package pdftex.def Info: ./RealZerosGraphics/RealZerosEx03b.jpg used on input line 484.
+(pdftex.def)             Requested size: 216.77647pt x 144.5378pt.
+
+Overfull \hbox (15.17967pt too wide) in paragraph at lines 482--487
+ [] 
+ []
+
+[59 <./RealZerosGraphics/RealZerosEx03a.jpg> <./RealZerosGraphics/RealZerosEx03b.jpg>]
+File: RealZeros.3 Graphic file (type mps)
+ [MP to PDF] (RealZeros.3)
+<./RealZerosGraphics/RealZerosEx04.jpg, id=902, 2730.2pt x 1517.67pt>
+File: ./RealZerosGraphics/RealZerosEx04.jpg Graphic file (type jpg)
+ <use ./RealZerosGraphics/RealZerosEx04.jpg>
+Package pdftex.def Info: ./RealZerosGraphics/RealZerosEx04.jpg used on input line 530.
+(pdftex.def)             Requested size: 289.07999pt x 160.69162pt.
+
+[60 <./RealZerosGraphics/RealZerosEx04.jpg>]
+
+LaTeX Warning: Reference `bisectionexercise' on page 61 undefined on input line 544.
+
+[61] (ExercisesforRealZeros.tex [62] [63]
+
+LaTeX Warning: Reference `polyineqfromgraphfirst' on page 64 undefined on input line 323.
+
+
+LaTeX Warning: Reference `polyineqfromgraphlast' on page 64 undefined on input line 323.
+
+Mfpic: No graph file: RealZeros.4 .
+Mfpic: No graph file: RealZeros.5 .
+Mfpic: No graph file: RealZeros.6 .
+Mfpic: No graph file: RealZeros.7 .
+Mfpic: No graph file: RealZeros.8 .
+Mfpic: No graph file: RealZeros.9 .
+
+LaTeX Warning: Reference `bisectionmethod' on page 64 undefined on input line 498.
+
+[64]
+
+LaTeX Warning: Reference `bisectionmethod' on page 65 undefined on input line 510.
+
+
+LaTeX Warning: Reference `sqrt2isirrationalexercise' on page 65 undefined on input line 514.
+
+[65] [66] [67] [68] [69])) [70] (ComplexZeros.tex
+
+Mfpic: Initializing ComplexZeros.mp.
+\openout3 = `ComplexZeros.mp'.
+
+Mfpic: Don't forget to process ComplexZeros.mp!
+Mfpic: Apply metapost to ComplexZeros.mp.
+Mfpic: Then reprocess this file "CompilerPolynomialFunctions".
+
+
+LaTeX Warning: Reference `AppCmpNums' on page 71 undefined on input line 9.
+
+
+LaTeX Warning: Reference `cmpgeoalgexfirst' on page 71 undefined on input line 35.
+
+
+LaTeX Warning: Reference `cmpgeoalgexlast' on page 71 undefined on input line 35.
+
+File: ComplexZeros.1 Graphic file (type mps)
+[MP to PDF] (ComplexZeros.1)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+
+LaTeX Warning: Reference `quadraticformulafunction' on page 72 undefined on input line 63.
+
+
+LaTeX Warning: Reference `complexzeroex1' on page 72 undefined on input line 77.
+
+
+LaTeX Warning: Reference `AppCmpNums' on page 72 undefined on input line 77.
+
+[72] [73]
+
+LaTeX Warning: Reference `conjugateprops' on page 74 undefined on input line 175.
+
+[74] [75]
+File: ComplexZeros.2 Graphic file (type mps)
+ [MP to PDF] (ComplexZeros.2) [76]
+
+LaTeX Warning: Reference `PolarComplex' on page 77 undefined on input line 334.
+
+[77] (ExercisesforComplexZeros.tex [78]
+
+LaTeX Warning: Reference `polyfromgraphfirst' on page 79 undefined on input line 245.
+
+
+LaTeX Warning: Reference `polyfromgraphlast' on page 79 undefined on input line 245.
+
+Mfpic: No graph file: ComplexZeros.3 .
+Mfpic: No graph file: ComplexZeros.4 .
+[79]
+Mfpic: No graph file: ComplexZeros.5 .
+Mfpic: No graph file: ComplexZeros.6 .
+Mfpic: No graph file: ComplexZeros.7 .
+Mfpic: No graph file: ComplexZeros.8 .
+
+LaTeX Warning: Reference `parallelperpendicularslopetheorem' on page 80 undefined on input line 420.
+
+
+LaTeX Warning: Reference `AppLines' on page 80 undefined on input line 420.
+
+
+LaTeX Warning: Reference `absvaldistdefn' on page 80 undefined on input line 422.
+
+
+LaTeX Warning: Reference `AppAbsValEqIneq' on page 80 undefined on input line 422.
+
+[80] [81] [82]
+
+LaTeX Warning: Reference `parallelperpendicularslopetheorem' on page 83 undefined on input line 582.
+
+
+LaTeX Warning: Reference `PolarComplex' on page 83 undefined on input line 582.
+
+
+LaTeX Warning: Reference `absvaldistdefn' on page 83 undefined on input line 584.
+
+
+LaTeX Warning: Reference `AppAbsValEqIneq' on page 83 undefined on input line 584.
+
+)) [83])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+ (CompilerPolynomialFunctions.aux (PolynomialFunctions.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package rerunfilecheck Info: File `CompilerPolynomialFunctions.out' has not changed.
+(rerunfilecheck)             Checksum: 00DC2DC88E18FB7D37ECEE04FEFB2AA2;1337.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+ ) 
+Here is how much of TeX's memory you used:
+ 11326 strings out of 493323
+ 154354 string characters out of 3139070
+ 314073 words of memory out of 3000000
+ 13702 multiletter control sequences out of 15000+200000
+ 55556 words of font info for 111 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,23n,43p,2145b,1601s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on CompilerPolynomialFunctions.pdf (83 pages, 4447503 bytes).
+PDF statistics:
+ 1540 PDF objects out of 1728 (max. 8388607)
+ 772 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+
