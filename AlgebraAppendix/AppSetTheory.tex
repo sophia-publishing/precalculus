@@ -431,7 +431,8 @@ If $a$ and $b$ are real numbers then exactly one of the following statements is 
 Segments of the real number line are called \textbf{intervals}.\index{interval ! definition of}  They play a huge role not only in this text but also in the Calculus curriculum so we need a concise way to describe them.  We start by examining a few examples of the \textbf{interval notation}\index{interval ! notation for} associated with some specific sets of numbers.  
 
 \begin{center}
-\begin{tabularx}{\textwidth}{|C|C|C|} \hline
+\newcolumntype{C}{>{\centering\arraybackslash}m{0.29\textwidth}}
+\begin{tabular}{|C|C|C|} \hline
 
 Set of Real Numbers & Interval Notation &  Region on the Real Number Line  \\
 \hline
@@ -500,7 +501,7 @@ Set of Real Numbers & Interval Notation &  Region on the Real Number Line  \\
 \end{mfpic}   \\
 \hline
 
-\end{tabularx}
+\end{tabular}
 
 \end{center}
 
@@ -524,8 +525,8 @@ As you can glean from the table, for intervals with finite endpoints we start by
 \smallskip
 
 \begin{center}
-
-\begin{tabular}{|c|c|c|} \hline
+\newcolumntype{C}{>{\centering\arraybackslash}m{0.27\textwidth}}
+\begin{tabular}{|C|C|C|} \hline
 
 Set of Real Numbers & Interval Notation &  Region on the Real Number Line  \\
 \hline
@@ -708,9 +709,9 @@ We close this section with an example that ties together some of the concepts pr
 
 \begin{enumerate}
 
-\item  $\{ x \, | \, x \leq -2 \, \, \text{or} \, \,  x \geq 2 \}$
+\item  $\Set{ x | \parbox{0.25\textwidth}{$x \leq -2$ or $x \geq 2$} }$
 
-\item  $\{ x \, | \, x < \sqrt{3} \,\,  \text{and} \,\, x \geq -\frac{8}{5}  \}$
+\item  $\Set{ x | \parbox{0.25\textwidth}{$x < \sqrt{3}$ and $x \geq -\frac{8}{5}$} }$
 
 \setcounter{HW}{\value{enumii}}
 
@@ -726,7 +727,7 @@ We close this section with an example that ties together some of the concepts pr
 
 \item  $\{ x \, | \, x \neq \pm 3 \}$
 
-\item  $\{ x \, | \, -1 < x \leq 3 \,\, \text{or} \,\, x = 5\}$
+\item  $\Set{ x | \parbox{0.25\textwidth}{$-1 < x \leq 3$ or $x = 5$}}$
 
 \end{enumerate}
 
@@ -745,7 +746,7 @@ We close this section with an example that ties together some of the concepts pr
 
 \begin{enumerate}
 
-\item  The best way to proceed here is to graph the set of numbers on the number line and glean the answer from it.  The inequality $x \leq -2$ corresponds to the interval $(-\infty, -2]$ and the inequality $x \geq 2$ corresponds to the interval $[2, \infty)$. The `or' in $\{ x \, | \, x \leq -2 \, \, \text{or} \, \,  x \geq 2 \}$ tells us that we are looking for the union of these two intervals, so our answer is $(-\infty, -2] \cup [2, \infty)$.
+\item  The best way to proceed here is to graph the set of numbers on the number line and glean the answer from it.  The inequality $x \leq -2$ corresponds to the interval $(-\infty, -2]$ and the inequality $x \geq 2$ corresponds to the interval $[2, \infty)$. The `or' in $\{ x \, | \, x \leq -2 \, \, \text{or} \, \,  x \geq 2 \}$ tells us that we are looking for the union of these two intervals, so our answer is
 
 \begin{center}
 
@@ -836,8 +837,6 @@ To find $A \cup B$, we need to find the numbers in at least one of $A$ or $B$.  
 
 \begin{center}
 
-\begin{tabular}{ccc}
-
 \begin{mfpic}[10]{-5}{7}{-2}{2}
 \arrow \polyline{(-5.5,0),(7.5,0)}
 \axismarks{x}{-5,1,3}
@@ -850,7 +849,7 @@ To find $A \cup B$, we need to find the numbers in at least one of $A$ or $B$.  
 \pointfillfalse
 \point[3pt]{(1,1), (3,2)}
 \tcaption{$A = [-5,3)$,  $B = (1, \infty)$ }
-\end{mfpic}  &
+\end{mfpic} \bigskip
 
 \begin{mfpic}[10]{-5}{7}{-2}{2}
 \arrow \polyline{(-5,0),(7,0)}
@@ -865,7 +864,7 @@ To find $A \cup B$, we need to find the numbers in at least one of $A$ or $B$.  
 \pointfillfalse
 \point[3pt]{(1,0),(1,1), (3,2), (3,0)}
 \tcaption{$A \cap B = (1,3)$}
-\end{mfpic}  &
+\end{mfpic} \bigskip
 
 \begin{mfpic}[10]{-5}{7}{-2}{2}
 \tlpointsep{5pt}
@@ -878,9 +877,7 @@ To find $A \cup B$, we need to find the numbers in at least one of $A$ or $B$.  
 \pointfillfalse
 \point[3pt]{(1,1), (3,2)}
 \tcaption{$A \cup B = [-5,\infty)$}
-\end{mfpic} \\
-
-\end{tabular}
+\end{mfpic}
 
 \end{center}
 
