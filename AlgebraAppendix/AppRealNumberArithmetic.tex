@@ -313,20 +313,24 @@ We now perform the subtraction in the numerator and replace $0.21$ with $\frac{2
 
 \dfrac{\dfrac{12}{5} - \dfrac{7}{24}}{1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)} & = & \dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right)}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right)} & \end{array} \] 
 
-Hence, one way to proceed is as before: simplify the numerator and the denominator then perform the `division by a fraction is the multiplication by the reciprocal' trick.  While there is nothing wrong with this approach, we'll use our Equivalent Fractions property to rid ourselves of the `compound' nature of this fraction straight away.  The idea is to multiply both the numerator and denominator by the lowest common denominator of each of the `smaller' fractions - in this case, $24 \cdot 5 = 120$.\[ \begin{array}{rclr}
+Hence, one way to proceed is as before: simplify the numerator and the denominator then perform the `division by a fraction is the multiplication by the reciprocal' trick.  While there is nothing wrong with this approach, we'll use our Equivalent Fractions property to rid ourselves of the `compound' nature of this fraction straight away.  The idea is to multiply both the numerator and denominator by the lowest common denominator of each of the `smaller' fractions - in this case, $24 \cdot 5 = 120$.
 
- \dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right)}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right)} & = &\dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right) \cdot 120}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right) \cdot 120} & \text{Equivalent Fractions}\\ [30pt]
+\begin{equation*}
+\begin{split}
+ \dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right)}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right)} & = \dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right) \cdot 120}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right) \cdot 120}  \\
+ & \text{Equivalent Fractions}\\
+& = \dfrac{\left(\dfrac{12}{5}\right) (120) - \left(\dfrac{7}{24}\right) (120)}{(1)(120) + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)(120)} \\
+& \text{Distributive Property} \\
+& = \dfrac{\dfrac{12 \cdot 120}{5} - \dfrac{7 \cdot 120}{24}}{120 + \dfrac{12 \cdot 7 \cdot 120}{5 \cdot 24}} \\
+& \text{Multiply fractions} \\ 
+& = \dfrac{\dfrac{12 \cdot 24 \cdot \cancel{5}}{\cancel{5}} - \dfrac{7 \cdot 5 \cdot \cancel{24}}{\cancel{24}}}{120 + \dfrac{12 \cdot 7 \cdot \cancel{5} \cdot \cancel{24}}{\cancel{5} \cdot \cancel{24}}} \\
+& \text{Factor and cancel} \\
+ & = \dfrac{(12 \cdot 24) - (7 \cdot 5)}{120 + (12 \cdot 7)} \\
+ & = \dfrac{288 - 35}{120 + 84} \\
+ & = \dfrac{253}{204} \\
+\end{split}
+\end{equation*}
 
-& = & \dfrac{\left(\dfrac{12}{5}\right) (120) - \left(\dfrac{7}{24}\right) (120)}{(1)(120) + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)(120)} & \text{Distributive Property} \\[30pt]
-
-& = & \dfrac{\dfrac{12 \cdot 120}{5} - \dfrac{7 \cdot 120}{24}}{120 + \dfrac{12 \cdot 7 \cdot 120}{5 \cdot 24}} & \text{Multiply fractions} \\ [25pt]
-
-& = & \dfrac{\dfrac{12 \cdot 24 \cdot \cancel{5}}{\cancel{5}} - \dfrac{7 \cdot 5 \cdot \cancel{24}}{\cancel{24}}}{120 + \dfrac{12 \cdot 7 \cdot \cancel{5} \cdot \cancel{24}}{\cancel{5} \cdot \cancel{24}}} & \text{Factor and cancel} \\[25pt]
- & = & \dfrac{(12 \cdot 24) - (7 \cdot 5)}{120 + (12 \cdot 7)} & \\[10pt]
- & = & \dfrac{288 - 35}{120 + 84} & \\[10pt]
- & = & \dfrac{253}{204} & \\
-  \end{array} \] 
- 
 Since $253 = 11 \cdot 23$ and $204 = 2 \cdot 2 \cdot 3 \cdot 17$ have no common factors our result is in lowest terms which means we are done.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -334,29 +338,38 @@ Since $253 = 11 \cdot 23$ and $204 = 2 \cdot 2 \cdot 3 \cdot 17$ have no common 
 																					
 \item  This fraction may look simpler than the one before it, but the negative signs and parentheses mean that we shouldn't get complacent.  Again we note that the division line here acts as a grouping symbol.  That is, 
 
-\[ \dfrac{(2(2)+1)(-3-(-3)) - 5(4-7)}{4-2(3)} = \dfrac{\left((2(2)+1)(-3-(-3)) - 5(4-7) \right)}{(4-2(3))} \]
+\begin{multline*}
+\dfrac{(2(2)+1)(-3-(-3)) - 5(4-7)}{4-2(3)} \\
+= \dfrac{\left((2(2)+1)(-3-(-3)) - 5(4-7) \right)}{(4-2(3))}
+\end{multline*}
 
-This means that we should simplify the numerator and denominator first, then perform the division last.  We tend to what's in parentheses first, giving multiplication priority over addition and subtraction.\[ \begin{array}{rclr}
-
-
-\dfrac{(2(2)+1)(-3-(-3)) - 5(4-7)}{4-2(3)} & = & \dfrac{(4+1)(-3+3)-5(-3)}{4 - 6} &  \\ [8pt]
-                                           & = & \dfrac{(5)(0) + 15}{-2}  & \\ [8pt]
-																					 & = & \dfrac{15}{-2} & \\ [8pt]
-																					 & = & -\dfrac{15}{2} & \text{Properties of Negatives} \\ \end{array} \]
+This means that we should simplify the numerator and denominator first, then perform the division last.  We tend to what's in parentheses first, giving multiplication priority over addition and subtraction.
+\begin{multline*}
+\dfrac{(2(2)+1)(-3-(-3)) - 5(4-7)}{4-2(3)} \\
+\begin{array}{cl}
+= & \dfrac{(4+1)(-3+3)-5(-3)}{4 - 6} \\ [8pt]
+= & \dfrac{(5)(0) + 15}{-2} \\ [8pt]
+= & \dfrac{15}{-2} \\ [8pt]
+= & \begin{array}{lr}-\dfrac{15}{2} & \text{(Properties of Negatives)} \end{array} \\
+\end{array}
+\end{multline*}
 Since $15 = 3\cdot 5$ and $2$ have no common factors, we are done.
 																			
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\item  In this problem, we have multiplication and subtraction.  Multiplication takes precedence so we perform it first.  Recall that to multiply fractions, we do \textit{not} need to obtain common denominators;  rather, we multiply the corresponding numerators together along with the corresponding denominators.  Like the previous example, we have parentheses and negative signs for added fun!\[ \begin{array}{rclr}
-
-\left(\dfrac{3}{5} \right) \left(\dfrac{5}{13} \right) - \left(\dfrac{4}{5}\right) \left( - \dfrac{12}{13}\right) & = & \dfrac{3 \cdot 5}{5 \cdot 13} - \dfrac{4\cdot (-12)}{5 \cdot 13} & \text{Multiply fractions}\\ [8pt]
-
-& = & \dfrac{15}{65} - \dfrac{-48}{65} & \\[10pt]
-& = & \dfrac{15}{65} + \dfrac{48}{65} & \text{Properties of Negatives}\\[10pt]
-& = & \dfrac{15+48}{65}  & \text{Add numerators} \\ [10pt]
-& = & \dfrac{63}{65}  & \\ \end{array} \]
+\item  In this problem, we have multiplication and subtraction.  Multiplication takes precedence so we perform it first.  Recall that to multiply fractions, we do \textit{not} need to obtain common denominators;  rather, we multiply the corresponding numerators together along with the corresponding denominators.  Like the previous example, we have parentheses and negative signs for added fun!
+\begin{multline*}
+\left(\dfrac{3}{5} \right) \left(\dfrac{5}{13} \right) - \left(\dfrac{4}{5}\right) \left( - \dfrac{12}{13}\right) \\
+\begin{array}{clr}
+= & \dfrac{3 \cdot 5}{5 \cdot 13} - \dfrac{4\cdot (-12)}{5 \cdot 13} & \text{Multiply fractions}\\ [8pt]
+= & \dfrac{15}{65} - \dfrac{-48}{65} & \\[10pt]
+= & \dfrac{15}{65} + \dfrac{48}{65} & \text{Properties of Negatives}\\[10pt]
+= & \dfrac{15+48}{65}  & \text{Add numerators} \\ [10pt]
+= & \dfrac{63}{65} & \\
+\end{array}
+\end{multline*}
 
 Since $64 = 3 \cdot 3 \cdot 7$ and $65 = 5 \cdot 13$ have no common factors, our answer $\frac{63}{65}$ is in lowest terms and we are done.\qed
 
@@ -495,22 +508,23 @@ Let's take a break and enjoy another example.
 \dfrac{(4-2)(2 \cdot 4)-(4)^2}{(4-2)^2} & = & \dfrac{(2)(8)-(4)^2}{(2)^2} & = & \dfrac{(2)(8)-16}{4} \\ [10pt]
                                         & = & \dfrac{16-16}{4} = \dfrac{0}{4} & = & 0 \\ \end{array}\]
 
-\item  As before, we simplify what's in the parentheses first, then work our way through the exponents, multiplication, and finally, the addition.\[ \begin{array}{rclr}
-
-12(-5)(-5+3)^{-4}+6(-5)^2(-4)(-5+3)^{-5} & = & 12(-5)(-2)^{-4} + 6(-5)^{2}(-4)(-2)^{-5} \\ [10pt]
-                                         & = & 12(-5)\left(\dfrac{1}{(-2)^4}\right) + 6(-5)^{2}(-4)\left(\dfrac{1}{(-2)^5}\right)& \\ [10pt]
-                                        
-                                         & = & 12(-5)\left(\dfrac{1}{16}\right) + 6(25)(-4)\left(\dfrac{1}{-32}\right)& \\ [10pt]
-																				
-																				& = & (-60)\left(\dfrac{1}{16}\right) + (-600)\left(\dfrac{1}{-32}\right)& \\ [10pt]
-
-	& = & \dfrac{-60}{16} + \left(\dfrac{-600}{-32}\right)&  \\ [10pt]
-		& = & \dfrac{-15\cdot \cancel{4}}{4 \cdot \cancel{4}} + \dfrac{-75 \cdot \cancel{8}}{-4 \cdot \cancel{8}} & \\ [10pt]
-		& = & \dfrac{-15}{4} + \dfrac{-75}{-4} & \\ [10pt]
-			& = & \dfrac{-15}{4} + \dfrac{75}{4} & \\ [10pt]
-				& = & \dfrac{-15 + 75}{4} & \\ [10pt]
-				& = & \dfrac{60}{4} & \\ [10pt]
-	       & = & 15 & \\  \end{array}\]
+\item  As before, we simplify what's in the parentheses first, then work our way through the exponents, multiplication, and finally, the addition.
+\begin{multline*}
+12(-5)(-5+3)^{-4}+6(-5)^2(-4)(-5+3)^{-5} \\
+\begin{array}{clr}
+= & 12(-5)(-2)^{-4} + 6(-5)^{2}(-4)(-2)^{-5} \\ [10pt]
+= & 12(-5)\left(\dfrac{1}{(-2)^4}\right) + 6(-5)^{2}(-4)\left(\dfrac{1}{(-2)^5}\right)& \\ [10pt]
+= & 12(-5)\left(\dfrac{1}{16}\right) + 6(25)(-4)\left(\dfrac{1}{-32}\right)& \\ [10pt]
+= & (-60)\left(\dfrac{1}{16}\right) + (-600)\left(\dfrac{1}{-32}\right)& \\ [10pt]
+= & \dfrac{-60}{16} + \left(\dfrac{-600}{-32}\right)&  \\ [10pt]
+= & \dfrac{-15\cdot \cancel{4}}{4 \cdot \cancel{4}} + \dfrac{-75 \cdot \cancel{8}}{-4 \cdot \cancel{8}} & \\ [10pt]
+= & \dfrac{-15}{4} + \dfrac{-75}{-4} & \\ [10pt]
+= & \dfrac{-15}{4} + \dfrac{75}{4} & \\ [10pt]
+= & \dfrac{-15 + 75}{4} & \\ [10pt]
+= & \dfrac{60}{4} & \\ [10pt]
+= & 15 & \\ 
+\end{array}
+\end{multline*}
 				
 \item  The Order of Operations Agreement mandates that we work within each set of parentheses first, giving precedence to the exponents, then the multiplication, and, finally the division.  The trouble with this approach is that the exponents are so large that computation becomes a trifle unwieldy.   What we observe, however, is that the bases of the exponential expressions, $3$ and $4$, occur in both the numerator and denominator of the compound fraction.  This gives us hope that we can use some of the Properties of Exponents (the Quotient Rule, in particular) to help us out. Our first step here is to invert and multiply.  We see immediately that the $5$'s cancel after which we group the powers of $3$ together and the powers of $4$ together and apply the properties of exponents.\[ \begin{array}{rclclcl}
 
