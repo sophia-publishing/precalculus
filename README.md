@@ -15,3 +15,7 @@ branch](https://github.com/arunkd13/precalculus/tree/pdf-output).
 ✔️ A1, A2 - Completed formatting
 
 🚧 A3 - In Progress
+
+## License
+
+[![CC-BY-NC-SA](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US)
