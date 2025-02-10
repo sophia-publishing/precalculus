@@ -29,7 +29,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Run pdflatex
-        run: "pdflatex Precalculus4.tex"
+        run: "pdflatex Precalculus4.tex && pdflatex Precalculus4.tex"
       - name: Archive .pdf
         uses: actions/upload-artifact@v4
         with:
