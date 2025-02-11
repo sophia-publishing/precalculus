@@ -12,9 +12,9 @@ branch](https://github.com/arunkd13/precalculus/tree/pdf-output).
 
 ## Progress
 
-✔️ A1, A2 - Completed formatting
+✔️ Appendix A1, A2 - Completed formatting
 
-🚧 A3 - In Progress
+🚧 Appendix A3 - In Progress
 
 ## License
 
