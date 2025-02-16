@@ -370,10 +370,7 @@ A proof of this theorem will be given in Section \ref{QDensity}.  The theorem ac
 
 Suppose we have two points, $P\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\right)$ and $Q\left(x_{\mbox{\tiny$1$}}, y_{\mbox{\tiny$1$}}\right),$ in the plane. By the \index{distance ! definition} \textbf{distance} $d$  between $P$ and $Q$, we mean the length of the line segment joining $P$ with $Q$.  (Remember, given any two distinct points in the plane, there is a unique line containing both points.)  Our goal now is to create an algebraic formula to compute the distance between these two points. Consider the generic situation below on the left.
 
-\medskip
-
-\hspace{.8in} \begin{tabular}{m{2.5in}m{2.75in}}
-
+\begin{center}
 \begin{mfpic}[20]{-1}{5}{-1}{4}
 \gfill \circle{(0,0),0.1}
 \tlabel[c](-1,-1){$P\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\right)$}
@@ -381,7 +378,10 @@ Suppose we have two points, $P\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\rig
 \tlabel[c](4.25,3){$Q\left(x_{\mbox{\tiny$1$}}, y_{\mbox{\tiny$1$}}\right)$}
 \arrow\reverse\arrow \polyline{(0.1,0.075), (3.9,2.925)}
 \tlabel[c](1.25,2.25){$d$}
-\end{mfpic} & 
+\end{mfpic}
+\end{center}
+
+\begin{center}
 \begin{mfpic}[20]{-1}{5}{-1}{4}
 \gfill \circle{(0,0),0.1}
 \tlabel[c](-1,-1){$P\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\right)$}
@@ -393,9 +393,8 @@ Suppose we have two points, $P\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\rig
 \gfill \circle{(4,0),0.1}
 \tlabel[c](4,-1){$\left(x_{\mbox{\tiny$1$}}, y_{\mbox{\tiny$0$}}\right)$}
 \polyline{(3.5, 0), (3.5, 0.5), (4, 0.5)}
-\end{mfpic} \\ 
-
-\end{tabular}
+\end{mfpic}
+\end{center}
 
 \medskip
 
@@ -426,29 +425,16 @@ A couple of remarks about Equation \ref{distanceformula} are in order.  First, i
 
 \begin{ex} \label{distanceexample1} Find and simplify the distance between the following sets of points:
 
-\begin{multicols}{2}
-\begin{enumerate}
+\begin{tasks}(2)
+\task $P(-2,3)$ and  $Q(1,-3)$ \vphantom{$R\left( \frac{1}{2}, \frac{2}{3}\right)$ and $S\left( \frac{3}{4}, \frac{1}{5}\right)$}
 
-\item $P(-2,3)$ and  $Q(1,-3)$ \vphantom{$R\left( \frac{1}{2}, \frac{2}{3}\right)$ and $S\left( \frac{3}{4}, \frac{1}{5}\right)$}
+\task $R\left( \frac{1}{2}, \frac{2}{3}\right)$ and $S\left( \frac{3}{4}, \frac{1}{5}\right)$ 
 
-\item $R\left( \frac{1}{2}, \frac{2}{3}\right)$ and $S\left( \frac{3}{4}, \frac{1}{5}\right)$ 
+\task*  $T(\sqrt{3}, -\sqrt{20})$ and $V(\sqrt{12}, \sqrt{5})$
 
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
+\task   $O(0,0)$ and $P(x,y)$. \vphantom{$T(\sqrt{3}, -\sqrt{20})$ and $V(\sqrt{12}, \sqrt{5})$}
 
-\begin{multicols}{2}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-\item  $T(\sqrt{3}, -\sqrt{20})$ and $V(\sqrt{12}, \sqrt{5})$
-
-\item   $O(0,0)$ and $P(x,y)$. \vphantom{$T(\sqrt{3}, -\sqrt{20})$ and $V(\sqrt{12}, \sqrt{5})$}
-
-\end{enumerate}
-\end{multicols}
-
-\medskip
+\end{tasks}
 
 \flushleft {\bf Solution.}  In each case, we apply the distance formula, Equation \ref{distanceformula} with the first point listed taken as  $\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\right)$ and the second point taken as $\left(x_{\mbox{\tiny$1$}}, y_{\mbox{\tiny$1$}}\right)$.\footnote{This choice is completely arbitrary.  The reader is encouraged to work these examples taking the first point listed as $\left(x_{\mbox{\tiny$1$}}, y_{\mbox{\tiny$1$}}\right)$ and the second point listed as $\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\right)$ and verifying the distance works out to be the same.  Can you see why the order of the subtraction in Equation \ref{distanceformula} ultimately doesn't matter?}
 
@@ -576,27 +562,16 @@ If we let $d$ denote the distance between $P$ and $Q$, we leave it as Exercise \
 Find the midpoint of the line segment connecting the following pairs of points:  
 
 
-\begin{multicols}{2}
-\begin{enumerate}
+\begin{tasks}(2)
+\task $P(-2,3)$ and  $Q(1,-3)$ \vphantom{$R\left( \frac{1}{2}, \frac{2}{3}\right)$ and $S\left( \frac{3}{4}, \frac{1}{5}\right)$}
 
-\item $P(-2,3)$ and  $Q(1,-3)$ \vphantom{$R\left( \frac{1}{2}, \frac{2}{3}\right)$ and $S\left( \frac{3}{4}, \frac{1}{5}\right)$}
+\task $R\left( \frac{1}{2}, \frac{2}{3}\right)$ and $S\left( \frac{3}{4}, \frac{1}{5}\right)$ 
 
-\item $R\left( \frac{1}{2}, \frac{2}{3}\right)$ and $S\left( \frac{3}{4}, \frac{1}{5}\right)$ 
+\task*  $T(\sqrt{3}, -\sqrt{20})$ and $V(\sqrt{12}, \sqrt{5})$
 
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
+\task   $O(0,0)$ and $P(x,y)$. \vphantom{$T(\sqrt{3}, -\sqrt{20})$ and $V(\sqrt{12}, \sqrt{5})$}
 
-\begin{multicols}{2}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-\item  $T(\sqrt{3}, -\sqrt{20})$ and $V(\sqrt{12}, \sqrt{5})$
-
-\item   $O(0,0)$ and $P(x,y)$. \vphantom{$T(\sqrt{3}, -\sqrt{20})$ and $V(\sqrt{12}, \sqrt{5})$}
-
-\end{enumerate}
-\end{multicols}
+\end{tasks}
 
 \medskip
 
