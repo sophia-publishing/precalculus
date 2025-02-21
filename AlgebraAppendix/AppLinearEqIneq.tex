@@ -315,28 +315,25 @@ Our final answer is $\frac{11}{2} \geq y > -5$, or, said differently,  $-5 < y \
 \item  We have another compound inequality and what distinguishes this one from our previous example is that `$t$' appears on both sides of both inequalities.  In this case, we need to create two separate inequalities and find all of the real numbers $t$ which satisfy both  $2t-1 \leq 4-t$ \textit{and} $4-t < 6t + 1$.  The first inequality, $2t-1 \leq 4-t$, reduces to $3t \leq 5$ or $t \leq \frac{5}{3}$.  The second inequality, $4-t < 6t+1$, becomes $3 < 7t$  which reduces to $t > \frac{3}{7}$.  Thus our solution is all real numbers $t$ with $t \leq \frac{5}{3}$ \textit{and}  $t > \frac{3}{7}$, or, writing this as a compound inequality,  $\frac{3}{7} < t \leq \frac{5}{3}$. Using interval notation,\footnote{If we intersect the solution sets of the two individual inequalities, we get the answer, too:  $\left(-\infty, \frac{5}{3}\right] \cap \left(\frac{3}{7}, \infty\right) = \left( \frac{3}{7}, \frac{5}{3} \right]$.} we express our solution as $\left( \frac{3}{7}, \frac{5}{3} \right]$.
 
 
-\item As before, with this inequality  we have no choice but to solve each inequality individually and intersect the solution sets.  Starting with the leftmost inequality, we first note that the in the term $\sqrt{7} x$, the vinculum of the square root extends over the $7$ only, meaning the $x$ is not part of the radicand.  In order to avoid confusion, we will write $\sqrt{7} x$ as $x \sqrt{7}$.\[ \begin{array}{rclr}
+\item As before, with this inequality  we have no choice but to solve each inequality individually and intersect the solution sets.  Starting with the leftmost inequality, we first note that the in the term $\sqrt{7} x$, the vinculum of the square root extends over the $7$ only, meaning the $x$ is not part of the radicand.  In order to avoid confusion, we will write $\sqrt{7} x$ as $x \sqrt{7}$.
+\begin{align*}
+5 + x\sqrt{7}  & \leq 4x+1  \\
+(5 + x\sqrt{7} ) -4x  - 5 & \leq  (4x + 1) - 4x - 5  \tag{Subtract $4x$ and $5$} \\
+x\sqrt{7} - 4x + 5 - 5 & \leq  4x - 4x + 1 - 5 \tag{Rearrange terms} \\
+x(\sqrt{7} - 4) & \leq -4  \tag{Factor} \\
+\end{align*}
 
-5 + x\sqrt{7}  & \leq & 4x+1  & \\
+At this point, we need to exercise a bit of caution because the number $\sqrt{7} - 4$ is negative.\footnote{Since $4 < 7 < 9$, it stands to reason that $\sqrt{4} < \sqrt{7} < \sqrt{9}$ so $2 < \sqrt{7} < 3$.} When we divide by it the inequality reverses:
 
-(5 + x\sqrt{7} ) -4x  - 5 & \leq&  (4x + 1) - 4x - 5  & \text{Subtract $4x$ and $5$} \\
+\begin{align*}
+x(\sqrt{7} - 4) & \leq -4 \\
+\dfrac{x(\sqrt{7}-4)}{\sqrt{7}-4} & \geq \dfrac{-4}{\sqrt{7} - 4} \tag{Divide by the coefficient of $x$ and reverse inequalities} \\
+x & \geq \dfrac{-4}{\sqrt{7} - 4} \\
+x & \geq \dfrac{-4}{-(4 - \sqrt{7})} \\
+x & \geq \dfrac{4}{4 -\sqrt{7}} \\
+\end{align*}
 
-x\sqrt{7} - 4x + 5 - 5 & \leq & 4x - 4x + 1 - 5 & \text{Rearrange terms} \\
-
-x(\sqrt{7} - 4) & \leq & -4 & \text{Factor} \\ \end{array} \] At this point, we need to exercise a bit of caution because the number $\sqrt{7} - 4$ is negative.\footnote{Since $4 < 7 < 9$, it stands to reason that $\sqrt{4} < \sqrt{7} < \sqrt{9}$ so $2 < \sqrt{7} < 3$.} When we divide by it the inequality reverses:\[ \begin{array}{rclr}
-
-x(\sqrt{7} - 4) & \leq & -4 & \\[3pt]
-
-\dfrac{x(\sqrt{7}-4)}{\sqrt{7}-4} & \geq & \dfrac{-4}{\sqrt{7} - 4} & \text{Divide by the coefficient of $x$} \\ [-8pt]
-                                  &      &                          & \text{Reverse inequalities} \\ [-3pt]
-
-x & \geq & \dfrac{-4}{\sqrt{7} - 4} & \\ [10pt]
-
-x & \geq & \dfrac{-4}{-(4 - \sqrt{7})} &  \\ [12pt]
-
-x & \geq & \dfrac{4}{4 -\sqrt{7}} & \\
-
-\end{array} \] We're only half done because we still have the rightmost inequality to solve.  Fortunately, that one seems rather mundane:  $4x+1 \leq 8$ reduces to $x \leq \frac{7}{4}$ without too much incident.  Our solution is $ x \geq \frac{4}{4-\sqrt{7}}$ \textit{and} $x \leq \frac{7}{4}$.  We may be tempted to write $\frac{4}{4-\sqrt{7}} \leq x \leq \frac{7}{4}$ and call it a day but that would be nonsense!  To see why, notice that $\sqrt{7}$ is between $2$ and $3$ so $\frac{4}{4 - \sqrt{7}}$ is between  $\frac{4}{4-2} = 2$ and $\frac{4}{4-3} = 4$. In particular, we get $\frac{4}{4 - \sqrt{7}} > 2$.  On the other hand, $\frac{7}{4} < 2$.  This means that our `solutions' have to be simultaneously  greater than $2$ AND less than $2$  which is impossible.  Therefore, this compound inequality has no solution, which means we did all that work for nothing.\footnote{Much like how people walking on treadmills get nowhere.  Math is the endurance cardio of the brain, folks!}
+We're only half done because we still have the rightmost inequality to solve.  Fortunately, that one seems rather mundane:  $4x+1 \leq 8$ reduces to $x \leq \frac{7}{4}$ without too much incident.  Our solution is $ x \geq \frac{4}{4-\sqrt{7}}$ \textit{and} $x \leq \frac{7}{4}$.  We may be tempted to write $\frac{4}{4-\sqrt{7}} \leq x \leq \frac{7}{4}$ and call it a day but that would be nonsense!  To see why, notice that $\sqrt{7}$ is between $2$ and $3$ so $\frac{4}{4 - \sqrt{7}}$ is between  $\frac{4}{4-2} = 2$ and $\frac{4}{4-3} = 4$. In particular, we get $\frac{4}{4 - \sqrt{7}} > 2$.  On the other hand, $\frac{7}{4} < 2$.  This means that our `solutions' have to be simultaneously  greater than $2$ AND less than $2$  which is impossible.  Therefore, this compound inequality has no solution, which means we did all that work for nothing.\footnote{Much like how people walking on treadmills get nowhere.  Math is the endurance cardio of the brain, folks!}
 
 \item  Our last example is yet another compound inequality but here, instead of the two inequalities being connected with the conjunction `\textit{and}', they are connected with `\textit{or}', which indicates that we need to find the \textit{union} of the results of each.  Starting with $2.1 - 0.01w \leq -3$, we get $-0.01 w \leq -5.1$, which gives\footnote{Don't forget to flip the inequality!} $w \geq 510$.  The second inequality, $2.1-0.01w \geq 3$, becomes $-0.01w \geq 0.9$, which reduces to  $w \leq -90$.  Our solution set consists of all real numbers $w$ with $w \geq 510$ \textit{or} $w \leq -90$.  In interval notation, this is $(-\infty, -90] \cup [510, \infty)$. \qed
 
