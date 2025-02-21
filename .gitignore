@@ -11,3 +11,4 @@
 Precalculus4.fdb_latexmk
 *.blg
 *.out
+*.[0-9]*
