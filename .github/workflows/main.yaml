@@ -29,7 +29,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Make the script files executable
-        run: pwd ; find . ; ls -l build.sh ; chmod +x build.sh
+        run: chmod +x build.sh
       - name: Run build.sh
         run: ./build.sh
       - name: Archive .pdf
