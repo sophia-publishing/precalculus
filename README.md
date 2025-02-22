@@ -8,7 +8,9 @@ devices. I am using a Kindle 6" with the PDF loaded using
 [Calibre](https://calibre-ebook.com/donate).
 
 You can find the latest build from the [pdf-output
-branch](https://github.com/arunkd13/precalculus/tree/pdf-output).
+branch](https://github.com/arunkd13/precalculus/tree/pdf-output). Here is the
+most recently built [PDF version of the
+book](https://raw.githubusercontent.com/arunkd13/precalculus/pdf-output/Precalculus4.pdf)
 
 ## Progress
 
