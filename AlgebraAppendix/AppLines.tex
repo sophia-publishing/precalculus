@@ -318,13 +318,11 @@ Of course, we may be working on axes which aren't labeled with the `usual' $x$'s
 
 \enlargethispage{.1in}
 
-\pagebreak
-
 \item Find the equation of each of the given lines.
 
 \medskip
 
-\hspace{0.5in} \begin{tabular}{m{2.5in}m{3in}}
+\begin{center}
 
 \begin{mfpic}[18]{-1}{5}{-5}{5}
 \arrow \reverse \arrow \polyline{(2,-5), (2,5)}
@@ -339,7 +337,10 @@ Of course, we may be working on axes which aren't labeled with the `usual' $x$'s
 \axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \normalsize
 \tcaption{Line $L_{1}$}
-\end{mfpic} &
+\end{mfpic}
+
+\medskip
+
 \begin{mfpic}[18]{-5}{5}{-1}{5}
 \arrow \reverse \arrow \polyline{(-5,3), (5,3)}
 \axes
@@ -353,9 +354,9 @@ Of course, we may be working on axes which aren't labeled with the `usual' $x$'s
 \axislabels {y}{{$4$} 4, {$3$} 3, {$2$} 2, {$1$} 1}
 \normalsize
 \tcaption{Line $L_{2}$}
-\end{mfpic} \\
+\end{mfpic}
 
-\end{tabular}
+\end{center}
 
 \end{enumerate}
 
@@ -532,9 +533,8 @@ Note the indefinite article `a' in Equation \ref{generallineform}.  The line $y 
 
 The second equation,  $2x+4y = 3$, is a general form of a line.  To get two points here, we choose `convenient' values for one of the variables, and solve for the other variable.  Choosing $x=0$, for example, reduces $2x+4y = 3$ to $4y = 3$, or $y = \frac{3}{4}$.  This means the point $\left(0, \frac{3}{4} \right)$ is on the graph.  Choosing $y = 0$ gives $2x = 3$, or $x = \frac{3}{2}$.  This gives is a second point on the line, $\left(\frac{3}{2}, 0 \right)$.\footnote{You may recall, that this is the $x$-intercept of the line.} Our graph of $2x+4y = 3$ is on the right at the top of the next page.
 
-\pagebreak 
-
-\hspace{1in} \begin{tabular}{m{2in}m{3in}} 
+\begin{center}
+\begin{tabular}{cc} 
 
 \begin{mfpic}[10]{-3}{3}{-5}{5}
 \point[3pt]{(0,-1), (1,2)}
@@ -565,6 +565,7 @@ The second equation,  $2x+4y = 3$, is a general form of a line.  To get two poin
 \end{mfpic} \\
 
 \end{tabular}
+\end{center}
 
 \item We'll assume we're using the familiar $(x,y)$ axis labels and begin by finding the slope of the line using Equation \ref{slope}:  $m = \frac{\Delta y}{\Delta x} = \frac{1 - 3}{2 - (-1)} = -\frac{2}{3}$.  Next, we substitute this result, along with one of the given points, into the point-slope equation of the line, Equation \ref{pointslope}. We have two options for the point $\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\right)$. We'll use $(-1,3)$ and leave it to the reader to check that using $(2,1)$ results in the same equation.  Substituting into the point-slope form of the line, we get 
 
@@ -678,7 +679,7 @@ The last little bit of analytic geometry we need to review about lines are the c
 \tcaption{$L_{\mbox{\tiny$1$}} \parallel L_{\mbox{\tiny$2$}}$, $m_{\mbox{\tiny$1$}} = m_{\mbox{\tiny$2$}}$}
 \axes
 
-\end{mfpic} \hspace{1.5in} & 
+\end{mfpic} & 
 
 \begin{mfpic}[15]{-1}{5}{-1}{5}
 \tlabel[cc](5,-0.5){\scriptsize $x$}
@@ -733,20 +734,18 @@ y& = & -\dfrac{1}{2} x + \dfrac{11}{2}\\
 
 \begin{center}
 
-\begin{tabular}{cc}
+\includegraphics[width=2in]{./AppLinesGraphics/A5Graph01.jpg}
 
-\includegraphics[width=2in]{./AppLinesGraphics/A5Graph01.jpg} &
+$y = 2x-1$ and
+\boldmath $y=2x-2$
 
-\hspace{0.75in} \includegraphics[width=2in]{./AppLinesGraphics/A5Graph02.jpg} \\
-
-$y = 2x-1$ and  & 
-
- \hspace{0.75in}  $y = 2x-1$ and  \\
+\medskip
  
- \boldmath $y=2x-2$ & \hspace{0.75in} \boldmath $y= -\frac{1}{2} x + \frac{11}{2} $\\
- 
-\end{tabular}
+\includegraphics[width=2in]{./AppLinesGraphics/A5Graph02.jpg}
 
+$y = 2x-1$ and 
+\boldmath $y= -\frac{1}{2} x + \frac{11}{2} $
+ 
 \end{center}
 
 
