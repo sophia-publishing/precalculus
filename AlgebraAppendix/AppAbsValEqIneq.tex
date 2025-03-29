@@ -172,35 +172,15 @@ The techniques we use to `isolate the absolute value' are precisely those we use
 
 \begin{ex} \label{absvalueeqnex}  Solve each of the following equations.
 
-\vspace*{-.1in}
+\begin{tasks}(2)
+\task  $|3x-1| = 6$\vphantom{ $\dfrac{3 - |y+5|}{2} = 1$}
+\task  $\dfrac{3 - |y+5|}{2} = 1$
+\task  $3|2t+1| - \sqrt{5} = 0$\vphantom{ $\dfrac{3 - |y+5|}{2} = 1$}
+\task  $4 - |5w+3| = 5$\vphantom{$\left|3 - x \sqrt[3]{12}\right| = |4x+1|$}
+\task  $\left|3 - x \sqrt[3]{12}\right| = |4x+1|$\vphantom{$\left|3 - x \sqrt[3]{12}\right| = |4x+1|$}
 
-\begin{multicols}{3}
-\begin{enumerate}
-
-\item  $|3x-1| = 6$\vphantom{ $\dfrac{3 - |y+5|}{2} = 1$}
-\item  $\dfrac{3 - |y+5|}{2} = 1$
-\item  $3|2t+1| - \sqrt{5} = 0$\vphantom{ $\dfrac{3 - |y+5|}{2} = 1$}
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\vspace*{-.3in}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-\item  $4 - |5w+3| = 5$\vphantom{$\left|3 - x \sqrt[3]{12}\right| = |4x+1|$}
-
-\item  $\left|3 - x \sqrt[3]{12}\right| = |4x+1|$\vphantom{$\left|3 - x \sqrt[3]{12}\right| = |4x+1|$}
-
-\item  $|t-1| - 3|t+1| = 0$\vphantom{$\left|3 - x \sqrt[3]{12}\right| = |4x+1|$}
-
-\end{enumerate}
-\end{multicols}
-
-\pagebreak
+\task  $|t-1| - 3|t+1| = 0$\vphantom{$\left|3 - x \sqrt[3]{12}\right| = |4x+1|$}
+\end{tasks}
 
 {\bf Solution.} 
 
@@ -239,10 +219,7 @@ The techniques we use to `isolate the absolute value' are precisely those we use
 
 We now turn our attention to solving some basic inequalities involving the absolute value.  Suppose we wished to solve $|x| < 3$.  Geometrically, we are looking for all of the real numbers whose distance from $0$ is \textit{less} than $3$ units.  We get $-3 < x < 3$, or in interval notation, $(-3,3)$.  Suppose we are asked to solve $|x| > 3$ instead.  Now we want the distance between $x$ and $0$ to be \textit{greater} than $3$ units.  Moving in the positive direction, this means $x > 3$.  In the negative direction, this puts $x < -3$.  Our solutions would then satisfy $x < -3$ \textit{or} $x > 3$.  In interval notation, we express this as $(-\infty, -3) \cup (3, \infty)$.  
 
-
 \begin{center}
-
-\begin{tabular}{cc}
 
 \begin{mfpic}[15]{-6}{6}{-1}{2}
 \arrow \reverse \arrow \polyline{(-6,0), (6,0)}
@@ -257,10 +234,11 @@ We now turn our attention to solving some basic inequalities involving the absol
 \point[4pt]{(-4,0), (4,0)}
 \tlpointsep{4pt}
 \axislabels {x}{{$-3 \hspace{10pt}$} -4,{$0$} 0,{$3$} 4}
-
 \end{mfpic}
 
-& 
+The solution to  $|x| < 3$ is $(-3,3)$ 
+
+\medskip
 
 \begin{mfpic}[15]{-6}{6}{-1}{2}
 \arrow \reverse \arrow \polyline{(-6,0), (6,0)}
@@ -277,17 +255,9 @@ We now turn our attention to solving some basic inequalities involving the absol
 \point[4pt]{(-4,0), (4,0)}
 \tlpointsep{4pt}
 \axislabels {x}{{$-3 \hspace{10pt}$} -4,{$0$} 0,{$3$} 4}
-
 \end{mfpic}
 
-\\
-
-
-
-
-The solution to  $|x| < 3$ is $(-3,3)$ &   The solution to  $|x| > 3$ is $(-\infty, -3) \cup (3, \infty)$ \\
-
-\end{tabular}
+The solution to  $|x| > 3$ is $(-\infty, -3) \cup (3, \infty)$
 
 \end{center}
 
@@ -389,31 +359,30 @@ In order to solve an inequality involving the absolute value of a quantity $|X|$
 
 \item  From Theorem \ref{absolutevalueineq}, $\left|x-\sqrt[4]{5} \right| > 1$ is equivalent to $x-\sqrt[4]{5} < -1$ or $x-\sqrt[4]{5} > 1$. Solving this compound inequality, we get $x < -1 + \sqrt[4]{5}$ or $x > 1 + \sqrt[4]{5}$.  Our answer, in interval notation, is:  $\left(-\infty,-1 + \sqrt[4]{5} \right) \cup \left(1 + \sqrt[4]{5},\infty \right)$.  As with linear inequalities, we can only partially check our answer by selecting values of $x$ both inside and outside of the solution intervals to see which values of $x$ satisfy the original inequality and which do not.
 
-\item  Our first step in solving $\frac{4 - 2|2x+1|}{4} \geq -\sqrt{3}$ is to isolate the absolute value. \[ \begin{array}{rclr}
-\dfrac{4 - 2|2x+1|}{4} & \geq & -\sqrt{3} & \\ [5pt]
+\item  Our first step in solving $\frac{4 - 2|2x+1|}{4} \geq -\sqrt{3}$ is to isolate the absolute value.
 
-4 - 2|2x+1| & \geq & -4\sqrt{3} & \text{Multiply by $4$} \\
-- 2|2x+1| & \geq & -4-4\sqrt{3} & \text{Subtract $4$} \\
-|2x+1| & \leq & \dfrac{-4-4\sqrt{3}}{-2} & \text{Divide by $-2$,  reverse the inequality} \\ [8pt]
-|2x+1| & \leq & 2 + 2\sqrt{3} & \text{Reduce} \\ 
+\begin{align*}
+\dfrac{4 - 2|2x+1|}{4} & \geq -\sqrt{3} \\
+4 - 2|2x+1| & \geq -4\sqrt{3} \tag{Multiply by $4$} \\
+- 2|2x+1| & \geq -4-4\sqrt{3} \tag{Subtract $4$} \\
+|2x+1| & \leq \dfrac{-4-4\sqrt{3}}{-2} \tag{Divide by $-2$,  reverse the inequality} \\
+|2x+1| & \leq 2 + 2\sqrt{3} \tag{Reduce} \\ 
+\end{align*}
 
-\end{array}\] Since we're dealing with `$\leq$' instead of just `$<$,' we can combine Theorems \ref{absolutevalueineq} and  \ref{absvalequality} to rewrite this last inequality as:\footnote{Note the use of parentheses: $-(2+2\sqrt{3})$ as opposed to $-2 + 2\sqrt{3}$.}   $-(2 + 2\sqrt{3}) \leq 2x+1 \leq 2+2\sqrt{3}$. Subtracting the `$1$' across both inequalities gives $-3-2\sqrt{3} \leq 2x \leq 1 + 2\sqrt{3}$, which reduces to $\frac{-3-2\sqrt{3}}{2} \leq x \leq \frac{1+2\sqrt{3}}{2}$.  In interval notation this reads as  $\left[\frac{-3-2\sqrt{3}}{2}, \frac{1+2\sqrt{3}}{2}\right]$.
+Since we're dealing with `$\leq$' instead of just `$<$,' we can combine Theorems \ref{absolutevalueineq} and  \ref{absvalequality} to rewrite this last inequality as:\footnote{Note the use of parentheses: $-(2+2\sqrt{3})$ as opposed to $-2 + 2\sqrt{3}$.}   $-(2 + 2\sqrt{3}) \leq 2x+1 \leq 2+2\sqrt{3}$. Subtracting the `$1$' across both inequalities gives $-3-2\sqrt{3} \leq 2x \leq 1 + 2\sqrt{3}$, which reduces to $\frac{-3-2\sqrt{3}}{2} \leq x \leq \frac{1+2\sqrt{3}}{2}$.  In interval notation this reads as  $\left[\frac{-3-2\sqrt{3}}{2}, \frac{1+2\sqrt{3}}{2}\right]$.
 
-\item  There are two absolute values in $|2x - 1| \leq 3|4 - 8x| - 10$, so we cannot directly apply Theorem \ref{absolutevalueineq} here. Notice, however, that $|4 - 8x| = |(-4)(2x-1)|$.   Using this, we get:\[ \begin{array}{rclr}
+\item  There are two absolute values in $|2x - 1| \leq 3|4 - 8x| - 10$, so we cannot directly apply Theorem \ref{absolutevalueineq} here. Notice, however, that $|4 - 8x| = |(-4)(2x-1)|$.   Using this, we get:
 
-|2x - 1| & \leq & 3|4 - 8x| - 10 & \\
+\begin{align*}
+|2x - 1| & \leq 3|4 - 8x| - 10 \\
+|2x - 1| & \leq 3|(-4)(2x-1)| - 10 \tag{Factor} \\
+|2x - 1| & \leq 3|-4||2x-1| - 10 \tag{Product Rule} \\
+|2x - 1| & \leq 12|2x-1| - 10 \\
+-11|2x - 1| & \leq - 10 \tag{Subtract $12|2x-1|$} \\
+|2x - 1| & \geq  \dfrac{10}{11} \tag{Divide by $-11$ and reduce} \\
+\end{align*}
 
-|2x - 1| & \leq & 3|(-4)(2x-1)| - 10 & \text{Factor}\\
-
-|2x - 1| & \leq & 3|-4||2x-1| - 10 & \text{Product Rule}\\
-
-|2x - 1| & \leq & 12|2x-1| - 10 & \\
-
--11|2x - 1| & \leq & - 10 & \text{Subtract $12|2x-1|$} \\
-
-|2x - 1| & \geq  & \dfrac{10}{11} & \text{Divide by $-11$ and reduce} \\
-
-\end{array}\] Now we are allowed to invoke Theorems \ref{absvalequality} and \ref{absolutevalueineq} and write the equivalent compound inequality:  $2x - 1 \leq -\frac{10}{11}$ \textit{or} $2x-1 \geq \frac{10}{11}$.  We get $x \leq \frac{1}{22}$ \textit{or} $x \geq \frac{21}{22}$, which when written with interval notation becomes $\left(-\infty, \frac{1}{22}\right] \cup \left[\frac{21}{22}, \infty\right)$.
+Now we are allowed to invoke Theorems \ref{absvalequality} and \ref{absolutevalueineq} and write the equivalent compound inequality:  $2x - 1 \leq -\frac{10}{11}$ \textit{or} $2x-1 \geq \frac{10}{11}$.  We get $x \leq \frac{1}{22}$ \textit{or} $x \geq \frac{21}{22}$, which when written with interval notation becomes $\left(-\infty, \frac{1}{22}\right] \cup \left[\frac{21}{22}, \infty\right)$.
 
 \item  The inequality  $|2x - 1| \leq 3|4 - 8x| + 10$ differs from the previous example in exactly one respect: on the right side of the inequality, we have `$+10$' instead of `$-10$.' The steps to isolate the absolute value here are identical to those in the previous example, but instead of obtaining $|2x - 1| \geq  \frac{10}{11}$ as before, we obtain $|2x - 1| \geq  -\frac{10}{11}$.  This latter inequality is \textit{always} true. (Absolute value is, by definition, a distance and hence always $0$ or greater.)  Thus our solution to this inequality is all real numbers.
 

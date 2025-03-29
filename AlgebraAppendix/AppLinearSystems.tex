@@ -34,33 +34,23 @@ We know from our work is Sections \ref{AppLines} that the graphs of linear equat
 
 \begin{ex} \label{reviewsubelim}  Solve the following systems of equations.  Check your answer algebraically and graphically.  (Said another way, make sure both $x$ and $y$ are correct!)
 
-\begin{multicols}{3}
-\begin{enumerate}
+\begin{tasks}(2)
 
-\item  $\left\{ \begin{array}{rcr} 2x - y & = & 1 \\ y & = & 3 \\ \end{array} \right.$ \vphantom{$\left\{ \begin{array}{rcr} \frac{x}{3} -\frac{4y}{5} & = & \frac{7}{5} \\ [3pt] 
+\task  $\left\{ \begin{array}{rcr} 2x - y & = & 1 \\ y & = & 3 \\ \end{array} \right.$ \vphantom{$\left\{ \begin{array}{rcr} \frac{x}{3} -\frac{4y}{5} & = & \frac{7}{5} \\ [3pt] 
 \frac{2x}{9} + \frac{y}{3} & = & \frac{1}{2} \\ \end{array} \right.$}
 
-\item  $\left\{ \begin{array}{rcr} 3x+4y & = & -2  \\ -3x-y & = & 5 \\ \end{array} \right.$ \vphantom{$\left\{ \begin{array}{rcr} \frac{x}{3} -\frac{4y}{5} & = & \frac{7}{5}\\[3pt] \frac{2x}{9} + \frac{y}{3} & = & \frac{1}{2} \\ \end{array} \right.$}
+\task  $\left\{ \begin{array}{rcr} 3x+4y & = & -2  \\ -3x-y & = & 5 \\ \end{array} \right.$ \vphantom{$\left\{ \begin{array}{rcr} \frac{x}{3} -\frac{4y}{5} & = & \frac{7}{5}\\[3pt] \frac{2x}{9} + \frac{y}{3} & = & \frac{1}{2} \\ \end{array} \right.$}
 
-\item  $\left\{ \begin{array}{rcr} \frac{x}{3} -\frac{4y}{5} & = & \frac{7}{5} \\ [3pt] 
+\task  $\left\{ \begin{array}{rcr} \frac{x}{3} -\frac{4y}{5} & = & \frac{7}{5} \\ [3pt] 
 \frac{2x}{9} + \frac{y}{3} & = & \frac{1}{2} \\ \end{array} \right.$
 
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
+\task  $\left\{ \begin{array}{rcr} 2x - 4y & = & 6 \\ 3x -6y & = & 9\\ \end{array} \right.$ \vphantom{$\left\{ \begin{array}{rcr} x - y & = & 0 \\ x + y & = & 2 \\ -2x + y & = & -2 \end{array} \right.$}
 
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
+\task  $\left\{ \begin{array}{rcr} 6x + 3y & = & 9 \\ 4x + 2y & = & 12 \\ \end{array} \right.$ \vphantom{$\left\{ \begin{array}{rcr} x - y & = & 0 \\ x + y & = & 2 \\ -2x + y & = & -2 \end{array} \right.$}
 
-\item  $\left\{ \begin{array}{rcr} 2x - 4y & = & 6 \\ 3x -6y & = & 9\\ \end{array} \right.$ \vphantom{$\left\{ \begin{array}{rcr} x - y & = & 0 \\ x + y & = & 2 \\ -2x + y & = & -2 \end{array} \right.$}
+\task  $\left\{ \begin{array}{rcr} x - y & = & 0 \\ x + y & = & 2 \\ -2x + y & = & -2 \end{array} \right.$
 
-\item  $\left\{ \begin{array}{rcr} 6x + 3y & = & 9 \\ 4x + 2y & = & 12 \\ \end{array} \right.$ \vphantom{$\left\{ \begin{array}{rcr} x - y & = & 0 \\ x + y & = & 2 \\ -2x + y & = & -2 \end{array} \right.$}
-
-\item  $\left\{ \begin{array}{rcr} x - y & = & 0 \\ x + y & = & 2 \\ -2x + y & = & -2 \end{array} \right.$
-
-\end{enumerate}
-\end{multicols}
+\end{tasks}
 
 {\bf Solution.}
 
@@ -153,21 +143,13 @@ For specific values of $t$, we can generate solutions.  For example, $t=0$ gives
 
 We claim that for any real number $t$, the pair $\left(t, \frac{1}{2} t - \frac{3}{2}\right)$ satisfies both equations.  Substituting $x = t$ and $y =  \frac{1}{2} t - \frac{3}{2}$ into $2x - 4y = 6$ gives $2t - 4\left(\frac{1}{2} t - \frac{3}{2}\right) = 6$.  Simplifying, we get $2t - 2t + 6 = 6$, which is always true.  Similarly, when we make these substitutions in the equation $3x-6y = 9$, we get $3t - 6\left(\frac{1}{2} t - \frac{3}{2}\right) = 9$ which reduces to $3t - 3t + 9 = 9$, so it checks out, too.  
 
-\medskip
-
 Geometrically, $2x-4y = 6$ and $3x-6y=9$ are the same line, which means that they intersect at every point on their graphs.  The reader is encouraged to think about how our parametric solution says exactly that.
-
-\pagebreak
 
 The picture for this system is shown below on the right while the picture for the previous example is shown on the left.
 
 \begin{center}
 
-\begin{tabular}{m{.5in}m{2in}m{.5in}m{2in}}
-
-$~$
-
-&
+\begin{tabular}{m{0.5\linewidth}m{0.5\linewidth}}
 
 \begin{mfpic}[10]{-2}{8}{-5}{3}
 \arrow \reverse \arrow \polyline{(-2,-2.583), (8,1.583)}
@@ -186,10 +168,6 @@ $~$
 \arrow \reverse \arrow \polyline{(-2.25,3), (8,-3.833)}
 \end{mfpic}
 
-&
-
-$~$
- 
 &
 
 \begin{mfpic}[15]{-1}{5}{-3}{3}
@@ -230,11 +208,7 @@ which gives $x = 1$.  Substituting this into the first equation gives $1 - y = 0
 
 \begin{center}
 
-\begin{tabular}{m{.5in}m{2in}m{.5in}m{2in}}
-
-$~$
-
-&
+\begin{tabular}{m{.5\linewidth}m{.5\linewidth}}
 
 \begin{mfpic}[15][7]{-1}{4}{-4}{7}
 \arrow \reverse \arrow \polyline{(-1,5), (3.5,-4)}
@@ -251,10 +225,6 @@ $~$
 \arrow \reverse \arrow \polyline{(-0.5,7), (4,-2)}
 \end{mfpic}
 
-&
-
-$~$
- 
 &
 
 \begin{mfpic}[15]{-1}{3}{-3}{3}
