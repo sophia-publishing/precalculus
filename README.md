@@ -18,6 +18,8 @@ book](https://raw.githubusercontent.com/arunkd13/precalculus/pdf-output/Precalcu
 
 🚧 Appendix A3 - In Progress
 
+## FIXME
+
 ## License
 
 [![CC-BY-NC-SA](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US)

@@ -16,6 +16,8 @@
 \usepackage{braket}
 \usepackage[normalem]{ulem}
 \usepackage{enumitem}
+\usepackage[skip=\medskipamount]{parskip}
+\usepackage{pbox}
 
 \usepackage{tasks}
 \settasks{label=\arabic*., label-offset=0.6666em}
@@ -90,7 +92,9 @@
 \rhead[\fancyplain{}{\nouppercase{\leftmark}}]%
       {\fancyplain{}{\thepage}}
 \cfoot{}
+\fancypagestyle{plain}{\fancyhf{}}
 
+\AddToHook{cmd/section/before}{\clearpage}
 
 
 
@@ -120,7 +124,7 @@
 
 \tableofcontents
 
-\chapter{The Old Preface}
+\chapter{Preface}
 \label{OldPreface}
 \thispagestyle{empty}
 \input{OldPreface}
@@ -205,7 +209,6 @@
 
 \chapter{Algebra Review}
 \label{AlgebraAppendix}
-\thispagestyle{empty}
 \import{./AlgebraAppendix/}{AlgebraAppendix}
 
 % \chapter{Geometry Review}

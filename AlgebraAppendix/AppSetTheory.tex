@@ -53,10 +53,11 @@ In general, there are three ways to describe sets and those methods are listed b
 
 \medskip
 
-Let $S$ be the set described \textit{verbally} as the set of letters that make up the word ``smolko''.  A  \emph{roster} description of $S$ is $\left\{ s, m, o, l, k \right\}$. Note that we listed `o' only once, even though it appears twice in the word ``smolko''.  Also, the order of the elements doesn't matter, so $\left\{ k,  l,  m, o, s \right\}$ is also a roster description of $S$.  A \emph{set-builder} description of $S$ is: $\{ x \, | \, \mbox{$x$ is a letter in the word ``smolko''}\}$.  The way to read this is `The set of elements $x$ \underline{such that} $x$ is a letter in the word ``smolko''.'   In each of the above cases, we may use the familiar equals sign `$=$' and write  $S = \left\{ s, m, o, l, k \right\}$ or $S = \{ x \, | \, \mbox{$x$ is a letter in the word ``smolko''}\}$.  
+Let $S$ be the set described \textit{verbally} as the set of letters that make up the word ``smolko''.  A  \emph{roster} description of $S$ is $\left\{ s, m, o, l, k \right\}$. Note that we listed `o' only once, even though it appears twice in the word ``smolko''.  Also, the order of the elements doesn't matter, so $\left\{ k,  l,  m, o, s \right\}$ is also a roster description of $S$.  A \emph{set-builder} description of $S$ is:
+$$\{ x \, | \, \mbox{$x$ is a letter in the word ``smolko''}\}$$
 
-\smallskip
-
+The way to read this is `The set of elements $x$ \underline{such that} $x$ is a letter in the word ``smolko''.'   In each of the above cases, we may use the familiar equals sign `$=$' and write  $S = \left\{ s, m, o, l, k \right\}$ or
+$$S = \{ x \, | \, \mbox{$x$ is a letter in the word ``smolko''}\}$$
 Notice that  $m$ is in $S$ but many other letters, such as $q$, are not in $S$.  We express these ideas of set inclusion and exclusion mathematically using the symbols $m \in S$ (read `$m$ \underline{is in} $S$') and $q \notin S$ (read `$q$ \underline{is not in} $S$').  More precisely, we have the following.
 
 \medskip
@@ -176,7 +177,7 @@ All of these circles lie in a rectangle labeled $U$ for the `universal' set.  A 
 
 \begin{center}
 
-\begin{tabular}{ccc}
+\begin{tabular}{cc}
 
 
 \begin{mfpic}[40]{-2}{2}{-2}{2}
@@ -192,8 +193,6 @@ All of these circles lie in a rectangle labeled $U$ for the `universal' set.  A 
 
     
 \end{mfpic}
-
-
 
 &
 
@@ -217,13 +216,14 @@ All of these circles lie in a rectangle labeled $U$ for the `universal' set.  A 
     
 \end{mfpic}
 
+\\
+
+Sets $A$ and $B$. 
 &
+$A \cap B$ is shaded.
 
-\hspace{0.15in}
-
+\\
 \begin{mfpic}[40]{-2}{2}{-2}{2}
-
-
 
 \fillcolor[gray]{0.7}
 \gfill\circle{(0.4375,0),1}
@@ -240,25 +240,8 @@ All of these circles lie in a rectangle labeled $U$ for the `universal' set.  A 
 
 \\
 
-Sets $A$ and $B$. 
-
-
-
-&
-
-\hspace{0.15in}
-
-$A \cap B$ is shaded.
-
-&
-
-\hspace{0.15in}
-
 $A \cup B$ is shaded.
-
-\\
 \end{tabular}
-
 \end{center}
 
 The one major limitation of Venn Diagrams is that they become unwieldy if more than four sets need to be drawn simultaneously within the same universal set.  This idea is explored in the Exercises.
