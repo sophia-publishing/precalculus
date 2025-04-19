@@ -13,45 +13,29 @@ We begin this section with the definition of a concept that is central to all of
 
 \medskip
 
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn} \label{setdef}
 
 A \textbf{set}\index{set ! definition of} is a well-defined collection of objects which are called the elements of the set.  Here, `well-defined' means that it is possible to determine if something belongs to the collection or not, without prejudice. 
-
 \end{defn}
-
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 For example, the collection of letters that make up the word ``smolko'' is well-defined and is a set, but the collection of the worst Math teachers in the world is \textbf{not} well-defined and therefore is \textbf{not} a set.\footnote{For a more thought-provoking example, consider the collection of all things that do not contain themselves - this leads to the famous paradox known as \href{http://en.wikipedia.org/wiki/Russell's_paradox}{\underline{Russell's Paradox}}.}  
 
-\smallskip
+In general, there are three ways to describe sets and those methods are listed in \autoref{box:waystodesc}.
 
-In general, there are three ways to describe sets and those methods are listed below.
-
-\medskip
-
-\phantomsection \label{waystodescribesets}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Ways to Describe Sets}}
-
+\begin{floatbox}{Ways to Describe Sets}
+\label{box:waystodesc}
 \begin{enumerate}
 
-\item \textbf{The Verbal Method:} Use a sentence to describe the elements the set.\index{set ! verbal description}
+\item \textbf{The Verbal Method:} Use a sentence to describe the elements in the set.\index{set ! verbal description}
 
 \item \textbf{The Roster Method:}  Begin with a left brace `$\{$', list each element of the set \textit{only once} and then end with a right brace `$\}$'.\index{set ! roster method}
 
 \item \textbf{The Set-Builder Method:} A combination of the verbal and roster methods using a ``dummy variable'' such as $x$ and conditions on that variable.\index{set ! set-builder notation}\index{set-builder notation}
 
 \end{enumerate}
-
-\ebm}
-
-\medskip
+\end{floatbox}
 
 Let $S$ be the set described \textit{verbally} as the set of letters that make up the word ``smolko''.  A  \emph{roster} description of $S$ is $\left\{ s, m, o, l, k \right\}$. Note that we listed `o' only once, even though it appears twice in the word ``smolko''.  Also, the order of the elements doesn't matter, so $\left\{ k,  l,  m, o, s \right\}$ is also a roster description of $S$.  A \emph{set-builder} description of $S$ is:
 $$\{ x \, | \, \mbox{$x$ is a letter in the word ``smolko''}\}$$
@@ -60,10 +44,7 @@ The way to read this is `The set of elements $x$ \underline{such that} $x$ is a 
 $$S = \{ x \, | \, \mbox{$x$ is a letter in the word ``smolko''}\}$$
 Notice that  $m$ is in $S$ but many other letters, such as $q$, are not in $S$.  We express these ideas of set inclusion and exclusion mathematically using the symbols $m \in S$ (read `$m$ \underline{is in} $S$') and $q \notin S$ (read `$q$ \underline{is not in} $S$').  More precisely, we have the following.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn} \label{notationforsetinclusion}  Let $A$ be a set.
 
 \begin{itemize}
@@ -75,33 +56,23 @@ Notice that  $m$ is in $S$ but many other letters, such as $q$, are not in $S$. 
 \end{itemize}
 
 \end{defn}
-
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 Now let's consider the set $C =  \{ x \, | \, \mbox{$x$ is a consonant in the word ``smolko''}\}$.  A roster description of $C$ is  $C = \{ s, m, l, k\}$.  Note that by construction, every element of $C$ is also in $S$.  We express this relationship by stating that the set $C$ is a \textbf{subset} of the set $S$, which is written in symbols as $C \subseteq S$.  The more formal definition is given at the top of the next page.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn} \label{subsetdef}
 
 Given sets $A$ and $B$, we say that the set $A$ is a \textbf{subset}\index{subset ! definition of} of the set $B$ and write `$A \subseteq B$' if every element in $A$ is also an element of $B$.  
 
 \end{defn}
-
-\ebm}
+\end{tcolorbox}
 
 \medskip
 
 In our previous example, $C \subseteq S$ yet not vice-versa since $o \in S$ but $o \notin C$.  Additionally, the set of vowels $V = \{ a, e, i, o, u\}$, while it does have an element in common with $S$, is not a subset of $S$. (As an added note,  $S$ is not a subset of $V$, either.)  We could, however, \textit{build} a set which contains both $S$ and $V$ as subsets by gathering all of the elements in both $S$ and $V$ together into a single set, say $U = \{ s, m, o, l, k, a, e, i, u\}$.   Then $S \subseteq U$ and $V \subseteq U$.  The set $U$ we have built is called the \textbf{union} of the sets $S$ and $V$ and is denoted $S \cup V$.    Furthermore, $S$ and $V$ aren't completely \textit{different} sets since they both contain the letter `o.'  The \textbf{intersection} of two sets is the set of elements (if any) the two sets have in common. In this case, the intersection of $S$ and $V$ is $\{ o\}$, written $S \cap V = \{ o \}$.  We formalize these ideas below.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn} \label{intersectionunion}  Suppose $A$ and $B$ are sets.
 
 \begin{itemize}
@@ -113,44 +84,28 @@ In our previous example, $C \subseteq S$ yet not vice-versa since $o \in S$ but 
 \end{itemize}
 
 \end{defn}
-
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 The key words in Definition \ref{intersectionunion} to focus on are the conjunctions:  `intersection' corresponds to `and' meaning the elements have to be in \textit{both} sets to be in the intersection, whereas `union' corresponds to `or' meaning the elements have to be in one set, or the other set (or both).  Please note that this mathematical use of the word `or' differs than how we use `or' in spoken English.  In Math, we use the \emph{inclusive or} which allows for the element to be in both sets.  At a restaurant if you're asked ``Do you want fries or a salad?'' you must pick one and only one.  This is known as the \emph{exclusive or} and it plays a role in other Math classes.  For our purposes it is good enough to say that for an element to belong to the union of two sets it must belong to \textit{at least one} of them.
 
-\smallskip
-
 Returning to the sets $C$ and $V$  above, $C \cup V = \{ s, m, l, k, a, e, i, o, u\}$.\footnote{Which just so happens to be the same set as $S \cup V$.}  Their intersection, however, creates a bit of notational awkwardness since $C$ and $V$ have no elements in common.  While we could write $C \cap V = \{ \}$, this sort of thing happens often enough that we give the set with no elements a name. 
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn} \label{emptysetdefn}
 
 The \textbf{Empty Set} is the set which contains no elements and is denoted $\emptyset$.\index{set ! empty}\index{empty set}  That is, \[\emptyset=\{ \}=\{x\,|\,\mbox{$x \neq x$}\}.\]  
 
 \end{defn}
-
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 As promised, the empty set is the set containing no elements since no matter what `$x$' is, `$x = x$.'  Like the number `$0$,'  the empty set plays a vital role in mathematics.\footnote{Sadly, the full extent of the empty set's role will not be explored in this text.} We introduce it here more as a symbol of convenience as opposed to a contrivance\footnote{Actually, the empty set can be used to generate numbers -  mathematicians can create something from nothing!} because saying that $C \cap V = \emptyset$ is unambiguous whereas $\{ \}$ looks like a typographical error.    
 
-\medskip
+A nice way to visualize the relationships between sets and set operations is to draw a  \href{http://en.wikipedia.org/wiki/Venn_diagram}{\underline{\textbf{Venn Diagram}}}\index{diagram ! Venn Diagram}\index{Venn Diagram}.  A Venn Diagram for the sets $S$, $C$ and $V$ is shown in \autoref{fig:venndiagram}.
 
-A nice way to visualize the relationships between sets and set operations is to draw a  \href{http://en.wikipedia.org/wiki/Venn_diagram}{\underline{\textbf{Venn Diagram}}}\index{diagram ! Venn Diagram}\index{Venn Diagram}.  A Venn Diagram for the sets $S$, $C$ and $V$ is drawn at the top of the next page.  
-
-\phantomsection
-\label{venndiagram}
+\begin{figure}
 
 \begin{center}
-
 \begin{mfpic}[10]{-10}{10}{-10}{10} 
-
 \rect{(-10,-8),(10,8)}
 \circle{(-3,0), 5}
 \circle{(3,0), 5}
@@ -162,46 +117,40 @@ A nice way to visualize the relationships between sets and set operations is to 
 \tlabel[cc](3,-6){\scriptsize $V$}
 \tlabel[cc](-4,2){\scriptsize $C$}
 \tlabel[cc](9,7){\scriptsize $U$}
-
 \end{mfpic}
 
-A Venn Diagram for $C$, $S$ and $V$.  
-
+\caption{A Venn Diagram for $C$, $S$ and $V$}
+\label{fig:venndiagram}
 \end{center}
+
+\end{figure}
 
 In the Venn Diagram above we have three circles - one for each of the sets $C$, $S$ and $V$.  We visualize the area enclosed by each of these circles as the elements of each set.  Here, we've spelled out the elements for definitiveness.  Notice that the circle representing the set $C$ is completely inside the circle representing $S$.  This is a geometric way of  showing that $C \subseteq S$.  Also, notice that the circles representing $S$ and $V$ overlap on the letter `o'.  This common region is how we visualize $S \cap V$.  Notice that since $C \cap V = \emptyset$, the circles which represent $C$ and $V$ have no overlap whatsoever.  
 
-\medskip
+All of these circles lie in a rectangle labeled $U$ for the `universal' set.  A universal set contains all of the elements under discussion, so it could always be taken as the union of all of the sets in question, or an even larger set.  In this case, we could take $U = S \cup V$ or $U$ as the set of letters in the entire alphabet.  The reader may well wonder if there is an ultimate universal set which contains \textit{everything}.  The short answer is `no' and we refer you once again to \href{http://en.wikipedia.org/wiki/Russell's_paradox}{\underline{Russell's Paradox}}.  The usual triptych of Venn Diagrams indicating generic sets $A$ and  $B$ along with $A \cap B$ and $A \cup B$ is given in \autoref{fig:a_and_b}.
 
-All of these circles lie in a rectangle labeled $U$ for the `universal' set.  A universal set contains all of the elements under discussion, so it could always be taken as the union of all of the sets in question, or an even larger set.  In this case, we could take $U = S \cup V$ or $U$ as the set of letters in the entire alphabet.  The reader may well wonder if there is an ultimate universal set which contains \textit{everything}.  The short answer is `no' and we refer you once again to \href{http://en.wikipedia.org/wiki/Russell's_paradox}{\underline{Russell's Paradox}}.  The usual triptych of Venn Diagrams indicating generic sets $A$ and  $B$ along with $A \cap B$ and $A \cup B$ is given below.
+\begin{figure}
 
 \begin{center}
-
-\begin{tabular}{cc}
-
+\begin{tabular}{c}
 
 \begin{mfpic}[40]{-2}{2}{-2}{2}
-
 \fillcolor[gray]{0.7}
-
  \circle{(0.4375,0),1}
  \circle{(-0.4375,0),1}
 \tlabel[cc](-0.4375,-1.25){\scriptsize $A$}
 \tlabel[cc](0.4375,-1.25){\scriptsize $B$}
 \tlabel[cc](1.25,1.25){\scriptsize $U$}
 \rect{(-1.5, -1.5), (1.5, 1.5)}
-
-    
 \end{mfpic}
+\\
+Sets $A$ and $B$. 
+\end{tabular}
 
-&
+\medskip
 
-\hspace{0.15in}
-
+\begin{tabular}{cc}
 \begin{mfpic}[40]{-2}{2}{-2}{2}
-
-
-
 \fillcolor[gray]{0.7}
 \gfill\circle{(0.4375,0),1}
  \gclip\circle{(-0.4375,0),1}
@@ -213,18 +162,9 @@ All of these circles lie in a rectangle labeled $U$ for the `universal' set.  A 
 \tlabel[cc](0.4375,-1.25){\scriptsize $B$}
 \tlabel[cc](1.25,1.25){\scriptsize $U$}
 \rect{(-1.5, -1.5), (1.5, 1.5)}
-    
 \end{mfpic}
-
-\\
-
-Sets $A$ and $B$. 
 &
-$A \cap B$ is shaded.
-
-\\
 \begin{mfpic}[40]{-2}{2}{-2}{2}
-
 \fillcolor[gray]{0.7}
 \gfill\circle{(0.4375,0),1}
 \gfill\circle{(-0.4375,0),1}
@@ -235,14 +175,17 @@ $A \cap B$ is shaded.
 \tlabel[cc](0.4375,-1.25){\scriptsize $B$}
 \tlabel[cc](1.25,1.25){\scriptsize $U$}
 \rect{(-1.5, -1.5), (1.5, 1.5)}
-    
 \end{mfpic}
-
 \\
-
 $A \cup B$ is shaded.
+&
+$A \cap B$ is shaded.
 \end{tabular}
+\caption{Triptych of Venn Diagrams}
+\label{fig:a_and_b}
 \end{center}
+
+\end{figure}
 
 The one major limitation of Venn Diagrams is that they become unwieldy if more than four sets need to be drawn simultaneously within the same universal set.  This idea is explored in the Exercises.
 
@@ -250,8 +193,6 @@ The one major limitation of Venn Diagrams is that they become unwieldy if more t
 \label{SetsofRealNumbers}
 
 The playground for most of this text is the set of \textbf{Real Numbers}.  Much of the ``real world'' can be quantified using real numbers: the temperature at a given time, the revenue generated by selling a certain number of products and the maximum population of Sasquatch which can inhabit a particular region are just three basic examples.   A succinct, but nonetheless incomplete\footnote{Math pun intended!} definition of a real number is given below.
-
-\medskip
 
 \colorbox{ResultColor}{\bbm
 
@@ -263,11 +204,7 @@ A \textbf{real number}\index{real number ! set of}\index{real number ! definitio
 
 \ebm}
 
-\medskip
-
 Certain subsets of the real numbers are worthy of note and are listed below.  In fact, in more advanced texts,\footnote{See, for instance, Landau's \underline{Foundations of Analysis}.}   the real numbers are \textit{constructed} from some of these subsets.  
-
-\medskip
 
 \phantomsection
 \label{setsofnumbersboxonthispage}
@@ -869,8 +806,6 @@ To find $A \cup B$, we need to find the numbers in at least one of $A$ or $B$.  
 \vspace*{-.4in} \qed
 
 \end{ex}
-
-\newpage
 
 \subsection{Exercises}
 

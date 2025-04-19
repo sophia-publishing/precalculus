@@ -18,6 +18,17 @@
 \usepackage{enumitem}
 \usepackage[skip=\medskipamount]{parskip}
 \usepackage{pbox}
+\usepackage[most]{tcolorbox}
+\makeatletter
+  \def\tcb@cnt@floatboxautorefname{Box}%
+\makeatother
+\newtcolorbox[auto counter, number within=section]{floatbox}[1]{%
+      float,
+      detach title,
+      before upper={\centerline{\textbf{\tcbtitle}}\smallskip},
+      coltitle=tcbcolupper,
+      title=Box~\thetcbcounter: {#1},
+}
 
 \usepackage{tasks}
 \settasks{label=\arabic*., label-offset=0.6666em}
@@ -97,12 +108,11 @@
 \AddToHook{cmd/section/before}{\clearpage}
 
 
-
 \frontmatter
 
 %removed \sc command from lines below.
 
-\title{\Huge Precalculus  \\ \vspace{.1in} \large Version $4 - \epsilon$  \\ \vspace{.25in} \large by}
+\title{\Huge Appendix to Precalculus  \\ \vspace{.1in} \large Version $4 - \epsilon$  \\ \vspace{.25in} \large by}
 
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \author{ \begin{tabularx}{0.953\linewidth}{YY} Carl Stitz, Ph.D. &  Jeff Zeager, Ph.D. \\ Lakeland Community College & Lorain County Community College \\\end{tabularx}}
