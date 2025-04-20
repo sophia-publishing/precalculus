@@ -7,111 +7,67 @@
 \label{AppRealNumberArithmetic}
 
 
-In this section we list the properties of real number arithmetic.  This is meant to be a succinct, targeted review so we'll resist the temptation to wax poetic about these axioms and their subtleties and refer the interested reader to a more formal course in Abstract Algebra.  There are two primary operations one can perform with real numbers:  addition and multiplication.  We'll start with the properties of addition.
+In this section we list the properties of real number arithmetic.  This is meant to be a succinct, targeted review so we'll resist the temptation to wax poetic about these axioms and their subtleties and refer the interested reader to a more formal course in Abstract Algebra.  There are two primary operations one can perform with real numbers:  addition and multiplication.  We'll start with the properties of addition shown in \autoref{realnumberaddition}.
 
-\medskip
-
-\phantomsection
+\begin{floatbox}{Properties of Real Number Addition}
 \label{realnumberaddition}
 
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Properties of Real Number Addition}}
-
-\begin{itemize}
+\begin{itemize}[leftmargin=*]
 
 \item  \textbf{Closure:}  For all real numbers $a$ and $b$,  $a+b$ is also a real number.
-
 \item  \textbf{Commutativity:}  For all real numbers $a$ and $b$, $a+b = b+a$.
-
 \item  \textbf{Associativity:}  For all real numbers $a$, $b$ and $c$, $a+(b+c) = (a+b)+c$.
-
 \item  \textbf{Identity:}  There is a real number `$0$' so that for all real numbers $a$, $a+0 = a$.
-
 \item  \textbf{Inverse:}  For all real numbers $a$, there is a real number $-a$ such that $a + (-a) = 0$.
-
 \item \textbf{Definition of Subtraction:}  For all real numbers $a$ and $b$, $a - b = a + (-b)$.
 
 \end{itemize}
 
-\ebm}
+\end{floatbox}
 
-\medskip
+Next, we give real number multiplication a similar treatment as shown in \autoref{realnumbermultiplication}.  Recall that we may denote the product of two real numbers $a$ and $b$ a variety of ways:  $ab$, $a \cdot b$, $a(b)$, $(a)(b)$ and so on.  We'll refrain from using $a \times b$ for real number multiplication in this text with one notable exception in Definition \ref{scientificnotation}.
 
-Next, we give real number multiplication a similar treatment.  Recall that we may denote the product of two real numbers $a$ and $b$ a variety of ways:  $ab$, $a \cdot b$, $a(b)$, $(a)(b)$ and so on.  We'll refrain from using $a \times b$ for real number multiplication in this text with one notable exception in Definition \ref{scientificnotation}.
-
-\medskip
-
-\phantomsection
+\begin{floatbox}{Properties of Real Number Multiplication}
 \label{realnumbermultiplication}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Properties of Real Number Multiplication}}
 
 \begin{itemize}
 
 \item  \textbf{Closure:}  For all real numbers $a$ and $b$,  $ab$ is also a real number.
-
 \item  \textbf{Commutativity:}  For all real numbers $a$ and $b$, $ab = ba$.
-
 \item  \textbf{Associativity:}  For all real numbers $a$, $b$ and $c$, $a(bc) = (ab)c$.
-
 \item  \textbf{Identity:}  There is a real number `$1$' so that for all real numbers $a$, $a \cdot 1 = a$.
-
 \item  \textbf{Inverse:}  For all real numbers $a \neq 0$, there is a real number $\dfrac{1}{a}$ such that $a \left(\dfrac{1}{a}\right) = 1$.
-
 \item \textbf{Definition of Division:}  For all real numbers $a$ and $b \neq 0$, $a \div b = \dfrac{a}{b} = a  \left(\dfrac{1}{b}\right)$.
 
 \end{itemize}
 
-\ebm}
+\end{floatbox}
 
-\medskip
+While most students and some faculty tend to skip over these properties or give them a cursory glance at best,\footnote{Not unlike how Carl approached all the Elven poetry in \underline{The Lord of the Rings}.} it is important to realize that the properties stated above are what drive the symbolic manipulation in all of Algebra.  When listing a tally of more than two numbers, $1 + 2 + 3$\label{howtoaddonetwothree} for example, we don't need to specify the order in which those numbers are added. Notice though, try as we might, we can add only two numbers at a time and it is the associative property of addition which assures us that we could organize this sum as $(1+2) + 3$ or $1+(2+3)$.  This brings up a note about `grouping symbols'.  Recall that parentheses and brackets are used in order to specify which operations are to be performed first.  In the absence of such grouping symbols, multiplication (and hence division) is given priority over addition (and hence subtraction). For example, $1 + 2 \cdot 3 = 1+6 = 7$, but $(1+2) \cdot 3 = 3 \cdot 3 = 9$.  As you may recall, we can `distribute' the $3$ across the addition if we really wanted to do the multiplication first:  $(1+2) \cdot 3 = 1\cdot 3 + 2 \cdot 3 = 3 + 6 = 9$. More generally, we have the properties shown in \autoref{distributiveproperty}.
 
-While most students and some faculty tend to skip over these properties or give them a cursory glance at best,\footnote{Not unlike how Carl approached all the Elven poetry in \underline{The Lord of the Rings}.} it is important to realize that the properties stated above are what drive the symbolic manipulation in all of Algebra.  When listing a tally of more than two numbers, $1 + 2 + 3$\label{howtoaddonetwothree} for example, we don't need to specify the order in which those numbers are added. Notice though, try as we might, we can add only two numbers at a time and it is the associative property of addition which assures us that we could organize this sum as $(1+2) + 3$ or $1+(2+3)$.  This brings up a note about `grouping symbols'.  Recall that parentheses and brackets are used in order to specify which operations are to be performed first.  In the absence of such grouping symbols, multiplication (and hence division) is given priority over addition (and hence subtraction). For example, $1 + 2 \cdot 3 = 1+6 = 7$, but $(1+2) \cdot 3 = 3 \cdot 3 = 9$.  As you may recall, we can `distribute' the $3$ across the addition if we really wanted to do the multiplication first:  $(1+2) \cdot 3 = 1\cdot 3 + 2 \cdot 3 = 3 + 6 = 9$. More generally, we have the following.
-
-\medskip
-
-\phantomsection
+\begin{floatbox}{The Distributive Property and Factoring}
 \label{distributiveproperty}
 
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{The Distributive Property and Factoring}}
-%\smallskip
 For all real numbers $a$, $b$ and $c$:
 
 \begin{itemize}
 
 \item  \textbf{Distributive Property:}   $a(b+c) = ab + ac$ and $(a+b)c = ac + bc$.
-
 \item  \textbf{Factoring:}\footnote{Or, as Carl calls it, `reading the Distributive Property from right to left.'}   $ab+ac = a(b+c)$ and $ac + bc = (a+b)c$.
 
 \end{itemize}
 
-\ebm}
-
-\medskip
+\end{floatbox}
 
 It is worth pointing out that we didn't really need to list the Distributive Property both for $a(b+c)$ (distributing from the left) and $(a+b)c$ (distributing from the right), since the commutative property of multiplication gives us one from the other.  Also, `factoring' is really the same equation as the distributive property, just read from right to left. These are the first of many redundancies in this section, and they exist in this review section for one reason only - in our experience, many students \textit{see} these things differently so we will list them as such.   
 
-\medskip
-
 It is hard to overstate the importance of the Distributive Property.  For example, in the expression $5(2+x)$, without knowing the value of $x$, we cannot perform the addition inside the parentheses first;  we must rely on the distributive property here to get  $5(2+x) = 5\cdot 2 + 5 \cdot x = 10 + 5x$.  The Distributive Property is also responsible for combining `like terms'.  Why is $3x + 2x = 5x$?  Because  $3x + 2x = (3+2)x = 5x$.  
-
-\medskip
 
 We continue our review with summaries of other properties of arithmetic, each of which can be derived from the properties listed above.  First up are properties of the additive identity $0$.
 
-\medskip
 
-\phantomsection
+\begin{floatbox}{Properties of Zero}
 \label{propertiesofzero}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Properties of Zero}}
 
 Suppose $a$ and $b$ are real numbers.
 
@@ -127,65 +83,39 @@ Suppose $a$ and $b$ are real numbers.
 
 \end{itemize}
 
-\ebm}
-
-\pagebreak
+\end{floatbox}
 
 The Zero Product Property drives most of the equation solving algorithms in Algebra because it allows us to take complicated equations and reduce them to simpler ones.  For example, you may recall that one way to solve  $x^2+x-6=0$ is by factoring\footnote{Don't worry.  We'll review this in due course.  And, yes, this is our old friend the Distributive Property!} the left hand side of this equation to get  $(x-2)(x+3) = 0$.  From here, we apply the Zero Product Property and set each factor equal to zero.  This yields  $x-2=0$ or $x+3=0$ so $x=2$ or $x=-3$.  This application to solving equations leads, in turn,  to some deep and profound structure theorems in Chapter \ref{PolynomialFunctions}. 
 
-\medskip
-
 Next up is a review of the arithmetic of `negatives'. On page \pageref{realnumberaddition} we first introduced the dash which we all recognize as the `negative' symbol in terms of the additive inverse.  For example, the number $-3$ (read `negative $3$') is defined so that $3 + (-3) = 0$.  We then defined subtraction using the concept of the additive inverse again so that, for example, $5 - 3 = 5 + (-3)$.  In this text we do not distinguish typographically between the dashes in the expressions `$5-3$' and `$-3$' even though they are mathematically quite different.\footnote{We're not just being lazy here.  We looked at many of the big publishers' Precalculus books and none of them use different dashes, either.} In the expression `$5-3$,' the dash is a \textit{binary} operation (that is, an operation requiring \textit{two} numbers) whereas in `$-3$', the dash is a \textit{unary} operation (that is, an operation requiring only one number).  You might ask, `Who cares?'  Your calculator does - that's who!  In the text we can write $-3 - 3 = -6$ but that will not work in your calculator.  Instead you'd need to type $^{-}3 - 3$ to get $-6$ where the first dash comes from the `$+/-$' key and the second dash comes from the subtraction key.
 
-\medskip
-
-\phantomsection
+\begin{floatbox}{Properties of Negatives}
 \label{propertiesofnegatives}
 
- \colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Properties of Negatives}}
-\smallskip
 Given real numbers $a$ and $b$ we have the following.  
 
 \begin{itemize}
 
 \item  \textbf{Additive Inverse Properties:}  $-a = (-1)a$ and $-(-a) = a$
-
 \item  \textbf{Products of Negatives:} $(-a)(-b) = ab$. 
-
 \item  \textbf{Negatives and Products:} $-ab = -(ab) = (-a)b = a(-b)$.
-
 \item  \textbf{Negatives and Fractions:} If $b$ is nonzero, $-\dfrac{a}{b} = \dfrac{-a}{b} = \dfrac{a}{-b}$ and $\dfrac{-a}{-b} = \dfrac{a}{b}$.
-
 \item  \textbf{`Distributing' Negatives:}  $-(a+b) = -a-b$ and $-(a-b) = -a + b = b-a$.
-
 \item  \textbf{`Factoring' Negatives:}\footnote{Or, as Carl calls it, reading `Distributing' Negatives from right to left.} $-a-b = -(a+b)$ and $b-a = -(a-b)$.
 
 \end{itemize}
 
-\ebm}
-
-\medskip
+\end{floatbox}
 
 An important point here is that when we `distribute' negatives, we do so across addition or subtraction only.  This is because we are really distributing a factor of $-1$ across each of these terms:  $-(a+b) = (-1)(a+b) = (-1)(a) + (-1)(b) = (-a)+(-b) = -a-b$. Negatives do not `distribute' across multiplication:  $- (2 \cdot 3) \neq (-2)\cdot(-3)$. Instead, $-(2\cdot 3) = (-2)\cdot (3) = (2) \cdot (-3) = -6$.  
 
-\medskip
-
 The same sort of thing goes for fractions:  $- \frac{3}{5}$ can be written as $\frac{-3}{5}$ or $\frac{3}{-5}$, but not $\frac{-3}{-5}$.  
-
-\pagebreak
 
 Speaking of fractions, we now review their arithmetic.
 
-\smallskip
-
-\phantomsection
+\begin{floatbox}{Properties of Fractions}
+	
 \label{fractionarithmetic}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Properties of Fractions}}
 
 Suppose $a$, $b$, $c$ and $d$ are real numbers.  Assume them to be nonzero whenever necessary; for example,  when they appear in a denominator.
 
@@ -211,11 +141,9 @@ In particular: $1 \div \dfrac{a}{b} = \dfrac{b}{a}$ and  $\dfrac{a}{b} \div c = 
 
 \end{itemize}
 
-\ebm}
+\end{floatbox}
 
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Properties of Fractions (contd.)}}
+\begin{floatbox}{Properties of Fractions (contd.)}
 
 \begin{itemize}
 
@@ -231,13 +159,9 @@ In particular, $\dfrac{ab}{b} = a$ since $\dfrac{ab}{b} = \dfrac{ab}{1 \cdot b} 
 
 \end{itemize}
 
-\ebm}
-
-\smallskip
+\end{floatbox}
 
 Students make so many mistakes with fractions that we feel it is necessary to pause the narrative for a moment and offer you the following examples.  Please take the time to read these carefully.  In the main body of the text we will skip many of the steps shown here and it is your responsibility to understand the arithmetic behind the computations we use throughout the text.  We deliberately limited these examples to ``nice'' numbers (meaning that the numerators and denominators of the fractions are small integers) and will discuss more complicated matters later.  In the upcoming example, we will make use of the \href{https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic}{\underline{Fundamental Theorem of Arithmetic}} which essentially says that every natural number has a unique prime factorization.  Thus `lowest terms' is clearly defined when reducing the  fractions you're about to see.
-
-\pagebreak
 
 \begin{ex} \label{fractionreview}  Perform the indicated operations and simplify. By `simplify' here, we mean to have the final answer written in the form $\frac{a}{b}$ where $a$ and $b$ are integers which have no common factors.  Said another way, we want $\frac{a}{b}$ in `lowest terms'.
 
@@ -265,42 +189,44 @@ Students make so many mistakes with fractions that we feel it is necessary to pa
 
 \begin{enumerate}
 
-\item It may seem silly to start with an example this basic but experience has taught us not to take much for granted.  We start by finding the lowest common denominator and then we rewrite the fractions using that new denominator.  Since $4$ and $7$ are {\bf relatively prime},\index{relatively prime} meaning they have no factors in common, the lowest common denominator is $4 \cdot 7 = 28$.\[ \begin{array}{rclr}
+\item It may seem silly to start with an example this basic but experience has taught us not to take much for granted.  We start by finding the lowest common denominator and then we rewrite the fractions using that new denominator.  Since $4$ and $7$ are {\bf relatively prime},\index{relatively prime} meaning they have no factors in common, the lowest common denominator is $4 \cdot 7 = 28$.
 
-\dfrac{1}{4} + \dfrac{6}{7} & = & \dfrac{1}{4} \cdot \dfrac{7}{7} + \dfrac{6}{7} \cdot \dfrac{4}{4} &  \text{Equivalent Fractions} \\ [10pt]
-                                           & = & \dfrac{7}{28}  + \dfrac{24}{28} & \text{Multiplication of Fractions}\\ [10pt]
-																					 & = & \dfrac{31}{28}                  & \text{Addition of Fractions} \\ \end{array} \]
+\begin{align*}
+\dfrac{1}{4} + \dfrac{6}{7} & = \dfrac{1}{4} \cdot \dfrac{7}{7} + \dfrac{6}{7} \cdot \dfrac{4}{4} \tag{Equivalent Fractions} \\
+& = \dfrac{7}{28}  + \dfrac{24}{28} \tag{Multiplication of Fractions}\\
+& = \dfrac{31}{28} \tag{Addition of Fractions} \\
+\end{align*}
 
 The result is in lowest terms because $31$ and $28$ are relatively prime so we're done.
 
 %%%%%%%%%%%%%%%%%%%
 
-\item  We could begin with the subtraction in parentheses, namely $\frac{47}{30} - \frac{7}{3}$, and then subtract that result from $\frac{5}{12}$.  It's easier, however, to first distribute the negative across the quantity in parentheses and then use the Associative Property to perform all of the addition and subtraction in one step.\footnote{See the remark on page \pageref{howtoaddonetwothree} about how we add $1 + 2 + 3$.}  The lowest common denominator\footnote{We could have used $12 \cdot 30 \cdot 3 = 1080$ as our common denominator but then the numerators would become unnecessarily large.  It's best to use the \emph{lowest} common denominator.} for all three fractions is $60$.\[ \begin{array}{rcl}
+\item  We could begin with the subtraction in parentheses, namely $\frac{47}{30} - \frac{7}{3}$, and then subtract that result from $\frac{5}{12}$.  It's easier, however, to first distribute the negative across the quantity in parentheses and then use the Associative Property to perform all of the addition and subtraction in one step.\footnote{See the remark on page \pageref{howtoaddonetwothree} about how we add $1 + 2 + 3$.}  The lowest common denominator\footnote{We could have used $12 \cdot 30 \cdot 3 = 1080$ as our common denominator but then the numerators would become unnecessarily large.  It's best to use the \emph{lowest} common denominator.} for all three fractions is $60$.
 
-\dfrac{5}{12} - \left(\dfrac{47}{30} - \dfrac{7}{3}\right) & = & \dfrac{5}{12} - \dfrac{47}{30} + \dfrac{7}{3} \\
-&  & \text{Distribute the Negative}\\ [10pt]
-& = & \dfrac{5}{12} \cdot \dfrac{5}{5} - \dfrac{47}{30} \cdot \dfrac{2}{2} + \dfrac{7}{3} \cdot \dfrac{20}{20} \\
-&  & \text{Equivalent Fractions}\\ [10pt]
-& = & \dfrac{25}{60} - \dfrac{94}{60} + \dfrac{140}{60} \\
-&  & \text{Multiplication of Fractions} \\ [10pt]
-& = & \dfrac{71}{60} \\
-&  & \parbox{0.45\textwidth}{Addition and Subtraction of Fractions} \\ \end{array}\]
+\begin{align*}
+\dfrac{5}{12} - \left(\dfrac{47}{30} - \dfrac{7}{3}\right) & = \dfrac{5}{12} - \dfrac{47}{30} + \dfrac{7}{3} \tag{Distribute the Negative}\\
+& = \dfrac{5}{12} \cdot \dfrac{5}{5} - \dfrac{47}{30} \cdot \dfrac{2}{2} + \dfrac{7}{3} \cdot \dfrac{20}{20} \tag{Equivalent Fractions}\\
+& = \dfrac{25}{60} - \dfrac{94}{60} + \dfrac{140}{60} \tag{Multiplication of Fractions} \\
+& = \dfrac{71}{60} \tag{Addition and Subtraction of Fractions}
+\end{align*}
 
 The numerator and denominator are relatively prime so the fraction is in lowest terms and we have our final answer.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\item What we are asked to simplify in this problem is known as a  `complex' or `compound' fraction.  Simply put, we have fractions within a fraction.\footnote{Fractionception, perhaps?}  The longest division line\footnote{Also called a `vinculum'.} acts as a grouping symbol, quite literally dividing the compound fraction into a numerator (containing fractions) and a denominator (which in this case does not contain fractions).  The first step to simplifying a compound fraction like this one is to see if you can simplify the little fractions inside it.  To that end, we clean up the fractions in the numerator as follows.\[ \begin{array}{rcl}
+\item What we are asked to simplify in this problem is known as a  `complex' or `compound' fraction.  Simply put, we have fractions within a fraction.\footnote{Fractionception, perhaps?}  The longest division line\footnote{Also called a `vinculum'.} acts as a grouping symbol, quite literally dividing the compound fraction into a numerator (containing fractions) and a denominator (which in this case does not contain fractions).  The first step to simplifying a compound fraction like this one is to see if you can simplify the little fractions inside it.  To that end, we clean up the fractions in the numerator as follows.
 
- \dfrac{\dfrac{7}{3-5} - \dfrac{7}{3-5.21}}{5-5.21} & = & \dfrac{\dfrac{7}{-2} - \dfrac{7}{-2.21}}{-0.21} \\ [10pt]
-                                                    & = & \dfrac{-\left(-\dfrac{7}{2} + \dfrac{7}{2.21}\right)}{0.21} \\
-													&   & \text{Properties of Negatives} \\ [10pt]
-													& = & \dfrac{\dfrac{7}{2} - \dfrac{7}{2.21}}{0.21} \\
-													&   & \text{Distribute the Negative} \\ \end{array}\]
+\begin{align*}
+ \dfrac{\dfrac{7}{3-5} - \dfrac{7}{3-5.21}}{5-5.21} & = \dfrac{\dfrac{7}{-2} - \dfrac{7}{-2.21}}{-0.21} \\
+& = \dfrac{-\left(-\dfrac{7}{2} + \dfrac{7}{2.21}\right)}{0.21} \tag{Properties of Negatives} \\
+& = \dfrac{\dfrac{7}{2} - \dfrac{7}{2.21}}{0.21} \tag{Distribute the Negative} \\
+\end{align*}
 																										
-We are left with a compound fraction with decimals.  We could replace $2.21$ with $\frac{221}{100}$ but that would make a mess.\footnote{Try it if you don't believe us.}  It's better in this case to eliminate the decimal by multiplying the numerator and denominator of the fraction with the decimal in it by $100$ (since $2.21 \cdot 100 = 221$ is an integer) as shown below.\[ \begin{array}{rclcl}
+We are left with a compound fraction with decimals.  We could replace $2.21$ with $\frac{221}{100}$ but that would make a mess.\footnote{Try it if you don't believe us.}  It's better in this case to eliminate the decimal by multiplying the numerator and denominator of the fraction with the decimal in it by $100$ (since $2.21 \cdot 100 = 221$ is an integer) as shown below.
 
-\dfrac{\dfrac{7}{2} - \dfrac{7}{2.21}}{0.21} & = & \dfrac{ \dfrac{7}{2} - \dfrac{7 \cdot 100}{2.21 \cdot 100}}{0.21} & = & \dfrac{\dfrac{7}{2} - \dfrac{700}{221}}{0.21}\\ \end{array}\]
+\[
+\dfrac{\dfrac{7}{2} - \dfrac{7}{2.21}}{0.21} = \dfrac{ \dfrac{7}{2} - \dfrac{7 \cdot 100}{2.21 \cdot 100}}{0.21} = \dfrac{\dfrac{7}{2} - \dfrac{700}{221}}{0.21}\\
+\]
 
 We now perform the subtraction in the numerator and replace $0.21$ with $\frac{21}{100}$ in the denominator.  This will leave us with one fraction divided by another fraction.  We finish by performing the `division by a fraction is multiplication by the reciprocal' trick and then cancel any factors that we can.\[ \begin{array}{rclcl}
 																										
@@ -315,21 +241,15 @@ We now perform the subtraction in the numerator and replace $0.21$ with $\frac{2
 
 Hence, one way to proceed is as before: simplify the numerator and the denominator then perform the `division by a fraction is the multiplication by the reciprocal' trick.  While there is nothing wrong with this approach, we'll use our Equivalent Fractions property to rid ourselves of the `compound' nature of this fraction straight away.  The idea is to multiply both the numerator and denominator by the lowest common denominator of each of the `smaller' fractions - in this case, $24 \cdot 5 = 120$.
 
-\begin{equation*}
-\begin{split}
- \dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right)}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right)} & = \dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right) \cdot 120}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right) \cdot 120}  \\
- & \text{Equivalent Fractions}\\
-& = \dfrac{\left(\dfrac{12}{5}\right) (120) - \left(\dfrac{7}{24}\right) (120)}{(1)(120) + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)(120)} \\
-& \text{Distributive Property} \\
-& = \dfrac{\dfrac{12 \cdot 120}{5} - \dfrac{7 \cdot 120}{24}}{120 + \dfrac{12 \cdot 7 \cdot 120}{5 \cdot 24}} \\
-& \text{Multiply fractions} \\ 
-& = \dfrac{\dfrac{12 \cdot 24 \cdot \cancel{5}}{\cancel{5}} - \dfrac{7 \cdot 5 \cdot \cancel{24}}{\cancel{24}}}{120 + \dfrac{12 \cdot 7 \cdot \cancel{5} \cdot \cancel{24}}{\cancel{5} \cdot \cancel{24}}} \\
-& \text{Factor and cancel} \\
+\begin{align*}
+\dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right)}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right)} & = \dfrac{\left(\dfrac{12}{5} - \dfrac{7}{24}\right) \cdot 120}{\left(1 + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)\right) \cdot 120} \tag{Equivalent Fractions} \\
+& = \dfrac{\left(\dfrac{12}{5}\right) (120) - \left(\dfrac{7}{24}\right) (120)}{(1)(120) + \left(\dfrac{12}{5}\right) \left(\dfrac{7}{24}\right)(120)} \tag{Distributive Property} \\
+& = \dfrac{\dfrac{12 \cdot 120}{5} - \dfrac{7 \cdot 120}{24}}{120 + \dfrac{12 \cdot 7 \cdot 120}{5 \cdot 24}} \tag{Multiply fractions}\\
+& = \dfrac{\dfrac{12 \cdot 24 \cdot \cancel{5}}{\cancel{5}} - \dfrac{7 \cdot 5 \cdot \cancel{24}}{\cancel{24}}}{120 + \dfrac{12 \cdot 7 \cdot \cancel{5} \cdot \cancel{24}}{\cancel{5} \cdot \cancel{24}}} \tag{Factor and cancel}\\
  & = \dfrac{(12 \cdot 24) - (7 \cdot 5)}{120 + (12 \cdot 7)} \\
  & = \dfrac{288 - 35}{120 + 84} \\
  & = \dfrac{253}{204} \\
-\end{split}
-\end{equation*}
+\end{align*}
 
 Since $253 = 11 \cdot 23$ and $204 = 2 \cdot 2 \cdot 3 \cdot 17$ have no common factors our result is in lowest terms which means we are done.
 
@@ -343,16 +263,18 @@ Since $253 = 11 \cdot 23$ and $204 = 2 \cdot 2 \cdot 3 \cdot 17$ have no common 
 = \dfrac{\left((2(2)+1)(-3-(-3)) - 5(4-7) \right)}{(4-2(3))}
 \end{multline*}
 
-This means that we should simplify the numerator and denominator first, then perform the division last.  We tend to what's in parentheses first, giving multiplication priority over addition and subtraction.
+This means that we should simplify the numerator and denominator first, then perform the division last.  We tend to what's in parentheses first, giving multiplication priority over aiddition and subtraction.
 \begin{multline*}
-\dfrac{(2(2)+1)(-3-(-3)) - 5(4-7)}{4-2(3)}  \\
-\begin{aligned}
- &= \dfrac{(4+1)(-3+3)-5(-3)}{4 - 6} \\
- &= \dfrac{(5)(0) + 15}{-2} \\
- &= \dfrac{15}{-2} \\
- &= \begin{array}{lr}-\dfrac{15}{2} & \text{(Properties of Negatives)} \end{array} \\
-\end{aligned}
+\dfrac{(2(2)+1)(-3-(-3)) - 5(4-7)}{4-2(3)}
 \end{multline*}
+\abovedisplayskip=-\medskipamount
+\begin{align*}
+&= \dfrac{(4+1)(-3+3)-5(-3)}{4 - 6} \\
+&= \dfrac{(5)(0) + 15}{-2} \\
+&= \dfrac{15}{-2} \\
+&= -\dfrac{15}{2} \tag{Properties of Negatives}
+\end{align*}
+
 Since $15 = 3\cdot 5$ and $2$ have no common factors, we are done.
 																			
 
@@ -360,16 +282,18 @@ Since $15 = 3\cdot 5$ and $2$ have no common factors, we are done.
 
 
 \item  In this problem, we have multiplication and subtraction.  Multiplication takes precedence so we perform it first.  Recall that to multiply fractions, we do \textit{not} need to obtain common denominators;  rather, we multiply the corresponding numerators together along with the corresponding denominators.  Like the previous example, we have parentheses and negative signs for added fun!
+
 \begin{multline*}
-\left(\dfrac{3}{5} \right) \left(\dfrac{5}{13} \right) - \left(\dfrac{4}{5}\right) \left( - \dfrac{12}{13}\right) \\
-\begin{array}{clr}
-= & \dfrac{3 \cdot 5}{5 \cdot 13} - \dfrac{4\cdot (-12)}{5 \cdot 13} & \text{Multiply fractions}\\ [8pt]
-= & \dfrac{15}{65} - \dfrac{-48}{65} & \\[10pt]
-= & \dfrac{15}{65} + \dfrac{48}{65} & \text{Properties of Negatives}\\[10pt]
-= & \dfrac{15+48}{65}  & \text{Add numerators} \\ [10pt]
-= & \dfrac{63}{65} & \\
-\end{array}
+\left(\dfrac{3}{5} \right) \left(\dfrac{5}{13} \right) - \left(\dfrac{4}{5}\right) \left( - \dfrac{12}{13}\right)\\
 \end{multline*}
+\abovedisplayskip=-\bigskipamount
+\begin{align*}
+&= \dfrac{3 \cdot 5}{5 \cdot 13} - \dfrac{4\cdot (-12)}{5 \cdot 13} \tag{Multiply fractions}\\
+&= \dfrac{15}{65} - \dfrac{-48}{65} \\
+&= \dfrac{15}{65} + \dfrac{48}{65} \tag{Properties of Negatives}\\
+&= \dfrac{15+48}{65}  \tag{Add numerators} \\
+&= \dfrac{63}{65} \\
+\end{align*}
 
 Since $64 = 3 \cdot 3 \cdot 7$ and $65 = 5 \cdot 13$ have no common factors, our answer $\frac{63}{65}$ is in lowest terms and we are done.\qed
 
@@ -381,18 +305,10 @@ Of the issues discussed in the previous set of examples none causes students mor
 
 \smallskip
 
-Next, we review exponents and their properties.  Recall that $2 \cdot 2 \cdot 2$  can be written as $2^3$ because exponential notation expresses repeated multiplication.  In the expression $2^3$, $2$ is called the \textbf{base}\index{base} and $3$ is called the \textbf{exponent}\index{exponent}. In order to generalize exponents from natural numbers to the integers, and eventually to rational and real numbers, it is helpful to think of the exponent as a count of the number of factors of the base we are multiplying by $1$.  For instance, \[2^3 = 1 \cdot (\text{three factors of two}) = 1 \cdot (2 \cdot 2 \cdot 2) = 8.\] From this, it makes sense that \[2^{0} = 1 \cdot (\text{zero factors of two}) = 1.\]  What about $2^{-3}$?  The `$-$' in the exponent indicates that we are `taking away' three factors of two, essentially dividing by three factors of two.  So, \[2^{-3} = 1 \div (\text{three factors of two}) = 1 \div (2 \cdot 2 \cdot 2) = \frac{1}{2 \cdot 2 \cdot 2} = \frac{1}{8}.\]  We summarize the properties of integer exponents below.
+Next, we review exponents and their properties.  Recall that $2 \cdot 2 \cdot 2$  can be written as $2^3$ because exponential notation expresses repeated multiplication.  In the expression $2^3$, $2$ is called the \textbf{base}\index{base} and $3$ is called the \textbf{exponent}\index{exponent}. In order to generalize exponents from natural numbers to the integers, and eventually to rational and real numbers, it is helpful to think of the exponent as a count of the number of factors of the base we are multiplying by $1$.  For instance, \[2^3 = 1 \cdot (\text{three factors of two}) = 1 \cdot (2 \cdot 2 \cdot 2) = 8.\] From this, it makes sense that \[2^{0} = 1 \cdot (\text{zero factors of two}) = 1.\]  What about $2^{-3}$?  The `$-$' in the exponent indicates that we are `taking away' three factors of two, essentially dividing by three factors of two.  So, \[2^{-3} = 1 \div (\text{three factors of two}) = 1 \div (2 \cdot 2 \cdot 2) = \frac{1}{2 \cdot 2 \cdot 2} = \frac{1}{8}.\]  We summarize the properties of integer exponents in \autoref{propertiesofintegerexponents}.
 
-\medskip
-
-\phantomsection
+\begin{floatbox}{Properties of Integer Exponents}
 \label{propertiesofintegerexponents}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Properties of Integer Exponents}}
-
-\vspace{.05in}
 
 Suppose $a$ and $b$ are nonzero real numbers and $n$ and $m$ are integers.
 
@@ -418,26 +334,14 @@ Suppose $a$ and $b$ are nonzero real numbers and $n$ and $m$ are integers.
 
 \end{itemize}
 
-\ebm}
-
-\medskip
+\end{floatbox}
 
 While it is important the state the Properties of Exponents, it is also equally important to take a moment to discuss one of the most common errors in Algebra.  It is true that $(ab)^2 = a^2 b^2$ (which some students refer to as `distributing' the exponent to each factor) but you cannot do this sort of thing with addition.  That is, in general,   $(a+b)^2 \neq a^2 + b^2$. (For example, take $a= 3$ and $b = 4$.)  The same goes for any other powers.
 
-\pagebreak
+With exponents now in the mix, we can now state the Order of Operations Agreement as shown in \autoref{orderofoperations}.
 
-With exponents now in the mix, we can now state the Order of Operations Agreement.
-
-\medskip
-
-\phantomsection
+\begin{floatbox}{Order of Operations Agreement}
 \label{orderofoperations}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Order of Operations Agreement}}
-
-\vspace{.05in}
 
 When evaluating an expression involving real numbers:
 
@@ -452,52 +356,26 @@ When evaluating an expression involving real numbers:
 
 We note that there are many useful mnemonic devices for remembering the order of operations.\footnote{Our favorite is  `\textbf{P}lease \textbf{e}ntertain \textbf{m}y \textbf{d}ear \textbf{a}uld \textbf{S}asquatch.'}  
 
-\ebm}
-
-\medskip
+\end{floatbox}
 
 For example, $2 + 3\cdot 4^2 = 2 + 3\cdot 16 = 2 + 48 = 50$.  Where students get into trouble is with things like $-3^2$.  If we think of this as $0 - 3^2$, then it is clear that we evaluate the exponent first:  $-3^2 =0 -3^2 =0 -9 = -9$.  In general, we interpret $-a^n = -\left(a^n\right)$.  If we want the `negative' to also be raised to a power, we must  write $(-a)^n$ instead.  To summarize, $-3^2 = -9$ but $(-3)^2  = 9$. 
 
-\smallskip
-
 Of course, many of the `properties' we've stated in this section can be viewed as ways to circumvent the order of operations. We've already seen how the distributive property allows us to simplify $5(2+x)$ by performing the indicated multiplication \textbf{before} the addition that's in parentheses.  Similarly, consider trying to evaluate $2^{30172}\cdot 2^{-30169}$.  The Order of Operations Agreement demands that the exponents be dealt with first, however, trying to compute $2^{30172}$ is a challenge, even for a calculator.  One of the Product Rules of Exponents, however, allow us to rewrite this product, essentially performing the multiplication first, to get:  $2^{30172-30169} = 2^{3} = 8$.  
-
-\smallskip
 
 Let's take a break and enjoy another example.
 
-\smallskip
-
 \begin{ex} \label{exponentreview}  Perform the indicated operations and simplify.
 
-\begin{multicols}{2}
+\begin{tasks}(2)
+\task  $\dfrac{(4-2)(2 \cdot 4)-(4)^2}{(4-2)^2}$
 
-\begin{enumerate}
+\task! $12(-5)(-5+3)^{-4}+6(-5)^2(-4)(-5+3)^{-5}$\vphantom{$\dfrac{(4-2)(2 \cdot 4)-(4)^2}{(4-2)^2}$}
 
-\item  $\dfrac{(4-2)(2 \cdot 4)-(4)^2}{(4-2)^2}$
+\task  $\dfrac{\left(\dfrac{5\cdot 3^{51}}{4^{36}}\right)}{\left(\dfrac{5 \cdot 3^{49}}{4^{34}}\right)}$
 
-\item $12(-5)(-5+3)^{-4}+6(-5)^2(-4)(-5+3)^{-5}$\vphantom{$\dfrac{(4-2)(2 \cdot 4)-(4)^2}{(4-2)^2}$}
+\task $\dfrac{2 \left(\dfrac{5}{12}\right)^{-1}}{1 - \left(\dfrac{5}{12}\right)^{-2}}$\vphantom{$\dfrac{\left(\dfrac{5\cdot 3^{51}}{4^{36}}\right)}{\left(\dfrac{5 \cdot 3^{49}}{4^{34}}\right)}$}
 
-\setcounter{HW}{\value{enumi}}
-
-\end{enumerate}
-
-\end{multicols}
-
-\begin{multicols}{2}
-
-\begin{enumerate}
-
-\setcounter{enumi}{\value{HW}}
-
-\item  $\dfrac{\left(\dfrac{5\cdot 3^{51}}{4^{36}}\right)}{\left(\dfrac{5 \cdot 3^{49}}{4^{34}}\right)}$
-
-\item $\dfrac{2 \left(\dfrac{5}{12}\right)^{-1}}{1 - \left(\dfrac{5}{12}\right)^{-2}}$\vphantom{$\dfrac{\left(\dfrac{5\cdot 3^{51}}{4^{36}}\right)}{\left(\dfrac{5 \cdot 3^{49}}{4^{34}}\right)}$}
-
-\end{enumerate}
-
-\end{multicols}
-
+\end{tasks}
 
 {\bf Solution.}
 
@@ -548,35 +426,25 @@ Since $120$ and $119$ have no common factors, we are done.  \qed
 
 One of the places where the properties of exponents play an important role is in the use of \textbf{Scientific Notation}.\index{Scientific Notation}  The basis for scientific notation is that since we use \underline{dec}imals (base ten numerals) to represent real numbers, we can adjust where the decimal point lies by multiplying by an appropriate power of 10.  This allows scientists and engineers to focus in on the `significant' digits\footnote{Awesome pun!} of a number - the nonzero values - and adjust for the decimal places later.  For instance, $-621 = -6.21 \times 10^2$ and $0.023 = 2.3 \times 10^{-2}$.  Notice here that we revert to using the familiar `$\times$' to indicate multiplication.\footnote{This is the `notable exception' we alluded to earlier.}   In general, we arrange the real number so exactly one non-zero digit appears to the left of the decimal point.  We make this idea precise in the following: 
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn} \label{scientificnotation}
 
 A real number is written in \textbf{Scientific Notation} if it has the form $\pm n . d_{1} d_{2} \ldots \times 10^{k}$ where $n$ is a natural number, $d_{1}$, $d_{2}$, etc., are whole numbers, and $k$ is an integer.
 
 \end{defn}
-
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 On calculators, scientific notation may appear using an `E' or `EE' as opposed to the $\times$ symbol.  For instance, while we will write $6.02 \times 10^{23}$ in the text, the calculator may display $6.02\, \text{E} \, 23$ or $6.02\, \text{EE} \, 23$. 
 
 \begin{ex} \label{scientificnotationex} Perform the indicated operations and simplify.  Write your final answer in scientific notation, rounded to two decimal places.
 
-\begin{multicols}{2}
+\begin{tasks}(2)
 
-\begin{enumerate}
+\task  $\dfrac{\left(6.626 \times 10^{-34} \right) \left(3.14 \times 10^{9}\right)}{1.78 \times 10^{23}}$
 
-\item  $\dfrac{\left(6.626 \times 10^{-34} \right) \left(3.14 \times 10^{9}\right)}{1.78 \times 10^{23}}$
+\task  $\left(2.13 \times 10^{53}\right)^{100}$\vphantom{$\dfrac{\left(6.626 \times 10^{-34} \right) \left(3.14 \times 10^{9}\right)}{6.02 \times 10^{23}}$}
 
-\item  $\left(2.13 \times 10^{53}\right)^{100}$\vphantom{$\dfrac{\left(6.626 \times 10^{-34} \right) \left(3.14 \times 10^{9}\right)}{6.02 \times 10^{23}}$}
-
-\end{enumerate}
-
-\end{multicols}
+\end{tasks}
 
 {\bf Solution.}
 
@@ -594,9 +462,14 @@ On calculators, scientific notation may appear using an `E' or `EE' as opposed t
 \end{split}
 \end{multline*}
 
-We are asked to write our final answer in scientific notation, rounded to two decimal places.  To do this, we note that  $11.685 \ldots = 1.1685 \ldots \times 10^{1}$, so\[ 11.685 \ldots \times 10^{-48} = 1.1685 \ldots \times 10^{1} \times 10^{-48} = 1.1685 \ldots \times 10^{1-48} = 1.1685 \ldots \times 10^{-47} \] Our final answer, rounded to two decimal places, is $1.17 \times 10^{-47}$.  
+We are asked to write our final answer in scientific notation, rounded to two decimal places.  To do this, we note that  $11.685 \ldots = 1.1685 \ldots \times 10^{1}$, so
 
-\smallskip
+\begin{multline*}
+11.685 \ldots \times 10^{-48} = 1.1685 \ldots \times 10^{1} \times 10^{-48} \\
+= 1.1685 \ldots \times 10^{1-48} = 1.1685 \ldots \times 10^{-47} 
+\end{multline*}
+
+Our final answer, rounded to two decimal places, is $1.17 \times 10^{-47}$.  
 
 We could have done that whole computation on a calculator so why did we bother doing any of this by hand in the first place?  The answer lies in the next example.
 
@@ -618,31 +491,21 @@ To two decimal places our answer is $6.88 \times 10^{5332}$. \qed
 
 We close our review of real number arithmetic with a discussion of roots and radical notation.  Just as subtraction and division were defined in terms of the inverse of addition and multiplication, respectively, we define roots by undoing natural number exponents.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+	
 \begin{defn} \label{principalnthrootdefn} Let $a$ be a real number and let $n$ be a natural number.  If $n$ is odd, then the \index{$\text{n}^{\text{th}}$ root ! principal}\index{principal $\text{n}^{\text{th}}$ root}\textbf{principal \boldmath $\text{n}^{\textbf{th}}$ root} of $a$ (denoted $\sqrt[n]{a}$) is the unique real number satisfying $\left(\sqrt[n]{a}\right)^n = a$.  If $n$ is even, $\sqrt[n]{a}$ is defined similarly provided  $a \geq 0$ and $\sqrt[n]{a} \geq 0$.  The number $n$ is called the \index{root ! index}\index{index of a root}\textbf{index} of the root and the number $a$ is called the \index{root ! radicand}\index{radicand}\textbf{radicand}.  For $n=2$, we write $\sqrt{a}$ instead of $\sqrt[2]{a}$.
 
 \end{defn}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 The reasons for the added stipulations for even-indexed roots in Definition \ref{principalnthrootdefn} can be found in the Properties of Negatives.  First, for all real numbers,  $x^{\text{even power}} \geq 0$, which means it is never negative.  Thus if $a$ is a \textit{negative} real number, there are no real numbers $x$ with $x^{\text{even power}} = a$.  This is why if $n$ is even, $\sqrt[n]{a}$ only exists if $a \geq 0$.  The second restriction for even-indexed roots is that $\sqrt[n]{a} \geq 0$.  This comes from the fact that $x^{\text{even power}} = (-x)^{\text{even power}}$, and we require $\sqrt[n]{a}$ to have just one value.  So even though $2^{4} = 16$ and $(-2)^{4} = 16$, we require $\sqrt[4]{16} = 2$ and ignore $-2$.  
 
-\smallskip
-
 Dealing with odd powers is much easier. For example, $x^3 = -8$ has one and only one real solution, namely $x = -2$, which means not only does $\sqrt[3]{-8}$ exist, there is only one choice, namely $\sqrt[3]{-8} = -2$. Of course, when it comes to solving $x^{5213} = -117$, it's not so clear that there is one and only one real solution, let alone that the solution is $\sqrt[5213]{-117}$. Such pills are easier to swallow once we've thought a bit about such equations graphically,\footnote{See Chapter \ref{PolynomialFunctions}.} and ultimately, these things come from the completeness property of the real numbers mentioned earlier.  
-
-\smallskip
 
 We list properties of radicals below as a `theorem' as opposed to a definition since they can be justified using the properties of exponents.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 \begin{thm}  \textbf{Properties of Radicals:} Let $a$ and $b$ be real numbers and let $m$ and $n$ be natural numbers.  If $\sqrt[n]{a}$ and $\sqrt[n]{b}$ are real numbers, then\index{radical ! properties of}
 
 \label{radicalprops}
@@ -658,14 +521,9 @@ We list properties of radicals below as a `theorem' as opposed to a definition s
 \end{itemize}
 
 \end{thm}
-
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 The proof of Theorem \ref{radicalprops} is based on the definition of the principal $\text{n}^{\text{th}}$ root and the Properties of Exponents.  To establish the product rule, consider the following.  If $n$ is odd, then by definition $\sqrt[n]{ab}$ is the \underline{unique} real number such that $(\sqrt[n]{ab})^{n} = ab$.  Given that $( \sqrt[n]{a} \, \sqrt[n]{b})^n = (\sqrt[n]{a})^n (\sqrt[n]{b})^n = ab$ as well, it must be the case that $\sqrt[n]{ab} = \sqrt[n]{a} \, \sqrt[n]{b}$. If $n$ is even, then $\sqrt[n]{ab}$ is the unique non-negative real number such that $(\sqrt[n]{ab})^{n} = ab$.  Note that since $n$ is even, $\sqrt[n]{a}$ and $\sqrt[n]{b}$ are also non-negative thus $\sqrt[n]{a}\sqrt[n]{b} \geq 0$ as well.  Proceeding as above, we find that $\sqrt[n]{ab} = \sqrt[n]{a} \, \sqrt[n]{b}$.  The quotient rule is proved similarly and is left as an exercise.  The power rule results from repeated application of the product rule, so long as $\sqrt[n]{a}$ is a real number to start with.\footnote{Otherwise we'd run into an interesting paradox.  See Section \ref{AppCmpNums}.}   We leave that as an exercise as well.
-
-\smallskip
 
 We pause here to point out one of the most common errors students make when working with radicals.  Obviously $\sqrt{9} = 3$, $\sqrt{16} = 4$ and $\sqrt{9 + 16} = \sqrt{25} = 5$.  Thus we can clearly see that $5 = \sqrt{25} = \sqrt{9 + 16} \neq \sqrt{9} + \sqrt{16} = 3 + 4 = 7$ because we all know that $5 \neq 7$.  The authors urge you to never consider `distributing' roots or exponents.  It's wrong and no good will come of it because in general $\sqrt[n]{a+b} \neq \sqrt[n]{a} + \sqrt[n]{b}$. 
 
