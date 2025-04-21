@@ -8,17 +8,13 @@
 
 In this section, we review some of the basic concepts involving the absolute value of a real number $x$.  There are a few different ways to define absolute value and in this section we choose the following definition.  (Absolute value will be revisited in much greater depth in Section \ref{AbsoluteValueFunctions} where we present what one can think of as the ``precise'' definition.)
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+    
 \begin{defn}\label{absvaldistdefn}{\bf Absolute Value as Distance:}  For every real number $x$, the \textbf{absolute value}\index{absolute value} of $x$, denoted $|x|$, is the distance between $x$ and $0$ on the number line.  More generally, if $x$ and $c$ are real numbers, $|x-c|$ is the distance between the numbers $x$ and $c$ on the number line.
 
 \end{defn}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 For example, $|5| = 5$ and $|-5| = 5$, since each is $5$ units from $0$ on the number line:
 
@@ -61,9 +57,8 @@ Graphically why $|5-7| = 2$
 
 We list some of the operational properties of absolute value below.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
+    
 \begin{thm}  \textbf{Properties of Absolute Value:} Let $a$ and $b$ be real numbers and let $n$ be an integer.\footnote{See page \pageref{setsofnumbersboxonthispage} if you don't remember what an integer is.} \index{absolute value ! properties of}\label{absolutevalueprops} 
 
 \begin{itemize}
@@ -78,9 +73,7 @@ We list some of the operational properties of absolute value below.
 
 \end{thm}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 The proof of Theorem \ref{absolutevalueprops} is difficult, but not impossible, using the distance definition of absolute value or even the `it makes negatives positive' notion.  It is, however, much easier if one uses the ``precise'' definition given in Section \ref{AbsoluteValueFunctions} so we will revisit the proof then.  For now, let's focus on how to solve basic equations and inequalities involving the absolute value.
 
@@ -113,10 +106,8 @@ The solutions to  $|x| = 3$ are $x = \pm 3$.
 
 Thinking this way gives us the following.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+    
 \begin{thm} \textbf{Absolute Value Equations: }\label{absvalequality}  Suppose $x$, $y$ and $c$ are real numbers.
 
 \begin{itemize}
@@ -135,22 +126,12 @@ Thinking this way gives us the following.
 
 \end{thm}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 Theorem \ref{absvalequality} is our main tool in solving equations involving the absolute value, since it allows us a way to rewrite such equations as compound linear equations.
 
-\medskip
-
-\phantomsection
+\begin{floatbox}{Strategy for Solving Equations Involving Absolute Value}
 \label{strategyforsolvingabseqns}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Strategy for Solving Equations Involving Absolute Value}}
-
-\vspace{0.05in}
 
 In order to solve an equation involving the absolute value of a quantity $|X|$:
 
@@ -162,7 +143,7 @@ In order to solve an equation involving the absolute value of a quantity $|X|$:
 
 \end{enumerate}
 
-\ebm}
+\end{floatbox}
 
 \smallskip
 
@@ -263,9 +244,8 @@ The solution to  $|x| > 3$ is $(-\infty, -3) \cup (3, \infty)$
 
 Generalizing this notion, we get the following:
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
+    
 \begin{thm}  \label{absolutevalueineq} \textbf{Inequalities Involving Absolute Value:}  Let $c$ be a real number. \index{inequality ! absolute value} \index{absolute value ! inequality}
 
 \begin{itemize}
@@ -281,22 +261,13 @@ Generalizing this notion, we get the following:
 \end{itemize}
 
 \end{thm}
-\ebm}
 
-\medskip
+\end{tcolorbox}
 
 If the inequality we're faced with involves `$\leq$' or `$\geq$,' we can combine the results of Theorem \ref{absolutevalueineq}  with Theorem \ref{absvalequality} as needed. 
 
-\medskip
-
-\phantomsection
+\begin{floatbox}{Strategy for Solving Inequalities Involving  Absolute Value}
 \label{strategyforsolvingabsineq}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Strategy for Solving Inequalities Involving  Absolute Value}}
-
-\vspace{0.05in}
 
 In order to solve an inequality involving the absolute value of a quantity $|X|$:
 
@@ -308,9 +279,7 @@ In order to solve an inequality involving the absolute value of a quantity $|X|$
 
 \end{enumerate}
 
-\ebm}
-
-\pagebreak
+\end{floatbox}
 
 \begin{ex}  Solve the following inequalities.
 
@@ -395,8 +364,6 @@ Our solution to   $2 < |x-1| \leq 5$ is comprised of values of $x$ which satisfy
 
 \item Our first hope when encountering $|10 x - 5| + |10 - 5x| \leq 0$ is that we can somehow combine the two absolute value quantities as we'd done in earlier examples.  We leave it to the reader to show, however, that no matter what we try to factor out of the absolute value quantities, what remains inside the absolute values will always be different.  
 
-\medskip
-
 At this point, we take a step back and look at the equation in a more general way:  we are adding two absolute values together and wanting the result to be less than or equal to $0$.  The absolute value of anything is always $0$ or greater, so there are no solutions to:  $|10x - 5| + |10 - 5x| < 0$.  
 
 \medskip
@@ -408,8 +375,6 @@ Is it possible that $|10x - 5| + |10 - 5x| = 0$?  Only if there is an $x$ where 
 \end{ex}
 
 The astute reader will have noticed by now that the authors have done nothing in the way of explaining \emph{why} anyone would ever need to know this stuff.  Go back and read the New Preface and the introduction to the Appendix.  These sections are designed to review skills and concepts that you've already learned.  Thus the deeper applications are in the main body of the text as opposed to here in the Appendix.  
-
-\smallskip
 
 We close this section with an example of how the properties in Theorem \ref{absolutevalueprops} are used in Calculus.  Here, `$\varepsilon$' is the Greek letter `epsilon' and it represents a positive real number.  Those of you who will be taking Calculus in the future should become \emph{very} familiar with this type of algebraic manipulation.
 
@@ -429,7 +394,7 @@ We close this section with an example of how the properties in Theorem \ref{abso
 
 |x -2 | & < & \dfrac{3}{4} \varepsilon & \\  \end{array}\]
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 
