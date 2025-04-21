@@ -8,23 +8,17 @@
 
 In this section, we review the vocabulary and arithmetic of \textbf{polynomials}. We start by defining what is meant by the word `polynomial' in general.  A more narrow definition of a `polynomial function' will be given in Chapter \ref{PolynomialFunctions}.  The general definition suffices for the purposes of this review.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn}  A \textbf{polynomial}\index{polynomial} is a sum of terms each of which is a real number or a real number multiplied by one or more variables to natural number powers. 
 \end{defn}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 Some examples of polynomials are $x^2 + x\sqrt{3} + 4$, $27x^2y + \frac{7x}{2}$ and $6$. Things like $3\sqrt{x}$, $4x - \frac{2}{x+1}$ and $13x^{2/3}y^{2}$ are \textbf{not} polynomials. In the box below we review some of the terminology associated with polynomials.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+  
 \begin{defn}\label{polynomialterminology} \textbf{Polynomial Vocabulary}
 
 \begin{itemize}
@@ -55,17 +49,11 @@ Some examples of polynomials are $x^2 + x\sqrt{3} + 4$, $27x^2y + \frac{7x}{2}$ 
 
 \end{defn}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 For example, $x^2 + x\sqrt{3} +4$ is a trinomial of degree $2$.  The coefficient of $x^2$ is $1$ and the constant term is $4$.  The polynomial $27x^2y + \frac{7x}{2}$ is a binomial of degree $3$ ($x^2y = x^2 y^1$) with constant term $0$.  
 
-\medskip
-
 The concept of `like' terms really amounts to finding terms which can be combined using the Distributive Property.  For example, in the polynomial $17x^2y - 3xy^2 + 7xy^2$, $-3xy^2$ and $7xy^2$ are like terms, since they have the same variables with the same corresponding exponents. This allows us to combine these two terms as follows:  \[17x^2y -  3xy^2 + 7xy^2 = 17x^2y + (-3)xy^2 + 7xy^2 + 17x^2y +(-3 + 7)xy^2 = 17x^2y + 4xy^2\]  Note that even though $17x^2y$ and $4xy^2$ have the same variables, they are not like terms since in the first term we have $x^2$ and $y = y^1$ but in the second we have $x = x^1$ and $y = y^2$ so the corresponding exponents aren't the same.  Hence,  $17x^2y + 4xy^2$ is the simplified form of the polynomial.  
-
-\smallskip
 
 There are four basic operations we can perform with polynomials:  addition, subtraction, multiplication and division. The first three of these follow directly from properties of real number arithmetic and will be discussed together.  Division, on the other hand, is a bit more complicated and will be discussed separately.
 
@@ -74,28 +62,20 @@ There are four basic operations we can perform with polynomials:  addition, subt
 
 Adding and subtracting polynomials comes down to identifying like terms and then adding or subtracting the coefficients of those like terms.  Multiplying polynomials comes to us courtesy of the Generalized Distributive Property.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+  
 \begin{thm}\label{generaldistprop} \textbf{Generalized Distributive Property:}  To multiply a quantity of $n$ terms by a quantity of $m$ terms, multiply each of the $n$ terms of the first quantity by each of the $m$ terms in the second quantity and add the resulting $n \cdot m$ terms together. 
 
 \end{thm}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 In particular, Theorem \ref{generaldistprop} says that, before combining like terms, a product of an $n$-term polynomial and an $m$-term polynomial will generate $(n \cdot m)$-terms.  For example, a binomial times a trinomial will produce six terms some of which may be like terms.  Thus the simplified end result may have fewer than six terms but you will start with six terms. 
 
-\medskip
-
 A special case of Theorem \ref{generaldistprop}  is the famous \textbf{F.O.I.L.}, listed here:\footnote{We caved to peer pressure on this one.  Apparently all of the cool Precalculus books have FOIL in them even though it's redundant once you know how to distribute multiplication across addition.  In general, we don't like mechanical short-cuts that interfere with a student's understanding of the material and FOIL is one of the worst.}
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+  
 \begin{thm}\label{FOIL} \textbf{F.O.I.L:} The terms generated from the product of two binomials: $(a + b)(c+d)$ can be verbalized as follows: ``Take the sum of
 
 \begin{itemize}
@@ -114,13 +94,9 @@ That is, $(a+b)(c+d) = ac + ad + bc + bd$.
 
 \end{thm}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 Theorem \ref{generaldistprop} is best proved using the technique known as Mathematical Induction which is covered in Section \ref{Induction}.  The result is really nothing more than repeated applications of the Distributive Property so it seems reasonable and we'll use it without proof for now.  The other major piece of polynomial multiplication is one of the Power Rules of Exponents from page \pageref{propertiesofintegerexponents} in Section \ref{AppRealNumberArithmetic}, namely  $a^n a^m = a^{n+m}$.  The Commutative and Associative Properties of addition and multiplication are also used extensively.  We put all of these properties to good use in the next example.
-
-\pagebreak
 
 \begin{ex}
 
@@ -188,27 +164,29 @@ To our surprise and delight, this product reduces to $27y^3 - 2$.
 
 Our (correct) final answer is $16w^2 - 4w + \frac{1}{4}$.
 
-\item  Our last example has two levels of grouping symbols.  We begin simplifying the quantity inside the brackets, expanding $(x+h)^2$ in the same way we expanded $(4w - \frac{1}{2})^{2}$ in our previous example: \[ (x+h)^2 = (x+h)(x+h) = (x)(x) + (x)(h) + (h)(x) + (h)(h) = x^2 + 2xh + h^2 \]  When we substitute this into our expression, we envelope it in parentheses, as usual, so that we don't forget to distribute the negative.\[ \begin{array}{rclr}
-					
-\left[2(x+h) - (x+h)^2\right] - \left(2x - x^2 \right) & = & \left[2(x+h) - \left( x^2 + 2xh + h^2\right) \right] - \left(2x - x^2 \right) & \hspace*{-.6in}\text{Substitute} \\
-	                                                     & = & \left[2x+2h - x^2-2xh-h^2\right] - \left(2x - x^2 \right) & \hspace*{-6in} \text{Distribute}\\ 
-                                                      & = & 2x+2h - x^2-2xh-h^2 -2x + x^2 & \hspace*{-.6in}\text{Distribute} \\ 
-																											 & = & 2x - 2x+2h - x^2 + x^2 -2xh-h^2& \hspace*{-.6in}\text{Rearrange terms}\\
-																											 & = & 2h-2xh-h^2& \hspace*{-.6in}\text{Combine like terms}\\
-																											\end{array} \] We find no like terms in $2h-2xh-h^2$ so we are finished. \qed                                               
+\item  Our last example has two levels of grouping symbols.  We begin simplifying the quantity inside the brackets, expanding $(x+h)^2$ in the same way we expanded $(4w - \frac{1}{2})^{2}$ in our previous example: \[ (x+h)^2 = (x+h)(x+h) = (x)(x) + (x)(h) + (h)(x) + (h)(h) = x^2 + 2xh + h^2 \]  When we substitute this into our expression, we envelope it in parentheses, as usual, so that we don't forget to distribute the negative.
+
+\begin{multline*}
+  \left[2(x+h) - (x+h)^2\right] - \left(2x - x^2 \right) \\
+\end{multline*}
+\begin{align*}
+& = \left[2(x+h) - \left( x^2 + 2xh + h^2\right) \right] - \left(2x - x^2 \right) \tag{Substitute} \\
+& = \left[2x+2h - x^2-2xh-h^2\right] - \left(2x - x^2 \right) \tag{Distribute}\\ 
+& = 2x+2h - x^2-2xh-h^2 -2x + x^2 \tag{Distribute} \\ 
+& = 2x - 2x+2h - x^2 + x^2 -2xh-h^2 \tag{Rearrange terms}\\
+& = 2h-2xh-h^2 \tag{Combine like terms}\\
+\end{align*}
+                              
+We find no like terms in $2h-2xh-h^2$ so we are finished. \qed                                               
 
 \end{enumerate}
 
 \end{ex}
 
-
-
 We conclude our discussion of polynomial multiplication by showcasing two special products which happen often enough they should be committed to memory.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+  
 \begin{thm}\label{SpecialProducts} \textbf{Special Products:} Let $a$ and $b$ be real numbers:
 
 \begin{itemize}
@@ -221,9 +199,7 @@ We conclude our discussion of polynomial multiplication by showcasing two specia
 
 \end{thm}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 The formulas in Theorem \ref{SpecialProducts} can be verified by working through the multiplication.\footnote{These are both special cases of F.O.I.L.}
 
@@ -255,8 +231,6 @@ We now turn our attention to polynomial long division.  Dividing two polynomials
 In this case, $79$ is called the \textbf{divisor}\index{division ! divisor}, $2585$ is called the \textbf{dividend}\index{division ! dividend}, $32$ is called the \textbf{quotient}\index{division ! quotient} and $57$ is called the \textbf{remainder}\index{division ! remainder}.  We can check our answer by showing:  \[ \text{dividend} = (\text{divisor})( \text{quotient}) + \text{remainder}\] or in this case, $2585 = 
  (79)(32) + 57 \checkmark$.  We hope that the long division tableau evokes warm, fuzzy memories of your formative years as opposed to feelings of hopelessness and frustration.  If you experience the latter, keep in mind that the Division Algorithm essentially is a two-step process, iterated over and over again.  First, we guess the number of times the divisor goes into the dividend and  then we subtract off our guess.  We repeat those steps with what's left over until what's left over (the remainder) is less than what we started with (the divisor).  That's all there is to it!
 
-\smallskip
-
 The division algorithm for polynomials has the same basic two steps but when we subtract polynomials, we must take care to subtract \emph{like terms} only.  As a transition to polynomial division, let's write out our previous division tableau in expanded form.
 
 
@@ -282,41 +256,22 @@ The division algorithm for polynomials has the same basic two steps but when we 
 
 Written this way, we see that when we line up the digits we are really lining up the coefficients of the corresponding powers of $10$ - much like how we'll have to keep the powers of $x$ lined up in the same columns.  The big difference between polynomial division and the division of natural numbers is that the value of $x$ is an unknown quantity.  So unlike using the known value of $10$, when we subtract there can be no regrouping of coefficients as in our previous example. (The subtraction $215 - 158$ requires us to `regroup' or `borrow' from the tens digit, then the hundreds digit.) This actually makes polynomial division easier.\footnote{In our opinion - you can judge for yourself.}  Before we dive into examples, we first state a theorem telling us when we can divide two polynomials, and what to expect when we do so.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+  
 \begin{thm} \label{polydiv} \textbf{Polynomial Division:}  Let $d$ and $p$ be nonzero polynomials where the degree of $p$ is greater than or equal to the degree of $d$.  There exist two unique polynomials, $q$ and $r$, such that $p = d \cdot q + r,\,$ where either $r = 0$ or the degree of $r$ is strictly less than the degree of $d$.
 \end{thm}
-\ebm}
 
-\medskip
+\end{tcolorbox}
 
 Essentially, Theorem \ref{polydiv} tells us that we can divide polynomials whenever the degree of the divisor is less than or equal to the degree of the dividend.  We know we're done with the division when the polynomial left over (the remainder) has a degree strictly less than the divisor.  It's time to walk through a few examples to refresh your memory.
 
 \begin{ex}\label{polynomiallongdivex}  Perform the indicated division.  Check your answer by showing \[\text{dividend} = (\text{divisor})( \text{quotient}) + \text{remainder}\]
-
-\begin{multicols}{2}
 
 \begin{enumerate}
 
 \item  $\left(x^3 + 4x^2 - 5x - 14\right) \div (x-2)$
 
 \item  $\left(2t +  7\right) \div \left(3t - 4\right)$
-
-\setcounter{HW}{\value{enumi}}
-
-\end{enumerate}
-
-\end{multicols}
-
-\begin{multicols}{2}
-
-\begin{enumerate}
-
-\setcounter{enumi}{\value{HW}}
-
-
 
 \item  $\left(6y^2 - 1 \right) \div \left(2y + 5\right)$
 
@@ -325,9 +280,6 @@ Essentially, Theorem \ref{polydiv} tells us that we can divide polynomials whene
 \setcounter{HW}{\value{enumi}}
 
 \end{enumerate}
-
-\end{multicols}
-
 
 {\bf Solution.}
 
@@ -386,8 +338,12 @@ x & - & 2 \, \vline& x^3 & + & 4x^2 & - & 5x & - & 14 \\
 \setlength\arraycolsep{5pt}
 \setlength\extrarowheight{0pt}
 
-In this case, we get a quotient of $x^2 + 6x + 7$ with a remainder of $0$.  To check our answer, we compute  \[(x-2)\left(x^2 + 6x + 7\right) + 0 = x^3 + 6x^2 + 7x - 2x^2 - 12x -14 =  x^3 + 4x^2 - 5x - 14 \, \checkmark \]
+In this case, we get a quotient of $x^2 + 6x + 7$ with a remainder of $0$.  To check our answer, we compute
 
+\begin{align*}
+(x-2)\left(x^2 + 6x + 7\right) + 0 &= x^3 + 6x^2 + 7x - 2x^2 - 12x -14 \\
+&=  x^3 + 4x^2 - 5x - 14 \, \checkmark
+\end{align*}
 
 \item    To compute  $\left(2t +  7\right) \div \left(3t - 4\right)$, we start as before.  We find $\frac{2t}{3t} = \frac{2}{3}$, so that becomes the first (and only) term in the quotient.  We multiply the divisor $(3t-4)$ by $\frac{2}{3}$ and get $2t - \frac{8}{3}$.  We subtract this from the divided and get $\frac{29}{3}$.\setlength\arraycolsep{0.1pt}\setlength\extrarowheight{5pt}\[ \begin{array}{cccccc}
 
@@ -453,7 +409,7 @@ Since the degree of $w\sqrt{2}$ (which is $1$) is less than the degree of the di
 
 \end{ex}
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 
