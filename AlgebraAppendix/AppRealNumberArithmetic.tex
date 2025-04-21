@@ -530,16 +530,10 @@ We pause here to point out one of the most common errors students make when work
 \phantomsection
 \label{donotdistributeexponents}
 
-\smallskip
-
 Since radicals have properties inherited from exponents, they are often written as such.  We define rational exponents in terms of radicals in the box below.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn}  \label{rationalexponentdefn} Let $a$ be a real number, let $m$ be an integer and let $n$ be a natural number. \index{rational exponent}
-
 \begin{itemize}
 
 \item  $a^{\frac{1}{n}} = \sqrt[n]{a}$ whenever $\sqrt[n]{a}$ is a real number.\footnote{If $n$ is even we need $a \geq 0$.}
@@ -548,42 +542,25 @@ Since radicals have properties inherited from exponents, they are often written 
 
 \end{itemize}
 \end{defn}
-
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 It would make life really nice if the rational exponents defined in Definition \ref{rationalexponentdefn} had all of the same properties that integer exponents have as listed on page \pageref{propertiesofintegerexponents}  - but they don't.  Why not?  Let's look at an example to see what goes wrong.  Consider the Product Rule which says that $(ab)^{n} = a^{n}b^{n}$ and let $a = -16$, $b = -81$ and $n = \frac{1}{4}$.  Plugging the values into the Product Rule yields the equation $((-16)(-81))^{1/4} = (-16)^{1/4}(-81)^{1/4}$.  The left side of this equation is $1296^{1/4}$ which equals $6$ but the right side is undefined because neither root is a real number.  Would it help if, when it comes to even roots (as signified by even denominators in the fractional exponents), we ensure that everything they apply to is non-negative?  That works for some of the rules - we leave it as an exercise to see which ones - but does not work for the Power Rule.
 
-\bigskip
- 
 Consider the expression $\left(a^{2/3}\right)^{3/2}$.  Applying the usual laws of exponents, we'd be tempted to simplify this as $\left(a^{2/3}\right)^{3/2} = a^{\frac{2}{3} \cdot \frac{3}{2}} = a^{1} = a$.  However, if we substitute $a=-1$ and apply Definition \ref{rationalexponentdefn}, we find $(-1)^{2/3} = \left(\sqrt[3]{-1}\right)^2 = (-1)^2 = 1$ so that $\left((-1)^{2/3}\right)^{3/2} = 1^{3/2} = \left(\sqrt{1}\right)^3 = 1^3 = 1$.  Thus in this case we have $\left(a^{2/3}\right)^{3/2} \neq a$ even though all of the roots were defined.  It is true, however, that $\left(a^{3/2}\right)^{2/3} = a$  and we leave this for the reader to show.  The moral of the story is that when simplifying powers of rational exponents where the base is negative or worse, unknown, it's usually best to rewrite them as radicals.\footnote{Much to Jeff's chagrin.  He's fairly traditional and therefore doesn't care much for radicals.}
-
 
 \begin{ex}  Perform the indicated operations and simplify. 
 
-  
-\begin{enumerate}
+\begin{tasks}(2)
 
-\item  $\dfrac{-(-4) - \sqrt{(-4)^2-4(2)(-3)}}{2(2)}$\vphantom{$\dfrac{2 \left( \dfrac{\sqrt{3}}{3}\right)}{1 - \left( \dfrac{\sqrt{3}}{3} \right)^2}$}
+\task!  $\dfrac{-(-4) - \sqrt{(-4)^2-4(2)(-3)}}{2(2)}$\vphantom{$\dfrac{2 \left( \dfrac{\sqrt{3}}{3}\right)}{1 - \left( \dfrac{\sqrt{3}}{3} \right)^2}$}
 
-\item  $\dfrac{2 \left( \dfrac{\sqrt{3}}{3}\right)}{1 - \left( \dfrac{\sqrt{3}}{3} \right)^2}$
+\task  $\dfrac{2 \left( \dfrac{\sqrt{3}}{3}\right)}{1 - \left( \dfrac{\sqrt{3}}{3} \right)^2}$
 
-\setcounter{HW}{\value{enumi}}
+\task  $(\sqrt[3]{-2} - \sqrt[3]{-54})^2$\vphantom{ $2 \left(\dfrac{9}{4} - 3\right)^{1/3} + 2\left(\dfrac{9}{4}\right)\left(\dfrac{1}{3}\right)\left(\dfrac{9}{4}-3\right)^{-2/3}$}
 
-\end{enumerate}
+\task!  $2 \left(\dfrac{9}{4} - 3\right)^{1/3} + 2\left(\dfrac{9}{4}\right)\left(\dfrac{1}{3}\right)\left(\dfrac{9}{4}-3\right)^{-2/3}$
 
-\begin{enumerate}
-
-\setcounter{enumi}{\value{HW}}
-
-\item  $(\sqrt[3]{-2} - \sqrt[3]{-54})^2$\vphantom{ $2 \left(\dfrac{9}{4} - 3\right)^{1/3} + 2\left(\dfrac{9}{4}\right)\left(\dfrac{1}{3}\right)\left(\dfrac{9}{4}-3\right)^{-2/3}$}
-
-\item  $2 \left(\dfrac{9}{4} - 3\right)^{1/3} + 2\left(\dfrac{9}{4}\right)\left(\dfrac{1}{3}\right)\left(\dfrac{9}{4}-3\right)^{-2/3}$
-
-\end{enumerate}
-
-\pagebreak
+\end{tasks}
 
 {\bf Solution.}  
 
@@ -626,8 +603,6 @@ Since the numerator and denominator have no more common factors,\footnote{Do you
   (\sqrt[3]{-2} - \sqrt[3]{-54})^2 & = & (-\sqrt[3]{2} + 3 \sqrt[3]{2})^2 & = & (2 \sqrt[3]{2})^2  \\ [5pt]
 																	 & = & 2^2 (\sqrt[3]{2})^2 = 4 \sqrt[3]{2^2} & = & 4 \sqrt[3]{4} \\ \end{array} \] There are no perfect integer cubes which are factors of $4$ (apart from $1$, of course), so we are done.
 
-\pagebreak
-
 \item  We start working in the parentheses and get a common denominator to subtract the fractions:\[ \dfrac{9}{4} - 3 = \dfrac{9}{4} - \dfrac{3 \cdot 4}{1 \cdot 4} = \dfrac{9}{4} - \dfrac{12}{4} = \dfrac{-3}{4}  \] The denominators in the fractional exponents are odd, so we can proceed by using the properties of exponents:
 
 \begin{multline*}
@@ -661,11 +636,9 @@ At this point, we could start looking for common denominators but it turns out t
 
 \end{ex}
 
-\medskip
-
 We close this section with a note about simplifying.  In the preceding examples we used ``nice'' numbers because we wanted to show as many properties as we could per example. This then begs the question ``What happens when the numbers are \emph{not} nice?''  Unfortunately, the answer is ``Not much simplifying can be done.''  Take, for example,\[\frac{\sqrt{7}}{\pi} - \frac{3}{\pi^{2}} + \frac{4}{\sqrt{11}} = \frac{\pi\sqrt{77} - 3\sqrt{11} + 4\pi^{2}}{\pi^{2}\sqrt{11}}\]Sadly, that's as good as it gets.
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 
