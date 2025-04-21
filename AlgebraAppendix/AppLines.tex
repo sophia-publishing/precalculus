@@ -23,12 +23,8 @@ In Section \ref{Distance}, we concerned ourselves with the finite line segment b
 
 To give a sense of the `steepness' of the line, we recall that we can compute the \textbf{slope} of the line as follows. (Read the character $\Delta$ as `change in'.)
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
-%\smallskip
-
+\begin{tcolorbox}
+   
 \begin{eqn} \label{slope} The \index{slope ! definition} \textbf{slope} $m$ of the line containing the points $P\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\right)$ and $Q\left(x_{\mbox{\tiny$1$}}, y_{\mbox{\tiny$1$}}\right)$ is: \index{line ! slope of} \index{slope ! of a line}
 
 \[ m  = \dfrac{y_{\mbox{\tiny$1$}} - y_{\mbox{\tiny$0$}}}{x_{\mbox{\tiny$1$}} - x_{\mbox{\tiny$0$}}} = \dfrac{\Delta y}{\Delta x},\]
@@ -37,50 +33,28 @@ provided $x_{\mbox{\tiny$1$}} \neq x_{\mbox{\tiny$0$}}$, that is, $\Delta x \neq
 
 \end{eqn}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 A couple of notes about Equation \ref{slope} are in order.  First, don't ask why we use the letter `$m$' to represent slope.  There are many explanations out there, but apparently no one really knows for sure.\footnote{See  \href{http://mathforum.org/dr.math/faq/faq.terms.html}{\underline{www.mathforum.org}} or \href{http://mathworld.wolfram.com/Slope.html}{\underline{www.mathworld.wolfram.com}} for discussions on this topic.} Secondly, the stipulation  $x_{\mbox{\tiny$1$}} \neq x_{\mbox{\tiny$0$}}$ (or $\Delta x \neq 0$) ensures that we aren't trying to divide by zero.  The reader is invited to pause to think about what is happening geometrically when the `change in $x$' is $0$; the anxious reader can skip along to the next example.
 
 \begin{ex}  Find the slope of the line containing the following pairs of points, if it exists.  Plot each pair of points and the line containing them.
 
-\begin{multicols}{2}
-\begin{enumerate}
+\begin{tasks}(3)
 
-\item  $P(0,0)$, $Q(2,4)$
-\item  $P(-1,2)$, $Q(3,4)$
+\task  $P(0,0)$, $Q(2,4)$
+\task  $P(-1,2)$, $Q(3,4)$
+\task  $P(-2,3)$, $Q(2,-3)$
+\task  $P(-3,2)$, $Q(4,2)$
+\task  $P(2,3)$, $Q(2,-1)$
+\task  $P(2,3)$, $Q(2.1, -1)$
 
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{2}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-\item  $P(-2,3)$, $Q(2,-3)$
-\item  $P(-3,2)$, $Q(4,2)$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{2}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-\item  $P(2,3)$, $Q(2,-1)$
-\item  $P(2,3)$, $Q(2.1, -1)$
-
-\end{enumerate}
-\end{multicols}
+\end{tasks}
 
 {\bf Solution.}  In each of these examples, we apply the slope formula, Equation \ref{slope}.
 
-\begin{enumerate}
+\begin{tasks}(1)
 
-\item  $ m = \dfrac{4 - 0}{2 - 0} = \dfrac{4}{2} = 2$ 
+\task  $ m = \dfrac{4 - 0}{2 - 0} = \dfrac{4}{2} = 2$ 
 
 \begin{mfpic}[15]{-1}{5}{-1}{5}
 \point[3pt]{(0,0),(2,4)}
@@ -98,7 +72,7 @@ A couple of notes about Equation \ref{slope} are in order.  First, don't ask why
 \end{mfpic}
 
 
-\item $ m = \dfrac{4 - 2}{3 - (-1)} = \dfrac{2}{4} = \dfrac{1}{2}$
+\task $ m = \dfrac{4 - 2}{3 - (-1)} = \dfrac{2}{4} = \dfrac{1}{2}$
 
 \begin{mfpic}[15]{-2}{4}{0}{5}
 \point[3pt]{(-1,2),(3,4)}
@@ -115,7 +89,7 @@ A couple of notes about Equation \ref{slope} are in order.  First, don't ask why
 \axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
 \end{mfpic} 
 
-\item  $ m = \dfrac{-3 - 3}{2 - (-2)} = \dfrac{-6}{4} = -\dfrac{3}{2}$
+\task  $ m = \dfrac{-3 - 3}{2 - (-2)} = \dfrac{-6}{4} = -\dfrac{3}{2}$
 
 \begin{mfpic}[15]{-4}{4}{-5}{5}
 \point[3pt]{(-2,3),(2,-3)}
@@ -132,7 +106,7 @@ A couple of notes about Equation \ref{slope} are in order.  First, don't ask why
 \axislabels {y}{{\tiny $-4$} -4, {\tiny $-3$} -3, {\tiny $-2$} -2, {\tiny $-1$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
 \end{mfpic}
 
-\item  $ m = \dfrac{2 - 2}{4 - (-3)} = \dfrac{0}{7} = 0$
+\task  $ m = \dfrac{2 - 2}{4 - (-3)} = \dfrac{0}{7} = 0$
 
 \begin{mfpic}[15]{-5}{5}{0}{4}
 \point[3pt]{(-3,2),(4,2)}
@@ -149,7 +123,7 @@ A couple of notes about Equation \ref{slope} are in order.  First, don't ask why
 \axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3}
 \end{mfpic}
 
-\item   $ m = \dfrac{-1 - 3}{2 - 2} = \dfrac{-4}{0}$, which is undefined 
+\task   $ m = \dfrac{-1 - 3}{2 - 2} = \dfrac{-4}{0}$, which is undefined 
 
 \begin{mfpic}[15]{0}{3}{-4}{4}
 \point[3pt]{(2,3),(2,-1)}
@@ -167,7 +141,7 @@ A couple of notes about Equation \ref{slope} are in order.  First, don't ask why
 \end{mfpic} 
 
 
-\item   $ m = \dfrac{-1 - 3}{2.1 - 2} = \dfrac{-4}{0.1}=-40$ 
+\task   $ m = \dfrac{-1 - 3}{2.1 - 2} = \dfrac{-4}{0.1}=-40$ 
 
 \begin{mfpic}[15]{0}{3}{-4}{4}
 \point[3pt]{(2,3),(2.1,-1)}
@@ -184,7 +158,7 @@ A couple of notes about Equation \ref{slope} are in order.  First, don't ask why
 \axislabels {y}{{\tiny $-3$} -3, {\tiny $-2$} -2, {\tiny $-1$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3}
 \end{mfpic} 
 
-\end{enumerate}
+\end{tasks}
 
 \label{slopeex}
 
@@ -227,11 +201,11 @@ In this way, we may view the slope as  `the \textbf{rate of change} of $y$ with 
 
 \pagebreak
 
-Consider the two lines shown below: $V$ (for `V'ertical Line) and $H$ (for `H'orizontal Line).    
+Consider the two lines shown in \autoref{fig:thelinev} and \autoref{fig:thelineh}: $V$ (for `V'ertical Line) and $H$ (for `H'orizontal Line).    
 
-\smallskip
-
+\begin{figure}
 \begin{center}
+
 \begin{mfpic}[18]{-1}{5}{-5}{5}
 \arrow \reverse \arrow \polyline{(3,-5), (3,5)}
 \axes
@@ -244,13 +218,16 @@ Consider the two lines shown below: $V$ (for `V'ertical Line) and $H$ (for `H'or
 \axislabels {x}{{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \normalsize
-\tcaption{The line $V$}
 \end{mfpic}
+
+\caption{The line $V$}
+\label{fig:thelinev}
 \end{center}
+\end{figure}
 
-\smallskip
-
+\begin{figure}
 \begin{center}
+
 \begin{mfpic}[18]{-5}{5}{-5}{1}
 \arrow \reverse \arrow \polyline{(-5,-2), (5,-2)}
 \axes
@@ -263,25 +240,21 @@ Consider the two lines shown below: $V$ (for `V'ertical Line) and $H$ (for `H'or
 \axislabels {x}{{$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \axislabels {y}{{$-4$} -4, {$-3$} -3, {$-2$} -2, {$-1$} -1}
 \normalsize
-\tcaption{The line $H$}
 \end{mfpic}
-\end{center}
 
+\caption{The line $H$}
+\label{fig:thelineh}
+\end{center}
+\end{figure}
 \smallskip
 
 All of the points on the line $V$ have an $x$-coordinate of $3$.  Conversely, any point with an $x$-coordinate of $3$ lies on the line $V$.  Said differently, the point $(x,y)$ lies on $V$ if and only if $x = 3$.  Because of this, we say the equation $x=3$ \textit{describes} the line $V$, or, said differently, the \textit{graph} of the equation $x=3$ is the line $V$.  
 
-\medskip
-
 In Section \ref{Relations}, we'll spend a great deal of time talking about graphing equations.  For now, it suffices to know that a graph of an equation is a plot of all of the points which make the equation true.  So to graph $x=3$,  we plot all of the points $(x,y)$ which satisfy $x = 3$ and this gives us our vertical line $V$.      
-
-\medskip
 
 Turning our attention to $H$, we note that every point on $H$ has a $y$-coordinate of $-2$, and vice-versa.  Hence the equation $y = -2$ describes the line $H$, or the graph of the equation $y=-2$ is $H$.  In general:
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{eqn} \label{verticalhorizontallines} Equations of Vertical and Horizontal Lines
 
@@ -295,33 +268,30 @@ Turning our attention to $H$, we note that every point on $H$ has a $y$-coordina
 
 \end{eqn}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 Of course, we may be working on axes which aren't labeled with the `usual' $x$'s and $y$'s.  In this case, we understand Equation \ref{verticalhorizontallines} to say `$\text{horizontal axis label} = a$' describes a \textit{vertical} line through $(a,0)$ and  `$\text{vertical axis label} = b$' describes a \textit{horizontal} line through $(0,b)$.  
 
 
 \begin{ex}  \label{horizontalverticallineex}  $~$
 
-\begin{enumerate}  \item Graph the following equations in the $xy$-plane: 
+\begin{tasks}
+\task Graph the following equations in the $xy$-plane: 
 
 \begin{multicols}{2}
-\begin{enumerate}
+\begin{enumerate}[label=(\alph*)]
 
 \item $y = 3$ 
-
 \item $x=-117$
 
 \end{enumerate}
 \end{multicols}
 
-\enlargethispage{.1in}
+\task Find the equation of each of the given lines in \autoref{fig:linel1} and \autoref{fig:linel2}.
 
-\item Find the equation of each of the given lines.
+\end{tasks}
 
-\medskip
-
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[18]{-1}{5}{-5}{5}
@@ -336,10 +306,15 @@ Of course, we may be working on axes which aren't labeled with the `usual' $x$'s
 \axislabels {x}{{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \normalsize
-\tcaption{Line $L_{1}$}
 \end{mfpic}
 
-\medskip
+\caption{Line $L_{1}$}
+\label{fig:linel1}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
 
 \begin{mfpic}[18]{-5}{5}{-1}{5}
 \arrow \reverse \arrow \polyline{(-5,3), (5,3)}
@@ -353,22 +328,17 @@ Of course, we may be working on axes which aren't labeled with the `usual' $x$'s
 \axislabels {x}{{$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \axislabels {y}{{$4$} 4, {$3$} 3, {$2$} 2, {$1$} 1}
 \normalsize
-\tcaption{Line $L_{2}$}
 \end{mfpic}
 
+\caption{Line $L_{2}$}
+\label{fig:linel2}
 \end{center}
-
-\end{enumerate}
-
+\end{figure}
 {\bf Solution.}
 
-\begin{enumerate}
+\begin{figure}
+\begin{center}
 
-\item  Since we're in the familiar $xy$-plane, the graph of $y=3$ is a horizontal line through $(0,3)$, shown below on the left and the graph of $x = -117$ is a vertical line through $(-117, 0)$.  We scale the $x$-axis differently than the $y$-axis to produce the graph below on the right.
-
-\bigskip
-
-\begin{tabular}{m{3in}m{2.5in}}
 \begin{mfpic}[18]{-5}{5}{-1}{5}
 \arrow \reverse \arrow \polyline{(-5,3), (5,3)}
 \axes
@@ -383,10 +353,17 @@ Of course, we may be working on axes which aren't labeled with the `usual' $x$'s
 \axislabels {x}{{$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \axislabels {y}{{$4$} 4,{$3$} 3, {$2$} 2, {$1$} 1}
 \normalsize
-\tcaption{The line $y = 3$}
-\end{mfpic} &
+\end{mfpic}
 
-\hspace{.3in} \begin{mfpic}[18]{-5}{1}{-5}{5}
+\caption{The line $y = 3$}
+\label{fig:lineyeq3}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+
+\begin{mfpic}[18]{-5}{1}{-5}{5}
 \arrow \reverse \arrow \polyline{(-3,-5), (-3,5)}
 \axes
 \tlabel[cc](1,-0.5){\scriptsize $x$}
@@ -399,19 +376,23 @@ Of course, we may be working on axes which aren't labeled with the `usual' $x$'s
 \axislabels {x}{{$-117 \hspace{10pt}$} -3}
 \axislabels {y}{{$-4$} -4,{$-3$} -3,{$-2$} -2, {$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
 \normalsize
-\tcaption{The line $x=-117$}
-\end{mfpic} \\
+\end{mfpic}
 
-\end{tabular}
+\caption{The line $x=-117$}
+\label{fig:linexeqminus117}
+\end{center}
+\end{figure}
 
-\item  Since $L_{1}$ is a vertical line through $(2,0)$, and the horizontal axis is labeled with `$x$', the equation of $L_{1}$ is $x = 2$.  Since $L_{2}$ is a horizontal line through $(0,3)$ and the vertical axis is labeled as `$s$', the equation of this line is $s = 3$.  \qed
+\begin{tasks}
 
-\end{enumerate}
+\task  Since we're in the familiar $xy$-plane, the graph of $y=3$ is a horizontal line through $(0,3)$, shown in \autoref{fig:lineyeq3} on the left and the graph of $x = -117$ is a vertical line through $(-117, 0)$.  We scale the $x$-axis differently than the $y$-axis to produce the graph in \autoref{fig:linexeqminus117}.
+
+\task  Since $L_{1}$ is a vertical line through $(2,0)$, and the horizontal axis is labeled with `$x$', the equation of $L_{1}$ is $x = 2$.  Since $L_{2}$ is a horizontal line through $(0,3)$ and the vertical axis is labeled as `$s$', the equation of this line is $s = 3$.  \qed
+
+\end{tasks}
 
 \end{ex}
  
-\pagebreak
-
 Using the concept of slope, we can develop equations for the other varieties of lines.  Suppose a line has a slope of $m$ and contains the point $\left(x_{\mbox{\tiny$0$}}, y_{\mbox{\tiny$0$}}\right)$.  Suppose $(x,y)$ is another point on the line, as indicated below.
 
 \begin{center}
