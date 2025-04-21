@@ -25,7 +25,7 @@
 \newtcolorbox[auto counter, number within=section]{floatbox}[1]{%
       float,
       detach title,
-      before upper={\centerline{\textbf{\tcbtitle}}\smallskip},
+      before upper={\begin{center}\textbf{\tcbtitle}\end{center}\smallskip},
       coltitle=tcbcolupper,
       title=Box~\thetcbcounter: {#1},
 }

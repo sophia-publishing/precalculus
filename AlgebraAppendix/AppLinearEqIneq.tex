@@ -10,16 +10,12 @@ In the introduction to this chapter we said that we were going to review ``the c
 
 \bigskip
 
-As you may recall, solving an equation or inequality means finding all of the values of the variable, if any exist, which make the given equation or inequality true.  This often requires us to manipulate the given equation or inequality from its given form to an easier form.  For example, if we're asked to solve $3 - 2(x-3) = 7x + 3(x+1)$, we get $x = \frac{1}{2}$, but not without a fair amount of algebraic manipulation. In order to obtain the correct answer(s), however, we need to make sure that whatever maneuvers we apply are reversible in order to guarantee that we maintain a chain of \textbf{equivalent} equations or inequalities.  Two equations or inequalities are called \textbf{equivalent}\index{equation ! equivalent}\index{inequality ! equivalent} if they have the same solutions.  We summarize these `legal moves' in the box below.
+As you may recall, solving an equation or inequality means finding all of the values of the variable, if any exist, which make the given equation or inequality true.  This often requires us to manipulate the given equation or inequality from its given form to an easier form.  For example, if we're asked to solve $3 - 2(x-3) = 7x + 3(x+1)$, we get $x = \frac{1}{2}$, but not without a fair amount of algebraic manipulation. In order to obtain the correct answer(s), however, we need to make sure that whatever maneuvers we apply are reversible in order to guarantee that we maintain a chain of \textbf{equivalent} equations or inequalities.  Two equations or inequalities are called \textbf{equivalent}\index{equation ! equivalent}\index{inequality ! equivalent} if they have the same solutions.  We summarize these `legal moves' in \autoref{box:equivalenteqnineq}.
 
-\bigskip
+\begin{floatbox}{Procedures which Generate Equivalent Equations and Inequalities}
+\label{box:equivalenteqnineq}
 
-\phantomsection \label{equivalenteqnineq}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Procedures which Generate Equivalent Equations}}
-
+\textbf{Equivalent Equations}
 \begin{itemize}
 
 \item  Add (or subtract) the same real number to (from) both sides of the equation.
@@ -28,9 +24,7 @@ As you may recall, solving an equation or inequality means finding all of the va
 
 \end{itemize}
 
-\centerline{\textbf{Procedures which Generate Equivalent Inequalities}}
-
-\vspace{-0.1in}
+\textbf{Equivalent Inequalities}
 
 \begin{itemize}
 
@@ -40,39 +34,26 @@ As you may recall, solving an equation or inequality means finding all of the va
 
 \end{itemize}
 
-\ebm}
+\end{floatbox}
 
 \subsection{Linear Equations} \label{LinearEqn}
 
 The first equations we wish to review are \textbf{linear} equations as defined below.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+	
 \begin{defn}\label{lineareqndefn}\index{equation ! linear} An equation is said to be \textbf{linear} in a variable $x$ if it can be written in the form $ax = b$ where $a$ and $b$ are expressions which do not involve $x$ and $a \neq 0$.
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
-\pagebreak
+One key point about Definition \ref{lineareqndefn} is that the exponent on the unknown `$x$' in the equation is $1$, that is $x = x^1$. Our main strategy for solving linear equations is summarized in \autoref{box:strategyforsolvinglineareqns}.
 
-One key point about Definition \ref{lineareqndefn} is that the exponent on the unknown `$x$' in the equation is $1$, that is $x = x^1$. Our main strategy for solving linear equations is summarized below.
-
-\medskip
-
-\phantomsection \label{strategyforsolvinglineareqns}
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Strategy for Solving Linear Equations}}
-
-\vspace{0.05in}
+\begin{floatbox}{Strategy for Solving Linear Equations}
+\label{box:strategyforsolvinglineareqns}
 
 In order to solve an equation which is linear in a given variable, say $x$:
-
-\vspace{-0.1in}
 
 \begin{enumerate}
 
@@ -82,59 +63,22 @@ In order to solve an equation which is linear in a given variable, say $x$:
 
 \end{enumerate}
 
-\ebm}
-
-\medskip
+\end{floatbox}
 
 We illustrate this process with a collection of examples below.
 
 \begin{ex}\label{lineareqnreview}  Solve the following equations for the indicated variable.  Check your answer.
 
-\begin{multicols}{2}
+\begin{tasks}(2)
 
-\begin{enumerate}
+\task  Solve for $x$: $3x - 6 = 7x + 4$\vphantom{$3 - 1.7t = \dfrac{t}{4}$}
+\task  Solve for $t$: $3 - 1.7t = \dfrac{t}{4}$
+\task!  Solve for $a$: $\dfrac{1}{18}(7 - 4a) + 2 = \dfrac{a}{3} - \dfrac{4-a}{12}$
+\task!  Solve for $y$:  $8 y \sqrt{3} + 1 = 7 - \sqrt{12}(5 - y)$\vphantom{$\dfrac{1}{18}(7 - 4a) + 2 = \dfrac{a}{3} - \dfrac{4-a}{12}$.}
+\task!  Solve for $x$: $\dfrac{3x-1}{2} = x\sqrt{50} + 4$
+\task  Solve for $y$:  $x(4-y) = 8y$\vphantom{$\dfrac{3x-1}{2} = x\sqrt{50} + 4$.}
 
-\item  Solve for $x$: $3x - 6 = 7x + 4$\vphantom{$3 - 1.7t = \dfrac{t}{4}$}
-
-\item  Solve for $t$: $3 - 1.7t = \dfrac{t}{4}$
-
-\setcounter{HW}{\value{enumi}}
-
-\end{enumerate}
-
-\end{multicols}
-
-\begin{multicols}{2}
-
-\begin{enumerate}
-
-\setcounter{enumi}{\value{HW}}
-
-\item  Solve for $a$: $\dfrac{1}{18}(7 - 4a) + 2 = \dfrac{a}{3} - \dfrac{4-a}{12}$
-
-\item  Solve for $y$:  $8 y \sqrt{3} + 1 = 7 - \sqrt{12}(5 - y)$\vphantom{$\dfrac{1}{18}(7 - 4a) + 2 = \dfrac{a}{3} - \dfrac{4-a}{12}$.}
-
-\setcounter{HW}{\value{enumi}}
-
-\end{enumerate}
-
-\end{multicols}
-
-\begin{multicols}{2}
-
-\begin{enumerate}
-
-\setcounter{enumi}{\value{HW}}
-
-\item  Solve for $x$: $\dfrac{3x-1}{2} = x\sqrt{50} + 4$
-
-\item  Solve for $y$:  $x(4-y) = 8y$\vphantom{$\dfrac{3x-1}{2} = x\sqrt{50} + 4$.}
-
-\setcounter{HW}{\value{enumi}}
-
-\end{enumerate}
-
-\end{multicols}
+\end{tasks}
 
 {\bf Solution.} 
 
@@ -222,15 +166,16 @@ x & = \dfrac{9}{3 - 10\sqrt{2}} \\
 
 The reader is encouraged to check this solution - it isn't as bad as it looks if you're careful! Each side works out to be $\dfrac{12 + 5\sqrt{2}}{3-10\sqrt{2}}$.
 
-\item  If we were instructed to solve our last equation for $x$, we'd be done in one step: divide both sides by $(4-y)$ - assuming $4-y \neq 0$, that is.  Alas, we are instructed to solve for $y$, which means we have some more work to do.\[ \begin{array}{rclr}
+\item  If we were instructed to solve our last equation for $x$, we'd be done in one step: divide both sides by $(4-y)$ - assuming $4-y \neq 0$, that is.  Alas, we are instructed to solve for $y$, which means we have some more work to do.
 
-x(4-y) & = & 8y & \\
+\begin{align*}
+x(4-y) & = 8y \\
+4x - xy & = 8y \tag{Distribute} \\
+(4x - xy) + xy & = 8y + xy \tag{Add $xy$} \\
+4x & = (8+x)y \tag{Factor} \\
+\end{align*}
 
-4x - xy & = & 8y & \text{Distribute} \\
-
-(4x - xy) + xy & = & 8y + xy & \text{Add $xy$} \\
-
-4x & = & (8+x)y & \text{Factor} \\ \end{array}\]In order to finish the problem, we need to divide both sides of the equation by the coefficient of $y$ which in this case is $8+x$.  This expression contains a variable so we need to stipulate that we may perform this division only if $8 + x \neq 0$, or, in other words, $x \neq -8$.  Hence, we write our solution as:\[ y = \dfrac{4x}{8+x}, \quad \text{provided $x \neq -8$}\] What happens if $x = -8$?  Substituting $x = -8$ into the original equation gives $(-8)(4-y) = 8y$ or $-32 + 8y = 8y$.  This reduces to $-32 = 0$, which is a contradiction.  This means there is no solution when $x = -8$, so we've covered all the bases.  Checking our answer requires some Algebra we haven't reviewed yet in this text, but the necessary skills \emph{should} be lurking somewhere in the mathematical mists of your mind.  The adventurous reader is invited to plug $y = \frac{4x}{8 + x}$ into the original equation and show that both sides work out to $\frac{32x}{x + 8}$. \qed
+In order to finish the problem, we need to divide both sides of the equation by the coefficient of $y$ which in this case is $8+x$.  This expression contains a variable so we need to stipulate that we may perform this division only if $8 + x \neq 0$, or, in other words, $x \neq -8$.  Hence, we write our solution as:\[ y = \dfrac{4x}{8+x}, \quad \text{provided $x \neq -8$}\] What happens if $x = -8$?  Substituting $x = -8$ into the original equation gives $(-8)(4-y) = 8y$ or $-32 + 8y = 8y$.  This reduces to $-32 = 0$, which is a contradiction.  This means there is no solution when $x = -8$, so we've covered all the bases.  Checking our answer requires some Algebra we haven't reviewed yet in this text, but the necessary skills \emph{should} be lurking somewhere in the mathematical mists of your mind.  The adventurous reader is invited to plug $y = \frac{4x}{8 + x}$ into the original equation and show that both sides work out to $\frac{32x}{x + 8}$. \qed
 
 \end{enumerate}
 
@@ -341,7 +286,7 @@ We're only half done because we still have the rightmost inequality to solve.  F
 
 \end{ex}
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 
