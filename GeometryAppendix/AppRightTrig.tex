@@ -28,15 +28,13 @@ The word `trigonometry' literally means `measuring triangles,'  so naturally mos
 
 We now state and prove the most famous result about right triangles:  \index{Pythagorean Theorem}\index{Theorem ! Pythagorean} \textbf{The Pythagorean Theorem}.
 
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+    
 \begin{thm} \label{PythagoreanTheorem} (\textbf{The Pythagorean Theorem}) The square of the length of the hypotenuse of a right triangle is equal to the sums of the squares of the other two sides.  More specifically, if $c$ is the length of the hypotenuse of a right triangle and $a$ and $b$ are the lengths of the other two sides, then $a^2 + b^2 = c^2$.
-
 
 \end{thm}
 
-
-\ebm}
+\end{tcolorbox}
 
 There are several proofs of the Pythagorean Theorem,\footnote{Including one by Mentor, Ohio native \href{http://www.maa.org/press/periodicals/convergence/mathematical-treasure-james-a-garfields-proof-of-the-pythagorean-theorem}{\underline{President James Garfield}}.} but the one we choose to reproduce here showcases a nice interplay between algebra and geometry.  Consider taking four copies of the right triangle below on the left and arranging them as seen below on the right.
 
@@ -110,7 +108,6 @@ There are several proofs of the Pythagorean Theorem,\footnote{Including one by M
 \tlabel[cc](6.5,5){$\alpha$}
 \tlabel[cc](5,0.5){$\alpha$}
 
-
 \end{mfpic}
 
 \end{multicols}
@@ -119,17 +116,11 @@ There are several proofs of the Pythagorean Theorem,\footnote{Including one by M
 
 It should be clear that we have produced a large square with a side length of $(a+b)$. What is also true, but may not be obvious,  is that the shaded quadrilateral is also a square.   We can readily see the shaded quadrilateral has equal sides of length $c$.  Moreover, since $\alpha + \beta = 90^{\circ}$, we get the interior angles of the shaded quadrilateral are each $90^{\circ}$.   Hence,  the shaded quadrilateral is indeed a square.
 
-\smallskip
-
 We finish the proof by computing the area of the of the  large square in two ways.  First, we square the length of its side: $(a+b)^2$.  Next, we add up the areas of the four triangles, each having area $\frac{1}{2} ab$ along with the area of the shaded square, $c^2$.  Equating these to expressions gives: $(a+b)^2 = 4 \left( \frac{1}{2} ab\right)+c^2$.  Since $(a+b)^2 = a^2+2ab+b^2$ and $4 \left( \frac{1}{2} ab\right)  = 2ab$, we have $a^2+2ab+b^2 = 2ab + c^2$ or $a^2+b^2 = c^2$, as required.
 
 It should be noted that the converse of the Pythagorean Theorem is also true.  That is if $a$, $b$, and $c$ are the lengths of sides of a triangle and $a^2+b^2 = c^2$, then $c$ the triangle is a right triangle.\footnote{We will prove this in Section \ref{TheLawofCosines} by generalizing the Pythagorean Theorem to a formula that works for \textit{all} triangles.}
 
-\smallskip
-
 A list of integers $(a,b,c)$  which satisfy the relationship $a^2+b^2 = c^2$ is called a  \index{Pythagorean triple}\textbf{Pythagorean Triple}.  Some of the more common triples are: $(3,4,5)$,  $(5,12,13)$, $(7,24,25)$, and $(8,15,17)$.   We leave it to the reader to verify these integers satisfy the equation $a^2+b^2 = c^2$ and suggest committing these triples to memory.
-
-\smallskip
 
 Next, we set about defining characteristic ratios associated with acute angles.  Given any acute angle $\theta$, we can imagine $\theta$ being an interior angle of a right triangle as seen below.   
 
@@ -153,10 +144,8 @@ Next, we set about defining characteristic ratios associated with acute angles. 
 
 Focusing on the arrangement of the sides of the triangle with respect to the angle $\theta$, we make the following definitions:  the side with length $a$  is called the side of the triangle which is \index{side ! adjacent}\index{adjacent side} \textbf{adjacent} to  $\theta$ and the side with length $b$ is called the side of the triangle \index{side ! opposite}\index{opposite side}\textbf{opposite} $\theta$. As usual, the side labeled `$c$' (the side opposite the right angle) is the hypotenuse.  Using this diagram, we  define three important \index{ratios ! trigonometric}\index{trigonometric ratios} \textbf{trigonometric ratios} of $\theta$.
 
-\smallskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+    
 \begin{defn} \label{righttrianglesinecosinetangent}    Suppose $\theta$ is an acute angle residing in a right triangle as depicted above.
 
 \begin{itemize}
@@ -173,7 +162,7 @@ Focusing on the arrangement of the sides of the triangle with respect to the ang
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
 \smallskip
 
@@ -236,14 +225,14 @@ For example, consider the angle $\theta$  indicated in the triangle below on the
 
 In general, thanks to the  \href{https://en.wikipedia.org/wiki/AA_postulate}{\underline{Angle Angle Similarity Postulate}},  any two \textit{right} triangles which contain our angle $\theta$ are similar which means there is a positive constant $r$ so that the sides of the triangle are $3r$, $4r$, and $5r$ as seen above on the right.  Hence, regardless of the right triangle in which we choose to imagine $\theta$,  $\sin(\theta) = \frac{4r}{5r} = \frac{4}{5}$, $\cos(\theta) = \frac{3r}{5r} = \frac{3}{5}$, and $\tan(\theta) = \frac{4r}{3r}  = \frac{4}{3}$.  Generalizing this same argument to any acute angle $\theta$ assures us that the ratios as described in Definition \ref{righttrianglesinecosinetangent} are independent of the triangle we use.
 
-\smallskip
+Our next objective is to determine the values of $\sin(\theta)$, $\cos(\theta)$, and $\tan(\theta)$ for some of the more commonly used angles.  We begin with $45^{\circ}$ as shown in \autoref{fig:trigratios45}.  In a right triangle, if one of the non-right angles measures $45^{\circ}$, then the other measures $45^{\circ}$ as well.  It follows that the two legs of the triangle must be congruent.  Since we may choose any right triangle containing a $45^{\circ}$ angle for our computations, we choose the length of one (hence both) of the legs to be $1$.  The Pythagorean Theorem gives the hypotenuse is:  $c^2 = 1^2+1^2 = 2$, so $c = \sqrt{2}$. (We take only the positive square root here since $c$ represents the length of the hypotenuse here, so, necessarily $c>0$.)  From this, we obtain the values below, and suggest committing them to memory. 
 
-Our next objective is to determine the values of $\sin(\theta)$, $\cos(\theta)$, and $\tan(\theta)$ for some of the more commonly used angles.  We begin with $45^{\circ}$.  In a right triangle, if one of the non-right angles measures $45^{\circ}$, then the other measures $45^{\circ}$ as well.  It follows that the two legs of the triangle must be congruent.  Since we may choose any right triangle containing a $45^{\circ}$ angle for our computations, we choose the length of one (hence both) of the legs to be $1$.  The Pythagorean Theorem gives the hypotenuse is:  $c^2 = 1^2+1^2 = 2$, so $c = \sqrt{2}$. (We take only the positive square root here since $c$ represents the length of the hypotenuse here, so, necessarily $c>0$.)  From this, we obtain the values below, and suggest committing them to memory. 
-
+\begin{figure}
+    
 \begin{multicols}{2}
 
+\begin{center}
 \begin{mfpic}[18]{-5}{5}{-5}{5}
-
 \arrow \reverse \arrow \shiftpath{(-2.5,0)} \parafcn{5, 35, 5}{1.5*dir(t)}
 \arrow \reverse \arrow \shiftpath{(2.5,5)}  \parafcn{230, 265, 5}{1.5*dir(t)}
 \tlabel(-0.8, 0.4){$45^{\circ}$}
@@ -254,8 +243,8 @@ Our next objective is to determine the values of $\sin(\theta)$, $\cos(\theta)$,
 \polyline{(2.1, 0), (2.1, 0.4), (2.5, 0.4)}
 \penwd{1.25pt}
 \polyline{(-2.5,0), (2.5,0), (2.5,5), (-2.5,0)}
-
 \end{mfpic} 
+\end{center}
 
 \begin{itemize}
 
@@ -268,17 +257,20 @@ Our next objective is to determine the values of $\sin(\theta)$, $\cos(\theta)$,
 
 \end{itemize}
 
-
 \end{multicols}
+
+\caption{Trigonometric ratios for $45^{\circ}$}
+\label{fig:trigratios45}
+\end{figure}
 
 Note that we have `rationalized' here to avoid the irrational number $\sqrt{2}$ appearing in the denominator.  This is a common convention in trigonometry, and we will adhere to it unless extremely inconvenient.  
 
-\smallskip
+Next, we investigate $60^{\circ}$ and $30^{\circ}$ angles.  Consider the equilateral triangle in \autoref{fig:trigratio60}  each of whose sides measures $2$ units.  Each of its interior angles is necessarily $60^{\circ}$, so if we drop an altitude, we produce two $30^{\circ} - 60^{\circ} - 90^{\circ}$ triangles each having a base measuring $1$ unit and a hypotenuse of $2$ units.  Using the Pythagorean Theorem, we can find the height, $h$ of these triangles: $1^2+h^2 = 2^2$ so $h^2 = 3$ or $h = \sqrt{3}$.  Using these, we can find the values of the trigonometric ratios for both $60^{\circ}$ and $30^{\circ}$.  Again, we recommend committing these values to memory.
 
-Next, we investigate $60^{\circ}$ and $30^{\circ}$ angles.  Consider the equilateral triangle below  each of whose sides measures $2$ units.  Each of its interior angles is necessarily $60^{\circ}$, so if we drop an altitude, we produce two $30^{\circ} - 60^{\circ} - 90^{\circ}$ triangles each having a base measuring $1$ unit and a hypotenuse of $2$ units.  Using the Pythagorean Theorem, we can find the height, $h$ of these triangles: $1^2+h^2 = 2^2$ so $h^2 = 3$ or $h = \sqrt{3}$.  Using these, we can find the values of the trigonometric ratios for both $60^{\circ}$ and $30^{\circ}$.  Again, we recommend committing these values to memory.
+\begin{figure}
 
-\begin{multicols}{3}
-\raggedcolumns
+\begin{multicols}{2}
+
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \arrow \reverse \arrow \shiftpath{(-5,-4.330)} \parafcn{5, 55, 5}{1.5*dir(t)}
 \arrow \reverse \arrow \shiftpath{(0,4.330)}  \parafcn{245, 265, 5}{2.5*dir(t)}
@@ -296,6 +288,8 @@ Next, we investigate $60^{\circ}$ and $30^{\circ}$ angles.  Consider the equilat
 \polyline{(0,4.330), (5,-4.330), (0,-4.330)}
 \end{mfpic}
 
+\columnbreak
+
 \begin{itemize}
 
 \item  $\sin\left(60^{\circ}\right) = \dfrac{\sqrt{3}}{2}$
@@ -303,13 +297,6 @@ Next, we investigate $60^{\circ}$ and $30^{\circ}$ angles.  Consider the equilat
 \item  $\cos\left(60^{\circ}\right) = \dfrac{1}{2}$
 
 \item  $\tan\left(60^{\circ}\right) = \dfrac{\sqrt{3}}{1} = \sqrt{3}$
-
-\end{itemize}
-
-\columnbreak
-
-
-\begin{itemize}
 
 \item  $\sin\left(30^{\circ}\right) = \dfrac{1}{2}$
 
@@ -319,8 +306,10 @@ Next, we investigate $60^{\circ}$ and $30^{\circ}$ angles.  Consider the equilat
 
 \end{itemize}
 
-
 \end{multicols}
+\caption{Trigonometric ratios for $60^{\circ}$ and $30^{\circ}$}
+\label{fig:trigratio60}
+\end{figure}
 
 Since $30^{\circ}$ and $60^{\circ}$ are complements, the side \textit{adjacent} to the $60^{\circ}$ angle is the side \textit{opposite} the $30^{\circ}$ and the side \textit{opposite}  the $60^{\circ}$ angle is the side \textit{adjacent} to the $30^{\circ}$ .  This sort of `swapping' is true of all complementary angles and will be generalized in Section \ref{MoreTrigonometricIdentities}, Theorem \ref{cofunctionidentities}.
 
@@ -373,7 +362,7 @@ The angle of inclination from the base line to the object is $\theta$
 
 \begin{multicols}{2}
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfpic}[10]{-5}{5}{-5}{5}
 \arrow \shiftpath{(0,-4.330)} \parafcn{5, 55, 5}{1.5*dir(t)}
 \tlabel(1.6,-3.75){$60^{\circ}$}
 \tlabel(2,-5.5){$30$ ft.}
@@ -384,7 +373,7 @@ The angle of inclination from the base line to the object is $\theta$
 
 \end{mfpic}
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfpic}[10]{-5}{5}{-5}{5}
 \arrow \shiftpath{(-5,-4.330)} \parafcn{5, 25, 5}{3*dir(t)}
 \tlabel(-1.5,-3.75){$5^{\circ}$}
 \tlabel(5.25,-1.83){$21$ in.}
@@ -447,7 +436,7 @@ Luckily, we have two right triangles to help us find each unknown, as shown belo
 \polyline{(-2.5,0), (2.5,0), (2.5,5), (-2.5,0)}
 \end{mfpic} 
 
-\begin{mfpic}[18]{-7}{5}{-5}{5}
+\begin{mfpic}[15]{-7}{5}{-5}{5}
 \tlabel(-4, 0.4){$30^{\circ}$}
 \arrow \shiftpath{(-6,0)} \parafcn{5, 25, 5}{1.75*dir(t)}
 \tlabel(-3,-1){$x+200$ ft.}
@@ -457,10 +446,7 @@ Luckily, we have two right triangles to help us find each unknown, as shown belo
 \polyline{(-6,0), (2.5,0), (2.5,5), (-6,0)}
 \end{mfpic} 
 
-
-
 \end{multicols}
-
 
 \end{center}
 
@@ -484,19 +470,13 @@ Hence, the tree is approximately $273$ feet tall.  \qed
 
 There are three more trigonometric ratios which are commonly used and they are defined in the same manner the ratios in Definition \ref{righttrianglesinecosinetangent} are defined.  They are listed below.
 
-\smallskip
-
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
+    
 \begin{defn} \label{righttriangletherest}
-
-\smallskip
 
 Suppose $\theta$ is an acute angle residing in a right triangle as depicted on page \pageref{righttranglediagram}.
 
 \begin{itemize}
-
 
 \item  The \index{cosecant ! right triangle} \textbf{cosecant} of $\theta$, denoted $\csc(\theta)$ is defined by the ratio: $\csc(\theta) = \dfrac{c}{b}$ , or $\dfrac{\text{`length of hypotenuse'}}{\text{`length of opposite'}}$.
 
@@ -506,14 +486,9 @@ Suppose $\theta$ is an acute angle residing in a right triangle as depicted on p
 
 \end{itemize}
 
-\smallskip
-
 \end{defn}
 
-\ebm}
-
-
-\smallskip
+\end{tcolorbox}
 
 We practice these definitions in the following example.
 
@@ -564,9 +539,9 @@ Please note there is \textbf{much} more to these inverse functions than the `ang
 
 \begin{tabular}{cc}
 
-\includegraphics[width=2.75in]{./AppRightTrigGraphics/AppRightTrig01.jpg} &
-\hspace{0.75in} \includegraphics[width=2in]{./AppRightTrigGraphics/AppRightTrig02.jpg}  \\ 
-Front View &  \hspace{0.75in} Side View \\
+\includegraphics[width=2in]{./AppRightTrigGraphics/AppRightTrig01.jpg} &
+\includegraphics[width=1.454in]{./AppRightTrigGraphics/AppRightTrig02.jpg}  \\ 
+Front View &  Side View \\
 
 \end{tabular} 
 
@@ -577,7 +552,7 @@ Front View &  \hspace{0.75in} Side View \\
 
 \begin{center}
 
-\begin{mfpic}[15]{0}{13.25}{-1}{6}
+\begin{mfpic}[13]{0}{13.25}{-1}{6}
 \polyline{(11.25,0), (11.25,0.75), (12,0.75)}
 \arrow \reverse \arrow \polyline{(0,-1),(12,-1)}
 \gclear \tlabelrect[cc](6,-1){$12$ feet}
@@ -597,7 +572,7 @@ The angle of inclination, $\theta$, satisfies $\tan(\theta) = \frac{6}{12} = \fr
 \end{ex}
 
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 
