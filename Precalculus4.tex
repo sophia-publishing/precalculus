@@ -10,7 +10,11 @@
 \usepackage[metapost,truebbox]{mfpic}
 \usepackage[pdflatex]{graphicx}
 \usepackage{makeidx}
+
 \usepackage[colorlinks, hyperindex, plainpages=false, linkcolor=blue, urlcolor=blue, pdfpagelabels]{hyperref}
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{#2}\footnote{\url{#1}}}
+
 \usepackage[all]{hypcap}
 \usepackage{bm}
 \usepackage{braket}
