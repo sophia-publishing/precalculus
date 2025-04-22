@@ -30,12 +30,13 @@
 \makeatletter
   \def\tcb@cnt@floatboxautorefname{Box}%
 \makeatother
-\newtcolorbox[auto counter, number within=section]{floatbox}[1]{%
+\newtcolorbox[auto counter, number within=section]{floatbox}[2][]{%
       float,
       detach title,
       before upper={\begin{center}\textbf{\tcbtitle}\end{center}\smallskip},
       coltitle=tcbcolupper,
-      title=Box~\thetcbcounter: {#1},
+      title=Box~\thetcbcounter: {#2},
+      #1,
 }
 
 \usepackage{tasks}

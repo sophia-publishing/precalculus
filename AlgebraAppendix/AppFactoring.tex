@@ -32,8 +32,7 @@ While Definition \ref{irreduciblepoly} seems straightforward enough, sometimes a
 
 Since polynomials involve terms, the first step in any factoring strategy involves pulling out factors which are common to all of the terms.  For example, in the polynomial $18x^2y^3 - 54x^3y^2 - 12xy^2$,  each coefficient is a multiple of $6$ so we can begin the factorization as $6(3x^2y^3 - 9x^3y^2 - 2xy^2)$.  The remaining coefficients: $3$, $9$ and $2$, have no common factors so $6$ was the greatest common factor.  What about the variables? Each term contains an $x$, so we can factor an $x$ from each term.  When we do this, we are effectively dividing each term by $x$ which means the exponent on  $x$ in each term is reduced by $1$:  $6x(3xy^3 - 9x^2y^2 - 2y^2)$.  Next, we see that each term has a factor of $y$ in it.  In fact, each term has at least \textit{two} factors of $y$ in it, since the lowest exponent on $y$ in each term is $2$. This means that we can factor $y^2$ from each term. Again, factoring out $y^2$ from each term is tantamount to dividing each term by $y^2$ so the exponent on $y$ in each term is reduced by \textit{two}:  $6xy^2(3xy - 9x^2 - 2)$.  Just like we checked our division by multiplication in the previous section, we can check our factoring here by multiplication, too.  $6xy^2(3xy - 9x^2 - 2) = (6xy^2)(3xy) - (6xy^2)(9x^2) - (6xy^2)(2) = 18x^2y^3 - 54x^3y^2  - 12xy^2 \, \checkmark$.  We summarize how to find the Greatest Common Factor (G.C.F.) of a polynomial expression below.
 
-\begin{floatbox}{Finding the G.C.F. of a Polynomial Expression}
-\label{PolynomialGCF}
+\begin{floatbox}[label=box:PolynomialGCF]{Finding the G.C.F. of a Polynomial Expression}
 
 \begin{itemize}[leftmargin=*]
 
@@ -53,8 +52,7 @@ For example, to factor $-\frac{3}{5}z^3 - 6z^2$, we would first get a common den
 
 We now list some common factoring formulas, each of which can be verified by multiplying out the right side of the equation.  While they all should look familiar - this is a review section after all - some should look more familiar than others since they appeared as `special product' formulas in the previous section.  
 
-\begin{floatbox}{Common Factoring Formulas}
-\label{CommonFactoringFormulas}
+\begin{floatbox}[label=box:CommonFactoringFormulas]{Common Factoring Formulas}
 
 \begin{itemize}[leftmargin=*]
 
@@ -183,15 +181,14 @@ x^6 - 64 & = (x^2 - 2^2)(x^4 + 4x^2 + 16)  \\
 & = (x-2)(x+2)(x^4 + 4x^2 + 16) \tag{Difference of Squares, $a = x$, $b = 2$} \\ 
 \end{align*}
 
-Unfortunately, the remaining factor $x^4 + 4x^2 + 16$ is not a perfect square trinomial - the middle term would have to be $8x^2$ for this to work - so our final answer using this approach is $(x-2)(x+2)(x^4 + 4x^2 + 16)$.   This isn't as factored as our result from the Difference of Squares approach which was $(x-2)(x+2)(x^2-2x+4)(x^2+2x+4)$.  While it is true that $x^4 + 4x^2 + 16 = (x^2-2x+4)(x^2+2x+4)$, there is no `intuitive' way to motivate this factorization at this point.\footnote{Of course, this begs the question, ``How do we know $x^2-2x+4$ and $x^2+2x+4$ are irreducible?'' (We were told so on page \pageref{CommonFactoringFormulas}, but no reason was given.)  Stay tuned!  We'll get back to this in due course.}  The moral of the story?  When given the option between using the Difference of Squares and Difference of Cubes, start with the Difference of Squares.  Our final answer to this problem is  $(x-2)(x+2)(x^2-2x+4)(x^2+2x+4)$.  The reader is strongly encouraged to show that this reduces down to $x^6 - 64$ after performing all of the  multiplication.\qed
+Unfortunately, the remaining factor $x^4 + 4x^2 + 16$ is not a perfect square trinomial - the middle term would have to be $8x^2$ for this to work - so our final answer using this approach is $(x-2)(x+2)(x^4 + 4x^2 + 16)$.   This isn't as factored as our result from the Difference of Squares approach which was $(x-2)(x+2)(x^2-2x+4)(x^2+2x+4)$.  While it is true that $x^4 + 4x^2 + 16 = (x^2-2x+4)(x^2+2x+4)$, there is no `intuitive' way to motivate this factorization at this point.\footnote{Of course, this begs the question, ``How do we know $x^2-2x+4$ and $x^2+2x+4$ are irreducible?'' (We were told so on page \pageref{box:CommonFactoringFormulas}, but no reason was given.)  Stay tuned!  We'll get back to this in due course.}  The moral of the story?  When given the option between using the Difference of Squares and Difference of Cubes, start with the Difference of Squares.  Our final answer to this problem is  $(x-2)(x+2)(x^2-2x+4)(x^2+2x+4)$.  The reader is strongly encouraged to show that this reduces down to $x^6 - 64$ after performing all of the  multiplication.\qed
 
 \end{enumerate}
 \end{ex}
 
-The formulas on page \pageref{CommonFactoringFormulas}, while useful, can only take us so far.  Thus we need to review some additional factoring strategies which should be good friends from back in the day!
+The formulas on page \pageref{box:CommonFactoringFormulas}, while useful, can only take us so far.  Thus we need to review some additional factoring strategies which should be good friends from back in the day!
 
-\begin{floatbox}{Additional Factoring Formulas}
-\label{AdvancedReviewFactoring}
+\begin{floatbox}[label=box:AdvancedReviewFactoring]{Additional Factoring Formulas}
 
 \begin{itemize}[leftmargin=*]
 
@@ -291,8 +288,7 @@ What we \textbf{cannot} deduce from this equation is that $x = 10$ or $6x+11 = 1
 
 We summarize the {\bf correct} equation solving strategy below.
 
-\begin{floatbox}{Strategy for Solving Non-linear Equations}
-\label{solvenonlineareqns}
+\begin{floatbox}[label=box:solvenonlineareqns]{Strategy for Solving Non-linear Equations}
 
 \begin{enumerate}[leftmargin=*]
 

@@ -9,8 +9,7 @@
 
 In this section we list the properties of real number arithmetic.  This is meant to be a succinct, targeted review so we'll resist the temptation to wax poetic about these axioms and their subtleties and refer the interested reader to a more formal course in Abstract Algebra.  There are two primary operations one can perform with real numbers:  addition and multiplication.  We'll start with the properties of addition shown in \autoref{realnumberaddition}.
 
-\begin{floatbox}{Properties of Real Number Addition}
-\label{realnumberaddition}
+\begin{floatbox}[label=box:realnumberaddition]{Properties of Real Number Addition}
 
 \begin{itemize}[leftmargin=*]
 
@@ -25,10 +24,9 @@ In this section we list the properties of real number arithmetic.  This is meant
 
 \end{floatbox}
 
-Next, we give real number multiplication a similar treatment as shown in \autoref{realnumbermultiplication}.  Recall that we may denote the product of two real numbers $a$ and $b$ a variety of ways:  $ab$, $a \cdot b$, $a(b)$, $(a)(b)$ and so on.  We'll refrain from using $a \times b$ for real number multiplication in this text with one notable exception in Definition \ref{scientificnotation}.
+Next, we give real number multiplication a similar treatment as shown in \autoref{box:realnumbermultiplication}.  Recall that we may denote the product of two real numbers $a$ and $b$ a variety of ways:  $ab$, $a \cdot b$, $a(b)$, $(a)(b)$ and so on.  We'll refrain from using $a \times b$ for real number multiplication in this text with one notable exception in Definition \ref{scientificnotation}.
 
-\begin{floatbox}{Properties of Real Number Multiplication}
-\label{realnumbermultiplication}
+\begin{floatbox}[label=box:realnumbermultiplication]{Properties of Real Number Multiplication}
 
 \begin{itemize}
 
@@ -43,10 +41,9 @@ Next, we give real number multiplication a similar treatment as shown in \autore
 
 \end{floatbox}
 
-While most students and some faculty tend to skip over these properties or give them a cursory glance at best,\footnote{Not unlike how Carl approached all the Elven poetry in \underline{The Lord of the Rings}.} it is important to realize that the properties stated above are what drive the symbolic manipulation in all of Algebra.  When listing a tally of more than two numbers, $1 + 2 + 3$\label{howtoaddonetwothree} for example, we don't need to specify the order in which those numbers are added. Notice though, try as we might, we can add only two numbers at a time and it is the associative property of addition which assures us that we could organize this sum as $(1+2) + 3$ or $1+(2+3)$.  This brings up a note about `grouping symbols'.  Recall that parentheses and brackets are used in order to specify which operations are to be performed first.  In the absence of such grouping symbols, multiplication (and hence division) is given priority over addition (and hence subtraction). For example, $1 + 2 \cdot 3 = 1+6 = 7$, but $(1+2) \cdot 3 = 3 \cdot 3 = 9$.  As you may recall, we can `distribute' the $3$ across the addition if we really wanted to do the multiplication first:  $(1+2) \cdot 3 = 1\cdot 3 + 2 \cdot 3 = 3 + 6 = 9$. More generally, we have the properties shown in \autoref{distributiveproperty}.
+While most students and some faculty tend to skip over these properties or give them a cursory glance at best,\footnote{Not unlike how Carl approached all the Elven poetry in \underline{The Lord of the Rings}.} it is important to realize that the properties stated above are what drive the symbolic manipulation in all of Algebra.  When listing a tally of more than two numbers, $1 + 2 + 3$\label{howtoaddonetwothree} for example, we don't need to specify the order in which those numbers are added. Notice though, try as we might, we can add only two numbers at a time and it is the associative property of addition which assures us that we could organize this sum as $(1+2) + 3$ or $1+(2+3)$.  This brings up a note about `grouping symbols'.  Recall that parentheses and brackets are used in order to specify which operations are to be performed first.  In the absence of such grouping symbols, multiplication (and hence division) is given priority over addition (and hence subtraction). For example, $1 + 2 \cdot 3 = 1+6 = 7$, but $(1+2) \cdot 3 = 3 \cdot 3 = 9$.  As you may recall, we can `distribute' the $3$ across the addition if we really wanted to do the multiplication first:  $(1+2) \cdot 3 = 1\cdot 3 + 2 \cdot 3 = 3 + 6 = 9$. More generally, we have the properties shown in \autoref{box:distributiveproperty}.
 
-\begin{floatbox}{The Distributive Property and Factoring}
-\label{distributiveproperty}
+\begin{floatbox}[label=box:distributiveproperty]{The Distributive Property and Factoring}
 
 For all real numbers $a$, $b$ and $c$:
 
@@ -66,8 +63,7 @@ It is hard to overstate the importance of the Distributive Property.  For exampl
 We continue our review with summaries of other properties of arithmetic, each of which can be derived from the properties listed above.  First up are properties of the additive identity $0$.
 
 
-\begin{floatbox}{Properties of Zero}
-\label{propertiesofzero}
+\begin{floatbox}[label=box:propertiesofzero]{Properties of Zero}
 
 Suppose $a$ and $b$ are real numbers.
 
@@ -89,8 +85,7 @@ The Zero Product Property drives most of the equation solving algorithms in Alge
 
 Next up is a review of the arithmetic of `negatives'. On page \pageref{realnumberaddition} we first introduced the dash which we all recognize as the `negative' symbol in terms of the additive inverse.  For example, the number $-3$ (read `negative $3$') is defined so that $3 + (-3) = 0$.  We then defined subtraction using the concept of the additive inverse again so that, for example, $5 - 3 = 5 + (-3)$.  In this text we do not distinguish typographically between the dashes in the expressions `$5-3$' and `$-3$' even though they are mathematically quite different.\footnote{We're not just being lazy here.  We looked at many of the big publishers' Precalculus books and none of them use different dashes, either.} In the expression `$5-3$,' the dash is a \textit{binary} operation (that is, an operation requiring \textit{two} numbers) whereas in `$-3$', the dash is a \textit{unary} operation (that is, an operation requiring only one number).  You might ask, `Who cares?'  Your calculator does - that's who!  In the text we can write $-3 - 3 = -6$ but that will not work in your calculator.  Instead you'd need to type $^{-}3 - 3$ to get $-6$ where the first dash comes from the `$+/-$' key and the second dash comes from the subtraction key.
 
-\begin{floatbox}{Properties of Negatives}
-\label{propertiesofnegatives}
+\begin{floatbox}[label=box:propertiesofnegatives]{Properties of Negatives}
 
 Given real numbers $a$ and $b$ we have the following.  
 
@@ -113,9 +108,7 @@ The same sort of thing goes for fractions:  $- \frac{3}{5}$ can be written as $\
 
 Speaking of fractions, we now review their arithmetic.
 
-\begin{floatbox}{Properties of Fractions}
-	
-\label{fractionarithmetic}
+\begin{floatbox}[label=box:fractionarithmetic]{Properties of Fractions}
 
 Suppose $a$, $b$, $c$ and $d$ are real numbers.  Assume them to be nonzero whenever necessary; for example,  when they appear in a denominator.
 
@@ -143,7 +136,7 @@ In particular: $1 \div \dfrac{a}{b} = \dfrac{b}{a}$ and  $\dfrac{a}{b} \div c = 
 
 \end{floatbox}
 
-\begin{floatbox}{Properties of Fractions (contd.)}
+\begin{floatbox}[label=box:propoffracctd]{Properties of Fractions (contd.)}
 
 \begin{itemize}
 
@@ -307,8 +300,7 @@ Of the issues discussed in the previous set of examples none causes students mor
 
 Next, we review exponents and their properties.  Recall that $2 \cdot 2 \cdot 2$  can be written as $2^3$ because exponential notation expresses repeated multiplication.  In the expression $2^3$, $2$ is called the \textbf{base}\index{base} and $3$ is called the \textbf{exponent}\index{exponent}. In order to generalize exponents from natural numbers to the integers, and eventually to rational and real numbers, it is helpful to think of the exponent as a count of the number of factors of the base we are multiplying by $1$.  For instance, \[2^3 = 1 \cdot (\text{three factors of two}) = 1 \cdot (2 \cdot 2 \cdot 2) = 8.\] From this, it makes sense that \[2^{0} = 1 \cdot (\text{zero factors of two}) = 1.\]  What about $2^{-3}$?  The `$-$' in the exponent indicates that we are `taking away' three factors of two, essentially dividing by three factors of two.  So, \[2^{-3} = 1 \div (\text{three factors of two}) = 1 \div (2 \cdot 2 \cdot 2) = \frac{1}{2 \cdot 2 \cdot 2} = \frac{1}{8}.\]  We summarize the properties of integer exponents in \autoref{propertiesofintegerexponents}.
 
-\begin{floatbox}{Properties of Integer Exponents}
-\label{propertiesofintegerexponents}
+\begin{floatbox}[label=box:propertiesofintegerexponents]{Properties of Integer Exponents}
 
 Suppose $a$ and $b$ are nonzero real numbers and $n$ and $m$ are integers.
 
@@ -326,7 +318,7 @@ Suppose $a$ and $b$ are nonzero real numbers and $n$ and $m$ are integers.
 
 \item  \textbf{Zero Powers:}  $a^{0} = 1$.
 
-\textbf{Note:}  The expression $0^{0}$ is an indeterminate form.\footnote{See the comment regarding `$\frac{0}{0}$' on page \pageref{propertiesofzero}.}
+\textbf{Note:}  The expression $0^{0}$ is an indeterminate form.\footnote{See the comment regarding `$\frac{0}{0}$' on page \pageref{box:propertiesofzero}.}
 
 \item  \textbf{Powers of Zero:}  For any \textit{natural} number $n$, $0^{n} = 0$.
 
@@ -340,8 +332,7 @@ While it is important the state the Properties of Exponents, it is also equally 
 
 With exponents now in the mix, we can now state the Order of Operations Agreement as shown in \autoref{orderofoperations}.
 
-\begin{floatbox}{Order of Operations Agreement}
-\label{orderofoperations}
+\begin{floatbox}[label=box:orderofoperations]{Order of Operations Agreement}
 
 When evaluating an expression involving real numbers:
 
