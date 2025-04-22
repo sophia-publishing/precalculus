@@ -15,6 +15,10 @@
 \let\oldhref\href
 \renewcommand{\href}[2]{\oldhref{#1}{#2}\footnote{\url{#1}}}
 
+\usepackage[labelfont=bf]{caption}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+
 \usepackage[all]{hypcap}
 \usepackage{bm}
 \usepackage{braket}
@@ -37,14 +41,25 @@
 \usepackage{tasks}
 \settasks{label=\arabic*., label-offset=0.6666em}
 
-\definecolor{ResultColor}{gray}{0.9}
 \theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
-\newtheorem{defn}{\bf Definition}[chapter]
-\newtheorem{thm}{\bf Theorem}[chapter]
+\newtheorem{defn}{\bf Definition}[section]
+\newtheorem{thm}{\bf Theorem}[section]
 \newtheorem{cor}[thm]{\bf Corollary}
-\newtheorem{eqn}{\bf Equation}[chapter]
+\newtheorem{eqn}{\bf Equation}[section]
+
+\newtheoremstyle{example-style}% 〈name〉
+  {\medskipamount}%                      〈Space above〉
+  {}%                       〈Space below〉
+  {}%                  〈Body font〉
+  {}%                          〈Indent amount〉
+  {\bfseries}%                 〈Theorem head font〉
+  {.}%                         〈Punctuation after theorem head〉
+  { }%                         〈Space after theorem head〉
+  {}%   
+\theoremstyle{example-style}
 \newtheorem{ex}{\bf Example}[section]
-\newtheorem{fig}{\bf Figure}[chapter]
+\newtheorem{fig}{\bf Figure}[section]
+
 \setlength{\parindent}{0in}
 \newcommand{\bbm}{\begin{boxedminipage}{\linewidth}}
 \newcommand{\ebm}{\end{boxedminipage}}
