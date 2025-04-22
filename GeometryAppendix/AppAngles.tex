@@ -22,7 +22,9 @@ This section serves as a review of the concept of `angle' and the use of the deg
 
 When two rays share a common initial point they form an \index{angle ! definition} \textbf{angle} and the common initial point is called the \index{angle ! vertex}\index{vertex ! of an angle}\textbf{vertex} of the angle.  Two  examples of what are commonly thought of as angles are
 
-\[ \begin{array}{cc}
+\begin{multicols}{2}
+
+\begin{center}    
 
 \begin{mfpic}[15]{-5}{5}{-3}{3}
 \penwd{1.25pt}
@@ -32,9 +34,11 @@ When two rays share a common initial point they form an \index{angle ! definitio
 \tcaption{An angle with vertex $P$.}
 \end{mfpic}  
 
-&
+\end{center}
 
-\hspace{1.75in}
+\columnbreak
+
+\begin{center}    
 
 \begin{mfpic}[15]{-5}{7}{-3}{3}
 \penwd{1.25pt}
@@ -42,12 +46,17 @@ When two rays share a common initial point they form an \index{angle ! definitio
 \point[4pt]{(0,0)}
 \tlabel[cc](-0.25,-0.5){\scriptsize $Q$}
 \tcaption{An angle with vertex $Q$.}
-\end{mfpic}   \\ \end{array} \]
+\end{mfpic} 
+
+\end{center}
+
+\end{multicols}
 
 However, the two figures below also depict angles - albeit these are, in some sense, extreme cases.  In the first case, the two rays are directly opposite each other forming what is known as a \index{angle ! straight}\index{straight angle}\textbf{straight angle}; in the second, the rays are identical so the `angle' is indistinguishable from the ray itself.
 
-\[ \begin{array}{cc}
-
+\begin{multicols}{2}
+    
+\begin{center}
 \begin{mfpic}[15]{-5}{5}{-3}{3}
 \penwd{1.25pt}
 \arrow \reverse \arrow \polyline{(-5,0), (5,0)}
@@ -55,22 +64,26 @@ However, the two figures below also depict angles - albeit these are, in some se
 \tlabel[cc](-0.1,-0.5){\scriptsize $P$}
 \tcaption{A straight angle.}
 \end{mfpic}  
+\end{center}
 
-&
+\columnbreak
 
-\hspace{1.75in}
-
+\begin{center}
 \begin{mfpic}[15]{-5}{7}{-3}{3}
 \penwd{1.25pt}
 \arrow  \polyline{(0,0), (7,-2)}
 \point[4pt]{(0,0)}
 \tlabel[cc](-0.25,-0.5){\scriptsize $Q$}
-\end{mfpic}   \\ \end{array} \]
+\end{mfpic}
+\end{center}
+
+\end{multicols}
 
 The \index{angle ! measurement}\index{measure of an angle}\textbf{measure of an angle} is a number which indicates the amount of rotation that separates the rays of the angle.  There is one immediate problem with this, as pictured below. 
 
-\[ \begin{array}{cc}
-
+\begin{multicols}{2}
+    
+\begin{center}
 \begin{mfpic}[15]{-5}{5}{-3}{3}
 \arrow \reverse \arrow \arc[c]{(0,0), (2.5,-0.9), 40}
 \penwd{1.25pt}
@@ -78,17 +91,20 @@ The \index{angle ! measurement}\index{measure of an angle}\textbf{measure of an 
 \point[4pt]{(0,0)}
 \drawcolor{white} \arc[c]{(0,0), (2.4,-1.1), -310}
 \end{mfpic}  
+\end{center}
 
-& 
+\columnbreak 
 
-\hspace{2in}
-
+\begin{center}
 \begin{mfpic}[15]{-5}{5}{-3}{3}
 \arrow \reverse \arrow \arc[c]{(0,0), (2.4,-1.1), -310}
 \penwd{1.25pt}
 \arrow \reverse \arrow \polyline{(5,2), (0,0), (5,-2)}
 \point[4pt]{(0,0)}
-\end{mfpic} \\ \end{array} \]
+\end{mfpic}
+\end{center}
+
+\end{multicols}
 
 Which amount of rotation are we attempting to quantify?  What we have just discovered is that we have at least two angles described by this diagram.\footnote{The phrase `at least' will be justified in short order.}  Clearly these two angles have different measures because one appears to represent a larger rotation than the other, so we must label them differently.  In this book, we use lower case Greek letters such as $\alpha$ (alpha),   $\beta$ (beta),  $\gamma$ (gamma) and $\theta$ (theta) to label angles.  So, for instance, we have
 
@@ -106,20 +122,18 @@ Which amount of rotation are we attempting to quantify?  What we have just disco
 One system to measure angles is \index{angle ! degree}\index{degree measure}\textbf{degree measure}.  Quantities measured in degrees are denoted by the symbol `$^{\circ}$.'  One complete revolution as shown below is $360^{\circ}$, and parts of a revolution are measured proportionately.\footnote{The choice of `$360$' is most often attributed to the \href{http://en.wikipedia.org/wiki/Degree_(angle)}{\underline{Babylonians}}.}  Thus half of a revolution (a straight angle) measures $\frac{1}{2} \left(360^{\circ}\right) = 180^{\circ}$, a quarter of a revolution (a \index{right angle}\index{angle ! right}\textbf{right angle}) measures $\frac{1}{4} \left(360^{\circ}\right) = 90^{\circ}$ and so on.
 
 \[ \begin{array}{ccc}
-
-\begin{mfpic}[15]{-5}{5}{-3}{3}
+    
+\begin{mfpic}[10]{-5}{5}{-3}{3}
 \arrow \reverse \arrow \arc[c]{(0,0), (2.5,0.1), 355}
 \penwd{1.25pt}
 \arrow  \polyline{(0,0), (5,0)}
 \point[4pt]{(0,0)}
-\tcaption{One revolution $\leftrightarrow 360^{\circ}$}
+\tcaption{{\small One revolution $\leftrightarrow 360^{\circ}$}}
 \end{mfpic} 
 
 &
 
-\hspace{.5in}
-
-\begin{mfpic}[15]{-5}{5}{-3}{3}
+\begin{mfpic}[10]{-5}{5}{-3}{3}
 \arrow \reverse \arrow \arc[c]{(0,0), (2.5,0.1), 175}
 \penwd{1.25pt}
 \arrow \reverse \arrow  \polyline{(-5,0), (5,0)}
@@ -130,9 +144,7 @@ One system to measure angles is \index{angle ! degree}\index{degree measure}\tex
 
 &
 
-\hspace{.5in}
-
-\begin{mfpic}[15]{-5}{5}{-3}{5}
+\begin{mfpic}[10]{-5}{5}{-3}{5}
 \arrow \reverse \arrow \arc[c]{(0,0), (2.5,0.1), 85}
 \polyline{(0,0.5), (0.5,0.5), (0.5,0)}
 \penwd{1.25pt}
@@ -142,13 +154,13 @@ One system to measure angles is \index{angle ! degree}\index{degree measure}\tex
 \tcaption{$90^{\circ}$}
 \end{mfpic} 
 
-\\  \end{array} \]
+\end{array}\]
 
 Note that in the above figure,  we have used the small square `$\! \! \! \! \! \! \qed$' to denote a right angle, as is commonplace in Geometry.  Recall that if an angle measures strictly between $0^{\circ}$ and $90^{\circ}$ it is called an \index{acute angle}\index{angle ! acute}\textbf{acute angle} and if it measures strictly between $90^{\circ}$ and $180^{\circ}$ it is called an \index{obtuse angle}\index{angle ! obtuse}\textbf{obtuse angle}. It is important to note that, theoretically, we can know the measure of any angle as long as we know the proportion it represents of entire revolution.\footnote{This is how a protractor is graded.}  For instance, the measure of an angle which represents a rotation of $\frac{2}{3}$ of a revolution would measure $\frac{2}{3} \left(360^{\circ}\right) = 240^{\circ}$,  the measure of an angle which constitutes only $\frac{1}{12}$ of a revolution measures $\frac{1}{12} \left(360^{\circ}\right) = 30^{\circ}$ and an angle which indicates no rotation at all is measured as $0^{\circ}$.
 
 \[ \begin{array}{ccc}
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfpic}[10]{-5}{5}{-5}{5}
 \arrow \reverse \arrow \arc[c]{(0,0), (2.5,0.1), 235}
 \penwd{1.25pt}
 \arrow \reverse \arrow \polyline{(-2.5,-4.33), (0,0), (5,0)}
@@ -158,9 +170,7 @@ Note that in the above figure,  we have used the small square `$\! \! \! \! \! \
 
 &
 
-\hspace{.5in}
-
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfpic}[10]{-5}{5}{-5}{5}
 \drawcolor{white}
 \arc[c]{(0,0), (2.5,0.1), 235}
 \drawcolor{black}
@@ -176,9 +186,7 @@ Note that in the above figure,  we have used the small square `$\! \! \! \! \! \
 
 &
 
-\hspace{.5in}
-
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfpic}[10]{-5}{5}{-5}{5}
 \drawcolor{white}
 \arc[c]{(0,0), (2.5,0.1), 235}
 \penwd{1.25pt}
@@ -230,7 +238,7 @@ Recall that two acute angles are called \index{complementary angles}\index{angle
 
 &
 
-\hspace{1in}
+\hspace{0.5in}
 
 \begin{mfpic}[15]{-5}{6}{-5}{5}
 \arrow \reverse \arrow \arc[c]{(0,0), (2.5,0.1), 25}
@@ -306,7 +314,7 @@ Rounding to seconds, we obtain $\alpha \approx 111^{\circ}22'16''$.
 
 &
 
-\hspace{1in}
+\hspace{0.5in}
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \dotted \polyline{ (0,5), (0,0), (5,0)}
@@ -343,7 +351,7 @@ Up to this point, we have discussed only angles which measure between $0^{\circ}
 
 &
 
-\hspace{1.5in}
+\hspace{.5in}
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \arrow \arc[c]{(0,0), (2.5,-0.1), -40}
@@ -354,7 +362,7 @@ Up to this point, we have discussed only angles which measure between $0^{\circ}
 \tlabel[cc](1.5,-2){\tiny \rotatebox{-45}{Terminal Side}}
 \end{mfpic} \\ 
 
-\text{A positive angle, $45^{\circ}$} & \hspace{1.5in} \text{A negative angle, $-45^{\circ}$}
+\text{A positive angle, $45^{\circ}$} & \hspace{.5in} \text{A negative angle, $-45^{\circ}$}
 
 \end{array} \]
 
@@ -405,21 +413,17 @@ Two coterminal angles, $\alpha = 120^{\circ}$ and $\beta = -240^{\circ}$, in sta
 
 \begin{ex}  \label{orientedcoterminaldegree} Graph each of the (oriented) angles below in standard position and classify them according to where their terminal side lies. Find three coterminal angles, at least one of which is positive and one of which is negative.
 
-\begin{multicols}{4}
+\begin{tasks}(4)
 
-\begin{enumerate}
+\task  $\alpha = 60^{\circ}$
 
-\item  $\alpha = 60^{\circ}$
+\task  $\beta = -225^{\circ}$
 
-\item  $\beta = -225^{\circ}$
+\task  $\gamma = 540^{\circ}$
 
-\item  $\gamma = 540^{\circ}$
+\task  $\phi = -750^{\circ}$
 
-\item  $\phi = -750^{\circ}$
-
-\end{enumerate}
-
-\end{multicols}
+\end{tasks}
 
 {\bf Solution.}  
 
@@ -431,8 +435,6 @@ Two coterminal angles, $\alpha = 120^{\circ}$ and $\beta = -240^{\circ}$, in sta
 
 \begin{center}
 
-\begin{tabular}{cc}
-
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \drawcolor[gray]{0.7}
 \axes
@@ -441,7 +443,6 @@ Two coterminal angles, $\alpha = 120^{\circ}$ and $\beta = -240^{\circ}$, in sta
 \tlabel(5,-0.5){\scriptsize $x$}
 \tlabel(0.25,4.75){\scriptsize $y$}
 \tlabel(2.5,1){\scriptsize $\alpha = 60^{\circ}$}
-%\drawcolor[rgb]{0.33,0.33,0.33}
 \drawcolor{black}
 \arrow \arc[c]{(0,0), (2.5,0.1), 55}
 \penwd{1.25pt}
@@ -455,9 +456,9 @@ Two coterminal angles, $\alpha = 120^{\circ}$ and $\beta = -240^{\circ}$, in sta
 \normalsize
 \end{mfpic}
 
-&
+$\alpha = 60^{\circ}$ in standard position. 
 
-\hspace{.5in}
+\bigskip
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \drawcolor[gray]{0.7}
@@ -480,11 +481,7 @@ Two coterminal angles, $\alpha = 120^{\circ}$ and $\beta = -240^{\circ}$, in sta
 \normalsize
 \end{mfpic} 
 
-\\
-
-$\alpha = 60^{\circ}$ in standard position. & \hspace{1in} $\beta = -225^{\circ}$ in standard position.\\
-
-\end{tabular}
+$\beta = -225^{\circ}$ in standard position.
 
 \end{center}
 
@@ -494,8 +491,6 @@ $\alpha = 60^{\circ}$ in standard position. & \hspace{1in} $\beta = -225^{\circ}
 
 \begin{center}
 
-\begin{tabular}{cc}
-
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \drawcolor[gray]{0.7}
 \axes
@@ -504,7 +499,6 @@ $\alpha = 60^{\circ}$ in standard position. & \hspace{1in} $\beta = -225^{\circ}
 \tlabel(5,-0.5){\scriptsize $x$}
 \tlabel(0.25,4.75){\scriptsize $y$}
 \tlabel(-4.5,2.5){\scriptsize $\gamma = 540^{\circ}$}
-%\drawcolor[rgb]{0.33,0.33,0.33}
 \drawcolor{black}
 \arrow \parafcn{0,535,5}{(t+200)*dir(t)/200} 
 \penwd{1.25pt}
@@ -518,9 +512,9 @@ $\alpha = 60^{\circ}$ in standard position. & \hspace{1in} $\beta = -225^{\circ}
 \normalsize
 \end{mfpic}
 
-&
+$\gamma = 540^{\circ}$ in standard position.
 
-\hspace{.5in}
+\bigskip
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \drawcolor[gray]{0.7}
@@ -530,7 +524,6 @@ $\alpha = 60^{\circ}$ in standard position. & \hspace{1in} $\beta = -225^{\circ}
 \tlabel(5,-0.5){\scriptsize $x$}
 \tlabel(0.25,4.75){\scriptsize $y$}
 \tlabel(0.5,-2.5){\scriptsize $\phi = -750^{\circ}$}
-%\drawcolor[rgb]{0.33,0.33,0.33}
 \drawcolor{black}
 \arrow \parafcn{0,745,5}{(t+100)*dir(0-t)/400}
 \penwd{1.25pt}
@@ -544,11 +537,7 @@ $\alpha = 60^{\circ}$ in standard position. & \hspace{1in} $\beta = -225^{\circ}
 \normalsize
 \end{mfpic} 
 
-\\
-
-$\gamma = 540^{\circ}$ in standard position. & \hspace{1in} $\phi = -750^{\circ}$ in standard position.   \\
-
-\end{tabular}
+$\phi = -750^{\circ}$ in standard position.
 
 \end{center}
 
