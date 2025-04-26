@@ -1,5 +1,9 @@
-F=Precalculus4.tex
+F="Precalculus4-print.tex Precalculus4-ebook.tex"
+
+for f in $F ; do
 
 pdflatex $F
-for f in $(basename -s .mp $(find . -name '*.mp')) ; do mpost $f ; done
+for diagram in $(basename -s .mp $(find . -name '*.mp')) ; do mpost $diagram ; done
 pdflatex $F
+
+done

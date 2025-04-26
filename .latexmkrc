@@ -1,0 +1,1 @@
+@default_files = ('Precalculus4-print.tex', 'Precalculus4-ebook.tex');
