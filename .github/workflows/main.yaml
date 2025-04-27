@@ -30,8 +30,6 @@ jobs:
         run: apt-get update && apt-get install -y poppler-utils
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Make the script files executable
-        run: chmod +x build.sh
       - name: Run make
         run: make
       - name: Archive .pdf
