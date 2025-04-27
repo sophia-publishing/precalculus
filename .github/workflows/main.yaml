@@ -36,10 +36,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pdf-output
-          path: "*.pdf"
+          path: |
+            ebook.pdf
+            print.pdf
+            book-cover-for-web.jpg
           retention-days: 21
       - name: move pdf
-        run: mkdir -p build && mv *.pdf build/.
+        run: mkdir -p build && mv ebook.pdf print.pdf book-cover-for-web.jpg build/
       - uses: crazy-max/ghaction-github-pages@v4
         # only publish pdf from main branch
         if: github.ref == 'refs/heads/main'
