@@ -1,17 +1,17 @@
 .PHONY: all clean
 
-all: ebook.pdf print.pdf book-cover-for-web.jpg
+all: appendix-ebook.pdf appendix-print.pdf appendix-book-cover-for-web.jpg
 
-ebook.pdf: ebook.tex
+appendix-ebook.pdf: appendix-ebook.tex
 	pdflatex $<
 	for diagram in $$(basename -s .mp $$(find . -name '*.mp')) ; do mpost $$diagram ; done
 	pdflatex $<
 
 
-print.pdf: print.tex
+appendix-print.pdf: appendix-print.tex
 	pdflatex $<
 	for diagram in $$(basename -s .mp $$(find . -name '*.mp')) ; do mpost $$diagram ; done
 	pdflatex $<
 
-book-cover-for-web.jpg: ebook.pdf
-	pdftoppm $< book-cover-for-web -jpeg -f 1 -l 1 -singlefile
+appendix-book-cover-for-web.jpg: appendix-ebook.pdf
+	pdftoppm $< appendix-book-cover-for-web -jpeg -f 1 -l 1 -singlefile
