@@ -37,12 +37,12 @@ jobs:
         with:
           name: pdf-output
           path: |
-            appendix-ebook.pdf
-            appendix-print.pdf
-            appendix-book-cover-for-web.jpg
+            ebook.pdf
+            print.pdf
+            book-cover-for-web.jpg
           retention-days: 21
       - name: move pdf
-        run: mkdir -p build && mv appendix-ebook.pdf appendix-print.pdf appendix-book-cover-for-web.jpg build/
+        run: mkdir -p build && mv ebook.pdf print.pdf book-cover-for-web.jpg build/
       - uses: crazy-max/ghaction-github-pages@v4
         # only publish pdf from main branch
         if: github.ref == 'refs/heads/main'
