@@ -1,1 +1,1 @@
-@default_files = ('Precalculus4-print.tex', 'Precalculus4-ebook.tex');
+@default_files = ('appendix/print.tex', 'appendix/ebook.tex');

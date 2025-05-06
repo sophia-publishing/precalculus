@@ -1,17 +1,19 @@
-.PHONY: all clean
+.PHONY: all appendix
 
-all: ebook.pdf print.pdf book-cover-for-web.jpg
+all: build/appendix/print.pdf build/appendix/ebook.pdf build/appendix/book-cover-for-web.jpg
 
-ebook.pdf: ebook.tex
-	pdflatex $<
-	for diagram in $$(basename -s .mp $$(find . -name '*.mp')) ; do mpost $$diagram ; done
-	pdflatex $<
+build:
+	mkdir -p build/appendix
+
+build/appendix/%.pdf: build appendix
+	cp appendix/$(@F) $@
+
+build/appendix/%.jpg: build
+	cp appendix/$(@F) $@
 
 
-print.pdf: print.tex
-	pdflatex $<
-	for diagram in $$(basename -s .mp $$(find . -name '*.mp')) ; do mpost $$diagram ; done
-	pdflatex $<
+build/pdf_output: 
 
-book-cover-for-web.jpg: ebook.pdf
-	pdftoppm $< book-cover-for-web -jpeg -f 1 -l 1 -singlefile
+appendix:
+	$(MAKE) -C $@
+
