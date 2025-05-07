@@ -442,25 +442,25 @@ We could turn the tables and ask if the equation $y=3x+5$ describes $x$ as a fun
 
 \begin{enumerate}
 
-\item  To say that $x^{3} + y^{2} = 25$ represents $y$ as a function of $x$, we need to show that for each $x$ we choose, the equation produces only one associated $y$-value. To help with this analysis, we solve the equation for $y$ in terms of $x$. \[ \begin{array}{rclr}
+\item  To say that $x^{3} + y^{2} = 25$ represents $y$ as a function of $x$, we need to show that for each $x$ we choose, the equation produces only one associated $y$-value. To help with this analysis, we solve the equation for $y$ in terms of $x$.
 
-x^{3} + y^{2}  & = &  25 & \\
+\begin{align*}
+x^{3} + y^{2}  & = 25 \\
+y^{2} & = 25 - x^{3} \\
+y & = \pm \sqrt{25 - x^{3}} \tag{extract square roots. (See Section \ref{AppRadEqus} for a review, if needed.)} \\
+\end{align*}
 
-y^{2} & = & 25 - x^{3} & \\
+The presence of the `$\pm$' indicates that there is a good chance that for some $x$-value, the equation will produce \textit{two} corresponding $y$-values.  Indeed, $x = 0$ produces $y = \pm \sqrt{25 - 0^{3}} = \pm 5$.  Hence, $x^{3} + y^{2} = 25$ equation does \textit{not} represent $y$ as a function of $x$ because $x = 0$ is matched with more than one $y$-value.
 
-y & = & \pm \sqrt{25 - x^{3}} & \text{extract square roots. (See Section \ref{AppRadEqus} for a review, if needed.)} \\
+\item  To see if $x^{3} + y^{2} = 25$ represents $x$ as a function of $y$, we solve the equation for $x$ in terms of $y$:
 
-\end{array} \] The presence of the `$\pm$' indicates that there is a good chance that for some $x$-value, the equation will produce \textit{two} corresponding $y$-values.  Indeed, $x = 0$ produces $y = \pm \sqrt{25 - 0^{3}} = \pm 5$.  Hence, $x^{3} + y^{2} = 25$ equation does \textit{not} represent $y$ as a function of $x$ because $x = 0$ is matched with more than one $y$-value.
+\begin{align*}
+x^{3} + y^{2}  & = 25 \\
+x^{3} & = 25 - y^{2} \\
+x & = \sqrt[3]{25 - y^{2}} \tag{extract cube roots. (See Section \ref{AppRadEqus} for a review, if needed.)} \\
+\end{align*}
 
-\item  To see if $x^{3} + y^{2} = 25$ represents $x$ as a function of $y$, we solve the equation for $x$ in terms of $y$: \[ \begin{array}{rclr}
-
-x^{3} + y^{2}  & = &  25 & \\
-
-x^{3} & = & 25 - y^{2}& \\
-
-x & = &  \sqrt[3]{25 - y^{2}} & \text{extract cube roots. (See Section \ref{AppRadEqus} for a review, if needed.)} \\
-
-\end{array} \] In this case, each choice of $y$ produces only \textit{one} corresponding value for $x$, so   $x^{3} + y^{2} = 25$ represents $x$ as a function of $y$.
+In this case, each choice of $y$ produces only \textit{one} corresponding value for $x$, so   $x^{3} + y^{2} = 25$ represents $x$ as a function of $y$.
 
 \end{enumerate}
 
@@ -468,17 +468,16 @@ x & = &  \sqrt[3]{25 - y^{2}} & \text{extract cube roots. (See Section \ref{AppR
 
 \begin{enumerate}
 
-\item  To see if  $u^{4} + t^{3}u = 16$ represents $t$ as a function of $u$, we proceed as above and solve for $t$ in terms of $u$: \[ \begin{array}{rclr}
+\item  To see if  $u^{4} + t^{3}u = 16$ represents $t$ as a function of $u$, we proceed as above and solve for $t$ in terms of $u$:
 
-u^{4} + t^{3} u  & = &  16 & \\
+\begin{align*}
+u^{4} + t^{3} u  & = 16 \\
+t^{3} u & = 16 - u^{4} \\
+t^{3} & = \dfrac{16 - u^{4}}{u} \tag{assumes $u \neq 0$} \\
+t & = \sqrt[3]{\dfrac{16 - u^{4}}{u}} \tag{extract cube roots.} \\
+\end{align*}
 
-t^{3} u & = & 16 - u^{4} & \\ [6pt]
-
-t^{3} & = & \dfrac{16 - u^{4}}{u} & \text{assumes $u \neq 0$} \\ [10pt]
-
-t & = & \sqrt[3]{\dfrac{16 - u^{4}}{u}} & \text{extract cube roots.} \\
-
-\end{array} \] Although it's a bit cumbersome, as long as $u \neq 0$ the expression  $\sqrt[3]{\frac{16-u^4}{u}}$ will produce just one value of $t$ for each value of $u$.  What if $u = 0$? In that case, the equation $u^{4} + t^{3}u = 16$ reduces to $0 = 16$ - which is never true - so we don't need to worry about that case.\footnote{Said differently, $u = 0$ is not in the domain of the function represented by the equation $u^{4} + t^{3}u = 16$.}  Hence, $u^{4} + t^{3}u = 16$ represents $t$ as a function of $u$.
+Although it's a bit cumbersome, as long as $u \neq 0$ the expression  $\sqrt[3]{\frac{16-u^4}{u}}$ will produce just one value of $t$ for each value of $u$.  What if $u = 0$? In that case, the equation $u^{4} + t^{3}u = 16$ reduces to $0 = 16$ - which is never true - so we don't need to worry about that case.\footnote{Said differently, $u = 0$ is not in the domain of the function represented by the equation $u^{4} + t^{3}u = 16$.}  Hence, $u^{4} + t^{3}u = 16$ represents $t$ as a function of $u$.
 
 \item  In order to determine if  $u^{4} + t^{3}u = 16$ represents $u$ as a function of $t$, we could attempt to solve $u^{4} + t^{3}u = 16$ for $u$ in terms of $t$, but we won't get very far.\footnote{Try it for yourself!}  Instead, we take a different approach and experiment with looking for solutions for $u$ for specific values of $t$.  If we let $t = 0$, we get $u^{4} = 16$ which gives $u = \pm \sqrt[4]{16} = \pm 2$.  Hence, $t = 0$ corresponds to more than one $u$-value which means  $u^{4}  +t^{3}u = 16$  does not represent $u$ as a function of $t$.  \qed
 
@@ -494,7 +493,17 @@ We'll have more to say about using equations to describe functions in Section \r
 
 In this section, we introduce how to graph functions.  As we'll see in this and later sections, visualizing functions geometrically can assist us in both analyzing them and using them to solve associated application problems.  Our playground, if you will, for the Geometry in this course is the Cartesian Coordinate Plane.  The reader would do well to review Section \ref{AppCartesianPlane} as needed.
 
-Our path to the Cartesian Plane requires ordered pairs.  In general, we can represent every function as a set of ordered pairs.  Indeed, given a function $f$ with domain $A$, we can represent $f = \{ (a, f(a)) \, | \, a \in A\}$.  That is, we represent $f$ as a set of ordered pairs $(a, f(a))$, or, more generally, $(\text{input}, \text{output})$.  For example, the function $f$ which matches Taylor's pet's names to their associated pet type can be represented as: \[ f = \{ (\text{White Paw}, \text{cat}), (\text{Cooper}, \text{cat}), (\text{Bingo}, \text{lizard}), (\text{Kennie}, \text{turtle}) \} \] Moving on, we next  consider the function $f$ from Example \ref{timetempex1} which relates time to temperature. In this case,  $f = \{ (0, 64), (2, 67), (4, 75), (6, 80), (8, 83), (10, 83), (12, 82) \}$.   This function has numerical values for both the domain and range so we can identify these ordered pairs with points in the Cartesian Plane.  The first coordinates of these points (the abscissae) represent time values so we'll use $t$ to label the horizontal axis.  Likewise, we'll use $T$ to label the vertical axis since the second coordinates of these points (the ordinates) represent temperature values.  Note that labeling these axes in this way determines our independent and dependent variable names, $t$ and $T$, respectively.
+Our path to the Cartesian Plane requires ordered pairs.  In general, we can represent every function as a set of ordered pairs.  Indeed, given a function $f$ with domain $A$, we can represent $f = \{ (a, f(a)) \, | \, a \in A\}$.  That is, we represent $f$ as a set of ordered pairs $(a, f(a))$, or, more generally, $(\text{input}, \text{output})$.  For example, the function $f$ which matches Taylor's pet's names to their associated pet type can be represented as:
+\[
+f = \{ (\text{White Paw}, \text{cat}), (\text{Cooper}, \text{cat}), (\text{Bingo}, \text{lizard}), (\text{Kennie}, \text{turtle}) \}
+\]
+
+Moving on, we next  consider the function $f$ from Example \ref{timetempex1} which relates time to temperature. In this case,
+\[
+f = \{ (0, 64), (2, 67), (4, 75), (6, 80), (8, 83), (10, 83), (12, 82) \}
+\]
+
+This function has numerical values for both the domain and range so we can identify these ordered pairs with points in the Cartesian Plane.  The first coordinates of these points (the abscissae) represent time values so we'll use $t$ to label the horizontal axis.  Likewise, we'll use $T$ to label the vertical axis since the second coordinates of these points (the ordinates) represent temperature values.  Note that labeling these axes in this way determines our independent and dependent variable names, $t$ and $T$, respectively.
 
 The plot of these points is called `the \textbf{graph} of $f\,$'.  More specifically, we could describe this plot as `the graph of $f(t)$', because we have decided to name the independent variable $t$.  Most specifically, we could describe the plot as `the graph of $T = f(t)$', given that we have named the independent variable $t$ and the dependent variable $T$.  
 
@@ -823,16 +832,11 @@ Before moving on to our next example, it is worth noting that the geometric argu
 
 Let's take a minute to discuss the phrase `if and only if' used in Theorem \ref{VLT}.   The statement `the graph represents $y$ as a function of $x$ \textit{if and only if} no vertical line intersects the graph more than once' is actually saying two things.  First, it's saying `the graph represents $y$ as a function of $x$  \textit{if} no vertical line intersects the graph more than once' and, second,  `the graph represents $y$ as a function of $x$  \textit{only if} no vertical line intersects the graph more than once'.   
 
-\medskip
-
 Logically, these statements are saying two different things. The first says that if no vertical line crosses the graph more than once, then the graph represents $y$ as a function of $x$.  But the question remains:  could a graph represent $y$ as a function of $x$ and yet there be a vertical line that intersects the graph more than once?  The answer to this is `no' because the second statement says that the \textit{only} way the graph represents $y$ as a function of $x$ is the case when no vertical line intersects the graph more than once.
 
-%\pagebreak
-\medskip
+Applying the Vertical Line Test to the graph given in Example \ref{functiongraphex01}, we see in \autoref{fig:verticallinetest} that all of the vertical lines meet the graph at most once (several are shown for illustration) showing $w$ is a function of $v$.  Notice that some of the lines ($x = -3$ and $x = 1$, for example) don't hit the graph at all.  This is fine because the Vertical Line Test is looking for lines that hit the graph more than once.  It does not say \emph{exactly} once so missing the graph altogether is permitted.
 
-Applying the Vertical Line Test to the graph given in Example \ref{functiongraphex01}, we see below that all of the vertical lines meet the graph at most once (several are shown for illustration) showing $w$ is a function of $v$.  Notice that some of the lines ($x = -3$ and $x = 1$, for example) don't hit the graph at all.  This is fine because the Vertical Line Test is looking for lines that hit the graph more than once.  It does not say \emph{exactly} once so missing the graph altogether is permitted.
-
-
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
@@ -862,31 +866,34 @@ Applying the Vertical Line Test to the graph given in Example \ref{functiongraph
 \point[4pt]{(1,-3)}
 \end{mfpic} 
 
+\caption{The Vertical Line Test}
+\label{fig:verticallinetest}
 \end{center}
+\end{figure}
 
 There is also a geometric test to determine if the graph above represents $v$ as a function of $w$.  We introduce this aptly-named  \textbf{Horizontal Line Test} in Exercise \ref{HLTExercise} and revisit it in Sections \ref{Relations} and \ref{InverseFunctions}.  
-
-\medskip
 
 Our next example revisits the function $h$ from Example \ref{funcnotatex1} from a graphical perspective.
 
 \begin{ex} \label{graphalgebraicex}  With the help of a graphing utility graph $h(t) = -t\,^{2} + 3t + 4$.  From your graph, state the domain, range and extrema, if any exist.
 
-{\bf Solution.} The dependent variable wasn't specified so we use the default `$y$' label for the vertical axis and set about graphing $y = h(t)$.   From our work in Example \ref{funcnotatex1},  we already know  $h(-1) = 0$, $h(0) = 4$, $h(2) = 6$ and $h(4) = 0$.  These give us the points $(-1,0)$, $(0,4)$, $(2,6)$ and $(4,0)$, respectively.  Using these as a guide, we can use  \href{https://www.desmos.com/}{\underline{desmos}} to produce the graph at the top of the next page on the left.\footnote{The curve in this example is called a 	`parabola'.  In Section \ref{QuadraticFunctions}, we'll learn how to graph these accurately \textit{by hand}.} 
+{\bf Solution.} The dependent variable wasn't specified so we use the default `$y$' label for the vertical axis and set about graphing $y = h(t)$.   From our work in Example \ref{funcnotatex1},  we already know  $h(-1) = 0$, $h(0) = 4$, $h(2) = 6$ and $h(4) = 0$.  These give us the points $(-1,0)$, $(0,4)$, $(2,6)$ and $(4,0)$, respectively.  Using these as a guide, we can use  \href{https://www.desmos.com/}{\underline{desmos}} to produce the graph in \autoref{fig:graphusingdesmos}.\footnote{The curve in this example is called a 	`parabola'.  In Section \ref{QuadraticFunctions}, we'll learn how to graph these accurately \textit{by hand}.} 
 
-\medskip
+As nice as the graph is, it is still technically incomplete.  There is no restriction stated on the independent variable $t$ so the domain of $h$ is all real numbers. However, the graph as presented shows only the behavior of $h$ between roughly $t = -2.5$ and $t = 4.25$.  By zooming out, we see that the graph extends downwards indefinitely which we indicate by adding the arrows you see in the graph in \autoref{fig:graphoft}.  We find that the domain is $(-\infty, \infty)$ and the range is $(-\infty, 6.25]$.  There is no minimum, but the  maximum of $h$ is $6.25$ and it occurs at $t = 1.5$.  The point $(1.5, 6.25)$ is shown on both graphs.
 
-As nice as the graph is, it is still technically incomplete.  There is no restriction stated on the independent variable $t$ so the domain of $h$ is all real numbers. However, the graph as presented shows only the behavior of $h$ between roughly $t = -2.5$ and $t = 4.25$.  By zooming out, we see that the graph extends downwards indefinitely which we indicate by adding the arrows you see in the graph on the right.  We find that the domain is $(-\infty, \infty)$ and the range is $(-\infty, 6.25]$.  There is no minimum, but the  maximum of $h$ is $6.25$ and it occurs at $t = 1.5$.  The point $(1.5, 6.25)$ is shown on both graphs.
-
+\begin{figure}
 \begin{center}
-
-\begin{tabular}{m{3in}m{2in}}
-
 
 \includegraphics[width=3in]{./FunctionsandtheirRepresentationsGraphics/ParabolaGraph.jpg}
 
-&
+\caption{$h(t) = -t\,^{2} + 3t + 4$ graphed using desmos}
+\label{fig:graphusingdesmos}
+\end{center}
+\end{figure}
 
+\begin{figure}
+\begin{center}
+  
 \begin{mfpic}[19]{-3}{5}{-2}{7}
 \axes
 \tlabel[cc](5,-0.5){\scriptsize $t$}
@@ -909,18 +916,20 @@ As nice as the graph is, it is still technically incomplete.  There is no restri
 \point[4pt]{(-1,0), (0,4), (1.5, 6.25), (2,6), (4,0)}
 \end{mfpic}  \\
 
-\end{tabular}
-
+\caption{Graph of $h(t) = -t\,^{2} + 3t + 4$}
+\label{fig:graphoft}
 \end{center}
+\end{figure}
 
-\vspace*{-.5in} \qed
+\qed
 
 \end{ex}
 
 Our last example of the section uses the interplay between algebraic and graphical representations of a function to solve a real-world problem.
 
-\begin{ex} \label{volumeex1}    The United States Postal Service mandates that when shipping parcels using `Parcel Select' service,  the sum of the length (the longest dimension) and the girth (the distance around the thickest part of the parcel perpendicular to the length) must not exceed 130 inches.\footnote{See \href{http://pe.usps.com/text/qsg300/Q201e.htm}{\underline{here}}.}  Suppose we wish to ship a rectangular box whose girth forms a square measuring $x$ inches per side as shown below.
+\begin{ex} \label{volumeex1}    The United States Postal Service mandates that when shipping parcels using `Parcel Select' service,  the sum of the length (the longest dimension) and the girth (the distance around the thickest part of the parcel perpendicular to the length) must not exceed 130 inches.\footnote{See \href{http://pe.usps.com/text/qsg300/Q201e.htm}{\underline{here}}.}  Suppose we wish to ship a rectangular box whose girth forms a square measuring $x$ inches per side as shown in \autoref{fig:dimensionsofshipment}.
 
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[10]{-6}{12}{-1}{17}
@@ -942,10 +951,11 @@ Our last example of the section uses the interplay between algebraic and graphic
 \end{mfpic}
 
 \end{center}
+\caption{Dimensions of shipment}
+\label{fig:dimensionsofshipment}
+\end{figure}
 
 It turns out\footnote{We'll skip the explanation for now because we want to focus on just the different representations of the function. Rest assured, you'll be asked to construct this very model in Exercise \ref{girthbox1} in Section \ref{GraphsofPolynomials}.} that the volume of a box, $V(x)$, measured in cubic inches,  whose length plus girth is exactly 130 inches is given by the formula: $V(x) = x^2 (130-4x)$ for $0 < x \leq 26$.
-
-\pagebreak
 
 \begin{enumerate}
 
@@ -973,10 +983,11 @@ It seems natural to start with what's happening near $x = 0$.  Even though the e
 
 \end{array} \] There is no such thing as a  `smallest' positive number,\footnote{If $p$ is any positive real number, $0 < 0.5 p < p$, so we can always find a smaller positive real number.}  so we will have points on the graph of $V$ to the right of $x = 0$ leading to the point $(0,0)$.  We indicate this behavior by putting a hole at $(0,0)$.\footnote{What's really needed here is the precise definition of `closeness' discussed in Calculus.  This hand-waving will do for now.}
 
-Moving forward, we start with $x = 5$ and sample $V$ at steps of $5$ in its domain.  Our goal is to graph $y = V(x)$, so we plot our points $(x, V(x))$  using  the domain as a guide to help us set the horizontal bounds (i.e., the bounds on $x$) and the sample values from the range to help us set the vertical bounds (i.e., the bounds on $y$).   The right endpoint, $x = 26$, is included in the domain $0 < x \leq 26$ so we finish the graph by plotting the point $(26, V(26)) = (26,17576)$.  At the top of the next page on the left is the table of data and on the right is a graph produced with some help from \href{https://www.desmos.com/}{\underline{desmos}}.
+Moving forward, we start with $x = 5$ and sample $V$ at steps of $5$ in its domain.  Our goal is to graph $y = V(x)$, so we plot our points $(x, V(x))$  using  the domain as a guide to help us set the horizontal bounds (i.e., the bounds on $x$) and the sample values from the range to help us set the vertical bounds (i.e., the bounds on $y$).   The right endpoint, $x = 26$, is included in the domain $0 < x \leq 26$ so we finish the graph by plotting the point $(26, V(26)) = (26,17576)$. \autoref{tab:samplingv} shows the data and \autoref{fig:thegraphofy} shows a graph produced with some help from \href{https://www.desmos.com/}{\underline{desmos}}.
   
-\begin{tabular}{m{1.9 in}m{4in}}
-
+\begin{table}
+\begin{center}
+  
 $\begin{array}{|r||c|c|}  \hline
 
   x & V(x) & (x,V(x)) \\ \hline
@@ -990,49 +1001,46 @@ $\begin{array}{|r||c|c|}  \hline
   26 & 17, \! 576 &  (26,17, \! 576) \\ \hline
 \end{array}$
 
-&
+\caption{Sampling $V$}
+\label{tab:samplingv}
+\end{center}
+\end{table}
 
+\begin{figure}
+\begin{center}
+  
 \includegraphics[width=4in]{./FunctionsandtheirRepresentationsGraphics/VolumeEx01.jpg}  \\
 
-\centerline{Sampling $V$}
-
-&
-
-\centerline{The graph of $y = V(x)$}
-
-\end{tabular}
+\caption{The graph of $y = V(x)$}
+\label{fig:thegraphofy}
+\end{center}
+\end{figure}
 
 
-\item  The largest volume in this case refers to the maximum of $V$.  The biggest $y$-value in our table of data is $20, \! 000$ cubic inches which occurs at $x = 20$ inches, but the graph produced by the graphing utility indicates that there are points on the graph of $V$ with $y$-values (hence $V(x)$ values) greater than $20, \! 000$.  Indeed, the graph continues to rise to the right of $x = 20$ and the graphing utility reports the maximum $y$-value to be $y \approx 20, \! 342.593$ when $x \approx 21.667$.  Rounding to two decimal places, we find the maximum volume obtainable under these conditions is about $20, \! 342.59$ cubic inches which occurs when the length and width of the square side of the box are approximately $21.67$ inches.\footnote{We could also find the length of the box in this case as well.  The sum of length and girth is 130 inches so the length is 130 minus the girth, or $130 - 4x \approx 130 - 4(21.67) = 43.32$ inches.}  
+\item  The largest volume in this case refers to the maximum of $V$.  The biggest $y$-value in our table of data is $20, \! 000$ cubic inches which occurs at $x = 20$ inches, but the graph produced by the graphing utility shown in \autoref{fig:findingmaxvol} indicates that there are points on the graph of $V$ with $y$-values (hence $V(x)$ values) greater than $20, \! 000$.  Indeed, the graph continues to rise to the right of $x = 20$ and the graphing utility reports the maximum $y$-value to be $y \approx 20, \! 342.593$ when $x \approx 21.667$.  Rounding to two decimal places, we find the maximum volume obtainable under these conditions is about $20, \! 342.59$ cubic inches which occurs when the length and width of the square side of the box are approximately $21.67$ inches.\footnote{We could also find the length of the box in this case as well.  The sum of length and girth is 130 inches so the length is 130 minus the girth, or $130 - 4x \approx 130 - 4(21.67) = 43.32$ inches.}  
 
+\begin{figure}
 \begin{center}
 
 \includegraphics[width=4in]{./FunctionsandtheirRepresentationsGraphics/VolumeEx02.jpg} 
 
-Finding the maximum volume using the graph of $y = V(x)$.
-
+\caption{Finding the maximum volume using the graph of $y = V(x)$}
+\label{fig:findingmaxvol}
 \end{center}
-
-\pagebreak
+\end{figure}
 
 It is worth noting that while the function $V$ has a maximum, it did not have a minimum.  Even though $V(x)>0$ for all $x$ in its domain,\footnote{said differently, the values of $V(x)$ are \textbf{bounded below} by $0$.} the presence of the hole at $(0,0)$ means that $0$ is not in the range of $V$.  Hence, based on our model, we can never make a box with a  `smallest' volume.\footnote{How realistic is this?}  \qed
 
 \end{enumerate}
 \end{ex}
 
-\medskip
-
 Example \ref{volumeex1} typifies the interplay between Algebra and Geometry which lies ahead.  Both the algebraic description of  $V$: $V(x) = x^2 (130 - 4x)$ for $0 < x \leq 26$, and the graph of $y=V(x)$ were useful in describing aspects of the physical situation at hand.  Wherever possible, we'll use the algebraic representations of functions to \textit{analytically} produce \textit{exact} answers to certain problems and use the graphical descriptions to check the reasonableness of our answers. 
-
-\medskip
 
 That being said, we'll also encounter problems which we simply \textit{cannot} answer analytically (such as determining the maximum volume in the previous example), so we will be forced to resort to using technology (specifically graphing technology) in order to find \textit{approximate} solutions.  The most important thing to keep in mind is that while technology may \textit{suggest} a result, it is ultimately Mathematics that \textit{proves} it. 
 
-\medskip
+We close this section with a summary of the different ways to represent functions as shown in \autoref{box:waystorepresentfunctions}
 
-We close this section with a summary of the different ways to represent functions.
-
-\begin{floatbox}[label=waystorepresentfunctionsbox]{Ways to Represent a Function}
+\begin{floatbox}[label=box:waystorepresentfunctions]{Ways to Represent a Function}
 
 Suppose $f$ is a function with domain $A$.  Then $f$ can be represented:
 
