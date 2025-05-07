@@ -11,14 +11,9 @@
 
 Mathematics can be thought of as the study of patterns.   In most disciplines, Mathematics is used as a language to express, or codify, relationships between quantities  - both algebraically and geometrically - with the ultimate goal of solving real-world problems.   The fact that the same algebraic equation which models the growth of bacteria in a petri dish is also used to compute the account balance of a savings account or the potency of radioactive material used in medical treatments speaks to the universal nature of Mathematics.   Indeed, Mathematics is more than just about solving a specific problem in a specific situation, it's about abstracting problems and creating universal tools which can be used by a variety of scientists and engineers to solve a variety of problems.  
 
-\medskip
-
 This power of abstraction has a tendency to create a language that is initially intimidating to students.  Mathematical definitions are precise and adherence to that precision is often a source of confusion and frustration.  It doesn't help matters that more often than not very common words are used in Mathematics with slightly different definitions than is commonly expected.  The first `universal tool' we wish to highlight - the concept of a `function' - is a perfect example of this phenomenon in that we redefine a word that already has multiple meanings in English.  
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn}
 
 \label{functiondefn}
@@ -26,22 +21,13 @@ This power of abstraction has a tendency to create a language that is initially 
 Given two sets\footnote{Please refer to Section \ref{AppSetTheory} for a review of this terminology.} $A$ and $B$, a  \index{function ! definition} \textbf{function} from $A$ to $B$ is a process by which each element of $A$ is matched with (or `mapped to')  one and only one element of $B$.   
 
 \end{defn}
-
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 The grammar here `\textit{from} $A$ \textit{to} $B\,$'  is important.  Thinking of a function as a process, we can view the elements of the set $A$ as our starting materials, or \textit{inputs} to the process.  The function  processes these inputs according to some specified rule and the result is a set of  \textit{outputs}  - elements of the set $B$. In terms of inputs and outputs, Definition \ref{functiondefn}  says that a function is a process in which each \textit{input} is matched to one and only one \textit{output}.
 
-\medskip
-
 For example, let's take a look at some of the pets in the Stitz household.  Taylor's pets include White Paw and Cooper (both cats), Bingo (a lizard) and Kennie (a turtle).  Let $N$ be the set of pet names: $N = \{ \text{White Paw, Cooper, Bingo, Kennie} \}$, and let $T$ be the set of pet types:  $T = \{ \text{cat, lizard, turtle} \}$.   Let $f$ be the process that takes each pet's name as the input and returns that pet's type as the output. Let $g$ be the reverse of $f$:  that is, $g$ takes each pet type as the input and returns the names of the pets of that type as the output.   Note that both $f$ and $g$ are codifying the \textit{same} given information about Taylor's pets,  but one of them is a function and the other is not.  
 
-\medskip
-
 To help identify which process $f$ or $g$ is a function and  why the other is not, we create  \index{diagram ! mapping} \textbf{mapping diagrams} for $f$ and $g$ below.  In each case, we organize the inputs in a column on the left and the outputs on a column on the right.  We draw an arrow connecting each input to its corresponding output(s).  Note that the arrows communicate the grammatical bias: the arrow originates at the input and points to the output.
-
-\medskip
 
 \begin{center}
 
@@ -96,8 +82,7 @@ As you might expect, with functions being such an important concept in Mathemati
 
 \medskip
 
-\colorbox{ResultColor}{\bbm
-
+\begin{tcolorbox}
 \begin{defn}
 
 \label{domainrangedefns}
@@ -123,7 +108,7 @@ Said differently, the range of a function is the set of outputs from the functio
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
 Some remarks about Definition \ref{domainrangedefns} are in order.  First, and most importantly, the notation `$f(a)$' in Definition \ref{domainrangedefns}  introduces yet another mathematical use for parentheses.  Parentheses are used in some cases as grouping symbols, to represent ordered pairs, and to delineate intervals of real numbers.  More often than not, the use of parentheses in expressions like `$f(a)$' is confused with multiplication.   As always, paying attention to the context is key.  If $f$ is a function and `$a\,$' is in the domain of $f$, then `$f(a)$'  is the output from $f$ when you input $a$.  The diagram below provides a nice generic picture to keep in mind when thinking of a function as a mapping process with input `$a\,$' and output `$f(a)$'.
 
@@ -274,7 +259,7 @@ Finally, given that the range in this example was a finite set of real numbers, 
 
 \medskip
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn}
 
@@ -298,9 +283,7 @@ That is, the maximum of $f$ is the largest output from $f$, if it exists.
 
 \end{defn}
 
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 Definition \ref{absmaxmindefn} is an example where the name of the function, $f$, is being used almost synonymously with its outputs in that when we speak of `the minimum and maximum of the \textit{function} $f\,$' we are really talking about the minimum and maximum values of the \textit{outputs} $f(x)$ as $x$ varies through the domain of $f$.  Thus we say that the \index{function ! (absolute) maximum}\index{maximum ! intuitive definition of} maximum of $f$ is $83$ and the \index{function ! (absolute, global) minimum}\index{minimum ! intuitive definition of} minimum of $f$ is $64$ when referring to the highest and lowest recorded temperatures in the previous example.  
 
@@ -858,18 +841,14 @@ It cannot be stressed enough that when given a graphical representation of a fun
 
 Before moving on to our next example, it is worth noting that the geometric argument made in Example  \ref{functiongraphex01} to establish that $w$ is a function of $v$  can be generalized to any graph.  This result is the celebrated Vertical Line Test and it enables us to detect functions geometrically.   Note that the statement of the theorem resorts to the `default' $x$ and $y$ labels on the horizontal and vertical axes, respectively.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm}  \textbf{The Vertical Line Test:}   A graph in the $xy$-plane\footnote{That is, the horizontal axis is labeled with `$x$' and the vertical axis is labeled with `$y$'.}  represents $y$ as a function of $x$ if and only if no vertical line intersects the graph more than once.
 \label{VLT}
 
 \end{thm}
 
-\ebm}
-
-\bigskip
+\end{tcolorbox}
 
 Let's take a minute to discuss the phrase `if and only if' used in Theorem \ref{VLT}.   The statement `the graph represents $y$ as a function of $x$ \textit{if and only if} no vertical line intersects the graph more than once' is actually saying two things.  First, it's saying `the graph represents $y$ as a function of $x$  \textit{if} no vertical line intersects the graph more than once' and, second,  `the graph represents $y$ as a function of $x$  \textit{only if} no vertical line intersects the graph more than once'.   
 
@@ -1082,13 +1061,7 @@ That being said, we'll also encounter problems which we simply \textit{cannot} a
 
 We close this section with a summary of the different ways to represent functions.
 
-\bigskip
-
-\colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Ways to Represent a Function}} \label{waystorepresentfunctionsbox}
-
-\smallskip
+\begin{floatbox}[label=waystorepresentfunctionsbox]{Ways to Represent a Function}
 
 Suppose $f$ is a function with domain $A$.  Then $f$ can be represented:
 
@@ -1114,9 +1087,9 @@ If $f$ is a function whose domain and range are subsets of real numbers, then $f
 
 Note: An important consequence of the last bulleted item is that the point $(a, b)$ is on the graph of $y = f(x)$ if and only if $f(a) = b.$\label{FundamentalGraphingPrinciple}
 
-\ebm}
+\end{floatbox}
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 \input{ExercisesforFunctionsandtheirRepresentations}
