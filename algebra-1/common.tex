@@ -41,7 +41,26 @@
 }
 
 \usepackage{tasks}
-\settasks{label=\arabic*., label-offset=0.6666em, label-width=14.1pt}
+\usepackage{adjustbox}
+\settasks{label=\arabic*., label-offset=0.6666em, label-width=14.1pt, counter=HW}
+
+\newenvironment{exenum}{%
+  \begin{enumerate}
+  \setcounter{enumi}{\value{HW}}
+}{%
+  \setcounter{HW}{\value{enumi}}
+  \end{enumerate}
+}
+
+\newenvironment{shortexenum}{%
+  \begin{shortenumerate}
+  \setcounter{enumi}{\value{HW}}
+}{%
+  \setcounter{HW}{\value{enumi}}
+  \end{shortenumerate}
+}
+
+\newcommand{\startexenum}{\setcounter{HW}{0}}
 
 \theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
 \newtheorem{defn}{\bf Definition}[section]
