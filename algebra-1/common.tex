@@ -52,8 +52,8 @@
   \end{enumerate}
 }
 
-\newenvironment{shortexenum}{%
-  \begin{shortenumerate}
+\newenvironment{shortexenum}[1][\unskip]{%
+  \begin{shortenumerate}[#1]
   \setcounter{enumi}{\value{HW}}
 }{%
   \setcounter{HW}{\value{enumi}}
@@ -228,10 +228,10 @@ Sophia Publishing \\
 \thispagestyle{empty}
 \import{../IntroductiontoFunctions/}{IntroductiontoFunctions}
 
-% \chapter{Polynomial Functions}
-% \label{PolynomialFunctions}
-% \thispagestyle{empty}
-% \import{./PolynomialFunctions/}{PolynomialFunctions}
+\chapter{Polynomial Functions}
+\label{PolynomialFunctions}
+\thispagestyle{empty}
+\import{../PolynomialFunctions/}{PolynomialFunctions}
 
 % \chapter{Rational Functions}
 % \label{RationalFunctions}
