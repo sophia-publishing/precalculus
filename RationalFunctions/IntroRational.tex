@@ -5,12 +5,11 @@
 
 \label{IntroRational}
 
-
 If we add, subtract, or multiply polynomial functions, the result is another polynomial function.  When we divide polynomial functions, however, we may not get a polynomial function.   The result of dividing two polynomials is a   \index{rational function} \textbf{rational function}, so named because rational functions  are \textit{ratios} of polynomials.
 
 \smallskip
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn}  \label{rationalfunction} A \textbf{rational function} is a function which is the ratio of polynomial functions.  Said differently, $r$ is a rational function if it is of the form \index{function ! rational}
 
@@ -20,27 +19,29 @@ where $p$ and $q$ are polynomial functions.\footnote{According to this definitio
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
 \subsection{Laurent Monomial Functions}
 \label{LaurentMonomialFunctionsSection}
 
 As with polynomial functions, we begin our study of rational functions with what are, in some sense, the building blocks of rational functions, \index{monomial function ! Laurent}\index{function ! monomial ! Laurent}\textbf{Laurent monomial functions}.  
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn}  \label{laurentmonomialfunction} A \textbf{Laurent monomial function} is either a monomial function (see Definition \ref{monomialfunction}) or a function of the form $f(x) = \dfrac{a}{x^n} = ax^{-n}$ for $n \in \mathbb{N}$.
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
-Laurent monomial functions are named in honor of \href{https://en.wikipedia.org/wiki/Pierre_Alphonse_Laurent}{\underline{Pierre Alphonse Laurent}} and generalize the notion of `monomial function' from Chapter \ref{PolynomialFunctions} to terms with negative exponents. Our study of these functions begins with an analysis of   $r(x) = \frac{1}{x} = x^{-1}$, the reciprocal function. The first item worth  noting is that $r(0)$ is not defined owing to the presence of $x$  in the denominator.  That is, the domain of $r$ is $\{ x \in \mathbb{R} \, | \, x \neq 0\}$ or, using interval notation, $(-\infty, 0) \cup (0, \infty)$.   Of course excluding $0$ from the domain of $r$ serves only to pique our curiosity about the behavior of $r(x)$ when $x \approx 0$.  Thinking from a number sense perspective, the closer the denominator of $\frac{1}{x}$ is to $0$, the larger the value of the  fraction (in absolute value.)\footnote{Technically speaking, $-1 \times 10^{117}$ is a `small' number (since it is very far to the left on the number line.)  However, it's absolute value, $1 \times 10^{117}$ is very large.}  So it stands to reason that as $x$ gets closer and closer to $0$, the values for $r(x) = \frac{1}{x}$ should grow larger and larger (in absolute value.)  This is borne out in the table below on the left where it is apparent that for $x \approx 0$, $r(x)$ is becoming unbounded.  
+Laurent monomial functions are named in honor of \href{https://en.wikipedia.org/wiki/Pierre_Alphonse_Laurent}{\underline{Pierre Alphonse Laurent}} and generalize the notion of `monomial function' from Chapter \ref{PolynomialFunctions} to terms with negative exponents. Our study of these functions begins with an analysis of   $r(x) = \frac{1}{x} = x^{-1}$, the reciprocal function. The first item worth  noting is that $r(0)$ is not defined owing to the presence of $x$  in the denominator.  That is, the domain of $r$ is $\{ x \in \mathbb{R} \, | \, x \neq 0\}$ or, using interval notation, $(-\infty, 0) \cup (0, \infty)$.   Of course excluding $0$ from the domain of $r$ serves only to pique our curiosity about the behavior of $r(x)$ when $x \approx 0$.  Thinking from a number sense perspective, the closer the denominator of $\frac{1}{x}$ is to $0$, the larger the value of the  fraction (in absolute value.)\footnote{Technically speaking, $-1 \times 10^{117}$ is a `small' number (since it is very far to the left on the number line.)  However, it's absolute value, $1 \times 10^{117}$ is very large.}  So it stands to reason that as $x$ gets closer and closer to $0$, the values for $r(x) = \frac{1}{x}$ should grow larger and larger (in absolute value.)  This is borne out in \autoref{tab:rxeqonebyxnearzero} where it is apparent that for $x \approx 0$, $r(x)$ is becoming unbounded.  
 
-As we investigate the end behavior of $r$, we find that as $x \rightarrow \pm \infty$, $r(x) \approx 0$. Again, number sense agrees here with the data, since as the denominator of $\frac{1}{x}$ becomes unbounded, the value of the fraction should diminish.  That being said, we could ask if the graph ever reaches the $x$-axis.  If we attempt to solve $y = r(x) = \frac{1}{x} = 0$. we arrive at the contradiction $1 = 0$ hence, $0$ is not in the range of $r$.  Every other real number besides $0$ is in the range of $r$, however.  To see this, let $c \neq 0$ be a real number.  Then $\frac{1}{c}$ is defined and, moreover, $r \left(\frac{1}{c} \right) = \frac{1}{(1/c)} = c$.  This shows $c$ is in the range of $r$.  Hence, the range of $r$ is $\{ y \in \mathbb{R} \, | \, y \neq 0\}$ or, using interval notation,  $(-\infty, 0) \cup (0, \infty)$.  
+As we investigate the end behavior of $r$, we find that as $x \rightarrow \pm \infty$, $r(x) \approx 0$. Again, number sense agrees here with the data (\autoref{tab:rxeqonebyxnearinfinity}), since as the denominator of $\frac{1}{x}$ becomes unbounded, the value of the fraction should diminish.  That being said, we could ask if the graph ever reaches the $x$-axis.  If we attempt to solve $y = r(x) = \frac{1}{x} = 0$. we arrive at the contradiction $1 = 0$ hence, $0$ is not in the range of $r$.  Every other real number besides $0$ is in the range of $r$, however.  To see this, let $c \neq 0$ be a real number.  Then $\frac{1}{c}$ is defined and, moreover, $r \left(\frac{1}{c} \right) = \frac{1}{(1/c)} = c$.  This shows $c$ is in the range of $r$.  Hence, the range of $r$ is $\{ y \in \mathbb{R} \, | \, y \neq 0\}$ or, using interval notation,  $(-\infty, 0) \cup (0, \infty)$. See \autoref{fig:yeqrxeqonebyx}.
 
+\begin{table}
+
+\begin{minipage}{0.5\linewidth}
 \begin{center}
-\begin{tabular}{m{2in}m{2in}m{2in}}
 
 $\begin{array}{|r||c|}  \hline
 
@@ -56,7 +57,12 @@ $\begin{array}{|r||c|}  \hline
  0.01 & 100  \\  \hline
   \end{array} $
   
-  &
+\caption{}
+\label{tab:rxeqonebyxnearzero}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+\begin{center}
   
   $\begin{array}{|r||c|}  \hline
 
@@ -71,8 +77,16 @@ $\begin{array}{|r||c|}  \hline
  10000 & 0.0001 \\  \hline
  100000 & 0.00001  \\  \hline  
   \end{array} $
-  
-  &
+
+\caption{}
+\label{tab:rxeqonebyxnearinfinity}
+\end{center}
+\end{minipage}
+
+\end{table}
+
+\begin{figure}
+\begin{center}
   
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \axes
@@ -86,14 +100,12 @@ $\begin{array}{|r||c|}  \hline
 \arrow \reverse \arrow \function{-5,-0.2,0.1}{1/x}
 \arrow \reverse \arrow \function{0.2,5,0.1}{1/x}
 \point[4pt]{(-1,-1), (1,1)}
-\tcaption{\scriptsize $y=r(x) = \frac{1}{x}$}
-\end{mfpic}\\
+\end{mfpic}
 
-
-
-\end{tabular}
-
+\caption{$y=r(x) = \frac{1}{x}$}
+\label{fig:yeqrxeqonebyx}
 \end{center}
+\end{figure}
 
 In order to more precisely describe the behavior near $0$, we say `as $x$ approaches $0$ \textit{from the left},' written as $x \rightarrow 0^{-}$, the function values $r(x) \rightarrow -\infty$. By `from the left' we mean we are considering $x$-values slightly to the \textit{left} of $0$ on the number line, such as   $x = -0.001$ and $x = -0.0001$ in the table above. If we think of these numbers as all being $x$-values where  $x  = \text{`$0-$ a little bit'}$, the  the `$-$' in the notation `$x \rightarrow 0^{-}$' makes better sense.  The notation to describe the $r(x)$ values, $r(x) \rightarrow -\infty$, is used here in the same manner as it was in Section \ref{GraphsofPolynomials}.  That is, as  $x \rightarrow 0^{-}$,   the values $r(x)$ are becoming unbounded in the negative direction.  
 
@@ -103,32 +115,27 @@ We can also use this notation to describe the end behavior, but here the numeric
 
 The way we describe what is happening graphically is to say the line $x = 0$ is a  \index{asymptote ! vertical ! intuitive definition of}\index{vertical asymptote ! intuitive definition of}\textbf{vertical asymptote}  to the graph of $y = r(x)$ an the line $y = 0$ is a \index{asymptote ! horizontal ! intuitive definition of}\index{horizontal asymptote ! intuitive definition of}\textbf{horizontal asymptote} to the graph of $y = r(x)$.  Roughly speaking, asymptotes are lines which approximate functions as either the inputs our outputs become unbounded.  While defined more precisely using the language of Calculus, we do our best to formally define vertical and horizontal asymptotes below.
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{va} The line $x=c$ is called a \index{asymptote ! vertical ! formal definition of}\index{vertical asymptote ! formal definition of}\textbf{vertical asymptote} of the graph of a function $y=f(x)$ if as $x \rightarrow c^{-}$ or as $x \rightarrow c^{+}$, either $f(x) \rightarrow \infty$ or $f(x) \rightarrow -\infty$.
 
 \end{defn}
-\ebm}
+\end{tcolorbox}
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{ha} The line $y=c$ is called a \index{asymptote ! horizontal ! formal definition of}\index{horizontal asymptote ! formal definition of}\textbf{horizontal asymptote} of the graph of a function $y=f(x)$ if as $x \rightarrow -\infty$ or as $x \rightarrow \infty$, $f(x) \rightarrow c$.
 
-
 \end{defn}
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 Note that in Definition \ref{ha}, we write $f(x) \rightarrow c$ (not $f(x) \rightarrow c^{+}$ or $f(x) \rightarrow c^{-}$) because we are unconcerned from which direction the values $f(x)$ approach the value $c$, just as long as they do so.  As we shall see, the graphs of rational functions may, in fact, \textit{cross} their horizontal asymptotes.  If this happens, however,  it does so only a \textit{finite} number of times (at least in this chapter), and so for each choice of $x \rightarrow -\infty$ and $x \rightarrow \infty$, $f(x)$ will approach $c$ from either below (in the case $f(x) \rightarrow c^{-}$) or above (in the case $f(x) \rightarrow c^{+}$.)  We leave $f(x) \rightarrow c$ generic in our definition, however, to allow this concept to apply to less tame specimens in the Precalculus zoo, one that cross horizontal asymptotes an infinite number of times.\footnote{See Exercise \ref{exploregraphslast} in Section \ref{GraphsofSineandCosine}.}
 
+The behaviors illustrated in the graph $r(x) = \frac{1}{x}$ are typical of functions of the form $f(x) = \frac{1}{x^n} = x^{-n}$ for natural numbers, $n$.  As with the monomial functions discussed in Section \ref{GraphsofPolynomials}, the patterns that develop primarily depend on whether $n$ is odd or even.  Having thoroughly discussed the graph of $y = \frac{1}{x} = x^{-1}$, we graph it along with $y = \frac{1}{x^3} = x^{-3}$ and $y = \frac{1}{x^5} = x^{-5}$ in \autoref{fig:yeqonebyxpowernodd}, with the data presented in \autoref{tab:yeqonebyxpowernodd}.  Note the points $(-1,-1)$ and $(1,1)$ are common to all three graphs as are the asymptotes $x = 0$ and $y = 0$.  As the $n$ increases, the graphs become steeper for $|x| < 1$  and flatten out more quickly for $|x|>1$.  Both the domain and range in each case appears to be $(-\infty, 0) \cup (0, \infty)$.  Indeed, owing to the $x$ in the denominator of $f(x) = \frac{1}{x^n}$, $f(0)$, and only $f(0)$,  is undefined. Hence the domain is $(-\infty, 0) \cup (0, \infty)$.  When thinking about the range, note the equation  $f(x)= \frac{1}{x^n}  = c$ has the solution $x = \sqrt[n]{\frac{1}{c}}$ as long as $c \neq 0$.  Thus means $f\left( \sqrt[n]{\frac{1}{c}} \right) = c$ for every nonzero real number $c$.  If $c = 0$, we are in the same situation as before:  $\frac{1}{x^n} = 0$ has no real solution.  This establishes the range is $(-\infty, 0) \cup (0, \infty)$.  Finally, each of the graphs appear to be symmetric about the origin.  Indeed, since $n$ is odd, $f(-x) = (-x)^{-n} = (-1)^{-n} x^{-n} = -x^{-n} = -f(x)$, proving every member of this function family is odd.  
 
-The behaviors illustrated in the graph $r(x) = \frac{1}{x}$ are typical of functions of the form $f(x) = \frac{1}{x^n} = x^{-n}$ for natural numbers, $n$.  As with the monomial functions discussed in Section \ref{GraphsofPolynomials}, the patterns that develop primarily depend on whether $n$ is odd or even.  Having thoroughly discussed the graph of $y = \frac{1}{x} = x^{-1}$, we graph it along with $y = \frac{1}{x^3} = x^{-3}$ and $y = \frac{1}{x^5} = x^{-5}$ below.  Note the points $(-1,-1)$ and $(1,1)$ are common to all three graphs as are the asymptotes $x = 0$ and $y = 0$.  As the $n$ increases, the graphs become steeper for $|x| < 1$  and flatten out more quickly for $|x|>1$.  Both the domain and range in each case appears to be $(-\infty, 0) \cup (0, \infty)$.  Indeed, owing to the $x$ in the denominator of $f(x) = \frac{1}{x^n}$, $f(0)$, and only $f(0)$,  is undefined. Hence the domain is $(-\infty, 0) \cup (0, \infty)$.  When thinking about the range, note the equation  $f(x)= \frac{1}{x^n}  = c$ has the solution $x = \sqrt[n]{\frac{1}{c}}$ as long as $c \neq 0$.  Thus means $f\left( \sqrt[n]{\frac{1}{c}} \right) = c$ for every nonzero real number $c$.  If $c = 0$, we are in the same situation as before:  $\frac{1}{x^n} = 0$ has no real solution.  This establishes the range is $(-\infty, 0) \cup (0, \infty)$.  Finally, each of the graphs appear to be symmetric about the origin.  Indeed, since $n$ is odd, $f(-x) = (-x)^{-n} = (-1)^{-n} x^{-n} = -x^{-n} = -f(x)$, proving every member of this function family is odd.  
-
-\begin{tabular}{m{2.75in}m{1.25in}m{1.25in}m{1.25in}}
-
+\begin{table}
+\begin{center}
+  
 $\begin{array}{|r||c|c|c|}  \hline
 
  x &  \frac{1}{x} = x^{-1} & \frac{1}{x^3} = x^{-3} & \frac{1}{x^5} = x^{-5} \\ \hline
@@ -142,8 +149,15 @@ $\begin{array}{|r||c|c|c|}  \hline
 
 \end{array}$
 
-&
+\caption{}
+\label{tab:yeqonebyxpowernodd}
+\end{center}
+\end{table}
 
+\begin{figure}
+\begin{center}
+\begin{multicols}{3}
+  
 \begin{mfpic}[9]{-5}{5}{-5}{5}
 \axes
 \scriptsize
@@ -156,8 +170,6 @@ $\begin{array}{|r||c|c|c|}  \hline
 \point[4pt]{(-1,-1), (1,1)}
 \tcaption{\scriptsize $y=\frac{1}{x} = x^{-1}$}
 \end{mfpic}
-
-&
 
 \begin{mfpic}[9]{-5}{5}{-5}{5}
 \axes
@@ -172,8 +184,6 @@ $\begin{array}{|r||c|c|c|}  \hline
 \tcaption{\scriptsize $y=\frac{1}{x^3} = x^{-3}$}
 \end{mfpic}
 
-&
-
 \begin{mfpic}[9]{-5}{5}{-5}{5}
 \axes
 \scriptsize
@@ -185,15 +195,19 @@ $\begin{array}{|r||c|c|c|}  \hline
 \arrow \reverse \arrow \function{0.725,5,0.1}{1/(x**5)}
 \point[4pt]{(-1,-1), (1,1)}
 \tcaption{\scriptsize $y=\frac{1}{x^5} = x^{-5}$}
-\end{mfpic} \\
+\end{mfpic}
 
-\end{tabular}
+\end{multicols}
+\caption{}
+\label{fig:yeqonebyxpowernodd}
+\end{center}
+\end{figure}
 
-We repeat the same experiment with functions of the form $f(x) = \frac{1}{x^{n}} = x^{-n}$ where $n$ is even. $y = \frac{1}{x^2} = x^2$, $y = \frac{1}{x^4} = x^{-4}$ and $y = \frac{1}{x^6} = x^{-6}$.  These graphs all share the points $(-1,1)$ and $(1,1)$, and asymptotes $x = 0$ and $y = 0$.  The same remarks about the steepness for $|x|<1$ and the flattening for $|x|>1$ also apply. For the same reasons as given above, the domain of each of these functions is $(-\infty, 0) \cup (0, \infty)$.  When it comes to the range, the fact $n$ is even tells us tere are  solutions to $\frac{1}{x^n} = c$ only if $c>0$. It follows that the range is $(0, \infty)$ for each of these functions.  Concerning symmetry, as $n$ is even, $f(-x) = (-x)^{-n} = (-1)^{-n} x^{-n} = x^{-n} = f(x)$, proving each member of this function family is even.  Hence, all of the graphs of these functions is symmetric about the $y$-axis.
+We repeat the same experiment with functions of the form $f(x) = \frac{1}{x^{n}} = x^{-n}$ where $n$ is even. $y = \frac{1}{x^2} = x^2$, $y = \frac{1}{x^4} = x^{-4}$ and $y = \frac{1}{x^6} = x^{-6}$.  These graphs all share the points $(-1,1)$ and $(1,1)$, and asymptotes $x = 0$ and $y = 0$. See \autoref{tab:yeqonebyxpowerneven} and \autoref{fig:yeqonebyxpowerneven}.  The same remarks about the steepness for $|x|<1$ and the flattening for $|x|>1$ also apply. For the same reasons as given above, the domain of each of these functions is $(-\infty, 0) \cup (0, \infty)$.  When it comes to the range, the fact $n$ is even tells us tere are  solutions to $\frac{1}{x^n} = c$ only if $c>0$. It follows that the range is $(0, \infty)$ for each of these functions.  Concerning symmetry, as $n$ is even, $f(-x) = (-x)^{-n} = (-1)^{-n} x^{-n} = x^{-n} = f(x)$, proving each member of this function family is even.  Hence, all of the graphs of these functions is symmetric about the $y$-axis.
 
-
-\begin{tabular}{m{2.75in}m{1.25in}m{1.25in}m{1.25in}}
-
+\begin{table}
+\begin{center}
+  
 $\begin{array}{|r||c|c|c|}  \hline
 
  x &  \frac{1}{x^2} = x^{-2} & \frac{1}{x^4} = x^{-4} & \frac{1}{x^6} = x^{-6} \\ \hline
@@ -207,8 +221,15 @@ $\begin{array}{|r||c|c|c|}  \hline
 
 \end{array}$
 
-&
+\caption{}
+\label{tab:yeqonebyxpowerneven}
+\end{center}
+\end{table}
 
+\begin{figure}
+\begin{center}
+\begin{multicols}{3}
+  
 \begin{mfpic}[9]{-5}{5}{-1}{9}
 \axes
 \scriptsize
@@ -221,8 +242,6 @@ $\begin{array}{|r||c|c|c|}  \hline
 \point[4pt]{(-1,1), (1,1)}
 \tcaption{\scriptsize $y=\frac{1}{x^2} = x^{-2}$}
 \end{mfpic}
-
-&
 
 \begin{mfpic}[9]{-5}{5}{-1}{9}
 \axes
@@ -237,8 +256,6 @@ $\begin{array}{|r||c|c|c|}  \hline
 \tcaption{\scriptsize $y=\frac{1}{x^3} = x^{-3}$}
 \end{mfpic}
 
-&
-
 \begin{mfpic}[9]{-5}{5}{-1}{9}
 \axes
 \scriptsize
@@ -250,14 +267,17 @@ $\begin{array}{|r||c|c|c|}  \hline
 \arrow \reverse \arrow \function{0.6933,5,0.1}{1/(x**6)}
 \point[4pt]{(-1,1), (1,1)}
 \tcaption{\scriptsize $y=\frac{1}{x^6} = x^{-6}$}
-\end{mfpic} \\
+\end{mfpic}
 
-\end{tabular}
-
+\end{multicols}
+\caption{}
+\label{fig:yeqonebyxpowerneven}
+\end{center}
+\end{figure}
 
 Not surprisingly, we have an analog to Theorem \ref{linearmononialgraphs} for this family of Laurent monomial functions.
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm} \label{linearlaurentlgraphs}  For real numbers $a$, $h$, and $k$ with $a \neq 0$, the graph of $F(x) = \frac{a}{(x-h)^n}+k =  a(x-h)^{-n}+k$  can be obtained from the graph of $f(x) = \frac{1}{x^n}= x^{-n}$ by performing the following operations, in sequence:
 
@@ -283,16 +303,13 @@ The  horizontal asymptote moves from $y=0$ to $y=k$.
 
 \end{thm}
 
-\ebm}
-
+\end{tcolorbox}
 
 The proof of Theorem \ref{linearlaurentlgraphs} is \textit{identical} to the proof of Theorem \ref{linearmononialgraphs} - just replace $x^n$ with $x^{-n}$.  We nevertheless encourage the reader to work through the details\footnote{We are, in fact, building to Theorem \ref{transformationsthm} in Section \ref{Transformations}, so the more you see the forest for the trees, the better off you'll be when the time comes to generalize these moves to all functions.} and compare the results of this theorem with Theorems \ref{linearabsvaluegraphs}, \ref{standardformgraph}, and  \ref{linearmononialgraphs}.
-
 
 We put Theorem \ref{linearlaurentlgraphs} to good use in the following example.
 
 \begin{ex} \label{linearlaurentex} Use Theorem \ref{linearlaurentlgraphs} to graph the following.  Label at least two points and the asymptotes.  State the domain and range using interval notation.
-
 
 \begin{enumerate}
 
@@ -314,12 +331,14 @@ We put Theorem \ref{linearlaurentlgraphs} to good use in the following example.
 
 We identify $n=2$, $a=\frac{1}{4}$ and $h = \frac{3}{2}$ (and $k =0$.)  Per the theorem, we begin with the graph of $y = x^{-2}$ and track the two points $(-1,1)$ and $(1,1)$ along with the vertical and horizontal asymptotes $x = 0$ and $y=0$, respectively through each step.
 
-Step 1:   add $\frac{3}{2}$ to each of the $x$-coordinates of each of the points on the graph of $y=x^{-2}$.  This moves the vertical asymptote from $x = 0$ to $x = \frac{3}{2}$ (which we represent by a dashed line.)
+Step 1:   add $\frac{3}{2}$ to each of the $x$-coordinates of each of the points on the graph of $y=x^{-2}$.  This moves the vertical asymptote from $x = 0$ to $x = \frac{3}{2}$ (which we represent by a dashed line) in \autoref{fig:shiftx}
 
+\begin{figure}
+\begin{center}
+  
 \[ \begin{array}{ccc}
 
-
-\begin{mfpic}[15]{-5}{5}{-1}{9}
+\begin{mfpic}[10]{-5}{5}{-1}{9}
 \axes
 \scriptsize
 \tlabel[cc](5, -0.5){$x$}
@@ -334,12 +353,11 @@ Step 1:   add $\frac{3}{2}$ to each of the $x$-coordinates of each of the points
 \tcaption{\scriptsize $y = x^{-2}$}
 \end{mfpic}
 
-
 &
-\stackrel{\text{ \scriptsize add $\frac{3}{2}$ to each $x$-coordinate}}{\xrightarrow{\hspace{1.5in}}}
+\stackrel{\text{\parbox{.5in}{\scriptsize add $\frac{3}{2}$ to each $x$-coordinate}}}{\xrightarrow{\hspace{.5in}}}
 &
 
-\begin{mfpic}[15]{-3.5}{6.5}{-1}{9}
+\begin{mfpic}[10]{-3.5}{6.5}{-1}{9}
 \axes
 \dashed \polyline{(1.5, -1), (1.5,9)}
 \scriptsize
@@ -360,10 +378,19 @@ Step 1:   add $\frac{3}{2}$ to each of the $x$-coordinates of each of the points
  
  \end{array} \]
 
-Step 2:   multiply each of the $y$-coordinates of each of the points on the graph of $y = \left(x - \frac{3}{2} \right)^{-2}$ by $\frac{1}{4}$. 
+\caption{}
+\label{fig:shiftx}
+\end{center}
+\end{figure}
+
+Step 2:   multiply each of the $y$-coordinates of each of the points on the graph of $y = \left(x - \frac{3}{2} \right)^{-2}$ by $\frac{1}{4}$. See \autoref{fig:scaley}.
+
+\begin{figure}
+\begin{center}
+
  \[ \begin{array}{ccc}
  
-\begin{mfpic}[15]{-3.5}{6.5}{-1}{9}
+\begin{mfpic}[10]{-3.5}{6.5}{-1}{9}
 \axes
 \dashed \polyline{(1.5, -1), (1.5,9)}
 \scriptsize
@@ -382,11 +409,11 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 
 &
 
-\stackrel{\text{ \scriptsize multiply each $y$-coordinate by $\frac{1}{4}$ }}{ \xrightarrow{\hspace{1.5in}}}
+\stackrel{\text{\parbox{.5in}{\scriptsize multiply each $y$-coordinate by $\frac{1}{4}$ }}}{ \xrightarrow{\hspace{.5in}}}
 
 &
 
-\begin{mfpic}[15]{-3.5}{6.5}{-1}{9}
+\begin{mfpic}[10]{-3.5}{6.5}{-1}{9}
 \axes
 \dashed \polyline{(1.5, -1), (1.5,9)}
 \scriptsize
@@ -406,17 +433,23 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 
 \text{\scriptsize  $\left(\frac{1}{2} ,1 \right)$,  $\left(\frac{5}{2} ,1 \right)$} & &\text{\scriptsize  $\left(\frac{1}{2} ,\frac{1}{4} \right)$,  $\left(\frac{5}{2} , \frac{1}{4} \right)$}  \\ \end{array} \]
 
+\caption{}
+\label{fig:scaley}
+\end{center}
+\end{figure}
 
 Since we did not shift the graph vertically, the horizontal asymptote remains $y = 0$.  We can determine the domain and range of $f$ by tracking the changes to the domain and range of our progenitor function, $y = x^{-2}$.  We get the domain and range of $f$ is  $\left(-\infty, \frac{3}{2} \right) \cup \left(\frac{3}{2}, \infty \right)$ and the range of $f$ is $(-\infty, 0) \cup (0, \infty)$. 
 
 \item  Using either long or synthetic division, we get \[g(t) = \frac{2t-1}{t+1} = - \frac{3}{t+1} + 2 = \frac{-3}{(t-(-1))^{1}} + 2\] so we identify $n = 1$, $a = -3$, $h = -1$, and $k = 2$.  We start with the graph of $y = \frac{1}{t}$ with points $(-1,-1)$, $(1,1)$ and asymptotes $t = 0$ and $y =0$ and track these through each of the steps.
 
-Step 1:  Add $-1$ to each of the $t$-coordinates of each of the points on the graph of $y = \frac{1}{t}$. This moves the vertical asymptote from $t=0$ to $t = -1$. 
+Step 1:  Add $-1$ to each of the $t$-coordinates of each of the points on the graph of $y = \frac{1}{t}$. This moves the vertical asymptote from $t=0$ to $t = -1$. See \autoref{fig:shiftt}.
 
+\begin{figure}
+\begin{center}
+  
 \[ \begin{array}{ccc}
 
-
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfpic}[10]{-5}{5}{-5}{5}
 \axes
 \scriptsize
 \tlabel[cc](5, -0.5){$t$}
@@ -430,14 +463,11 @@ Step 1:  Add $-1$ to each of the $t$-coordinates of each of the points on the gr
 \point[4pt]{(-1,-1), (1,1)}
 \tcaption{\scriptsize $y = \frac{1}{t}$}
 \end{mfpic}
-
-
-
 &
-\stackrel{\text{ \scriptsize add $-1$ to each $t$-coordinate}}{\xrightarrow{\hspace{1.5in}}}
+\stackrel{\text{\parbox{.5in}{\scriptsize add $-1$ to each $t$-coordinate}}}{\xrightarrow{\hspace{.5in}}}
 &
 
-\begin{mfpic}[15]{-6}{4}{-5}{5}
+\begin{mfpic}[10]{-6}{4}{-5}{5}
 \axes
 \dashed \polyline{(-1,-5), (-1,5)}
 \scriptsize
@@ -458,12 +488,19 @@ Step 1:  Add $-1$ to each of the $t$-coordinates of each of the points on the gr
  
  \end{array} \]
 
-Step 2:   multiply each of the $y$-coordinates of each of the points on the graph of $y = \frac{1}{t+1}$ by $-3$. 
+\caption{}
+\label{fig:shiftt}
+\end{center}
+\end{figure}
 
+Step 2:   multiply each of the $y$-coordinates of each of the points on the graph of $y = \frac{1}{t+1}$ by $-3$. See \autoref{fig:scaleybyminus3}.
+
+\begin{figure}
+\begin{center}
+  
 \[ \begin{array}{ccc}
 
-
-\begin{mfpic}[15]{-6}{4}{-5}{5}
+\begin{mfpic}[10]{-6}{4}{-5}{5}
 \axes
 \dashed \polyline{(-1,-5), (-1,5)}
 \scriptsize
@@ -480,13 +517,11 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 \tcaption{\scriptsize $y= \frac{1}{t+1}$}
 \end{mfpic} 
 
-
-
 &
-\stackrel{\text{ \scriptsize multiply each $y$-coordinate by $-3$}}{\xrightarrow{\hspace{1.5in}}}
+\stackrel{\text{\parbox{0.5in}{\scriptsize multiply each $y$-coordinate by $-3$}}}{\xrightarrow{\hspace{.5in}}}
 &
 
-\begin{mfpic}[15]{-6}{4}{-5}{5}
+\begin{mfpic}[10]{-6}{4}{-5}{5}
 \axes
 \dashed \polyline{(-1,-5), (-1,5)}
 \scriptsize
@@ -506,13 +541,20 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 \text{\scriptsize   $(-2,1)$,  $(0,1)$} & & \text{\scriptsize    $(-2,3)$,  $(0,-3)$} \\
  
  \end{array} \]
- 
- Step 3:   add $2$ to each of the  $y$-coordinates of each of the points on the graph of $y = \frac{-3}{t+1}$.  This moves the horizontal asymptote from $y = 0$ to $y = 2$. 
 
+\caption{}
+\label{fig:scaleybyminus3}
+\end{center}
+\end{figure}
+ 
+ Step 3:   add $2$ to each of the  $y$-coordinates of each of the points on the graph of $y = \frac{-3}{t+1}$.  This moves the horizontal asymptote from $y = 0$ to $y = 2$. See \autoref{fig:shiftybytwo}.
+
+\begin{figure}
+\begin{center}
+  
 \[ \begin{array}{ccc}
 
-
-\begin{mfpic}[15]{-6}{4}{-5}{5}
+\begin{mfpic}[10]{-6}{4}{-5}{5}
 \axes
 \dashed \polyline{(-1,-5), (-1,5)}
 \scriptsize
@@ -529,13 +571,11 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 \tcaption{\scriptsize $y= \frac{-3}{t+1}$}
 \end{mfpic}
 
-
-
 &
-\stackrel{\text{ \scriptsize add $2$ to each $y$-coordinate}}{\xrightarrow{\hspace{1.5in}}}
+\stackrel{\text{\parbox{.5in}{\scriptsize add $2$ to each $y$-coordinate}}}{\xrightarrow{\hspace{.5in}}}
 &
 
-\begin{mfpic}[15]{-6}{4}{-3}{7}
+\begin{mfpic}[10]{-6}{4}{-3}{7}
 \axes
 \dashed \polyline{(-1,-3), (-1,7)}
 \dashed \polyline{(-6,2), (4,2)}
@@ -556,7 +596,12 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 
 \text{\scriptsize   $(-2,3)$,  $(0,-3)$, HA $y = 0$} & & \text{\scriptsize    $(-2,5)$,  $(0,-1)$, HA $y = 2$} \\
  
- \end{array}\]
+\end{array}\]
+
+\caption{}
+\label{fig:shiftybytwo}
+\end{center}
+\end{figure}
  
 As above, we determine the domain and range of $g$ by tracking the changes in the domain and range of $y = \frac{1}{t}$.  We find the domain of $g$ is $(-\infty, -1) \cup (-1, \infty)$ and the range is $(-\infty, 2) \cup (2, \infty)$.  \qed
 
@@ -594,12 +639,14 @@ We take time now to focus on behaviors of the graphs of rational functions near 
 
 \item  To find when the population reaches $100,\! 000$, we first need to remember that $P(t)$ is measured in \textit{thousands}.  In other words, $100,\! 000$ bacteria corresponds to $P(t) = 100$.  Hence, we need to solve  $P(t) = \frac{100}{(5-t)^2} = 100$.  Clearing denominators and dividing by $100$ gives $(5-t)^2=1$, which, after extracting square roots, produces $t = 4$ or $t=6$.  Of these two solutions, only $t=4$ in our domain, so this is the solution we keep.  Hence, it takes $4$ days for the population of bacteria to reach $100,\! 000$.
 
-\item After a slight re-write, we have $P(t) = \frac{100}{(5-t)^2} = \frac{100}{[(-1)(t-5)]^2} = \frac{100}{(t-5)^2}$.  Using Theorem \ref{linearlaurentlgraphs}, we start with the graph of $y = \frac{1}{t^2}$ below on the left.  After shifting the graph to the right $5$ units and stretching it vertically by a factor of $100$ (note, the graphs are not to scale!), we restrict the domain to  $0 \leq t < 5$ to arrive at the graph of $y = P(t)$ below on the right.
+\item After a slight re-write, we have $P(t) = \frac{100}{(5-t)^2} = \frac{100}{[(-1)(t-5)]^2} = \frac{100}{(t-5)^2}$.  Using Theorem \ref{linearlaurentlgraphs}, we start with the graph of $y = \frac{1}{t^2}$ in \autoref{fig:applythmthreeoneone} on the left.  After shifting the graph to the right $5$ units and stretching it vertically by a factor of $100$ (note, the graphs are not to scale!), we restrict the domain to  $0 \leq t < 5$ to arrive at the graph of $y = P(t)$ in the same figure on the right.
 
+\begin{figure}
+\begin{center}
+  
 \[ \begin{array}{ccc}
 
-
-\begin{mfpic}[15]{-5}{5}{-1}{9}
+\begin{mfpic}[10]{-5}{5}{-1}{9}
 \axes
 \scriptsize
 \tlabel[cc](5, -0.5){$t$}
@@ -617,11 +664,11 @@ We take time now to focus on behaviors of the graphs of rational functions near 
 
 &
 
-\stackrel{\text{Theorem \ref{linearlaurentlgraphs}}}{\xrightarrow{\hspace{1.5in}}}
+\stackrel{\text{\parbox{.5in}{\centering Theorem \ref{linearlaurentlgraphs}}}}{\xrightarrow{\hspace{.5in}}}
 
 &
 
-\begin{mfpic}[15]{-1}{6}{-1}{9}
+\begin{mfpic}[10]{-1}{6}{-1}{9}
 \axes
 \dashed \polyline{(5, -1), (5,9)}
 \scriptsize
@@ -641,6 +688,10 @@ We take time now to focus on behaviors of the graphs of rational functions near 
  
  \end{array} \]
 
+\caption{}
+\label{fig:applythmthreeoneone}
+\end{center}
+\end{figure}
 
 \item We see that as  $t \rightarrow 5^{-}$, $P(t) \rightarrow \infty$. This means that the population of bacteria is increasing without bound as we near 5 days, which cannot actually happen.  For this reason, $t=5$ is called the `doomsday' for this population. There is no way any environment can support infinitely many bacteria, so shortly before $t = 5$ the environment would collapse. \qed
 
@@ -648,7 +699,7 @@ We take time now to focus on behaviors of the graphs of rational functions near 
 
 Will all  values excluded from the domain of a rational function produce vertical asymptotes in the graph?  The short answer is `no.'  There are milder interruptions that can occur - holes in the graph - which we explore in our next example.  To this end, we formalize the notion of \textit{average velocity} - a concept we first encountered in  Example \ref{ARCRocketExample} in Section \ref{ConstantandLinearFunctions}. In that example, the function $s(t) = -5t^2+100t$, $0 \leq t \leq 20$ gives the height of a model rocket above the Moon's surface, in feet,  $t$ seconds after liftoff.  The function $s$ an example of a \index{position function}\index{function ! position}\textbf{position function} since it provides information about \textit{where} the rocket is at time $t$.   In that example, we interpreted the average rate of change of $s$ over an interval as the average velocity of the rocket over that interval.  The average velocity provides two pieces of information:  the average speed of the rocket along with the rocket's direction.  Suppose we have a position function $s$ defined over an interval containing some fixed time $t_{0}$.  We can define the average velocity as a function of any time $t$ other than $t_{0}$:
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{averagevelocitydefn} Suppose $s(t)$ gives the position of an object at time $t$ and $t_{0}$ is a fixed time in the domain of $s$.  The \index{average velocity}\index{velocity ! average}\textbf{average velocity} between time $t$ and time $t_{0}$ is given by
 
@@ -658,7 +709,7 @@ provided $t \neq t_{0}$.
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
 It is clear why we must exclude $t = t_{0}$ from the domain of $\overline{v}$ in Definition \ref{averagevelocitydefn} since otherwise we would have a $0$ in the denominator.  What is interesting in this case however, is that substituting $t = t_{0}$ also produces $0$ in the \textit{numerator}. (Do you see why?)  While `$\frac{0}{0}$' is undefined, it is more precisely called an `indeterminate form' and is studied extensively in Calculus.  We can nevertheless explore this function in the next example.
 
@@ -698,11 +749,11 @@ Since  domain of $s$ is  $0 \leq t \leq 20$, our final answer is $\overline{v}(t
 
 \item  From the graph, we see as  $t \rightarrow 15$, $\overline{v}(t) \rightarrow -50$.  (This is also borne out in the numerically in the tables below.)   This means as we sample the average velocity between time $t_{0} = 15$ and and times closer and closer to $15$, the average velocity approaches $-50$.  This value is how we define the \index{velocity ! instantaneous}\index{instantaneous velocity} \textbf{instantaneous velocity} - that is, \textit{at} $t=15$ seconds, the rocket is falling at a rate of $50$ feet per second towards the surface of the Moon.
 
+\begin{figure}
 
+\begin{minipage}[b]{0.5\textwidth}
 \begin{center}
 
-\begin{tabular}{m{2.5in}m{2.5in}}
-  
 \begin{mfpic}[15]{-1}{5}{-8}{3}
 \axes
 \axismarks{x}{1,2,3,4}
@@ -722,8 +773,13 @@ Since  domain of $s$ is  $0 \leq t \leq 20$, our final answer is $\overline{v}(t
 \tcaption{\scriptsize $y=\overline{v}(t)$}
 \end{mfpic}
 
-&
-
+\caption{}
+\label{fig:velocitygraph}
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.5\textwidth}
+\begin{center}
+  
 $\begin{array}{|r||c|}  \hline
   t & \overline{v}(t)  \\ \hline
  14.9 & -49.5  \\  \hline
@@ -733,11 +789,14 @@ $\begin{array}{|r||c|}  \hline
 15.001 & -50.005 \\  \hline
 15.01 & -50.05 \\  \hline  
 15.1 & -50.5 \\  \hline 
-  \end{array} $ \\
+  \end{array} $ 
 
-\end{tabular}
-
+\captionof{table}{}
+\label{tab:velocitydata}
 \end{center}
+\end{minipage}
+
+\end{figure}
 
 \end{enumerate}
 
@@ -747,7 +806,7 @@ $\begin{array}{|r||c|}  \hline
 
 If nothing else, Example \ref{averagevelocityrocketex} shows us that just because a value is excluded from the domain of a rational function doesn't mean there will be a vertical asymptote to the graph there.  In this case, the factor $(t-15)$ cancelled from the denominator, thereby effectively removing the threat of dividing by $0$. It turns out, this situation generalizes to the theorem below. 
  
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 \begin{thm}  \textbf{Location of Vertical Asymptotes and Holes:}\footnote{Or, `How to tell your asymptote from a hole in the graph.'}  \label{vavshole}  Suppose $r$ is a rational function which can be written as $r(x) = \frac{p(x)}{q(x)}$ where $p$ and $q$ have no common zeros.\footnote{In other words, $r(x)$ is in lowest terms.}  Let $c$ be a real number which is not in the domain of $r$. \index{hole ! location of} \index{asymptote ! vertical ! location of} \index{vertical asymptote ! location of}
 
 \begin{itemize}
@@ -760,7 +819,7 @@ If nothing else, Example \ref{averagevelocityrocketex} shows us that just becaus
 
 \end{thm}
 
-\ebm}
+\end{tcolorbox}
 
 In English,  Theorem \ref{vavshole} says that if $x=c$ is not in the domain of $r$ but, when we simplify $r(x)$, it no longer makes the denominator $0$, then we have a hole at $x=c$.  Otherwise, the line $x=c$ is a vertical asymptote  of the graph of $y=r(x)$.   Like many properties of rational functions, we owe Theorem \ref{vavshole} to Calculus, but that won't stop us from  putting Theorem \ref{vavshole} to good use in the following example.
 
@@ -780,67 +839,66 @@ In English,  Theorem \ref{vavshole} says that if $x=c$ is not in the domain of $
 
 \end{itemize}
 
-\begin{multicols}{2}
-\begin{enumerate}
-
+\begin{shortenumerate}[MMMMMM]
 \item  $f(x) = \dfrac{2x}{x^2-3}$
-
 \item  $g(t) = \dfrac{t^2-t-6}{t^2-9}$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{2}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-
 \item  $h(t) = \dfrac{t^2-t-6}{t^2+9}$
-
 \item  $r(t) = \dfrac{t^2-t-6}{t^2+6t+9}$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
+\end{shortenumerate}
 
 
 { \bf Solution.} 
 
 \begin{enumerate}
 
-\item  To use Theorem \ref{vavshole}, we first find all of the real numbers which aren't in the domain of $f$.  To do so, we solve $x^2 - 3 = 0$ and get $x = \pm \sqrt{3}$.  Since the expression $f(x)$ is in lowest terms (can you see why?), there is no cancellation possible, and we conclude that the lines $x = -\sqrt{3}$ and $x=\sqrt{3}$ are vertical asymptotes to the graph of $y=f(x)$.  The  graphing utility verifies this claim, and from the graph, we see that as $x \rightarrow -\sqrt{3}^{\, -}$, $f(x) \rightarrow -\infty$, as $x\rightarrow -\sqrt{3}^{\, +}$, $f(x) \rightarrow \infty$, as $x \rightarrow \sqrt{3}^{\, -}$, $f(x) \rightarrow -\infty$, and finally as $x\rightarrow \sqrt{3}^{\, +}$, $f(x) \rightarrow \infty$.  As a side note, the graph of $f$ appears to be symmetric about the origin.  Sure enough, we find: $f(-x) = \frac{2(-x)}{(-x)^2-3} = -\frac{2x}{x^2-3} = -f(x)$, proving $f$ is odd.
+\item  To use Theorem \ref{vavshole}, we first find all of the real numbers which aren't in the domain of $f$.  To do so, we solve $x^2 - 3 = 0$ and get $x = \pm \sqrt{3}$.  Since the expression $f(x)$ is in lowest terms (can you see why?), there is no cancellation possible, and we conclude that the lines $x = -\sqrt{3}$ and $x=\sqrt{3}$ are vertical asymptotes to the graph of $y=f(x)$.  The  graphing utility verifies this claim, and from the graph in \autoref{fig:yeqfxeqtwoxbyxsquaredminusthree}, we see that as $x \rightarrow -\sqrt{3}^{\, -}$, $f(x) \rightarrow -\infty$, as $x\rightarrow -\sqrt{3}^{\, +}$, $f(x) \rightarrow \infty$, as $x \rightarrow \sqrt{3}^{\, -}$, $f(x) \rightarrow -\infty$, and finally as $x\rightarrow \sqrt{3}^{\, +}$, $f(x) \rightarrow \infty$.  As a side note, the graph of $f$ appears to be symmetric about the origin.  Sure enough, we find: $f(-x) = \frac{2(-x)}{(-x)^2-3} = -\frac{2x}{x^2-3} = -f(x)$, proving $f$ is odd.
 
-\item  As above, we find the values excluded from the domain of $g$ by setting the denominator equal to $0$.  Solving $t^2 - 9 = 0$ gives $t = \pm 3$.  In lowest terms $g(t) = \frac{t^2-t-6}{t^2-9} = \frac{(t-3)(t+2)}{(t-3)(t+3)} = \frac{t+2}{t+3}$.  Since $t=-3$ continues to be a zero of the denominator in the reduced formula, we know the line $t=-3$ is a vertical asymptote to the graph of $y=g(t)$.  Since $t=3$  does not produce a `$0$' in the denominator of the reduced formula,  we have a hole at $t=3$.  To find the $y$-coordinate of the hole, we substitute $t=3$ into the reduced formula: $\frac{t+2}{t+3} = \frac{3+2}{3+3} = \frac{5}{6}$  so  the hole is at $\left(3, \frac{5}{6}\right)$. Graphing $g$ we can definitely see the vertical asymptote $t=-3$:  as  $t \rightarrow -3^{-}$, $g(t) \rightarrow \infty$ and as $t \rightarrow -3^{+}$, $g(t) \rightarrow -\infty$.  Near $t=3$, the graph seems to have no interruptions (but we know $g$ is undefined at $t=3$.) Since $g$ appears to be increasing on $(-3, \infty)$,  we write as  $t\rightarrow 3^{-}$, $g(t) \rightarrow \frac{5}{6}^{-}$, and as $t \rightarrow 3^{+}$, $g(t) \rightarrow \frac{5}{6}^{+}$.
+\item  As above, we find the values excluded from the domain of $g$ by setting the denominator equal to $0$.  Solving $t^2 - 9 = 0$ gives $t = \pm 3$.  In lowest terms $g(t) = \frac{t^2-t-6}{t^2-9} = \frac{(t-3)(t+2)}{(t-3)(t+3)} = \frac{t+2}{t+3}$.  Since $t=-3$ continues to be a zero of the denominator in the reduced formula, we know the line $t=-3$ is a vertical asymptote to the graph of $y=g(t)$.  Since $t=3$  does not produce a `$0$' in the denominator of the reduced formula,  we have a hole at $t=3$.  To find the $y$-coordinate of the hole, we substitute $t=3$ into the reduced formula: $\frac{t+2}{t+3} = \frac{3+2}{3+3} = \frac{5}{6}$  so  the hole is at $\left(3, \frac{5}{6}\right)$. Graphing $g$ (\autoref{fig:yeqfxeqtwoxbyxsquaredminusthree}) we can definitely see the vertical asymptote $t=-3$:  as  $t \rightarrow -3^{-}$, $g(t) \rightarrow \infty$ and as $t \rightarrow -3^{+}$, $g(t) \rightarrow -\infty$.  Near $t=3$, the graph seems to have no interruptions (but we know $g$ is undefined at $t=3$.) Since $g$ appears to be increasing on $(-3, \infty)$,  we write as  $t\rightarrow 3^{-}$, $g(t) \rightarrow \frac{5}{6}^{-}$, and as $t \rightarrow 3^{+}$, $g(t) \rightarrow \frac{5}{6}^{+}$.
 
+\begin{figure}
+\begin{center}
+  
+\includegraphics[width=3in]{./IntroRationalGraphics/VAorHoleEx01.jpg}
+
+\caption{The graph of $y=f(x)$}
+\label{fig:yeqfxeqtwoxbyxsquaredminusthree}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+  
+\includegraphics[width=3in]{./IntroRationalGraphics/VAorHoleEx02.jpg}
+
+\caption{The graph of $y=g(t)$}
+\label{fig:yeqfxeqtsquaredetc}
+\end{center}
+\end{figure}
+
+\item  Setting the denominator of the expression for $h(t)$ to $0$ gives $t^2+9 = 0$, which ahs has no real solutions.  Accordingly, the graph of $y=h(t)$ (at least as much as we can discern from the technology) is devoid of both vertical asymptotes and holes. See \autoref{fig:yeqht}
+
+\item  Setting the denominator of $r(t)$ to zero gives the equation $t^2+6t+4 = 0$.  We get  the (repeated!) solution $t=-2$.  Simplifying, we see  $r(t) = \frac{t^2-t-6}{t^2+4t+4} = \frac{(t-3)(t+2)}{(t+2)^2} = \frac{t-3}{t+2}$.  Since $t=-2$ continues to produce a $0$ in the denominator of the reduced function, we know $t=-2$ is a vertical asymptote to the graph.  The calculator bears this out (\autoref{fig:yeqrt}), and, moreover, we see that as $t \rightarrow -2^{-}$, $r(t) \rightarrow \infty$ and as $t \rightarrow -2^{+}$, $r(t) \rightarrow -\infty$.
+
+
+\begin{figure}
 \begin{center}
 
-\begin{tabular}{cc}
+\includegraphics[width=3in]{./IntroRationalGraphics/VAorHoleEx03.jpg}
 
-\includegraphics[width=3in]{./IntroRationalGraphics/VAorHoleEx01.jpg} & \includegraphics[width=3in]{./IntroRationalGraphics/VAorHoleEx02.jpg} \\
+\caption{The graph of $y=h(t)$}
+\label{fig:yeqht}
+\end{center}
+\end{figure}
 
-The graph of $y=f(x)$  \hspace{0.75in} & The graph of $y=g(t)$ \\
-
-
-\end{tabular}
-\end{center} 
-
-\item  Setting the denominator of the expression for $h(t)$ to $0$ gives $t^2+9 = 0$, which ahs has no real solutions.  Accordingly, the graph of $y=h(t)$ (at least as much as we can discern from the technology) is devoid of both vertical asymptotes and holes.
-
-\item  Setting the denominator of $r(t)$ to zero gives the equation $t^2+6t+4 = 0$.  We get  the (repeated!) solution $t=-2$.  Simplifying, we see  $r(t) = \frac{t^2-t-6}{t^2+4t+4} = \frac{(t-3)(t+2)}{(t+2)^2} = \frac{t-3}{t+2}$.  Since $t=-2$ continues to produce a $0$ in the denominator of the reduced function, we know $t=-2$ is a vertical asymptote to the graph.  The calculator bears this out, and, moreover, we see that as $t \rightarrow -2^{-}$, $r(t) \rightarrow \infty$ and as $t \rightarrow -2^{+}$, $r(t) \rightarrow -\infty$.
-
-
+\begin{figure}
 \begin{center}
+  
+\includegraphics[width=3in]{./IntroRationalGraphics/VAorHoleEx04.jpg} 
 
-\begin{tabular}{cc}
-
-\includegraphics[width=3in]{./IntroRationalGraphics/VAorHoleEx03.jpg} & \includegraphics[width=3in]{./IntroRationalGraphics/VAorHoleEx04.jpg} \\
-
-The graph of $y=h(t)$  \hspace{0.75in} & The graph of $y=r(t)$ \\
-
-
-\end{tabular}
-\end{center} 
+\caption{The graph of $y=r(t)$}
+\label{fig:yeqrt}
+\end{center}
+\end{figure}
 
 \end{enumerate}
 \qed
@@ -875,12 +933,14 @@ Now that we've thoroughly discussed behavior near values excluded from the domai
 
 \item To graph $y = N(t)$, we first use long division to rewrite $N(t) = \frac{-450}{3t+1} + 500$.  From there, we get  \[N(t) =  -\frac{450}{3t+1} + 500  = \frac{-450}{3\left(t + \frac{1}{3}\right)} + 500 = \frac{-150}{t+\frac{1}{3}} + 500\]
 
-Using Theorem \ref{linearlaurentlgraphs}, we start with the graph of $y = \frac{1}{t}$ below on the left and perform the following steps: shift the graph to the left by $\frac{1}{3}$ units, stretch the graph vertically by a factor of $150$, reflect the graph across the $t$-axis, and finally, shift the graph up $500$ units.   As the domain of $N$ is $t \geq 0$, we obtain the graph below on the right.
+Using Theorem \ref{linearlaurentlgraphs}, we start with the graph of $y = \frac{1}{t}$ in \autoref{fig:yrqnt} on the left and perform the following steps: shift the graph to the left by $\frac{1}{3}$ units, stretch the graph vertically by a factor of $150$, reflect the graph across the $t$-axis, and finally, shift the graph up $500$ units.   As the domain of $N$ is $t \geq 0$, we obtain the graph on the right of the same figure.
 
+\begin{figure}
+\begin{center}
+  
 \[ \begin{array}{ccc}
 
-
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfpic}[10]{-5}{5}{-5}{5}
 \axes
 \scriptsize
 \tlabel[cc](5, -0.5){$t$}
@@ -895,13 +955,12 @@ Using Theorem \ref{linearlaurentlgraphs}, we start with the graph of $y = \frac{
 \tcaption{\scriptsize $y =  \frac{1}{t}$}
 \end{mfpic}
 
+&
+\stackrel{\text{\parbox{0.5in}{\centering Theorem \ref{linearlaurentlgraphs}}}}{\xrightarrow{\hspace{.5in}}}
 
 &
-\stackrel{\text{Theorem \ref{linearlaurentlgraphs}}}{\xrightarrow{\hspace{1.5in}}}
 
-&
-
-\begin{mfpic}[15]{-1}{9}{-1}{9}
+\begin{mfpic}[10]{-1}{9}{-1}{9}
 \axes
 \dashed \polyline{(-1,5), (9,5)}
 \scriptsize
@@ -922,7 +981,10 @@ Using Theorem \ref{linearlaurentlgraphs}, we start with the graph of $y = \frac{
  
  \end{array} \]
 
-
+\caption{}
+\label{fig:yeqnt}
+\end{center}
+\end{figure}
   
 \item  From the graph, we see as $t \rightarrow \infty$, $N(t) \rightarrow 500$. (More specifically, $500^{-}$.)  This means as time goes by, only a total of 500 students will have ever had the flu. \qed
 
@@ -937,7 +999,7 @@ Using Theorem \ref{linearlaurentlgraphs}, we start with the graph of $y = \frac{
 Hence as $t \rightarrow \pm \infty$, $y = N(t) \rightarrow 500$, producing the horizontal asymptote $y = 500$.  This same reasoning can be used in general to argue the following theorem.
 
 \smallskip
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm} \index{asymptote ! horizontal ! location of}\index{horizontal asymptote ! location of}\textbf{Location of Horizontal Asymptotes:}\label{hathm} Suppose $r$ is a rational function and $r(x) = \frac{p(x)}{q(x)}$, where $p$ and $q$ are polynomial functions with leading coefficients $a$ and $b$, respectively. 
 
@@ -952,7 +1014,7 @@ Hence as $t \rightarrow \pm \infty$, $y = N(t) \rightarrow 500$, producing the h
 
 \end{itemize}
 \end{thm}
-\ebm}
+\end{tcolorbox}
 \smallskip
 
 \end{ex}
@@ -983,62 +1045,63 @@ We put Theorem \ref{hathm}  to good use in the following example.
 
 \end{itemize}
 
-\begin{multicols}{2}
-\begin{enumerate}
-
+\begin{shortenumerate}[MMMMMMM]
 \item $F(s) = \dfrac{5s}{s^2+1}$  \vphantom{ $g(x) = \dfrac{x^2-4}{x+1}$}
-
 \item  $g(x) = \dfrac{x^2-4}{x+1}$ 
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{2}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-
 \item  $h(t) = \dfrac{6t^3-3t+1}{5-2t^3}$
-
 \item  $r(x) = 2 - \dfrac{3x^2}{1-x^2}$ \vphantom{ $h(t) = \dfrac{6t^3-3t+1}{5-2t^3}$}
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
+\end{shortenumerate}
 
 { \bf Solution.}
 
 \begin{enumerate}
 
-\item  Using  Theorem \ref{EBPolynomials}, we get as $s \pm \infty$, $F(s) = \frac{5s}{s^2+1}  \approx \frac{5s}{s^2} = \frac{5}{s}$.  Hence, as $s \rightarrow \infty$, $F(s) \rightarrow 0$, so $y = 0$ is a horizontal asymptote to the graph of $y = F(s)$.  To check, we note that since the degree of the  numerator of $F(s)$,  $1$, is less than the degree of the denominator, $2$ Theorem \ref{hathm} gives  $y=0$ is the horizontal asymptote.  Graphically, we see as  $s \rightarrow  \pm \infty$, $F(s) \rightarrow 0$.  More specifically, as $s \rightarrow -\infty$, $F(s)  \rightarrow 0^{-}$ and as $s \rightarrow \infty$, $F(s)  \rightarrow 0^{+}$.  As a side note, the graph of $F$ appears to be symmetric about the origin.  Indeed, $F(-s) = \frac{5(-s)}{(-s)^2+1} = -\frac{5s}{s^2+1}$ proving $F$ is odd.
+\item  Using  Theorem \ref{EBPolynomials}, we get as $s \pm \infty$, $F(s) = \frac{5s}{s^2+1}  \approx \frac{5s}{s^2} = \frac{5}{s}$.  Hence, as $s \rightarrow \infty$, $F(s) \rightarrow 0$, so $y = 0$ is a horizontal asymptote to the graph of $y = F(s)$.  To check, we note that since the degree of the  numerator of $F(s)$,  $1$, is less than the degree of the denominator, $2$ Theorem \ref{hathm} gives  $y=0$ is the horizontal asymptote.  Graphically, we see as  $s \rightarrow  \pm \infty$, $F(s) \rightarrow 0$.  More specifically, as $s \rightarrow -\infty$, $F(s)  \rightarrow 0^{-}$ and as $s \rightarrow \infty$, $F(s)  \rightarrow 0^{+}$.  As a side note, the graph of $F$ appears to be symmetric about the origin.  Indeed, $F(-s) = \frac{5(-s)}{(-s)^2+1} = -\frac{5s}{s^2+1}$ proving $F$ is odd. See \autoref{fig:yeqfseqfivesetc}.
 
-\item  As $x \rightarrow \pm \infty$, $g(x) = \frac{x^2-4}{x+1} \approx \frac{x^2}{x} = x$, and while $y = x$ is a line, it is not a horizontal line.  Hence, we conclude the graph of $y = g(x)$ has no horizontal asymptotes.  Sure enough,  Theorem \ref{hathm} supports this since the degree of the numerator of $g(x)$ is $2$ which is greater than the degree of the denominator, $1$.     By, there is no horizontal asymptote.  From the graph, we see that the graph of $y=g(x)$ doesn't appear to level off to a constant value, so there is no horizontal asymptote.\footnote{Sit tight!  We'll revisit this function and its end behavior shortly.}
+\item  As $x \rightarrow \pm \infty$, $g(x) = \frac{x^2-4}{x+1} \approx \frac{x^2}{x} = x$, and while $y = x$ is a line, it is not a horizontal line.  Hence, we conclude the graph of $y = g(x)$ has no horizontal asymptotes.  Sure enough,  Theorem \ref{hathm} supports this since the degree of the numerator of $g(x)$ is $2$ which is greater than the degree of the denominator, $1$.     By, there is no horizontal asymptote.  From the graph (\autoref{fig:yeqgx}), we see that the graph of $y=g(x)$ doesn't appear to level off to a constant value, so there is no horizontal asymptote.\footnote{Sit tight!  We'll revisit this function and its end behavior shortly.}
 
+\begin{figure}
 \begin{center}
-\begin{tabular}{cc}
 
-\includegraphics[width=3in]{./IntroRationalGraphics/HAEx01.jpg}  & \includegraphics[width=3in]{./IntroRationalGraphics/HAEx02.jpg} \\
-The graph of $y=F(s)$  & The graph of $y=g(x)$ \\
+\includegraphics[width=3in]{./IntroRationalGraphics/HAEx01.jpg}
 
+\caption{The graph of $y=F(s)$}
+\label{fig:yeqfseqfivesetc}
+\end{center}
+\end{figure}
 
-\end{tabular}
-\end{center} 
-
-\item  We have $h(t) = \frac{6t^3-3t+1}{5-2t^3} \approx  \frac{6t^3}{-2t^3} = -3$ as $t \rightarrow \pm \infty$, indicating a horizontal asymptote $y = -3$.  Sure enough, since the degrees of the numerator and denominator of $h(t)$ are both three,  Theorem \ref{hathm} tells us $y = \frac{6}{-2} = -3$ is the horizontal asymptote.  We see from the graph of $y = h(t)$ that as $t \rightarrow -\infty$, $h(t) \rightarrow -3^{+}$, and as $t \rightarrow \infty$, $h(t) \rightarrow -3^{-}$.
-
-\item  If we apply Theorem \ref{EBPolynomials} to the term  $\frac{3x^2}{1-x^2}$ in the expression for $r(x)$, we find   $\frac{3x^2}{1-x^2} \approx \frac{3x^2}{-x^2} = -3$ as $x \rightarrow \pm \infty$.  It  seems reasonable to conclude, then, that  $r(x) = 2 - \frac{3x^2}{1-x^2} \approx 2 - (-3) = 5$ so $y = 5$ is our horizontal asymptote.  In order to use Theorem \ref{hathm} as stated, however, we need to rewrite the expression $r(x)$ with a single denominator:  $r(x) = 2 - \frac{3x^2}{1-x^2} = \frac{2(1-x^2) - 3x^2}{1-x^2} = \frac{2-5x^2}{1-x^2}$.  Now we apply Theorem \ref{hathm}  and note since the numerator and denominator have the same degree, we are guaranteed the horizontal asymptote is $y = \frac{-5}{-1} = 5$.  These calculations are borne out graphically below where it appears as if as $x \rightarrow \pm \infty$, $r(x) \rightarrow 5^{+}$.  As a final note, the graph of $r$ appears to be symmetric about the $y$ axis.  We find $r(-x) = 2 - \frac{3(-x)^2}{1-(-x)^2} = 2 - \frac{3x^2}{1-x^2} = r(x)$, proving $r$ is even.
-
+\begin{figure}
 \begin{center}
-\begin{tabular}{cc}
+  
+\includegraphics[width=3in]{./IntroRationalGraphics/HAEx02.jpg}
+\caption{The graph of $y=g(x)$}
+\label{fig:yeqgx}
+\end{center}
+\end{figure}
 
-\includegraphics[width=3in]{./IntroRationalGraphics/HAEx03.jpg}  & \includegraphics[width=3in]{./IntroRationalGraphics/HAEx04.jpg} \\
-The graph of $y=h(t)$  & The graph of $y=r(x)$ \\
+\item  We have $h(t) = \frac{6t^3-3t+1}{5-2t^3} \approx  \frac{6t^3}{-2t^3} = -3$ as $t \rightarrow \pm \infty$, indicating a horizontal asymptote $y = -3$.  Sure enough, since the degrees of the numerator and denominator of $h(t)$ are both three,  Theorem \ref{hathm} tells us $y = \frac{6}{-2} = -3$ is the horizontal asymptote.  We see from the graph of $y = h(t)$ (\autoref{fig:yeqhteqsixtcubedetc}) that as $t \rightarrow -\infty$, $h(t) \rightarrow -3^{+}$, and as $t \rightarrow \infty$, $h(t) \rightarrow -3^{-}$.
 
+\item  If we apply Theorem \ref{EBPolynomials} to the term  $\frac{3x^2}{1-x^2}$ in the expression for $r(x)$, we find   $\frac{3x^2}{1-x^2} \approx \frac{3x^2}{-x^2} = -3$ as $x \rightarrow \pm \infty$.  It  seems reasonable to conclude, then, that  $r(x) = 2 - \frac{3x^2}{1-x^2} \approx 2 - (-3) = 5$ so $y = 5$ is our horizontal asymptote.  In order to use Theorem \ref{hathm} as stated, however, we need to rewrite the expression $r(x)$ with a single denominator:  $r(x) = 2 - \frac{3x^2}{1-x^2} = \frac{2(1-x^2) - 3x^2}{1-x^2} = \frac{2-5x^2}{1-x^2}$.  Now we apply Theorem \ref{hathm}  and note since the numerator and denominator have the same degree, we are guaranteed the horizontal asymptote is $y = \frac{-5}{-1} = 5$.  These calculations are borne out graphically in \autoref{fig:yeqrxeqtwominusetc} where it appears as if as $x \rightarrow \pm \infty$, $r(x) \rightarrow 5^{+}$.  As a final note, the graph of $r$ appears to be symmetric about the $y$ axis.  We find $r(-x) = 2 - \frac{3(-x)^2}{1-(-x)^2} = 2 - \frac{3x^2}{1-x^2} = r(x)$, proving $r$ is even.
 
-\end{tabular}
-\end{center} 
+\begin{figure}
+\begin{center}
+
+\includegraphics[width=3in]{./IntroRationalGraphics/HAEx03.jpg}
+
+\caption{The graph of $y=h(t)$}
+\label{fig:yeqhteqsixtcubedetc}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+  
+\includegraphics[width=3in]{./IntroRationalGraphics/HAEx04.jpg}
+
+\caption{The graph of $y=r(x)$}
+\label{fig:yeqrxeqtwominusetc}
+\end{center}
+\end{figure}
 
 \end{enumerate}
 
@@ -1046,14 +1109,15 @@ The graph of $y=h(t)$  & The graph of $y=r(x)$ \\
 
 \end{ex}
 
+We close this section with a discussion of the \textit{third} (and final!) kind of asymptote which can be associated with the graphs of rational functions. Let us return to the function $g(x) = \frac{x^2-4}{x+1}$ in Example \ref{haexample}. Performing long division,\footnote{See the remarks following Theorem \ref{hathm}.} we get $g(x) = \frac{x^2-4}{x+1} = x-1 - \frac{3}{x+1}$.  Since the term $\frac{3}{x+1} \rightarrow 0$ as $x \rightarrow \pm \infty$, it stands to reason that as $x$ becomes unbounded, the function values   $g(x) = x-1 - \frac{3}{x+1} \approx x-1$.  Geometrically, this means that the graph of $y=g(x)$ should resemble the line $y = x-1$ as $x \rightarrow \pm \infty$.  We see this play out both numerically and graphically in \autoref{tab:yeqgxvalues} and \autoref{fig:yeqgxeqxsquaredetc} respectively. (As usual, we have the asymptote $y = x-1$ denoted by a dashed line.)
 
-We close this section with a discussion of the \textit{third} (and final!) kind of asymptote which can be associated with the graphs of rational functions. Let us return to the function $g(x) = \frac{x^2-4}{x+1}$ in Example \ref{haexample}. Performing long division,\footnote{See the remarks following Theorem \ref{hathm}.} we get $g(x) = \frac{x^2-4}{x+1} = x-1 - \frac{3}{x+1}$.  Since the term $\frac{3}{x+1} \rightarrow 0$ as $x \rightarrow \pm \infty$, it stands to reason that as $x$ becomes unbounded, the function values   $g(x) = x-1 - \frac{3}{x+1} \approx x-1$.  Geometrically, this means that the graph of $y=g(x)$ should resemble the line $y = x-1$ as $x \rightarrow \pm \infty$.  We see this play out both numerically and graphically below. (As usual, we the asymptote $y = x-1$ is denoted by a dashed line.)
-
+\begin{table}
 \begin{center}
+  
 \begin{tabular}{cc}
 
-$\begin{array}{|r||c|c|}  \hline
-
+\small
+$\begin{array}[t]{|r||c|c|}  \hline
   x & g(x) & x-1 \\ \hline
  -10 & \approx -10.6667 & -11 \\  \hline
  -100 & \approx -100.9697 & -101 \\  \hline 
@@ -1061,58 +1125,52 @@ $\begin{array}{|r||c|c|}  \hline
   -10000 &  \approx -10000.9997 &  -10001 \\ \hline 
   \end{array} $ & 
 
-$\begin{array}{|r||c|c|}  \hline
-
+\small
+$\begin{array}[t]{|r||c|c|}  \hline
   x & g(x) & x-1 \\ \hline
  10 & \approx 8.7273 &    9 \\\hline
  100 & \approx 98.9703 &   99 \\ \hline 
  1000 &  \approx 998.9970 &  999 \\ \hline 
   10000 &  \approx 9998.9997 &   9999 \\ \hline 
   \end{array} $ \\
+
+\end{tabular}
+
+\caption{}
+\label{tab:yeqgxvalues}
+\end{center}
+\end{table}
   
-  \end{tabular}
-  \end{center}
-  
-  
+\begin{figure}
 \begin{center}
    
 \includegraphics[width=4in]{./IntroRationalGraphics/SAEx01.jpg}
 
+\caption{}
+\label{fig:yeqgxeqxsquaredetc}
 \end{center}
+\end{figure}
  
 The way we symbolize the relationship between the end behavior of $y=g(x)$ with that of the line $y=x-1$ is to write `as $x \rightarrow \pm \infty$, $g(x) \rightarrow x-1$' in order to have some notational consistency with what we have done earlier in this section when it comes to end behavior.\footnote{Other notations include $g(x) \asymp x-1$ or $g(x) \sim x-1$.}  In this case, we say the line $y=x-1$ is a \index{asymptote ! slant (oblique)} \index{slant asymptote} \index{oblique asymptote} \textbf{slant asymptote}\footnote{Also called an `oblique' asymptote in some, ostensibly higher class (and more expensive), texts.}  to the graph of $y=g(x)$.  Informally, the graph of a rational function has a slant asymptote if, as $x \rightarrow \infty$ or as $x \rightarrow -\infty$, the graph resembles a non-horizontal, or `slanted' line.  Formally, we define a slant asymptote as follows.
 
-
-\medskip
-
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{sa} The line $y = mx+b$ where $m \neq 0$  is called a \index{asymptote ! slant ! formal definition of}\index{slant asymptote ! formal definition of}\textbf{slant asymptote} of the graph of a function $y=f(x)$ if as $x \rightarrow -\infty$ or as $x \rightarrow \infty$, $f(x)  \rightarrow mx+b$.
 
 
 \end{defn}
-\ebm}
-
-\medskip
-
+\end{tcolorbox}
 
 A few remarks are in order.  First, note that the stipulation $m \neq 0$ in Definition \ref{sa} is what makes the `slant' asymptote `slanted' as opposed to the case when $m=0$ in which case we'd have a horizontal asymptote.  Secondly, while we have motivated what me mean intuitively by the notation `$f(x)  \rightarrow mx+b$,' like so many ideas in this section, the formal definition requires Calculus.  Another way to express this sentiment, however, is to rephrase `$f(x)  \rightarrow mx+b$' as `$[f(x) - (mx+b)] \rightarrow 0$.'  In other words, the graph of $y=f(x)$ has the \textit{slant} asymptote $y = mx+b$ if and only if the graph of $y = f(x) - (mx+b)$ has a \textit{horizontal} asymptote $y=0$.  If we wanted to, we could introduce the notations $f(x) \rightarrow (mx+b)^{+}$ to mean $[f(x)-(mx+b)] \rightarrow 0^{+}$ and $f(x) \rightarrow (mx+b)^{-}$ to mean $[f(x)-(mx+b)] \rightarrow 0^{-}$, but these non-standard notations.\footnote{With the introduction of the symbol `\textinterrobang' in the next section, the authors feel we are in enough trouble already.}
 
-
-
 Our next task is to determine the conditions under which the graph of a rational function has a slant asymptote, and if it does, how to find it.  In the case of $g(x) = \frac{x^2-4}{x+1}$, the degree of the numerator $x^2-4$ is $2$, which is \textit{exactly one more} than the degree if its denominator $x+1$ which is $1$.  This results in a \textit{linear} quotient polynomial, and it is this quotient polynomial which is the slant asymptote.  Generalizing this situation gives us the following theorem.\footnote{Once again, this theorem is brought to you courtesy of Theorem \ref{polydiv} and Calculus.}
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm} \textbf{Determination of Slant Asymptotes:} \label{sathm} Suppose $r$ is a rational function and $r(x) = \frac{p(x)}{q(x)}$, where the degree of $p$ is \textit{exactly} one more than the degree of $q$.  Then the graph of $y=r(x)$ has \index{asymptote ! slant ! determination of}\index{slant asymptote ! determination of} the slant asymptote $y=L(x)$ where $L(x)$ is the quotient obtained by dividing $p(x)$ by $q(x)$.
 
 \end{thm}
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 In the same way that Theorem \ref{hathm} gives us an easy way to see if the graph of a rational function $r(x) = \frac{p(x)}{q(x)}$ has a horizontal asymptote by comparing the degrees of the numerator and denominator, Theorem \ref{sathm} gives us an easy way to check for slant asymptotes.  Unlike Theorem \ref{hathm}, which gives us a quick way to \textit{find} the horizontal asymptotes (if any exist), Theorem \ref{sathm} gives us no such `short-cut'.  If a slant asymptote exists, we have no recourse but to use long division to find it.\footnote{That's OK, though.  In the next section, we'll use long division to analyze end behavior and it's worth the effort!}  
 
@@ -1129,55 +1187,46 @@ In the same way that Theorem \ref{hathm} gives us an easy way to see if the grap
 \end{itemize}
 
 
-\begin{multicols}{2}
-\begin{enumerate}
-
+\begin{shortenumerate}[MMMMMM]
 \item  $f(x) = \dfrac{x^2-4x+2}{1-x}$  
-
 \item  \label{sacancel} $g(t) = \dfrac{t^2-4}{t-2}$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{2}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-
 \item  $h(x) = \dfrac{x^3+1}{x^2-4}$
-
 \item  $r(t) = 2t-1+\dfrac{4t^3}{1-t^2}$ \vphantom{$h(x) = \dfrac{x^3+1}{x^2-4}$}
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-
+\end{shortenumerate}
 
 {\bf Solution.}
 
 \begin{enumerate}
 
-\item  The degree of the numerator is $2$ and the degree of the denominator is $1$, so Theorem \ref{sathm} guarantees us a slant asymptote.  To find it, we divide $1-x = -x+1$ into $x^2-4x+2$ and get a quotient of $-x+3$, so our slant asymptote is $y=-x+3$.  We confirm this graphically below.
+\item  The degree of the numerator is $2$ and the degree of the denominator is $1$, so Theorem \ref{sathm} guarantees us a slant asymptote.  To find it, we divide $1-x = -x+1$ into $x^2-4x+2$ and get a quotient of $-x+3$, so our slant asymptote is $y=-x+3$.  We confirm this graphically in \autoref{fig:yeqfxeqxsquaredetc}.
 
 \item  As with the previous example, the degree of the numerator $g(t) = \frac{t^2-4}{t-2}$ is $2$ and the degree of the denominator is $1$, so Theorem \ref{sathm} applies.  In this case, 
 
 \[ g(t) = \frac{t^2-4}{t-2} = \frac{(t+2)(t-2)}{(t-2)} = \frac{(t+2) \cancel{(t-2)}}{\cancelto{1}{(t-2)}} = t+2, \quad t \neq 2\]
 
-so we have that the slant asymptote $y=t+2$ is identical to the graph of $y=g(t)$ except at $t=2$ (where the latter has a `hole' at $(2,4)$.) While the word `asymptote' has the connotation of `approaching but not equaling,' Definitions \ref{sa} and  \ref{ha} allow for these extreme cases.
+so we have that the slant asymptote $y=t+2$ is identical to the graph of $y=g(t)$ except at $t=2$ (where the latter has a `hole' at $(2,4)$.) While the word `asymptote' has the connotation of `approaching but not equaling,' Definitions \ref{sa} and  \ref{ha} allow for these extreme cases. See \autoref{fig:yeqgteqtsquaredetc}.
 
+\begin{figure}
 \begin{center}
-\begin{tabular}{cc}
 
-\includegraphics[width=3in]{./IntroRationalGraphics/SAEx02.jpg}  & \includegraphics[width=3in]{./IntroRationalGraphics/SAEx03.jpg} \\
-The graph of $y=f(x)$  & The graph of $y=g(t)$ \\
+\includegraphics[width=3in]{./IntroRationalGraphics/SAEx02.jpg}
+ 
+\caption{The graph of $y=f(x)$}
+\label{fig:yeqfxeqxsquaredetc}
+\end{center}
+\end{figure}
 
+\begin{figure}
+\begin{center}
+  
+\includegraphics[width=3in]{./IntroRationalGraphics/SAEx03.jpg}
 
-\end{tabular}
-\end{center} 
+\caption{The graph of $y=g(t)$}
+\label{fig:yeqgteqtsquaredetc}
+\end{center}
+\end{figure}
 
-\item   For $h(x) = \frac{x^3+1}{x^2-4}$, the degree of the numerator is $3$ and the degree of the denominator is $2$ so again, we are guaranteed the existence of a slant asymptote.  The long division $\left(x^3+1 \right) \div \left(x^2-4\right)$ gives a quotient of just $x$, so our slant asymptote is the line $y=x$.  The graphing utility confirms this.  Note the graph of $h$ appears to be symmetric about the origin.  We check $h(-x) = \frac{(-x)^3+1}{(-x)^2-4} = \frac{-x^3+1}{x^2-4} = - \frac{x^3-1}{x^2-4}$.  However, $-h(x) = - \frac{x^3+1}{x^2-4}$, so it appears as if $h(-x) \neq -h(x)$ for all $x$.  Checking $x=1$, we find $h(1) = -\frac{2}{3}$ but $h(-1) = 0$ which shows the graph of $h$, is in fact,  \textit{not} symmetric about the origin.
+\item   For $h(x) = \frac{x^3+1}{x^2-4}$, the degree of the numerator is $3$ and the degree of the denominator is $2$ so again, we are guaranteed the existence of a slant asymptote.  The long division $\left(x^3+1 \right) \div \left(x^2-4\right)$ gives a quotient of just $x$, so our slant asymptote is the line $y=x$.  The graphing utility confirms this (\autoref{fig:yeqhxeqxcubedetc}).  Note the graph of $h$ appears to be symmetric about the origin.  We check $h(-x) = \frac{(-x)^3+1}{(-x)^2-4} = \frac{-x^3+1}{x^2-4} = - \frac{x^3-1}{x^2-4}$.  However, $-h(x) = - \frac{x^3+1}{x^2-4}$, so it appears as if $h(-x) \neq -h(x)$ for all $x$.  Checking $x=1$, we find $h(1) = -\frac{2}{3}$ but $h(-1) = 0$ which shows the graph of $h$, is in fact,  \textit{not} symmetric about the origin.
 
 \item  For our last example,  $r(t) = 2t-1+\frac{4t^3}{1-t^2}$, the expression $r(t)$ is not in the form to apply Theorem \ref{sathm} directly.  We can, nevertheless, appeal to the spirit of the theorem and use long division to rewrite the term $\frac{4t^3}{1-t^2} = -4t + \frac{4t}{1-t^2}$.  We then get:
 
@@ -1187,17 +1236,27 @@ The graph of $y=f(x)$  & The graph of $y=g(t)$ \\
        &= &  2t-1-4t+\dfrac{4t}{1-t^2} \\
        & = & -2t-1 + \dfrac{4t}{1-t^2} \\ \end{array}\]
        
-As $t \rightarrow \pm \infty$,  Theorem \ref{EBPolynomials} gives  $\frac{4t}{1-t^2} \approx \frac{4t}{-t^2} = -\frac{4}{t} \rightarrow 0$.  Hence, as $t \rightarrow \pm \infty$, $r(t) \rightarrow -2t-1$, so $y = -2t-1$ is the slant asymptote to the graph as confirmed by the graphing utility below.  from a distance, the graph of $r$ appears to be symmetric about the origin.  However, if we look carefully, we see the $y$-intercept is $(0,-1)$, as borne out by the computation $r(0) = -1$.  Hence $r$ cannot be odd.  (Do you see why?)
+As $t \rightarrow \pm \infty$,  Theorem \ref{EBPolynomials} gives  $\frac{4t}{1-t^2} \approx \frac{4t}{-t^2} = -\frac{4}{t} \rightarrow 0$.  Hence, as $t \rightarrow \pm \infty$, $r(t) \rightarrow -2t-1$, so $y = -2t-1$ is the slant asymptote to the graph as confirmed by the graphing utility in \autoref{fig:yeqrteqtwotetc}.  From a distance, the graph of $r$ appears to be symmetric about the origin.  However, if we look carefully, we see the $y$-intercept is $(0,-1)$, as borne out by the computation $r(0) = -1$.  Hence $r$ cannot be odd.  (Do you see why?)
 
+\begin{figure}
 \begin{center}
-\begin{tabular}{cc}
 
-\includegraphics[width=3in]{./IntroRationalGraphics/SAEx04.jpg}  & \includegraphics[width=3in]{./IntroRationalGraphics/SAEx05.jpg} \\
-The graph of $y=h(x)$  & The graph of $y=r(t)$ \\
+\includegraphics[width=3in]{./IntroRationalGraphics/SAEx04.jpg}
 
-
-\end{tabular}
+\caption{The graph of $y=h(x)$}
+\label{fig:yeqhxeqxcubedetc}
 \end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+  
+\includegraphics[width=3in]{./IntroRationalGraphics/SAEx05.jpg}
+
+\caption{The graph of $y=r(t)$}
+\label{fig:yeqrteqtwotetc}
+\end{center}
+\end{figure}
 
 \qed
 
@@ -1207,7 +1266,7 @@ The graph of $y=h(x)$  & The graph of $y=r(t)$ \\
 
 Our last example gives a real-world application of a slant asymptote. The problem features the concept of \textbf{average profit}. The average profit, denoted $\overline{P}(x)$,  is the total profit, $P(x)$,  divided by the number of items sold, $x$. In English, the average profit tells us the profit made per item sold. It, along with average cost, is defined below.
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{averagecostprofit} Let $C(x)$ and $P(x)$ represent the cost and profit to make and sell $x$ items, respectively.
 
@@ -1225,7 +1284,7 @@ Our last example gives a real-world application of a slant asymptote. The proble
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
 You'll explore average cost (and its relation to variable cost) in Exercise \ref{averagevariablecostexercise}.  For now, we refer the reader to to Example \ref{PortaBoyProfit}  in Section \ref{QuadraticFunctions}.
 
@@ -1252,23 +1311,25 @@ You'll explore average cost (and its relation to variable cost) in Exercise \ref
 
 \item  We find $\overline{P}(50) = -1.5(50)+170 + \frac{150}{50} = 98$.  This means that when $50$ PortaBoy systems are sold, the average profit is $\$ 98$ per system.
 
-\item  Technically, the graph of $y = \overline{P}(x)$ has no slant asymptote since the domain of the function is restricted to $(0, 166]$.  That being said, if we were to let $x \rightarrow \infty$, the term $\frac{150}{x} \rightarrow 0$, so we'd  have $\overline{P}(x)  \rightarrow -1.5x + 170$.  This means the slant asymptote would be $y = -1.5x + 170$.  We graph $y = \overline{P}(x)$ and $y = -1.5x+170$.
+\item  Technically, the graph of $y = \overline{P}(x)$ has no slant asymptote since the domain of the function is restricted to $(0, 166]$.  That being said, if we were to let $x \rightarrow \infty$, the term $\frac{150}{x} \rightarrow 0$, so we'd  have $\overline{P}(x)  \rightarrow -1.5x + 170$.  This means the slant asymptote would be $y = -1.5x + 170$.  We graph $y = \overline{P}(x)$ and $y = -1.5x+170$ in \autoref{fig:yeqpbarxetc}.
 
-  
+\begin{figure}
 \begin{center}
    
 \includegraphics[width=4in]{./IntroRationalGraphics/SAEx06.jpg}
 
+\caption{}
+\label{fig:yeqpbarxetc}
 \end{center}
+\end{figure}
 
 \item The slope of the slant asymptote $y = -1.5x+170$ is $-1.5$.  Since, ostensibly $\overline{P}(x) \approx -1.5 x + 170$, this means that, as we sell more systems, the average profit is decreasing at about a rate of $\$ 1.50$ per system.  If the number $1.5$ sounds familiar to this problem situation, it should.  In Example \ref{PortaBoyDemand} in Section \ref{ConstantandLinearFunctions}, we determined the slope of the demand function to be $-1.5$. In that situation, the $-1.5$ meant that in order to sell an additional system, the price had to drop by $\$ 1.50$.  The fact the average profit is decreasing at more or less this same rate means the loss in profit per system can be attributed to the reduction in price needed to sell each additional system.\footnote{We generalize this result in Exercise \ref{slantyintaverageprofitexercise}.)} \qed
 
 \end{enumerate}
 
-
 \end{ex}
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 
