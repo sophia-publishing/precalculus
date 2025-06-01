@@ -33,40 +33,26 @@ In this section, we solve equations and inequalities involving rational function
 
 \item  To solve the equation, we clear denominators
 
-\[ \begin{array}{rclr}
-
-\dfrac{x^3-2x+1}{x-1} & = & \dfrac{1}{2}x-1 & \\ [10pt]
-
-\left(\dfrac{x^3-2x+1}{x-1}\right) \cdot 2(x-1) & = & \left( \dfrac{1}{2}x-1 \right) \cdot 2(x-1) & \\ [10pt]
-
-2x^3 - 4x + 2 & = & x^2-3x+2 & \text{expand} \\
-
-2x^3 -x^2 - x & = & 0 & \\
-
-x(2x+1)(x-1) & = & 0 & \text{factor}\\
-
-x & = & -\frac{1}{2}, \, 0, \, 1 & \\
-
-
-\end{array}\]
+\begin{align*}
+\dfrac{x^3-2x+1}{x-1} & = \dfrac{1}{2}x-1 \\
+\left(\dfrac{x^3-2x+1}{x-1}\right) \cdot 2(x-1) & = \left( \dfrac{1}{2}x-1 \right) \cdot 2(x-1) \\
+2x^3 - 4x + 2 & = x^2-3x+2 \tag{expand} \\
+2x^3 -x^2 - x & = 0 \\
+x(2x+1)(x-1) & = 0 \tag{factor}\\
+x & = -\frac{1}{2}, \, 0, \, 1 \\
+\end{align*}
 
 Since we cleared denominators, we need to check for extraneous solutions.  Sure enough, we see that $x=1$ does not satisfy the original equation, so  our only solutions are $x=-\frac{1}{2}$ and $x=0$.
 
 \item  To solve the inequality, it may be tempting to begin as we did with the equation $-$ namely by multiplying both sides by the quantity $(x-1)$.  The problem is that, depending on $x$, $(x-1)$ may be positive (which doesn't affect the inequality) or $(x-1)$ could be negative (which would reverse the inequality).  Instead of working by cases, we collect all of the terms on one side of the inequality with $0$ on the other and make a sign diagram using the technique given on page \pageref{rationalsigndiagram} in Section \ref{RationalGraphs}.
 
-\[ \begin{array}{rclr}
-
-\dfrac{x^3-2x+1}{x-1} & \geq & \dfrac{1}{2}x-1 & \\ [10pt]
-
-\dfrac{x^3-2x+1}{x-1}  - \dfrac{1}{2} x + 1& \geq & 0& \\ [10pt]
-
-\dfrac{2 \left(x^3-2x+1\right)}{2(x-1)}  - \dfrac{x(x-1)}{2(x-1)} + \dfrac{2(x-1)}{2(x-1)}& \geq & 0&\text{get a common denominator} \\ [10pt]
-
-\dfrac{2\left(x^3-2x+1\right)-x(x-1)+2(x-1)}{2(x-1)} & \geq & 0 & \\ [10pt]
-
-\dfrac{2x^3-x^2-x}{2x-2} & \geq & 0 & \text{expand} \\
-
-\end{array} \]
+\begin{align*}
+\dfrac{x^3-2x+1}{x-1} & \geq \dfrac{1}{2}x-1 \\
+\dfrac{x^3-2x+1}{x-1}  - \dfrac{1}{2} x + 1& \geq 0 \\
+\dfrac{2 \left(x^3-2x+1\right)}{2(x-1)}  - \dfrac{x(x-1)}{2(x-1)} + \dfrac{2(x-1)}{2(x-1)}& \geq 0\tag{get a common denominator} \\
+\dfrac{2\left(x^3-2x+1\right)-x(x-1)+2(x-1)}{2(x-1)} & \geq 0 \\ 
+\dfrac{2x^3-x^2-x}{2x-2} & \geq 0 \tag{expand} \\
+\end{align*} 
 
 Viewing the left hand side as a rational function $r(x)$ we make a sign diagram.  The only value excluded from the domain of $r$ is $x=1$ which is the solution to $2x-2=0$.  The zeros of $r$ are the solutions to $2x^3-x^2-x=0$, which we have already found to be $x=0$, $x=-\frac{1}{2}$ and $x=1$, the latter was discounted as a zero because it is not in the domain.  Choosing test values in each test interval, we construct the sign diagram below. 
 
@@ -90,51 +76,53 @@ Viewing the left hand side as a rational function $r(x)$ we make a sign diagram.
 
 We are interested in where $r(x) \geq 0$.  We see  $r(x) > 0$, or $(+)$, on the intervals $\left(-\infty, -\frac{1}{2}\right)$, $(0,1)$ and $(1, \infty)$.  We know $r(x) = 0$ when  $x = -\frac{1}{2}$ and $x = 0$.   Hence, $r(x) \geq 0$ on  $\left( - \infty, -\frac{1}{2} \right] \cup [0,1) \cup (1, \infty)$.
 
-\item  To check our answers graphically,  let $f(x) = \frac{x^3-2x+1}{x-1}$ and $g(x) = \frac{1}{2} x -1$. The solutions to $f(x)=g(x)$ are the $x$-coordinates of the points where the graphs of $y=f(x)$ and $y=g(x)$ intersect.  We graph both $f$ and $g$ below (the graph of $g$ is the line and is slightly lighter in color.) We find only two intersection points, $(-0.5, -1.25)$ and $(0,-1)$ which correspond to our solutions $x = -\frac{1}{2}$ and $x = 0$.   The solution to $f(x) \geq g(x)$ represents not only where the graphs meet, but the intervals over which the graph of $y=f(x)$ is above ($>$) the graph of $g(x)$.  From the graph, this \textit{appears} to happen on on $\left( - \infty, -\frac{1}{2} \right] \cup [0, \infty)$ which \textit{almost} matches the answer we found analytically.  We have to remember that $f$ is not defined at $x=1$,  so it cannot be included in our solution.\footnote{We invite the reader to show there is a hole in the graph of $y = f(x)$ at $(1,1)$.}
+\item  To check our answers graphically,  let $f(x) = \frac{x^3-2x+1}{x-1}$ and $g(x) = \frac{1}{2} x -1$. The solutions to $f(x)=g(x)$ are the $x$-coordinates of the points where the graphs of $y=f(x)$ and $y=g(x)$ intersect.  We graph both $f$ and $g$ in \autoref{fig:ratineqex01} (the graph of $g$ is the line and is slightly lighter in color.) We find only two intersection points, $(-0.5, -1.25)$ and $(0,-1)$ which correspond to our solutions $x = -\frac{1}{2}$ and $x = 0$.   The solution to $f(x) \geq g(x)$ represents not only where the graphs meet, but the intervals over which the graph of $y=f(x)$ is above ($>$) the graph of $g(x)$.  From the graph, this \textit{appears} to happen on on $\left( - \infty, -\frac{1}{2} \right] \cup [0, \infty)$ which \textit{almost} matches the answer we found analytically.  We have to remember that $f$ is not defined at $x=1$,  so it cannot be included in our solution.\footnote{We invite the reader to show there is a hole in the graph of $y = f(x)$ at $(1,1)$.} See \autoref{fig:ratineqex02}
+
+\begin{figure}
 \begin{center}
 
-\begin{tabular}{cc}
+\includegraphics[width=2.75in]{./RationalIneqGraphics/RatIneqEx01.jpg} 
 
-\includegraphics[width=2.75in]{./RationalIneqGraphics/RatIneqEx01.jpg} & \includegraphics[width=2.75in]{./RationalIneqGraphics/RatIneqEx02.jpg}
+\caption{}
+\label{fig:ratineqex01}
+\end{center}
+\end{figure}
 
+\begin{figure}
+\begin{center}
+    
+\includegraphics[width=2.75in]{./RationalIneqGraphics/RatIneqEx02.jpg}
 
-\end{tabular}
+\caption{}
+\label{fig:ratineqex02}
+\end{center}
+\end{figure}
 
-\end{center} 
-
- \qed
+\qed
 
 \end{enumerate}
-\end{ex}  
+\end{ex}
 
 The important take-away from Example \ref{rationalinequalityex} is not to clear fractions when working with an inequality unless you know for certain the sign of the denominators. We offer another example.
 
 \begin{ex} \label{morerationalineq} Solve:  $2t (3t-2)^{-1} \leq 3t^2 (3t-2)^{-2}$. Check your answer using a graphing utility.
 
-
 {\bf Solution.} We begin by rewriting the terns with negative exponents as fractions and gathering all nonzero terms to one side of the inequality:
 
-\[ \begin{array}{rclr}
+\begin{align*}
+2t (3t-2)^{-1} &  \leq 3t^2 (3t-2)^{-2} \\ 
+\dfrac{2t}{3t-2} & \leq \dfrac{3t^2}{(3t-2)^2} \\
+\dfrac{2t}{3t-2}  - \dfrac{3t^2}{(3t-2)^2}  & \leq 0  \\ 
+\dfrac{2t(3t-2)}{(3t-2)^2}  - \dfrac{3t^2}{(3t-2)^2}  & \leq 0  \tag{get a common denominator} \\
+\dfrac{2t(3t-2) - 3t^2}{(3t-2)^2}  & \leq 0  \\ 
+\dfrac{3t^2-4t}{(3t-2)^2}  & \leq 0  \tag{expand} \\ 
+\end{align*}
 
-2t (3t-2)^{-1} &  \leq & 3t^2 (3t-2)^{-2} & \\ [10pt]
+We define $r(t) = \frac{3t^2-4t}{(3t-2)^2}$ and set about constructing a sign diagram for $r$.  Solving  $(3t-2)^2 = 0$ gives $t = \frac{2}{3}$, our sole excluded value.  To find the zeros of $r$, we set $r(t) = \frac{3t^2-4t}{(3t-2)^2} = 0$ and solve $3t^2-4t = 0$.  Factoring gives $t(3t-4) = 0$ so our solutions are $t = 0$ and $t = \frac{4}{3}$. After choosing test values, we  get the sign diagram in \autoref{fig:signdiagramtwotintothreetetc}.   Since we are looking for where $r(t) \leq 0$, we are looking for where $r(t)$ is $(-)$ or $r(t) = 0$. Hence,  our final answer is $\left[0, \frac{2}{3} \right) \cup \left(\frac{2}{3}, \frac{4}{3} \right]$.  In \autoref{fig:twotintothreetetc},  we graph $f(t) = 2t(3t-1)^{-1}$ (the darker curve),   $g(t) = 3t^2(3t-2)^{-2}$, and  vertical asymptote $x = \frac{2}{3}$, the dashed line.  Sure enough, the graph of $f$ intersects the graph of $g$ when $t = 0$ and $t = \frac{4}{3}$.  Moreover, the graph of $f$ is below the graph of $g$ everywhere they are defined between these values, in accordance with our algebraic solution.
 
-\dfrac{2t}{3t-2} & \leq & \dfrac{3t^2}{(3t-2)^2} & \\ [10pt]
-
-
-\dfrac{2t}{3t-2}  - \dfrac{3t^2}{(3t-2)^2}  & \leq & 0 &  \\ [10pt]
-
-\dfrac{2t(3t-2)}{(3t-2)^2}  - \dfrac{3t^2}{(3t-2)^2}  & \leq & 0  & \text{get a common denominator} \\ [10pt]
-
-\dfrac{2t(3t-2) - 3t^2}{(3t-2)^2}  & \leq & 0  &\\ [10pt]
-
-\dfrac{3t^2-4t}{(3t-2)^2}  & \leq & 0  & \text{expand} \\ [10pt]
-
-\end{array} \]
-
-We define $r(t) = \frac{3t^2-4t}{(3t-2)^2}$ and set about constructing a sign diagram for $r$.  Solving  $(3t-2)^2 = 0$ gives $t = \frac{2}{3}$, our sole excluded value.  To find the zeros of $r$, we set $r(t) = \frac{3t^2-4t}{(3t-2)^2} = 0$ and solve $3t^2-4t = 0$.  Factoring gives $t(3t-4) = 0$ so our solutions are $t = 0$ and $t = \frac{4}{3}$. After choosing test values, we  get the sign diagram below on the left.   Since we are looking for where $r(t) \leq 0$, we are looking for where $r(t)$ is $(-)$ or $r(t) = 0$. Hence,  our final answer is $\left[0, \frac{2}{3} \right) \cup \left(\frac{2}{3}, \frac{4}{3} \right]$.  Below on the right,  we graph $f(t) = 2t(3t-1)^{-1}$ (the darker curve),   $g(t) = 3t^2(3t-2)^{-2}$, and  vertical asymptote $x = \frac{2}{3}$, the dashed line.  Sure enough, the graph of $f$ intersects the graph of $g$ when $t = 0$ and $t = \frac{4}{3}$.  Moreover, the graph of $f$ is below the graph of $g$ everywhere they are defined between these values, in accordance with our algebraic solution.
-
-\begin{tabular}{m{2.5in}m{2.5in}}
-
+\begin{figure}
+\begin{center}
+    
 \begin{mfpic}[10]{-6}{6}{-2}{2}
 \arrow \reverse \arrow \polyline{(-6,0),(6,0)}
 \xmarks{-3,0,3}
@@ -149,12 +137,20 @@ We define $r(t) = \frac{3t^2-4t}{(3t-2)^2}$ and set about constructing a sign di
 \tlabel[cc](4.5,1){$(+)$}
 \end{mfpic} 
 
-&
+\caption{}
+\label{fig:signdiagramtwotintothreetetc}
+\end{center}
+\end{figure}
 
-\includegraphics[width=2.75in]{./RationalIneqGraphics/RatIneqEx03.jpg} \\
+\begin{figure}
+\begin{center}
 
-\end{tabular}
+\includegraphics[width=2.75in]{./RationalIneqGraphics/RatIneqEx03.jpg}
 
+\caption{}
+\label{fig:twotintothreetetc}
+\end{center}
+\end{figure}
 
 \qed
 \end{ex}
@@ -184,19 +180,14 @@ Our next example is an application of average cost.  Recall from Definition \ref
 
 \item  Solving $\overline{C}(x) < 100$ means we solve $\frac{80x+150}{x} < 100$.  We proceed as in the previous example.
 
-\[ \begin{array}{rclr}
+\begin{align*}
+\dfrac{80x+150}{x} & < 100 \\
+\dfrac{80x+150}{x} - 100 & < 0 \\
+\dfrac{80x + 150 - 100x}{x} & < 0 \tag{common denominator} \\
+\dfrac{150 - 20x}{x} & < 0 \\
+\end{align*}
 
-\dfrac{80x+150}{x} & < & 100 & \\ [10pt]
-
-\dfrac{80x+150}{x} - 100 & < & 0 & \\ [10pt]
-
-\dfrac{80x + 150 - 100x}{x} & < & 0 & \text{common denominator} \\ [10pt]
-
-\dfrac{150 - 20x}{x} & < & 0 & \\
-
-\end{array} \]
-
-If we take the left hand side to be a rational function $r(x)$, we need to keep in mind that the applied domain of the problem is $x > 0$.  This means we consider only the positive half of the number line for our sign diagram.  On $(0, \infty)$, $r$ is defined everywhere so we need only look for zeros of $r$.  Setting $r(x)=0$ gives $150-20x =0$, so that $x = \frac{15}{2}= 7.5$.  The test intervals on our domain are $(0, 7.5)$ and $(7.5, \infty)$.  We find $r(x) < 0$ on $(7.5, \infty)$.  
+If we take the left hand side to be a rational function $r(x)$, we need to keep in mind that the applied domain of the problem is $x > 0$.  This means we consider only the positive half of the number line for our sign diagram.  On $(0, \infty)$, $r$ is defined everywhere so we need only look for zeros of $r$.  Setting $r(x)=0$ gives $150-20x =0$, so that $x = \frac{15}{2}= 7.5$.  The test intervals on our domain are $(0, 7.5)$ and $(7.5, \infty)$.  We find $r(x) < 0$ on $(7.5, \infty)$.
 
 \begin{center}
 
@@ -276,17 +267,12 @@ Note that number \ref{costlessthan} in Example \ref{averagecostapp} is another o
 
 \item  To solve $h(x) \geq x$, we proceed as before and collect all nonzero terms on one side of the inequality in order to use a sign diagram.
 
-\[ \begin{array}{rclr}
-
-h(x) & \geq & x & \\ [10pt]
-
-\dfrac{1000}{x^2} & \geq & x & \\ [10pt]
-
-\dfrac{1000}{x^2} - x & \geq & 0 \\ [10pt]
-
-\dfrac{1000-x^3}{x^2} & \geq & 0 & \text{common denominator} \\[10pt]
-
-\end{array} \]
+\begin{align*}
+h(x) & \geq x \\ 
+\dfrac{1000}{x^2} & \geq x \\ 
+\dfrac{1000}{x^2} - x & \geq 0 \\
+\dfrac{1000-x^3}{x^2} & \geq 0 \tag{common denominator} \\
+\end{align*} 
 
 We consider the left hand side of the inequality as our rational function $r(x)$.  We see immediately the only value excluded from the domain of $r$ is $0$, but since our applied domain is $x>0$, we restrict our attention to the interval  $(0, \infty)$.  The sole zero of $r$ comes when $1000-x^3 = 0$,  or when $x=10$.  Choosing test values in the intervals $(0,10)$ and $(10, \infty)$ gives the following:
 
@@ -320,15 +306,17 @@ We see $r(x) > 0$ on $(0,10)$, and since $r(x) = 0$ at $x=10$, our solution is $
 
 \item  Since the box has no top, the surface area can be found by adding the area of each of the sides to the area of the base.  The base is a square of dimensions $x$ by $x$, and each side has dimensions $x$ by $h(x)$.  We get the surface area, $S(x) = x^2+4xh(x)$.  Since $h(x) = \frac{1000}{x^2}$, we have  $S(x) = x^2+4x \left( \frac{1000}{x^2}\right)= x^2 + \frac{4000}{x}$.  The domain of $S$ is the same as $h$, namely $(0, \infty)$, for the same reasons as above.
 
-\item   To graph $y = S(x)$, we create a table of values to help us define a good viewing window.  Doing so, we find a local minim when $x \approx 12.60$.  As far as we can tell,\footnote{without Calculus, that is...} this is the only local extremum, so it is the (absolute) minimum as well. This means that the width and depth of the box should each measure approximately $12.60$ centimeters.  To determine the height, we find $h(12.60) \approx 6.30$, so the height of the box should be approximately $6.30$ centimeters.\footnote{The $y$-coordinate here, $476.22$ means the minimum surface area possible is $476.22$ square centimeters.  Minimizing the surface area minimizes the material required to make the box, therein helping to reduce the cost of the box.}
+\item   To graph $y = S(x)$, we create a table of values to help us define a good viewing window.  Doing so, we find a local minim when $x \approx 12.60$.  As far as we can tell,\footnote{without Calculus, that is...} this is the only local extremum, so it is the (absolute) minimum as well. This means that the width and depth of the box should each measure approximately $12.60$ centimeters.  To determine the height, we find $h(12.60) \approx 6.30$, so the height of the box should be approximately $6.30$ centimeters.\footnote{The $y$-coordinate here, $476.22$ means the minimum surface area possible is $476.22$ square centimeters.  Minimizing the surface area minimizes the material required to make the box, therein helping to reduce the cost of the box.} See \autoref{fig:graphboxprob}
 
+\begin{figure}
 \begin{center}
-
 
 \includegraphics[width=4in]{./RationalIneqGraphics/RatIneqEx04.jpg} 
 
-
+\caption{}
+\label{fig:graphboxprob}
 \end{center} 
+\end{figure}
 
 \end{enumerate}
 \qed
@@ -337,20 +325,30 @@ We see $r(x) > 0$ on $(0,10)$, and since $r(x) = 0$ at $x=10$, our solution is $
 
 Our last example uses regression to verify a very famous scientific law.
 
-\begin{ex}  \label{BoyleslawRational} Boyle's Law states that when temperature is held constant, the pressure of a gas is inversely proportional to the volume of the gas.\footnote{For a review of what this means, see Section \ref{AppVariation}.}  According to this \href{http://web.lemoyne.edu/~giunta/classicalcs/boyleverify.html}{\underline{website}} the actual data relating the volume $V$ of a gas and its pressure $P$ used by Boyle and his assistant in 1662 to formulate this law is given below. (NOTE: both pressure and volume here are given in `arbitrary units.')
+\begin{ex}  \label{BoyleslawRational} Boyle's Law states that when temperature is held constant, the pressure of a gas is inversely proportional to the volume of the gas.\footnote{For a review of what this means, see Section \ref{AppVariation}.}  According to this \href{http://web.lemoyne.edu/~giunta/classicalcs/boyleverify.html}{\underline{website}} the actual data relating the volume $V$ of a gas and its pressure $P$ used by Boyle and his assistant in 1662 to formulate this law is given in \autoref{tab:vp}. (NOTE: both pressure and volume here are given in `arbitrary units.')
 
-\[ \begin{array}{|c||c|c|c|c|c|c|c|c|c|c|c|c|c|}  \hline
+\begin{table}
 
-V & 48 & 46 & 44 & 42 & 40 & 38 & 36 & 34 & 32 & 30 & 28 & 26 & 24  \\ \hline
+\small
+\[ \begin{array}{|c||c|c|c|c|c|c|c|c|c|}  \hline
+V & 48 & 46 & 44 & 42 & 40 & 38 & 36 & 34 & 32   \\ \hline
+P & 29.13 & 30.56 & 31.94 & 33.5 & 35.31 & 37 & 39.31 & 41.63 & 44.19  \\ \hline
+\end{array} \]
 
-P & 29.13 & 30.56 & 31.94 & 33.5 & 35.31 & 37 & 39.31 & 41.63 & 44.19 & 47.06 & 50.31 & 54.31 & 58.81  \\ \hline \end{array} \]
+\[ \begin{array}{|c||c||c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
+V & 30 & 28 & 26 & 24 & 23 & 22 & 21 & 20  \\ \hline 
+P& 47.06 & 50.31 & 54.31 & 58.81  & 61.31 & 64.06 & 67.06 & 70.69   \\ \hline
+\end{array} \]
 
+\[ \begin{array}{|c||c|c|c|c|c|c|c|c|c|}  \hline
+V & 19 & 18 & 17 & 16 & 15 & 14 & 13 & 12\\ \hline
+P & 74.13 & 77.88 & 82.75 & 87.88 & 93.06 & 100.44 & 107.81 & 117.56\\ \hline
+\end{array} \]
+\normalsize
 
-\[\begin{array}{|c||c||c|c|c|c|c|c|c|c|c|c|c|c|} \hline
-
-V & 23 & 22 & 21 & 20 & 19 & 18 & 17 & 16 & 15 & 14 & 13 & 12  \\ \hline 
-
-P & 61.31 & 64.06 & 67.06 & 70.69 & 74.13 & 77.88 & 82.75 & 87.88 & 93.06 & 100.44 & 107.81 & 117.56   \\ \hline \end{array} \]
+\caption{}
+\label{tab:vp}
+\end{table}
 
 \begin{enumerate}
 
@@ -366,13 +364,17 @@ P & 61.31 & 64.06 & 67.06 & 70.69 & 74.13 & 77.88 & 82.75 & 87.88 & 93.06 & 100.
 
 \item Recall if $P$ and $V$ are inversely proportional, there is a real number $k$ so $PV = k$ for all values of $P$ and $V$.  Multiplying the corresponding $P$ and $V$ values from the data together result in numbers which are consistently approximately $1400$.  This gives us confidence in the claim $P$ and $V$ are inversely proportional and suggests $k \approx 1400$.
 
-\item  We plot the pairs $(V, P)$ and run a regression, the results of which are below.  To our amazement, the graphing utility reports $k \approx 1406.9$ with  $R^2 \approx 1$.  This means the data are a very good fit to the model $P = \frac{k}{V}$, or $PV = k$, hence verifying Boyle's Law for this set of data.
+\item  We plot the pairs $(V, P)$ and run a regression, the results of which are in \autoref{fig:boyleslawex}.  To our amazement, the graphing utility reports $k \approx 1406.9$ with  $R^2 \approx 1$.  This means the data are a very good fit to the model $P = \frac{k}{V}$, or $PV = k$, hence verifying Boyle's Law for this set of data.
 
+\begin{figure}
 \begin{center}
 
 \includegraphics[width=6in]{./RationalIneqGraphics/BoylesLawEx.jpg} 
 
+\caption{}
+\label{fig:boyleslawex}
 \end{center}
+\end{figure}
 
 
 \end{enumerate}
@@ -380,7 +382,7 @@ P & 61.31 & 64.06 & 67.06 & 70.69 & 74.13 & 77.88 & 82.75 & 87.88 & 93.06 & 100.
 
 \end{ex}
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 
