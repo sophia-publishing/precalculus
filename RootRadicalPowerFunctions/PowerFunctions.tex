@@ -8,13 +8,13 @@
 
 Monomial, and, more generally, Laurent monomial functions  are specific examples of a much larger class of functions called \textbf{power functions}, as defined below.
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{powerfunction}  Let $a$ and $p$ be nonzero real numbers.  A  \index{power function}\index{function! power} \textbf{power function} is either a constant function or a  function of the form $f(x) = a x^p$.  
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
 Definition \ref{powerfunction} broadens our scope of functions to include non-integer exponents such as  $f(x) = 2x^{4/3}$, $g(t) = t^{0.4}$ and  $h(w) = w^{\sqrt{2}}$.   Our primary aim in this section is to ascribe meaning to these quantities.  
 
@@ -26,13 +26,13 @@ The road to real number exponents starts by defining rational number exponents.
 
 \smallskip
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn}  \label{rationalexponentdefna} \index{rational number exponent}\index{exponent, rational number} Let $r$  be a rational number where in lowest terms  $r = \frac{m}{n}$ where $m$ is an integer and $n$ is a natural number.\footnote{Recall `lowest terms' means $m$ and $n$ have no common factors other than $1$.}    If $n = 1$, then $x^{r} = x^{m}$.  If $n > 1$, then  \[ x^{r} = x^{\frac{m}{n}} = \left(\sqrt[n]{x}\right)^m   = \sqrt[n]{x^m}, \] whenever $\left(\sqrt[n]{x} \right)^m$ is defined.\footnote{That is, if $n$ is even, $x \geq 0$ and if $m<0$, $x \neq 0$.}
 
 \end{defn}
 
-\ebm}
+\end{tcolorbox}
 
 \smallskip
 
@@ -46,9 +46,11 @@ Another important item worthy of note in Definition \ref {rationalexponentdefna}
 Likewise, we have to be careful about the properties of exponents when it comes to rational exponents.   Consider, for instance, the product rule for integer exponents:  $x^{m} x^{n} = x^{m+n}$.  Consider $f(x) = x^{\frac{1}{2}} x^{\frac{1}{2}}$ and $g(x) = x^{\frac{1}{2} + \frac{1}{2}}$.  In the first case, $f(x) =  x^{\frac{1}{2}} x^{\frac{1}{2}} =\sqrt{x} \sqrt{x} = (\sqrt{x})^2 = x$ only for $x \geq 0$.   In the second case, $g(x) = x^{\frac{1}{2} + \frac{1}{2}} = x^{\frac{2}{2}} = x^{1} = x$ for \text{all} real numbers $x$. Even though $f(x) = g(x)$ for $x \geq 0$, $f$ and $g$ are \textit{different functions} since they have \textit{different domains}.  
 
 
-Similarly,  the power rule for integer exponents:  $(x^n)^m = x^{nm}$ does not hold  in general for rational exponents. To see this,  consider the three functions: $f(x) = (x^{\frac{1}{2}} )^2$,  $g(x) = x^{\frac{2}{2}}$,  and $h(x) = (x^2)^{\frac{1}{2}}$. In the first case,  $f(x) = (x^{\frac{1}{2}})^2 = (\sqrt{x})^2 = x$ for $x \geq 0$ only (this is the same function $f$ above.)  In the second case,  the rational number $r = \frac{2}{2} = 1$, so $g(x) = x^{\frac{2}{2}} = x^{\frac{1}{1}} = x^{1} = x$ for \textit{all} real numbers, $x$ (this is the same function $g$ from above.)  In the last case,  $h(x) = (x^2)^{\frac{1}{2}} = \sqrt{x^2} = |x|$ for all real numbers, $x$. Once again, despite $f(x) = g(x) = h(x)$ for all $x \geq 0$,  $f$, $g$ and $h$ and are \textit{three different functions}.  We graph $f$, $g$, and $h$ below.  
+Similarly,  the power rule for integer exponents:  $(x^n)^m = x^{nm}$ does not hold  in general for rational exponents. To see this,  consider the three functions: $f(x) = (x^{\frac{1}{2}} )^2$,  $g(x) = x^{\frac{2}{2}}$,  and $h(x) = (x^2)^{\frac{1}{2}}$. In the first case,  $f(x) = (x^{\frac{1}{2}})^2 = (\sqrt{x})^2 = x$ for $x \geq 0$ only (this is the same function $f$ above.)  In the second case,  the rational number $r = \frac{2}{2} = 1$, so $g(x) = x^{\frac{2}{2}} = x^{\frac{1}{1}} = x^{1} = x$ for \textit{all} real numbers, $x$ (this is the same function $g$ from above.)  In the last case,  $h(x) = (x^2)^{\frac{1}{2}} = \sqrt{x^2} = |x|$ for all real numbers, $x$. Once again, despite $f(x) = g(x) = h(x)$ for all $x \geq 0$,  $f$, $g$ and $h$ and are \textit{three different functions}.  We graph $f$, $g$, and $h$ \autoref{fig:fxeqxpowerhalfetc}, \autopageref{fig:gxeqxpowerhalfetc} and \autoref{fig:hxeqxsquaredetc} respectively.  
 
-\begin{multicols}{3}
+\begin{figure}
+  \begin{minipage}{0.45\textwidth}
+    \begin{center}
 
 \begin{mfpic}[15]{-4}{4}{-4}{5}
 \axes
@@ -57,7 +59,6 @@ Similarly,  the power rule for integer exponents:  $(x^n)^m = x^{nm}$ does not h
 \point[3pt]{(0,0)}
 \xmarks{-3,-2,-1,1,2,3}
 \ymarks{-3,-2,-1,1,2,3,4}
-\tcaption{\scriptsize $f(x) = x^{\frac{1}{2}} x^{\frac{1}{2}} = (x^{\frac{1}{2}})^2 = x$, $x \geq 0$}
 \tlpointsep{4pt}
 \axislabels {x}{ {\scriptsize $-3 \hspace{7pt}$} -3, {\scriptsize $-2 \hspace{7pt}$} -2, {\scriptsize $-1 \hspace{7pt}$} -1, {\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize $3$} 3}
 \axislabels {y}{{\scriptsize $-1$} -1, {\scriptsize $-2$} -2, {\scriptsize $-3$} -3,{\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize $3$} 3, {\scriptsize $4$} 4}
@@ -66,6 +67,14 @@ Similarly,  the power rule for integer exponents:  $(x^n)^m = x^{nm}$ does not h
 \point[4pt]{(0,0)}
 \end{mfpic}
 
+      \caption{\centering $f(x) = x^{\frac{1}{2}} x^{\frac{1}{2}} = (x^{\frac{1}{2}})^2 = x$, $x \geq 0$}
+      \label{fig:fxeqxpowerhalfetc}
+    \end{center}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.45\textwidth}
+    \begin{center}
+      
 \begin{mfpic}[15]{-4}{4}{-4}{5}
 \axes
 \tlabel[cc](4,-0.5){\scriptsize $x$}
@@ -73,7 +82,6 @@ Similarly,  the power rule for integer exponents:  $(x^n)^m = x^{nm}$ does not h
 \xmarks{-3,-2,-1,1,2,3}
 \xmarks{-3,-2,-1,1,2,3}
 \ymarks{-3,-2,-1,1,2,3,4}
-\tcaption{\scriptsize $g(x) =  x^{\frac{1}{2} + \frac{1}{2}} = x^{\frac{2}{2}} = x$ }
 \tlpointsep{4pt}
 \axislabels {x}{ {\scriptsize $-3 \hspace{7pt}$} -3, {\scriptsize $-2 \hspace{7pt}$} -2, {\scriptsize $-1 \hspace{7pt}$} -1, {\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize $3$} 3}
 \axislabels {y}{{\scriptsize $-1$} -1, {\scriptsize $-2$} -2, {\scriptsize $-3$} -3,{\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize $3$} 3, {\scriptsize $4$} 4}
@@ -81,8 +89,15 @@ Similarly,  the power rule for integer exponents:  $(x^n)^m = x^{nm}$ does not h
 \arrow \reverse \arrow \polyline{( -4,-4), (4,4)}
 \end{mfpic} 
 
+      \caption{\centering $g(x) =  x^{\frac{1}{2} + \frac{1}{2}} = x^{\frac{2}{2}} = x$}
+      \label{fig:gxeqxpowerhalfetc}
+    \end{center}
+  \end{minipage}
+\end{figure}
 
-
+\begin{figure}
+  \begin{center}
+    
 \begin{mfpic}[15]{-4}{4}{-4}{5}
 \axes
 \tlabel[cc](4,-0.5){\scriptsize $x$}
@@ -90,7 +105,6 @@ Similarly,  the power rule for integer exponents:  $(x^n)^m = x^{nm}$ does not h
 \xmarks{-3,-2,-1,1,2,3}
 \xmarks{-3,-2,-1,1,2,3}
 \ymarks{-3,-2,-1,1,2,3,4}
-\tcaption{\scriptsize $h(x) = (x^2)^{\frac{1}{2}} = |x|$ }
 \tlpointsep{4pt}
 \axislabels {x}{ {\scriptsize $-3 \hspace{7pt}$} -3, {\scriptsize $-2 \hspace{7pt}$} -2, {\scriptsize $-1 \hspace{7pt}$} -1, {\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize $3$} 3}
 \axislabels {y}{{\scriptsize $-1$} -1, {\scriptsize $-2$} -2, {\scriptsize $-3$} -3,{\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize $3$} 3, {\scriptsize $4$} 4}
@@ -98,11 +112,14 @@ Similarly,  the power rule for integer exponents:  $(x^n)^m = x^{nm}$ does not h
 \arrow \reverse \arrow \polyline{(-4,4), (0,0), (4,4)}
 \end{mfpic} 
 
-\end{multicols}
+\caption{$h(x) = (x^2)^{\frac{1}{2}} = |x|$}
+\label{fig:hxeqxsquaredetc}
+  \end{center}
+\end{figure}
 
 In general, the properties of integer exponents \textit{do not extend} to rational exponents \textit{unless} the bases involved represent \text{non-negative} real numbers \textit{or} the roots involved are \textit{odd}.  We have the following:
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm}  \label{exponentprops} Let $r$ and $s$ are rational numbers.  The following properties hold provided none of the computations results in division by $0$ and \textbf{either}  $r$ and $s$ have odd denominators  \textbf{or}  $x \geq 0$ \textbf{and} $y \geq 0$:
 
@@ -118,14 +135,15 @@ In general, the properties of integer exponents \textit{do not extend} to ration
 
 \end{thm}
 
-\ebm}
+\end{tcolorbox}
 
 
-Next, we turn our attention to the graphs of $f(x) =x^r =  x^{\frac{m}{n}}$ for varying values of $m$ and $n$.  When $n$ is even, the domain is restricted owing to the presence of the even indexed root to $[0, \infty)$. The range is likewise $[0, \infty)$, a fact leave to the reader.  All of the functions below are increasing on their domains, and it turns out this is always the case provided $r>0$.  There is, however, is a difference in \textit{how} the functions are increasing - and this is the concept of \index{concavity}\textit{concavity}.  As with many concepts we've encountered so far in the text,  concavity is most precisely defined using Calculus terminology,  but we can nevertheless get a sense of concavity geometrically.   For us,  a curve is  \index{concave up}\index{concavity ! concave up}\textbf{concave up} over an interval if it resembles a  portion of a `$\smile$' shape.  Similarly, a curve is called  \index{concave down}\index{concavity ! concave down}\textbf{concave down} over an interval if  resembles part of a `$\frown$' shape. When $0 < r < 1$, the graphs of $f(x) = x^r$ resemble the left half of $\frown$ and so are concave down;  when $r>1$, the graphs resemble the right half of a `$\smile$' and are hence described as `concave up.'
+Next, we turn our attention to the graphs of $f(x) =x^r =  x^{\frac{m}{n}}$ for varying values of $m$ and $n$.  When $n$ is even, the domain is restricted owing to the presence of the even indexed root to $[0, \infty)$. The range is likewise $[0, \infty)$, a fact leave to the reader.  All of the functions below are increasing on their domains, and it turns out this is always the case provided $r>0$.  There is, however, a difference in \textit{how} the functions are increasing---and this is the concept of \index{concavity}\textit{concavity}.  As with many concepts we've encountered so far in the text,  concavity is most precisely defined using Calculus terminology,  but we can nevertheless get a sense of concavity geometrically.   For us,  a curve is  \index{concave up}\index{concavity ! concave up}\textbf{concave up} over an interval if it resembles a  portion of a `$\smile$' shape.  Similarly, a curve is called  \index{concave down}\index{concavity ! concave down}\textbf{concave down} over an interval if  resembles part of a `$\frown$' shape. When $0 < r < 1$, the graphs of $f(x) = x^r$ resemble the left half of $\frown$ and so are concave down;  when $r>1$, the graphs resemble the right half of a `$\smile$' and are hence described as `concave up.' See \autoref{fig:fxeqxpowermbyn}.
 
+\begin{figure}
 \begin{center}
 
-\begin{tabular}{cccc}
+\begin{tabular}{cc}
 
 \begin{mfpic}[20]{0}{5}{0}{5}
 \axes
@@ -154,8 +172,7 @@ Next, we turn our attention to the graphs of $f(x) =x^r =  x^{\frac{m}{n}}$ for 
 \tcaption{\scriptsize $f(x)=x^{\frac{3}{4}}$}
 \end{mfpic}
 
-&
-
+\\
 
 \begin{mfpic}[20]{0}{5}{0}{5}
 \axes
@@ -171,10 +188,7 @@ Next, we turn our attention to the graphs of $f(x) =x^r =  x^{\frac{m}{n}}$ for 
 
 \end{mfpic}
 
-
-
 &
-
 
 \begin{mfpic}[20]{0}{5}{0}{5}
 \axes
@@ -192,14 +206,16 @@ Next, we turn our attention to the graphs of $f(x) =x^r =  x^{\frac{m}{n}}$ for 
 
 \end{tabular}
 
+\caption{}
+\label{fig:fxeqxpowermbyn}
 \end{center}
+\end{figure}
 
-Below we graph several examples of $f(x) =x^r =  x^{\frac{m}{n}}$ where $n$ is odd.   Here, the domain is $(-\infty, \infty)$ since the index on the root here is odd. Note that when $m$ is even, the graphs appear to be symmetric about the $y$-axis  and the range looks to be $[0, \infty)$.  When $m$ is odd, the graphs  appear to be symmetric about the origin with range $(-\infty, \infty)$.  We leave verification of these facts to the reader.   Note here also that for $x \geq 0$, the graphs are down for $0<r<1$ and concave up for $r > 1$. 
+In \autoref{fig:fxeqxpowermbynwithoddn} we graph several examples of $f(x) =x^r =  x^{\frac{m}{n}}$ where $n$ is odd.   Here, the domain is $(-\infty, \infty)$ since the index on the root here is odd. Note that when $m$ is even, the graphs appear to be symmetric about the $y$-axis  and the range looks to be $[0, \infty)$.  When $m$ is odd, the graphs  appear to be symmetric about the origin with range $(-\infty, \infty)$.  We leave verification of these facts to the reader.   Note here also that for $x \geq 0$, the graphs are down for $0<r<1$ and concave up for $r > 1$. 
 
+\begin{figure}
 \begin{center}
-
-
-\begin{tabular}{cccc}
+\begin{tabular}{cc}
 
 \begin{mfpic}[15]{-4}{4}{-4}{4}
 \axes
@@ -230,8 +246,7 @@ Below we graph several examples of $f(x) =x^r =  x^{\frac{m}{n}}$ where $n$ is o
 \tcaption{\scriptsize $f(x)=x^{\frac{2}{3}}$}
 \end{mfpic}
 
-
-&
+\\
 
 \begin{mfpic}[15]{-4}{4}{-4}{4}
 \axes
@@ -265,13 +280,17 @@ Below we graph several examples of $f(x) =x^r =  x^{\frac{m}{n}}$ where $n$ is o
 
 \end{tabular}
 
+\caption{}
+\label{fig:fxeqxpowermbynwithoddn}
 \end{center}
+\end{figure}
 
-When $r<0$, we have variables appear in the denominator which open the opportunities for vertical and horizontal asymptotes. Below are graphed two examples
+When $r<0$, we have variables appear in the denominator which open the opportunities for vertical and horizontal asymptotes. In \autoref{fig:fxeqxpowerrwithrltone} are graphed two examples.
 
+\begin{figure}
+
+\begin{minipage}[b]{0.5\textwidth}
 \begin{center}
-
-\begin{tabular}{m{2.5in}m{2.5in}}
 
 \begin{mfpic}[20]{0}{5}{0}{3}
 \axes
@@ -289,7 +308,10 @@ When $r<0$, we have variables appear in the denominator which open the opportuni
 
 \end{mfpic}
 
-&
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.5\textwidth}
+\begin{center}
 
 \begin{mfpic}[15]{-4}{4}{-4}{4}
 \axes
@@ -308,19 +330,17 @@ When $r<0$, we have variables appear in the denominator which open the opportuni
 
 \end{mfpic}
 
-\\
-
-\end{tabular}
-
 \end{center}
+\end{minipage}
+
+\caption{}
+\label{fig:fxeqxpowerrwithrltone}
+\end{figure}
 
 
 Unsurprisingly, Theorem \ref{linearrootgraphs}, which, as stated, applied to root functions, generalizes to all rational powers.  
 
-\smallskip
-
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm} \label{linearrationalpowergraphs}  For real numbers $a$, $b$, $h$, and $k$ and rational number $r$ with $a, b, r \neq 0$, the graph of $F(x) = a(bx-h)^r +k$  can be obtained from the graph of $f(x) = x^r$ by performing the following operations, in sequence:
 
@@ -346,13 +366,11 @@ Unsurprisingly, Theorem \ref{linearrootgraphs}, which, as stated, applied to roo
 
 \end{thm}
 
-\ebm}
-
-\smallskip
+\end{tcolorbox}
 
 The proof of Theorem \ref{linearrationalpowergraphs} is identical to that of Theorem \ref{linearrootgraphs}, and we suggest the reader work through the details.  We give Theorem \ref{linearrationalpowergraphs}  a test run in the following example.
 
-\begin{ex} \label{rationalpowershiftex} Use the given graphs of $f$ and $g$ below long with Theorem \ref{linearrationalpowergraphs} to graph $F$ and $G$.  State the domain and range of $F$ and $G$ using interval notation.
+\begin{ex} \label{rationalpowershiftex} Use the given graphs of $f$ and $g$ below along with Theorem \ref{linearrationalpowergraphs} to graph $F$ and $G$.  State the domain and range of $F$ and $G$ using interval notation.
 
 \begin{enumerate}
 
@@ -413,9 +431,8 @@ The proof of Theorem \ref{linearrationalpowergraphs} is identical to that of The
 
 Step 1:   add $1$ to each of the $x$-coordinates of each of the points on the graph of $y=x^{2.6}$:
 
-\[ \begin{array}[v]{rlc}
-
-
+\begin{multline*}
+%
 \begin{mfpic}[20]{-3}{3}{-4}{4}
 \axes
 \tlabel[cc](3, -0.5){\scriptsize $x$}
@@ -425,15 +442,12 @@ Step 1:   add $1$ to each of the $x$-coordinates of each of the points on the gr
 \tlabel[cc](0.5,-0.5){\scriptsize $(0,0)$}
 \penwd{1.25pt}
 \arrow \reverse \arrow \parafcn{-1.11, 1.11,0.1}{(t**5,t**13)}
-
 \point[4pt]{(-1,-1), (0,0), (1,1)}
-\tcaption{\scriptsize $y=x^{2.6}$}
-
+\tcaption{\scriptsize $y=x^{2.6}$ with $(-1,1)$, $(0,0)$, $(1,1)$}
 \end{mfpic}
-&
-\stackrel{\text{ \scriptsize add $1$ to each $x$-coordinate}}{\xrightarrow{\hspace{1.5in}}}
-&
-
+%
+\transgraph{.5in}{add $1$ to each $x$-coordinate}
+%
 \begin{mfpic}[20]{-2}{4}{-4}{4}
 \axes
 \tlabel[cc](4, -0.5){\scriptsize $x$}
@@ -443,55 +457,45 @@ Step 1:   add $1$ to each of the $x$-coordinates of each of the points on the gr
 \tlabel[cc](1.5,-0.5){\scriptsize $(1,0)$}
 \penwd{1.25pt}
 \arrow \reverse \arrow \parafcn{-1.11, 1.11,0.1}{(t**5+1,t**13)}
-
 \point[4pt]{(0,-1), (1,0), (2,1)}
-\tcaption{\scriptsize $y=(x-1)^{2.6}$}
-
-\end{mfpic}\\
-
- \text{\scriptsize  $(-1,1)$, $(0,0)$, $(1,1)$} & & \text{\scriptsize  $(0,-1)$, $(1,0)$, $(2,1)$} \\
- 
- \end{array} \]
+\tcaption{\scriptsize $y=(x-1)^{2.6}$ with $(0,-1)$, $(1,0)$, $(2,1)$}
+\end{mfpic}
+%
+\end{multline*}
 
 Step 2:   divide each of the $x$-coordinates of each of the points on the graph of $y=(x-1)^{2.6}$ by $2$:
 
-\[ \begin{array}[v]{rlc}
-
+\begin{multline*}
+%
 \begin{mfpic}[20]{-2}{4}{-4}{4}
 \axes
-\tlabel[cc](4, -0.5){\scriptsize $x$}
-\tlabel[cc](0.5, 4){\scriptsize $y$}
+\tlabel[cc](4, -3.5){\scriptsize $x$}
+\tlabel[cc](1.5, 1){\scriptsize $y$}
 \tlabel[cc](2.5,1){\scriptsize $(2,1)$}
 \tlabel[cc](-1,-1){\scriptsize $(0,-1)$}
 \tlabel[cc](1.5,-0.5){\scriptsize $(1,0)$}
 \penwd{1.25pt}
 \arrow \reverse \arrow \parafcn{-1.11, 1.11,0.1}{(t**5+1,t**13)}
-
 \point[4pt]{(0,-1), (1,0), (2,1)}
-\tcaption{\scriptsize $y=(x-1)^{2.6}$}
-
+\tcaption{\scriptsize $y=(x-1)^{2.6}$ with $(0,-1)$, $(1,0)$, $(2,1)$}
 \end{mfpic}
-&
-\stackrel{\text{ \scriptsize divide to each $x$-coordinate by 2}}{\xrightarrow{\hspace{1.5in}}}
-&
+%
+\transgraph{.5in}{divide to each $x$-coordinate by 2}
+%
 \begin{mfpic}[20]{-2}{4}{-4}{4}
 \axes
 \tlabel[cc](4, -0.5){\scriptsize $x$}
-\tlabel[cc](0.5, 4){\scriptsize $y$}
+\tlabel[cc](1.5, 1){\scriptsize $y$}
 \tlabel[cc](1.5,1){\scriptsize $(1,1)$}
 \tlabel[cc](-1,-1){\scriptsize $(0,-1)$}
 \tlabel[cc](1,-0.5){\scriptsize $\left(\frac{1}{2},0 \right)$}
 \penwd{1.25pt}
 \arrow \reverse \arrow \parafcn{-1.11, 1.11,0.1}{((t**5+1)/2,t**13)}
-
 \point[4pt]{(0,-1), (0.5,0), (1,1)}
-\tcaption{\scriptsize $F(x)=(2x-1)^{2.6}$}
-
-\end{mfpic}  \\
-
- \text{\scriptsize   $(0,-1)$, $(1,0)$, $(2,1)$} & & \text{\scriptsize  $(0,-1)$, $\left(\frac{1}{2},0 \right)$, $(1,1)$} \\
- 
- \end{array} \]
+\tcaption{\scriptsize $F(x)=(2x-1)^{2.6}$ with $(0,-1)$, $\left(\frac{1}{2},0 \right)$, $(1,1)$}
+\end{mfpic}
+%
+\end{multline*}
  
  We get the domain and range here are both $(-\infty, \infty)$.
  
@@ -499,8 +503,8 @@ Step 2:   divide each of the $x$-coordinates of each of the points on the graph 
  
 Step 1:   add $-3$ to each of the $t$-coordinates of each of the points on the graph of $y=t^{\frac{3}{8}}$:
 
-\[ \begin{array}[v]{rlc}
-
+\begin{multline*}
+%
 \begin{mfpic}[20]{-1}{5}{-1}{4}
 \axes
 \tlabel[cc](5, -0.5){\scriptsize $t$}
@@ -510,15 +514,11 @@ Step 1:   add $-3$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow  \parafcn{0, 1.22,0.1}{(t**8,t**3)}
 \point[4pt]{(0,0), (1,1)}
-\tcaption{\scriptsize $y=t^{\frac{3}{8}}$}
-
+\tcaption{\scriptsize $y=t^{\frac{3}{8}}$ with $(0,0)$, $(1,1)$}
 \end{mfpic} 
-
-
-&
-\stackrel{\text{ \scriptsize add $-3$ to each $t$-coordinate}}{\xrightarrow{\hspace{1.5in}}}
-&
-
+%
+\transgraph{.5in}{add $-3$ to each $t$-coordinate}
+%
 \begin{mfpic}[20]{-4}{2}{-1}{4}
 \axes
 \tlabel[cc](2, -0.5){\scriptsize $t$}
@@ -528,13 +528,10 @@ Step 1:   add $-3$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow  \parafcn{0, 1.22,0.1}{(t**8-3,t**3)}
 \point[4pt]{(-3,0), (-2,1)}
-\tcaption{\scriptsize $y=(t+3)^{\frac{3}{8}}$}
-
-\end{mfpic}   \\
-
- \text{\scriptsize  $(0,0)$, $(1,1)$} & & \text{\scriptsize  $(-3,0)$, $(-2,1)$} \\
- 
- \end{array} \]
+\tcaption{\scriptsize $y=(t+3)^{\frac{3}{8}}$ with $(-3,0)$, $(-2,1)$}
+\end{mfpic}
+ %
+\end{multline*}
 
  Step 2:  Since $b=1$, we proceed directly to Step 3.
  
@@ -551,13 +548,13 @@ Step 1:   add $-3$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow  \parafcn{0, 1.22,0.1}{(t**8-3,t**3)}
 \point[4pt]{(-3,0), (-2,1)}
-\tcaption{\scriptsize $y=(t+3)^{\frac{3}{8}}$}
+\tcaption{\scriptsize $y=(t+3)^{\frac{3}{8}}$ with $(-3,0)$, $(-2,1)$}
 
 \end{mfpic}
 
 
 &
-\stackrel{\text{ \scriptsize multiply each $y$-coordinate by $-2$}}{\xrightarrow{\hspace{1.5in}}}
+\transgraph{.5in}{multiply each $y$-coordinate by $-2$}
 &
 
 \begin{mfpic}[20]{-4}{2}{-4}{1}
@@ -569,11 +566,9 @@ Step 1:   add $-3$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow  \parafcn{0, 1.22,0.1}{(t**8-3,(-2)*(t**3))}
 \point[4pt]{(-3,0), (-2,-2)}
-\tcaption{\scriptsize $y=-2(t+3)^{\frac{3}{8}}$}
+\tcaption{\scriptsize $y=-2(t+3)^{\frac{3}{8}}$ with $(-3,0)$, $(-2,-2)$}
 
-\end{mfpic} \\
-
- \text{\scriptsize  $(-3,0)$, $(-2,1)$} & & \text{\scriptsize  $(-3,0)$, $(-2,-2)$} \\
+\end{mfpic}
  
  \end{array} \]
  
@@ -591,13 +586,13 @@ Step 1:   add $-3$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow  \parafcn{0, 1.22,0.1}{(t**8-3,(-2)*(t**3))}
 \point[4pt]{(-3,0), (-2,-2)}
-\tcaption{\scriptsize $y=-2(t+3)^{\frac{3}{8}}$}
+\tcaption{\scriptsize $y=-2(t+3)^{\frac{3}{8}}$ with $(-3,0)$, $(-2,-2)$}
 
 \end{mfpic}
 
 
 &
-\stackrel{\text{ \scriptsize add $1$ to each  $y$-coordinate}}{\xrightarrow{\hspace{1.5in}}}
+\transgraph{.5in}{add $1$ to each  $y$-coordinate}
 &
 
 \begin{mfpic}[20]{-4}{2}{-3}{2}
@@ -609,11 +604,9 @@ Step 1:   add $-3$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow  \parafcn{0, 1.22,0.1}{(t**8-3,(-2)*(t**3)+1)}
 \point[4pt]{(-3,1), (-2,-1)}
-\tcaption{\scriptsize $y=-2(t+3)^{\frac{3}{8}}+1$}
+\tcaption{\scriptsize $y=-2(t+3)^{\frac{3}{8}}+1$ with $(-3,1)$, $(-2,-1)$}
 
 \end{mfpic} \\
-
- \text{\scriptsize  $(-3,0)$, $(-2,-2)$} & & \text{\scriptsize  $(-3,1)$, $(-2,-1)$} \\
  
  \end{array} \]
 
@@ -625,14 +618,13 @@ From the graph, we get the domain is $[-3, \infty)$ and the range is $(-\infty, 
 
 We now turn our attention to more complicated functions involving rational exponents.
 
-
 \begin{ex}  For the following functions:
 
 \begin{itemize}
 
 \item Analytically:
 
-\begin{multicols}{3}
+\begin{multicols}{2}
 
 \begin{itemize}
 
@@ -649,8 +641,6 @@ We now turn our attention to more complicated functions involving rational expon
 
 \item Graph the function with help from a graphing utility and determine:
 
-\begin{multicols}{2}
-
 \begin{itemize}
 
 \item  the range.
@@ -659,10 +649,6 @@ We now turn our attention to more complicated functions involving rational expon
 
 \end{itemize}
 
-\end{multicols}
-
-\begin{multicols}{2}
-
 \begin{itemize}
 
 \item intervals of increase.
@@ -670,8 +656,6 @@ We now turn our attention to more complicated functions involving rational expon
 \item intervals of decrease.
 
 \end{itemize}
-
-\end{multicols}
 
 \item Construct a sign diagram for each function using the intercepts and graph.
 \end{itemize}
@@ -699,16 +683,23 @@ To find the $x$-intercepts, we set $f(x) =  3x^2(x^3-8)^{-\frac{2}{3}} = 0$, so 
 
 For end behavior, we note that in the denominator the $x^3$ term dominates the constant term, so as $x \rightarrow \pm \infty$, \[ f(x) = 3x^2(x^3-8)^{-\frac{2}{3}} = \dfrac{3x^2}{(x^3-8)^{\frac{2}{3}}} \approx \dfrac{3x^2}{ (x^3)^{ \frac{2}{3} } } = \dfrac{3x^2}{\sqrt[3]{(x^3)^2}} = \dfrac{3x^2}{\sqrt[3]{x^6}} = \dfrac{3x^2}{x^2} = 3.\]  This suggests $y = 3$ is a horizontal asymptote to the graph.
 
-Graphing $y=f(x)$ below on the right bears out our analysis regarding zeros and asymptotes.  The range appears to be $[0, \infty)$, with the graph of $y = f(x)$ crossing its horizontal asymptote between $x=1$ and $x=2$.    We see we have  a single local minimum at $(0,0)$ with $f$ is decreasing on $(-\infty, 0]$ and $(2, \infty)$ and increasing on $[0, 2)$.  
+Graphing $y=f(x)$ in \autoref{fig:yeqfxeqthreexsquaredetc} bears out our analysis regarding zeros and asymptotes.  The range appears to be $[0, \infty)$, with the graph of $y = f(x)$ crossing its horizontal asymptote between $x=1$ and $x=2$.    We see we have  a single local minimum at $(0,0)$ with $f$ is decreasing on $(-\infty, 0]$ and $(2, \infty)$ and increasing on $[0, 2)$.  
 
-For the  sign diagram, we note that $f$ has only one zero, $x=0$ and is undefined at $x = 2$.  For all $x$ values between these two numbers, $f(x) > 0$ or $(+)$.  Our  sign diagram for $f(x)$ is below on the right.
+For the  sign diagram, we note that $f$ has only one zero, $x=0$ and is undefined at $x = 2$.  For all $x$ values between these two numbers, $f(x) > 0$ or $(+)$.  Our  sign diagram for $f(x)$ is in \autoref{fig:signdiagramforyeqfxeqthreexsquaredetc}.
 
+\begin{figure}
 \begin{center}
 
-\begin{tabular}{cc}
+\includegraphics[width=3in]{./PowerFunctionsGraphics/RationalExpEx01.jpg} \\
 
-\includegraphics[width=3in]{./PowerFunctionsGraphics/RationalExpEx01.jpg} &
+\caption{The graph of $y=f(x)$}
+\label{fig:yeqfxeqthreexsquaredetc}
+\end{center}
+\end{figure}
 
+\begin{figure}
+\begin{center}
+  
 \begin{mfpic}[20]{-4}{2}{-1}{1}
 \arrow \reverse \arrow \polyline{(-4,0),(2,0)}
 \xmarks{-2,0}
@@ -721,11 +712,10 @@ For the  sign diagram, we note that $f$ has only one zero, $x=0$ and is undefine
 \tlabel[cc](1,0.5){$(+)$}
 \end{mfpic}  \\
 
-The graph of $y=f(x)$  \hspace{0.75in} & Sign Diagram for $f(x)$ \\
-
-\end{tabular}
-
-\end{center} 
+\caption{Sign Diagram for $f(x)$}
+\label{fig:signdiagramforyeqfxeqthreexsquaredetc}
+\end{center}
+\end{figure}
 
 
 \item To find the domain of $g(t) = \frac{ (t^2-4)^{\frac{3}{2}} }{t^2-36}$, we have two issues to address:  the denominator and an even (square) root.  Solving $t^2 - 36 = 0$ gives  two excluded values, $t = \pm 6$.  For the numerator, we may rewrite $(t^2-4)^{\frac{3}{2}} = (\sqrt{t^2-4})^3$, so we require $t^2-4 \geq 0$, or  $t^2 \geq 4$.  Extracting square roots, we have $\sqrt{t^2} \geq \sqrt{4}$ or $|t| \geq 2$ which means $t \leq -2$ or $t \geq 2$.  Taking into account our excluded values $t = \pm 6$, we get  the domain of $g$ is $(-\infty, -6) \cup (-6, -2] \cup [2, 6) \cup (6, \infty)$.
@@ -739,18 +729,23 @@ Regarding end behavior, as $t \rightarrow \pm \infty$, the $t^2$ in both numerat
 
 This suggests that as $t \rightarrow \infty$, the graph of $y = g(t)$ resembles $y = |t|$.  Using the piecewise definition of $|t|$, we have that as $t \rightarrow -\infty$, $g(t) \approx -t$ and as $t \rightarrow \infty$, $g(t) \approx t$.  In other words, the graph of  $y = g(t)$ has \textit{two} slant asymptotes with slopes $\pm 1$. 
 
-Graphing $y=g(t)$ below on the left verifies our analysis.  From the graph, the range appears to be $(-\infty, 0] \cup [14.697, \infty)$.  The points $(-10, 14.697)$ and $(10, 14.697)$ are local minimums.  $g$ appears to be decreasing on  $(-\infty, -10]$, $[2, 6)$, and $(6, 10]$. Likewise, $g$ is increasing on $[-10, -6)$, $(-6, -2]$ and $[10, \infty)$.  The graph of $y=g(t)$ certainly appears to be symmetric about the $y$-axis.  We leave it to the reader to show $g$ is, indeed, an even function.
+Graphing $y=g(t)$ in \autoref{fig:yeqgteqtsquaredetc} verifies our analysis.  From the graph, the range appears to be $(-\infty, 0] \cup [14.697, \infty)$.  The points $(-10, 14.697)$ and $(10, 14.697)$ are local minimums.  $g$ appears to be decreasing on  $(-\infty, -10]$, $[2, 6)$, and $(6, 10]$. Likewise, $g$ is increasing on $[-10, -6)$, $(-6, -2]$ and $[10, \infty)$.  The graph of $y=g(t)$ certainly appears to be symmetric about the $y$-axis.  We leave it to the reader to show $g$ is, indeed, an even function.
 
-\enlargethispage{1in}
+For the sign diagram for $g(t)$, we note that $g$ has zeros $t = \pm 2$ and is undefined at $t = \pm 6$.  Moreover, there is a gap in the domain for all values in the interval $(-2,2)$, so we excise that portion of the real number line for our discussion.  We find $g(t) > 0$ or $(+)$ on the intervals $(-\infty -6)$ and $(6, \infty)$ while $g(t) < 0$ or $(-)$ on $(-6,-2)$ and $(2, 6)$.  Our sign diagram for $g(t)$ is in \autoref{fig:signdiagramforyeqgteqtsquaredetc}.  
 
-For the sign diagram for $g(t)$, we note that $g$ has zeros $t = \pm 2$ and is undefined at $t = \pm 6$.  Moreover, there is a gap in the domain for all values in the interval $(-2,2)$, so we excise that portion of the real number line for our discussion.  We find $g(t) > 0$ or $(+)$ on the intervals $(-\infty -6)$ and $(6, \infty)$ while $g(t) < 0$ or $(-)$ on $(-6,-2)$ and $(2, 6)$.  Our sign diagram for $g(t)$ is below on the right.  
-
+\begin{figure}
 \begin{center}
 
-\begin{tabular}{cc}
+\includegraphics[width=3in]{./PowerFunctionsGraphics/RationalExpEx02.jpg}
 
- \includegraphics[width=3in]{./PowerFunctionsGraphics/RationalExpEx02.jpg} & 
+\caption{The graph of $y=g(t)$}
+\label{fig:yeqgteqtsquaredetc}
+\end{center}
+\end{figure}
  
+\begin{figure}
+\begin{center}
+  
 \begin{mfpic}[20][10]{-2}{7}{-1.5}{1.5}
 \arrow \polyline{(2,0), (-2,0)}
 \arrow \polyline{(3,0), (7,0)}
@@ -768,13 +763,12 @@ For the sign diagram for $g(t)$, we note that $g$ has zeros $t = \pm 2$ and is u
 \tlabel[cc](5,1){\textinterrobang}
 \tlabel[cc](6,1){$(+)$}
 
-\end{mfpic} \\
+\end{mfpic}
 
-The graph of $y=g(t)$  \hspace{0.75in} &Sign Diagram for $g(t)$ \\
-
-\end{tabular}
-
-\end{center} 
+\caption{Sign Diagram for $g(t)$}
+\label{fig:signdiagramforyeqgteqtsquaredetc}
+\end{center}
+\end{figure}
 
 \qed
 
@@ -795,9 +789,10 @@ We take this tack  when defining the value of a number raised to an irrational e
 
 It is with this understanding that we present the notion of a `power function,' as described in Definition   \ref{powerfunction}:  $f(x) = a x^p$ where $a$ and $p$ are nonzero real number parameters.  Here the exponent $p$ is open to any (nonzero) real number.  Because of how we define real number exponents, if $p$ is irrational, then $ x \geq 0$ to avoid having negatives under even-indexed roots as we go through the approximation process.\footnote{or $x > 0$ if $p$ is negative.} 
 
-In general, real number exponents inherit their properties from rational number exponents.  For instance, Theorem \ref{exponentprops} also holds for all real number exponents and the graphs of power functions inherit their behavior from graphs of rational exponent functions.  More specifically, the graphs of functions of the form $f(x)= x^p$ where $p>0$ all contain the points $(0,0)$ and $(1,1)$.  Moreover, these functions are increasing and their graphs are  concave down if $0<p<1$ and concave up if $p>1$. 
+In general, real number exponents inherit their properties from rational number exponents.  For instance, Theorem \ref{exponentprops} also holds for all real number exponents and the graphs of power functions inherit their behavior from graphs of rational exponent functions.  More specifically, the graphs of functions of the form $f(x)= x^p$ where $p>0$ all contain the points $(0,0)$ and $(1,1)$.  Moreover, these functions are increasing and their graphs are  concave down if $0<p<1$ and concave up if $p>1$. See \autoref{fig:fxeqxpowerp}.
 
 
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[17]{-1}{9}{-1}{9}
@@ -812,24 +807,25 @@ In general, real number exponents inherit their properties from rational number 
 \arrow  \parafcn{0, 3,0.1}{(t**2,t)}
 \arrow  \parafcn{0, 3,0.1}{(t,t**2)}
 \point[4pt]{(0,0), (1,1)}
-\tcaption{\scriptsize $f(x) = x^p$ for varying values of $p$.}
 
 \end{mfpic}
 
+\caption{$f(x) = x^p$ for varying values of $p$}
+\label{fig:fxeqxpowerp}
 \end{center}
+\end{figure}
 
 Theorem \ref{linearrationalpowergraphs}  generalizes to real number power functions, so, for instance to graph $F(x) = (x-2)^{\pi}$, one need only start with $y = x^{\pi}$ and shift horizontally two units to the right.  (See the Exercises.)  
 
-We close this section with an application to economics.  According to the \href{http://www.census.gov/library/publications/2016/demo/p60-256.html }{\underline{US Census}}, Table 2, the share of money income (2014-2015) is given in the table below on the left. From these data, we can create a cumulative distribution, $y = L(x)$ called the \index{Lorenz Curve}\textbf{Lorenz Curve}.   
+We close this section with an application to economics.  According to the \href{http://www.census.gov/library/publications/2016/demo/p60-256.html }{\underline{US Census}}, Table 2, the share of money income (2014-2015) is given in \autoref{tab:portionofpopulation}. From these data, we can create a cumulative distribution, $y = L(x)$ called the \index{Lorenz Curve}\textbf{Lorenz Curve}.   
 
 The number $L(x)$ gives the percentage of the total national income earned by the bottom $x$ percent of wage earners, ranked from lowest income to highest income.  Since the population here is separated into `quintiles,' each data point corresponds to $20 \%$ of the population.  So, for example, $L(20)$ is the percentage of money income earned by the lowest $20 \%$ of wage earners.  In this case, we see $L(20) = 3.1$.  The number  $L(40)$ is the percentage of the money income earned by the bottom $40 \%$ of wage earners - so this includes not only the money from the Second Quintile, but also the Lowest Quintile:  $L(40) = 8.2 + L(20) = 8.2 +  3.1 = 11.3$.  Likewise, $L(60)$ is the total income share of the bottom $60 \%$ of wage earners which includes the income from the Middle, Second, and Lowest Quintiles:  $L(60) = 14.3 + L(40) = 14.3 + (8.2+3.1) = 25.6$.  
 
-Continuing in this manner, we get $L(80) = 48.8$ and $L(100) = 100$, which is what we would expect:  $100 \%$ of the income is earned by $100 \%$ of the population.  We summarize these findings below  on the right.
+Continuing in this manner, we get $L(80) = 48.8$ and $L(100) = 100$, which is what we would expect:  $100 \%$ of the income is earned by $100 \%$ of the population.  We summarize these findings in \autoref{tab:percentwageearners}.
 
-\smallskip
-
-\begin{tabular}{cc}
-
+\begin{table}
+\begin{center}
+  
 $ \begin{array}{cc}
 
 \text{\small Portion of Population} & \text{ \small Percent of Money Income} \\
@@ -845,8 +841,15 @@ $ \begin{array}{cc}
 \text{\small Highest Quintile} &   \text{\small 51.2 } \\
 
 \end{array} $
-&
 
+\caption{}
+\label{tab:portionofpopulation}
+\end{center}
+\end{table}
+
+\begin{table}
+\begin{center}
+  
 $ \begin{array}{cc}
 
 \text{\small percent wage earners, $x$} & \text{\small percent income, $L(x)$} \\
@@ -863,10 +866,10 @@ $ \begin{array}{cc}
 
 \end{array} $
 
-
-\end{tabular}
-
-\enlargethispage{1in}
+\caption{}
+\label{tab:percentwageearners}
+\end{center}
+\end{table}
 
 \begin{ex} \label{LorenzEx}  $~$
 
@@ -882,21 +885,21 @@ $ \begin{array}{cc}
 
 \begin{enumerate}
 
-\item Using \href{https://www.desmos.com/}{\underline{desmos}}, we get $L(x) = 0.00027901x^{2.7738}$ with $R^2 = 0.993$, indicating a pretty good fit.  
+\item Using \href{https://www.desmos.com/}{\underline{desmos}}, we get $L(x) = 0.00027901x^{2.7738}$ with $R^2 = 0.993$, indicating a pretty good fit. See \autoref{fig:lorenzex}
 
+\begin{figure}
 \begin{center}
 
 \includegraphics[width=3.5in]{./PowerFunctionsGraphics/LorenzEx.jpg}
 
+\caption{}
+\label{fig:lorenzex}
 \end{center}
-
+\end{figure}
 
 \item We compute $L(90) = 0.00027901(90)^{2.7738} \approx 73.5$ meaning that the bottom $90 \%$ of the wage earners brought home $73.5 \%$ of the total income.  Said differently, the top $10 \%$ of wage earners made over $25 \%$ of the total national income.  \qed
 
-
 \end{enumerate}
-
-
  
 \end{ex}
 
