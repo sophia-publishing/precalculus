@@ -8,25 +8,16 @@
 
 In  Section \ref{FunctionsandtheirRepresentations}, we defined functions as processes.  In this section, we seek to reverse, or `undo' those processes.    As in real life, we will find that some processes (like putting on socks and shoes) are reversible while some (like baking a cake) are not. 
 
-\smallskip
-
-
 Consider the function $f(x) = 3x+4$.   Starting with a real number input $x$, we  apply two steps in the following sequence:  first we multiply the input by $3$ and, second, we add $4$ to the result.  
-
-\smallskip
 
 To reverse this process, we seek a function $g$ which will undo each of these steps and take the output from $f$, $3x+4$, and return the input $x$.  If we think of the two-step process of first putting on socks then putting on shoes, to reverse the process, we first take off the shoes and then we take off the socks.  In much the same way, the function $g$ should undo each step of $f$ but in the opposite order.  That is, the function $g$ should first \textit{subtract} $4$ from the input $x$ then \textit{divide} the result by $3$. This leads us to the formula $g(x) = \frac{x-4}{3}$.
 
-\smallskip
-
 Let's check to see if the function $g$ does the job.  If $x=5$, then $f(5) = 3(5)+4 = 15+4 = 19$.  Taking the output $19$ from $f$, we substitute it into $g$ to get $g(19) = \frac{19-4}{3} = \frac{15}{3} = 5$, which is our original input to $f$. To check that $g$ does the job for all $x$ in the domain of $f$, we take the generic output from $f$, $f(x) = 3x+4$, and substitute that into $g$.  That is, we simplify  $g(f(x)) = g(3x+4) = \frac{(3x+4)-4}{3} = \frac{3x}{3} = x$, which is our original input to $f$.  If we carefully examine the arithmetic as we simplify $g(f(x))$, we actually see $g$ first `undoing' the addition of $4$, and then `undoing' the multiplication by $3$.  
-
-\smallskip
 
 Not only does $g$ undo $f$, but $f$ also undoes $g$.  That is, if we take the output from $g$, $g(x) = \frac{x-4}{3}$, and substitute that into $f$, we get $f(g(x)) = f\left(\frac{x-4}{3}\right) = 3 \left(\frac{x-4}{3}\right) + 4 = (x-4) + 4 = x$.  Using the language of function composition developed in Section \ref{FunctionComposition}, the statements $g(f(x)) = x$ and $f(g(x)) = x$ can be written as $(g \circ f)(x) = x$ and $(f \circ g)(x) = x$, respectively.\footnote{At the level of functions, $g \circ f = f \circ g = I$, where $I$ is the identity function as defined as $I(x) = x$ for all real numbers, $x$.}  Abstractly, we can visualize the relationship between $f$ and $g$ in the diagram below.  
 
+\begin{figure}
 \begin{center}
-
 
 \begin{mfpic}[10]{-15}{15}{-10}{10}
 
@@ -51,13 +42,16 @@ Not only does $g$ undo $f$, but $f$ also undoes $g$.  That is, if we take the ou
 
 \end{mfpic}
 
+\caption{}
+\label{fig:yeqfxex122}
 \end{center}
+\end{figure}
 
 The main idea to get from the diagram is that $g$ takes the outputs from $f$ and returns them to their respective inputs, and conversely, $f$ takes outputs from $g$ and returns them to their respective inputs.  We now have enough background to state the central definition of the section.
 
 \smallskip
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{inversefunctiondefn} Suppose $f$ and $g$ are two functions such that
 
@@ -74,7 +68,7 @@ The main idea to get from the diagram is that $g$ takes the outputs from $f$ and
 then $f$ and $g$ are \index{function ! inverse ! definition of}\index{inverse ! of a function ! definition of}\textbf{inverses} of each other and the functions $f$ and $g$ are said to be \textbf{invertible}. \index{invertible ! function}
 
 \end{defn}
-\ebm}
+\end{tcolorbox}
 
 \smallskip
 
@@ -95,7 +89,7 @@ We summarize the important properties of invertible functions in the following t
 
 \smallskip
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm}\textbf{Properties of Inverse Functions:} \label{inversefunctionprops} Suppose $f$ is an invertible function. \index{inverse ! of a function ! properties of} \index{function ! inverse ! properties of}
 
@@ -120,7 +114,7 @@ We summarize the important properties of invertible functions in the following t
 \end{itemize}
 
 \end{thm}
-\ebm}
+\end{tcolorbox}
 
 \smallskip
 
@@ -510,12 +504,12 @@ In general, in order for a function to be invertible, each output can come from 
 
 \smallskip
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{onetoone} \index{one-to-one function}\index{function ! one-to-one} A function $f$ is said to be \index{function ! one-to-one} \textbf{one-to-one} if whenever $f(a) = f(b)$, then $a=b$. 
 
 \end{defn}
-\ebm}
+\end{tcolorbox}
 
 \smallskip
 
@@ -594,7 +588,7 @@ So, to review, $f(x) = x^2$ is not invertible, not one-to-one, and its graph fai
 
 \smallskip
 
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm} \label{inversefunctionequivalency} \textbf{Equivalent Conditions for Invertibility:}  \index{invertibility ! function}
  
@@ -611,7 +605,7 @@ For a function $f$, either all of the following statements are true or none of t
 \end{itemize}
 
 \end{thm}
-\ebm}
+\end{tcolorbox}
 
 To prove Theorem \ref{inversefunctionequivalency}, we first suppose $f$ is invertible.  Then there is a function $g$ so that $g(f(x)) = x$ for all $x$ in the domain of $f$.    If $f(a) = f(b)$, then $g(f(a)) = g(f(b))$.  Since $g(f(x)) = x$, the equation $g(f(a)) = g(f(b))$ reduces to $a = b$. We've shown that if $f(a) = f(b)$, then $a = b$, proving $f$ is one-to-one.
 
@@ -954,7 +948,7 @@ We claim $g^{-1}(t) = \frac{t}{t+2}$, and leave the algebraic verification of th
   
 \smallskip
  
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \phantomsection \label{inverseprocedure}
 
@@ -970,7 +964,7 @@ We claim $g^{-1}(t) = \frac{t}{t+2}$, and leave the algebraic verification of th
 
 \end{enumerate}
 
-\ebm}
+\end{tcolorbox}
 
 \smallskip 
 
