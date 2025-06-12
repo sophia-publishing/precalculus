@@ -8,22 +8,13 @@
 
 As we mentioned in Section \ref{GraphsofFunctions}, in this chapter, we are studying functions in a more abstract and general setting.  In this section, we begin our study of what can be considered as the \textit{algebra of functions}  by defining \textit{function arithmetic.}  
 
-\smallskip
-
-
 Given two real numbers,  we have four primary arithmetic operations available to us:  addition, subtraction, multiplication, and division (provided we don't divide by $0$.)  Since the functions we study in this text have ranges which are sets of real numbers, it makes sense we can extend these arithmetic notions to functions. 
-
-\smallskip
 
 For example,  to add two functions means  we add their outputs;  to subtract two functions, we subtract their outputs, and so on and so forth.  More formally, given two functions $f$ and $g$, we \textit{define} a new function $f+g$ whose rule is determined by adding the outputs of $f$ and $g$.  That is $(f+g)(x) = f(x) + g(x)$.  While  this looks suspiciously like some kind of distributive property, it is nothing of the sort.  The `$+$' sign in the expression `$f+g$' is part of the \textit{name} of the function we are defining,\footnote{We could have just as easily called this new function $S(x)$ for `sum' of $f$ and $g$ and defined $S$ by $S(x) = f(x) + g(x)$.} whereas the plus sign `$+$' sign in the expression $f(x) + g(x)$ represents real number addition: we are adding the output from $f$, $f(x)$ with the output from $g$, $g(x)$ to determine the output from the sum function, $(f+g)(x)$.
 
-\smallskip
-
  Of course, in order to define $(f+g)(x)$ by the formula $(f+g)(x) = f(x) + g(x)$, both $f(x)$ and $g(x)$ need to be defined in the first place; that is, $x$ must be in the domain of $f$ \textit{and} the domain of $g$.  You'll recall\footnote{see Section \ref{AppSetTheory}.} this means $x$ must be in the \textit{intersection} of the domains of $f$ and $g$.   We define the following.
  
- \smallskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn}  \label{functionarithmeticdefn}  \index{function ! arithmetic} Suppose $f$ and $g$ are functions and $x$ is in both the domain of $f$ and the domain of $g$.
 \begin{itemize}
@@ -36,47 +27,24 @@ For example,  to add two functions means  we add their outputs;  to subtract two
 
 \item  The \index{function ! quotient} \textbf{quotient} of $f$ and $g$, denoted $\dfrac{f}{g}$, is the function defined by the formula \[\left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)},\] provided $g(x) \neq 0$.
 
-
 \end{itemize}
 
 \end{defn}
 
-\ebm}
-
-\medskip
-
-
+\end{tcolorbox}
 
 We put these definitions to work for us in the next example.
 
-
 \begin{ex}  \label{funcarithex} Consider the following functions:
 
-\begin{multicols}{2}
-
-\begin{itemize}
-
+\begin{shortitemize}
 \item  $f(x) = 6x^2 - 2x$ \vphantom{$g(t) = 3-\dfrac{1}{t}$, $t > 0$.}
-
 \item $g(t) = 3-\dfrac{1}{t}$, $t > 0$
-
-\end{itemize}
-
-\end{multicols}
-
-\begin{multicols}{2}
-
-\begin{itemize}
-
 \item  $h = \{ (-3,2), (-2,0.4), (0,\sqrt{2}), (3, -6) \}$  
+\item  $s$ whose graph is given in \autoref{fig:yeqst}.
+\end{shortitemize}
 
-\item  $s$ whose graph is given below:
-
-\end{itemize}
-
-\end{multicols}
-
-
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[15]{-2}{5}{-3}{4}
@@ -100,49 +68,25 @@ We put these definitions to work for us in the next example.
 \point[4pt]{(-2,-2), (0,-2), (1,0), (2,2)}
 \end{mfpic}
 
- 
+\caption{}
+\label{fig:yeqst}
 \end{center}
+\end{figure}
 
 \begin{enumerate}
 
 \item  \label{funcarithfindvaluesex} Find and simplify the following function values:
 
-\begin{multicols}{4}
-
-\begin{enumerate}
-
+\begin{shortenumerate}[MMMMMMMMMMMMM]
 \item  $(f+g)(1)$ \vphantom{ $\left( \dfrac{s}{h} \right)(0)$}
-
 \item $(s-f)(-1)$ \vphantom{ $\left( \dfrac{s}{h} \right)(0)$}
-
 \item $(fg)(2)$ \vphantom{ $\left( \dfrac{s}{h} \right)(0)$}
-
 \item  $\left( \dfrac{s}{h} \right)(0)$
-
-\setcounter{HW}{\value{enumii}}
-
-\end{enumerate}
-
-\end{multicols}
-
-
-\begin{multicols}{4}
-
-\begin{enumerate}
-
-\setcounter{enumii}{\value{HW}}
-
 \item \label{threefunctionsfirstex} $((s+g)+h)(3)$  \vphantom{$\left(\dfrac{f+g}{s}\right)(3)$}
-
 \item $(s+(g+h))(3)$  \vphantom{$\left(\dfrac{f+g}{s}\right)(3)$}
-
 \item $\left(\dfrac{f+h}{s}\right)(3)$
-
 \item  \label{threefunctionslastex} $(f(g-h))(-2)$ \vphantom{$\left(\dfrac{f+g}{s}\right)(3)$}
-
-\end{enumerate}
-
-\end{multicols}
+\end{shortenumerate}
 
 \item  Find the domain of each of the following functions:
 
@@ -212,34 +156,24 @@ We put these definitions to work for us in the next example.
 
 \item  By definition, $(fg)(x) = f(x)g(x)$.  We are given $f(x) = 6x^2-2x$ and $g(t) = 3 - \frac{1}{t}$ so $g(x) = 3 - \frac{1}{x}$.  Hence, 
 
-\[ \begin{array}{rclr}
-
-
-(fg)(x) & = & f(x)g(x) & \\
-           & = &  \left( 6x^2-2x \right) \left( 3 - \dfrac{1}{x} \right) & \\
-           & = &  18x^2 - 6x^2 \left(\dfrac{1}{x}\right) - 2x(3) + 2x \left(\dfrac{1}{x}\right)  & \text{distribute} \\
-           & = & 18x^2 - 6x - 6x + 2 & \\
-           & = & 18x^2 - 12x + 2 & \\ \end{array} \]
+\begin{align*}
+(fg)(x) & = f(x)g(x) \\
+           & = \left( 6x^2-2x \right) \left( 3 - \dfrac{1}{x} \right) \\
+           & = 18x^2 - 6x^2 \left(\dfrac{1}{x}\right) - 2x(3) + 2x \left(\dfrac{1}{x}\right)  \tag{distribute} \\
+           & = 18x^2 - 6x - 6x + 2 \\
+           & = 18x^2 - 12x + 2
+\end{align*}
            
 To find the domain of $fg$, we note the domain of $f$ is all real numbers, $(-\infty, \infty)$ whereas the domain of $g$ is restricted to $\{ t \in \mathbb{R} \, | \, t > 0 \} = (0, \infty)$.  Hence, the domain of $fg$ is likewise restricted to $(0, \infty)$.  Note if we relied solely on the \textbf{simplified formula} for $(fg)(x) = 18x^2 - 12x + 2$, we would have obtained the \textit{incorrect} answer for the domains of $fg$.  
 
 \item To find an expression for $\left(\frac{g}{f}\right)(t) = \frac{f(t)}{g(t)}$ we first note $f(t) = 6t^2-2t$ and $g(t) = 3 - \frac{1}{t}$.  Hence:
-\setlength{\extrarowheight}{12pt}
-
-\begin{longtable}{rclr}
- 
-$\left( \dfrac{g}{f}\right)(t)$ & $=$ & $\dfrac{g(t)}{f(t)} $  & \\
-& = & $\dfrac{3-\dfrac{1}{t}\vphantom{\left(\dfrac{1}{t}\right)}}{6t^2 - 2t}$ = $\dfrac{3-\dfrac{1}{t}\vphantom{\left(\dfrac{1}{t}\right)}}{6t^2 - 2t} \cdot \dfrac{t}{t}$ & simplify compound fractions  \\[.125in]
-
-& = & $\dfrac{\left(3-\dfrac{1}{t}\right) t}{\left(6t^2 - 2t\right)t}$ =  $\dfrac{3t-1}{\left(6t^2 - 2t\right)t}$ & \\
-
-& = & $\dfrac{3t-1}{2t^2(3t-1)}$ =  $\dfrac{\cancelto{1}{(3t-1)}}{2t^2\cancel{(3t-1)}}$ & factor and cancel \\
-
-& = & $\dfrac{1}{2t^2}$ &  \\
-
-\end{longtable} 
-
-\setlength{\extrarowheight}{2pt}
+\begin{align*}
+	\left( \dfrac{g}{f}\right)(t) &= \dfrac{g(t)}{f(t)} \\
+	& = \dfrac{3-\dfrac{1}{t}\vphantom{\left(\dfrac{1}{t}\right)}}{6t^2 - 2t} &= \dfrac{3-\dfrac{1}{t}\vphantom{\left(\dfrac{1}{t}\right)}}{6t^2 - 2t} \cdot \dfrac{t}{t} \tag{simplify compound fractions} \\
+	& = \dfrac{\left(3-\dfrac{1}{t}\right) t}{\left(6t^2 - 2t\right)t} &=  \dfrac{3t-1}{\left(6t^2 - 2t\right)t} \\
+	& = \dfrac{3t-1}{2t^2(3t-1)} &=  \dfrac{\cancelto{1}{(3t-1)}}{2t^2\cancel{(3t-1)}} \tag{factor and cancel} \\
+& = \dfrac{1}{2t^2} \\
+\end{align*}
 
 Hence, $\left(\frac{g}{f} \right)(t) = \frac{1}{2t^2} = \frac{1}{2} t^{-2}$.  To find the domain of $\frac{g}{f}$, a real number must be both in the domain of $g$, $(0, \infty)$, and the domain of $f$, $(-\infty, \infty)$ so we start with the set $(0, \infty)$.  Additionally, we require $f(t) \neq 0$.  Solving $f(t) = 0$ amounts to solving $6t^2-2t = 0$ or $2t(3t-1) = 0$.  We find $t = 0$ or $t = \frac{1}{3}$ which means we need to exclude these values from the domain.  Hence, our final answer for the domain of $\frac{g}{f}$ is $\left(0, \frac{1}{3} \right) \cup \left(\frac{1}{3}, \infty \right)$.  Note that, once again,  using the  \textit{simplified formula} for $\left(\frac{g}{f}\right)(t)$ to determine the domain of $\frac{g}{f}$, would have produced erroneous results. \qed
 
@@ -251,24 +185,19 @@ Hence, $\left(\frac{g}{f} \right)(t) = \frac{1}{2t^2} = \frac{1}{2} t^{-2}$.  To
  
  A few remarks are in order.  First, in number \ref{funcarithfindvaluesex} parts \ref{threefunctionsfirstex} through \ref{threefunctionslastex}, we first encountered combinations of \textit{three} functions despite Definition \ref{functionarithmeticdefn} only addressing combinations of \textit{two} functions at a time.  It turns out that function arithmetic inherits many of the same properties of real number arithmetic. For example, we showed above that  $((s+g)+h)(3) = (s+(g+h))(3)$.  In general, given any three functions $f$, $g$, and $h$, $(f+g)+h = f +(g+h)$ that is, function addition is \textit{assocative}.  To see this, choose an element $x$ common to the domains of $f$, $g$, and $h$.  Then 
  
- \[ \begin{array}{rclr}
- 
-((f+g)+h)(x) & = & (f+g)(x)+h(x) & \text{definiton of $((f+g)+h)(x)$} \\
-
-                    & = & (f(x)+g(x))+h(x) & \text{definition of $(f+g)(x)$} \\
-                    & = & f(x) + (g(x)+h(x)) & \text{associative property of real number addition} \\
-                    & = & f(x) + (g+h)(x) & \text{definition of $(g+h)(x)$} \\
-                    & = & (f+(g+h))(x) & \text{definition of $(f+(g+h))(x)$} \\  \end{array} \]
+\begin{align*}
+((f+g)+h)(x) & = (f+g)(x)+h(x) \tag{definiton of $((f+g)+h)(x)$} \\
+& = (f(x)+g(x))+h(x) \tag{definition of $(f+g)(x)$} \\
+& = f(x) + (g(x)+h(x)) \tag{associative property of real number addition} \\
+& = f(x) + (g+h)(x) \tag{definition of $(g+h)(x)$} \\
+& = (f+(g+h))(x) \tag{definition of $(f+(g+h))(x)$} \\
+\end{align*}
 
 The key step  to the argument is that  $(f(x)+g(x))+h(x)   =  f(x) + (g(x)+h(x))$ which is true courtesy of the associative property of real number addition.  And just like with real number addition, because function addition is associative, we may write $f+g+h$ instead of $(f+g)+h$ or $f+(g+h)$ even though, when it comes down to computations, we can only add two things together at a time.\footnote{Addition is a `binary' operation - meaning it is defined only on two objects at once.  Even though we write $1+2+3 = 6$,  mentally, we add just two of  numbers together at any given time to get our answer: for example, $1+2+3 = (1+2)+3 = 3+3 = 6$.}
 
-\smallskip
-
 For completeness, we summarize the properties of function arithmetic in the theorem below.  The proofs of the properties all follow along the same lines as the proof of the associative property and are left to the reader.  We investigate some additional properties in the exercises.
 
-\smallskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{thm}  \label{functionarithmeticprops}  Suppose $f$, $g$ and $h$ are functions.
 
@@ -297,9 +226,7 @@ For completeness, we summarize the properties of function arithmetic in the theo
 
 \end{thm}
 
-\ebm}
-
-\smallskip
+\end{tcolorbox}
 
 In the next example, we decompose given functions into sums, differences, products and/or quotients of other functions.  Note that there are infinitely many different ways to do this, including some trivial ones.  For example, suppose we were instructed to decompose $f(x) = x+2$ into a sum or difference of functions.  We could write $f = g+h$ where $g(x) = x$ and $h(x) = 2$ or we could choose $g(x) = 2x+3$ and $h(x) = -x-1$.  More simply, we could write $f = g+h$ where $g(x) = x+2$ and $h(x) = 0$.  We'll call this last decomposition a `trivial' decomposition.  Likewise, if we ask for a decomposition of $f(x) = 2x$ as a product, a nontrivial solution would be $f = gh$ where $g(x) = 2$ and $h(x) = x$ whereas a trivial solution would be $g(x) = 2x$ and $h(x) = 1$.  In general, non-trivial solutions to decomposition problems avoid using the additive identity, $0$,  for sums and differences and the multiplicative identity, $1$, for products and quotients.
 
@@ -309,41 +236,21 @@ In the next example, we decompose given functions into sums, differences, produc
 
 \item  For  $f(x) = x^2 - 2x$, find functions $g$, $h$ and $k$ to decompose $f$ nontrivially as:
 
-\begin{multicols}{4}
-
-\begin{enumerate}
-
+\begin{shortenumerate}
 \item  $f = g-h$
-
 \item  $f = g+h$
-
 \item  $f = gh$
-
 \item  $f = g(h-k)$
-
-\end{enumerate}
-
-\end{multicols}
+\end{shortenumerate}
 
 \item  For $F(t) = \dfrac{2t+1}{\sqrt{t^2-1}}$, find functions $G$, $H$ and $K$ to decompost $F$ nontrivially as:
 
-
-\begin{multicols}{4}
-
-\begin{enumerate}
-
+\begin{shortenumerate}
 \item  $F = \dfrac{G}{H}$ \vphantom{$F =  \dfrac{G+H}{K}$}
-
 \item  $F = GH$ \vphantom{$F =  \dfrac{G+H}{K}$}
-
 \item  $F = G+H$ \vphantom{$F =  \dfrac{G+H}{K}$}
-
 \item  $F =  \dfrac{G+H}{K}$ 
-
-\end{enumerate}
-
-\end{multicols}
-
+\end{shortenumerate}
 
 \end{enumerate}
 
@@ -404,12 +311,7 @@ In Section \ref{IntroRational},   the average rate of change of  position functi
 
 which measures the average velocity between time $t_{0}$ and time $t_{0} + \Delta t$ as a function of $\Delta t$.
 
-\smallskip
-
 Note that, regardless of which form the difference quotient takes, when $h$,  $\Delta x$, or  $\Delta t$ is $0$, the difference quotient returns the indeterminant form `$\frac{0}{0}$.' As we've seen with rational functions in Section \ref{IntroRational}, when this happens, we can reduce the fraction to lowest terms to see if we have a vertical asymptote or hole in the graph.  With this in mind,  when we speak of `simplifying the difference quotient,' we mean to manipulate the expression until the factor of `$h$' or `$\Delta x$' cancels out from the denominator. 
-
-\smallskip
-
 
 Our next example invites us to simplify three difference quotients, each cast slightly differently.  In each case, the bulk of the work involves Intermediate Algebra. We refer the reader to Sections \ref{AppRatExpEqus} and \ref{AppRadEqus} for additional review, if needed.
 
@@ -464,8 +366,6 @@ Our next example invites us to simplify three difference quotients, each cast sl
 
 \end{enumerate}
 
-\newpage
-
 {\bf Solution.}
  
 \begin{enumerate}
@@ -480,13 +380,13 @@ Our next example invites us to simplify three difference quotients, each cast sl
 
 Since $f(3) = (3)^2-3-2 = 4$, we get for the difference quotient:
 
-\[ \begin{array}{rclr}
-
-\dfrac{f(3+h)-f(3)}{h} & = & \dfrac{(4 + 5h + h^2) -4}{h} & \\
-                                & = & \dfrac{5h+h^2}{h} & \\
-                                & = &  \dfrac{h(5+h)}{h} & \text{factor} \\
-                                & = &  \dfrac{\cancel{h}(5+h)}{\cancel{h}} & \text{cancel} \\
-                                & = & 5+h \\ \end{array} \]
+\begin{align*}
+\dfrac{f(3+h)-f(3)}{h} & = \dfrac{(4 + 5h + h^2) -4}{h} \\
+                                & = \dfrac{5h+h^2}{h} \\
+                                & = \dfrac{h(5+h)}{h} \tag{factor} \\
+                                & = \dfrac{\cancel{h}(5+h)}{\cancel{h}} \tag{cancel} \\
+                                & = 5+h
+\end{align*}				
 
 
 \item For the second difference quotient, we first find $f(x+h)$, we replace every occurrence of $x$ in the formula $f(x) = x^2-x-2$ with the quantity $(x+h)$ to get \[ \begin{array}{rclr}  
@@ -497,18 +397,14 @@ Since $f(3) = (3)^2-3-2 = 4$, we get for the difference quotient:
 
 So the difference quotient is
 
-\setlength{\extrarowheight}{12pt}
-
-\begin{longtable}{rclr}  
-
-$\dfrac{f(x+h)-f(x)}{h}$ & = & $\dfrac{\left(x^2+2xh+h^2-x-h-2 \right)-\left(x^{2}-x-2 \right)}{h}$ & \\[8pt] 
-& = & $\dfrac{x^2+2xh+h^2-x-h-2-x^2+x+2}{h}$ & \\ [8pt]
-& = & $\dfrac{2xh+h^2-h}{h}$ & \\ [8pt]
-& = & $\dfrac{h \left(2x+h-1\right)}{h}$ & factor \\ [8pt]
-& = & $\dfrac{\cancel{h} \left(2x+h-1\right)}{\cancel{h}}$ & cancel \\ [8pt]
-& = & $2x+h-1$. \\
-
-\end{longtable} 
+\begin{align*}
+\dfrac{f(x+h)-f(x)}{h} & = \dfrac{\left(x^2+2xh+h^2-x-h-2 \right)-\left(x^{2}-x-2 \right)}{h} \\
+& = \dfrac{x^2+2xh+h^2-x-h-2-x^2+x+2}{h} \\
+& = \dfrac{2xh+h^2-h}{h} \\ 
+	& = \dfrac{h \left(2x+h-1\right)}{h} \tag{factor} \\
+	& = \dfrac{\cancel{h} \left(2x+h-1\right)}{\cancel{h}} \tag{cancel} \\
+& = 2x+h-1
+\end{align*} 
 
 Note if we substitute $x=3$ into this expression, we obtain $5+h$ which agrees with our answer from the first difference quotient.
 
@@ -573,49 +469,27 @@ Since we have managed to cancel the factor `$\Delta x$' from the denominator, we
 
 In order to cancel the factor `$\Delta t$' from the \textit{denominator}, we set about rationalizing the \textit{numerator} by multiplying both numerator and denominator by the conjugate of the numerator, $\sqrt{9+\Delta t} - 3$:
 
-
-\[ \begin{array}{rcll}  
-
-\dfrac{r(9+\Delta t) - r(9)}{\Delta t} & = & \dfrac{\sqrt{9+\Delta t} - 3}{\Delta t} & \\ [20pt]
-												
-												 & = & \dfrac{\left(\sqrt{9+\Delta t} - 3 \right)}{\Delta t} \cdot \dfrac{\left(\sqrt{9+\Delta t} + 3\right)}{\left(\sqrt{9+\Delta t} + 3\right)} & \text{Multiply by the conjugate.} \\ [20pt]
-										
-												 & = &  \dfrac{\left(\sqrt{9+\Delta t}\right)^2 -(3)^2}{\Delta t\left(\sqrt{9+\Delta t} + 3\right)} & \text{Difference of Squares.}\\ [20pt]
-												
-												& = &  \dfrac{(9+\Delta t) - 9}{\Delta t\left(\sqrt{9+\Delta t} + 3\right)} & \\ [20pt]
-												
-												 & = &  \dfrac{\Delta t}{\Delta t\left(\sqrt{9+\Delta t} + 3\right)} & \\ [20pt]
-												 
-												 & = &  \dfrac{\cancelto{1}{\Delta t}}{\cancel{\Delta t}\left(\sqrt{9+\Delta t} + 3\right)} & \\ [20pt]
-										
-										
-												 & = &  \dfrac{1}{\sqrt{9+\Delta t} +3} & \\ 
-												\end{array}\]	
-
-
-
-\newpage
+\begin{align*}
+\dfrac{r(9+\Delta t) - r(9)}{\Delta t} & = \dfrac{\sqrt{9+\Delta t} - 3}{\Delta t} \\
+& = \dfrac{\left(\sqrt{9+\Delta t} - 3 \right)}{\Delta t} \cdot \dfrac{\left(\sqrt{9+\Delta t} + 3\right)}{\left(\sqrt{9+\Delta t} + 3\right)} \tag{Multiply by the conjugate.} \\
+& = \dfrac{\left(\sqrt{9+\Delta t}\right)^2 -(3)^2}{\Delta t\left(\sqrt{9+\Delta t} + 3\right)} \tag{Difference of Squares.}\\
+& = \dfrac{(9+\Delta t) - 9}{\Delta t\left(\sqrt{9+\Delta t} + 3\right)} \\
+& = \dfrac{\Delta t}{\Delta t\left(\sqrt{9+\Delta t} + 3\right)} \\
+& = \dfrac{\cancelto{1}{\Delta t}}{\cancel{\Delta t}\left(\sqrt{9+\Delta t} + 3\right)} \\
+& = \dfrac{1}{\sqrt{9+\Delta t} +3} \\ 
+\end{align*}
 
 \item As one might expect, we use this same strategy to simplify our final  different quotient. We have:
 
-\[ \begin{array}{rcll}  
-
-\dfrac{r(t+\Delta t) - r(t)}{\Delta t} & = & \dfrac{\sqrt{t+\Delta t} - \sqrt{t}}{\Delta t} & \\ [20pt]
-												
-												 & = & \dfrac{\left(\sqrt{t+\Delta t} - \sqrt{t}\right)}{\Delta t} \cdot \dfrac{\left(\sqrt{t+\Delta t} + \sqrt{t}\right)}{\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} & \text{Multiply by the conjugate.} \\ [20pt]
-										
-												 & = &  \dfrac{\left(\sqrt{t+\Delta t}\right)^2 - \left(\sqrt{t}\right)^2}{\Delta t\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} & \text{Difference of Squares.}\\ [20pt]
-												
-												& = &  \dfrac{(t+\Delta t) - t}{\Delta t\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} & \\ [20pt]
-												
-												 & = &  \dfrac{\Delta t}{\Delta t\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} & \\ [20pt]
-												 
-												 												 & = &  \dfrac{\cancelto{1}{\Delta t}}{\cancel{\Delta t}\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} & \\ [20pt]
-										
-										
-												 & = &  \dfrac{1}{\sqrt{t+\Delta t} + \sqrt{t}} & \\ 
-												\end{array}\]	
-
+\begin{align*}
+\dfrac{r(t+\Delta t) - r(t)}{\Delta t} & = \dfrac{\sqrt{t+\Delta t} - \sqrt{t}}{\Delta t} \\
+& = \dfrac{\left(\sqrt{t+\Delta t} - \sqrt{t}\right)}{\Delta t} \cdot \dfrac{\left(\sqrt{t+\Delta t} + \sqrt{t}\right)}{\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} \tag{Multiply by the conjugate.} \\
+& = \dfrac{\left(\sqrt{t+\Delta t}\right)^2 - \left(\sqrt{t}\right)^2}{\Delta t\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} \tag{Difference of Squares.}\\
+& = \dfrac{(t+\Delta t) - t}{\Delta t\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} \\
+& = \dfrac{\Delta t}{\Delta t\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} \\
+& = \dfrac{\cancelto{1}{\Delta t}}{\cancel{\Delta t}\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} \\
+& = \dfrac{1}{\sqrt{t+\Delta t} + \sqrt{t}} \\ 
+\end{align*}
 
 Since we have canceled the original `$\Delta t$' factor from the denominator, we are done.  Setting $t=9$ in this expression, we get $\frac{1}{\sqrt{9+\Delta t} +3}$ which agrees with our previous answer. \qed
 
@@ -658,21 +532,23 @@ We close this section revisiting the situation in Example \ref{averagevelocityro
 
 Since $s(15) = -5(15)^2 + 100(15) = 375$, we get:
 
-\[ \begin{array}{rclr}
-
-\overline{v}(\Delta t)& = & \dfrac{s(15+ \Delta t) - s(15)}{\Delta t} & \\ [7pt]
-	                        & = & \dfrac{(-5(\Delta t)^2-50 \Delta t + 375) - 375}{\Delta t} & \\ [7pt]
-	                        & = & \dfrac{\Delta t (-5 \Delta t - 50)}{\Delta t} & \\ [7pt]
-	                         & = & \dfrac{\cancel{\Delta} t (-5 \Delta t - 50)}{\cancel{\Delta t}} & \\ [7pt]
-	                         & = & -5 \Delta t - 50 & \text{$\Delta t \neq 0$} \\ \end{array} \]
+\begin{align*}
+\overline{v}(\Delta t)& = \dfrac{s(15+ \Delta t) - s(15)}{\Delta t} \\
+& = \dfrac{(-5(\Delta t)^2-50 \Delta t + 375) - 375}{\Delta t} \\
+& = \dfrac{\Delta t (-5 \Delta t - 50)}{\Delta t} \\
+& = \dfrac{\cancel{\Delta} t (-5 \Delta t - 50)}{\cancel{\Delta t}} \\
+& = -5 \Delta t - 50 \tag{$\Delta t \neq 0$} \\
+\end{align*}
 
 In addition to the restriction $\Delta t \neq 0$, we also know the domain of $s$ is $0 \leq t \leq 20$.  Hence, we also require  $0 \leq 15 + \Delta t \leq 20$ or  $-15 \leq \Delta \leq 5$.  Our final answer is $\overline{v}(\Delta t) = -5 \Delta t - 50$, for $\Delta t \in [-15, 0) \cup (0, 5]$
 
 \item  We find  $\overline{v}(-1) = -5(-1) - 50 = -45$.  This means the average velocity over between time $t=15+(-1) = 14$ seconds and $t=15$ seconds is $-45$ feet per second.  This indicates the rocket is, on average, heading \textit{downwards} at a rate of $45$ feet per second.
 
-\item  The graph of $y =  -5 \Delta t - 50$ is a line with slope $-5$ and $y$-intercept $(0, -50)$.  However, since the domain of $\overline{v}$ is $[-15, 0) \cup (0, 5]$, we the graph of $\overline{v}$ is a line \textit{segment} from $(-15, 25)$ to $(5, -75)$ with a hole at $(0, -50)$.
+\item  The graph of $y =  -5 \Delta t - 50$ is a line with slope $-5$ and $y$-intercept $(0, -50)$.  However, since the domain of $\overline{v}$ is $[-15, 0) \cup (0, 5]$, we the graph of $\overline{v}$ is a line \textit{segment} from $(-15, 25)$ to $(5, -75)$ with a hole at $(0, -50)$. See \autoref{fig:yeqvbardeltat}
 
+\begin{figure}
 \begin{center}
+
 \begin{mfpic}[15]{-4}{2}{-8}{3}
 \axes
 \axismarks{x}{-4, -3, -2, -1,1}
@@ -689,9 +565,13 @@ In addition to the restriction $\Delta t \neq 0$, we also know the domain of $s$
 \point[4pt]{(-3, 2.5), (1, -7.5)}
 \pointfillfalse
 \point[4pt]{(0, -5)}
-\tcaption{\scriptsize $y=\overline{v}(\Delta t)$}
+\tcaption{}
 \end{mfpic}
+
+\caption{$y=\overline{v}(\Delta t)$}
+\label{fig:yeqvbardeltat}
 \end{center}
+\end{figure}
 
 \item  As $\Delta t \rightarrow 0$, $\overline{v}(\Delta t) \rightarrow -50$ meaning as we approach $t=15$, the velocity of the rocket approaches $-50$ feet per second.  Recall from Example \ref{averagevelocityrocketex} that this is the so-called \textit{instantaneous velocity} of the rocket \textit{at} $t=15$ seconds.  That is, $15$ seconds after lift-off, the rocket is heading back towards the surface of the moon at a rate of $15$ feet per second. \qed
 
@@ -702,7 +582,7 @@ In addition to the restriction $\Delta t \neq 0$, we also know the domain of $s$
 The reader is invited to compare Example \ref{averagevelocityrocketex} in Section \ref{IntroRational} with Exercise \ref{averagevelocityrocketexreprise} above. We obtain the \text{exact same} information because we are asking the \textit{exact same} questions - they are just framed differently.
 
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 
