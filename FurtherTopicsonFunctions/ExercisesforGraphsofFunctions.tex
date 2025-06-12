@@ -260,7 +260,6 @@ In Exercises \ref{usesecondfuncgraphfirst} - \ref{usesecondfuncgraphlast}, use t
 \end{enumerate}
 \end{multicols}
 
-\begin{multicols}{2}
 \begin{enumerate}
 \setcounter{enumi}{\value{HW}}
 
@@ -269,9 +268,7 @@ In Exercises \ref{usesecondfuncgraphfirst} - \ref{usesecondfuncgraphlast}, use t
 
 \setcounter{HW}{\value{enumi}}
 \end{enumerate}
-\end{multicols}
 
-\begin{multicols}{2}
 \begin{enumerate}
 \setcounter{enumi}{\value{HW}}
 
@@ -280,7 +277,6 @@ In Exercises \ref{usesecondfuncgraphfirst} - \ref{usesecondfuncgraphlast}, use t
 
 \setcounter{HW}{\value{enumi}}
 \end{enumerate}
-\end{multicols}
 
 \begin{enumerate}
 \setcounter{enumi}{\value{HW}}
@@ -295,13 +291,12 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \setcounter{HW}{\value{enumi}}
 \end{enumerate}
 
-\newpage
-
 \begin{enumerate}
 \setcounter{enumi}{\value{HW}}
 
-\item Consider the graph of the function $f$ given below.  
+\item Consider the graph of the function $f$ given in \autoref{fig:graphoffwithfourquestions}.  
 
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[15]{-3}{3}{-3.5}{4}
@@ -324,7 +319,10 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \arrow \function{1,3,0.1}{x}
 \end{mfpic}
 
+\caption{}
+\label{fig:graphoffwithfourquestions}
 \end{center}
+\end{figure}
 
 \begin{enumerate}
 
@@ -338,8 +336,9 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 
 \end{enumerate}
 
-\item Explain why  the function $g$ whose graph is given below does \underline{not} have a local maximum at $(-3, 5)$ nor does it have a local minimum at $(3, -3)$.  Find its extrema, both local and absolute and find the intervals on which $g$ is increasing and those on which $g$ is decreasing.
+\item Explain why  the function $g$ whose graph is given in \autoref{fig:graphofgwithnolocalmaximaetc} does \underline{not} have a local maximum at $(-3, 5)$ nor does it have a local minimum at $(3, -3)$.  Find its extrema, both local and absolute and find the intervals on which $g$ is increasing and those on which $g$ is decreasing.
 
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[15]{-4}{4}{-4.5}{6}
@@ -363,7 +362,10 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \polyline{(2,0), (3, -3)}
 \end{mfpic}
 
+\caption{}
+\label{fig:graphofgwithnolocalmaximaetc}
 \end{center}
+\end{figure}
 
 \setcounter{HW}{\value{enumi}}
 \end{enumerate}
@@ -374,13 +376,11 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \begin{enumerate}
 \setcounter{enumi}{\value{HW}}
 
-
-
 \item  For each function below, find the local maximum or local minimum and list the interval over which the function is increasing and the interval over which the function is decreasing. 
 
-\begin{multicols}{2}
 \begin{enumerate}
 
+\begin{minipage}{0.5\textwidth}
 \item \begin{mfpic}[15]{-3}{3}{-2}{5}
 \axes
 \tlabel[cc](3,-0.5){\scriptsize $x$}
@@ -399,7 +399,8 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \pointfillfalse
 \point[4pt]{(0,0)}
 \end{mfpic}
-
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
 \item \begin{mfpic}[15]{-3}{3}{-2}{5}
 \axes
 \tlabel[cc](3,-0.5){\scriptsize $x$}
@@ -418,15 +419,15 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \pointfillfalse
 \point[4pt]{(0,4)}
 \end{mfpic}
+\end{minipage}
 
 \setcounter{HWindent}{\value{enumii}}
 \end{enumerate}
-\end{multicols}
 
-\begin{multicols}{2}
 \begin{enumerate}
 \setcounter{enumii}{\value{HWindent}}
 
+\begin{minipage}{0.5\textwidth}
 \item \begin{mfpic}[15]{-3}{3}{-2}{5}
 \axes
 \tlabel[cc](3,-0.5){\scriptsize $x$}
@@ -445,7 +446,8 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \pointfillfalse
 \point[4pt]{(0,0)}
 \end{mfpic}
-
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
 \item \begin{mfpic}[15]{-3}{3}{-1}{6}
 \axes
 \tlabel[cc](3,-0.5){\scriptsize $x$}
@@ -464,97 +466,40 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \pointfillfalse
 \point[4pt]{(0,4)}
 \end{mfpic}
+\end{minipage}
 
 \end{enumerate}
 
-\end{multicols}
-
 \end{enumerate}
 
 
 
-\newpage
+\clearpage
 
 \subsection{Answers}
 
-\begin{multicols}{3}
-\begin{enumerate}
+\startexenum
 
+\begin{shortexenum}[MMMMMMMMM]
 \item  $[-5,3]$
 \item  $[-5,4]$
 \item  $f(-3) = 4$
-
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-
 \item  $f(-5) = -5$
 \item  $(-3,4)$,  $(2,3)$
 \item  $(0,-1)$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-
 \item  $[-5,-3]$, $[0,2]$
 \item  $[-3,0]$, $[2,3]$
 \item  $f(-2) = 2$
-
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item  $x=-3$
 \item $(-4,0)$, $(-1,0)$, $(1,0)$
 \item  $(0,-1)$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item  $-4$, $-1$, $1$
 \item  $[-4,-1]$, $[1,3]$
 \item  $4$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item  $6$
 \item  $x=-4, -1,1,2$
 \item  $(-4,-1) \cup (-1,1) \cup (2,3)$ 
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
+\end{shortexenum}
 
 \begin{enumerate}
 \setcounter{enumi}{\value{HW}}
@@ -566,79 +511,26 @@ NOTE:  Between every pair of real numbers, there is both a rational and an irrat
 \setcounter{HW}{\value{enumi}}
 \end{enumerate}
 
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
+\begin{shortexenum}[MMMMMMMMMM]
 \item  $[-4,4]$ 
 \item  $[-5,5)$
 \item  none
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item  $g(-2) = -5$
 \item  none
 \item  $(-2,-5)$, $(2,3)$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item  $[-2,2)$
 \item  $[-4, -2]$, $(2,4]$
 \item  $g(2) = 3$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item  $t=-2$
 \item $(-4,0)$, $(0,0)$, $(4,0)$
 \item  $(0,0)$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item  $-4$, $0$, $4$
 \item  $[-4,0] \cup \{4\}$
 \item $[-4,-2) \cup (-2.4]$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item $\{-4\} \cup (-2,0] \cup \{4\}$
 \item  $5$
 \item Neither.
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
+\end{shortexenum}
 
 \begin{enumerate}
 \setcounter{enumi}{\value{HW}}
