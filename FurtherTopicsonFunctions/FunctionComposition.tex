@@ -8,16 +8,12 @@
 
 In Section \ref{FunctionArithmetic}, we saw how the arithmetic of real numbers carried over into an arithmetic of functions.  In this section, we discuss another way to combine functions which is unique to functions and isn't shared with real numbers - function \textbf{composition}.
 
-\smallskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 
 \begin{defn} \label{functioncompositiondefn} Let $f$ and $g$ be functions where the real number $x$ is in the domain of $f$ and the real number $f(x)$ is in the domain of $g$.  The \index{function ! composite ! definition of}\index{composite function ! definition of}\textbf{composite} of $g$ with $f$, denoted $g \circ f$, and read `$g$ composed with $f$' is defined by the formula: $(g \circ f) (x) = g(f(x))$.
 
 \end{defn}
-\ebm}
-
-\smallskip
+\end{tcolorbox}
 
 To compute $(g \circ f)(x) $, we use the formula given in  Defintion \ref{functioncompositiondefn}:   $(g \circ f) (x) = g(f(x))$.  However, from a procedural viewpoint, Defintion \ref{functioncompositiondefn} tells us  the output from $g \circ f$ is found by taking the output from $f$, $f(x)$,  and then making that the input to $g$.   From this perspective, we see $g \circ f$ as a two step process taking an input $x$ and first applying the procedure $f$ then applying the procedure $g$.  Abstractly, we have
 
@@ -52,53 +48,25 @@ In the expression $g(f(x))$, the function $f$ is often called the `inside' funct
 
 In numbers \ref{fcexvalfirst} - \ref{fcexvallast}, find the indicated function value.
 
-\begin{multicols}{3}
-\begin{enumerate}
+\startexenum
 
+\begin{shortexenum}[MMMMMMMMM]
 \item  $(g \circ f)(1)$ \label{fcexvalfirst}
-
 \item  $(f \circ g)(1)$
-
 \item  $(g \circ g)(6)$ \label{fcexvallast}
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-
-
-
+\end{shortexenum}
 
 In numbers \ref{fcexformfirst} - \ref{fcexformlast}, find and simplify the indicated composite functions.  State the domain of each.
 
-\begin{multicols}{4}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
+\begin{shortexenum}[MMMMMMMMM]
 \item  $(g \circ f)(x)$ \label{fcexformfirst}
-
 \item  $(f \circ g)(t)$
-
 \item  $(g \circ h)(s)$
-
 \item  $(h \circ g)(t)$ \label{hogex}
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{4}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item  $(h \circ h)(x)$
-
 \item  $(h \circ (g \circ f))(x)$  \label{hogoffirst}
-
 \item  $((h \circ g) \circ f)(x)$ \label{fcexformlast}
-
-\end{enumerate}
-\end{multicols}
+\end{shortexenum}
 
 {\bf Solution.}  
 \begin{enumerate}
@@ -114,9 +82,21 @@ In numbers \ref{fcexformfirst} - \ref{fcexformlast}, find and simplify the indic
 
 \begin{itemize}
 
-\item  \textit{inside out}:  We substitute $f(x) = x^2-4x$ in for $t$ in the expression $g(t)$ and get  \[(g \circ f)(x) = g(f(x)) = g\left(x^2-4x\right) = 2 - \sqrt{\left(x^2-4x\right)+3} = 2 - \sqrt{x^2-4x+3}\] Hence, $(g \circ f)(x) = 2 - \sqrt{x^2-4x+3}$.
+\item  \textit{inside out}:  We substitute $f(x) = x^2-4x$ in for $t$ in the expression $g(t)$ and get
+\begin{align*}
+	(g \circ f)(x) = g(f(x)) &= g\left(x^2-4x\right)\\
+	&= 2 - \sqrt{\left(x^2-4x\right)+3} \\
+	&= 2 - \sqrt{x^2-4x+3}
+\end{align*}
+Hence, $(g \circ f)(x) = 2 - \sqrt{x^2-4x+3}$.
 
-\item  \textit{outside in}:  We use the formula for $g$ first to get  \[(g \circ f)(x) = g(f(x)) = 2 - \sqrt{f(x)+3}  = 2 - \sqrt{\left(x^2-4x\right)+3} = 2 - \sqrt{x^2-4x+3}\] We get the same answer as before,  $(g \circ f)(x) = 2 - \sqrt{x^2-4x+3}$.
+\item  \textit{outside in}:  We use the formula for $g$ first to get 
+\begin{align*}
+	(g \circ f)(x) = g(f(x)) &= 2 - \sqrt{f(x)+3}\\
+	&= 2 - \sqrt{\left(x^2-4x\right)+3}\\
+	&= 2 - \sqrt{x^2-4x+3}
+\end{align*}
+We get the same answer as before,  $(g \circ f)(x) = 2 - \sqrt{x^2-4x+3}$.
 
 \end{itemize} 
 
@@ -145,18 +125,22 @@ Our solution to $x^2-4x+3 \geq 0$, and hence the domain of $g \circ f$, is $(-\i
 \begin{itemize}
 
 \item  \textit{inside out}: We substitute the expression $g(t) = 2 - \sqrt{t+3}$ in for $x$ in the formula $f(x)$ and get 
-\begin{longtable}{rclr} $(f \circ g)(t)$ & = & $f(g(t))$ = $f\left(2-\sqrt{t+3}\right)$ & \\ [2pt]
- & = & $\left(2-\sqrt{t+3}\right)^2 - 4\left(2-\sqrt{t+3}\right)$ & \\[2pt] 
- & = & $4 - 4\sqrt{t+3} + \left(\sqrt{t+3}\right)^2 - 8 + 4 \sqrt{t+3}$ & \\ [2pt]
- & = & $4 + t+3 - 8$ & \\ 
- & = & $t-1$ & \\
- \end{longtable}
+\begin{align*}
+(f \circ g)(t) &= f(g(t)) \\
+	&= f\left(2-\sqrt{t+3}\right) \\
+ 	& = \left(2-\sqrt{t+3}\right)^2 - 4\left(2-\sqrt{t+3}\right) \\
+ 	& = 4 - 4\sqrt{t+3} + \left(\sqrt{t+3}\right)^2 - 8 + 4 \sqrt{t+3} \\
+ 	& = 4 + t+3 - 8 \\ 
+ 	& = t-1 \\
+ \end{align*}
 
 \item  \textit{outside in}:  We use the formula for $f(x)$ first to get
-\begin{longtable}{rclr} $(f \circ g)(t)$ & = & $f(g(t))$ = $\left(g(t)\right)^2 - 4\left(g(t)\right)$& \\ [2pt]
- & = & $\left(2-\sqrt{t+3}\right)^2 - 4\left(2-\sqrt{t+3}\right)$ & \\[2pt] 
- & = & $t-1$ & same algebra as before \\
- \end{longtable}
+\begin{align*}
+	(f \circ g)(t) &= f(g(t)) \\
+	& = \left(g(t)\right)^2 - 4\left(g(t)\right) \\
+ 	& = \left(2-\sqrt{t+3}\right)^2 - 4\left(2-\sqrt{t+3}\right) \\
+	& = t-1 \tag{same algebra as before} \\
+ \end{align*}
 
 \end{itemize}
 
@@ -169,29 +153,33 @@ Thus we get $(f \circ g)(t) = t-1$.  To find the domain of $f \circ g$, we look 
 \begin{itemize}
 
 \item  \textit{inside out}: We substitute $h(s)$ in for $t$ in the expression $g(t)$  to get 
-\begin{longtable}{rclr} $(g \circ h)(s)$ & = & $g(h(s))$ = $g\left(\dfrac{2s}{s+1}\right)$  & \\ [12pt]
- & = & $2 - \sqrt{\left(\dfrac{2s}{s+1}\right)+3}$ & \\[12pt] 
- & = & $2 - \sqrt{\dfrac{2s}{s+1} + \dfrac{3(s+1)}{s+1}}$ & get common denominators\\ [12pt]
- & = & $2 - \sqrt{\dfrac{5s+3}{s+1}}$ & \\
- \end{longtable}
+\begin{align*}
+	(g \circ h)(s) & = g(h(s))\\
+	&= g\left(\dfrac{2s}{s+1}\right) \\
+ 	& = 2 - \sqrt{\left(\dfrac{2s}{s+1}\right)+3} \\
+	& = 2 - \sqrt{\dfrac{2s}{s+1} + \dfrac{3(s+1)}{s+1}} \tag{get common denominators}\\
+ 	& = 2 - \sqrt{\dfrac{5s+3}{s+1}} \\
+\end{align*}
 
 \item  \textit{outside in}:  We use the formula for $g(t)$ first to get
-\begin{longtable}{rclr} $(g \circ h)(s)$ & = & $g(h(s))$ = $2 - \sqrt{h(s)+3}$& \\ [2pt]
-  & = & $2 - \sqrt{\left(\dfrac{2s}{s+1}\right)+3}$ & \\[12pt] 
- & = & $2 - \sqrt{\dfrac{5s+3}{s+1}}$ & get common denominators as before\\
- \end{longtable}
+\begin{align*}
+	(g \circ h)(s) & = g(h(s)) \\
+	&= 2 - \sqrt{h(s)+3} \\
+  	&= 2 - \sqrt{\left(\dfrac{2s}{s+1}\right)+3} \\
+	&= 2 - \sqrt{\dfrac{5s+3}{s+1}} \tag{get common denominators as before}\\
+\end{align*}
 
 \end{itemize}
 
 To find the domain of $g \circ h$, we need the elements in the domain of $h$ so that $h(s)$ is in the domain of $g$.  Owing to the $s+1$ in the denominator of the expression  $h(s)$, we require $s \neq -1$.  Once again, because  of the square root in $g(t) = 2 - \sqrt{t+3}$, we need $t \geq -3$ or, in this case $h(s)  \geq -3$.  To use a sign diagram to solve, we rearrange this inequality:
 
-\[ \begin{array}{rclr}
+\begin{align*}
+\dfrac{2s}{s+1} & \geq -3 & \\
+\dfrac{2s}{s+1} +3 & \geq 0 \\
+\dfrac{5s+3}{s+1} & \geq 0 \tag{get common denominators as before}
+\end{align*}
 
-\dfrac{2s}{s+1} & \geq & -3 & \\ [10pt]
-\dfrac{2s}{s+1} +3 &   \geq & 0 & \\ [10pt]
-\dfrac{5s+3}{s+1}  & \geq &  0  & \text{get common denominators as before} \\ \end{array} \]
-
- Defining $r(s) = \frac{5s+3}{s+1}$, we see $r$ is undefined at $s=-1$ (a carry over from the domain restriction of $h$) and $r(s) = 0$ at $s = -\frac{3}{5}$. Our sign diagram is
+Defining $r(s) = \frac{5s+3}{s+1}$, we see $r$ is undefined at $s=-1$ (a carry over from the domain restriction of $h$) and $r(s) = 0$ at $s = -\frac{3}{5}$. Our sign diagram is
 
 \begin{center}
 
@@ -246,10 +234,11 @@ To find the domain of $h \circ g$, we need the elements of the domain of $g$ so 
  \end{longtable}
 
 \item  \textit{outside in}: This approach yields
-\begin{longtable}{rclr} $(h \circ h)(s)$ & = & $h(h(s)) = \dfrac{2 (h(s))}{h(s) + 1}$ & \\ [.25in]
-& = & $\dfrac{2\left(\dfrac{2s}{s+1}\right)}{\left(\dfrac{2s}{s+1}\right)+1}$ & \\[.35in] 
-& = & $\dfrac{4s}{3s+1}$ &  same algebra as before\\
- \end{longtable}
+\begin{align*}
+	(h \circ h)(s) &= h(h(s)) = \dfrac{2 (h(s))}{h(s) + 1} \\
+	& = \dfrac{2\left(\dfrac{2s}{s+1}\right)}{\left(\dfrac{2s}{s+1}\right)+1} \\
+	& = \dfrac{4s}{3s+1} \tag{same algebra as before}
+\end{align*}
 
 \end{itemize}
 
@@ -292,7 +281,6 @@ To find the domain of $h \circ (g \circ f)$, we need the domain elements of $g \
  \end{longtable}
  
  \end{itemize}
-
  
 Since the domain of $f$ is all real numbers, the challenge here to find the domain of $(h \circ g) \circ f$ is to determine the values $f(x)$ which are in the domain of  $h \circ g$,  $[-3, 6) \cup (6, \infty)$.  At first glance, it appears as if we have two (or three!) inequalities to solve:  $-3 \leq f(x) < 6$ and $f(x) > 6$.  Alternatively, we could solve $f(x) = x^2-4x \geq -3$ and exclude the solutions to $f(x) = x^2-4x = 6$ which is not only easier from a procedural point of view, but also easier since we've already done both calculations.   In number \ref{fcexformfirst}, we solved  $x^2-4x \geq -3$ and obtained the solution $(-\infty, 1] \cup [3, \infty)$ and in number \ref{hogoffirst}, we solved $x^2-4x-6 = 0$ and obtained $x = 2 \pm \sqrt{10}$.  Hence, the domain of $(h \circ g) \circ f$ is  $(-\infty, 2 -\sqrt{10}) \cup (2 - \sqrt{10}, 1] \cup \left[3, 2 + \sqrt{10}\right) \cup \left(2+\sqrt{10}, \infty\right)$. \qed
 
@@ -303,9 +291,7 @@ Since the domain of $f$ is all real numbers, the challenge here to find the doma
 
 As previously mentioned, it should be clear from  Example \ref{functioncompex1} that, in general, $g \circ f \neq f \circ g$, in other words, function composition is not \textit{commutative}.  However, numbers \ref{hogoffirst} and  \ref{fcexformlast} demonstrate the \index{associative property ! for function composition} \textbf{associative} property of function composition.  That is, when composing three (or more) functions, as long as we keep the order the same, it doesn't matter which two functions we compose first.  We summarize the important properties of function composition in the theorem below.
 
-\medskip
-
-\colorbox{ResultColor}{\bbm
+\begin{tcolorbox}
 \begin{thm}\label{functioncompprops}  \textbf{Properties of Function Composition:} Suppose $f$, $g$, and $h$ are functions. \index{function ! composite ! properties of} \index{composite function ! properties of}
 
 \begin{itemize}
@@ -317,9 +303,7 @@ As previously mentioned, it should be clear from  Example \ref{functioncompex1} 
 \end{itemize}
 
 \end{thm}
-\ebm}
-
-\medskip
+\end{tcolorbox}
 
 By repeated applications of Definition \ref{functioncompositiondefn}, we find  $(h \circ (g \circ f))(x) = h((g \circ f)(x)) = h(g(f(x)))$.  Similarly, $((h \circ g) \circ f)(x) = (h \circ g)(f(x)) = h(g(f(x)))$.  This establishes that the formulas for the two functions are the same.  We leave it to the reader to think about why the domains of these two functions are identical, too.  These two facts establish the equality $h \circ (g \circ f) = (h \circ g) \circ f$.  A consequence of the associativity of function composition is that there is no need for parentheses when we write $h \circ g \circ f$. The second property can also be verified using Definition \ref{functioncompositiondefn}.  Recall that the function $I(x) = x$ is called the \index{identity ! function} \textit{identity function} and was introduced in Exercise  \ref{identityexercise} in Section \ref{ConstantandLinearFunctions}.  If we compose the function $I$ with a function $f$, then we have $(I \circ f)(x) = I(f(x)) = f(x)$, and a similar computation shows $(f\circ I)(x) = f(I(x)) = f(x)$. This establishes that we have an identity for function composition much in the same way the function $I(x) = 1$ is an identity for function multiplication. 
 
@@ -327,9 +311,7 @@ As we know, not all functions are described by formulas, and, moreover, not all 
 
 \begin{ex} \label{functioncompotherreprensex}  Consider the following functions:
 
-\begin{multicols}{2}
-\begin{itemize}
-
+\begin{shortitemize}
 \item $f(x) = 6x - x^2$ \vphantom{$g(t)  = \begin{cases} 
       2t-1 &  \text{if $0 \leq t < 3$, } \\
       t^2  & \text{if $t \geq 3$.} \\
@@ -340,19 +322,13 @@ As we know, not all functions are described by formulas, and, moreover, not all 
       t^2  & \text{if $t \geq 3$.} \\
    \end{cases} $ 
    
-\end{itemize}
- \end{multicols}
- 
-\begin{multicols}{2}
-\begin{itemize}
-   
 \item   $h = \{ (-3,1), (-2,6), (0,-2), (1,5), (3,-1)  \}$
   
-\item  $s$ whose graph is given below:
+\item  $s$ whose graph is given in \autoref{fig:yeqstfcompex3}:
    
-\end{itemize}
-\end{multicols}
+\end{shortitemize}
 
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[15]{-3}{6}{-3}{4}
@@ -361,7 +337,6 @@ As we know, not all functions are described by formulas, and, moreover, not all 
 \tlabel[cc](0.5,4){\scriptsize $y$}
 \xmarks{-2, -1, 0, 1, 2, 3, 4,5}
 \ymarks{-2, -1, 0, 1, 2, 3}
-\tcaption{\scriptsize $y = s(t)$}
 \tlpointsep{4pt}
 \scriptsize
 \tlabel[cc](-2, 3.5){$(-2,3)$}
@@ -378,27 +353,20 @@ As we know, not all functions are described by formulas, and, moreover, not all 
 \point[4pt]{(5,0)}
 \end{mfpic}
  
+\caption{$y = s(t)$}
+\label{fig:yeqstfcompex3}
 \end{center}
-
+\end{figure}
 \begin{enumerate}
 
 \item  Find and simplify the following function values:
 
-\begin{multicols}{4}
-
-\begin{enumerate}
-
+\begin{shortenumerate}
 \item $(g \circ f)(2)$
-
 \item $(h \circ g)(-1)$
-
 \item  $(h \circ s)(-2)$
-
 \item  $(f \circ s)(0)$
-
-\end{enumerate}
-
-\end{multicols}
+\end{shortenumerate}
 
 \item  Find and simplify a formula for $(g \circ f)(x)$.
 
@@ -422,11 +390,14 @@ As we know, not all functions are described by formulas, and, moreover, not all 
 \end{enumerate}
 
 \item  To find a formula for $(g \circ f)(x) = g(f(x))$, we substitute $f(x) = 6x-x^2$ in for $t$ in the formula for $g(t)$: 
-
-\[ (g \circ f)(x) = g(f(x)) = g(6x-x^2) =   \begin{cases}   2(6x-x^2) -1 &  \text{if $-1 \leq 6x-x^2  < 3$, } \\  (6x-x^2)^2  & \text{if $6x-x^2 \geq 3$.} \\ \end{cases}\]
+\begin{align*}
+	(g \circ f)(x) = g(f(x)) &= g(6x-x^2)\\
+	&=   \begin{cases}   2(6x-x^2) -1 &  \text{if $-1 \leq 6x-x^2  < 3$, } \\  (6x-x^2)^2  & \text{if $6x-x^2 \geq 3$.} \\ \end{cases}
+\end{align*}
 
 Simplifying each expression, we get  $ 2(6x-x^2) -1 = -2x^2+12x-1$  for the first piece and $(6x-x^2)^2 = x^4 - 12x^3 +36x^2$ for the second piece.  The real challenge comes in  solving the inequalities   $-1 \leq 6x-x^2  < 3$ and $6x-x^2 \geq 3$.  While we could solve each individually using a sign diagram, a graphical approach works best here.  We graph the parabola $y = 6x-x^2$, finding the vertex is $(3, 9)$ with intercepts $(0,0)$ and $(6,0)$ along with the horizontal lines $y = -1$ and $y=3$ below.  We determine the intersection points by solving $6x-x^2=-1$ and $6x-x^2=3$.  Using the quadratic formula, we find the solutions to each equation are $x = 3 \pm \sqrt{10}$ and $x = 3 \pm \sqrt{6}$, respectively. 
 
+\begin{figure}
 \begin{center}
 
 \begin{mfpic}[15]{-2}{8}{-2}{10}
@@ -435,7 +406,6 @@ Simplifying each expression, we get  $ 2(6x-x^2) -1 = -2x^2+12x-1$  for the firs
 \tlabel[cc](0.5,10){\scriptsize $y$}
 \xmarks{ -1, 0, 1, 2, 3, 4,5,6,7}
 \ymarks{ -1, 0, 1, 2, 3,5,6,7,8,9}
-\tcaption{\scriptsize $y =  6x-x^2$, $y=-1$, $y=3$}
 \tlpointsep{4pt}
 \scriptsize
 \tlabel[cc](-2.25, -1.5){$(3-\sqrt{10},-1)$}
@@ -453,11 +423,20 @@ Simplifying each expression, we get  $ 2(6x-x^2) -1 = -2x^2+12x-1$  for the firs
 \point[4pt]{(3,9), (-0.1622, -1), (0.5505, 3), (0,0), (6,0), (5.449,3),  (6.162,-1)}
 \end{mfpic}
  
+\caption{$y =  6x-x^2$, $y=-1$, $y=3$}
+\label{fig:yeqsixxminusxetc}
 \end{center}
+\end{figure}
 
- From the graph, we see the parabola $y = 6x - x^2$ is between the lines $y = -1$ and $y=3$  from $x = 3- \sqrt{10}$ to $x= 3 - \sqrt{6}$ and again from  $x = 3+\sqrt{6}$ to $x=3+\sqrt{10}$.  Hence the solution to  $-1 \leq 6x-x^2  < 3$ is $[3- \sqrt{10}, 3 - \sqrt{6}) \cup (3+\sqrt{6}, 3+\sqrt{10}]$.  We also note $y = 6x-x^2$ is above the line $y=3$ for all $x$ between $x=3-\sqrt{6}$ and $3+\sqrt{6}$.  Hence, the solution to $6x-x^2 \geq 3$ is $[3-\sqrt{6}, 3+\sqrt{6}]$.  Hence, 
+From the graph in \autoref{fig:yeqsixxminusxetc}, we see the parabola $y = 6x - x^2$ is between the lines $y = -1$ and $y=3$  from $x = 3- \sqrt{10}$ to $x= 3 - \sqrt{6}$ and again from  $x = 3+\sqrt{6}$ to $x=3+\sqrt{10}$.  Hence the solution to  $-1 \leq 6x-x^2  < 3$ is $[3- \sqrt{10}, 3 - \sqrt{6}) \cup (3+\sqrt{6}, 3+\sqrt{10}]$.  We also note $y = 6x-x^2$ is above the line $y=3$ for all $x$ between $x=3-\sqrt{6}$ and $3+\sqrt{6}$.  Hence, the solution to $6x-x^2 \geq 3$ is $[3-\sqrt{6}, 3+\sqrt{6}]$.  Hence, 
 
-\[ (g \circ f)(x) =  \begin{cases}   -2x^2+12x-1 &  \text{if $x \in [3- \sqrt{10}, 3 - \sqrt{6}) \cup (3+\sqrt{6}, 3+\sqrt{10}]$, } \\  x^4 - 12x^3 + +36x^2  & \text{if $x \in [3-\sqrt{6}, 3+\sqrt{6}]$.} \\ \end{cases}\]
+\[
+	(g \circ f)(x) =
+		\begin{cases}
+		    -2x^2+12x-1 & \text{if } x \in [3- \sqrt{10}, 3 - \sqrt{6}) \\ & \qquad\qquad \cup (3+\sqrt{6}, 3+\sqrt{10}]\text{,}\\
+		    x^4 - 12x^3 + +36x^2  & \text{if $x \in [3-\sqrt{6}, 3+\sqrt{6}]$.} \\
+		\end{cases}
+\]
 
 \item  Last but not least, we are tasked with representing $s \circ h$ as a set of ordered pairs.  Since $h$ is described by the discrete set of points $h = \{ (-3,1), (-2,6), (0,-2), (1,5), (3,-1)  \}$, we find $s \circ h$ point by point.  We keep the graph of $s$ handy and construct the table below to help us organize our work. 
 \begin{center}
@@ -573,8 +552,6 @@ Since $F$ takes the square root of $\frac{g(x)}{h(x)}$, the our last function $f
 We close this section of a real-world application of function composition.
 
 \begin{ex}  The surface area of a sphere is a function of its radius $r$ and is given by the formula $S(r) = 4 \pi r^2$.  Suppose the sphere is being inflated so that the radius of the sphere is increasing according to the formula $r(t) = 3t^2$, where $t$ is measured in seconds, $t \geq 0$, and $r$ is measured in inches.  Find and interpret $(S \circ r)(t)$.
-
-\smallskip
 
 {\bf Solution.}  If we look at the functions $S(r)$ and $r(t)$ individually, we see the former gives the surface area of a sphere of a given radius while the latter gives the radius at a given time.    So, given a specific time, $t$, we could find the radius at that time, $r(t)$ and feed that into $S(r)$ to find the surface area at that time.  From this we see that the surface area $S$ is ultimately a function of time $t$ and we find $(S \circ r)(t) = S(r(t)) = 4 \pi (r(t))^2 = 4 \pi \left(3t^2\right)^2 = 36 \pi t^{4}$.  This formula allows us to compute the surface area directly given the time without going through the `intermediary variable' $r$. \qed
 
