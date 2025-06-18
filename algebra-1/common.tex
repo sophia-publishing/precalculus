@@ -16,10 +16,11 @@
 \let\oldhref\href
 \renewcommand{\href}[2]{\oldhref{#1}{#2}\footnote{\url{#1}}}
 
+\newcommand{\tabref}[1]{\hyperref[#1]{Table \ref{#1}}}
+
 \usepackage[labelfont=bf]{caption}
 \counterwithin{figure}{section}
 \counterwithin{table}{section}
-
 \usepackage[all]{hypcap}
 \usepackage{bm}
 \usepackage{braket}
@@ -63,6 +64,9 @@
 \newcommand{\startexenum}{\setcounter{HW}{0}}
 
 \newcommand{\transgraph}[2]{\stackrel{\text{\parbox{#1}{\centering \scriptsize #2}}}{\xrightarrow{\hspace{#1}}}}
+
+\newcommand{\transgraphtwo}[3]{\stackrel{\transgraph{#1}{#2}}{\parbox{#1}{\centering \scriptsize #3}}}
+
 
 \theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
 \newtheorem{defn}{\bf Definition}[section]
