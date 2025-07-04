@@ -67,6 +67,11 @@
 
 \newcommand{\transgraphtwo}[3]{\stackrel{\transgraph{#1}{#2}}{\parbox{#1}{\centering \scriptsize #3}}}
 
+\newenvironment{halfpage}{%
+  \begin{minipage}{0.5\textwidth}
+}{%
+  \end{minipage}
+}
 
 \theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
 \newtheorem{defn}{\bf Definition}[section]
