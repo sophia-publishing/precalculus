@@ -2,7 +2,7 @@
 
 all: build/appendix/print.pdf build/appendix/ebook.pdf build/appendix/book-cover-for-web.jpg
 all: build/algebra-1/print.pdf build/algebra-1/ebook.pdf build/algebra-1/book-cover-for-web.jpg
-all: build/algebra-2/print.pdf build/algebra-1/ebook.pdf build/algebra-1/book-cover-for-web.jpg
+all: build/algebra-2/print.pdf build/algebra-2/ebook.pdf build/algebra-2/book-cover-for-web.jpg
 
 build:
 	mkdir -p build/appendix
