@@ -17,4 +17,4 @@ book-cover-for-web.jpg: ebook.pdf
 	pdftoppm $< book-cover-for-web -jpeg -f 1 -l 1 -singlefile
 
 clean:
-	rm ebook.pdf print.pdf book-cover-for-web.jpg
+	rm -f ebook.pdf print.pdf book-cover-for-web.jpg
