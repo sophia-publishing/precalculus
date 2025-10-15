@@ -1,6 +1,7 @@
+\usepackage{marginfix}
+\usepackage{sidenotesplus}[size=normal,ragged]
+
 \usepackage{tabularx}
-\marginparwidth 0in
-\headheight 14pt
 \usepackage{amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline,mathtools}
 \usepackage{colortbl}
 \usepackage{import, multicol,boxedminipage}
@@ -9,6 +10,8 @@
 \usepackage[pdflatex]{graphicx}
 \usepackage{makeidx}
 \usepackage{emptypage}
+
+\usepackage{tikz-cd}
 
 \usepackage{../shortlst}
 
@@ -45,6 +48,123 @@
 \usepackage{adjustbox}
 \settasks{label=\arabic*., label-offset=0.6666em, label-width=14.1pt, counter=HW}
 
+%% custom layout environments
+
+% defn
+\newenvironment{mdefn}{%
+  \begin{marginfigure}
+    \begin{tcolorbox}
+      \begin{defn}
+}{%
+      \end{defn}
+    \end{tcolorbox}
+  \end{marginfigure}
+}
+\newenvironment{fdefn}{%
+  \begin{figure*}
+    \begin{tcolorbox}
+      \begin{defn}
+}{%
+      \end{defn}
+    \end{tcolorbox}
+  \end{figure*}
+}
+
+% thm
+\newenvironment{mthm}{%
+  \begin{marginfigure}
+    \begin{tcolorbox}
+      \begin{thm}
+}{%
+      \end{thm}
+    \end{tcolorbox}
+  \end{marginfigure}
+}
+\newenvironment{ithm}{%
+  \begin{tcolorbox}
+    \begin{thm}
+}{%
+    \end{thm}
+  \end{tcolorbox}
+}
+\newenvironment{fthm}{%
+  \begin{figure*}
+    \begin{tcolorbox}
+      \begin{thm}
+}{%
+      \end{thm}
+    \end{tcolorbox}
+  \end{figure*}
+}
+
+% table
+\newenvironment{mtable}{%
+  \begin{margintable}
+    \captionsetup{labelfont=bf,justification=centering}
+    \begin{center}
+}{%
+    \end{center}
+  \end{margintable}
+}
+\newenvironment{ftable}{%
+  \begin{table*}
+    \begin{center}
+}{%
+    \end{center}
+  \end{table*}
+}
+\newenvironment{itable}{%
+  \begin{table}[htp]
+    \begin{center}
+}{%
+    \end{center}
+  \end{table}
+}
+
+% figure
+\newbool{ismfigure}
+\newenvironment{mfigure}{%
+  \begin{marginfigure}
+    \booltrue{ismfigure}
+    \captionsetup{labelfont=bf,justification=centering}
+    \begin{center}
+}{%
+    \end{center}
+    \boolfalse{ismfigure}
+  \end{marginfigure}
+}
+\newenvironment{ifigure}{%
+  \begin{figure}[htp]
+    \begin{center}
+}{%
+    \end{center}
+  \end{figure}
+}
+\newenvironment{ffigure}{%
+  \begin{figure*}[htp]
+    \begin{center}
+}{%
+    \end{center}
+  \end{figure*}
+}
+\newenvironment{graphtrans}{%
+  \begin{tikzcd}
+}{%
+  \end{tikzcd}
+}
+
+\newcommand{\trans}[1]{%
+  \ifbool{ismfigure}{%
+    \arrow[d, "\text{#1}"] \\
+  }{%
+    \arrow[r, "\text{#1}"]
+  }
+}
+
+\newcommand{\xincludegraphics}[1]{\includegraphics[width=50mm]{#1}}
+
+\newcommand{\mexinstr}[1]{\sidenote*{#1\medskip}}
+
 \newenvironment{exenum}{%
   \begin{enumerate}
   \setcounter{enumi}{\value{HW}}
@@ -75,9 +195,13 @@
 
 \theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
 \newtheorem{defn}{\bf Definition}[section]
+\newcommand{\defnautorefname}{Definition}
 \newtheorem{thm}{\bf Theorem}[section]
+\newcommand{\thmautorefname}{Theorem}
 \newtheorem{cor}[thm]{\bf Corollary}
+\newcommand{\corautorefname}{Corollary}
 \newtheorem{eqn}{\bf Equation}[section]
+\newcommand{\eqnautorefname}{Equation}
 
 \newtheoremstyle{example-style}% 〈name〉
   {\medskipamount}%                      〈Space above〉
@@ -156,7 +280,7 @@
 \cfoot{}
 \fancypagestyle{plain}{\fancyhf{}}
 
-
+\newgeometry{textwidth=130mm}
 \frontmatter
 
 \input{../logo/logo.tex}
@@ -231,8 +355,10 @@ Sophia Publishing \\
 
 \mainmatter
  
+
 \renewcommand{\chaptername}{Chapter}
 
+\restoregeometry
 
 %\chapter{Introduction to Functions}
 %\label{IntroductiontoFunctions}
