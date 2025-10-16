@@ -1,19 +1,21 @@
 \startexenum
 
+\begin{exenum}
+\mexinstr{%
 (Review of Solving Equations):\footnote{For more review, see Section \ref{AppRatExpEqus}.} In Exercises \ref{ratleqnexercisefirst} - \ref{ratleqnexerciselast},  solve the rational equation.  Be sure to check for extraneous solutions.
+}
 
-\begin{shortexenum}[MMMMMMMMMMMM]
 \item $\dfrac{x}{5x + 4} = 3$ \label{ratleqnexercisefirst}
 \item $\dfrac{3x - 1}{x^{2} + 1} = 1$
 \item $\dfrac{1}{t + 3} + \dfrac{1}{t - 3} = \dfrac{t^{2} - 3}{t^{2} - 9}$
 \item $\dfrac{2t + 17}{t + 1} = t + 5$
 \item $\dfrac{z^{2} - 2z + 1}{z^{3} + z^{2} - 2z} = 1$
 \item $\dfrac{4z- z^3}{z^{2} - 9} = 4z$  \label{ratleqnexerciselast}
-\end{shortexenum}
 
+\mexinstr{%
 In Exercises \ref{ratlineqexercisefirst} - \ref{ratlineqexerciselast}, solve the rational inequality.  Express your answer using interval notation.
+}
 
-\begin{shortexenum}[MMMMMMMMMMMMMMMM]
 \item $\dfrac{1}{x + 2} \geq 0$ \label{ratlineqexercisefirst}
 \item $\dfrac{5}{x + 2} \geq 1$
 \item $\dfrac{x}{x^{2} - 1} <  0$
@@ -30,14 +32,17 @@ In Exercises \ref{ratlineqexercisefirst} - \ref{ratlineqexerciselast}, solve the
 \item $(t-3)(2t+7)(t^2+7t+6)^{-2} \geq (t^2+7t+6)^{-1}$ % $(-\infty, -6) \cup (-6, -3] \cup [9, \infty)$
 \item $60z^{-2}+23z^{-1} \geq 7(z-4)^{-1}$
 \item $2z+6(z-1)^{-1} \geq 11 - 8(z+1)^{-1}$ \label{ratlineqexerciselast}
-\end{shortexenum}
 
+\mexinstr{%
 In Exercises \ref{solverationalineqfromgraphfirst} - \ref{solverationalineqfromgraphlast}, use the the graph of the given rational function to  solve the stated inequality.
+}
 
-\begin{tasks}[resume](2)
-\task \label{solverationalineqfromgraphfirst} Solve $f(x) \geq 0$.
+\item \label{solverationalineqfromgraphfirst} Solve $f(x) \geq 0$ from
+\autoref{fig:fxgtezero}.
 
-\begin{mfpic}[10]{-7}{7}{-6}{8}
+\begin{mfigure}
+
+\begin{mfpic}[8]{-7}{7}{-6}{8}
 \point[4pt]{(3,0)}
 \dashed \polyline{(-7,1), (7,1)}
 \tlabel[cc](7,-0.5){\scriptsize $x$}
@@ -57,9 +62,15 @@ In Exercises \ref{solverationalineqfromgraphfirst} - \ref{solverationalineqfromg
 \tcaption{\scriptsize  $y=f(x)$, asymptotes: $x = 0$, $y=1$.}
 \end{mfpic}
 
-\task  Solve $f(x) < 1$.
+\caption{}
+\label{fig:fxgtezero}
+\end{mfigure}
 
-\begin{mfpic}[10]{-7}{7}{-6}{8}
+\item  Solve $f(x) < 1$ from \autoref{fig:gtgteminusone}.
+
+\begin{mfigure}
+
+\begin{mfpic}[8]{-7}{7}{-6}{8}
 \point[4pt]{(3,0)}
 \dashed \polyline{(-7,1), (7,1)}
 \tlabel[cc](7,-0.5){\scriptsize $x$}
@@ -79,7 +90,11 @@ In Exercises \ref{solverationalineqfromgraphfirst} - \ref{solverationalineqfromg
 \tcaption{\scriptsize  $y=f(x)$, asymptotes: $x = 0$, $y=1$.}
 \end{mfpic}
 
-\task   Solve $g(t) \geq  -1 $. 
+\caption{}
+\label{fig:gtgteminusone}
+\end{mfigure}
+
+\item   Solve $g(t) \geq  -1 $. 
 
 \begin{mfpic}[18]{-2}{6}{-4}{4}
 \axes
@@ -103,7 +118,7 @@ In Exercises \ref{solverationalineqfromgraphfirst} - \ref{solverationalineqfromg
 \tcaption{\scriptsize  $y=g(t)$, asymptotes: $t = 2$, $y=0$.}
 \end{mfpic}
 
-\task  Solve $-1 \leq g(t)  < 1$. 
+\item  Solve $-1 \leq g(t)  < 1$. 
 
 \begin{mfpic}[18]{-2}{6}{-4}{4}
 \axes
@@ -126,9 +141,11 @@ In Exercises \ref{solverationalineqfromgraphfirst} - \ref{solverationalineqfromg
 \tcaption{\scriptsize  $y=g(t)$, asymptotes: $t = 2$, $y=0$.}
 \end{mfpic}
 
-\task  Solve $r(z) \leq 1$ 
+\item  Solve $r(z) \leq 1$ from \autoref{fig:rzleqone}.
 
-\begin{mfpic}[15][20]{-5}{5}{-1}{6}
+\begin{mfigure}
+
+\begin{mfpic}[12][20]{-5}{5}{-1}{6}
 \tlabel[cc](5,-0.5){\scriptsize $z$}
 \tlabel[cc](0.5,6){\scriptsize $y$}
 \tlabel[cc](-2.5,1){\scriptsize $(-1,1)$}
@@ -150,10 +167,15 @@ In Exercises \ref{solverationalineqfromgraphfirst} - \ref{solverationalineqfromg
 \tcaption{\scriptsize $y = r(z)$, asymptotes:  $z=0$, $y=0$.}
 \end{mfpic}
 
+\caption{}
+\label{fig:rzleqone}
+\end{mfigure}
 
-\task \label{solverationalineqfromgraphlast} Solve $r(z) > 0$.
+\item \label{solverationalineqfromgraphlast} Solve $r(z) > 0$ from \autoref{fig:rzgtzero}.
 
-\begin{mfpic}[15][20]{-5}{5}{-1}{6}
+\begin{mfigure}
+
+\begin{mfpic}[12][20]{-5}{5}{-1}{6}
 \tlabel[cc](5,-0.5){\scriptsize $z$}
 \tlabel[cc](0.5,6){\scriptsize $y$}
 \tlabel[cc](-2.5,1){\scriptsize $(-1,1)$}
@@ -175,19 +197,19 @@ In Exercises \ref{solverationalineqfromgraphfirst} - \ref{solverationalineqfromg
 \tcaption{\scriptsize $y = r(z)$, asymptotes:  $z=0$, $y=0$.}
 \end{mfpic}
 
-\end{tasks}
-
-\begin{exenum}
+\caption{}
+\label{fig:rzgtzero}
+\end{mfigure}
 
 \item  In Exercise \ref{newportaboycost} in Section \ref{GraphsofPolynomials},  the function $C(x) = .03x^{3} - 4.5x^{2} + 225x + 250$, for $x \geq 0$ was used to model the cost (in dollars) to produce $x$ PortaBoy game systems. Using this cost function, find the number of PortaBoys which should be produced to minimize the average cost $\overline{C}$.  Round your answer to the nearest number of systems. 
 
 \item  Suppose we are in the same situation as Example \ref{boxnotopfixedvolume}.  If the volume of the box is to be $500$ cubic centimeters, use a graphing utility to find the dimensions of the box which minimize the surface area.  What is the minimum surface area?  Round your answers to two decimal places.
 
-\item  The box for the new Sasquatch-themed cereal, `Crypt-Os', is to have a volume of $140$ cubic inches.  For aesthetic reasons, the height of the box needs to be $1.62$ times the width of the base of the box.\footnote{1.62 is a crude approximation of the so-called `Golden Ratio' $\phi = \frac{1 + \sqrt{5}}{2}$.}  Find the dimensions of the box which will minimize the surface area of the box.  What is the minimum surface area?  Round your answers to two decimal places.   
+\item  The box for the new Sasquatch-themed cereal, `Crypt-Os', is to have a volume of $140$ cubic inches.  For aesthetic reasons, the height of the box needs to be $1.62$ times the width of the base of the box.\sidenote{1.62 is a crude approximation of the so-called `Golden Ratio' $\phi = \frac{1 + \sqrt{5}}{2}$.}  Find the dimensions of the box which will minimize the surface area of the box.  What is the minimum surface area?  Round your answers to two decimal places.   
 
 \item \label{fixedareaminperimetergarden} Sally is Skippy's neighbor from Exercise \ref{fixedperimetermaxareagarden} in Section \ref{QuadraticFunctions}.   Sally also wants to plant a vegetable garden along the side of her home.  She doesn't have any fencing, but wants to keep the size of the garden to 100 square feet.  What are the dimensions of the garden which will minimize the amount of fencing she needs to buy?  What is the minimum amount of fencing she needs to buy? Round your answers to the nearest foot. (Note:  Since one side of the garden will border the house, Sally doesn't need fencing along that side.)
 
-\item Another Classic Problem: A can is made in the shape of a right circular cylinder and is to hold one pint. (For dry goods, one pint is equal to $33.6$ cubic inches.)\footnote{According to \href{http://dictionary.reference.com/browse/pint}{\underline{www.dictionary.com}}, there are different values given for this conversion. We use $33.6 \text{in}^{3}$ for this problem.}  
+\item Another Classic Problem: A can is made in the shape of a right circular cylinder and is to hold one pint. (For dry goods, one pint is equal to $33.6$ cubic inches.)\sidenote{According to \href{http://dictionary.reference.com/browse/pint}{\underline{www.dictionary.com}}, there are different values given for this conversion. We use $33.6 \text{in}^{3}$ for this problem.}  
 
 \begin{enumerate}
 

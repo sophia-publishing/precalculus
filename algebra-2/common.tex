@@ -197,7 +197,13 @@
   }
 }
 
-\newcommand{\xincludegraphics}[1]{\includegraphics[width=45mm]{#1}}
+\newcommand{\xincludegraphics}[1]{%
+  \ifbool{ismfigure}{%
+    \includegraphics[width=45mm]{#1}
+  }{%
+    \includegraphics[width=80mm]{#1}
+  }
+}
 
 % exinstr
 \newcommand{\mexinstr}[1]{%
