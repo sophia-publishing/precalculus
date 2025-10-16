@@ -9,13 +9,14 @@ In Section \ref{IntroRational}, we learned about the types of behaviors to expec
 
 One of the standard tools we will use is the sign diagram which was first introduced in Section \ref{QuadraticFunctions}, and then revisited in Section \ref{RealZeros}. In these sections,  to construct a sign diagram for a function $f$, we first found the zeros of $f$.  The zeros broke  the domain of $f$ into a series of intervals.  We determined the sign of $f(x)$ over the \textit{entire} interval by finding the sign of $f(x)$ for just \textit{one} test value per interval.  The theorem that justified this approach was the Intermediate Value Theorem, Theorem \ref{IVT}, which says that \textit{continuous} functions cannot change their sign between two values unless there is a zero  between those two values. 
 
-This strategy fails in  general with rational functions.  Indeed, the very first  function we studied in Section \ref{IntroRational}, $r(x) = \frac{1}{x}$ changes sign between $x=-1$ and $x=1$, but there is no zero between these two values - instead, the graph changes sign across a vertical asymptote.  We could also well imagine the graph of a rational function having a hole where an $x$-intercept should be\footnote{Take $f(x) = \frac{x^2}{x}$, for instance.}  It turns out that with Calculus we can show rational functions are continuous on their domains.  What this means for us is when we construct sign diagrams, we need to choose test values on either side of values excluded from the domain in addition to checking around zeros.\footnote{Since excluded values are zeros of the denominator, we can think of this as really just generalizing what we already do.} See \autoref{box:signdiagramforrationalfunction}.
+This strategy fails in  general with rational functions.  Indeed, the very first  function we studied in Section \ref{IntroRational}, $r(x) = \frac{1}{x}$ changes sign between $x=-1$ and $x=1$, but there is no zero between these two values - instead, the graph changes sign across a vertical asymptote.  We could also well imagine the graph of a rational function having a hole where an $x$-intercept should be\sidenote{Take $f(x) = \frac{x^2}{x}$, for instance.}  It turns out that with Calculus we can show rational functions are continuous on their domains.  What this means for us is when we construct sign diagrams, we need to choose test values on either side of values excluded from the domain in addition to checking around zeros.\sidenote{Since excluded values are zeros of the denominator, we can think of this as really just generalizing what we already do.}
+See \autoref{box:signdiagramforrationalfunction}.
 
 \phantomsection
 \label{rationalsigndiagram}
 
-\begin{floatbox}[label=box:signdiagramforrationalfunction]{Steps for Constructing a Sign Diagram for a Rational Function}
-
+\begin{ffloatbox}{Steps for Constructing a Sign Diagram for a Rational Function}
+\label{box:signdiagramforrationalfunction}
 Suppose $f$ is a rational function. \index{sign diagram ! rational function}
 
 \begin{enumerate}
@@ -30,12 +31,12 @@ Suppose $f$ is a rational function. \index{sign diagram ! rational function}
 
 \end{enumerate}
 
-\end{floatbox}
+\end{ffloatbox}
 
 We now present our procedure for graphing rational functions in \autoref{box:graphingrationalfunctions} and apply it to a few exhaustive examples.  Please note that we decrease the amount of detail given in the explanations as we move through the examples.  The reader should be able to fill in any details in those steps which we have abbreviated.
 
-\begin{floatbox}[label=box:graphingrationalfunctions]{Steps for Graphing Rational Functions}
-
+\begin{mfloatbox}{Steps for Graphing Rational Functions}
+\label{box:graphingrationalfunctions}
 Suppose $r$ is a rational function. \index{graph ! rational function}
 
 \begin{enumerate}
@@ -54,7 +55,7 @@ Suppose $r$ is a rational function. \index{graph ! rational function}
 
 \end{enumerate}
 
-\end{floatbox}
+\end{mfloatbox}
 
 \begin{ex}  Sketch a detailed graph of $f(x) = \dfrac{3x}{x^2-4}$.
 
@@ -66,20 +67,23 @@ Suppose $r$ is a rational function. \index{graph ! rational function}
 
 \item  We check if  $f(x)$ is in lowest terms by factoring: $f(x) = \frac{3x}{(x-2)(x+2)}$.  There are no common factors which means $f(x)$ is already in lowest terms.
 
-\item  Per Theorem \ref{vavshole}, vertical asymptotes and holes in the graph come from values excluded from the domain of $f$.  The two numbers excluded from the domain of $f$ are $x = -2$ and $x=2$ and since  $f(x)$ didn't reduce,  Theorem \ref{vavshole} tells us $x=-2$ and $x=2$ are vertical asymptotes of the graph.  We can actually go a step further at this point and determine exactly how the graph approaches the asymptote near each of these values. Though not absolutely necessary,\footnote{The sign diagram in step 6 will also determine the behavior near the vertical asymptotes.} it is good practice for those heading off to Calculus.  For the discussion that follows,  we use the factored form of $f(x) = \frac{3x}{(x-2)(x+2)}$.
+\item  Per Theorem \ref{vavshole}, vertical asymptotes and holes in the graph come from values excluded from the domain of $f$.  The two numbers excluded from the domain of $f$ are $x = -2$ and $x=2$ and since  $f(x)$ didn't reduce,  Theorem \ref{vavshole} tells us $x=-2$ and $x=2$ are vertical asymptotes of the graph.  We can actually go a step further at this point and determine exactly how the graph approaches the asymptote near each of these values. Though not absolutely necessary,\sidenote{The sign diagram in step 6 will also determine the behavior near the vertical asymptotes.} it is good practice for those heading off to Calculus.  For the discussion that follows,  we use the factored form of $f(x) = \frac{3x}{(x-2)(x+2)}$.
 
 \begin{itemize}
 
 \item  \textit{The behavior of $y=f(x)$ as $x \rightarrow -2$:}  Suppose $x \rightarrow -2^{-}$.  If we were to build a table of values, we'd use $x$-values a little less than $-2$, say $-2.1$, $-2.01$ and $-2.001$.  While there is no harm in actually building a table like we did in Section \ref{IntroRational}, we want to develop a `number sense' here.  Let's think about each factor in the formula of $f(x)$ as we imagine substituting a number like $x=-2.000001$ into $f(x)$. The quantity $3x$ would be very close to $-6$, the quantity $(x-2)$ would be very close to $-4$, and the factor $(x+2)$ would be very close to $0$.  More specifically, $(x+2)$ would be a little less than $0$, in this case, $-0.000001.$  We will call such a number a `very small $(-)$', `very small' meaning close to zero in absolute value. So, mentally, as $x \rightarrow -2^{-}$,
 \begin{multline*}
-f(x)   = \dfrac{3x}{(x-2)(x+2)} \approx \dfrac{-6}{(-4)\left( \text{very small $(-)$}\right)} \\
+f(x)   = \dfrac{3x}{(x-2)(x+2)} \\
+\approx \dfrac{-6}{(-4)\left( \text{very small $(-)$}\right)} \\
 = \dfrac{3}{2 \left( \text{very small $(-)$}\right)}
 \end{multline*}
 Now, the closer $x$ gets to $-2$, the smaller $(x+2)$ will become, so even though we are multiplying our `very small $(-)$' by $2$, the denominator will continue to get smaller and smaller, and remain negative.  The result is a fraction whose numerator is positive, but whose denominator is very small and negative.  Mentally,
-\[
-f(x) \approx \dfrac{3}{2 \left( \text{very small $(-)$}\right)} \approx \dfrac{3}{\text{very small $(-)$}} \approx \text{very big $(-)$}
-\]
-The term `very big $(-)$' means a number with a large absolute value which is negative.\footnote{The actual retail value of $f(-2.000001)$ is approximately $-1,\!500,\!000$.}  What all of this means is that as $x \rightarrow -2^{-}$, $f(x) \rightarrow -\infty$.  Now suppose we wanted to determine the behavior of $f(x)$ as $x \rightarrow -2^{+}$.  If we imagine substituting something a little larger than $-2$ in for $x$, say $-1.999999$, we mentally estimate
+\begin{multline*}
+f(x) \approx \dfrac{3}{2 \left( \text{very small $(-)$}\right)} \approx \dfrac{3}{\text{very small $(-)$}} \\
+\approx \text{very big $(-)$}
+\end{multline*}
+
+The term `very big $(-)$' means a number with a large absolute value which is negative.\sidenote{The actual retail value of $f(-2.000001)$ is approximately $-1,\!500,\!000$.}  What all of this means is that as $x \rightarrow -2^{-}$, $f(x) \rightarrow -\infty$.  Now suppose we wanted to determine the behavior of $f(x)$ as $x \rightarrow -2^{+}$.  If we imagine substituting something a little larger than $-2$ in for $x$, say $-1.999999$, we mentally estimate
 \begin{multline*}
 f(x) \approx \dfrac{-6}{(-4)\left( \text{very small $(+)$}\right)} = \dfrac{3}{2 \left( \text{very small $(+)$}\right)} \\
 \approx \dfrac{3}{\text{very small $(+)$}} \approx \text{very big $(+)$}
@@ -88,7 +92,8 @@ We conclude that as $x \rightarrow -2^{+}$, $f(x) \rightarrow \infty$.
 
 \item  \textit{The behavior of $y=f(x)$ as $x \rightarrow 2$:} Consider $x \rightarrow 2^{-}$. We imagine substituting $x = 1.999999$.  Approximating $f(x)$ as we did above, we get
 \begin{multline*}
-f(x) \approx \dfrac{6}{\left( \text{very small $(-)$}\right)(4)} = \dfrac{3}{2 \left( \text{very small $(-)$}\right)} \\
+f(x) \approx \dfrac{6}{\left( \text{very small $(-)$}\right)(4)} \\
+= \dfrac{3}{2 \left( \text{very small $(-)$}\right)} \\
 \approx \dfrac{3}{\text{very small $(-)$}} \approx \text{very big $(-)$}
 \end{multline*}
 We conclude that as $x \rightarrow 2^{-}$, $f(x) \rightarrow -\infty$.  Similarly, as $x \rightarrow 2^{+}$, we imagine substituting $x = 2.000001$ to get $f(x) \approx \frac{3}{\text{\scriptsize very small $(+)$}} \approx \text{very big (+)}$.  So as $x \rightarrow 2^{+}, f(x) \rightarrow \infty$.
@@ -96,31 +101,35 @@ We conclude that as $x \rightarrow 2^{-}$, $f(x) \rightarrow -\infty$.  Similarl
 
 We interpret this graphically in \autoref{fig:behaviornearxeqplusorminustwo}.
 
-\item  To find the $x$-intercepts of the graph, we set $y=f(x) = 0$.  Solving $ \frac{3x}{(x-2)(x+2)} = 0$ results in $x=0$.  Since $x=0$ is in our domain, $(0,0)$ is the $x$-intercept.   This is also the $y$-intercept,\footnote{Per Exercise \ref{onlyoneyintexercise}, functions can have at most one $y$-intercept. Since $(0,0)$ is on the graph,  it is \textit{the} $y$-intercept.} as we can quickly verify since $f(0) = \frac{3(0)}{0^2-4} = 0$.
+\item  To find the $x$-intercepts of the graph, we set $y=f(x) = 0$.  Solving $ \frac{3x}{(x-2)(x+2)} = 0$ results in $x=0$.  Since $x=0$ is in our domain, $(0,0)$ is the $x$-intercept.   This is also the $y$-intercept,\sidenote{Per Exercise \ref{onlyoneyintexercise}, functions can have at most one $y$-intercept. Since $(0,0)$ is on the graph,  it is \textit{the} $y$-intercept.} as we can quickly verify since $f(0) = \frac{3(0)}{0^2-4} = 0$.
 
 
 \item  Next, we determine the end behavior of the graph of $y=f(x)$.  Since the degree of the numerator is $1$, and the degree of the denominator is $2$, Theorem \ref{hathm} tells us that $y=0$ is the horizontal asymptote.  As with the vertical asymptotes, we can glean more detailed information using `number sense'. For the discussion below, we use the formula $f(x) = \frac{3x}{x^2-4}$. 
 
 \begin{itemize}
 
-\item  \textit{The behavior of $y=f(x)$ as $x \rightarrow -\infty$:}  If we were to make a table of values to discuss the behavior of $f$ as $x \rightarrow -\infty$, we would substitute very `large' negative numbers in for $x$, say for example, $x = \text{$-1$ billion}$.  The numerator $3x$ would then be $-3 \, \text{billion}$, whereas the denominator $x^2-4$ would be $(\text{$-1$ billion})^2 - 4$, which is pretty much the same as  $1(\text{billion})^2$.  Hence, \[f\left(\text{$-1$ billion}\right) \approx \dfrac{-3 \, \text{billion}}{1(\text{billion})^2} \approx - \dfrac{3}{\text{billion}} \approx \text{very small $(-)$} \]
+\item  \textit{The behavior of $y=f(x)$ as $x \rightarrow -\infty$:}  If we were to make a table of values to discuss the behavior of $f$ as $x \rightarrow -\infty$, we would substitute very `large' negative numbers in for $x$, say for example, $x = \text{$-1$ billion}$.  The numerator $3x$ would then be $-3 \, \text{billion}$, whereas the denominator $x^2-4$ would be $(\text{$-1$ billion})^2 - 4$, which is pretty much the same as  $1(\text{billion})^2$.  Hence, 
+\begin{multline*}
+     f\left(\text{$-1$ billion}\right) \approx \dfrac{-3 \, \text{billion}}{1(\text{billion})^2} \approx - \dfrac{3}{\text{billion}} \\
+     \approx \text{very small $(-)$}
+\end{multline*}
 
 Notice that if we substituted in $x = \text{$-1$ trillion}$, essentially the same kind of cancellation would happen, and we would be left with an even `smaller' negative number.  This not only confirms the fact that as $x \rightarrow -\infty$, $f(x) \rightarrow 0$, it tells us that $f(x) \rightarrow 0^{-}$. In other words, the graph of $y=f(x)$ is a little bit \textit{below} the $x$-axis as we move to the far left.
 
-
-\item  \textit{The behavior of $y=f(x)$ as $x \rightarrow \infty$:}  On the flip side, we can imagine substituting very large positive numbers in for $x$ and looking at the behavior of $f(x)$.   For example, let $x = \text{$1$ billion}$. Proceeding as before, we get \[f\left(\text{$1$ billion}\right) \approx \dfrac{3 \, \text{billion}}{1(\text{billion})^2} \approx \dfrac{3}{\text{billion}} \approx \text{very small $(+)$} \]  The larger the number we put in, the smaller the positive number we would get out.  In other words, as $x \rightarrow \infty$, $f(x) \rightarrow 0^{+}$, so the graph of $y=f(x)$ is a little bit \emph{above} the $x$-axis as we look toward the far right.  
+\item  \textit{The behavior of $y=f(x)$ as $x \rightarrow \infty$:}  On the flip side, we can imagine substituting very large positive numbers in for $x$ and looking at the behavior of $f(x)$.   For example, let $x = \text{$1$ billion}$. Proceeding as before, we get 
+\begin{multline*}
+     f\left(\text{$1$ billion}\right) \approx \dfrac{3 \, \text{billion}}{1(\text{billion})^2} \approx \dfrac{3}{\text{billion}} \\
+     \approx \text{very small $(+)$} 
+\end{multline*}
+The larger the number we put in, the smaller the positive number we would get out.  In other words, as $x \rightarrow \infty$, $f(x) \rightarrow 0^{+}$, so the graph of $y=f(x)$ is a little bit \emph{above} the $x$-axis as we look toward the far right.  
 
 \end{itemize}
 
 We interpret these findings graphically in \autoref{fig:endbehavior}.
 
-\begin{figure}
-
-\begin{minipage}[b]{0.5\textwidth}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[15]{-4}{4}{-5}{5}
-
 \dashed \polyline{(-2,-4.5), (-2,4.5)}
 \dashed \polyline{(2,-4.5), (2,4.5)}
 \tlabel[cc](4,-0.5){\scriptsize $x$}
@@ -140,10 +149,10 @@ We interpret these findings graphically in \autoref{fig:endbehavior}.
 
 \caption{behavior near $x = \pm 2$}
 \label{fig:behaviornearxeqplusorminustwo}
-\end{center}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-\begin{center}
+
+\end{mfigure}
+
+\begin{mfigure}
        
 \begin{mfpic}[15]{-4.75}{4.75}{-2}{2}
 \tlabel[cc](4.75,-0.5){\scriptsize $x$}
@@ -157,19 +166,16 @@ We interpret these findings graphically in \autoref{fig:endbehavior}.
 \penwd{1.25pt}
 \arrow \curve{(2.5,0.85), (3,0.35), (4.25, 0.15)}
 \arrow \curve{(-2.5,-0.85), (-3,-0.35), (-4.25, -0.15)}
-\end{mfpic} \\
+\end{mfpic}
 
 \caption{end behavior}
 \label{fig:endbehavior}
-\end{center}
-\end{minipage}
 
-\end{figure}
+\end{mfigure}
 
-\item  Lastly, we construct a sign diagram for $f(x)$ (\autoref{fig:signdiagramoffxeqthreexbyetc}).  The $x$-values excluded from the domain of $f$ are $x = \pm 2$, and the only zero of $f$ is $x=0$.  Displaying these appropriately on the number line gives us four test intervals, and we choose the test values\footnote{In this particular case, we don't need test values since our analysis of the behavior of $f$ near the vertical asymptotes and our end behavior analysis have given us the signs on each of the test intervals.  In general, however, this won't always be the case, so for demonstration purposes, we continue with our usual construction.} $x=-3$, $x=-1$, $x=1$ and $x=3$.  We find $f(-3)$ is $(-)$, $f(-1)$ is $(+)$, $f(1)$ is $(-)$ and $f(3)$ is $(+)$.  As we begin our sketch, it certainly appears as if the graph could be symmetric about the origin.  Taking a moment to check for symmetry, we find $f(-x) = \frac{3(-x)}{(-x)^2-4} = -\frac{3x}{x^2-4} = -f(x)$.  Hence, $f$ is odd and the graph of $y = f(x)$ is symmetric about the origin. Putting all of our work together, we get the graph in \autoref{fig:fxeqthreexbyetc}.
+\item  Lastly, we construct a sign diagram for $f(x)$ (\autoref{fig:signdiagramoffxeqthreexbyetc}).  The $x$-values excluded from the domain of $f$ are $x = \pm 2$, and the only zero of $f$ is $x=0$.  Displaying these appropriately on the number line gives us four test intervals, and we choose the test values\sidenote{In this particular case, we don't need test values since our analysis of the behavior of $f$ near the vertical asymptotes and our end behavior analysis have given us the signs on each of the test intervals.  In general, however, this won't always be the case, so for demonstration purposes, we continue with our usual construction.} $x=-3$, $x=-1$, $x=1$ and $x=3$.  We find $f(-3)$ is $(-)$, $f(-1)$ is $(+)$, $f(1)$ is $(-)$ and $f(3)$ is $(+)$.  As we begin our sketch, it certainly appears as if the graph could be symmetric about the origin.  Taking a moment to check for symmetry, we find $f(-x) = \frac{3(-x)}{(-x)^2-4} = -\frac{3x}{x^2-4} = -f(x)$.  Hence, $f$ is odd and the graph of $y = f(x)$ is symmetric about the origin. Putting all of our work together, we get the graph in \autoref{fig:fxeqthreexbyetc}.
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[10]{-6}{6}{-2}{2}
 \arrow \reverse \arrow \polyline{(-6,0),(6,0)}
@@ -195,13 +201,12 @@ We interpret these findings graphically in \autoref{fig:endbehavior}.
 
 \caption{}
 \label{fig:signdiagramoffxeqthreexbyetc}
-\end{center}
-\end{figure}
 
-\begin{figure}
-\begin{center}
+\end{mfigure}
+
+\begin{mfigure}
        
-\begin{mfpic}[16]{-6}{6}{-4}{4}
+\begin{mfpic}[11]{-6}{6}{-4}{4}
 
 \dashed \polyline{(-2,-4), (-2,4)}
 \dashed \polyline{(2,-4), (2,4)}
@@ -224,8 +229,7 @@ We interpret these findings graphically in \autoref{fig:endbehavior}.
 
 \caption{}
 \label{fig:fxeqthreexbyetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 \end{enumerate}
 
@@ -233,7 +237,7 @@ We interpret these findings graphically in \autoref{fig:endbehavior}.
 
 \end{ex}
 
-Something important to note about the above example is that while $y=0$ is the horizontal asymptote, the graph of $f$ actually crosses the $x$-axis at $(0,0)$.  The myth that graphs of rational functions can't cross their horizontal asymptotes is completely false,\footnote{That's why we called it a MYTH!} as we shall see again in our next example.
+Something important to note about the above example is that while $y=0$ is the horizontal asymptote, the graph of $f$ actually crosses the $x$-axis at $(0,0)$.  The myth that graphs of rational functions can't cross their horizontal asymptotes is completely false,\sidenote{That's why we called it a MYTH!} as we shall see again in our next example.
 
 \begin{ex}  Sketch a detailed graph of $g(t) = \dfrac{2t^2-3t-5}{t^2-t-6}$.
 
@@ -249,9 +253,24 @@ Something important to note about the above example is that while $y=0$ is the h
 
 \begin{itemize}
 
-\item  \textit{The behavior of $y=g(t)$ as $t \rightarrow -2$:}  As $t \rightarrow -2^{-}$, we imagine substituting a number a little bit less than $-2$. We have \[g(t) \approx \frac{(-9)(-1)}{(-5)(\text{very small $(-)$})} \approx \frac{9}{\text{very small $(+)$}} \approx \text{very big (+)}\] so as $t \rightarrow -2^{-}$, $g(t) \rightarrow \infty$. On the flip side, as $t \rightarrow -2^{+}$, we get \[g(t) \approx \frac{9}{\text{ very small $(-)$}} \approx \text{very big $(-)$}\] so $g(t) \rightarrow -\infty$.
+\item  \textit{The behavior of $y=g(t)$ as $t \rightarrow -2$:}  As $t \rightarrow -2^{-}$, we imagine substituting a number a little bit less than $-2$. We have
+\begin{multline*}
+     g(t) \approx \frac{(-9)(-1)}{(-5)(\text{very small $(-)$})} \approx \frac{9}{\text{very small $(+)$}} \\
+     \approx \text{very big (+)}
+\end{multline*}
+so as $t \rightarrow -2^{-}$, $g(t) \rightarrow \infty$. On the flip side, as $t \rightarrow -2^{+}$, we get 
+\begin{multline*}
+     g(t) \approx \frac{9}{\text{ very small $(-)$}} \\
+     \approx \text{very big $(-)$}
+\end{multline*}
+so $g(t) \rightarrow -\infty$.
 
-\item  \textit{The behavior of $y=g(t)$ as $x \rightarrow 3$:}  As $t \rightarrow 3^{-}$, we imagine plugging in a number just shy  of $3$. We have \[g(t) \approx \frac{(1)(4)}{(\text{ very small $(-)$}) (5)} \approx \frac{4}{\text{very small $(-)$}} \approx \text{very big $(-)$}\] Hence, as $t \rightarrow 3^{-}$, $g(t) \rightarrow -\infty$. As $t \rightarrow 3^{+}$, we get \[g(t) \approx \frac{4}{\text{ very small $(+)$}} \approx \text{very big $(+)$}\] so $g(x) \rightarrow \infty$.
+\item  \textit{The behavior of $y=g(t)$ as $x \rightarrow 3$:}  As $t \rightarrow 3^{-}$, we imagine plugging in a number just shy  of $3$. We have 
+\begin{multline*}
+     g(t) \approx \frac{(1)(4)}{(\text{ very small $(-)$}) (5)} \approx \frac{4}{\text{very small $(-)$}} \\
+     \approx \text{very big $(-)$}
+\end{multline*}
+Hence, as $t \rightarrow 3^{-}$, $g(t) \rightarrow -\infty$. As $t \rightarrow 3^{+}$, we get \[g(t) \approx \frac{4}{\text{ very small $(+)$}} \approx \text{very big $(+)$}\] so $g(x) \rightarrow \infty$.
 
 \end{itemize}
 
@@ -263,7 +282,12 @@ We interpret this analysis graphically in \autoref{fig:behaviornearteqminustwoet
 
 \begin{itemize}
 
-\item  \textit{The behavior of $y=g(t)$ as $t \rightarrow -\infty$:} If imagine substituting $t = \text{$-1$ billion}$ into $\frac{t-7}{t^2-t-6}$, we estimate $\frac{t-7}{t^2-t-6} \approx \frac{\text{\scriptsize $-1$ billion}}{1 \text{\scriptsize billion}^2}  = \frac{-1}{\text{\scriptsize billion}} \approx \text{very small $(-)$}$.\footnote{We are once again using the fact that for polynomials, end behavior is determined by the leading term, so in the denominator, the $t^2$ term dominates the $t$ and constant terms.}  Hence, \[g(t) =  2 - \frac{t-7}{t^2-t-6} \approx 2 - \text{very small $(-)$} = 2 + \text{very small $(+)$}\]  Hence, as $t \rightarrow -\infty$, the graph is a little bit \textit{above} the line $y=2$.
+\item  \textit{The behavior of $y=g(t)$ as $t \rightarrow -\infty$:} If imagine substituting $t = \text{$-1$ billion}$ into $\frac{t-7}{t^2-t-6}$, we estimate $\frac{t-7}{t^2-t-6} \approx \frac{\text{\scriptsize $-1$ billion}}{1 \text{\scriptsize billion}^2}  = \frac{-1}{\text{\scriptsize billion}} \approx \text{very small $(-)$}$.\sidenote{We are once again using the fact that for polynomials, end behavior is determined by the leading term, so in the denominator, the $t^2$ term dominates the $t$ and constant terms.}  Hence,
+\begin{multline*}
+     g(t) =  2 - \frac{t-7}{t^2-t-6} \approx 2 - \text{very small $(-)$} \\
+     = 2 + \text{very small $(+)$}
+\end{multline*}
+Hence, as $t \rightarrow -\infty$, the graph is a little bit \textit{above} the line $y=2$.
 
 \item  \textit{The behavior of $y=g(t)$ as $t \rightarrow \infty$.}  To consider $\frac{t-7}{t^2-t-6}$ as $t \rightarrow \infty$, we imagine substituting $t= \text{$1$ billion}$ and, going through the usual mental routine, find \[\frac{t-7}{t^2-t-6} \approx \text{very small $(+)$}\]  Hence, $g(t) \approx 2 - \ \text{very small $(+)$}$, so the graph is just \textit{below} the line $y=2$ as $t \rightarrow \infty$.
 
@@ -271,8 +295,7 @@ We interpret this analysis graphically in \autoref{fig:behaviornearteqminustwoet
 
 We sketch the end behavior in \autoref{fig:endbehaviorgteqtwotsquaredetc}.
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \dashed \polyline{(-2,-4.5), (-2,4.5)}
@@ -294,11 +317,9 @@ We sketch the end behavior in \autoref{fig:endbehaviorgteqtwotsquaredetc}.
 
 \caption{behavior near $t = -2$ and $t = 3$ }
 \label{fig:behaviornearteqminustwoetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[15]{-4.75}{4.75}{-1}{3}
 \dashed \polyline{(-4.75,2), (4.75,2)}
@@ -317,15 +338,13 @@ We sketch the end behavior in \autoref{fig:endbehaviorgteqtwotsquaredetc}.
 
 \caption{end behavior}
 \label{fig:endbehaviorgteqtwotsquaredetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\item  Finally we construct our sign diagram (\autoref{fig:signdiagramfortwotsquaredetc}).  We place an `\textinterrobang' above $t=-2$ and $t=3$, and a `$0$' above $t = \frac{5}{2}$ and $t=-1$.  Choosing test values in the test intervals gives us $g(t)$ is $(+)$ on the intervals $(-\infty, -2)$, $\left(-1, \frac{5}{2}\right)$ and $(3, \infty)$, and $(-)$ on the intervals $(-2,-1)$ and $\left(\frac{5}{2}, 3\right)$.  As we piece together all of the information, it stands to reason the graph must cross the horizontal asymptote at some point after $t=3$ in order for it to approach $y=2$ from underneath.\footnote{This subtlety would have been missed had we skipped the long division and subsequent end behavior analysis.}   To find where $y = g(t)$ intersects $y = 2$, we solve $g(t) =  2 - \frac{t-7}{t^2-t-6} = 2$ and get $t-7= 0$, or $t=7$.  Note that $t-7$ is the remainder when $2t^2-3t-5$ is divided by $t^2-t-6$, so it makes sense that for $g(t)$ to equal the quotient $2$, the remainder from the division must be $0$.  Sure enough, we find $g(7)=2$.  The location of the $t$-intercepts alone dashes all hope of the function being even or odd (do you see why?) so we skip the symmetry check in this case. See \autoref{fig:gteqtwotsquaredetc}
+\item  Finally we construct our sign diagram (\autoref{fig:signdiagramfortwotsquaredetc}).  We place an `\textinterrobang' above $t=-2$ and $t=3$, and a `$0$' above $t = \frac{5}{2}$ and $t=-1$.  Choosing test values in the test intervals gives us $g(t)$ is $(+)$ on the intervals $(-\infty, -2)$, $\left(-1, \frac{5}{2}\right)$ and $(3, \infty)$, and $(-)$ on the intervals $(-2,-1)$ and $\left(\frac{5}{2}, 3\right)$.  As we piece together all of the information, it stands to reason the graph must cross the horizontal asymptote at some point after $t=3$ in order for it to approach $y=2$ from underneath.\sidenote{This subtlety would have been missed had we skipped the long division and subsequent end behavior analysis.}   To find where $y = g(t)$ intersects $y = 2$, we solve $g(t) =  2 - \frac{t-7}{t^2-t-6} = 2$ and get $t-7= 0$, or $t=7$.  Note that $t-7$ is the remainder when $2t^2-3t-5$ is divided by $t^2-t-6$, so it makes sense that for $g(t)$ to equal the quotient $2$, the remainder from the division must be $0$.  Sure enough, we find $g(7)=2$.  The location of the $t$-intercepts alone dashes all hope of the function being even or odd (do you see why?) so we skip the symmetry check in this case. See \autoref{fig:gteqtwotsquaredetc}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
        
-\begin{mfpic}[10]{-8}{7}{-2}{2}
+\begin{mfpic}[9]{-8}{7}{-2}{2}
 \arrow \reverse \arrow \polyline{(-8,0),(7,0)}
 \xmarks{-5,-2,1,4}
 \tlpointsep{4pt}
@@ -343,14 +362,11 @@ We sketch the end behavior in \autoref{fig:endbehaviorgteqtwotsquaredetc}.
 
 \caption{}
 \label{fig:signdiagramfortwotsquaredetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
        
-\begin{mfpic}[10]{-10}{10}{-5}{9}
-
+\begin{mfpic}[6]{-10}{10}{-5}{9}
 \dashed \polyline{(-2,-5), (-2,9)}
 \dashed \polyline{(3,-5), (3,9)}
 \dashed \polyline{(-10,2), (10,2)}
@@ -374,8 +390,7 @@ We sketch the end behavior in \autoref{fig:endbehaviorgteqtwotsquaredetc}.
 \caption{}
 \label{fig:gteqtwotsquaredetc}
 
-\end{center}
-\end{figure}
+\end{mfigure}
 
 \end{enumerate}
 
@@ -393,7 +408,7 @@ More can be said about the graph of $y = g(t)$ in \autoref{fig:gteqtwotsquaredet
 
 \item   Solving $x^2+3x+2 = 0$ gives $x = -2$ and $x=-1$ as our excluded values.  Hence, the domain is $\{ x \in \mathbb{R} \, | \, x \neq -1, -2 \}$ or, using interval notation,  $(-\infty, -2) \cup (-2, -1) \cup (-1, \infty)$.
 
-\item  To reduce $h(x)$, we need to factor the numerator and denominator.  To factor the numerator, we use the techniques\footnote{Bet you never thought you'd never see \textit{that} stuff again before the Final Exam!} set forth in Section \ref{RealZeros} and get
+\item  To reduce $h(x)$, we need to factor the numerator and denominator.  To factor the numerator, we use the techniques\sidenote{Bet you never thought you'd never see \textit{that} stuff again before the Final Exam!} set forth in Section \ref{RealZeros} and get
 \begin{align*}
 h(x) =  \dfrac{2x^3+5x^2+4x+1}{x^2+3x+2} = \dfrac{(2x+1)(x+1)^2}{(x+2)(x+1)}\\
 = \dfrac{ (2x+1) (x+1)^{\cancelto{1}{2}}  }{(x+2)\cancel{(x+1)}} = \dfrac{(2x+1)(x+1)}{x+2}
@@ -427,13 +442,9 @@ We interpret this graphically below on the left.
 
 We sketch the end behavior below on the right.
  
-\begin{figure}
-
-\begin{minipage}[t]{0.5\textwidth}
-\begin{center}
+\begin{mfigure}
  
 \begin{mfpic}[15]{-4}{1}{-5}{5}
-
 \dashed \polyline{(-2,-4.5), (-2,4.5)}
 \tlabel[cc](1,-0.5){\scriptsize $x$}
 \tlabel[cc](0.5,5){\scriptsize $y$}
@@ -453,13 +464,11 @@ We sketch the end behavior below on the right.
 
 \caption{behavior near $x = -2$ and $x=-1$}
 \label{fig:behaviornearxeqminustwoetc}
-\end{center}
-\end{minipage}
-\begin{minipage}[t]{0.5\textwidth}
-\begin{center}
+\end{mfigure}
+
+\begin{mfigure}
 
 \begin{mfpic}[15]{-4.75}{4.75}{-4.75}{4.75}
-
 \dashed \function{-1.7,2.7,0.1}{2*x-1}
 \tlabel[cc](4.75,-0.5){\scriptsize $x$}
 \tlabel[cc](0.5,4.75){\scriptsize $y$}
@@ -476,17 +485,13 @@ We sketch the end behavior below on the right.
 
 \caption{end behavior}
 \label{fig:endbehaviorhxeqtwoxcubedetc}
-\end{center}
-\end{minipage}
-
-\end{figure}
+\end{mfigure}
 
 \item  To make our sign diagram (\autoref{fig:signdiagramforhxeqtwoxcubedetc}), we place an `\textinterrobang' above $x=-2$ and $x=-1$ and a `$0$' above $x=-\frac{1}{2}$.  On our four test intervals, we find $h(x)$ is $(+)$ on $(-2,-1)$ and $\left(-\frac{1}{2}, \infty\right)$ and $h(x)$ is $(-)$ on $(-\infty, -2)$ and $\left(-1,-\frac{1}{2}\right)$.  Putting all of our work together yields the graph in \autoref{fig:hxeqtwoxcubedetc}.
 
 \end{enumerate}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[10]{-8}{8}{-2}{2}
 \arrow \reverse \arrow \polyline{(-8,0),(8,0)}
@@ -504,14 +509,11 @@ We sketch the end behavior below on the right.
 
 \caption{}
 \label{fig:signdiagramforhxeqtwoxcubedetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
        
-\begin{mfpic}[16][8]{-5}{5}{-15}{10}
-
+\begin{mfpic}[10][8]{-5}{5}{-15}{10}
 \dashed \polyline{(-2,-15), (-2,10)}
 \dashed \function{-7,5.5,0.1}{2*x-1}
 \tlabel[cc](5,-0.5){\scriptsize $x$}
@@ -534,11 +536,10 @@ We sketch the end behavior below on the right.
 
 \caption{}
 \label{fig:hxeqtwoxcubedetc}
-\end{center}
 
-\end{figure}
+\end{mfigure}
 
-To find if the graph of $h$ ever crosses the slant asymptote, we solve $h(x) = 2x-1+\frac{3}{x+2}= 2x-1$.  This results in $\frac{3}{x+2} = 0$, which has no solution.\footnote{Alternatively, the remainder after the long division was $r=3$ which is never $0$.} Hence, the graph of $h$ never crosses its slant asymptote.\footnote{But rest assured, some graphs do!}
+To find if the graph of $h$ ever crosses the slant asymptote, we solve $h(x) = 2x-1+\frac{3}{x+2}= 2x-1$.  This results in $\frac{3}{x+2} = 0$, which has no solution.\sidenote{Alternatively, the remainder after the long division was $r=3$ which is never $0$.} Hence, the graph of $h$ never crosses its slant asymptote.\sidenote{But rest assured, some graphs do!}
 \qed
 
 
@@ -560,16 +561,13 @@ Our last graphing example is challenging in that our six step process provides u
 
 \item  To find the $x$-intercept, we'd set $r(x) = 0$.  Since there are no real solutions to $x^4+1=0$, we have no $x$-intercepts.  Since $r(0) = 1$, we do get $(0,1)$ as the $y$-intercept.
 
-\item  For end behavior, we note that since the degree of the numerator is exactly \textit{two} more than the degree of the denominator, neither Theorems \ref{hathm} nor \ref{sathm} apply.\footnote{This won't stop us from giving it the old community college try, however!} We know from our attempt to reduce $r(x)$ that we can rewrite $r(x) = x^2-1+\frac{2}{x^2+1}$, so we focus our attention on the term corresponding to the remainder, $\frac{2}{x^2+1}$  It should be clear that as $x \rightarrow \pm \infty$, $\frac{2}{x^2+1} \approx \text{very small $(+)$}$, which means $r(x) \approx x^2-1 + \text{very small $(+)$}$.  So the graph $y=r(x)$ is a little bit \textit{above} the graph of the parabola $y=x^2-1$ as $x \rightarrow \pm \infty$. See \autoref{fig:endbehaviorofyeqrxeqxpowerfourtec}.
+\item  For end behavior, we note that since the degree of the numerator is exactly \textit{two} more than the degree of the denominator, neither Theorems \ref{hathm} nor \ref{sathm} apply.\sidenote{This won't stop us from giving it the old community college try, however!} We know from our attempt to reduce $r(x)$ that we can rewrite $r(x) = x^2-1+\frac{2}{x^2+1}$, so we focus our attention on the term corresponding to the remainder, $\frac{2}{x^2+1}$  It should be clear that as $x \rightarrow \pm \infty$, $\frac{2}{x^2+1} \approx \text{very small $(+)$}$, which means $r(x) \approx x^2-1 + \text{very small $(+)$}$.  So the graph $y=r(x)$ is a little bit \textit{above} the graph of the parabola $y=x^2-1$ as $x \rightarrow \pm \infty$. See \autoref{fig:endbehaviorofyeqrxeqxpowerfourtec}.
 
-\item  There isn't much work to do for a sign diagram for $r(x)$, since its domain is all real numbers and it has no zeros.  Our sole test interval is $(-\infty, \infty)$, and since we know $r(0) = 1$, we conclude $r(x)$ is $(+)$ for all real numbers.   We check for symmetry, and find $r(-x) = \frac{(-x)^4+1}{(-x)^2+1} = \frac{x^4+1}{x^2+1} = r(x)$, so $r$ is even and, hence, the graph is symmetric about the $y$-axis.  It may be tempting at this point to call it quits, reach for a graphing utility, or ask someone who knows Calculus.\footnote{This is exactly what the authors did in the Third Edition. Special thanks go to Erik Boczko from Ohio University for showing us that, in fact, we could do more with this example algeraically.}  It turns out, we can do a little bit better.  Recall from Section \ref{MonomialFunctions}, that when $|x| <1$ but $x \neq 0$, $x^4 < x^2$, hence $x^4+1 < x^2+1$.  This means for $-1<x<0$ and $0<x<1$, $r(x) = \frac{x^4+1}{x^2+1} < 1$. Since we know $r(0) = 1$, this means the graph of $y = r(x)$ must fall to either side before heading off to $\infty$.  This means $(0,1)$ is a local maximum and, moreover, there are at least two local minimums, one on either side of $(0,1)$.  We invite the reader to confirm this using a graphing utility. See \autoref{fig:yeqrxeqxpowerfouretc}.
+\item  There isn't much work to do for a sign diagram for $r(x)$, since its domain is all real numbers and it has no zeros.  Our sole test interval is $(-\infty, \infty)$, and since we know $r(0) = 1$, we conclude $r(x)$ is $(+)$ for all real numbers.   We check for symmetry, and find $r(-x) = \frac{(-x)^4+1}{(-x)^2+1} = \frac{x^4+1}{x^2+1} = r(x)$, so $r$ is even and, hence, the graph is symmetric about the $y$-axis.  It may be tempting at this point to call it quits, reach for a graphing utility, or ask someone who knows Calculus.\sidenote{This is exactly what the authors did in the Third Edition. Special thanks go to Erik Boczko from Ohio University for showing us that, in fact, we could do more with this example algeraically.}  It turns out, we can do a little bit better.  Recall from Section \ref{MonomialFunctions}, that when $|x| <1$ but $x \neq 0$, $x^4 < x^2$, hence $x^4+1 < x^2+1$.  This means for $-1<x<0$ and $0<x<1$, $r(x) = \frac{x^4+1}{x^2+1} < 1$. Since we know $r(0) = 1$, this means the graph of $y = r(x)$ must fall to either side before heading off to $\infty$.  This means $(0,1)$ is a local maximum and, moreover, there are at least two local minimums, one on either side of $(0,1)$.  We invite the reader to confirm this using a graphing utility. See \autoref{fig:yeqrxeqxpowerfouretc}.
 
 \end{enumerate}
 
-\begin{figure}
-
-\begin{minipage}[b]{0.5\textwidth}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[15]{-3}{3}{-2}{6}
 \dashed \function{-2.5,2.5,0.1}{x**2-1}
@@ -588,10 +586,10 @@ Our last graphing example is challenging in that our six step process provides u
 
 \caption{end behavior}
 \label{fig:endbehaviorofyeqrxeqxpowerfourtec}
-\end{center}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-\begin{center}
+
+\end{mfigure}
+
+\begin{mfigure}
        
 \begin{mfpic}[15]{-4}{4}{-2}{6}
 \tlabel[cc](4,-0.5){\scriptsize $x$}
@@ -607,30 +605,23 @@ Our last graphing example is challenging in that our six step process provides u
 \penwd{1.25pt}
 \arrow \reverse \arrow \function{-2.5, 2.5, 0.1}{(x**4+1)/(x**2+1)}
 \point[4pt]{(0,1)}
-\end{mfpic} \\
+\end{mfpic}
 
 \caption{sketch of $y = r(x)$}
 \label{fig:yeqrxeqxpowerfouretc}
-\end{center}
-\end{minipage}
 
-\end{figure}
+\end{mfigure}
 
 \qed
 \end{ex}
 
-\clearpage
-
 Our last example turns the tables and invites us to write formulas for rational function given their graphs.
 
-\begin{ex} \label{rationalfromgraph}  Write formulas for rational functions $r(x)$ and $F(x)$ given their graphs below:
+\begin{ex} \label{rationalfromgraph}  Write formulas for rational functions $r(x)$ and $F(x)$ given in \autoref{fig:graphyeqrx} and \autoref{fig:graphyeqfx}.
 
-\begin{figure}
-
-\begin{minipage}[b]{0.5\textwidth}
-\begin{center}
+\begin{mfigure}
        
-\begin{mfpic}[15][10]{-4}{6}{-5}{10}
+\begin{mfpic}[12][10]{-4}{6}{-5}{10}
 \axes
 \dashed \polyline{(-4,3), (6,3)}
 \dashed \polyline{(1, -5), (1,10)}
@@ -652,12 +643,12 @@ Our last example turns the tables and invites us to write formulas for rational 
 
 \caption{$y=r(x)$}
 \label{fig:graphyeqrx}
-\end{center}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-\begin{center}
+
+\end{mfigure}
+
+\begin{mfigure}
        
-\begin{mfpic}[15][10]{-4}{6}{-5}{10}
+\begin{mfpic}[12][10]{-4}{6}{-5}{10}
 \axes
 \dashed \polyline{(-4,3), (6,3)}
 \dashed \polyline{(1, -5), (1,10)}
@@ -681,10 +672,7 @@ Our last example turns the tables and invites us to write formulas for rational 
 
 \caption{$y=F(x)$}
 \label{fig:graphyeqfx}
-\end{center}
-\end{minipage}
-
-\end{figure}
+\end{mfigure}
 
 {\bf Solution.}  The good news is the graph of $r$ closely resembles the graph of $F$, so once we know an expression for $r(x)$, we should be able to modify it to obtain $F(x)$.    We are told $r$ is a rational function, so we know there are polynomial functions $p$ and $q$ so that $r(x) = \frac{p(x)}{q(x)}$.  We know from Theorem \ref{complexfactorization}  that we can factor $p(x)$ and $q(x)$ completely in terms of their leading coefficients and their zeros.  For simplicity's sake, we assume neither $p$ nor $q$ has any non-real zeros.  
 
@@ -710,7 +698,7 @@ F(x) & = r(x) \cdot \dfrac{\left(x - \frac{5}{3} \right)}{\left(x - \frac{5}{3} 
      & = \dfrac{9x^2-30x+25}{3x^2-8x+5} \tag{multiply by $1 = \frac{3}{3}$ to reduce complex fractions.}\\
 \end{align*}
 
-Again, we can check our answer by applying the six step method to this function or, for a quick verification, we can use a graphing utility.\footnote{Be warned, however, a graphing utility may not show the hole at  $\left(\frac{5}{3}, 0 \right)$.} \qed
+Again, we can check our answer by applying the six step method to this function or, for a quick verification, we can use a graphing utility.\sidenote{Be warned, however, a graphing utility may not show the hole at  $\left(\frac{5}{3}, 0 \right)$.} \qed
 
 \end{ex}
 

@@ -1,6 +1,5 @@
 \usepackage{marginfix}
-\usepackage{sidenotesplus}[size=normal,ragged]
-
+\usepackage[alerton,per=section,ragged]{sidenotesplus}
 \usepackage{tabularx}
 \usepackage{amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline,mathtools}
 \usepackage{colortbl}
@@ -32,17 +31,6 @@
 \usepackage[skip=\medskipamount]{parskip}
 \usepackage{pbox}
 \usepackage[most]{tcolorbox}
-\makeatletter
-  \def\tcb@cnt@floatboxautorefname{Box}%
-\makeatother
-\newtcolorbox[auto counter, number within=section]{floatbox}[2][]{%
-      float,
-      detach title,
-      before upper={\begin{center}\textbf{\tcbtitle}\end{center}\smallskip},
-      coltitle=tcbcolupper,
-      title=Box~\thetcbcounter: {#2},
-      #1,
-}
 
 \usepackage{tasks}
 \usepackage{adjustbox}
@@ -55,17 +43,65 @@
   \begin{marginfigure}
     \begin{tcolorbox}
       \begin{defn}
+        \raggedright
 }{%
       \end{defn}
     \end{tcolorbox}
   \end{marginfigure}
 }
-\newenvironment{fdefn}{%
-  \begin{figure*}
+\newenvironment{idefn}{%
+  \begin{figure}[htbp]
     \begin{tcolorbox}
       \begin{defn}
 }{%
       \end{defn}
+    \end{tcolorbox}
+  \end{figure}
+}
+\newenvironment{fdefn}{%
+  \begin{figure*}[tbp]
+    \begin{tcolorbox}
+      \begin{defn}
+}{%
+      \end{defn}
+    \end{tcolorbox}
+  \end{figure*}
+}
+
+% floatbox
+\newenvironment{mfloatbox}[1]{%
+  \begin{marginfigure}
+    \begin{tcolorbox}
+      \begin{floatbox}
+        \begin{center}
+          \bf #1
+        \end{center}
+}{%
+      \end{floatbox}
+    \end{tcolorbox}
+  \end{marginfigure}
+}
+\newenvironment{ifloatbox}[1]{%
+  \begin{figure}
+    \begin{tcolorbox}
+      \begin{floatbox}
+        \begin{center}
+          \bf #1
+        \end{center}
+}{%
+      \end{floatbox}
+    \end{tcolorbox}
+  \end{figure}
+}
+\newenvironment{ffloatbox}[1]{%
+  \begin{figure*}[tbp]
+    \begin{tcolorbox}
+      \begin{floatbox}
+        \begin{center}
+          \bf #1
+        \end{center}
+}{%
+      \end{floatbox}
     \end{tcolorbox}
   \end{figure*}
 }
@@ -155,15 +191,29 @@
 
 \newcommand{\trans}[1]{%
   \ifbool{ismfigure}{%
-    \arrow[d, "\text{#1}"] \\
+    \arrow[d, "\text{\parbox{20mm}{#1}}"] \\
   }{%
     \arrow[r, "\text{#1}"]
   }
 }
 
-\newcommand{\xincludegraphics}[1]{\includegraphics[width=50mm]{#1}}
+\newcommand{\xincludegraphics}[1]{\includegraphics[width=45mm]{#1}}
 
-\newcommand{\mexinstr}[1]{\sidenote*{#1\medskip}}
+% exinstr
+\newcommand{\mexinstr}[1]{%
+  \begin{marginfigure}
+    \begin{tcolorbox}
+      {\raggedright #1}
+    \end{tcolorbox}
+  \end{marginfigure}
+}
+\newcommand{\iexinstr}[1]{%
+    \begin{tcolorbox}
+      {#1}
+    \end{tcolorbox}
+}
+
+\newcommand{\startexenum}{\setcounter{HW}{0}}
 
 \newenvironment{exenum}{%
   \begin{enumerate}
@@ -174,14 +224,11 @@
 }
 
 \newenvironment{shortexenum}[1][\unskip]{%
-  \begin{shortenumerate}[#1]
-  \setcounter{enumi}{\value{HW}}
+  \begin{exenum}
 }{%
-  \setcounter{HW}{\value{enumi}}
-  \end{shortenumerate}
+  \end{exenum}
 }
 
-\newcommand{\startexenum}{\setcounter{HW}{0}}
 
 \newcommand{\transgraph}[2]{\stackrel{\text{\parbox{#1}{\centering \scriptsize #2}}}{\xrightarrow{\hspace{#1}}}}
 
@@ -194,6 +241,8 @@
 }
 
 \theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
+\newtheorem{floatbox}{\bf Box}[section]
+\newcommand{\floatboxautorefname}{Box}
 \newtheorem{defn}{\bf Definition}[section]
 \newcommand{\defnautorefname}{Definition}
 \newtheorem{thm}{\bf Theorem}[section]

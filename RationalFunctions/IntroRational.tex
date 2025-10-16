@@ -24,7 +24,7 @@ As with polynomial functions, we begin our study of rational functions with what
 
 \end{mdefn}
 
-Laurent monomial functions are named in honor of \href{https://en.wikipedia.org/wiki/Pierre_Alphonse_Laurent}{\underline{Pierre Alphonse Laurent}} and generalize the notion of `monomial function' from Chapter \ref{PolynomialFunctions} to terms with negative exponents. Our study of these functions begins with an analysis of   $r(x) = \frac{1}{x} = x^{-1}$, the reciprocal function. The first item worth  noting is that $r(0)$ is not defined owing to the presence of $x$  in the denominator.  That is, the domain of $r$ is $\{ x \in \mathbb{R} \, | \, x \neq 0\}$ or, using interval notation, $(-\infty, 0) \cup (0, \infty)$.   Of course excluding $0$ from the domain of $r$ serves only to pique our curiosity about the behavior of $r(x)$ when $x \approx 0$.  Thinking from a number sense perspective, the closer the denominator of $\frac{1}{x}$ is to $0$, the larger the value of the  fraction (in absolute value.)\sidenote{Technically speaking, $-1 \times 10^{117}$ is a `small' number (since it is very far to the left on the number line.)  However, it's absolute value, $1 \times 10^{117}$ is very large.}  So it stands to reason that as $x$ gets closer and closer to $0$, the values for $r(x) = \frac{1}{x}$ should grow larger and larger (in absolute value.)  This is borne out in \autoref{tab:rxeqonebyxnearzero} where it is apparent that for $x \approx 0$, $r(x)$ is becoming unbounded.  
+Laurent monomial functions are named in honor of \href{https://en.wikipedia.org/wiki/Pierre_Alphonse_Laurent}{\uline{Pierre Alphonse Laurent}} and generalize the notion of `monomial function' from Chapter \ref{PolynomialFunctions} to terms with negative exponents. Our study of these functions begins with an analysis of   $r(x) = \frac{1}{x} = x^{-1}$, the reciprocal function. The first item worth  noting is that $r(0)$ is not defined owing to the presence of $x$  in the denominator.  That is, the domain of $r$ is $\{ x \in \mathbb{R} \, | \, x \neq 0\}$ or, using interval notation, $(-\infty, 0) \cup (0, \infty)$.   Of course excluding $0$ from the domain of $r$ serves only to pique our curiosity about the behavior of $r(x)$ when $x \approx 0$.  Thinking from a number sense perspective, the closer the denominator of $\frac{1}{x}$ is to $0$, the larger the value of the  fraction (in absolute value.)\sidenote{Technically speaking, $-1 \times 10^{117}$ is a `small' number (since it is very far to the left on the number line.)  However, it's absolute value, $1 \times 10^{117}$ is very large.}  So it stands to reason that as $x$ gets closer and closer to $0$, the values for $r(x) = \frac{1}{x}$ should grow larger and larger (in absolute value.)  This is borne out in \autoref{tab:rxeqonebyxnearzero} where it is apparent that for $x \approx 0$, $r(x)$ is becoming unbounded.  
 
 As we investigate the end behavior of $r$, we find that as $x \rightarrow \pm \infty$, $r(x) \approx 0$. Again, number sense agrees here with the data (\autoref{tab:rxeqonebyxnearinfinity}), since as the denominator of $\frac{1}{x}$ becomes unbounded, the value of the fraction should diminish.  That being said, we could ask if the graph ever reaches the $x$-axis.  If we attempt to solve $y = r(x) = \frac{1}{x} = 0$. we arrive at the contradiction $1 = 0$ hence, $0$ is not in the range of $r$.  Every other real number besides $0$ is in the range of $r$, however.  To see this, let $c \neq 0$ be a real number.  Then $\frac{1}{c}$ is defined and, moreover, $r \left(\frac{1}{c} \right) = \frac{1}{(1/c)} = c$.  This shows $c$ is in the range of $r$.  Hence, the range of $r$ is $\{ y \in \mathbb{R} \, | \, y \neq 0\}$ or, using interval notation,  $(-\infty, 0) \cup (0, \infty)$. See \autoref{fig:yeqrxeqonebyx}.
 
@@ -629,7 +629,10 @@ Will all  values excluded from the domain of a rational function produce vertica
 \begin{mdefn}
 \label{averagevelocitydefn} Suppose $s(t)$ gives the position of an object at time $t$ and $t_{0}$ is a fixed time in the domain of $s$.  The \index{average velocity}\index{velocity ! average}\textbf{average velocity} between time $t$ and time $t_{0}$ is given by
 
-\[ \overline{v}(t) = \dfrac{\Delta [s(t)]}{\Delta t} = \dfrac{s(t) - s(t_{0})}{t - t_{0}}, \]
+\begin{multline*}
+   \overline{v}(t) = \dfrac{\Delta [s(t)]}{\Delta t} \\
+  = \dfrac{s(t) - s(t_{0})}{t - t_{0}},
+\end{multline*}
 
 provided $t \neq t_{0}$.
 
@@ -656,15 +659,14 @@ It is clear why we must exclude $t = t_{0}$ from the domain of $\overline{v}$ in
 \begin{enumerate}
 
 \item Using Definition \ref{averagevelocitydefn} with $t_{0} = 15$, we get: 
-
-\[ \begin{array}{rclr}
-
- \overline{v}(t) & = & \dfrac{s(t) - s(15)}{t-15} \\
-                       & =  & \dfrac{(-5t^2+100t) - 375}{t - 15}  \\
-                        & =  & \dfrac{-5(t^2-20t+75)}{t - 15}  \\
-                        & = & \dfrac{-5(t-15)(t-5)}{t-15}  \\
-                        & = &  \dfrac{-5\cancel{(t-15)} (t-5)}{\cancel{(t-15)}} \\
-                         & = & -5(t-5) = -5t + 25 & \text{$t \neq 15$} \end{array} \]
+\begin{align*}
+ \overline{v}(t) & = \dfrac{s(t) - s(15)}{t-15} \\
+  & =  \dfrac{(-5t^2+100t) - 375}{t - 15}  \\
+  & =  \dfrac{-5(t^2-20t+75)}{t - 15}  \\
+  & = \dfrac{-5(t-15)(t-5)}{t-15}  \\
+  & = \dfrac{-5\cancel{(t-15)} (t-5)}{\cancel{(t-15)}} \\
+  & = -5(t-5) = -5t + 25 & \text{$t \neq 15$}
+\end{align*}
 Since  domain of $s$ is  $0 \leq t \leq 20$, our final answer is $\overline{v}(t) = -5t+25$,  for $t \in [0, 15) \cup (15, 20]$. 
 
 \item  We find $\overline{v}(14) = -5(14)+25 = -45$.  This means between  $14$ and $15$ seconds after launch, the rocket was traveling, on average  a speed $45$ feet per second \textit{downwards}, or falling back to the Moon's surface.
@@ -1003,7 +1005,7 @@ We put Theorem \ref{hathm}  to good use in the following example.
 
 We close this section with a discussion of the \textit{third} (and final!) kind of asymptote which can be associated with the graphs of rational functions. Let us return to the function $g(x) = \frac{x^2-4}{x+1}$ in Example \ref{haexample}. Performing long division,\sidenote{See the remarks following Theorem \ref{hathm}.} we get $g(x) = \frac{x^2-4}{x+1} = x-1 - \frac{3}{x+1}$.  Since the term $\frac{3}{x+1} \rightarrow 0$ as $x \rightarrow \pm \infty$, it stands to reason that as $x$ becomes unbounded, the function values   $g(x) = x-1 - \frac{3}{x+1} \approx x-1$.  Geometrically, this means that the graph of $y=g(x)$ should resemble the line $y = x-1$ as $x \rightarrow \pm \infty$.  We see this play out both numerically and graphically in \autoref{tab:yeqgxvalues} and \autoref{fig:yeqgxeqxsquaredetc} respectively. (As usual, we have the asymptote $y = x-1$ denoted by a dashed line.)
 
-\begin{mtable}
+\begin{itable}
   
 $\begin{array}[t]{|r||c|c|}  \hline
   x & g(x) & x-1 \\ \hline
@@ -1025,7 +1027,7 @@ $\begin{array}[t]{|r||c|c|}  \hline
 
 \caption{}
 \label{tab:yeqgxvalues}
-\end{mtable}
+\end{itable}
   
 \begin{mfigure}
    
@@ -1187,7 +1189,8 @@ You'll explore average cost (and its relation to variable cost) in Exercise \ref
 \label{fig:yeqpbarxetc}
 \end{mfigure}
 
-\item The slope of the slant asymptote $y = -1.5x+170$ is $-1.5$.  Since, ostensibly $\overline{P}(x) \approx -1.5 x + 170$, this means that, as we sell more systems, the average profit is decreasing at about a rate of $\$ 1.50$ per system.  If the number $1.5$ sounds familiar to this problem situation, it should.  In Example \ref{PortaBoyDemand} in Section \ref{ConstantandLinearFunctions}, we determined the slope of the demand function to be $-1.5$. In that situation, the $-1.5$ meant that in order to sell an additional system, the price had to drop by $\$ 1.50$.  The fact the average profit is decreasing at more or less this same rate means the loss in profit per system can be attributed to the reduction in price needed to sell each additional system.\footnote{We generalize this result in Exercise \ref{slantyintaverageprofitexercise}.)} \qed
+\item The slope of the slant asymptote $y = -1.5x+170$ is $-1.5$.  Since, ostensibly $\overline{P}(x) \approx -1.5 x + 170$, this means that, as we sell more systems, the average profit is decreasing at about a rate of $\$ 1.50$ per system.  If the number $1.5$ sounds familiar to this problem situation, it should.  In Example \ref{PortaBoyDemand} in Section \ref{ConstantandLinearFunctions}, we determined the slope of the demand function to be $-1.5$. In that situation, the $-1.5$ meant that in order to sell an additional system, the price had to drop by $\$ 1.50$.  The fact the average profit is decreasing at more or less this same rate means the loss in profit per system can be attributed to the reduction in price needed to sell each additional system.
+\sidenote{We generalize this result in Exercise \ref{slantyintaverageprofitexercise}.} \qed
 
 \end{enumerate}
 

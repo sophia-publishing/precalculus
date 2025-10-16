@@ -1,8 +1,10 @@
 \startexenum
 
+\begin{exenum}
+\mexinstr{%
 In Exercises \ref{sixstepfirst} - \ref{sixsteplast}, use the six-step procedure to graph the rational function.  Be sure to draw any asymptotes as dashed lines.
+}
 
-\begin{shortexenum}[MMMMMMMMMMMMMM]
 \item $f(x) = \dfrac{4}{x + 2}$ \label{sixstepfirst}
 \item $f(x) = 5x(6-2x)^{-1}$  \vphantom{$f(x) = \dfrac{4}{x + 2}$}
 \item $g(t) = t^{-2}$ \vphantom{$g(t) = \dfrac{1}{t^{2} + t - 12}$}
@@ -18,14 +20,18 @@ In Exercises \ref{sixstepfirst} - \ref{sixsteplast}, use the six-step procedure 
 \item $f(x) = \dfrac{x^3+2x^2+x}{x^2-x-2}$
 \item $f(x) = \dfrac{5x}{9-x^2} - x$
 \item  $g(t) =\dfrac{1}{2}t-1 + \dfrac{t+1}{t^2+1}$
-\item \hspace{-0.1in}\footnote{Once you've done the six-step procedure, use a graphing utility to graph this function on the window $[0, 12] \times [0, 0.25]$ \ldots} $g(t) = \dfrac{t^{2} - 2t + 1}{t^{3} + t^{2} - 2t}$ \label{sixsteplast}
-\end{shortexenum}
+\item  $g(t) = \dfrac{t^{2} - 2t + 1}{t^{3} + t^{2} - 2t}$ \label{sixsteplast}
+\mexinstr{%
+    Once you've done the six-step procedure, use a graphing utility to graph this function on the window $[0, 12] \times [0, 0.25]$ \ldots
+}
 
+\mexinstr{%
 In Exercises \ref{rationalfromgraphfirst} - \ref{rationalfromgraphlast}, find a possible formula for the function whose graph is given.
+}
 
-\begin{tasks}(2)
+\item \label{rationalfromgraphfirst} $y = f(x)$. See \autoref{fig:vaxequalstwo}.
 
-\task \label{rationalfromgraphfirst} $y = f(x)$
+\begin{mfigure}
 
 \begin{mfpic}[15]{-2}{6}{-4}{4}
 \axes
@@ -48,8 +54,14 @@ In Exercises \ref{rationalfromgraphfirst} - \ref{rationalfromgraphlast}, find a 
 \tcaption{\scriptsize Vertical asymptote: $x = 2$}
 \end{mfpic}
 
+\caption{}
+\label{fig:vaxequalstwo}
+\end{mfigure}
 
-\task $y = F(x)$
+
+\item $y = F(x)$. See \autoref{fig:vaxequalstwowithhole}
+
+\begin{mfigure}
 
 \begin{mfpic}[15]{-2}{6}{-4}{4}
 \axes
@@ -74,10 +86,15 @@ In Exercises \ref{rationalfromgraphfirst} - \ref{rationalfromgraphlast}, find a 
 \tcaption{\scriptsize Vertical asymptote: $x = 2$}
 \end{mfpic}
 
+\caption{}
+\label{fig:vaxequalstwowithhole}
+\end{mfigure}
 
-\task $y = g(t)$
+\item $y = g(t)$. See \autoref{fig:sayequalst}
 
-\begin{mfpic}[13]{-5}{5}{-5}{5}
+\begin{mfigure}
+
+\begin{mfpic}[12]{-5}{5}{-5}{5}
 \point[4pt]{(-1,0), (1,0)}
 \dashed \polyline{(-5,-5), (5,5)}
 \tlabel[cc](5,-0.5){\scriptsize $t$}
@@ -98,10 +115,15 @@ In Exercises \ref{rationalfromgraphfirst} - \ref{rationalfromgraphlast}, find a 
 \tcaption{\scriptsize Slant asymptote: $y=t$}
 \end{mfpic}
 
+\caption{}
+\label{fig:sayequalst}
+\end{mfigure}
 
-\task  \label{rationalfromgraphlast} $y = G(t)$
+\item  \label{rationalfromgraphlast} $y = G(t)$. See \autoref{fig:sayequalstwithhole}
 
-\begin{mfpic}[13]{-5}{5}{-5}{5}
+\begin{mfigure}
+
+\begin{mfpic}[12]{-5}{5}{-5}{5}
 \point[4pt]{(-1,0), (1,0)}
 \dashed \polyline{(-5,-5), (5,5)}
 \tlabel[cc](5,-0.5){\scriptsize $t$}
@@ -124,9 +146,9 @@ In Exercises \ref{rationalfromgraphfirst} - \ref{rationalfromgraphlast}, find a 
 \tcaption{\scriptsize Slant asymptote: $y=t$}
 \end{mfpic}
 
-\end{tasks}
-
-\begin{exenum}
+\caption{}
+\label{fig:sayequalstwithhole}
+\end{mfigure}
 
 \item Let $g(x) = \displaystyle \frac{x^{4} - 8x^{3} + 24x^{2} - 72x + 135}{x^{3} - 9x^{2} + 15x - 7}.\;$  With the help of your classmates:
 
@@ -144,7 +166,9 @@ In Exercises \ref{rationalfromgraphfirst} - \ref{rationalfromgraphlast}, find a 
 
 \end{exenum}
 
+\iexinstr{%
 Example \ref{carefulanalysisneeded} showed us that the six-step procedure cannot tell us everything of importance about the graph of a rational function and that sometimes there are things that are easy to miss.  Without Calculus, we may need to use graphing utilities to reveal the hidden behavior of rational functions.  Working with your classmates, use a graphing utility to examine the graphs of the rational functions given in Exercises \ref{rationalneedcalcfirst} - \ref{rationalneedcalclast}.  Compare and contrast their features.  Which features can the six-step process reveal and which features cannot be detected by it?
+}
 
 \begin{shortexenum}
 \item $f(x) = \dfrac{1}{x^{2} + 1}$ \vphantom{$\dfrac{2x^{3}}{2x^{2}}$}  \label{rationalneedcalcfirst}
@@ -161,7 +185,7 @@ Example \ref{carefulanalysisneeded} showed us that the six-step procedure cannot
 
 \begin{exenum} \raggedright
 
-\item \begin{multicols}{2} \raggedcolumns
+\item 
 $f(x) = \dfrac{4}{x + 2}$\\[10pt]
 Domain: $(-\infty, -2) \cup (-2, \infty)$\\
 No $x$-intercepts\\
@@ -172,10 +196,11 @@ As $x \rightarrow -2^{+}, \; f(x) \rightarrow \infty$\\
 Horizontal asymptote: $y = 0$\\
 As $x \rightarrow -\infty, \; f(x) \rightarrow 0^{-}$\\
 As $x \rightarrow \infty, \; f(x) \rightarrow 0^{+}$\\
+See \autoref{fig:fxeqfourbyxplustwo}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[10]{-8}{6}{-6}{6}
+\begin{mfpic}[8]{-8}{6}{-6}{6}
 \point[4pt]{(0,2)}
 \dashed \polyline{(-2,-6), (-2,6)}
 \tlabel[cc](6,-0.5){\scriptsize $x$}
@@ -193,9 +218,11 @@ As $x \rightarrow \infty, \; f(x) \rightarrow 0^{+}$\\
 \arrow \reverse \arrow  \function{-1.3,6,0.1}{4/(x+2)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:fxeqfourbyxplustwo}
+\end{mfigure}
 
-\item \begin{multicols}{2} \raggedcolumns
+\item 
 $f(x) = 5x(6-2x)^{-1} = \dfrac{5x}{6 - 2x}$\\[10pt]
 Domain: $(-\infty, 3) \cup (3, \infty)$\\
 $x$-intercept: $(0, 0)$\\
@@ -206,10 +233,11 @@ As $x \rightarrow 3^{+}, \; f(x) \rightarrow -\infty$\\
 Horizontal asymptote: $y = -\frac{5}{2}$\\
 As $x \rightarrow -\infty, \; f(x) \rightarrow -\frac{5}{2}^{+}$\\
 As $x \rightarrow \infty, \; f(x) \rightarrow -\frac{5}{2}^{-}$\\
+See \autoref{fig:fxeqfivexintosixetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[10]{-4}{10}{-8}{4}
+\begin{mfpic}[8]{-4}{10}{-8}{4}
 \point[4pt]{(0,0)}
 \dashed \polyline{(3,-8), (3,4)}
 \dashed \polyline{(-4,-2.5), (10,-2.5)}
@@ -228,11 +256,12 @@ As $x \rightarrow \infty, \; f(x) \rightarrow -\frac{5}{2}^{-}$\\
 \arrow \reverse \arrow  \function{4.4,10,0.1}{(5*x)/(6 - (2*x))}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:fxeqfivexintosixetc}
+\end{mfigure}
 
-\item \begin{multicols}{2} \raggedcolumns
-
-$g(t) = t^{-2} = \dfrac{1}{t^{2}}$\\[10pt]
+\item 
+$g(t) = t^{-2} = \dfrac{1}{t^{2}}$\\
 Domain: $(-\infty, 0) \cup (0, \infty)$\\
 No $t$-intercepts\\
 No $y$-intercepts\\
@@ -242,10 +271,11 @@ As $t \rightarrow 0^{+}, \; g(t) \rightarrow \infty$\\
 Horizontal asymptote: $y = 0$\\
 As $t \rightarrow -\infty, \; g(t) \rightarrow 0^{+}$\\
 As $t \rightarrow \infty, \; g(t) \rightarrow 0^{+}$\\
+See \autoref{fig:gteqtpowminustwo}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[15][20]{-5}{5}{-1}{6}
+\begin{mfpic}[6][20]{-5}{5}{-1}{6}
 \tlabel[cc](5,-0.5){\scriptsize $t$}
 \tlabel[cc](0.5,6){\scriptsize $y$}
 \axes
@@ -261,10 +291,11 @@ As $t \rightarrow \infty, \; g(t) \rightarrow 0^{+}$\\
 \arrow \reverse \arrow  \function{0.42,5,0.1}{1/(x**2)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:gteqtpowminustwo}
+\end{mfigure}
 
 \item $g(t) = \dfrac{1}{t^{2} + t - 12} = \dfrac{1}{(t - 3)(t + 4)}$
-\begin{multicols}{2} \raggedcolumns
 Domain: $(-\infty, -4) \cup (-4, 3) \cup (3, \infty)$\\
 No $t$-intercepts\\
 $y$-intercept: $(0, -\frac{1}{12})$\\
@@ -276,10 +307,11 @@ As $t \rightarrow 3^{+}, \; g(t) \rightarrow \infty$\\
 Horizontal asymptote: $y = 0$\\
 As $t \rightarrow -\infty, \; g(t) \rightarrow 0^{+}$\\
 As $t \rightarrow \infty, \; g(t) \rightarrow 0^{+}$\\
+See \autoref{fig:gteqonebytsquaredetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[13][50]{-7}{5}{-1.5}{1.5}
+\begin{mfpic}[6][50]{-7}{5}{-1.5}{1.5}
 \point[4pt]{(0,-0.08333)}
 \dashed \polyline{(3,-1.5), (3,1.5)}
 \dashed \polyline{(-4,-1.5), (-4,1.5)}
@@ -299,11 +331,12 @@ As $t \rightarrow \infty, \; g(t) \rightarrow 0^{+}$\\
 \arrow \reverse \arrow  \function{3.15,4.5,0.1}{1/((x**2) + x - 12)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:gteqonebytsquaredetc}
+\end{mfigure}
 
 \item
 $r(z) = \dfrac{2z - 1}{-2z^{2} - 5z + 3} = -\dfrac{2z - 1}{(2z - 1)(z + 3)}$
-\begin{multicols}{2} \raggedcolumns
 Domain: $(-\infty, -3) \cup (-3, \frac{1}{2}) \cup (\frac{1}{2}, \infty)$\\
 No $z$-intercepts\\
 $y$-intercept: $(0, -\frac{1}{3})$\\
@@ -315,10 +348,11 @@ As $z \rightarrow -3^{+}, \; r(z) \rightarrow -\infty$\\
 Horizontal asymptote: $y = 0$\\
 As $z \rightarrow -\infty, \; r(z) \rightarrow 0^{+}$\\
 As $z \rightarrow \infty, \; r(z) \rightarrow 0^{-}$\\
+See \autoref{fig:rzeqtwozminusoneetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[15][45]{-8}{3}{-2}{2}
+\begin{mfpic}[6][45]{-8}{3}{-2}{2}
 \dashed \polyline{(-3,-2), (-3,2)}
 \point[4pt]{(0,-0.333)}
 \tlabel[cc](3,0.1){\scriptsize $z$}
@@ -338,11 +372,12 @@ As $z \rightarrow \infty, \; r(z) \rightarrow 0^{-}$\\
 \point[4pt]{(0.5, -0.2857)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:rzeqtwozminusoneetc}
+\end{mfigure}
 
 \item
-$r(z) = \dfrac{z}{z^{2} + z - 12} = \dfrac{z}{(z - 3)(z + 4)}$
-\begin{multicols}{2} \raggedcolumns
+$r(z) = \dfrac{z}{z^{2} + z - 12} = \dfrac{z}{(z - 3)(z + 4)}$\\
 Domain: $(-\infty, -4) \cup (-4, 3) \cup (3, \infty)$\\
 $z$-intercept: $(0, 0)$\\
 $y$-intercept: $(0, 0)$\\
@@ -354,10 +389,11 @@ As $z \rightarrow 3^{+}, \; r(z) \rightarrow \infty$\\
 Horizontal asymptote: $y = 0$\\
 As $z \rightarrow -\infty, \; r(z) \rightarrow 0^{-}$\\
 As $z \rightarrow \infty, \; r(z) \rightarrow 0^{+}$\\
+See \autoref{fig:rzeqzbyzsquaredetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[13][50]{-7}{6}{-1.5}{1.5}
+\begin{mfpic}[6][50]{-7}{6}{-1.5}{1.5}
 \point[4pt]{(0,0)}
 \dashed \polyline{(3,-1.5), (3,1.5)}
 \dashed \polyline{(-4,-1.5), (-4,1.5)}
@@ -377,10 +413,12 @@ As $z \rightarrow \infty, \; r(z) \rightarrow 0^{+}$\\
 \arrow \reverse \arrow  \function{3.35,5.5,0.1}{x/((x**2) + x - 12)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:rzeqzbyzsquaredetc}
+\end{mfigure}
 
-\item \begin{multicols}{2} \raggedcolumns
-$f(x) =  4x(x^2+4)^{-1} = \dfrac{4x}{x^{2} + 4}$
+\item 
+$f(x) =  4x(x^2+4)^{-1} = \dfrac{4x}{x^{2} + 4}$\\
 Domain: $(-\infty,  \infty)$\\
 $x$-intercept:  $(0,0)$\\
 $y$-intercept:  $(0,0)$\\
@@ -389,10 +427,11 @@ No holes in the graph\\
 Horizontal asymptote: $y = 0$ \\
 As $x \rightarrow -\infty, f(x) \rightarrow 0^{-}$\\
 As $x \rightarrow \infty, f(x) \rightarrow 0^{+}$\\
+See \autoref{fig:fxeqfourxintoxsquaredetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[10][25]{-8}{8}{-2}{2}
+\begin{mfpic}[6][25]{-8}{8}{-2}{2}
 \point[4pt]{(0,0)}
 \tlabel[cc](8,-0.5){\scriptsize $x$}
 \tlabel[cc](0.5,2){\scriptsize $y$}
@@ -408,12 +447,12 @@ As $x \rightarrow \infty, f(x) \rightarrow 0^{+}$\\
 \arrow \reverse \arrow \function{-8,8,0.1}{(4*x)/((x**2)+4)}
 \end{mfpic}
 
-
-\end{multicols}
+\caption{}
+\label{fig:fxeqfourxintoxsquaredetc}
+\end{mfigure}
 
 \item
-$f(x) =  4x(x^2-4)^{-1} =  \dfrac{4x}{x^{2} -4} = \dfrac{4x}{(x + 2)(x - 2)}$
-\begin{multicols}{2} \raggedcolumns
+$f(x) =  4x(x^2-4)^{-1} =  \dfrac{4x}{x^{2} -4} = \dfrac{4x}{(x + 2)(x - 2)}$\\
 Domain: $(-\infty, -2) \cup (-2, 2) \cup (2, \infty)$\\
 $x$-intercept:  $(0,0)$\\
 $y$-intercept:  $(0,0)$\\
@@ -426,10 +465,11 @@ No holes in the graph\\
 Horizontal asymptote: $y = 0$ \\
 As $x \rightarrow -\infty, f(x) \rightarrow 0^{-}$\\
 As $x \rightarrow \infty, f(x) \rightarrow 0^{+}$\\
+See \autoref{fig:fxeqfourxintoxsquaredminusfouretc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[15]{-6}{6}{-6}{6}
+\begin{mfpic}[8]{-6}{6}{-6}{6}
 \point[4pt]{(0,0)}
 \dashed \polyline{(-2,-6), (-2,6)}
 \dashed \polyline{(2,-6), (2,6)}
@@ -449,11 +489,13 @@ As $x \rightarrow \infty, f(x) \rightarrow 0^{+}$\\
 \arrow \reverse \arrow \function{-6,-2.4,0.1}{(4*x)/((x**2)-4)}
 \arrow \reverse \arrow \function{2.4,6,0.1}{(4*x)/((x**2)-4)}
 \end{mfpic}
-\end{multicols}
+
+\caption{}
+\label{fig:fxeqfourxintoxsquaredminusfouretc}
+\end{mfigure}
 
 \item
-$g(t) = \dfrac{t^2-t-12}{t^{2} +t - 6} = \dfrac{t-4}{t - 2}, \, t \neq -3$
-\begin{multicols}{2} \raggedcolumns
+$g(t) = \dfrac{t^2-t-12}{t^{2} +t - 6} = \dfrac{t-4}{t - 2}, \, t \neq -3$\\
 Domain: $(-\infty, -3) \cup (-3, 2) \cup (2, \infty)$\\
 $t$-intercept:  $(4,0)$\\
 $y$-intercept:  $(0,2)$\\
@@ -464,10 +506,11 @@ Hole at $\left(-3, \frac{7}{5} \right)$ \\
 Horizontal asymptote: $y = 1$ \\
 As $t \rightarrow -\infty, g(t) \rightarrow 1^{+}$\\
 As $t \rightarrow \infty, g(t) \rightarrow 1^{-}$\\
+See \autoref{fig:gteqtsquaredminustetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[15]{-6}{6}{-6}{6}
+\begin{mfpic}[8]{-6}{6}{-6}{6}
 \point[4pt]{(4,0), (0,2)}
 \dashed \polyline{(2,-6), (2,6)}
 \dashed \polyline{(-6,1), (6,1)}
@@ -488,11 +531,12 @@ As $t \rightarrow \infty, g(t) \rightarrow 1^{-}$\\
 \point[4pt]{(-3, 1.4)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:gteqtsquaredminustetc}
+\end{mfigure}
 
 \item
-$g(t) = 3- \dfrac{5t-25}{t^2-9} = \dfrac{3t^2-5t-2}{t^{2} -9} = \dfrac{(3t+1)(t-2)}{(t + 3)(t - 3)}$
-\begin{multicols}{2} \raggedcolumns
+$g(t) = 3- \dfrac{5t-25}{t^2-9} = \dfrac{3t^2-5t-2}{t^{2} -9} = \dfrac{(3t+1)(t-2)}{(t + 3)(t - 3)}$\\
 Domain: $(-\infty, -3) \cup (-3, 3) \cup (3, \infty)$\\
 $t$-intercepts: $\left(-\frac{1}{3}, 0 \right)$, $(2,0)$\\
 $y$-intercept:  $\left(0, \frac{2}{9} \right)$\\
@@ -504,10 +548,11 @@ As $t \rightarrow 3^{+}, g(t) \rightarrow \infty$\\
 Horizontal asymptote: $y = 3$ \\
 As $t \rightarrow -\infty, g(t) \rightarrow 3^{+}$\\
 As $t \rightarrow \infty, g(t) \rightarrow 3^{-}$\\
+See \autoref{fig:gteqthreeminusfiveetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[9]{-10}{10}{-10}{10}
+\begin{mfpic}[6]{-10}{10}{-10}{10}
 \point[4pt]{(-0.3333,0), (2,0), (0,0.2222)}
 \dashed \polyline{(3,-10), (3,10)}
 \dashed \polyline{(-3,-10), (-3,10)}
@@ -528,13 +573,12 @@ As $t \rightarrow \infty, g(t) \rightarrow 3^{-}$\\
 \arrow \reverse \arrow \function{3.2,10,0.1}{(3*(x**2)-5*x-2)/((x**2)-9)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:gteqtsquaredminustetc}
+\end{mfigure}
 
 \item  
-$r(z) = \dfrac{z^2-z-6}{z+1} = \dfrac{(z-3)(z+2)}{z+1}$
-
-\begin{multicols}{2} \raggedcolumns
-
+$r(z) = \dfrac{z^2-z-6}{z+1} = \dfrac{(z-3)(z+2)}{z+1}$ \\
 Domain: $(-\infty, -1) \cup (-1, \infty)$\\
 $z$-intercepts:  $(-2,0)$, $(3,0)$\\
 $y$-intercept:  $(0,-6)$\\
@@ -544,8 +588,11 @@ As $z \rightarrow -1^{+}, r(z) \rightarrow -\infty$\\
 Slant asymptote: $y = z-2$ \\
 As $z \rightarrow -\infty$, the graph is above $y=z-2$\\
 As $z \rightarrow \infty$, the graph is below $y=z-2$\\
+See \autoref{fig:rxeqzsquaredetc}
 
-\begin{mfpic}[10][8]{-5}{5}{-10}{10}
+\begin{mfigure}
+
+\begin{mfpic}[8][8]{-5}{5}{-10}{10}
 \dashed \function{-5,5,0.1}{x-2}
 \point[4pt]{(0,-6), (3,0), (-2,0)}
 \dashed \polyline{(-1,-10), (-1,10)}
@@ -564,9 +611,11 @@ As $z \rightarrow \infty$, the graph is below $y=z-2$\\
 \arrow \reverse \arrow \function{-0.45,5,0.1}{((x-3)*(x+2))/(x+1)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:rxeqzsquaredetc}
+\end{mfigure}
 
-\item \begin{multicols}{2} \raggedcolumns \raggedright
+\item 
 $r(z) = -z-2+\dfrac{6}{3-z} = \dfrac{z^2-z}{3-z}$\\[10pt]
 Domain: $(-\infty, 3) \cup (3, \infty)$\\
 $z$-intercepts:   $(0,0), (1,0)$\\
@@ -577,8 +626,11 @@ As $z \rightarrow 3^{+}, r(z) \rightarrow -\infty$\\
 Slant asymptote: $y = -z-2$ \\
 As $z \rightarrow -\infty$, the graph is above $y=-z-2$\\
 As $z \rightarrow \infty$, the graph is below $y=-z-2$\\
+See \autoref{fig:rzeqminuszminustwoetc}
 
-\begin{mfpic}[8][6]{-9}{11}{-20}{11}
+\begin{mfigure}
+
+\begin{mfpic}[6][6]{-9}{11}{-20}{11}
 \dashed \function{-9,11,0.1}{-x-2}
 \point[4pt]{(0,0),(1,0)}
 \dashed \polyline{(3,-20), (3,11)}
@@ -597,11 +649,12 @@ As $z \rightarrow \infty$, the graph is below $y=-z-2$\\
 \arrow \reverse \arrow \function{3.4,11,0.1}{(x*(x-1))/(3-x)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:rzeqminuszminustwoetc}
+\end{mfigure}
 
 \item
 $f(x) = \dfrac{x^3+2x^2+x}{x^{2} -x-2} = \dfrac{x(x+1)}{x - 2}, \, x \neq -1$\\
-\begin{multicols}{2} \raggedcolumns
 Domain: $(-\infty, -1) \cup (-1, 2) \cup (2, \infty)$\\
 $x$-intercept:  $(0,0)$\\
 $y$-intercept:  $(0,0)$\\
@@ -612,10 +665,11 @@ Hole at $(-1,0)$ \\
 Slant asymptote: $y = x+3$ \\
 As $x \rightarrow -\infty$, the graph is below $y=x+3$ \\
 As $x \rightarrow \infty$, the graph is above $y=x+3$\\
+See \autoref{fig:fxeqxcubedetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[8][6]{-10}{10}{-11}{20}
+\begin{mfpic}[6][6]{-10}{10}{-11}{20}
 \dashed \function{-10,10,0.1}{x+3}
 \point[4pt]{(0,0)}
 \dashed \polyline{(2,-11), (2,20)}
@@ -636,11 +690,12 @@ As $x \rightarrow \infty$, the graph is above $y=x+3$\\
 \point[4pt]{(-1,0)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:fxeqxcubedetc}
+\end{mfigure}
 
 \item
-$f(x) = \dfrac{5x}{9-x^2} - x = \dfrac{x^{3} - 4x}{9-x^{2}}= \dfrac{x(x-2)(x+2)}{-(x-3)(x+3)}$
-\begin{multicols}{2} \raggedcolumns
+$f(x) = \dfrac{5x}{9-x^2} - x = \dfrac{x^{3} - 4x}{9-x^{2}}= \dfrac{x(x-2)(x+2)}{-(x-3)(x+3)}$\\
 Domain: $(-\infty, -3) \cup (-3, 3) \cup (3, \infty)$\\
 $x$-intercepts: $(-2, 0), (0, 0), (2, 0)$\\
 $y$-intercept: $(0, 0)$\\
@@ -652,10 +707,11 @@ As $x \rightarrow 3^{+}, \; f(x) \rightarrow -\infty$\\
 Slant asymptote: $y = -x$\\
 As $x \rightarrow -\infty$, the graph is above $y=-x$\\
 As $x \rightarrow \infty$, the graph is below $y=-x$\\
+See \autoref{fig:fxeqfivexbynineetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[10]{-7}{7}{-8}{8}
+\begin{mfpic}[7]{-7}{7}{-8}{8}
 \point[4pt]{(-2,0), (0,0), (2, 0)}
 \dashed \polyline{(-3,-8), (-3,8)}
 \dashed \polyline{(3,-8), (3,8)}
@@ -676,21 +732,23 @@ As $x \rightarrow \infty$, the graph is below $y=-x$\\
 \arrow \reverse \arrow  \function{3.7,7,0.1}{((4*x) - (x**3))/((x**2) - 9)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:fxeqfivexbynineetc}
+\end{mfigure}
 
 \item 
-$g(t) = \dfrac{1}{2}t-1 + \dfrac{t+1}{t^2+1} = \dfrac{t(t^2-2t+3)}{2t^2+2}$
-\begin{multicols}{2} \raggedcolumns
+$g(t) = \dfrac{1}{2}t-1 + \dfrac{t+1}{t^2+1} = \dfrac{t(t^2-2t+3)}{2t^2+2}$\\
 Domain: $(-\infty,\infty)$\\
 $t$-intercept: $(0,0)$\\
 $y$-intercept:  $(0,0)$\\
 Slant asymptote: $y = \frac{1}{2}t-1$\\
 As $t \rightarrow -\infty$, the graph is below $y = \frac{1}{2}t-1$\\
 As $t \rightarrow \infty$, the graph is above $y = \frac{1}{2}t-1$\\
+See \autoref{fig:gteqonebytwotetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[15]{-5}{5}{-3}{3}
+\begin{mfpic}[10]{-5}{5}{-3}{3}
 \dashed \polyline{(-5,-3.5), (5,1.5)}
 \tlabel[cc](5,-0.5){\scriptsize $t$}
 \tlabel[cc](0.5,3){\scriptsize $y$}
@@ -706,11 +764,12 @@ As $t \rightarrow \infty$, the graph is above $y = \frac{1}{2}t-1$\\
 \arrow \reverse \arrow \function{-5,5,0.1}{(x*((x**2)-2*x+3))/(2*(x**2)+2)}
 \end{mfpic}
 
-\end{multicols}
+\caption{}
+\label{fig:gteqonebytwotetc}
+\end{mfigure}
 
 \item 
-$g(t) = \dfrac{t^{2} - 2t + 1}{t^{3} + t^{2} - 2t}=\dfrac{t - 1}{t(t + 2)}, \; t \neq 1$
-\begin{multicols}{2} \raggedcolumns
+$g(t) = \dfrac{t^{2} - 2t + 1}{t^{3} + t^{2} - 2t}=\dfrac{t - 1}{t(t + 2)}, \; t \neq 1$\\
 Domain: $(-\infty, -2) \cup (-2, 0) \cup (0, 1) \cup (1, \infty)$\\
 No $t$-intercepts\\
 No $y$-intercepts\\
@@ -723,10 +782,11 @@ Hole in the graph at $(1, 0)$\\
 Horizontal asymptote: $y = 0$\\
 As $t \rightarrow -\infty, \; g(t) \rightarrow 0^{-}$\\
 As $t \rightarrow \infty, \; g(t) \rightarrow 0^{+}$\\
+See \autoref{fig:gteqtsquaredminustwotetc}
 
-\columnbreak
+\begin{mfigure}
 
-\begin{mfpic}[15]{-6}{6}{-6}{6}
+\begin{mfpic}[10]{-6}{6}{-6}{6}
 \dashed \polyline{(-2,-6), (-2,6)}
 \tlabel[cc](6,-0.5){\scriptsize $t$}
 \tlabel[cc](0.5,6){\scriptsize $y$}
@@ -745,7 +805,10 @@ As $t \rightarrow \infty, \; g(t) \rightarrow 0^{+}$\\
 \pointfillfalse
 \point[4pt]{(1,0)}
 \end{mfpic}
-\end{multicols}
+
+\caption{}
+\label{fig:gteqtsquaredminustwotetc}
+\end{mfigure}
 
 \end{exenum}
 
