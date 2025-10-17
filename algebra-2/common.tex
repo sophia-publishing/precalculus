@@ -170,31 +170,28 @@
   \end{marginfigure}
 }
 \newenvironment{ifigure}{%
-  \begin{figure}[htp]
+  \begin{figure}[!h]
     \begin{center}
 }{%
     \end{center}
   \end{figure}
 }
 \newenvironment{ffigure}{%
-  \begin{figure*}[htp]
+  \begin{figure}[tp]
     \begin{center}
 }{%
     \end{center}
-  \end{figure*}
+  \end{figure}
 }
+
+% graphtrans
 \newenvironment{graphtrans}{%
   \begin{tikzcd}
 }{%
   \end{tikzcd}
 }
-
 \newcommand{\trans}[1]{%
-  \ifbool{ismfigure}{%
-    \arrow[d, "\text{\parbox{20mm}{#1}}"] \\
-  }{%
-    \arrow[r, "\text{#1}"]
-  }
+  \arrow[d, "\text{\parbox{20mm}{#1}}"] \\
 }
 
 \newcommand{\xincludegraphics}[1]{%
@@ -204,6 +201,8 @@
     \includegraphics[width=80mm]{#1}
   }
 }
+% xtcaption
+\newcommand{\xtcaption}[1]{\tcaption{\parbox{40mm}{\centering\scriptsize #1}}}
 
 % exinstr
 \newcommand{\mexinstr}[1]{%

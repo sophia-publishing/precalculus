@@ -6,33 +6,27 @@
 
 \label{RootRadicalFunctions}
 
-In Sections \ref{ConstantandLinearFunctions}, \ref{AbsoluteValueFunctions} and \ref{QuadraticFunctions}, we studied constant, linear,  absolute value,\footnote{These were introduced, as you may recall, as piecewise-defined linear functions.} and quadratic functions.  Constant, linear and quadratic functions were specific examples of polynomial functions, which we studied in generality in Chapter \ref{PolynomialFunctions}. Chapter \ref{PolynomialFunctions} culminated with the Real Factorization Theorem, Theorem \ref{realfactorization}, which says that all polynomial functions with real coefficients can be thought of as products of linear and quadratic functions.  Our next step was to enlarge our field\footnote{This is a really bad math pun.} of study to rational functions in Chapter \ref{RationalFunctions}.  Being quotients of polynomials, we can ultimately view this family of functions as being built up of linear and quadratic functions as well.  So in some sense, Sections   \ref{ConstantandLinearFunctions}, \ref{AbsoluteValueFunctions} and \ref{QuadraticFunctions} along with Chapters \ref{PolynomialFunctions} and \ref{RationalFunctions} can be thought of as an exhaustive study of linear and quadratic\footnote{If we broaden our concept of functions to allow for complex valued coefficients, the Complex Factorization Theorem, Theorem \ref{complexfactorization}, tells us every function we have studied thus far is a combination of linear functions.} functions.  We now turn our attention to functions involving radicals which cannot be written in terms of linear functions.  For a more detailed review of the basics of roots and radicals, we refer the reader to Sections \ref{AppRealNumberArithmetic} and  \ref{AppRadEqus}.  
+In Sections \ref{ConstantandLinearFunctions}, \ref{AbsoluteValueFunctions} and \ref{QuadraticFunctions}, we studied constant, linear,  absolute value,\sidenote{These were introduced, as you may recall, as piecewise-defined linear functions.} and quadratic functions.  Constant, linear and quadratic functions were specific examples of polynomial functions, which we studied in generality in Chapter \ref{PolynomialFunctions}. Chapter \ref{PolynomialFunctions} culminated with the Real Factorization Theorem, Theorem \ref{realfactorization}, which says that all polynomial functions with real coefficients can be thought of as products of linear and quadratic functions.  Our next step was to enlarge our field\sidenote{This is a really bad math pun.} of study to rational functions in Chapter \ref{RationalFunctions}.  Being quotients of polynomials, we can ultimately view this family of functions as being built up of linear and quadratic functions as well.  So in some sense, Sections   \ref{ConstantandLinearFunctions}, \ref{AbsoluteValueFunctions} and \ref{QuadraticFunctions} along with Chapters \ref{PolynomialFunctions} and \ref{RationalFunctions} can be thought of as an exhaustive study of linear and quadratic\sidenote{If we broaden our concept of functions to allow for complex valued coefficients, the Complex Factorization Theorem, Theorem \ref{complexfactorization}, tells us every function we have studied thus far is a combination of linear functions.} functions.  We now turn our attention to functions involving radicals which cannot be written in terms of linear functions.  For a more detailed review of the basics of roots and radicals, we refer the reader to Sections \ref{AppRealNumberArithmetic} and  \ref{AppRadEqus}.  
 
 \subsection{Root Functions}
 \label{RootFunctions}
 
 As with polynomial functions and rational functions, we begin our study of functions involving radical with a special family of functions: the (principal) root functions.
 
-\begin{tcolorbox}
-
-\begin{defn} \label{principalrootfunction}  Let $n \in \mathbb{N}$ with $n \geq 2$.  The \index{$n$th root function}\index{function, $n$th root} \textbf{$n$ th (principal) root function} is the function $f(x) = \sqrt[n]{x}$.  
+\begin{mdefn}
+\label{principalrootfunction}  Let $n \in \mathbb{N}$ with $n \geq 2$.  The \index{$n$th root function}\index{function, $n$th root} \textbf{$n$ th (principal) root function} is the function $f(x) = \sqrt[n]{x}$.  
 
 \textbf{NOTE:}  If $n$ is even, the domain of $f$ is $[0, \infty)$;  if $n$ is odd, the domain of $f$ is $(-\infty, \infty)$.
 
-\end{defn}
+\end{mdefn}
 
-\end{tcolorbox}
+The domain restriction for even indexed roots means that, once again, we are restricting our attention to \textit{real} numbers.\sidenote{Although we discussed imaginary numbers in Section \ref{ComplexZeros}, we restrict our attention to real numbers in this section.  See the epilogue on page \pageref{complexepilogue} for more details.}  We graph a few members of the root function family in \autoref{fig:yeqsqrtx}, \autoref{fig:yeqfourthrootofx} and \autoref{fig:yeqsixthrootofx}, and quickly notice that, as with the monomial, and, more generally, the Laurent monomial functions, the behavior of the root functions depends primarily on whether the root is even or odd.  
 
-The domain restriction for even indexed roots means that, once again, we are restricting our attention to \textit{real} numbers.\footnote{Although we discussed imaginary numbers in Section \ref{ComplexZeros}, we restrict our attention to real numbers in this section.  See the epilogue on page \pageref{complexepilogue} for more details.}  We graph a few members of the root function family in \autoref{fig:yeqsqrtx}, \autoref{fig:yeqfourthrootofx} and \autoref{fig:yeqsixthrootofx}, and quickly notice that, as with the monomial, and, more generally, the Laurent monomial functions, the behavior of the root functions depends primarily on whether the root is even or odd.  
+In addition to having the common domain of $[0, \infty)$, the graphs of $f(x) = \sqrt[n]{x}$ for even indices $n$ all share the points $(0,0)$ and $(1,1)$. As $n$ increases, the functions become `steeper' near the $y$-axis and `flatter' as $x \rightarrow \infty$.  To show $f(x) \rightarrow \infty$ as $x \rightarrow \infty$, we show, more generally, the range of $f$ is $[0, \infty)$.  Indeed, if $c \geq 0$ is a real number, then $f(c^n) = \sqrt[n]{c^n} = c$ so $c$ is in the range of $f$.  Note that $f$ is increasing:  that is, if $a<b$, then $f(a) = \sqrt[n]{a} < \sqrt[n]{b} = f(b)$. This property is useful in solving certain types of polynomial inequalities.\sidenote{See Exercise \ref{rootstosolvepolyineq}.}
 
-In addition to having the common domain of $[0, \infty)$, the graphs of $f(x) = \sqrt[n]{x}$ for even indices $n$ all share the points $(0,0)$ and $(1,1)$. As $n$ increases, the functions become `steeper' near the $y$-axis and `flatter' as $x \rightarrow \infty$.  To show $f(x) \rightarrow \infty$ as $x \rightarrow \infty$, we show, more generally, the range of $f$ is $[0, \infty)$.  Indeed, if $c \geq 0$ is a real number, then $f(c^n) = \sqrt[n]{c^n} = c$ so $c$ is in the range of $f$.  Note that $f$ is increasing:  that is, if $a<b$, then $f(a) = \sqrt[n]{a} < \sqrt[n]{b} = f(b)$. This property is useful in solving certain types of polynomial inequalities.\footnote{See Exercise \ref{rootstosolvepolyineq}.}
+\begin{mfigure}
 
-\begin{figure}
-
-\begin{minipage}{0.5\textwidth}
-\begin{center}
-  
-\begin{mfpic}[15]{0}{9}{0}{3}
+\begin{mfpic}[12]{0}{9}{0}{3}
 \axes
 \tlabel[cc](9, -0.5){\scriptsize $x$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -46,12 +40,11 @@ In addition to having the common domain of $[0, \infty)$, the graphs of $f(x) = 
 
 \caption{$y=\sqrt{x}$}
 \label{fig:yeqsqrtx}
-\end{center} 
-\end{minipage}
-\begin{minipage}{0.5\textwidth}
-\begin{center}
+\end{mfigure}
+
+\begin{mfigure}
   
-\begin{mfpic}[15]{0}{9}{0}{3}
+\begin{mfpic}[12]{0}{9}{0}{3}
 \axes
 \tlabel[cc](9, -0.5){\scriptsize $x$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -65,15 +58,12 @@ In addition to having the common domain of $[0, \infty)$, the graphs of $f(x) = 
 
 \caption{$y=\sqrt[4]{x}$}
 \label{fig:yeqfourthrootofx}
-\end{center}
-\end{minipage}
 
-\end{figure}
+\end{mfigure}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
   
-\begin{mfpic}[15]{0}{9}{0}{3}
+\begin{mfpic}[12]{0}{9}{0}{3}
 
 \axes
 \tlabel[cc](9, -0.5){\scriptsize $x$}
@@ -88,17 +78,13 @@ In addition to having the common domain of $[0, \infty)$, the graphs of $f(x) = 
 
 \caption{$y=\sqrt[6]{x}$}
 \label{fig:yeqsixthrootofx}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 The functions $f(x) = \sqrt[n]{x}$ for odd natural numbers $n \geq 3$ also follow a predictable trend - steepening near $x = 0$ and flattening as $x \rightarrow \pm \infty$.  The range for these functions is $(-\infty, \infty)$ since if $c$ is any real number, $f(c^n) = \sqrt[n]{c^n} = c$, so $c$ is in the range of $f$.  Like the even indexed roots, the odd indexed roots are also increasing.  Moreover, these graphs appear to be symmetric about the origin.  Sure enough, when $n$ is odd,  $f(-x) = \sqrt[n]{-x} = -\sqrt[n]{x} = -f(x)$ so $f$ is an odd function. See \autoref{fig:yeqcuberootofx}, \autoref{fig:yeqfifthrootofx} and \autoref{fig:yeqseventhrootofx}.
 
-\begin{figure}
-
-\begin{minipage}{0.5\textwidth}
-\begin{center}
+\begin{mfigure}
   
-\begin{mfpic}[15]{-4}{4}{-3}{3}
+\begin{mfpic}[12]{-4}{4}{-3}{3}
 \axes
 \tlabel[cc](4, -0.5){\scriptsize $x$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -113,12 +99,11 @@ The functions $f(x) = \sqrt[n]{x}$ for odd natural numbers $n \geq 3$ also follo
 
 \caption{$y=\sqrt[3]{x}$}
 \label{fig:yeqcuberootofx}
-\end{center}
-\end{minipage}
-\begin{minipage}{0.5\textwidth}
-\begin{center}
+\end{mfigure}
   
-\begin{mfpic}[15]{-4}{4}{-3}{3}
+\begin{mfigure}
+
+\begin{mfpic}[12]{-4}{4}{-3}{3}
 
 \axes
 \tlabel[cc](4, -0.5){\scriptsize $x$}
@@ -135,15 +120,11 @@ The functions $f(x) = \sqrt[n]{x}$ for odd natural numbers $n \geq 3$ also follo
 
 \caption{$y=\sqrt[5]{x}$}
 \label{fig:yeqfifthrootofx}
-\end{center}
-\end{minipage}
+\end{mfigure}
 
-\end{figure}
-
-\begin{figure}
-\begin{center}
+\begin{mfigure}
   
-\begin{mfpic}[15]{-4}{4}{-3}{3}
+\begin{mfpic}[12]{-4}{4}{-3}{3}
 
 \axes
 \tlabel[cc](4, -0.5){\scriptsize $x$}
@@ -160,8 +141,7 @@ The functions $f(x) = \sqrt[n]{x}$ for odd natural numbers $n \geq 3$ also follo
 
 \caption{$y=\sqrt[7]{x}$}
 \label{fig:yeqseventhrootofx}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 At this point, you're probably expecting a theorem like Theorems \ref{linearabsvaluegraphs}, \ref{standardformgraph}, \ref{linearmononialgraphs},  \ref{linearlaurentlgraphs} - that is, a theorem which tells us how to obtain the graph of $F(x) = a \sqrt[n]{x-h}+k$ from the  graph of $f(x) = \sqrt[n]{x}$ - and you would not be wrong.  Here, however, we need to add an extra parameter `$b$' to the recipe and discuss functions of the form $F(x) = a \sqrt[n]{bx-h}+k$.  The reason is that, with all of the previous function families, we were always able to factor out the coefficient of $x$. We list some examples of this below, and invite the reader to revisit other examples in the text:
 
@@ -175,13 +155,10 @@ At this point, you're probably expecting a theorem like Theorems \ref{linearabsv
 
 \end{itemize}
 
-For a function like $F(x) = \sqrt{4x-12} + 1 = \sqrt{4(x-6)} + 1 = \sqrt{4}\sqrt{x-3} + 1 = 2 \sqrt{x-3} + 1$, this approach works fine.   However, if the coefficient of $x$ is \textit{negative},   for example, $F(x) = \sqrt{1-x} = \sqrt{(-1)(x-1)}$ we get stuck the product rule for radicals doesn't extend to negative quantities when the index is even.\footnote{Since, otherwise, $-1 = i^2 = i \cdot i = \sqrt{-1}\sqrt{-1} = \sqrt{(-1)(-1)} = \sqrt{1} = 1$, a contradition.}   Hence we add an extra parameter which means we have an extra step.  We state Theorem \ref{linearrootgraphs} below.
+For a function like $F(x) = \sqrt{4x-12} + 1 = \sqrt{4(x-6)} + 1 = \sqrt{4}\sqrt{x-3} + 1 = 2 \sqrt{x-3} + 1$, this approach works fine.   However, if the coefficient of $x$ is \textit{negative},   for example, $F(x) = \sqrt{1-x} = \sqrt{(-1)(x-1)}$ we get stuck the product rule for radicals doesn't extend to negative quantities when the index is even.\sidenote{Since, otherwise, $-1 = i^2 = i \cdot i = \sqrt{-1}\sqrt{-1} = \sqrt{(-1)(-1)} = \sqrt{1} = 1$, a contradition.}   Hence we add an extra parameter which means we have an extra step.  We state this in Theorem \ref{linearrootgraphs}.
 
-
-\begin{tcolorbox}
-
-\begin{thm} \label{linearrootgraphs}  For real numbers $a$, $b$, $h$, and $k$ with $a, b \neq 0$, the graph of $F(x) = a\sqrt[n]{bx-h} +k$  can be obtained from the graph of $f(x) = \sqrt[n]{x}$ by performing the following operations, in sequence:
-
+\begin{fthm}
+   \label{linearrootgraphs}  For real numbers $a$, $b$, $h$, and $k$ with $a, b \neq 0$, the graph of $F(x) = a\sqrt[n]{bx-h} +k$  can be obtained from the graph of $f(x) = \sqrt[n]{x}$ by performing the following operations, in sequence:
 
 \begin{enumerate}
 
@@ -203,12 +180,9 @@ For a function like $F(x) = \sqrt{4x-12} + 1 = \sqrt{4(x-6)} + 1 = \sqrt{4}\sqrt
 
 \end{enumerate}
 
+\end{fthm}
 
-\end{thm}
-
-\end{tcolorbox}
-
- {\bf Proof.}  As usual, we `build' the graph of $F(x) = a \sqrt[n]{bx-h}+k$ starting with the graph of $f(x) = \sqrt[n]{x}$ one step at a time.  First, we consider the graph of $F_{1}(x) = \sqrt{x-h}$.  A generic point on the graph of $F_{1}$ looks like $(x, \sqrt[n]{x-h})$.  Note that if $n$ is odd, $x$ can be any real number whereas if $n$ is even $x-h \geq 0$ so $x \geq h$.   If we let $c = x-h$, then $x = c+h$ and we can change (dummy) variables\footnote{again this is because every real number can be represented as both $x-h$ for some value $x$ and as $c+h$  for some value $c$.} and obtain a new representation of the point: $(c+h, \sqrt[n]{c})$.  Note that if $n$ is odd, $x$ and $c$ vary through all real numbers;  if $n$ is even, $x \geq h$ and, hence,  $c \geq 0$.  Since a generic point on the graph of $f(x) = \sqrt[n]{x}$ can be represented as $(c, \sqrt[n]{c})$ for applicable values of $c$, we see that we can obtain every point on the graph of $F_{1}$ by adding $h$ to each $x$-coordinate of the graph of $f$, establishing step 1 of the theorem.  
+ {\bf Proof.}  As usual, we `build' the graph of $F(x) = a \sqrt[n]{bx-h}+k$ starting with the graph of $f(x) = \sqrt[n]{x}$ one step at a time.  First, we consider the graph of $F_{1}(x) = \sqrt{x-h}$.  A generic point on the graph of $F_{1}$ looks like $(x, \sqrt[n]{x-h})$.  Note that if $n$ is odd, $x$ can be any real number whereas if $n$ is even $x-h \geq 0$ so $x \geq h$.   If we let $c = x-h$, then $x = c+h$ and we can change (dummy) variables\sidenote{again this is because every real number can be represented as both $x-h$ for some value $x$ and as $c+h$  for some value $c$.} and obtain a new representation of the point: $(c+h, \sqrt[n]{c})$.  Note that if $n$ is odd, $x$ and $c$ vary through all real numbers;  if $n$ is even, $x \geq h$ and, hence,  $c \geq 0$.  Since a generic point on the graph of $f(x) = \sqrt[n]{x}$ can be represented as $(c, \sqrt[n]{c})$ for applicable values of $c$, we see that we can obtain every point on the graph of $F_{1}$ by adding $h$ to each $x$-coordinate of the graph of $f$, establishing step 1 of the theorem.  
  
 Proceeding to (the new!) step 2, a point on the graph of $F_{2}(x) = \sqrt[n]{bx-h}$ has the form $(x, \sqrt[n]{bx-h})$.  If $n$ is odd, as usual, $x$ can vary through all real numbers.  If $n$ is even, we require $bx-h \geq 0$ or $bx \geq h$.  If $b>0$, this gives $x \geq \frac{h}{b}$.  If, on the other hand, $b<0$, the we have $x \leq \frac{h}{b}$.   Let  $c = bx$ and since by assumption $b \neq 0$, we have $x = \frac{c}{b}$. Once again, we change dummy variables from $x$ to $c$ and describe a generic point on the graph of $F_{2}$ as $\left( \frac{c}{b}, \sqrt[n]{c - h} \right)$.  If $n$ is odd, $x$ and $c$ can vary through all real numbers.  If $n$ is even and $b>0$, then $x \geq \frac{h}{b}$ and, hence, $c = bx \geq h$;  if $b<0$, then $x \leq \frac{h}{b}$ also gives $c = bx \geq h$.  Since a generic point on the graph of $F_{1}$ can be represented as $(c, \sqrt{c-h})$ for applicable values of $c$, we see we can obtain every point on the graph of $F_{2}$ by dividing every $x$-coordinate on the graph of $F_{1}$ by $b$, as per step 2 of the theorem.
 
@@ -238,11 +212,12 @@ We  demonstrate Theorem \ref{linearrootgraphs} in the following example.
 
 \item  We begin by rewriting the expression for $f(x)$ in the form prescribed Theorem \ref{linearrootgraphs}:  $f(x) = -2 \sqrt[3]{x+3} + 1$.  We identify $n=3$, $a = -2$, $b = 1$, $h = -3$ and $k = 1$.  
 
-Step 1:   add $-3$ to each of the $x$-coordinates of each of the points on the graph of $y=\sqrt[3]{x}$:
+Step 1:   add $-3$ to each of the $x$-coordinates of each of the points on the graph of $y=\sqrt[3]{x}$ as in \autoref{fig:transaddminusthreeetc}.
 
-\[ \begin{array}[v]{rlc}
+\begin{mfigure}
+\begin{graphtrans}
 
-\begin{mfpic}[13]{-4}{4}{-3}{3}
+\begin{mfpic}[12]{-4}{4}{-3}{3}
 \axes
 \tlabel[cc](4,-0.5){\scriptsize $x$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -252,14 +227,12 @@ Step 1:   add $-3$ to each of the $x$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow \reverse \arrow \parafcn{-1.587,1.587,0.1}{(t^3,t)}
 \point[4pt]{(0,0), (1,1), (-1,-1)}
-\tcaption{\scriptsize $y=\sqrt[3]{x}$}
+\xtcaption{\ensuremath{y=\sqrt[3]{x}} with \ensuremath{(-1,1)}, \ensuremath{(0,0)}, \ensuremath{(1,1)}}
 \end{mfpic}
 
-&
-\stackrel{\text{\parbox{.5in}{\centering \scriptsize add $-3$ to each $x$-coordinate}}}{\xrightarrow{\hspace{.5in}}}
-&
+\trans{add $-3$ to each $x$-coordinate}
 
-\begin{mfpic}[13]{-7}{1}{-3}{3}
+\begin{mfpic}[12]{-7}{1}{-3}{3}
 \axes
 \tlabel[cc](1,-0.5){\scriptsize $x$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -270,21 +243,22 @@ Step 1:   add $-3$ to each of the $x$-coordinates of each of the points on the g
 \arrow \reverse \arrow \parafcn{-1.587,1.587,0.1}{(t^3-3,t)}
 \point[4pt]{(-2,1), (-3,0), (-4,-1)}
 
-\tcaption{\scriptsize $y=\sqrt[3]{x+3}$}
-\end{mfpic} \\
-
- \text{\scriptsize  $(-1,1)$, $(0,0)$, $(1,1)$} & & \text{\scriptsize  $(-4,-1)$, $(-3,0)$, $(-2,1)$} \\
+\xtcaption{\ensuremath{y=\sqrt[3]{x+3}} with \ensuremath{(-4,-1)}, \ensuremath{(-3,0)}, \ensuremath{(-2,1)}}
+\end{mfpic}
  
- \end{array} \]
+ \end{graphtrans}
+\caption{}
+\label{fig:transaddminusthreeetc}
+\end{mfigure}
  
  Since $b=1$, we can proceed to Step 3 (since dividing a real by $1$ just results in the same real number.)
  
- Step 3:   multiply each of the $y$-coordinates of each point on the graph of $y = \sqrt[3]{x+3}$ by  $-2$:
+ Step 3:   multiply each of the $y$-coordinates of each point on the graph of $y = \sqrt[3]{x+3}$ by  $-2$ as in \autoref{fig:transmultiplybyminustwo}.
 
-\[ \begin{array}[v]{rlc}
+\begin{mfigure}
+\begin{graphtrans}
 
-
-\begin{mfpic}[13]{-7}{1}{-3}{3}
+\begin{mfpic}[12]{-7}{1}{-3}{3}
 \axes
 \tlabel[cc](1,-0.5){\scriptsize $x$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -295,12 +269,34 @@ Step 1:   add $-3$ to each of the $x$-coordinates of each of the points on the g
 \arrow \reverse \arrow \parafcn{-1.587,1.587,0.1}{(t^3-3,t)}
 \point[4pt]{(-2,1), (-3,0), (-4,-1)}
 
-\tcaption{\scriptsize $y=\sqrt[3]{x+3}$}
+\xtcaption{$y=\sqrt[3]{x+3}$; \newline $(-4,-1)$, $(-3,0)$, $(-2,1)$}
 \end{mfpic}
 
-&
-\stackrel{\text{\parbox{.5in}{\centering \scriptsize  multiply each $y$-value by $-2$}}}{\xrightarrow{\hspace{.5in}}}
-&
+\trans{multiply each $y$-value by $-2$}
+
+\begin{mfpic}[12][7.5]{-7}{1}{-6}{6}
+\axes
+\tlabel[cc](1,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5, 6){\scriptsize $y$}
+\tlabel[cc](-2,-4){\scriptsize $(-2,-2)$}
+\tlabel[cc](-4,-1){\scriptsize $(-3,0)$}
+\tlabel[cc](-4,3.5){\scriptsize $(-4,2)$}
+\penwd{1.25pt}
+\arrow \reverse \arrow \parafcn{-1.587,1.587,0.1}{(t^3-3,-2*t)}
+\point[4pt]{(-2,-2), (-3,0), (-4,2)}
+
+\xtcaption{$y=-2\sqrt[3]{x+3}$; \newline $(-4,2)$, $(-3,0)$, $(-2,-2)$}
+\end{mfpic}
+
+\end{graphtrans}
+\caption{}
+\label{fig:transmultiplybyminustwo}
+\end{mfigure}
+
+ Step 4:   add $1$ to $y$-coordinates of each point on the graph of $y = -2 \sqrt[3]{x+3}$ as in \autoref{fig:transaddone}
+
+ \begin{mfigure}
+ \begin{graphtrans}
 
 \begin{mfpic}[13][7.5]{-7}{1}{-6}{6}
 \axes
@@ -313,35 +309,10 @@ Step 1:   add $-3$ to each of the $x$-coordinates of each of the points on the g
 \arrow \reverse \arrow \parafcn{-1.587,1.587,0.1}{(t^3-3,-2*t)}
 \point[4pt]{(-2,-2), (-3,0), (-4,2)}
 
-\tcaption{\scriptsize $y=-2\sqrt[3]{x+3}$}
-\end{mfpic}\\
-
- \text{\scriptsize $(-4,-1)$, $(-3,0)$, $(-2,1)$} & & \text{\scriptsize  $(-4,2)$, $(-3,0)$, $(-2,-2)$} \\
- 
- \end{array} \]
-
- Step 4:   add $1$ to $y$-coordinates of each point on the graph of $y = -2 \sqrt[3]{x+3}$:
-
-\[ \begin{array}[v]{rlc}
-
-
-\begin{mfpic}[13][7.5]{-7}{1}{-6}{6}
-\axes
-\tlabel[cc](1,-0.5){\scriptsize $x$}
-\tlabel[cc](0.5, 6){\scriptsize $y$}
-\tlabel[cc](-2,-4){\scriptsize $(-2,-2)$}
-\tlabel[cc](-4,-1){\scriptsize $(-3,0)$}
-\tlabel[cc](-4,3.5){\scriptsize $(-4,2)$}
-\penwd{1.25pt}
-\arrow \reverse \arrow \parafcn{-1.587,1.587,0.1}{(t^3-3,-2*t)}
-\point[4pt]{(-2,-2), (-3,0), (-4,2)}
-
-\tcaption{\scriptsize $y=-2\sqrt[3]{x+3}$}
+\tcaption{\scriptsize $y=-2\sqrt[3]{x+3}$; \newline $(-4,2)$, $(-3,0)$, $(-2,-2)$}
 \end{mfpic}
 
-&
-\stackrel{\text{\parbox{.5in}{\centering \scriptsize  add $1$ to each $y$-value}}}{\xrightarrow{\hspace{.5in}}}
-&
+\trans{add $1$ to each $y$-value}
 
 \begin{mfpic}[13][7.5]{-7}{1}{-5}{7}
 \axes
@@ -354,22 +325,24 @@ Step 1:   add $-3$ to each of the $x$-coordinates of each of the points on the g
 \arrow \reverse \arrow \parafcn{-1.587,1.587,0.1}{(t^3-3,1-2*t)}
 \point[4pt]{(-2,-1), (-3,1), (-4,3)}
 
-\tcaption{\scriptsize $y=-2\sqrt[3]{x+3}+1$}
-\end{mfpic}\\
+\tcaption{\scriptsize \ensuremath{y=-2\sqrt[3]{x+3}+1}; \ensuremath{(-4,3)}, \ensuremath{(-3,1)}, \ensuremath{(2,-1)}}
+\end{mfpic}
 
-\text{\scriptsize  $(-4,2)$, $(-3,0)$, $(-2,-2)$}  & &\text{\scriptsize  $(-4,3)$, $(-3,1)$, $(-2,-1)$}  \\
- 
- \end{array} \]
- 
+\end{graphtrans}
+\caption{}
+\label{fig:transaddone}
+\end{mfigure}
+
  We get the domain and range of $f$ are $(-\infty, \infty)$.
  
- \item  For $g(t) = \dfrac{\sqrt{1-2t}}{4} = \frac{1}{4} \sqrt{-2t+1}$, we identify $n=2$, $a = \frac{1}{4}$, $b = -2$, $h = -1$ and $k =0$.  Since we are asked to label \textit{three} points on the graph, we track $(4,2)$ along with $(0,0)$ and $(1,1)$.\footnote{As $\sqrt{4} = 2$, we know $(4,2)$ is on the graph of $y = \sqrt{t}$.}
+ \item  For $g(t) = \dfrac{\sqrt{1-2t}}{4} = \frac{1}{4} \sqrt{-2t+1}$, we identify $n=2$, $a = \frac{1}{4}$, $b = -2$, $h = -1$ and $k =0$.  Since we are asked to label \textit{three} points on the graph, we track $(4,2)$ along with $(0,0)$ and $(1,1)$.\sidenote{As $\sqrt{4} = 2$, we know $(4,2)$ is on the graph of $y = \sqrt{t}$.}
 
 
-Step 1:   add $-1$ to each of the $t$-coordinates of each of the points on the graph of $y=\sqrt{t}$:
+Step 1:   add $-1$ to each of the $t$-coordinates of each of the points on the graph of $y=\sqrt{t}$ as in \autoref{fig:transaddminusoneetc}
 
-\begin{multline*}
-%
+\begin{ifigure}
+\begin{graphtrans}
+
 \begin{mfpic}[13]{0}{9}{0}{3}
 \axes
 \tlabel[cc](9, -0.5){\scriptsize $t$}
@@ -380,14 +353,12 @@ Step 1:   add $-1$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow \parafcn{0,3,0.1}{(t^2,t)}
 \point[4pt]{(0,0), (1,1), (4,2)}
-%
+
 \tcaption{\scriptsize $y=\sqrt{t}$ with $(0,0)$, $(1,1)$, $(4,2)$}
-\end{mfpic}\\
-%
-\stackrel{\text{\parbox{1in}{\centering \scriptsize add $-1$ to each $t$-coordinate}}}{\xrightarrow{\hspace{1in}}}
-\quad
-%
-\begin{adjustbox}{valign=c}
+\end{mfpic}
+
+\trans{add $-1$ to each $t$-coordinate}
+
 \begin{mfpic}[13]{-1}{8}{0}{3}
 \axes
 \tlabel[cc](8, -0.5){\scriptsize $t$}
@@ -398,18 +369,21 @@ Step 1:   add $-1$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow \parafcn{0,3,0.1}{(t^2-1,t)}
 \point[4pt]{(-1,0), (0,1), (3,2)}
-%
+
 \tcaption{\scriptsize $y=\sqrt{t+1}$ with $(-1,0)$, $(0,1)$, $(3,2)$}
 \end{mfpic}
-\end{adjustbox}
-%
-\end{multline*}
+
+\end{graphtrans}
+\caption{}
+\label{fig:transaddminusoneetc}
+\end{ifigure}
  
- Step 2:   divide each of the $t$-coordinates of each of the points on the graph of $y = \sqrt{t+1}$ by $-2$:
+ Step 2:   divide each of the $t$-coordinates of each of the points on the graph of $y = \sqrt{t+1}$ by $-2$ as in \autoref{fig:transdividebyminustwo}.
  
-\begin{multline*}
-%
-\begin{mfpic}[15]{-1}{8}{0}{3}
+\begin{mfigure}
+  
+\begin{graphtrans}
+\begin{mfpic}[12]{-1}{8}{0}{3}
 \axes
 \tlabel[cc](8, -0.5){\scriptsize $t$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -419,15 +393,13 @@ Step 1:   add $-1$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow \parafcn{0,3,0.1}{(t^2-1,t)}
 \point[4pt]{(-1,0), (0,1), (3,2)}
-%
+
 \tcaption{\scriptsize $y=\sqrt{t+1}$ with $(-1,0)$, $(0,1)$, $(3,2)$}
-\end{mfpic} \\
-%
-\transgraph{1in}{divide each $t$-coordinate by $-2$:}
-\quad
-%
-\begin{adjustbox}{valign=c}
-\begin{mfpic}[25][15]{-4}{2}{0}{3}
+\end{mfpic}
+
+\trans{divide each $t$-coordinate by $-2$}
+
+\begin{mfpic}[17][15]{-4}{2}{0}{3}
 \axes
 \tlabel[cc](2, -0.5){\scriptsize $t$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -437,18 +409,21 @@ Step 1:   add $-1$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow \parafcn{0,3,0.1}{((t^2-1)/(-2),t)}
 \point[4pt]{(0.5,0), (0,1), (-1.5,2)}
-%
-\tcaption{\scriptsize $y=\sqrt{-2t+1}$ with $\left(\frac{1}{2},0 \right)$, $(0,1)$, $\left(-\frac{3}{2},2 \right)$}
+
+\xtcaption{\ensuremath{y=\sqrt{-2t+1}} with \ensuremath{\left(\frac{1}{2},0 \right)}, \ensuremath{(0,1)}, \ensuremath{\left(-\frac{3}{2},2 \right)}}
 \end{mfpic} 
-\end{adjustbox}
-%
-\end{multline*}
+\end{graphtrans}
+
+\caption{}
+\label{fig:transdividebyminustwo}
+\end{mfigure}
  
-  Step 3:  multiply each of the $y$-coordinates of each of the points on the graph of $y = \sqrt{-2t+1}$ by $\frac{1}{4}$:
- 
-\begin{multline*}
-%
-\begin{mfpic}[25][15]{-4}{2}{0}{3}
+  Step 3:  multiply each of the $y$-coordinates of each of the points on the graph of $y = \sqrt{-2t+1}$ by $\frac{1}{4}$ as in \autoref{fig:transmultiplybyonebyfour}.
+
+\begin{mfigure}
+
+\begin{graphtrans}
+\begin{mfpic}[18][15]{-4}{2}{0}{3}
 \axes
 \tlabel[cc](2, -0.5){\scriptsize $t$}
 \tlabel[cc](0.5, 3){\scriptsize $y$}
@@ -458,14 +433,13 @@ Step 1:   add $-1$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow \parafcn{0,3,0.1}{((t^2-1)/(-2),t)}
 \point[4pt]{(0.5,0), (0,1), (-1.5,2)}
-%
+
 \tcaption{\scriptsize $y=\sqrt{-2t+1}$ with $\left(\frac{1}{2},0 \right)$, $(0,1)$, $\left(-\frac{3}{2},2 \right)$}
-\end{mfpic}\\
-%
-\transgraph{1in}{multiply each $y$-coordinate by $\frac{1}{4}$:}
-%
-\begin{adjustbox}{valign=c}
-\begin{mfpic}[25]{-4}{2}{0}{2}
+\end{mfpic}
+
+\trans{multiply each $y$-coordinate by $\frac{1}{4}$}
+
+\begin{mfpic}[18]{-4}{2}{0}{2}
 \axes
 \tlabel[cc](2, -0.5){\scriptsize $t$}
 \tlabel[cc](0.5, 2){\scriptsize $y$}
@@ -475,12 +449,14 @@ Step 1:   add $-1$ to each of the $t$-coordinates of each of the points on the g
 \penwd{1.25pt}
 \arrow \parafcn{0,3,0.1}{((t^2-1)/(-2),t/4)}
 \point[4pt]{(0.5,0), (0,0.25), (-1.5,0.5)}
-%
+
 \tcaption{\scriptsize $y=\frac{1}{4}\sqrt{-2t+1}$ with $\left(\frac{1}{2},0 \right)$, $\left(0, \frac{1}{4} \right)$, $\left(-\frac{3}{2}, \frac{1}{2} \right)$}
 \end{mfpic}
-\end{adjustbox}
-%
-\end{multline*}
+\end{graphtrans}
+
+\caption{}
+\label{fig:transmultiplybyonebyfour}
+\end{mfigure}
 
 We get the domain is $\left(-\infty, \frac{1}{2} \right]$ and the range is $[0, \infty)$. \qed
 
@@ -494,9 +470,8 @@ We get the domain is $\left(-\infty, \frac{1}{2} \right]$ and the range is $[0, 
 
 Now that we have some practice with basic root functions, we turn our attention to more general functions involving radicals.  In general, Calculus is the best tool with which to study these functions.  Nevertheless,  we will use what algebra we know in combination with a graphing utility to help us visualize these functions and preview concepts which are studied in greater depth in later courses. In the table below, we summarize some of the properties of radicals from elsewhere in this text (and Intermediate Algebra) we will be using in the coming examples.  
 
-\begin{tcolorbox}
-
-\begin{thm} \label{basicradicalpropseqineq}  \textbf{Some Useful Properties of Radicals:}  Suppose $\sqrt[n]{x}$, $\sqrt[n]{a}$, and $\sqrt[n]{b}$ are real numbers.\footnote{i.e., if $n$ is odd, $x$, $a$, and $b$ can be any real numbers;  if, on the other hand $n$ is even, $x \geq 0$, $a \geq 0$, and $b \geq 0$.}
+\begin{ithm}
+   \label{basicradicalpropseqineq}  \textbf{Some Useful Properties of Radicals:}  Suppose $\sqrt[n]{x}$, $\sqrt[n]{a}$, and $\sqrt[n]{b}$ are real numbers.\footnote{i.e., if $n$ is odd, $x$, $a$, and $b$ can be any real numbers;  if, on the other hand $n$ is even, $x \geq 0$, $a \geq 0$, and $b \geq 0$.}
 
 
 \textbf{Simplifying $n$ th powers and $n$ th roots:}\footnote{a.k.a., `Inverse Properties.'  See Section \ref{InverseFunctions}.}
@@ -517,8 +492,7 @@ Now that we have some practice with basic root functions, we turn our attention 
 
 \textbf{Root Functions Preserve Inequality:}\footnote{i.e., root functions are increasing.}  if $a \leq b$, then $\sqrt[n]{a} \leq \sqrt[n]{b}$.
 
-\end{thm}
-\end{tcolorbox}
+\end{ithm}
 
 
 \begin{ex}  For the following functions:
@@ -542,7 +516,7 @@ Now that we have some practice with basic root functions, we turn our attention 
 \item intervals of decrease.
 \end{shortitemize}
 
-\item Construct a sign diagram for each function using the intercepts and graph.\footnote{We'll revisit sign diagrams for these functions in Section \ref{PowerEqIneq} where we will use them to solve inequalities (surprised?)}
+\item Construct a sign diagram for each function using the intercepts and graph.\sidenote{We'll revisit sign diagrams for these functions in Section \ref{PowerEqIneq} where we will use them to solve inequalities (surprised?)}
 
 \end{itemize}
 
@@ -559,26 +533,39 @@ Now that we have some practice with basic root functions, we turn our attention 
 
 \item  When looking for the domain, we have two thing to watch out for:  denominators (which we must make sure aren't $0$) and even indexed radicals (whose radicands we must ensure are nonnegative.)  Looking at the expression for $f(x)$, we have no denominators nor do we have an even indexed radical, so we are confident the domain is all real numbers, $(-\infty, \infty)$. 
 
-To find the $x$-intercepts, we find the zeros of $f$ by solving $f(x) =  3x \sqrt[3]{2-x} = 0$.  Using the zero product property, we get $3x = 0$ or $\sqrt[3]{2-x} = 0$.  The former gives $x = 0$ and to solve the latter, we cube both sides and get $2 - x = 0$ or $x = 2$.  Hence, the $x$-intercepts are $(0,0)$ and $(2,0)$.  Since $(0,0)$ is also on the $y$-axis and functions can can have at most one $y$-intercept, we know $(0,0)$ is the only $y$-intercept.\footnote{Why is this, again?}  That being said, we can quickly verify $f(0) = 3(0) \sqrt[3]{2-0} = 0$. 
+To find the $x$-intercepts, we find the zeros of $f$ by solving $f(x) =  3x \sqrt[3]{2-x} = 0$.  Using the zero product property, we get $3x = 0$ or $\sqrt[3]{2-x} = 0$.  The former gives $x = 0$ and to solve the latter, we cube both sides and get $2 - x = 0$ or $x = 2$.  Hence, the $x$-intercepts are $(0,0)$ and $(2,0)$.  Since $(0,0)$ is also on the $y$-axis and functions can can have at most one $y$-intercept, we know $(0,0)$ is the only $y$-intercept.\sidenote{Why is this, again?}  That being said, we can quickly verify $f(0) = 3(0) \sqrt[3]{2-0} = 0$. 
 
-To determine the end behavior, we consider $f(x)$ as $x \rightarrow \pm \infty$.  Using `number sense,' \footnote{remember this means we use the adjective `big' here to mean large in \textit{absolute value}} we have $f(x) = 3x \sqrt[3]{2-x} = 3x \sqrt[3]{-x+2} \approx (\text{big $(+)$}) \sqrt[3]{\text{big $(-)$}} = (\text{big $(+)$})(\text{big $(-)$}) = \text{big $(-)$}$, so $f(x) \rightarrow -\infty$.  As $x \rightarrow -\infty$ we get $f(x) = 3x \sqrt[3]{-x+2} \approx (\text{big $(-)$}) \sqrt[3]{\text{big $(+)$}} = (\text{big $(-)$})(\text{big $(+)$}) = \text{big $(-)$}$, so $f(x) \rightarrow -\infty$ here, too.
+To determine the end behavior, we consider $f(x)$ as $x \rightarrow \pm \infty$.  Using `number sense,'
+\sidenote{remember this means we use the adjective `big' here to mean large in \textit{absolute value}}
+we have
+\begin{multline*}
+  f(x) = 3x \sqrt[3]{2-x} = 3x \sqrt[3]{-x+2} \approx (\text{big $(+)$}) \sqrt[3]{\text{big $(-)$}} \\
+  = (\text{big $(+)$})(\text{big $(-)$})
+  = \text{big $(-)$}
+\end{multline*}
+So $f(x) \rightarrow -\infty$.
+  
+As $x \rightarrow -\infty$, we get
+\begin{multline*}
+  f(x) = 3x \sqrt[3]{-x+2} \approx (\text{big $(-)$}) \sqrt[3]{\text{big $(+)$}} \\
+  = (\text{big $(-)$})(\text{big $(+)$}) = \text{big $(-)$}
+\end{multline*}
+So $f(x) \rightarrow -\infty$ here, too.
 
-We graph $f$ in \autoref{fig:yeqfxeqthreexintocuberootoftwominusx}.  From the graph, the range appears to be $(-\infty, 3.572]$ with a local maximum (which also happens to be \textit{the} maximum) at $(1.5, 3.572)$.  We also see $f$ appears to be increasing on $(-\infty, 1.5)$ and decreasing on $(1.5, \infty)$.  It is also worth noting that there appears to be `unusual steepness' near the $x$-intercept $(2,0)$.  We invite the reader to zoom in on the graph near $(2,0)$ to see that the function is `locally vertical.'\footnote{Of course, the Vertical Line Test prohibits the graph from actually \textit{being} a vertical line.  This behavior is more precisely defined and more closely studied in Calculus.}
+We graph $f$ in
+\autoref{fig:yeqfxeqthreexintocuberootoftwominusx}.  From the graph, the range appears to be $(-\infty, 3.572]$ with a local maximum (which also happens to be \textit{the} maximum) at $(1.5, 3.572)$.  We also see $f$ appears to be increasing on $(-\infty, 1.5)$ and decreasing on $(1.5, \infty)$.  It is also worth noting that there appears to be `unusual steepness' near the $x$-intercept $(2,0)$.  We invite the reader to zoom in on the graph near $(2,0)$ to see that the function is `locally vertical.'\sidenote{Of course, the Vertical Line Test prohibits the graph from actually \textit{being} a vertical line.  This behavior is more precisely defined and more closely studied in Calculus.}
 
 To create a sign diagram for $f(x)$, we note that the function has zeros $x = 0$ and $x=2$. For $x<0$, $f(x) < 0$ or $(-)$, for $0<x<2$, $f(x) > 0$ or $(+)$, and for $x>2$, $f(x) < 0$ or $(-)$. The sign diagram for $f(x)$ is in \autoref{fig:signdiagforfxeqthreexintocuberootofetc}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
-\includegraphics[width=3in]{./RootRadicalFunctionsGraphics/RadicalGraphEx01.jpg}
+\xincludegraphics{./RootRadicalFunctionsGraphics/RadicalGraphEx01.jpg}
 
-\caption{The graph of $y=f(x)$}
+\caption{}
 \label{fig:yeqfxeqthreexintocuberootoftwominusx}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
   
 \begin{mfpic}[20]{-4}{2}{-1}{1}
 \arrow \reverse \arrow \polyline{(-4,0),(2,0)}
@@ -590,12 +577,11 @@ To create a sign diagram for $f(x)$, we note that the function has zeros $x = 0$
 \tlabel[cc](0,-0.5){$2$}
 \tlabel[cc](0,0.5){$0$}
 \tlabel[cc](1,0.5){$(-)$}
-\end{mfpic} \\
+\end{mfpic}
 
-\caption{Sign Diagram for $f(x)$}
+\caption{}
 \label{fig:signdiagforfxeqthreexintocuberootofetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 \item  The index of the radical  in the expression for $g(t)$ is odd, so our only concern is the denominator.  Setting $t+1=0$ gives $t=-1$, which we exclude, so our domain is $\{ t \in \mathbb{R} \, | \, t \neq -1\}$ or using interval notation, $(-\infty, -1) \cup (-1, \infty)$.    If we take the time to analyze the behavior of $g$ near $t=-1$, we find that as $t \rightarrow -1^{-}$, $g(t) = \sqrt[3]{\frac{8t}{t+1}}  \approx \sqrt[3]{\frac{-8}{\text{small $(-)$}}}  \approx \sqrt[3]{\text{ big$(+)$}} = \text{big $(+)$}$.  That is, as $t \rightarrow -1^{-}$, $g(t) \rightarrow \infty$.  Likewise, as $t \rightarrow -1^{+}$, $g(t)  \approx \sqrt[3]{\frac{-8}{\text{small $(+)$}}}  \approx \sqrt[3]{\text{ big $(-)$}} = \text{big $(-)$}$.  This suggests as $t \rightarrow -1^{+}$, $g(t) \rightarrow -\infty$.  This behavior points to a vertical asymptote, $t=-1$.
 
@@ -609,18 +595,16 @@ Scanning the graph,  there  appears to be no local extrema, and, moreover,  the 
 
 To create a sign diagram for $g(t)$, we note that the function is undefined when $t = -1$ (so we place a `\textinterrobang' above it) and has a zero $t=0$.  When  $t<-1$, $g(t) > 0$ or $(+)$, for $-1<t<0$, $g(t)<0$ or $(-)$, and for $t>0$, $g(t) > 0$ or $(+)$.  In \autoref{fig:signdiagramforgteqcuberootofeighttetc} is a sign diagram for $g(t)$.
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
-\includegraphics[width=3in]{./RootRadicalFunctionsGraphics/RadicalGraphEx02.jpg}
+\xincludegraphics{./RootRadicalFunctionsGraphics/RadicalGraphEx02.jpg}
  
-\caption{The graph of $y=g(t)$}
+\caption{}
 \label{fig:gteqcuberootofeighttetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
+
 \begin{mfpic}[20]{-4}{2}{-1}{1}
 \arrow \reverse \arrow \polyline{(-4,0),(2,0)}
 \xmarks{-2,0}
@@ -633,31 +617,27 @@ To create a sign diagram for $g(t)$, we note that the function is undefined when
 \tlabel[cc](1,0.5){$(+)$}
 \end{mfpic}
 
-\caption{Sign Diagram for $g(t)$}
+\caption{}
 \label{fig:signdiagramforgteqcuberootofeighttetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
  \item  The expression for $h(x) = \frac{3x}{\sqrt{x^2 + 1}}$ has both a denominator and an even-indexed radical, so we have to be extra cautious here.  Fortunately for us, the quantity $x^2+1 >0$ for al real numbers $x$. Not only does this mean $\sqrt{x^2+1}$ is always defined, it also tells us $\sqrt{x^2+1}>0$ for all $x$, too.  This means the domain of $h$ is all real numbers, $(-\infty, \infty)$.
  
-Solving for the zeros of $h$ gives only $x = 0$, and we find, once again, $(0,0)$ is both our lone $x$- and $y$-intercept.  Moving on to end behavior, as $x \rightarrow \pm \infty$, the term $x^2$ is the dominant term in the radicand in the denominator. As such, $h(x) = \frac{3x}{\sqrt{x^2 + 1}} \approx \frac{3x}{\sqrt{x^2}} = \frac{3x}{|x|}$.  As $x \rightarrow \infty$, $|x| = x$ (since $x>0$), so $h(x) \approx \frac{3x}{x} = 3$, so $h(x) \rightarrow 3$.  Likewise, as $x \rightarrow -\infty$, $|x| = -x$ (since $x<0$) and hence, $h(x)\approx  \frac{3x}{-x} = -3$, so $h(x) \rightarrow -3$.  This analysis suggests the graph of $y=h(x)$ has not one, but \textit{two} horizontal asymptotes.\footnote{We warned you this was coming \ldots see the discussion following Theorem \ref{hathm} in Section \ref{IntroRational}.} The graph of $h$ in \autoref{fig:yeqhxeqthreexbysqrtetc} bears this out.
+Solving for the zeros of $h$ gives only $x = 0$, and we find, once again, $(0,0)$ is both our lone $x$- and $y$-intercept.  Moving on to end behavior, as $x \rightarrow \pm \infty$, the term $x^2$ is the dominant term in the radicand in the denominator. As such, $h(x) = \frac{3x}{\sqrt{x^2 + 1}} \approx \frac{3x}{\sqrt{x^2}} = \frac{3x}{|x|}$.  As $x \rightarrow \infty$, $|x| = x$ (since $x>0$), so $h(x) \approx \frac{3x}{x} = 3$, so $h(x) \rightarrow 3$.  Likewise, as $x \rightarrow -\infty$, $|x| = -x$ (since $x<0$) and hence, $h(x)\approx  \frac{3x}{-x} = -3$, so $h(x) \rightarrow -3$.  This analysis suggests the graph of $y=h(x)$ has not one, but \textit{two} horizontal asymptotes.\sidenote{We warned you this was coming \ldots see the discussion following Theorem \ref{hathm} in Section \ref{IntroRational}.} The graph of $h$ in \autoref{fig:yeqhxeqthreexbysqrtetc} bears this out.
 
 From the graph, we see the range of $h$ appears to be $(-3,3)$.  Attempting to solve $h(x) = \frac{3x}{\sqrt{x^2 + 1}} = \pm 3$ gives, in either case, $9x^2 = 9(x^2+1)$ which reduces to $0 = 9$, a contradiction.  Hence, the graph of $y = h(x)$ never reaches its horizontal asymptotes. Moreover, $h$ appears to be always increasing, with no local extrema or `unusual' steepness.  One last remark:  it appears as if the graph of $h$ is symmetric about the origin.  We check $h(-x) = \frac{3(-x)}{\sqrt{(-x)^2+1}} = - \frac{3x}{\sqrt{x^2 + 1}} = -h(x)$ which verifies $h$ is odd.
 
 Since the domain of $h$ is all real number and the only zero of $h$ is $x=0$, the sign diagram for $h(x)$ is fairly straight forward.  For $x<0$, $h(x)<0$ or $(-)$ and for $x>0$, $h(x) >0$ or $(+)$.  The sign diagram for $h(x)$ is in \autoref{fig:signdiagramnforyeqhxeqthreebysqrtetc}.
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
-\includegraphics[width=3in]{./RootRadicalFunctionsGraphics/RadicalGraphEx03.jpg}
+\xincludegraphics{./RootRadicalFunctionsGraphics/RadicalGraphEx03.jpg}
 
-\caption{The graph of $y=h(x)$}
+\caption{}
 \label{fig:yeqhxeqthreexbysqrtetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
   
 \begin{mfpic}[20]{-4}{2}{-1}{1}
 \arrow \reverse \arrow \polyline{(-2,0),(2,0)}
@@ -668,35 +648,29 @@ Since the domain of $h$ is all real number and the only zero of $h$ is $x=0$, th
 \tlabel[cc](1,0.5){$(+)$}
 \end{mfpic}
 
-\caption{Sign Diagram for $h(x)$}
+\caption{}
 \label{fig:signdiagramnforyeqhxeqthreebysqrtetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\item  The first thing to note about the expression  $r(t) = t^{-1} \sqrt{16t^4-1}$ is that $t^{-1} = \frac{1}{t}$.  Hence, we must exclude $t=0$ from the domain straight away. Next, we have an even-indexed radical expression: $\sqrt{16t^4-1}$.  In order for this to return a real number, we require  $16t^4-1 \geq 0$.  Instead of using a sign diagram to solve this,\footnote{See Section \ref{RealZeros}} we opt instead to  \textit{carefully} use properties of radicals.  Isolating $t^4$, we have $t^4 \geq \frac{1}{16}$.  Since the root functions are increasing, we can apply the fourth root to both sides and preserve the inequality:  $\sqrt[4]{t^4} \geq \sqrt[4]{\frac{1}{16}}$ which gives\footnote{Recall: $\sqrt[n]{x^n} = |x|$, not $x$,  if $n$ is even.} $|t| \geq \frac{1}{2}$. Note that since $t =0$ does \textit{not} satisfy this inequality, restricting $t$ in this manner takes care of  \textit{both} domain issues, so the domain is  $\left(-\infty, -\frac{1}{2} \right] \cup \left[\frac{1}{2}, \infty \right)$. 
+\item  The first thing to note about the expression  $r(t) = t^{-1} \sqrt{16t^4-1}$ is that $t^{-1} = \frac{1}{t}$.  Hence, we must exclude $t=0$ from the domain straight away. Next, we have an even-indexed radical expression: $\sqrt{16t^4-1}$.  In order for this to return a real number, we require  $16t^4-1 \geq 0$.  Instead of using a sign diagram to solve this,\sidenote{See Section \ref{RealZeros}} we opt instead to  \textit{carefully} use properties of radicals.  Isolating $t^4$, we have $t^4 \geq \frac{1}{16}$.  Since the root functions are increasing, we can apply the fourth root to both sides and preserve the inequality:  $\sqrt[4]{t^4} \geq \sqrt[4]{\frac{1}{16}}$ which gives\sidenote{Recall: $\sqrt[n]{x^n} = |x|$, not $x$,  if $n$ is even.} $|t| \geq \frac{1}{2}$. Note that since $t =0$ does \textit{not} satisfy this inequality, restricting $t$ in this manner takes care of  \textit{both} domain issues, so the domain is  $\left(-\infty, -\frac{1}{2} \right] \cup \left[\frac{1}{2}, \infty \right)$. 
 
 Next, we look for zeros.  Setting $r(t) = t^{-1} \sqrt{16t^4-1} = \frac{\sqrt{16t^4-1}}{t}=0$ gives $\sqrt{16t^4-1} = 0$.  After squaring both sides, we get $16t^4-1 = 0$ or $t^4 = \frac{1}{16}$.  Extracting fourth roots, we get $t = \pm \frac{1}{2}$. Both of these are (barely!) in the domain of $r$, so our $t$ intercepts are $\left( -\frac{1}{2}, 0\right)$ and $\left( \frac{1}{2}, 0\right)$.  Note, the graph of $r$ has no $y$-intercept, since $r(0)$ is undefined ($t=0$ is not in the domain of $r$).  
 
-Concerning end behavior, we note the term $16t^4$ dominates the radicand $\sqrt{16t^4-1}$ as $t \rightarrow \pm \infty$,  hence, $r(t) = \frac{\sqrt{16t^4-1}}{t} \approx \frac{\sqrt{16t^4}}{t} = \frac{4t^2}{t} = 4t$.  This suggests the graph of $y = r(t)$ has a slant asymptote with slope $4$.\footnote{Note: this analysis suggests the slant asymptote is $y = 4t+b$, but from this analysis, we cannot determine the value of $b$.  As with slant asymptotes in Section \ref{IntroRational}, we'd need to perform a more detailed analysis which we omit in this case owing to the complexity of the function.}  
+Concerning end behavior, we note the term $16t^4$ dominates the radicand $\sqrt{16t^4-1}$ as $t \rightarrow \pm \infty$,  hence, $r(t) = \frac{\sqrt{16t^4-1}}{t} \approx \frac{\sqrt{16t^4}}{t} = \frac{4t^2}{t} = 4t$.  This suggests the graph of $y = r(t)$ has a slant asymptote with slope $4$.\sidenote{Note: this analysis suggests the slant asymptote is $y = 4t+b$, but from this analysis, we cannot determine the value of $b$.  As with slant asymptotes in Section \ref{IntroRational}, we'd need to perform a more detailed analysis which we omit in this case owing to the complexity of the function.}  
 
 We graph $y=r(t)$ below on the left.  We see the range appears to be all real numbers, $(-\infty, \infty)$.  It appears as if $r$ is increasing on $\left(-\infty, -\frac{1}{2} \right]$ and again on $\left[\frac{1}{2}, \infty \right)$.  The graph does appear to be asymptotic to $y = 4t$, and it also appears to be symmetric about the origin.  Sure enough, we find  $r(-t) = \frac{\sqrt{16(-t)^4-1}}{-t}  = - \frac{\sqrt{16t^4-1}}{t} = -r(t)$, proving $r$ is an odd function.
 
-\smallskip
-
 To construct the sign diagram for $r(t)$ we note $r$ has two zeros, $t = \pm \frac{1}{2}$.  For $t < \frac{1}{2}$, $r(t) < 0$ or $(-)$ and when $t > \frac{1}{2}$, $r(t) > 0$ or $(+)$.  When $-\frac{1}{2} < t < \frac{1}{2}$, $r$ is undefined so we have removed that segment from the diagram, as seen below on the right.
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
-\includegraphics[width=3in]{./RootRadicalFunctionsGraphics/RadicalGraphEx04.jpg}
+\xincludegraphics{./RootRadicalFunctionsGraphics/RadicalGraphEx04.jpg}
 
-\caption{The graph of $y=r(t)$}
+\caption{}
 \label{fig:yeqrteqtpowerminusoneetc}
-\end{center}
-\end{figure}
+\end{mfigure}
   
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[20][10]{0}{4}{-1.5}{1.5}
 \arrow \polyline{(2,0), (0,0)}
@@ -710,10 +684,9 @@ To construct the sign diagram for $r(t)$ we note $r$ has two zeros, $t = \pm \fr
 \tlabel[cc](3,-1){$\frac{1}{2}$}
 \end{mfpic}
  
-\caption{Sign Diagram for $r(t)$}
+\caption{}
 \label{fig:signdiagramforyeqrteqtpowerminusoneetc}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 \qed
 \end{enumerate}
@@ -732,10 +705,9 @@ We end this section with a classic application of root functions.
 
 \end{enumerate}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
-\begin{mfpic}[12]{-1}{15}{-1}{9}
+\begin{mfpic}[11]{-1}{15}{-1}{9}
 
 \xmarks{0, 4}
 
@@ -753,7 +725,7 @@ We end this section with a classic application of root functions.
 
 \tlabel[cc](1.25,9){\scriptsize Outpost}
 
-\tlabel[cc](12,0){\scriptsize Junction Box}
+\tlabel[cc](10,1){\parbox{10mm}{\scriptsize \centering Junction Box}}
 
 \tlabel[cc](7,0.5){$x$}
 
@@ -771,8 +743,7 @@ We end this section with a classic application of root functions.
 
 \caption{}
 \label{fig:exhighspeedinternetservice}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 {\bf Solution.}
 
@@ -780,8 +751,6 @@ We end this section with a classic application of root functions.
 
 \item  The cost is broken into two parts:  the cost to run cable along Route $117$ at $\$15$ per mile, and the cost to run it off road at $\$20$ per mile.  Since $x$ represents the miles of cable run along Route $117$, the cost  for that portion is $15x$.  
 From the diagram, we see that the number of miles the cable is run off road is $z$, so the cost of that portion is $20z$.  Hence, the total cost is $15x + 20z$.  
-
-\smallskip
 
 Our next goal is to determine $z$ in terms of $x$.  The diagram suggests we can use the Pythagorean Theorem to get $y^2+30^2 = z^2$.  But we also see $x+y = 50$ so that $y=50-x$.  Substituting $(50-x)$ in for $y$ we obtain $z^2 = (50-x)^2+900$.  Solving for $z$, we obtain $z = \pm \sqrt{(50-x)^2+900}$.  Since $z$ represents a distance, we choose $z = \sqrt{(50-x)^2+900}$.
 
@@ -793,15 +762,13 @@ From the context of the problem, we have $0 \leq x \leq 50$.
 
 \item  We graph $y=C(x)$ in \autoref{fig:yeqcx} and find our (local) minimum to be at the point $(15.98, 1146.86)$.  Here the $x$-coordinate tells us that in order to minimize cost, we should run $15.98$ miles of cable along Route 117 and then turn off of the road and head towards the outpost. The $y$-coordinate tells us that the minimum cost, in dollars, to do so is $\$1146.86$.  The ability to stream live SasquatchCasts?  Priceless.
 
-\begin{figure}
-\begin{center}
+\begin{ffigure}
   
-\includegraphics[width=4in]{./RootRadicalFunctionsGraphics/CostCableEx.jpg}
+\xincludegraphics{./RootRadicalFunctionsGraphics/CostCableEx.jpg}
 
 \caption{}
 \label{fig:yeqcx}
-\end{center}
-\end{figure}
+\end{ffigure}
 
 \qed
 
