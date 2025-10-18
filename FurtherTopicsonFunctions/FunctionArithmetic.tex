@@ -10,13 +10,11 @@ As we mentioned in Section \ref{GraphsofFunctions}, in this chapter, we are stud
 
 Given two real numbers,  we have four primary arithmetic operations available to us:  addition, subtraction, multiplication, and division (provided we don't divide by $0$.)  Since the functions we study in this text have ranges which are sets of real numbers, it makes sense we can extend these arithmetic notions to functions. 
 
-For example,  to add two functions means  we add their outputs;  to subtract two functions, we subtract their outputs, and so on and so forth.  More formally, given two functions $f$ and $g$, we \textit{define} a new function $f+g$ whose rule is determined by adding the outputs of $f$ and $g$.  That is $(f+g)(x) = f(x) + g(x)$.  While  this looks suspiciously like some kind of distributive property, it is nothing of the sort.  The `$+$' sign in the expression `$f+g$' is part of the \textit{name} of the function we are defining,\footnote{We could have just as easily called this new function $S(x)$ for `sum' of $f$ and $g$ and defined $S$ by $S(x) = f(x) + g(x)$.} whereas the plus sign `$+$' sign in the expression $f(x) + g(x)$ represents real number addition: we are adding the output from $f$, $f(x)$ with the output from $g$, $g(x)$ to determine the output from the sum function, $(f+g)(x)$.
+For example,  to add two functions means  we add their outputs;  to subtract two functions, we subtract their outputs, and so on and so forth.  More formally, given two functions $f$ and $g$, we \textit{define} a new function $f+g$ whose rule is determined by adding the outputs of $f$ and $g$.  That is $(f+g)(x) = f(x) + g(x)$.  While  this looks suspiciously like some kind of distributive property, it is nothing of the sort.  The `$+$' sign in the expression `$f+g$' is part of the \textit{name} of the function we are defining,\sidenote{We could have just as easily called this new function $S(x)$ for `sum' of $f$ and $g$ and defined $S$ by $S(x) = f(x) + g(x)$.} whereas the plus sign `$+$' sign in the expression $f(x) + g(x)$ represents real number addition: we are adding the output from $f$, $f(x)$ with the output from $g$, $g(x)$ to determine the output from the sum function, $(f+g)(x)$.
 
- Of course, in order to define $(f+g)(x)$ by the formula $(f+g)(x) = f(x) + g(x)$, both $f(x)$ and $g(x)$ need to be defined in the first place; that is, $x$ must be in the domain of $f$ \textit{and} the domain of $g$.  You'll recall\footnote{see Section \ref{AppSetTheory}.} this means $x$ must be in the \textit{intersection} of the domains of $f$ and $g$.   We define the following.
+ Of course, in order to define $(f+g)(x)$ by the formula $(f+g)(x) = f(x) + g(x)$, both $f(x)$ and $g(x)$ need to be defined in the first place; that is, $x$ must be in the domain of $f$ \textit{and} the domain of $g$.  You'll recall\sidenote{see Section \ref{AppSetTheory}.} this means $x$ must be in the \textit{intersection} of the domains of $f$ and $g$.   We define \autoref{functionarithmeticdefn}.
  
-\begin{tcolorbox}
-
-\begin{defn}  \label{functionarithmeticdefn}  \index{function ! arithmetic} Suppose $f$ and $g$ are functions and $x$ is in both the domain of $f$ and the domain of $g$.
+\begin{idefn}  \label{functionarithmeticdefn}  \index{function ! arithmetic} Suppose $f$ and $g$ are functions and $x$ is in both the domain of $f$ and the domain of $g$.
 \begin{itemize}
 
 \item  The \index{function ! sum} \textbf{sum} of $f$ and $g$, denoted $f+g$, is the function defined by the formula \[(f+g)(x) = f(x) + g(x)\]
@@ -29,9 +27,7 @@ For example,  to add two functions means  we add their outputs;  to subtract two
 
 \end{itemize}
 
-\end{defn}
-
-\end{tcolorbox}
+\end{idefn}
 
 We put these definitions to work for us in the next example.
 
@@ -44,8 +40,7 @@ We put these definitions to work for us in the next example.
 \item  $s$ whose graph is given in \autoref{fig:yeqst}.
 \end{shortitemize}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[15]{-2}{5}{-3}{4}
 \axes
@@ -70,8 +65,7 @@ We put these definitions to work for us in the next example.
 
 \caption{}
 \label{fig:yeqst}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 \begin{enumerate}
 
@@ -144,7 +138,7 @@ We put these definitions to work for us in the next example.
 
 \item \begin{enumerate}
 
-\item To find the domain of $hg$, we need to find the real numbers in both the domain of $h$ and the domain of $g$.  The domain of $h$ is $\{ -3, -2, 0, 3 \}$ and the domain of $g$ is $\{ t \in \mathbb{R} \, | \, t > 0 \}$ so the only real number in common here is $3$.  Hence, the domain of $hg$ is $\{ 3\}$, which may be small, but it's better than nothing.\footnote{Since $(hg)(3) = h(3)g(3) = (-6)\left(\frac{8}{3}\right) = -16$, we can write $hg = \{ (3,-16) \}$.}
+\item To find the domain of $hg$, we need to find the real numbers in both the domain of $h$ and the domain of $g$.  The domain of $h$ is $\{ -3, -2, 0, 3 \}$ and the domain of $g$ is $\{ t \in \mathbb{R} \, | \, t > 0 \}$ so the only real number in common here is $3$.  Hence, the domain of $hg$ is $\{ 3\}$, which may be small, but it's better than nothing.\sidenote{Since $(hg)(3) = h(3)g(3) = (-6)\left(\frac{8}{3}\right) = -16$, we can write $hg = \{ (3,-16) \}$.}
 
 \item To find the domain of $\frac{f}{s}$, we first note the domain of $f$ is all real numbers, but that the domain of $s$, based on the graph, is just $[-2, \infty)$.  Moreover, $s(t) = 0$ when $t=1$, so we must exclude this value from the domain of $\frac{f}{s}$.  Hence, we are left with $[-2, 1) \cup (1, \infty)$.
 
@@ -193,13 +187,11 @@ Hence, $\left(\frac{g}{f} \right)(t) = \frac{1}{2t^2} = \frac{1}{2} t^{-2}$.  To
 & = (f+(g+h))(x) \tag{definition of $(f+(g+h))(x)$} \\
 \end{align*}
 
-The key step  to the argument is that  $(f(x)+g(x))+h(x)   =  f(x) + (g(x)+h(x))$ which is true courtesy of the associative property of real number addition.  And just like with real number addition, because function addition is associative, we may write $f+g+h$ instead of $(f+g)+h$ or $f+(g+h)$ even though, when it comes down to computations, we can only add two things together at a time.\footnote{Addition is a `binary' operation - meaning it is defined only on two objects at once.  Even though we write $1+2+3 = 6$,  mentally, we add just two of  numbers together at any given time to get our answer: for example, $1+2+3 = (1+2)+3 = 3+3 = 6$.}
+The key step  to the argument is that  $(f(x)+g(x))+h(x)   =  f(x) + (g(x)+h(x))$ which is true courtesy of the associative property of real number addition.  And just like with real number addition, because function addition is associative, we may write $f+g+h$ instead of $(f+g)+h$ or $f+(g+h)$ even though, when it comes down to computations, we can only add two things together at a time.\sidenote{Addition is a `binary' operation - meaning it is defined only on two objects at once.  Even though we write $1+2+3 = 6$,  mentally, we add just two of  numbers together at any given time to get our answer: for example, $1+2+3 = (1+2)+3 = 3+3 = 6$.}
 
-For completeness, we summarize the properties of function arithmetic in the theorem below.  The proofs of the properties all follow along the same lines as the proof of the associative property and are left to the reader.  We investigate some additional properties in the exercises.
+For completeness, we summarize the properties of function arithmetic in the \autoref{functionarithmeticprops}.  The proofs of the properties all follow along the same lines as the proof of the associative property and are left to the reader.  We investigate some additional properties in the exercises.
 
-\begin{tcolorbox}
-
-\begin{thm}  \label{functionarithmeticprops}  Suppose $f$, $g$ and $h$ are functions.
+\begin{fthm}  \label{functionarithmeticprops}  Suppose $f$, $g$ and $h$ are functions.
 
 \begin{itemize}
 
@@ -224,9 +216,7 @@ For completeness, we summarize the properties of function arithmetic in the theo
 
 \end{itemize}
 
-\end{thm}
-
-\end{tcolorbox}
+\end{fthm}
 
 In the next example, we decompose given functions into sums, differences, products and/or quotients of other functions.  Note that there are infinitely many different ways to do this, including some trivial ones.  For example, suppose we were instructed to decompose $f(x) = x+2$ into a sum or difference of functions.  We could write $f = g+h$ where $g(x) = x$ and $h(x) = 2$ or we could choose $g(x) = 2x+3$ and $h(x) = -x-1$.  More simply, we could write $f = g+h$ where $g(x) = x+2$ and $h(x) = 0$.  We'll call this last decomposition a `trivial' decomposition.  Likewise, if we ask for a decomposition of $f(x) = 2x$ as a product, a nontrivial solution would be $f = gh$ where $g(x) = 2$ and $h(x) = x$ whereas a trivial solution would be $g(x) = 2x$ and $h(x) = 1$.  In general, non-trivial solutions to decomposition problems avoid using the additive identity, $0$,  for sums and differences and the multiplicative identity, $1$, for products and quotients.
 
@@ -281,7 +271,10 @@ In the next example, we decompose given functions into sums, differences, produc
 
 \item  To express $F$ as a sum of functions $G$ and $H$, we could rewrite \[ F(t) =  \dfrac{2t+1}{\sqrt{t^2-1}} = \dfrac{2t}{\sqrt{t^2-1}} + \dfrac{1}{\sqrt{t^2-1}},\] so that $G(t) =  \frac{2t}{\sqrt{t^2-1}}$ and $H(t) =  \frac{1}{\sqrt{t^2-1}}$.  Indeed, $(G+H)(t) = G(t)+H(t) =  \frac{2t}{\sqrt{t^2-1}} +  \frac{1}{\sqrt{t^2-1}} = \frac{2t+1}{\sqrt{t^2-1}} = F(t)$, as required.  Moreover, the domain restrictions for $F$ are the same for both $G$ and $H$, so we get agreement on the domain, as required.
 
-\item Last, but not least, to write $F = \frac{G+H}{K}$, we require $F(t) =\left(\frac{G+H}{K}\right)(t) = \frac{(G+H)(t)}{K(t)} = \frac{G(t)+H(t)}{K(t)}$.  Identifying $G(t) = 2t$, $H(t) = 1$, and $K(t) = \sqrt{t^2-1}$, we get \[\left(\dfrac{G+H}{K}\right)(t) = \dfrac{(G+H)(t)}{K(t)} = \dfrac{G(t) + H(t)}{K(t)} = \dfrac{2t+1}{\sqrt{t^2-1}} = F(t).\]  Concerning domains, the domain of both $G$ and $H$ are all real numbers, but the domain of $K$ is restricted to $t^2-1 \geq 0$.  Coupled with the restriction stated in Definition \ref{functionarithmeticdefn} that $K(t) \neq 0$, we recover the domain of $F$, $(-\infty, -1) \cup (1, \infty)$. \qed
+\item Last, but not least, to write $F = \frac{G+H}{K}$, we require $F(t) =\left(\frac{G+H}{K}\right)(t) = \frac{(G+H)(t)}{K(t)} = \frac{G(t)+H(t)}{K(t)}$.  Identifying $G(t) = 2t$, $H(t) = 1$, and $K(t) = \sqrt{t^2-1}$, we get \begin{multline*}
+  \left(\dfrac{G+H}{K}\right)(t) = \dfrac{(G+H)(t)}{K(t)} = \dfrac{G(t) + H(t)}{K(t)} \\
+  = \dfrac{2t+1}{\sqrt{t^2-1}} = F(t).
+\end{multline*} Concerning domains, the domain of both $G$ and $H$ are all real numbers, but the domain of $K$ is restricted to $t^2-1 \geq 0$.  Coupled with the restriction stated in Definition \ref{functionarithmeticdefn} that $K(t) \neq 0$, we recover the domain of $F$, $(-\infty, -1) \cup (1, \infty)$. \qed
 
 \end{enumerate}
 
@@ -293,7 +286,7 @@ In the next example, we decompose given functions into sums, differences, produc
 \label{differencequotients}
 
 Recall  in Section \ref{AverageRateofChange} the concept of the average rate of change of a function over the interval $[a,b]$  is the slope between the two points $(a, f(a))$ and $(b, f(b))$ and is given by \[ \dfrac{\Delta[f(x)]}{\Delta x} = \dfrac{f(b)-f(a)}{b-a}.\]
-Consider a function $f$ defined over an interval containing $x$ and $x+h$ where $h \neq 0$. The average rate of change of $f$ over the interval $[x,x+h]$ is thus given by the formula:\footnote{assuming $h>0$;  otherwise, we  the interval is $[x+h, x]$.  We get the same formula for the difference quotient either way.}
+Consider a function $f$ defined over an interval containing $x$ and $x+h$ where $h \neq 0$. The average rate of change of $f$ over the interval $[x,x+h]$ is thus given by the formula:\sidenote{assuming $h>0$;  otherwise, we  the interval is $[x+h, x]$.  We get the same formula for the difference quotient either way.}
 
 \[ \dfrac{\Delta[f(x)]}{\Delta x} = \dfrac{f(x+h)-f(x)}{h}, \quad h \neq 0.\]
 
@@ -398,13 +391,14 @@ Since $f(3) = (3)^2-3-2 = 4$, we get for the difference quotient:
 So the difference quotient is
 
 \begin{align*}
-\dfrac{f(x+h)-f(x)}{h} & = \dfrac{\left(x^2+2xh+h^2-x-h-2 \right)-\left(x^{2}-x-2 \right)}{h} \\
+& \dfrac{f(x+h)-f(x)}{h} \\
+& = \dfrac{\left(x^2+2xh+h^2-x-h-2 \right)-\left(x^{2}-x-2 \right)}{h} \\
 & = \dfrac{x^2+2xh+h^2-x-h-2-x^2+x+2}{h} \\
 & = \dfrac{2xh+h^2-h}{h} \\ 
-	& = \dfrac{h \left(2x+h-1\right)}{h} \tag{factor} \\
-	& = \dfrac{\cancel{h} \left(2x+h-1\right)}{\cancel{h}} \tag{cancel} \\
+& = \dfrac{h \left(2x+h-1\right)}{h} \tag{factor} \\
+& = \dfrac{\cancel{h} \left(2x+h-1\right)}{\cancel{h}} \tag{cancel} \\
 & = 2x+h-1
-\end{align*} 
+\end{align*}
 
 Note if we substitute $x=3$ into this expression, we obtain $5+h$ which agrees with our answer from the first difference quotient.
 
@@ -441,17 +435,16 @@ $\dfrac{g(0+\Delta x)-g(0)}{\Delta x}$ & = & $\dfrac{\dfrac{3}{2\Delta x+1}-3}{\
 
 Hence,
 
-\begin{longtable}{rclr}  
-
-$\dfrac{g(x+\Delta x)-g(x)}{\Delta x}$ & = & $\dfrac{\dfrac{3}{2x+2\Delta x+1}-\dfrac{3}{2x+1}}{\Delta x}$ & \\ [10pt]
-& = &  $\dfrac{\dfrac{3}{2x+2\Delta x+1}-\dfrac{3}{2x+1}}{\Delta x} \cdot \dfrac{(2x+2\Delta x+1)(2x+1)}{(2x+2\Delta x+1)(2x+1)}$ & \\ [10pt]
-& = &  $\dfrac{3(2x+1)-3(2x+2\Delta x+1)}{\Delta x(2x+2\Delta x+1)(2x+1)}$  & \\ [10pt]
-& = &  $\dfrac{6x+3-6x-6\Delta x-3}{\Delta x(2x+2\Delta x+1)(2x+1)}$  & \\ [10pt]
-& = &  $\dfrac{-6\Delta x}{\Delta x(2x+2\Delta x+1)(2x+1)}$  & \\ [10pt]
-& = &  $\dfrac{-6\cancel{\Delta x}}{\cancel{\Delta x}(2x+2\Delta x+1)(2x+1)}$  & \\ [10pt]
-& = &  $\dfrac{-6}{(2x+2\Delta x+1)(2x+1)}$.  & \\ 
-
-\end{longtable}
+\begin{align*}
+& \dfrac{g(x+\Delta x)-g(x)}{\Delta x} \\
+& = \dfrac{\dfrac{3}{2x+2\Delta x+1}-\dfrac{3}{2x+1}}{\Delta x} \\
+& = \dfrac{\dfrac{3}{2x+2\Delta x+1}-\dfrac{3}{2x+1}}{\Delta x} \cdot \dfrac{(2x+2\Delta x+1)(2x+1)}{(2x+2\Delta x+1)(2x+1)} \\
+& = \dfrac{3(2x+1)-3(2x+2\Delta x+1)}{\Delta x(2x+2\Delta x+1)(2x+1)}  \\
+& = \dfrac{6x+3-6x-6\Delta x-3}{\Delta x(2x+2\Delta x+1)(2x+1)}  \\
+& = \dfrac{-6\Delta x}{\Delta x(2x+2\Delta x+1)(2x+1)}  \\
+& = \dfrac{-6\cancel{\Delta x}}{\cancel{\Delta x}(2x+2\Delta x+1)(2x+1)}  \\
+& = \dfrac{-6}{(2x+2\Delta x+1)(2x+1)} \\ 
+\end{align*}
 
 Since we have managed to cancel the factor `$\Delta x$' from the denominator, we are done.  Substituting $x=0$ into our final expression gives $\frac{-6}{2 \Delta x +1}$ thus checking our previous answer.
 
@@ -482,7 +475,8 @@ In order to cancel the factor `$\Delta t$' from the \textit{denominator}, we set
 \item As one might expect, we use this same strategy to simplify our final  different quotient. We have:
 
 \begin{align*}
-\dfrac{r(t+\Delta t) - r(t)}{\Delta t} & = \dfrac{\sqrt{t+\Delta t} - \sqrt{t}}{\Delta t} \\
+& \dfrac{r(t+\Delta t) - r(t)}{\Delta t} \\
+& = \dfrac{\sqrt{t+\Delta t} - \sqrt{t}}{\Delta t} \\
 & = \dfrac{\left(\sqrt{t+\Delta t} - \sqrt{t}\right)}{\Delta t} \cdot \dfrac{\left(\sqrt{t+\Delta t} + \sqrt{t}\right)}{\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} \tag{Multiply by the conjugate.} \\
 & = \dfrac{\left(\sqrt{t+\Delta t}\right)^2 - \left(\sqrt{t}\right)^2}{\Delta t\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} \tag{Difference of Squares.}\\
 & = \dfrac{(t+\Delta t) - t}{\Delta t\left(\sqrt{t+\Delta t} + \sqrt{t}\right)} \\
@@ -516,8 +510,6 @@ We close this section revisiting the situation in Example \ref{averagevelocityro
 
 \end{enumerate}
 
-\newpage
-
 {\bf Solution.}
 
 \begin{enumerate}
@@ -546,8 +538,7 @@ In addition to the restriction $\Delta t \neq 0$, we also know the domain of $s$
 
 \item  The graph of $y =  -5 \Delta t - 50$ is a line with slope $-5$ and $y$-intercept $(0, -50)$.  However, since the domain of $\overline{v}$ is $[-15, 0) \cup (0, 5]$, we the graph of $\overline{v}$ is a line \textit{segment} from $(-15, 25)$ to $(5, -75)$ with a hole at $(0, -50)$. See \autoref{fig:yeqvbardeltat}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[15]{-4}{2}{-8}{3}
 \axes
@@ -570,8 +561,7 @@ In addition to the restriction $\Delta t \neq 0$, we also know the domain of $s$
 
 \caption{$y=\overline{v}(\Delta t)$}
 \label{fig:yeqvbardeltat}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 \item  As $\Delta t \rightarrow 0$, $\overline{v}(\Delta t) \rightarrow -50$ meaning as we approach $t=15$, the velocity of the rocket approaches $-50$ feet per second.  Recall from Example \ref{averagevelocityrocketex} that this is the so-called \textit{instantaneous velocity} of the rocket \textit{at} $t=15$ seconds.  That is, $15$ seconds after lift-off, the rocket is heading back towards the surface of the moon at a rate of $15$ feet per second. \qed
 
