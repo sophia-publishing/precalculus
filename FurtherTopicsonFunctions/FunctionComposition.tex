@@ -8,20 +8,17 @@
 
 In Section \ref{FunctionArithmetic}, we saw how the arithmetic of real numbers carried over into an arithmetic of functions.  In this section, we discuss another way to combine functions which is unique to functions and isn't shared with real numbers - function \textbf{composition}.
 
-\begin{tcolorbox}
+\begin{mdefn} \label{functioncompositiondefn} Let $f$ and $g$ be functions where the real number $x$ is in the domain of $f$ and the real number $f(x)$ is in the domain of $g$.  The \index{function ! composite ! definition of}\index{composite function ! definition of}\textbf{composite} of $g$ with $f$, denoted $g \circ f$, and read `$g$ composed with $f$' is defined by the formula: $(g \circ f) (x) = g(f(x))$.
 
-\begin{defn} \label{functioncompositiondefn} Let $f$ and $g$ be functions where the real number $x$ is in the domain of $f$ and the real number $f(x)$ is in the domain of $g$.  The \index{function ! composite ! definition of}\index{composite function ! definition of}\textbf{composite} of $g$ with $f$, denoted $g \circ f$, and read `$g$ composed with $f$' is defined by the formula: $(g \circ f) (x) = g(f(x))$.
+\end{mdefn}
 
-\end{defn}
-\end{tcolorbox}
+To compute $(g \circ f)(x) $, we use the formula given in  Defintion \ref{functioncompositiondefn}:   $(g \circ f) (x) = g(f(x))$.  However, from a procedural viewpoint, Defintion \ref{functioncompositiondefn} tells us  the output from $g \circ f$ is found by taking the output from $f$, $f(x)$,  and then making that the input to $g$.   From this perspective, we see $g \circ f$ as a two step process taking an input $x$ and first applying the procedure $f$ then applying the procedure $g$.  Abstractly, we have as in \autoref{fig:mapofgdotf}.
 
-To compute $(g \circ f)(x) $, we use the formula given in  Defintion \ref{functioncompositiondefn}:   $(g \circ f) (x) = g(f(x))$.  However, from a procedural viewpoint, Defintion \ref{functioncompositiondefn} tells us  the output from $g \circ f$ is found by taking the output from $f$, $f(x)$,  and then making that the input to $g$.   From this perspective, we see $g \circ f$ as a two step process taking an input $x$ and first applying the procedure $f$ then applying the procedure $g$.  Abstractly, we have
+\begin{mfigure}
 
-\begin{center}
+\scriptsize
 
-\footnotesize
-
-\begin{mfpic}[10]{-10}{20}{-10}{10}
+\begin{mfpic}[4]{-10}{20}{-10}{10}
 \tlabel[cc](-2,6){$f$}
 \tlabel[cc](11,6){$g$}
 \tlabel[cc](4.5,-6){$g \circ f$}
@@ -38,9 +35,9 @@ To compute $(g \circ f)(x) $, we use the formula given in  Defintion \ref{functi
 \arrow \curve{(-8.9,-0.25), (4.5,-5), (17.9,-0.25)}
 \end{mfpic}
 
-\end{center}
-
-\normalsize
+\caption{}
+\label{fig:mapofgdotf}
+\end{mfigure}
 
 In the expression $g(f(x))$, the function $f$ is often called the `inside' function while $g$ is often called the `outside' function.  When evaluating  composite function values we present two methods in the example below:  the `inside out' and `outside in'  methods.  
 
@@ -73,7 +70,7 @@ In numbers \ref{fcexformfirst} - \ref{fcexformlast}, find and simplify the indic
 
 \item  Using Definition \ref{functioncompositiondefn}, $(g \circ f)(1) = g(f(1))$.  Since $f(1) = (1)^2 - 4(1) = -3$ and $g(-3) = 2 - \sqrt{(-3)+3} = 2$, we have $(g \circ f)(1) = g(f(1)) = g(-3) = 2$.
 
-\item  By definition, $(f \circ g)(1) = f(g(1))$.  We find $g(1) = 2 - \sqrt{1+3} = 0$, and $f(0) = (0)^2-4(0) = 0$, so $(f \circ g)(1) = f(g(1)) = f(0) = 0$. Comparing this with our answer to the last problem, we see that $(g \circ f)(1) \neq (f \circ g)(1)$  which tells us function composition is not commutative,\footnote{That is, in general, $g \circ f \neq f \circ g$.  This shouldn't be too surprising, since, in general, the order of processes matters: adding eggs to a cake batter then baking the cake batter has a much different outcome than baking the cake batter then adding eggs.}
+\item  By definition, $(f \circ g)(1) = f(g(1))$.  We find $g(1) = 2 - \sqrt{1+3} = 0$, and $f(0) = (0)^2-4(0) = 0$, so $(f \circ g)(1) = f(g(1)) = f(0) = 0$. Comparing this with our answer to the last problem, we see that $(g \circ f)(1) \neq (f \circ g)(1)$  which tells us function composition is not commutative,\sidenote{That is, in general, $g \circ f \neq f \circ g$.  This shouldn't be too surprising, since, in general, the order of processes matters: adding eggs to a cake batter then baking the cake batter has a much different outcome than baking the cake batter then adding eggs.}
 
 \item  Since   $(g \circ g)(6) = g(g(6))$, we `iterate' the process $g$:   that is, we apply the process $g$ to $6$, then apply the process $g$ again. We find $g(6) = 2 - \sqrt{6+3} = -1$,  and $g(-1)  = 2 - \sqrt{(-1)+3} = 2 - \sqrt{2}$,   so $(g \circ g)(6) = g(g(6)) = g(-1) = 2-\sqrt{2}$.
 
@@ -262,7 +259,7 @@ To find the domain of $h \circ h$,  we need to find the elements in the domain o
  
  \end{itemize}
  
-To find the domain of $h \circ (g \circ f)$, we need the domain elements of $g \circ f$, $(-\infty, 1] \cup [3,\infty)$, so that $(g \circ f)(x)$ is in the domain of $h$.  As we've seen several times already, the only domain restriction for $h$ is $s \neq -1$, so we set  $(g \circ f)(x) = 2 - \sqrt{x^2-4x+3} = -1$ and exclude the solutions.     We get $\sqrt{x^2-4x+3} = 3$, and, after squaring both sides, we have $x^2-4x+3 = 9$.  We solve $x^2-4x-6 = 0$ using the quadratic formula and obtain $x = 2 \pm \sqrt{10}$.  The reader is encouraged to check that both of these numbers satisfy the original equation, $2 - \sqrt{x^2-4x+3} = -1$ and also belong to the domain of $g \circ f$, $(-\infty, 1] \cup [3,\infty)$, and so must be excluded from our final answer.\footnote{We can approximate $\sqrt{10} \approx 3$ so $2-\sqrt{10} \approx -1$ and $2+\sqrt{10} \approx 5$.}   Our final domain for $h \circ (f \circ g)$ is $(-\infty, 2 -\sqrt{10}) \cup (2 - \sqrt{10}, 1] \cup \left[3, 2 + \sqrt{10}\right) \cup \left(2+\sqrt{10}, \infty\right)$.
+To find the domain of $h \circ (g \circ f)$, we need the domain elements of $g \circ f$, $(-\infty, 1] \cup [3,\infty)$, so that $(g \circ f)(x)$ is in the domain of $h$.  As we've seen several times already, the only domain restriction for $h$ is $s \neq -1$, so we set  $(g \circ f)(x) = 2 - \sqrt{x^2-4x+3} = -1$ and exclude the solutions.     We get $\sqrt{x^2-4x+3} = 3$, and, after squaring both sides, we have $x^2-4x+3 = 9$.  We solve $x^2-4x-6 = 0$ using the quadratic formula and obtain $x = 2 \pm \sqrt{10}$.  The reader is encouraged to check that both of these numbers satisfy the original equation, $2 - \sqrt{x^2-4x+3} = -1$ and also belong to the domain of $g \circ f$, $(-\infty, 1] \cup [3,\infty)$, and so must be excluded from our final answer.\sidenote{We can approximate $\sqrt{10} \approx 3$ so $2-\sqrt{10} \approx -1$ and $2+\sqrt{10} \approx 5$.}   Our final domain for $h \circ (f \circ g)$ is $(-\infty, 2 -\sqrt{10}) \cup (2 - \sqrt{10}, 1] \cup \left[3, 2 + \sqrt{10}\right) \cup \left(2+\sqrt{10}, \infty\right)$.
 
 \item  The expression $((h \circ g) \circ f)(x)$ indicates that we first find the composite $h \circ g$ and then compose that with $f$.  From number \ref{hogex}, we have \[(h \circ g)(t) = \frac{4-2\sqrt{t+3}}{3-\sqrt{t+3}}\]  with domain $[-3, 6) \cup (6, \infty)$.
 \begin{itemize}
@@ -289,10 +286,9 @@ Since the domain of $f$ is all real numbers, the challenge here to find the doma
 \label{functioncompex1}
 \end{ex}
 
-As previously mentioned, it should be clear from  Example \ref{functioncompex1} that, in general, $g \circ f \neq f \circ g$, in other words, function composition is not \textit{commutative}.  However, numbers \ref{hogoffirst} and  \ref{fcexformlast} demonstrate the \index{associative property ! for function composition} \textbf{associative} property of function composition.  That is, when composing three (or more) functions, as long as we keep the order the same, it doesn't matter which two functions we compose first.  We summarize the important properties of function composition in the theorem below.
+As previously mentioned, it should be clear from  Example \ref{functioncompex1} that, in general, $g \circ f \neq f \circ g$, in other words, function composition is not \textit{commutative}.  However, numbers \ref{hogoffirst} and  \ref{fcexformlast} demonstrate the \index{associative property ! for function composition} \textbf{associative} property of function composition.  That is, when composing three (or more) functions, as long as we keep the order the same, it doesn't matter which two functions we compose first.  We summarize the important properties of function composition in \autoref{fig:functioncompprops}.
 
-\begin{tcolorbox}
-\begin{thm}\label{functioncompprops}  \textbf{Properties of Function Composition:} Suppose $f$, $g$, and $h$ are functions. \index{function ! composite ! properties of} \index{composite function ! properties of}
+\begin{mthm}\label{functioncompprops}  \textbf{Properties of Function Composition:} Suppose $f$, $g$, and $h$ are functions. \index{function ! composite ! properties of} \index{composite function ! properties of}
 
 \begin{itemize}
 
@@ -302,8 +298,7 @@ As previously mentioned, it should be clear from  Example \ref{functioncompex1} 
 
 \end{itemize}
 
-\end{thm}
-\end{tcolorbox}
+\end{mthm}
 
 By repeated applications of Definition \ref{functioncompositiondefn}, we find  $(h \circ (g \circ f))(x) = h((g \circ f)(x)) = h(g(f(x)))$.  Similarly, $((h \circ g) \circ f)(x) = (h \circ g)(f(x)) = h(g(f(x)))$.  This establishes that the formulas for the two functions are the same.  We leave it to the reader to think about why the domains of these two functions are identical, too.  These two facts establish the equality $h \circ (g \circ f) = (h \circ g) \circ f$.  A consequence of the associativity of function composition is that there is no need for parentheses when we write $h \circ g \circ f$. The second property can also be verified using Definition \ref{functioncompositiondefn}.  Recall that the function $I(x) = x$ is called the \index{identity ! function} \textit{identity function} and was introduced in Exercise  \ref{identityexercise} in Section \ref{ConstantandLinearFunctions}.  If we compose the function $I$ with a function $f$, then we have $(I \circ f)(x) = I(f(x)) = f(x)$, and a similar computation shows $(f\circ I)(x) = f(I(x)) = f(x)$. This establishes that we have an identity for function composition much in the same way the function $I(x) = 1$ is an identity for function multiplication. 
 
@@ -311,12 +306,8 @@ As we know, not all functions are described by formulas, and, moreover, not all 
 
 \begin{ex} \label{functioncompotherreprensex}  Consider the following functions:
 
-\begin{shortitemize}
-\item $f(x) = 6x - x^2$ \vphantom{$g(t)  = \begin{cases} 
-      2t-1 &  \text{if $0 \leq t < 3$, } \\
-      t^2  & \text{if $t \geq 3$.} \\
-   \end{cases} $}
-
+\begin{itemize}
+\item $f(x) = 6x - x^2$
 \item $g(t) \begin{cases} 
       2t-1 &  \text{if $-1 \leq t < 3$, } \\
       t^2  & \text{if $t \geq 3$.} \\
@@ -326,10 +317,9 @@ As we know, not all functions are described by formulas, and, moreover, not all 
   
 \item  $s$ whose graph is given in \autoref{fig:yeqstfcompex3}:
    
-\end{shortitemize}
+\end{itemize}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[15]{-3}{6}{-3}{4}
 \axes
@@ -355,8 +345,8 @@ As we know, not all functions are described by formulas, and, moreover, not all 
  
 \caption{$y = s(t)$}
 \label{fig:yeqstfcompex3}
-\end{center}
-\end{figure}
+\end{mfigure}
+
 \begin{enumerate}
 
 \item  Find and simplify the following function values:
@@ -389,16 +379,18 @@ As we know, not all functions are described by formulas, and, moreover, not all 
 
 \end{enumerate}
 
-\item  To find a formula for $(g \circ f)(x) = g(f(x))$, we substitute $f(x) = 6x-x^2$ in for $t$ in the formula for $g(t)$: 
-\begin{align*}
-	(g \circ f)(x) = g(f(x)) &= g(6x-x^2)\\
-	&=   \begin{cases}   2(6x-x^2) -1 &  \text{if $-1 \leq 6x-x^2  < 3$, } \\  (6x-x^2)^2  & \text{if $6x-x^2 \geq 3$.} \\ \end{cases}
-\end{align*}
+\item To find a formula for $(g \circ f)(x) = g(f(x))$, we substitute $f(x) = 6x-x^2$ in for $t$ in the formula for $g(t)$: 
+\begin{multline*}
+	(g \circ f)(x) = g(f(x)) = g(6x-x^2)\\
+	= \begin{cases}
+		2(6x-x^2) -1 &  \text{if $-1 \leq 6x-x^2  < 3$, } \\
+		(6x-x^2)^2  & \text{if $6x-x^2 \geq 3$.}
+	\end{cases}
+\end{multline*}
 
 Simplifying each expression, we get  $ 2(6x-x^2) -1 = -2x^2+12x-1$  for the first piece and $(6x-x^2)^2 = x^4 - 12x^3 +36x^2$ for the second piece.  The real challenge comes in  solving the inequalities   $-1 \leq 6x-x^2  < 3$ and $6x-x^2 \geq 3$.  While we could solve each individually using a sign diagram, a graphical approach works best here.  We graph the parabola $y = 6x-x^2$, finding the vertex is $(3, 9)$ with intercepts $(0,0)$ and $(6,0)$ along with the horizontal lines $y = -1$ and $y=3$ below.  We determine the intersection points by solving $6x-x^2=-1$ and $6x-x^2=3$.  Using the quadratic formula, we find the solutions to each equation are $x = 3 \pm \sqrt{10}$ and $x = 3 \pm \sqrt{6}$, respectively. 
 
-\begin{figure}
-\begin{center}
+\begin{ifigure}
 
 \begin{mfpic}[15]{-2}{8}{-2}{10}
 \axes
@@ -425,48 +417,25 @@ Simplifying each expression, we get  $ 2(6x-x^2) -1 = -2x^2+12x-1$  for the firs
  
 \caption{$y =  6x-x^2$, $y=-1$, $y=3$}
 \label{fig:yeqsixxminusxetc}
-\end{center}
-\end{figure}
+\end{ifigure}
 
 From the graph in \autoref{fig:yeqsixxminusxetc}, we see the parabola $y = 6x - x^2$ is between the lines $y = -1$ and $y=3$  from $x = 3- \sqrt{10}$ to $x= 3 - \sqrt{6}$ and again from  $x = 3+\sqrt{6}$ to $x=3+\sqrt{10}$.  Hence the solution to  $-1 \leq 6x-x^2  < 3$ is $[3- \sqrt{10}, 3 - \sqrt{6}) \cup (3+\sqrt{6}, 3+\sqrt{10}]$.  We also note $y = 6x-x^2$ is above the line $y=3$ for all $x$ between $x=3-\sqrt{6}$ and $3+\sqrt{6}$.  Hence, the solution to $6x-x^2 \geq 3$ is $[3-\sqrt{6}, 3+\sqrt{6}]$.  Hence, 
 
 \[
 	(g \circ f)(x) =
 		\begin{cases}
-		    -2x^2+12x-1 & \text{if } x \in [3- \sqrt{10}, 3 - \sqrt{6}) \\ & \qquad\qquad \cup (3+\sqrt{6}, 3+\sqrt{10}]\text{,}\\
-		    x^4 - 12x^3 + +36x^2  & \text{if $x \in [3-\sqrt{6}, 3+\sqrt{6}]$.} \\
+		    -2x^2+12x-1 \\
+				\qquad \text{if } x \in [3- \sqrt{10}, 3 - \sqrt{6}) \\
+				\qquad\qquad \cup (3+\sqrt{6}, 3+\sqrt{10}]\text{,}\\
+		    x^4 - 12x^3 + +36x^2  \\
+				\qquad \text{if $x \in [3-\sqrt{6}, 3+\sqrt{6}]$.} \\
 		\end{cases}
 \]
 
-\item  Last but not least, we are tasked with representing $s \circ h$ as a set of ordered pairs.  Since $h$ is described by the discrete set of points $h = \{ (-3,1), (-2,6), (0,-2), (1,5), (3,-1)  \}$, we find $s \circ h$ point by point.  We keep the graph of $s$ handy and construct the table below to help us organize our work. 
-\begin{center}
+\item  Last but not least, we are tasked with representing $s \circ h$ as a set of ordered pairs.  Since $h$ is described by the discrete set of points
+\[h = \{ (-3,1), (-2,6), (0,-2), (1,5), (3,-1)  \}\], we find $s \circ h$ point by point.  From the graph of $s$ in \autoref{fig:yeqstfcompex3} we construct \autoref{tab:yeqstfcompex3} to help us organize our work. 
 
-\begin{tabular}{m{2.5in}m{2.5in}}
-
-\begin{mfpic}[15]{-3}{6}{-3}{4}
-\axes
-\tlabel[cc](6,-0.5){\scriptsize $t$}
-\tlabel[cc](0.5,4){\scriptsize $y$}
-\xmarks{-2, -1, 0, 1, 2, 3, 4,5}
-\ymarks{-2, -1, 0, 1, 2, 3}
-\tcaption{\scriptsize $y = s(t)$}
-\tlpointsep{4pt}
-\scriptsize
-\tlabel[cc](-2, 3.5){$(-2,3)$}
-\tlabel[cc](1, 3.5){$(1,3)$}
-\tlabel[cc](2, -2.5){$(2,-2)$}
-\tlabel[cc](5, 0.5){$(5, 0)$}
-\axislabels {x}{{$-2 \hspace{7pt}$} -1,{$-2 \hspace{7pt}$} -1,{$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
-\axislabels {y}{{$2$} 2,{$-1$} -1,{$1$} 1}
-\normalsize
-\penwd{1.25pt}
- \polyline{(-2, 3), (1, 3), (2, -2), (5, 0)}
-\point[4pt]{(-2,3), (1,3), (2,-2)}
-\pointfillfalse
-\point[4pt]{(5,0)}
-\end{mfpic}
-
-& 
+\begin{mtable}
 
 $ \begin{array}{|r||r|c|}  \hline
 
@@ -481,24 +450,17 @@ x & h(x) & s(h(x)) \\ \hline
 1 & 5 & \text{undefined} \\ \hline
 
 3 & -1 & 3 \\  \hline
+\end{array} $
 
-
-  \end{array} $
-  
-\\ 
-
-\end{tabular}  
-  
-  \end{center}
+\caption{}
+\label{tab:yeqstfcompex3}
+\end{mtable}
   
 Since neither $6$ nor $5$ are in the domain of $s$, $-2$ and $1$ are not in the domain of $s \circ h$.  Hence, we get $s \circ h = \{ (-3,3), (0,3), (3,3) \}$. \qed
-
 
 \end{enumerate}
 
 \end{ex}
-
-
 
 A useful skill in Calculus is to be able to take a complicated function and break it down into a composition of easier functions which our last example illustrates. As with Example \ref{funcarithdecompex}, we want to avoid trivial decompositions, which, when it comes to function composition, are those involving the identity function $I(x) = x$ as described in Theorem \ref{functioncompprops}.
 
@@ -508,7 +470,6 @@ A useful skill in Calculus is to be able to take a complicated function and brea
 
 \item Write each of the following functions as a composition of two or more (non-identity) functions.  Check your answer by performing the function composition.
 
-\begin{multicols}{3}
 \begin{enumerate}
 
 \item $F(x) = |3x-1|$
@@ -518,7 +479,6 @@ A useful skill in Calculus is to be able to take a complicated function and brea
 \item  $H(s) = \dfrac{\sqrt{s}+1}{\sqrt{s}-1}$
 
 \end{enumerate}
-\end{multicols}
 
 \item For $F(x) = \sqrt{\dfrac{2x-1}{x^2+4}}$, find functions $f$, $g$, and $h$ to decompose $F$ nontrivially as $F = f \circ \left(\dfrac{g}{h} \right)$.
 
@@ -533,13 +493,21 @@ A useful skill in Calculus is to be able to take a complicated function and brea
 
 \item  Our goal is to express the function $F$ as $F = g \circ f$ for functions $g$ and $f$.  From Definition \ref{functioncompositiondefn}, we know $F(x) = g(f(x))$, and we can think of $f(x)$ as being the `inside' function and $g$ as being the `outside' function.  Looking at $F(x) = |3x-1|$ from an `inside versus outside' perspective, we can think of $3x-1$ being inside the absolute value symbols.  Taking this cue, we define $f(x) = 3x-1$.  At this point, we have $F(x) = |f(x)|$.  What is the outside function?  The function which takes the absolute value of its input, $g(x) = |x|$. Sure enough,  this checks: $(g \circ f)(x) = g(f(x)) = |f(x)| = |3x-1| = F(x)$.
 
-\item  We attack deconstructing $G$ from an operational approach.  Given an input $t$, the first step is to square $t$, then add $1$, then divide the result into $2$.  We will assign each of these steps a function so as to write $G$ as a composite of \textit{three} functions: $f$, $g$ and $h$.  Our first function, $f$, is the function that squares its input, $f(t) = t^2$.  The next function is the function that adds $1$ to its input, $g(t) = t+1$.  Our last function takes its input and divides it into $2$, $h(t) = \frac{2}{t}$.  The claim is that $G = h \circ g \circ f$ which checks:  \[(h \circ g \circ f)(t) = h(g(f(t))) = h(g\left(t^2\right)) = h\left(t^2+1\right)= \frac{2}{t^2+1} = G(x).\] 
+\item  We attack deconstructing $G$ from an operational approach.  Given an input $t$, the first step is to square $t$, then add $1$, then divide the result into $2$.  We will assign each of these steps a function so as to write $G$ as a composite of \textit{three} functions: $f$, $g$ and $h$.  Our first function, $f$, is the function that squares its input, $f(t) = t^2$.  The next function is the function that adds $1$ to its input, $g(t) = t+1$.  Our last function takes its input and divides it into $2$, $h(t) = \frac{2}{t}$.  The claim is that $G = h \circ g \circ f$ which checks:  
+\begin{multline*}
+	(h \circ g \circ f)(t) = h(g(f(t))) = h(g\left(t^2\right)) \\
+	= h\left(t^2+1\right)= \frac{2}{t^2+1} = G(x).
+\end{multline*}
 
 \item  If we look $H(s) = \frac{\sqrt{s}+1}{\sqrt{s}-1}$ with an eye towards building a complicated function from simpler functions, we see the expression $\sqrt{s}$ is a simple piece of the larger function.  If we define $f(s) = \sqrt{s}$, we have $H(s) = \frac{f(s)+1}{f(s)-1}$.  If we want to decompose $H = g \circ f$, then we can glean the formula for $g(s)$ by looking at what is being done to $f(s)$.  We take $g(s) = \frac{s+1}{s-1}$, and check below:  \[(g \circ f)(s) = g(f(s)) = \frac{f(s)+1}{f(s)-1} = \frac{\sqrt{s}+1}{\sqrt{s}-1} = H(s).\]  \qed
 
 \end{enumerate}
 
-\item To write $F = f \circ \left(\frac{g}{h} \right)$ means \[F(x) =  \sqrt{\dfrac{2x-1}{x^2+4}} = \left( f \circ \left(\dfrac{g}{h} \right) \right)(x) = f \left(  \left(\dfrac{g}{h} \right)(x) \right) = f \left( \dfrac{g(x)}{h(x)} \right).\]
+\item To write $F = f \circ \left(\frac{g}{h} \right)$ means
+\begin{multline*}
+F(x) =  \sqrt{\dfrac{2x-1}{x^2+4}} = \left( f \circ \left(\dfrac{g}{h} \right) \right)(x) \\
+= f \left(  \left(\dfrac{g}{h} \right)(x) \right) = f \left( \dfrac{g(x)}{h(x)} \right).
+\end{multline*}
 
 Working from the inside out, we have a rational expression with  numerator $g(x)$ and denominator $h(x)$.  Looking at the formula for $F(x)$, one choice is $g(x) = 2x-1$ and $h(x) = x^2+4$. Making these identifications, we have  \[ F(x) = \sqrt{\dfrac{2x-1}{x^2+4}} = \sqrt{\dfrac{g(x)}{h(x)}}.\]
 
@@ -557,7 +525,7 @@ We close this section of a real-world application of function composition.
 
 \end{ex}
 
-\newpage
+\clearpage
 
 \subsection{Exercises}
 \input{ExercisesforFunctionComposition}
