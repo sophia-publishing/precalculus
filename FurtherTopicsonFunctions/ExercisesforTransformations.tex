@@ -1,10 +1,13 @@
 \startexenum
 
+\begin{exenum}
+
 \label{ExercisesforTransformations}
 
+\mexinstr{%
 Suppose $(2,-3)$ is on the graph of $y = f(x)$.  In Exercises \ref{transformpointfirst} - \ref{transformpointlast}, use Theorem \ref{transformationsthm} to find a point on the graph of the given transformed function.  
+}
 
-\begin{shortexenum}[MMMMMMMMM]
 \item $y = f(x)+3$ \label{transformpointfirst}
 \item $y = f(x+3)$
 \item $y = f(x)-1$
@@ -23,14 +26,14 @@ Suppose $(2,-3)$ is on the graph of $y = f(x)$.  In Exercises \ref{transformpoin
 \item $y =f\left(\dfrac{7-2x}{4}\right)$
 \item $y = \dfrac{f(3x) - 1}{2}$
 \item $y = \dfrac{4-f(3x-1)}{7}$ \label{transformpointlast}
-\end{shortexenum}
 
+\mexinstr{%
 The complete graph of $y = f(x)$ is given in \autoref{fig:functionsexfirstset}.  In Exercises \ref{transformgraphfirst} - \ref{transformgraphlast}, use it and Theorem \ref{transformationsthm} to graph the given transformed function.
+}
 
-\begin{figure}[h]
-\begin{center}
+\begin{mfigure}
 
-\begin{mfpic}[15]{-5}{5}{-1}{5}
+\begin{mfpic}[13]{-5}{5}{-1}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $x$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -49,64 +52,33 @@ The complete graph of $y = f(x)$ is given in \autoref{fig:functionsexfirstset}. 
 \point[4pt]{(-2,2), (0,0), (2,2)}
 \end{mfpic} 
 
-\caption{The graph of $y = f(x)$ for Ex. \ref{transformgraphfirst} - \ref{transformgraphlast}}
+\caption{}
 \label{fig:functionsexfirstset}
-\end{center}
-\end{figure}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
+\end{mfigure}
 
 \item $y = f(x) + 1$ \label{transformgraphfirst}
 \item $y = f(x) - 2$
 \item $y = f(x+1)$
 
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item $y = f(x - 2)$
 \item $y = 2f(x)$
 \item $y = f(2x)$
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-\begin{multicols}{3}
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
 
 \item $y = 2 - f(x)$
 \item $y = f(2-x)$
 \item $y = 2-f(2-x)$ \label{transformgraphlast}
 
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-\end{multicols}
-
-
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
 \item \label{somegraphsthesame} Some of the answers to Exercises \ref{transformgraphfirst} - \ref{transformgraphlast} above should be the same.  Which ones match up?  What properties of the graph of $y=f(x)$ contribute to the duplication?
 
 \item  The function $f$ used in  Exercises \ref{transformgraphfirst} - \ref{transformgraphlast} should look familiar.  What is $f(x)$?  How does this this explain some of the duplication in the answers to Exercises \ref{transformgraphfirst} - \ref{transformgraphlast} mentioned in Exercise \ref{somegraphsthesame}?
 
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-
+\mexinstr{%
 The complete graph of $y =g(t)$ is given in \autoref{fig:functionsexsecondset}.  In Exercises \ref{transsecondgraphfirst} - \ref{transsecondgraphlast}, use it and Theorem \ref{transformationsthm} to graph the given transformed function.
+}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfpic}[13]{-5}{5}{-5}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $t$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -126,12 +98,10 @@ The complete graph of $y =g(t)$ is given in \autoref{fig:functionsexsecondset}. 
 \point[4pt]{(-2,0), (0,4), (2,0), (4,-2)}
 \end{mfpic} 
 
-\caption{The graph of $y = g(t)$ for Ex. \ref{transsecondgraphfirst} - \ref{transsecondgraphlast}}
+\caption{}
 \label{fig:functionsexsecondset}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{shortexenum}[MMMMMMMMMMM]
 \item  $y = g(t) - 1$ \label{transsecondgraphfirst}
 \item  $y = g(t + 1)$
 \item  $y = \frac{1}{2} g(t)$
@@ -141,14 +111,14 @@ The complete graph of $y =g(t)$ is given in \autoref{fig:functionsexsecondset}. 
 \item  $y = g(t+1) - 1$
 \item  $y = 1 - g(t)$
 \item  $y = \frac{1}{2}g(t+1)-1$ \label{transsecondgraphlast}
-\end{shortexenum}
 
+\mexinstr{%
 The complete graph of $y = f(x)$ is given in \autoref{fig:functionsexthirdset}.  In Exercises \ref{transthirdgraphfirst} - \ref{transthirdgraphlast}, use it and Theorem \ref{transformationsthm} to graph the given transformed function.
+}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
-\begin{mfpic}[20]{-4}{4}{-1.5}{4}
+\begin{mfpic}[16]{-4}{4}{-1.5}{4}
 \axes
 \tlabel[cc](-3,-1){\small $\left(-3, 0 \right)$}
 \tlabel[cc](0.8,3.3){\small $\left(0, 3 \right)$}
@@ -170,12 +140,10 @@ The complete graph of $y = f(x)$ is given in \autoref{fig:functionsexthirdset}. 
 \point[4pt]{(3,0)}
 \end{mfpic}
 
-\caption{The graph of $y = f(x)$ for Ex. \ref{transthirdgraphfirst} - \ref{transthirdgraphlast}}
+\caption{}
 \label{fig:functionsexthirdset}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{shortexenum}[MMMMMMMMMMMM]
 \item $g(x) = f(x) + 3$ \label{transthirdgraphfirst}
 \item $h(x) = f(x) - \frac{1}{2}$
 \item $j(x) = f\left(x - \frac{2}{3}\right)$
@@ -188,12 +156,14 @@ The complete graph of $y = f(x)$ is given in \autoref{fig:functionsexthirdset}. 
 \item $n(x) = 4f(x - 3) - 6$
 \item $p(x) = 4 + f(1 - 2x)$
 \item $q(x) = -\frac{1}{2}f\left(\frac{x + 4}{2}\right) - 3$ \label{transthirdgraphlast}
-\end{shortexenum}
 
+\iexinstr{%
 The complete graph of $y = S(t)$ is given in \autoref{fig:functionsexfourthset}. 
 
-\begin{figure}
-\begin{center}
+The purpose of Exercises \ref{transformsinegraphfirst} - \ref{transformsinegraphlast} is to build up to the graph  of $y = \frac{1}{2}S(-t+1) + 1$  one step at a time.
+}
+
+\begin{mfigure}
 
 \begin{mfpic}[20]{-3}{3}{-4}{4}
 \axes
@@ -218,25 +188,18 @@ The complete graph of $y = S(t)$ is given in \autoref{fig:functionsexfourthset}.
 
 \caption{The graph of $y=S(t)$}
 \label{fig:functionsexfourthset}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-The purpose of Exercises \ref{transformsinegraphfirst} - \ref{transformsinegraphlast} is to build up to the graph  of $y = \frac{1}{2}S(-t+1) + 1$  one step at a time.
-
-\begin{shortexenum}[MMMMMMM]
 \item $y = S_{\text{\tiny $1$}}(t) = S(t + 1)$ \label{transformsinegraphfirst}
 \item  $y = S_{\text{\tiny $2$}}(t) =  S_{\text{\tiny $1$}}(-t) = S(-t + 1)$
 \item  $y = S_{\text{\tiny $3$}}(t) = \frac{1}{2}  S_{\text{\tiny $2$}}(t) =  \frac{1}{2}S(-t+1)$
 \item  $y = S_{\text{\tiny $4$}}(t) = S_{\text{\tiny $3$}}(t) + 1 = \frac{1}{2}S(-t+1) + 1$ \label{transformsinegraphlast}
-\end{shortexenum}
 
-Let $f(x) = \sqrt{x}$.  Find a formula for a function $g$ whose graph is obtained from $f$ from the given sequence of transformations. 
+\iexinstr{%
+Let $f(x) = \sqrt{x}$. For Exercise \ref{exfxeqrootxtransformsfirst} to \ref{exfxeqrootxtransformslast} Find a formula for a function $g$ whose graph is obtained from $f$ from the given sequence of transformations. 
+}
 
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
-
-
-\item  (1) shift right 2 units; (2) shift down 3 units
+\item  (1) shift right 2 units; (2) shift down 3 units \label{exfxeqrootxtransformsfirst}
 
 \item  (1) shift down 3 units; (2) shift right 2 units
 
@@ -255,15 +218,13 @@ Let $f(x) = \sqrt{x}$.  Find a formula for a function $g$ whose graph is obtaine
 \item  (1) shift right 3 units; (2) horizontal shrink by a factor of 2; (3) shift up 1 unit
 
 \item  (1) horizontal shrink by a factor of 2; (2) shift right 3 units; (3) shift up 1 unit
+\label{exfxeqrootxtransformslast}
 
-
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
-
+\mexinstr{%
 For Exercises \ref{findformulatransformationfirst} - \ref{findformulatransformationlast},  use the graph of $y = f(x)$ given in \autoref{fig:functionsexfifthset} to write each function in terms of $f(x)$.
+}
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
 \begin{mfpic}[13]{-5}{5}{-5}{5}
 \axes
@@ -290,14 +251,13 @@ For Exercises \ref{findformulatransformationfirst} - \ref{findformulatransformat
 
 \caption{The graph of $y = f(x)$  for Ex. \ref{findformulatransformationfirst} - \ref{findformulatransformationlast}}
 \label{fig:functionsexfifthset}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{tasks}(2)
+\item  \label{findformulatransformationfirst}
+$y = g(x)$ %$g(x)=f(x)+1$.
+See \autoref{fig:exyeqgxwithzerooneetc}.
 
-\task  \label{findformulatransformationfirst}
-\begin{minipage}[t]{0.5\textwidth}
-$y = g(x)$ %$g(x)=f(x)+1$
+\begin{mfigure}
 
 \begin{mfpic}[13]{-5}{5}{-5}{5}
 \axes
@@ -322,11 +282,15 @@ $y = g(x)$ %$g(x)=f(x)+1$
 \point[4pt]{(0,1), (0.5,2.5), (-0.5,-0.5)}
 \end{mfpic} 
 
-\end{minipage}
+\caption{}
+\label{fig:exyeqgxwithzerooneetc}
+\end{mfigure}
 
-\task 
-\begin{minipage}[t]{0.5\textwidth}
-$y = h(x)$ %$h(x) = f(x-2)$
+\item 
+$y = h(x)$. %$h(x) = f(x-2)$
+See \autoref{fig:yeqhxwithtwozeroetc}
+
+\begin{ifigure}
 
 \begin{mfpic}[13]{-3}{7}{-5}{5}
 \axes
@@ -351,11 +315,15 @@ $y = h(x)$ %$h(x) = f(x-2)$
 \point[4pt]{(2,0), (2.5,1.5), (1.5,-1.5)}
 \end{mfpic} 
 
-\end{minipage}
+\caption{}
+\label{fig:yeqhxwithtwozeroetc}
+\end{ifigure}
 
-\task
-\begin{minipage}[t]{0.5\textwidth}
-$y = p(x)$  % $p(x) = f\left( \frac{x}{2} \right) -1$
+\item
+$y = p(x)$.  % $p(x) = f\left( \frac{x}{2} \right) -1$
+See \autoref{fig:yeqpxwithzerominusoneetc}.
+
+\begin{ifigure}
 
 \begin{mfpic}[13]{-5}{5}{-5}{5}
 \axes
@@ -380,12 +348,16 @@ $y = p(x)$  % $p(x) = f\left( \frac{x}{2} \right) -1$
 \point[4pt]{(0,-1), (0.5,0.5), (-0.5,-2.5)}
 \end{mfpic} 
 
-\end{minipage}
+\caption{}
+\label{fig:yeqpxwithzerominusoneetc}
+\end{ifigure}
 
-\task
-\begin{minipage}[t]{0.5\textwidth}
-$y = q(x)$  % $q(x) = -2f(x) = 2f(-x)$
+\item
+$y = q(x)$.  % $q(x) = -2f(x) = 2f(-x)$
+See \autoref{fig:yeqqxwithzerozeroetc}.
 
+\begin{mfigure}
+    
 \begin{mfpic}[13]{-5}{5}{-5}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $x$}
@@ -409,10 +381,15 @@ $y = q(x)$  % $q(x) = -2f(x) = 2f(-x)$
 \point[4pt]{(0,0), (0.5,-1.5), (-0.5,1.5)}
 \end{mfpic} 
 
-\end{minipage}
+\caption{}
+\label{fig:yeqqxwithzerozeroetc}
+\end{mfigure}
 
-\task  $y = r(x)$ % $r(x) = 2f(x+1)-3$
+\item  $y = r(x)$. % $r(x) = 2f(x+1)-3$
+See \autoref{fig:yeqrxwithminusoneminusthreeetc}.
 
+\begin{mfigure}
+    
 \begin{mfpic}[13]{-6}{4}{-5}{5}
 \axes
 \tlabel[cc](4,-0.25){\scriptsize $x$}
@@ -436,9 +413,14 @@ $y = q(x)$  % $q(x) = -2f(x) = 2f(-x)$
 \point[4pt]{(-1,-1.5), (-0.5,0), (-1.5,-3)}
 \end{mfpic} 
 
+\caption{}
+\label{fig:yeqrxwithminusoneminusthreeetc}
+\end{mfigure}
 
-\task \label{findformulatransformationlast} $y = s(x)$ % $s(x) = 2f(-x+1)-3 = -2f(x-1)+3$  
+\item \label{findformulatransformationlast} $y = s(x)$. % $s(x) = 2f(-x+1)-3 = -2f(x-1)+3$  
+See \autoref{fig:yeqsxwithhalfzeroetc}.
 
+\begin{mfigure}
 
 \begin{mfpic}[13]{-4}{6}{-5}{5}
 \axes
@@ -463,17 +445,15 @@ $y = q(x)$  % $q(x) = -2f(x) = 2f(-x)$
 \point[4pt]{(1,-1.5), (0.5,0), (1.5,-3)}
 \end{mfpic} 
 
-\end{tasks}
-
-\begin{enumerate}
-\setcounter{enumi}{\value{HW}}
+\caption{}
+\label{fig:yeqsxwithhalfzeroetc}
+\end{mfigure}
 
 \item The graph of $y = f(x) = \sqrt[3]{x}$ is given in \autoref{fig:functionsexcuberootofx} and the graph of $y = g(x)$ is given in \autoref{fig:functionsexyeqgx}. Find a formula for $g$ based on transformations of the graph of $f$.  Check your answer by confirming that the points shown on the graph of $g$ satisfy the equation $y = g(x)$.
 
-\begin{figure}
-\begin{center}
+\begin{mfigure}
 
-\begin{mfpic}[10]{-12}{9}{-6}{6}
+\begin{mfpic}[6]{-12}{9}{-6}{6}
 \axes
 \tlabel[cc](9,-0.5){\scriptsize $x$}
 \tlabel[cc](0.5,6){\scriptsize $y$}
@@ -494,12 +474,10 @@ $y = q(x)$  % $q(x) = -2f(x) = 2f(-x)$
 
 \caption{$y = \sqrt[3]{x}$}
 \label{fig:functionsexcuberootofx}
-\end{center}
-\end{figure}
+\end{mfigure}
 
-\begin{figure}
-\begin{center}
-\begin{mfpic}[10]{-12}{9}{-6}{6}
+\begin{mfigure}
+\begin{mfpic}[6]{-12}{9}{-6}{6}
 \axes
 \tlabel[cc](9,-0.5){\scriptsize $x$}
 \tlabel[cc](0.5,6){\scriptsize $y$}
@@ -520,8 +498,7 @@ $y = q(x)$  % $q(x) = -2f(x) = 2f(-x)$
 
 \caption{$y = g(x)$}
 \label{fig:functionsexyeqgx}
-\end{center}
-\end{figure}
+\end{mfigure}
 
 \item  \label{CompLinearisLinearExercise}  Show that the composition of two linear functions is  a linear function. Hence any (finite) sequence of transformations discussed in this section can be combined into the form given in Theorem \ref{transformationsthm}.
 
@@ -563,16 +540,15 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 
 \end{enumerate}
 
-\setcounter{HW}{\value{enumi}}
-\end{enumerate}
+\end{exenum}
 
-\newpage
+\clearpage
 
 \subsection{Answers}
 
 \startexenum
 
-\begin{shortexenum}
+\begin{exenum}
 \item $(2,0)$
 \item $(-1,-3)$
 \item $(2,-4)$
@@ -591,13 +567,12 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \item $\left(-\frac{1}{2}, -3\right)$
 \item $\left(\frac{2}{3}, -2 \right)$
 \item $(1,1)$
-\end{shortexenum}
 
-\begin{tasks}[resume](2)
+\item $y = f(x) + 1$. See \autoref{fig:yeqfxplusoneetc}.
 
-\task $y = f(x) + 1$
+\begin{mfigure}
 
-\begin{mfpic}[15]{-5}{5}{-1}{5}
+\begin{mfpic}[13]{-5}{5}{-1}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $x$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -616,9 +591,15 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \point[4pt]{(-2,3), (0,1), (2,3)}
 \end{mfpic} 
 
-\task $y = f(x) - 2$
+\caption{}
+\label{fig:yeqfxplusoneetc}
+\end{mfigure}
 
-\begin{mfpic}[15]{-5}{5}{-3}{3}
+\item $y = f(x) - 2$. See \autoref{fig:exyeqfxminustwoetc}.
+
+\begin{mfigure}
+
+\begin{mfpic}[13]{-5}{5}{-3}{3}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $x$}
 \tlabel[cc](0.25,3){\scriptsize $y$}
@@ -637,9 +618,15 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \point[4pt]{(-2,0), (0,-2), (2,0)}
 \end{mfpic} 
 
-\task $y = f(x+1)$
+\caption{}
+\label{fig:exyeqfxminustwoetc}
+\end{mfigure}
 
-\begin{mfpic}[15]{-6}{4}{-1}{5}
+\item $y = f(x+1)$. See \autoref{fig:exyeqfxplusoneetc}.
+
+\begin{mfigure}
+    
+\begin{mfpic}[13]{-6}{4}{-1}{5}
 \axes
 \tlabel[cc](4,-0.25){\scriptsize $x$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -658,9 +645,15 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \point[4pt]{(-3,2), (-1,0), (1,2)}
 \end{mfpic} 
 
-\task $y = f(x - 2)$
+\caption{}
+\label{fig:exyeqfxplusoneetc}
+\end{mfigure}
 
-\begin{mfpic}[15]{-3}{7}{-1}{5}
+\item $y = f(x - 2)$. See \autoref{fig:exyeqfxminustwowithzerotwoetc}
+
+\begin{mfigure}
+
+\begin{mfpic}[13]{-3}{7}{-1}{5}
 \axes
 \tlabel[cc](7,-0.25){\scriptsize $x$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -679,7 +672,13 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \point[4pt]{(0,2), (2,0), (4,2)}
 \end{mfpic} 
 
-\task $y = 2f(x)$
+\caption{}
+\label{fig:exyeqfxminustwowithzerotwoetc}
+\end{mfigure}
+
+\item $y = 2f(x)$. See \autoref{fig:exyeqtwofxetc}.
+
+\begin{ifigure}
 
 \begin{mfpic}[15]{-5}{5}{-1}{5}
 \axes
@@ -700,7 +699,13 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \point[4pt]{(-2,4), (0,0), (2,4)}
 \end{mfpic} 
 
-\task $y = f(2x)$
+\caption{}
+\label{fig:exyeqtwofxetc}
+\end{ifigure}
+
+\item $y = f(2x)$. See \autoref{fig:exyeqftwoxetc}
+
+\begin{ifigure}
 
 \begin{mfpic}[15]{-5}{5}{-1}{5}
 \axes
@@ -721,7 +726,13 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \normalsize
 \end{mfpic} 
 
-\task $y = 2 - f(x)$
+\caption{}
+\label{fig:exyeqftwoxetc}
+\end{ifigure}
+
+\item $y = 2 - f(x)$. See \autoref{fig:exyeqtwominusfx}.
+
+\begin{ifigure}
 
 \begin{mfpic}[15]{-5}{5}{-2}{3}
 \axes
@@ -742,9 +753,15 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \point[4pt]{(-2,0), (0,2), (2,0)}
 \end{mfpic} 
 
-\task $y = f(2-x)$
+\caption{}
+\label{fig:exyeqtwominusfx}
+\end{ifigure}
 
-\begin{mfpic}[15]{-3}{7}{-1}{5}
+\item $y = f(2-x)$. See \autoref{fig:exyeqftwominusxetc}.
+
+\begin{mfigure}
+
+\begin{mfpic}[13]{-3}{7}{-1}{5}
 \axes
 \tlabel[cc](7,-0.25){\scriptsize $x$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -763,9 +780,15 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \point[4pt]{(0,2), (2,0), (4,2)}
 \end{mfpic} 
 
-\task $y = 2-f(2-x)$
+\caption{}
+\label{fig:exyeqftwominusxetc}
+\end{mfigure}
 
-\begin{mfpic}[15]{-3}{7}{-1}{5}
+\item $y = 2-f(2-x)$. See \autoref{fig:yeqtwominusftwominusxetc}.
+
+\begin{mfigure}
+
+\begin{mfpic}[13]{-3}{7}{-1}{5}
 \axes
 \tlabel[cc](7,-0.25){\scriptsize $x$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -784,11 +807,16 @@ What about $y = (-2x)^{3}, \, y = |-5x|, \, y = \sqrt[3]{-27x}\, $ and $\, y = \
 \point[4pt]{(0,0), (2,2), (4,0)}
 \end{mfpic} 
 
+\caption{}
+\label{fig:yeqtwominusftwominusxetc}
+\end{mfigure}
 
-\task \addtocounter{HW}{2}
-$y = g(t) - 1$
+\item \addtocounter{HW}{2}
+$y = g(t) - 1$. See \autoref{fig:exyeqgtminusoneetc}.
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfigure}
+
+\begin{mfpic}[13]{-5}{5}{-5}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $t$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -808,7 +836,13 @@ $y = g(t) - 1$
 \point[4pt]{(-2,-1), (0,3), (2,-1), (4,-3)}
 \end{mfpic} 
 
-\task  $y = g(t + 1)$
+\caption{}
+\label{fig:exyeqgtminusoneetc}
+\end{mfigure}
+
+\item  $y = g(t + 1)$. See \autoref{fig:exyeqgtplusoneetc}.
+
+\begin{ifigure}
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \axes
@@ -830,7 +864,13 @@ $y = g(t) - 1$
 \point[4pt]{(-3,0), (-1,4), (1,0), (3,-2)}
 \end{mfpic} 
 
-\task  $y = \frac{1}{2} g(t)$
+\caption{}
+\label{fig:exyeqgtplusoneetc}
+\end{ifigure}
+
+\item  $y = \frac{1}{2} g(t)$. See \autoref{fig:exyeqonebytwogt}.
+
+\begin{ifigure}
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \axes
@@ -852,9 +892,15 @@ $y = g(t) - 1$
 \point[4pt]{(-2,0), (0,2), (2,0), (4,-1)}
 \end{mfpic} 
 
-\task  $y =g(2t)$
+\caption{}
+\label{fig:exyeqonebytwogt}
+\end{ifigure}
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\item  $y =g(2t)$. See \autoref{fig:exyeqgtwot}.
+
+\begin{mfigure}
+
+\begin{mfpic}[12]{-5}{5}{-5}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $t$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -874,10 +920,15 @@ $y = g(t) - 1$
 \point[4pt]{(-1,0), (0,4), (1,0), (2,-2)}
 \end{mfpic} 
 
+\caption{}
+\label{fig:exyeqgtwot}
+\end{mfigure}
 
-\task  $y = - g(t)$
+\item  $y = - g(t)$. See \autoref{fig:exyeqminusgt}.
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\begin{mfigure}
+
+\begin{mfpic}[12]{-5}{5}{-5}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $t$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -897,9 +948,15 @@ $y = g(t) - 1$
 \point[4pt]{(-2,0), (0,-4), (2,0), (4,2)}
 \end{mfpic} 
 
-\task  $y = g(-t)$
+\caption{}
+\label{fig:exyeqminusgt}
+\end{mfigure}
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\item  $y = g(-t)$. See \autoref{fig:exyeqgminust}.
+
+\begin{mfigure}
+
+\begin{mfpic}[12]{-5}{5}{-5}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $t$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -919,7 +976,13 @@ $y = g(t) - 1$
 \point[4pt]{(2,0), (0,4), (-2,0), (-4,-2)}
 \end{mfpic} 
 
-\task  $y = g(t+1) - 1$
+\caption{}
+\label{fig:exyeqgminust}
+\end{mfigure}
+
+\item  $y = g(t+1) - 1$. See \autoref{fig:exyeqgtplusoneminusone}.
+
+\begin{ifigure}
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \axes
@@ -941,7 +1004,13 @@ $y = g(t) - 1$
 \point[4pt]{(-3,-1), (-1,3), (1,-1), (3,-3)}
 \end{mfpic} 
 
-\task  $y = 1 -g(t)$
+\caption{}
+\label{fig:exyeqgtplusoneminusone}
+\end{ifigure}
+
+\item  $y = 1 -g(t)$. See \autoref{fig:exyeqoneminusgt}.
+
+\begin{ifigure}
 
 \begin{mfpic}[15]{-5}{5}{-5}{5}
 \axes
@@ -963,9 +1032,15 @@ $y = g(t) - 1$
 \point[4pt]{(-2,1), (0,-3), (2,1), (4,3)}
 \end{mfpic}
 
-\task  $y = \frac{1}{2}g(t+1)-1$
+\caption{}
+\label{fig:exyeqoneminusgt}
+\end{ifigure}
 
-\begin{mfpic}[15]{-5}{5}{-5}{5}
+\item  $y = \frac{1}{2}g(t+1)-1$. See \autoref{fig:exyeqhalfgtplusone}.
+
+\begin{mfigure}
+
+\begin{mfpic}[13]{-5}{5}{-5}{5}
 \axes
 \tlabel[cc](5,-0.25){\scriptsize $t$}
 \tlabel[cc](0.25,5){\scriptsize $y$}
@@ -985,7 +1060,14 @@ $y = g(t) - 1$
 \point[4pt]{(-3,-1), (-1,1), (1,-1), (3,-2)}
 \end{mfpic} 
 
-\task $g(x) = f(x) + 3$\\
+\caption{}
+\label{fig:exyeqhalfgtplusone}
+\end{mfigure}
+
+\item $g(x) = f(x) + 3$. See \autoref{fig:exgxeqfxplusthree}.
+
+\begin{mfigure}
+
 \begin{mfpic}[15]{-4}{4}{-1.5}{7}
 \tlabel[cc](-3,2){\tiny $\left(-3, 3 \right)$}
 \tlabel[cc](0.8,6.3){\tiny $\left(0, 6 \right)$}
@@ -1008,7 +1090,15 @@ $y = g(t) - 1$
 \point[4pt]{(3,3)}
 \end{mfpic}
 
-\task $h(x) = f(x) - \frac{1}{2}$\\
+\caption{}
+\label{fig:exgxeqfxplusthree}
+\end{mfigure}
+
+\item $h(x) = f(x) - \frac{1}{2}$.
+See \autoref{fig:exhxeqfxminushalf}.
+
+\begin{mfigure}
+
 \begin{mfpic}[15]{-4}{4}{-1.5}{4}
 \tlabel[cc](-3,-1){\tiny $\left(-3, -\frac{1}{2} \right)$}
 \tlabel[cc](0.8,3){\tiny $\left(0, \frac{5}{2} \right)$}
@@ -1031,7 +1121,15 @@ $y = g(t) - 1$
 \point[4pt]{(3,-0.5)}
 \end{mfpic}
 
-\task $j(x) = f\left(x - \frac{2}{3}\right)$\\
+\caption{}
+\label{fig:exhxeqfxminushalf}
+\end{mfigure}
+
+\item $j(x) = f\left(x - \frac{2}{3}\right)$.
+See \autoref{fig:exjxeqfxminustwothird}.
+
+\begin{ifigure}
+
 \begin{mfpic}[15]{-4}{4.5}{-1.5}{4}
 \tlabel[cc](-2.333,-1){\tiny $\left(-\frac{7}{3}, 0 \right)$}
 \tlabel[cc](1.5,3.5){\tiny $\left(\frac{2}{3}, 3 \right)$}
@@ -1054,7 +1152,15 @@ $y = g(t) - 1$
 \point[4pt]{(3.6667,0)}
 \end{mfpic}
 
-\task $a(x) = f(x + 4)$\\
+\caption{}
+\label{fig:exjxeqfxminustwothird}
+\end{ifigure}
+
+\item $a(x) = f(x + 4)$.
+See \autoref{fig:exaxeqfxplusfour}.
+
+\begin{ifigure}
+
 \begin{mfpic}[15]{-8}{1}{-1.5}{4}
 \tlabel[cc](-7,-1){\tiny $\left(-7, 0 \right)$}
 \tlabel[cc](-3,3.5){\tiny $\left(-4, 3 \right)$}
@@ -1077,7 +1183,14 @@ $y = g(t) - 1$
 \point[4pt]{(-1,0)}
 \end{mfpic}
 
-\task $b(x) = f(x + 1) - 1$\\
+\caption{}
+\label{fig:exaxeqfxplusfour}
+\end{ifigure}
+
+\item $b(x) = f(x + 1) - 1$. See \autoref{fig:exbxeqfxplusoneminusone}
+
+\begin{ifigure}
+
 \begin{mfpic}[15]{-5}{3}{-2}{3}
 \tlabel[cc](-4,-1.5){\tiny $\left(-4, -1 \right)$}
 \tlabel[cc](-1.5,2.5){\tiny $\left(-1,2 \right)$}
@@ -1100,7 +1213,14 @@ $y = g(t) - 1$
 \point[4pt]{(2,-1)}
 \end{mfpic}
 
-\task $c(x) = \frac{3}{5}f(x)$\\
+\caption{}
+\label{fig:exbxeqfxplusoneminusone}
+\end{ifigure}
+
+\item $c(x) = \frac{3}{5}f(x)$. See \autoref{fig:excxeqthreefifthfx}
+
+\begin{mfigure}
+
 \begin{mfpic}[15]{-4}{4}{-1.5}{3}
 \tlabel[cc](-3,-1){\tiny $\left(-3, 0 \right)$}
 \tlabel[cc](0.8,2.3){\tiny $\left(0, \frac{9}{5} \right)$}
@@ -1123,7 +1243,15 @@ $y = g(t) - 1$
 \point[4pt]{(3,0)}
 \end{mfpic}
 
-\task $d(x) = -2f(x)$\\
+\caption{}
+\label{fig:excxeqthreefifthfx}
+\end{mfigure}
+
+
+\item $d(x) = -2f(x)$. See \autoref{fig:exdxeqminustwofx}
+
+\begin{mfigure}
+    
 \begin{mfpic}[15]{-4}{4}{-7}{1}
 \tlabel[cc](-3,0.5){\tiny $\left(-3, 0 \right)$}
 \tlabel[cc](0.8,-6.5){\tiny $\left(0, -6 \right)$}
@@ -1146,8 +1274,16 @@ $y = g(t) - 1$
 \point[4pt]{(3,0)}
 \end{mfpic}
 
-\task $k(x) = f\left(\frac{2}{3}x\right)$\\
-\begin{mfpic}[15]{-5}{5}{-1.5}{4}
+\caption{}
+\label{fig:exdxeqminustwofx}
+\end{mfigure}
+
+\item $k(x) = f\left(\frac{2}{3}x\right)$.
+See \autoref{fig:exkxeqftwothirdx}.
+
+\begin{mfigure}
+
+\begin{mfpic}[12]{-5}{5}{-1.5}{4}
 \tlabel[cc](-4.5,-1){\tiny $\left(-\frac{9}{2}, 0 \right)$}
 \tlabel[cc](0.8,3.5){\tiny $\left(0, 3 \right)$}
 \tlabel[cc](4.5,-1){\tiny $\left(\frac{9}{2}, 0 \right)$}
@@ -1169,7 +1305,15 @@ $y = g(t) - 1$
 \point[4pt]{(4.5,0)}
 \end{mfpic}
 
-\task $m(x) = -\frac{1}{4}f(3x)$\\
+\caption{}
+\label{fig:exkxeqftwothirdx}
+\end{mfigure}
+
+\item $m(x) = -\frac{1}{4}f(3x)$.
+See \autoref{fig:exmxeqminusonefourthfthreex}
+
+\begin{mfigure}
+
 \begin{mfpic}[30]{-2}{2}{-1.5}{1}
 \tlabel[cc](-1,0.25){\scriptsize $\left( -1, 0 \right)$}
 \tlabel[cc](0.8,-1){\scriptsize  $\left(0, -\frac{3}{4} \right)$}
@@ -1192,7 +1336,15 @@ $y = g(t) - 1$
 \point[4pt]{(1,0)}
 \end{mfpic}
 
-\task $n(x) = 4f(x - 3) - 6$\\
+\caption{}
+\label{fig:exmxeqminusonefourthfthreex}
+\end{mfigure}
+
+\item $n(x) = 4f(x - 3) - 6$.
+See \autoref{fig:exnxeqfourfxminusthreeminussix}.
+
+\begin{ifigure}
+
 \begin{mfpic}[15]{-1}{7}{-7}{7}
 \tlabel[cc](1,-6.5){\tiny $\left(0, -6 \right)$}
 \tlabel[cc](3,6.5){\tiny $\left(3, 6 \right)$}
@@ -1215,7 +1367,15 @@ $y = g(t) - 1$
 \point[4pt]{(6,-6)}
 \end{mfpic}
 
-\task $p(x) = 4 + f(1 - 2x) = f(-2x + 1) + 4$\\
+\caption{}
+\label{fig:nxeqfourfxminusthreeminussix}
+\end{ifigure}
+
+\item $p(x) = 4 + f(1 - 2x) = f(-2x + 1) + 4$.
+See \autoref{fig:expxeqfourplusfoneminustwox}
+
+\begin{ifigure}
+    
 \begin{mfpic}[15]{-2}{3}{-1.5}{8}
 \tlabel[cc](-1,3.5){\tiny $\left(-1, 4 \right)$}
 \tlabel[cc](1.5,7.2){\tiny $\left(\frac{1}{2}, 7 \right)$}
@@ -1238,8 +1398,16 @@ $y = g(t) - 1$
 \point[4pt]{(-1,4)}
 \end{mfpic}
 
-\task \small $q(x) = -\frac{1}{2}f\left(\frac{x + 4}{2}\right) - 3 = -\frac{1}{2}f\left( \frac{1}{2}x + 2 \right) - 3 $\\ \normalsize
-\begin{mfpic}[10]{-11}{3}{-5.5}{1}
+\caption{}
+\label{fig:expxeqfourplusfoneminustwox}
+\end{ifigure}
+
+\item $q(x) = -\frac{1}{2}f\left(\frac{x + 4}{2}\right) - 3 = -\frac{1}{2}f\left( \frac{1}{2}x + 2 \right) - 3 $.
+See \autoref{fig:exqxeqminushalffxplusfourbytwo}
+
+\begin{ifigure}
+    
+\begin{mfpic}[8]{-11}{3}{-5.5}{1}
 \tlabel[cc](-10,-2.5){\tiny $\left(-10, -3 \right)$}
 \tlabel[cc](-4,-5.25){\tiny $\left(-4, -\frac{9}{2} \right)$}
 \tlabel[cc](2,-2.5){\tiny $\left(2, -3 \right)$}
@@ -1261,7 +1429,14 @@ $y = g(t) - 1$
 \point[4pt]{(2, -3)}
 \end{mfpic}
 
-\task  $y = S_{\text{\tiny $1$}}(t) = S(t + 1)$
+\caption{}
+\label{fig:exqxeqminushalffxplusfourbytwo}
+\end{ifigure}
+
+\item  $y = S_{\text{\tiny $1$}}(t) = S(t + 1)$.
+See \autoref{fig:exyeqsoneoft}.
+
+\begin{ifigure}
 
 \begin{mfpic}[20]{-4}{2}{-4}{4}
 \axes
@@ -1284,7 +1459,14 @@ $y = g(t) - 1$
 \point[4pt]{(-3,0), (-2,-3), (-1,0), (0,3), (1,0)}
 \end{mfpic} 
 
-\task $y = S_{\text{\tiny $2$}}(t) =  S_{\text{\tiny $1$}}(-t) = S(-t + 1)$
+\caption{}
+\label{fig:exyeqsoneoft}
+\end{ifigure}
+
+\item $y = S_{\text{\tiny $2$}}(t) =  S_{\text{\tiny $1$}}(-t) = S(-t + 1)$.
+See \autoref{fig:exyeqstwooft}.
+
+\begin{mfigure}
 
 \begin{mfpic}[20]{-2}{4}{-4}{4}
 \axes
@@ -1307,8 +1489,15 @@ $y = g(t) - 1$
 \point[4pt]{(3,0), (2,-3), (1,0), (0,3), (-1,0)}
 \end{mfpic}
 
-\task $y = S_{\text{\tiny $3$}}(t) = \frac{1}{2}  S_{\text{\tiny $2$}}(t) =  \frac{1}{2}S(-t+1)$
+\caption{}
+\label{fig:exyeqstwooft}
+\end{mfigure}
 
+\item $y = S_{\text{\tiny $3$}}(t) = \frac{1}{2}  S_{\text{\tiny $2$}}(t) =  \frac{1}{2}S(-t+1)$.
+See \autoref{fig:exyeqsthreeoft}.
+
+\begin{mfigure}
+    
 \begin{mfpic}[20]{-2}{4}{-3}{3}
 \axes
 \tlabel[cc](4,-0.25){\scriptsize $t$}
@@ -1330,8 +1519,15 @@ $y = g(t) - 1$
 \point[4pt]{(3,0), (2,-1.5), (1,0), (0,1.5), (-1,0)}
 \end{mfpic} 
 
-\task $y = S_{\text{\tiny $4$}}(t) = S_{\text{\tiny $3$}}(t) + 1 = \frac{1}{2}S(-t+1) + 1$ 
+\caption{}
+\label{fig:exyeqsthreeoft}
+\end{mfigure}
 
+\item $y = S_{\text{\tiny $4$}}(t) = S_{\text{\tiny $3$}}(t) + 1 = \frac{1}{2}S(-t+1) + 1$.
+See \autoref{fig:exyeqsfouroft}.
+
+\begin{mfigure}
+    
 \begin{mfpic}[20]{-2}{4}{-2}{4}
 \axes
 \tlabel[cc](4,-0.25){\scriptsize $t$}
@@ -1353,9 +1549,10 @@ $y = g(t) - 1$
 \point[4pt]{(3,1), (2,-0.5), (1,1), (0,2.5), (-1,1)}
 \end{mfpic} 
 
-\end{tasks}
+\caption{}
+\label{fig:exyeqsfouroft}
+\end{mfigure}
 
-\begin{shortexenum}[MMMMMMM]
 \item  $g(x) = \sqrt{x-2} - 3$
 \item  $g(x) = \sqrt{x-2} - 3$
 \item  $g(x) = -\sqrt{x} + 1$
@@ -1373,4 +1570,5 @@ $y = g(t) - 1$
 \item  $r(x) = 2f(x+1)-3$
 \item  $s(x) = 2f(-x+1)-3 = -2f(x-1)+3$  
 \item $g(x) = -2\sqrt[3]{x + 3} - 1$ or $g(x) = 2\sqrt[3]{-x - 3} - 1$
-\end{shortexenum}
+
+\end{exenum}
