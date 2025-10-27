@@ -1,4 +1,119 @@
 \documentclass[10pt]{book}
 \usepackage[a5paper,inner=13.33mm,top=25mm,bottom=20mm,twoside,textwidth=80mm,marginparsep=5mm,marginparwidth=45mm]{geometry}
 
+\usepackage{marginfix}
+\usepackage[alerton,shape=up,per=section,ragged]{sidenotesplus}
+
+% defn
+\newenvironment{mdefn}{%
+  \begin{marginfigure}
+    \begin{tcolorbox}
+      \begin{defn}
+        \raggedright
+}{%
+      \end{defn}
+    \end{tcolorbox}
+  \end{marginfigure}
+}
+\newenvironment{idefn}{%
+  \begin{figure}[htbp]
+    \begin{tcolorbox}
+      \begin{defn}
+}{%
+      \end{defn}
+    \end{tcolorbox}
+  \end{figure}
+}
+
+% floatbox
+\newenvironment{mfloatbox}[1]{%
+  \begin{marginfigure}
+    \begin{tcolorbox}
+      \begin{floatbox}
+        \begin{center}
+          \bf #1
+        \end{center}
+}{%
+      \end{floatbox}
+    \end{tcolorbox}
+  \end{marginfigure}
+}
+\newenvironment{ifloatbox}[1]{%
+  \begin{figure}
+    \begin{tcolorbox}
+      \begin{floatbox}
+        \begin{center}
+          \bf #1
+        \end{center}
+}{%
+      \end{floatbox}
+    \end{tcolorbox}
+  \end{figure}
+}
+
+% thm
+\newenvironment{mthm}{%
+  \begin{marginfigure}
+    \begin{tcolorbox}
+      \begin{thm}
+}{%
+      \end{thm}
+    \end{tcolorbox}
+  \end{marginfigure}
+}
+\newenvironment{ithm}{%
+  \begin{tcolorbox}
+    \begin{thm}
+}{%
+    \end{thm}
+  \end{tcolorbox}
+}
+
+% table
+\newenvironment{mtable}{%
+  \begin{margintable}
+    \captionsetup{labelfont=bf,justification=centering}
+    \begin{center}
+}{%
+    \end{center}
+  \end{margintable}
+}
+\newenvironment{itable}{%
+  \begin{table}[htp]
+    \begin{center}
+}{%
+    \end{center}
+  \end{table}
+}
+
+% figure
+\newenvironment{mfigure}{%
+  \begin{marginfigure}
+    \captionsetup{labelfont=bf,justification=centering}
+    \begin{center}
+}{%
+    \end{center}
+  \end{marginfigure}
+}
+\newenvironment{ifigure}{%
+  \begin{figure}[htp]
+    \begin{center}
+}{%
+    \end{center}
+  \end{figure}
+}
+% exinstr
+\newcommand{\mexinstr}[1]{%
+  \begin{marginfigure}
+    \begin{tcolorbox}
+      {\raggedright #1}
+    \end{tcolorbox}
+  \end{marginfigure}
+}
+\newcommand{\iexinstr}[1]{%
+    \begin{tcolorbox}
+      {#1}
+    \end{tcolorbox}
+}
+
 \input{common.tex}

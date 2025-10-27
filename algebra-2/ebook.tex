@@ -1,4 +1,112 @@
-\documentclass[11pt]{book}
+\documentclass[10pt]{book}
 \usepackage[a6paper,hmargin=6.688mm,vmargin={17.736mm, 9.459mm}]{geometry}
+
+% defn
+\newenvironment{mdefn}{%
+  \begin{figure}
+    \begin{tcolorbox}
+      \begin{defn}
+        \raggedright
+}{%
+      \end{defn}
+    \end{tcolorbox}
+  \end{figure}
+}
+\newenvironment{idefn}{%
+  \begin{figure}[htbp]
+    \begin{tcolorbox}
+      \begin{defn}
+}{%
+      \end{defn}
+    \end{tcolorbox}
+  \end{figure}
+}
+
+% floatbox
+\newenvironment{mfloatbox}[1]{%
+  \begin{figure}
+    \begin{tcolorbox}
+      \begin{floatbox}
+        \begin{center}
+          \bf #1
+        \end{center}
+}{%
+      \end{floatbox}
+    \end{tcolorbox}
+  \end{figure}
+}
+\newenvironment{ifloatbox}[1]{%
+  \begin{figure}
+    \begin{tcolorbox}
+      \begin{floatbox}
+        \begin{center}
+          \bf #1
+        \end{center}
+}{%
+      \end{floatbox}
+    \end{tcolorbox}
+  \end{figure}
+}
+
+% thm
+\newenvironment{mthm}{%
+  \begin{figure}
+    \begin{tcolorbox}
+      \begin{thm}
+}{%
+      \end{thm}
+    \end{tcolorbox}
+  \end{figure}
+}
+\newenvironment{ithm}{%
+  \begin{tcolorbox}
+    \begin{thm}
+}{%
+    \end{thm}
+  \end{tcolorbox}
+}
+
+% table
+\newenvironment{mtable}{%
+  \begin{table}
+    \captionsetup{labelfont=bf,justification=centering}
+    \begin{center}
+}{%
+    \end{center}
+  \end{table}
+}
+\newenvironment{itable}{%
+  \begin{table}[htp]
+    \begin{center}
+}{%
+    \end{center}
+  \end{table}
+}
+
+% figure
+\newenvironment{mfigure}{%
+  \begin{figure}
+    \captionsetup{labelfont=bf,justification=centering}
+    \begin{center}
+}{%
+    \end{center}
+  \end{figure}
+}
+\newenvironment{ifigure}{%
+  \begin{figure}[htp]
+    \begin{center}
+}{%
+    \end{center}
+  \end{figure}
+}
+% exinstr
+\newcommand{\iexinstr}[1]{%
+    \begin{tcolorbox}
+      {#1}
+    \end{tcolorbox}
+}
+\newcommand{\mexinstr}[1]{\iexinstr{#1}}
+
+\newcommand{\sidenote}[1]{\footnote{#1}}
 
 \input{common.tex}

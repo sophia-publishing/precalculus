@@ -299,7 +299,7 @@ Step 1:   add $\frac{3}{2}$ to each of the $x$-coordinates of each of the points
 
 \begin{mfigure}
 \begin{graphtrans}
-%
+
 \begin{mfpic}[10]{-5}{5}{-1}{9}
 \axes
 \scriptsize
@@ -342,10 +342,9 @@ Step 1:   add $\frac{3}{2}$ to each of the $x$-coordinates of each of the points
 
 Step 2:   multiply each of the $y$-coordinates of each of the points on the graph of $y = \left(x - \frac{3}{2} \right)^{-2}$ by $\frac{1}{4}$. See \autoref{fig:scaley}.
 
-\begin{ffigure}
+\begin{ifigure}
 \begin{graphtrans}
 
-\begin{adjustbox}{valign=c}
 \begin{mfpic}[10]{-3.5}{6.5}{-1}{9}
 \axes
 \dashed \polyline{(1.5, -1), (1.5,9)}
@@ -362,11 +361,9 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 \point[4pt]{(0.5,1), (2.5,1)}
 \tcaption{\scriptsize $y = \left(x - \frac{3}{2} \right)^{-2}$; \newline $\left(\frac{1}{2} ,1 \right)$,  $\left(\frac{5}{2} ,1 \right)$}
 \end{mfpic} 
-\end{adjustbox}
 
 \trans{multiply each $y$-coordinate by $\frac{1}{4}$}
  
-\begin{adjustbox}{valign=c}
 \begin{mfpic}[10]{-3.5}{6.5}{-1}{9}
 \axes
 \dashed \polyline{(1.5, -1), (1.5,9)}
@@ -383,13 +380,12 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 \point[4pt]{(0.5,0.25), (2.5,0.25)}
 \tcaption{\scriptsize $y = \frac{1}{4} \left(x - \frac{3}{2} \right)^{-2}$; \newline $\left(\frac{1}{2} ,\frac{1}{4} \right)$,  $\left(\frac{5}{2} , \frac{1}{4} \right)$}
 \end{mfpic}
-\end{adjustbox}
 
 \end{graphtrans}
 
 \caption{}
 \label{fig:scaley}
-\end{ffigure}
+\end{ifigure}
 
 Since we did not shift the graph vertically, the horizontal asymptote remains $y = 0$.  We can determine the domain and range of $f$ by tracking the changes to the domain and range of our progenitor function, $y = x^{-2}$.  We get the domain and range of $f$ is  $\left(-\infty, \frac{3}{2} \right) \cup \left(\frac{3}{2}, \infty \right)$ and the range of $f$ is $(-\infty, 0) \cup (0, \infty)$. 
 
@@ -442,7 +438,7 @@ Step 1:  Add $-1$ to each of the $t$-coordinates of each of the points on the gr
 
 Step 2:   multiply each of the $y$-coordinates of each of the points on the graph of $y = \frac{1}{t+1}$ by $-3$. See \autoref{fig:scaleybyminus3}.
 
-\begin{ffigure}
+\begin{ifigure}
 \begin{graphtrans}
 
 \begin{adjustbox}{valign=b}
@@ -489,11 +485,11 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 
 \caption{}
 \label{fig:scaleybyminus3}
-\end{ffigure}
+\end{ifigure}
  
  Step 3:   add $2$ to each of the  $y$-coordinates of each of the points on the graph of $y = \frac{-3}{t+1}$.  This moves the horizontal asymptote from $y = 0$ to $y = 2$. See \autoref{fig:shiftybytwo}.
 
-\begin{ffigure}
+\begin{ifigure}
 \begin{graphtrans}
 
 \begin{mfpic}[10]{-6}{4}{-5}{5}
@@ -538,7 +534,7 @@ Step 2:   multiply each of the $y$-coordinates of each of the points on the grap
 
 \caption{}
 \label{fig:shiftybytwo}
-\end{ffigure}
+\end{ifigure}
 
 As above, we determine the domain and range of $g$ by tracking the changes in the domain and range of $y = \frac{1}{t}$.  We find the domain of $g$ is $(-\infty, -1) \cup (-1, \infty)$ and the range is $(-\infty, 2) \cup (2, \infty)$.  \qed
 

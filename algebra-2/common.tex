@@ -1,5 +1,3 @@
-\usepackage{marginfix}
-\usepackage[alerton,per=section,ragged]{sidenotesplus}
 \usepackage{tabularx}
 \usepackage{amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline,mathtools}
 \usepackage{colortbl}
@@ -39,7 +37,7 @@
 
 \usepackage{floatpag}
 
-%% custom layout environments
+% reduce occurrences of float pages
 \renewcommand{\floatpagefraction}{.7}
 \renewcommand{\topfraction}{.9}
 \renewcommand{\textfraction}{.05}
@@ -54,151 +52,6 @@
 % Activate it on float-only pages
 \floatpagestyle{floatpage}
 
-% defn
-\newenvironment{mdefn}{%
-  \begin{marginfigure}
-    \begin{tcolorbox}
-      \begin{defn}
-        \raggedright
-}{%
-      \end{defn}
-    \end{tcolorbox}
-  \end{marginfigure}
-}
-\newenvironment{idefn}{%
-  \begin{figure}[htbp]
-    \begin{tcolorbox}
-      \begin{defn}
-}{%
-      \end{defn}
-    \end{tcolorbox}
-  \end{figure}
-}
-\newenvironment{fdefn}{%
-  \begin{figure*}[tbp]
-    \begin{tcolorbox}
-      \begin{defn}
-}{%
-      \end{defn}
-    \end{tcolorbox}
-  \end{figure*}
-}
-
-% floatbox
-\newenvironment{mfloatbox}[1]{%
-  \begin{marginfigure}
-    \begin{tcolorbox}
-      \begin{floatbox}
-        \begin{center}
-          \bf #1
-        \end{center}
-}{%
-      \end{floatbox}
-    \end{tcolorbox}
-  \end{marginfigure}
-}
-\newenvironment{ifloatbox}[1]{%
-  \begin{figure}
-    \begin{tcolorbox}
-      \begin{floatbox}
-        \begin{center}
-          \bf #1
-        \end{center}
-}{%
-      \end{floatbox}
-    \end{tcolorbox}
-  \end{figure}
-}
-\newenvironment{ffloatbox}[1]{%
-  \begin{figure*}[tbp]
-    \begin{tcolorbox}
-      \begin{floatbox}
-        \begin{center}
-          \bf #1
-        \end{center}
-}{%
-      \end{floatbox}
-    \end{tcolorbox}
-  \end{figure*}
-}
-
-% thm
-\newenvironment{mthm}{%
-  \begin{marginfigure}
-    \begin{tcolorbox}
-      \begin{thm}
-}{%
-      \end{thm}
-    \end{tcolorbox}
-  \end{marginfigure}
-}
-\newenvironment{ithm}{%
-  \begin{tcolorbox}
-    \begin{thm}
-}{%
-    \end{thm}
-  \end{tcolorbox}
-}
-\newenvironment{fthm}{%
-  \begin{figure}[htp]
-    \begin{tcolorbox}
-      \begin{thm}
-}{%
-      \end{thm}
-    \end{tcolorbox}
-  \end{figure}
-}
-
-% table
-\newenvironment{mtable}{%
-  \begin{margintable}
-    \captionsetup{labelfont=bf,justification=centering}
-    \begin{center}
-}{%
-    \end{center}
-  \end{margintable}
-}
-\newenvironment{ftable}{%
-  \begin{table*}
-    \begin{center}
-}{%
-    \end{center}
-  \end{table*}
-}
-\newenvironment{itable}{%
-  \begin{table}[htp]
-    \begin{center}
-}{%
-    \end{center}
-  \end{table}
-}
-
-% figure
-\newbool{ismfigure}
-\newenvironment{mfigure}{%
-  \begin{marginfigure}
-    \booltrue{ismfigure}
-    \captionsetup{labelfont=bf,justification=centering}
-    \begin{center}
-}{%
-    \end{center}
-    \boolfalse{ismfigure}
-  \end{marginfigure}
-}
-\newenvironment{ifigure}{%
-  \begin{figure}[htp]
-    \begin{center}
-}{%
-    \end{center}
-  \end{figure}
-}
-\newenvironment{ffigure}{%
-  \begin{figure}[tp]
-    \begin{center}
-}{%
-    \end{center}
-  \end{figure}
-}
 
 % graphtrans
 \newenvironment{graphtrans}{%
@@ -213,28 +66,11 @@
     }
 
 \newcommand{\xincludegraphics}[1]{%
-  \ifbool{ismfigure}{%
-    \includegraphics[width=45mm]{#1}
-  }{%
-    \includegraphics[width=80mm]{#1}
-  }
+  \includegraphics[width=\textwidth]{#1}
 }
 % xtcaption
 \newcommand{\xtcaption}[1]{\tcaption{\parbox{40mm}{\centering\scriptsize #1}}}
 
-% exinstr
-\newcommand{\mexinstr}[1]{%
-  \begin{marginfigure}
-    \begin{tcolorbox}
-      {\raggedright #1}
-    \end{tcolorbox}
-  \end{marginfigure}
-}
-\newcommand{\iexinstr}[1]{%
-    \begin{tcolorbox}
-      {#1}
-    \end{tcolorbox}
-}
 
 \newcommand{\startexenum}{\setcounter{HW}{0}}
 
